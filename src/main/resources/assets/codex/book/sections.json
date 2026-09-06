@@ -1,0 +1,92 @@
+{
+  "start": {
+    "order": 0,
+    "title": "codex.section.start",
+    "icon": "minecraft:oak_sapling",
+    "color": "9CCB6A"
+  },
+  "world": {
+    "order": 10,
+    "title": "codex.section.world",
+    "icon": "minecraft:filled_map",
+    "color": "7FC7E8"
+  },
+  "create": {
+    "order": 20,
+    "title": "codex.section.create",
+    "icon": "create:cogwheel",
+    "color": "C9A227"
+  },
+  "createx": {
+    "order": 30,
+    "title": "codex.section.createx",
+    "icon": "aeronautics:white_envelope",
+    "color": "E0803C"
+  },
+  "ie": {
+    "order": 40,
+    "title": "codex.section.ie",
+    "icon": "immersiveengineering:hammer",
+    "color": "B4B4B4"
+  },
+  "mek": {
+    "order": 50,
+    "title": "codex.section.mek",
+    "icon": "mekanism:ingot_osmium",
+    "color": "6FD3C7"
+  },
+  "storage": {
+    "order": 60,
+    "title": "codex.section.storage",
+    "icon": "refinedstorage:controller",
+    "color": "5FA8E8"
+  },
+  "colony": {
+    "order": 70,
+    "title": "codex.section.colony",
+    "icon": "minecolonies:blockhuttownhall",
+    "color": "D9A066"
+  },
+  "dim": {
+    "order": 80,
+    "title": "codex.section.dim",
+    "icon": "minecraft:end_portal_frame",
+    "color": "B48CE0"
+  },
+  "eternal": {
+    "order": 90,
+    "title": "codex.section.eternal",
+    "icon": "minecraft:writable_book",
+    "color": "E36A6A"
+  },
+  "life": {
+    "order": 100,
+    "title": "codex.section.life",
+    "icon": "farmersdelight:cooking_pot",
+    "color": "E8C07F"
+  },
+  "final": {
+    "order": 110,
+    "title": "codex.section.final",
+    "icon": "minecraft:nether_star",
+    "color": "F2E9A0"
+  },
+  "trials": {
+    "order": 105,
+    "title": "codex.section.trials",
+    "icon": "minecraft:anvil",
+    "color": "E85C8A"
+  },
+  "story": {
+    "order": 5,
+    "title": "codex.section.story",
+    "icon": "minecraft:compass",
+    "color": "F0B848"
+  },
+  "endgame": {
+    "order": 115,
+    "title": "codex.section.endgame",
+    "icon": "minecraft:beacon",
+    "color": "C99CFF"
+  }
+}

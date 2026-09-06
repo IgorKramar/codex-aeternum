@@ -1,0 +1,63 @@
+# -*- coding: utf-8 -*-
+EN = {
+    "dim_nether": {
+        "title": "The Nether", "subtitle": "What the pack's mods take from the Nether",
+        "intro": ["The Nether here is vanilla. The place didn't change — demand did: blazes are needed by Create, quartz by Refined Storage, netherite by three mods at once. Every trip down now has a shopping list."],
+        "quests": {
+            "portal": {"title": "Portal", "text": ["Obsidian, flint and steel, a step. A supply chest with Carry On goes through the portal right in your hands."], "tasks": ["Visit the Nether"]},
+            "blaze": {"title": "Blazes", "text": ["Rods — for Create, potions and Eternal Tales rituals. An empty burner catches the spirit itself: walk up to a blaze and click. It doesn't mind."]},
+            "quartz": {"title": "Nether Quartz", "text": ["Silicon for the network, rose quartz for Create, parts for IE. A stack — minimum."]},
+            "ancient": {"title": "Netherite", "text": ["Diving set, nethersteel for cannons, top tools. Dig at fifteen."]},
+            "fortress": {"title": "Fortress and Bastion", "text": ["Fortress — blazes and wart. Bastion — gold and scrap. Between them — Eternal Tales builds that vanilla never had."]},
+            "nether_et": {"title": "Piglin Clocktower", "text": ["A tower with a clock and four locks that piglins didn't build. Keys are with the overseers of the Blazing Wastes. Inside — a trace of Amber and Volcanech."], "tasks": ["Find the clocktower in the Nether"]},
+        },
+    },
+    "dim_end": {
+        "title": "The End", "subtitle": "The dragon, ender pearls and the way beyond",
+        "intro": [],
+        "quests": {
+            "stronghold": {"title": "Stronghold", "text": ["Eyes of ender lead to the portal. Pearls will be wanted later too: by levitite and teleporters."]},
+            "dragon": {"title": "Ender Dragon", "text": ["After it — islands, elytra, breath in bottles and an egg several recipes ask for."], "tasks": ["Visit the End"]},
+            "elytra": {"title": "Elytra", "text": ["The best transport until the gravitational modulator."]},
+            "shulker": {"title": "Shulkers", "text": ["Boxes and a few mod recipes."]},
+            "end_et": {"title": "Gates of the Gardens of Eden", "text": ["Somewhere in the End stands a portal to Eden. A sunstone from Purgatorium opens it — but that's an Eternal Tales story."], "tasks": ["Read"]},
+        },
+    },
+    "dim_aether": {
+        "title": "Aether", "subtitle": "The sky dimension: dungeons, gravitite and valkyries",
+        "intro": ["Aether is a sky you can fall out of. Islands hang over the void, the light is soft, and gravity — if gravitite is to be believed — is negotiable. Three dungeons, three keys, three bosses — and the hammer it was all for."],
+        "quests": {
+            "aether_portal": {"title": "Portal to Aether", "text": ["A frame of glowstone, a bucket of water instead of fire. Islands above, below a void that throws you back to the overworld. Bring something for a soft landing."], "tasks": ["Visit Aether"]},
+            "holystone": {"title": "First Tools", "text": ["Skyroot, holystone, ambrosium. An ambrosium shard is both fuel and medicine."]},
+            "zanite": {"title": "Zanite", "text": ["Local iron that speeds up as it wears."]},
+            "altar": {"title": "Altar", "text": ["Enchants on ambrosium and turns gravitite enchanted. The freezer beside it makes ice and icestone."]},
+            "gravitite": {"title": "Gravitite", "text": ["Armor you leap over a house in, and tools that lift blocks into the air. The sky's best material."]},
+            "moa": {"title": "Moa", "text": ["Egg in the incubator, chick fed with petals. A grown moa jumps in the air several times in a row: blue three, white four, black eight."]},
+            "bronze_dungeon": {"title": "Bronze Dungeon", "text": ["The Slider: a stone cube that charges and rams. Hit the eye when it pauses."], "rewards": ["First Aether artifacts"]},
+            "silver_dungeon": {"title": "Silver Dungeon", "text": ["Valkyries don't hand over the lance. Take it by force — and the Queen comes out herself."]},
+            "gold_dungeon": {"title": "Gold Dungeon", "text": ["The Sun Spirit burns, and while it burns it's invulnerable. Snowballs. Many snowballs. Then — the Hammer of Kingbdogz and phoenix armor."], "rewards": ["Aether fully completed"]},
+            "accessories": {"title": "Accessories", "text": ["Rings, pendants, capes, gloves. The ice pendant freezes water underfoot, the golden feather slows falls, the cloak hides."]},
+            "lore": {"title": "Book of Lore", "text": ["Place an item — and the book tells of it."]},
+        },
+    },
+    "dim_twilight": {
+        "title": "Twilight Forest", "subtitle": "A strict boss chain from the Naga to the Yeti",
+        "intro": ["The Twilight Forest is the pack's most orderly adventure. It won't let you further than you've earned: while the Naga lives, the Lich's tower is shut; while the Lich lives, the swamp and labyrinth poison and freeze. That's not a restriction — it's a map."],
+        "quests": {
+            "tf_portal": {"title": "Portal to the Twilight Forest", "text": ["A two-by-two pit, water, flowers around, a diamond into the water. Lightning — and eternal evening."], "tasks": ["Visit the Twilight Forest"]},
+            "tf_start": {"title": "First Steps", "text": ["Liveroot and ironwood — the first materials. Torchberries glow, the moonworm queen places lights, the magic map shows where to go."]},
+            "naga": {"title": "Naga", "text": ["A courtyard with columns. She charges and smashes them; hide and strike."], "rewards": ["Opens the Lich Tower"]},
+            "lich": {"title": "Lich", "text": ["Three phases: shield and orbs, minions, melee. Reflect the orbs — otherwise the shield won't drop."], "rewards": ["Opens the labyrinth, swamp and dark forest"]},
+            "minoshroom": {"title": "Minoshroom", "text": ["Deep in the labyrinth. The mazebreaker pickaxe breaks its walls."]},
+            "hydra": {"title": "Hydra", "text": ["Three heads. A severed one regrows unless finished. Blood and tears — into fiery ingot and sword."]},
+            "knight_phantom": {"title": "Knight Phantom", "text": ["Four ghosts in waves in the dark forest stronghold. Knightmetal — from there."]},
+            "ur_ghast": {"title": "Ur-Ghast", "text": ["Dark tower, ghast traps, carminite. Experiment 115 — food that never runs out."]},
+            "snow_queen": {"title": "Snow Queen", "text": ["First the Alpha Yeti and its fur. Then the ice tower. The glass sword strikes once — but how."]},
+            "giants": {"title": "Cloud Castle", "text": ["Uberous soil, magic beans, a stalk to the clouds. Up top — giants and a pickaxe that breaks four by four."]},
+            "cinders": {"title": "Lamp of Cinders", "text": ["Burns away the thorns sealing the last lands. Beyond — only forest."], "rewards": ["Twilight Forest fully completed"]},
+            "uncrafting": {"title": "Uncrafting Table", "text": ["Takes items back apart. In this pack — a weapon; use with care."]},
+            "charms": {"title": "Charms", "text": ["Of life — resurrects. Of keeping — keeps inventory. Both single-use."]},
+            "trophy": {"title": "Trophy Pedestal", "text": ["Trophy on the pedestal — a buff and opened areas."]},
+        },
+    },
+}

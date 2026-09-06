@@ -1,0 +1,207 @@
+[
+ {
+  "id": "life_world",
+  "section": "world",
+  "order": 10,
+  "title": "codex.chapter.life_world.title",
+  "icon": "minecraft:filled_map",
+  "subtitle": "codex.chapter.life_world.subtitle",
+  "intro": [
+   "codex.chapter.life_world.intro.0",
+   "codex.chapter.life_world.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "terralith",
+    "title": "codex.quest.life_world.terralith.title",
+    "icon": "minecraft:grass_block",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.life_world.terralith.text.0",
+     "codex.quest.life_world.terralith.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Найти биом Terralith",
+      "note": "codex.quest.life_world.terralith.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "bop",
+    "title": "codex.quest.life_world.bop.title",
+    "icon": "biomesoplenty:fir_sapling",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.life_world.bop.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "biomesoplenty:fir_sapling",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "dh",
+    "title": "codex.quest.life_world.dh.title",
+    "icon": "minecraft:spyglass",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.life_world.dh.text.0",
+     "codex.quest.life_world.dh.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.life_world.dh.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "xaero",
+    "title": "codex.quest.life_world.xaero.title",
+    "icon": "minecraft:filled_map",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.life_world.xaero.text.0",
+     "codex.quest.life_world.xaero.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Открыть полную карту (клавиша M)",
+      "note": "codex.quest.life_world.xaero.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "structures",
+    "title": "codex.quest.life_world.structures.title",
+    "icon": "minecraft:chest",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.life_world.structures.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Найти любую модовую структуру",
+      "note": "codex.quest.life_world.structures.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "waystones2",
+    "title": "codex.quest.life_world.waystones2.title",
+    "icon": "waystones:waystone",
+    "x": 2,
+    "y": 1,
+    "text": [
+     "codex.quest.life_world.waystones2.text.0",
+     "codex.quest.life_world.waystones2.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "waystones:waystone",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "waystones:sharestone",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "waystones:warp_dust",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "daylength",
+    "title": "codex.quest.life_world.daylength.title",
+    "icon": "minecraft:clock",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.life_world.daylength.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.life_world.daylength.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "mobs",
+    "title": "codex.quest.life_world.mobs.title",
+    "icon": "minecraft:zombie_head",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.life_world.mobs.text.0",
+     "codex.quest.life_world.mobs.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.life_world.mobs.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   }
+  ]
+ }
+]

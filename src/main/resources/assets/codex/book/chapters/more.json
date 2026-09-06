@@ -1,0 +1,1936 @@
+[
+ {
+  "id": "more_vanilla",
+  "section": "more",
+  "order": 10,
+  "title": "codex.chapter.more_vanilla.title",
+  "icon": "minecraft:diamond",
+  "subtitle": "codex.chapter.more_vanilla.subtitle",
+  "intro": [
+   "codex.chapter.more_vanilla.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "diamonds",
+    "title": "codex.quest.more_vanilla.diamonds.title",
+    "icon": "minecraft:diamond",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.more_vanilla.diamonds.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:diamond",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:diamond",
+       "count": 4
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "enchant",
+    "title": "codex.quest.more_vanilla.enchant.title",
+    "icon": "minecraft:enchanting_table",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.more_vanilla.enchant.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:enchanting_table",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:bookshelf",
+      "count": 15
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:lapis_lazuli",
+       "count": 32
+      },
+      {
+       "id": "minecraft:experience_bottle",
+       "count": 16
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "deps": [
+     "diamonds"
+    ]
+   },
+   {
+    "id": "villagers",
+    "title": "codex.quest.more_vanilla.villagers.title",
+    "icon": "minecraft:emerald",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.more_vanilla.villagers.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:emerald",
+      "count": 32
+     },
+     {
+      "type": "item",
+      "id": "easy_villagers:trader",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:emerald",
+       "count": 16
+      }
+     ],
+     "xp": 50,
+     "text": []
+    },
+    "deps": [
+     "enchant"
+    ]
+   },
+   {
+    "id": "netherite",
+    "title": "codex.quest.more_vanilla.netherite.title",
+    "icon": "minecraft:netherite_ingot",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.more_vanilla.netherite.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:netherite_ingot",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:netherite_scrap",
+       "count": 4
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "villagers"
+    ]
+   },
+   {
+    "id": "beacon",
+    "title": "codex.quest.more_vanilla.beacon.title",
+    "icon": "minecraft:beacon",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.more_vanilla.beacon.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:beacon",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:iron_block",
+      "count": 9
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_block",
+       "count": 16
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "netherite"
+    ]
+   },
+   {
+    "id": "trims",
+    "title": "codex.quest.more_vanilla.trims.title",
+    "icon": "minecraft:smithing_table",
+    "x": 1,
+    "y": 3,
+    "text": [
+     "codex.quest.more_vanilla.trims.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:smithing_table",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Нанести отделку на любую броню",
+      "note": "codex.quest.more_vanilla.trims.task.1"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:amethyst_shard",
+       "count": 16
+      }
+     ],
+     "xp": 40,
+     "text": []
+    },
+    "deps": [
+     "beacon"
+    ]
+   },
+   {
+    "id": "elytra2",
+    "title": "codex.quest.more_vanilla.elytra2.title",
+    "icon": "minecraft:firework_rocket",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.more_vanilla.elytra2.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:elytra",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:firework_rocket",
+      "count": 64
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:firework_rocket",
+       "count": 64
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "trims"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "more_explore",
+  "section": "more",
+  "order": 20,
+  "title": "codex.chapter.more_explore.title",
+  "icon": "minecraft:filled_map",
+  "subtitle": "codex.chapter.more_explore.subtitle",
+  "intro": [
+   "codex.chapter.more_explore.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "sakura",
+    "title": "codex.quest.more_explore.sakura.title",
+    "icon": "minecraft:cherry_sapling",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.more_explore.sakura.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "terralith:sakura_grove"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:cherry_sapling",
+       "count": 8
+      }
+     ],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "lavender",
+    "title": "codex.quest.more_explore.lavender.title",
+    "icon": "minecraft:purple_dye",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.more_explore.lavender.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "terralith:lavender_valley"
+     },
+     {
+      "type": "biome",
+      "id": "biomesoplenty:lavender_field"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:purple_dye",
+       "count": 32
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "amethyst",
+    "title": "codex.quest.more_explore.amethyst.title",
+    "icon": "minecraft:amethyst_shard",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.more_explore.amethyst.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "terralith:amethyst_canyon"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:amethyst_shard",
+       "count": 32
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "glacial",
+    "title": "codex.quest.more_explore.glacial.title",
+    "icon": "minecraft:packed_ice",
+    "x": 3,
+    "y": 0,
+    "text": [
+     "codex.quest.more_explore.glacial.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "terralith:glacial_chasm"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:blue_ice",
+       "count": 16
+      }
+     ],
+     "xp": 50,
+     "text": []
+    }
+   },
+   {
+    "id": "skylands",
+    "title": "codex.quest.more_explore.skylands.title",
+    "icon": "minecraft:feather",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.more_explore.skylands.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "terralith:skylands_spring"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:feather",
+       "count": 32
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "volcano",
+    "title": "codex.quest.more_explore.volcano.title",
+    "icon": "minecraft:magma_block",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.more_explore.volcano.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "terralith:caldera"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:magma_block",
+       "count": 32
+      }
+     ],
+     "xp": 50,
+     "text": []
+    }
+   },
+   {
+    "id": "mystic",
+    "title": "codex.quest.more_explore.mystic.title",
+    "icon": "biomesoplenty:glowflower",
+    "x": 2,
+    "y": 1,
+    "text": [
+     "codex.quest.more_explore.mystic.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "biomesoplenty:mystic_grove"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "biomesoplenty:glowflower",
+       "count": 8
+      }
+     ],
+     "xp": 50,
+     "text": []
+    }
+   },
+   {
+    "id": "ominous",
+    "title": "codex.quest.more_explore.ominous.title",
+    "icon": "biomesoplenty:dead_sapling",
+    "x": 3,
+    "y": 1,
+    "text": [
+     "codex.quest.more_explore.ominous.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "biomesoplenty:ominous_woods"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:torch",
+       "count": 64
+      }
+     ],
+     "xp": 50,
+     "text": []
+    }
+   },
+   {
+    "id": "redwood",
+    "title": "codex.quest.more_explore.redwood.title",
+    "icon": "biomesoplenty:redwood_sapling",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.more_explore.redwood.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "biomesoplenty:redwood_forest"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "biomesoplenty:redwood_sapling",
+       "count": 8
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "wasteland",
+    "title": "codex.quest.more_explore.wasteland.title",
+    "icon": "minecraft:dead_bush",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.more_explore.wasteland.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "biomesoplenty:wasteland"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:bone_block",
+       "count": 8
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "hotsprings",
+    "title": "codex.quest.more_explore.hotsprings.title",
+    "icon": "minecraft:water_bucket",
+    "x": 2,
+    "y": 2,
+    "text": [
+     "codex.quest.more_explore.hotsprings.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "biomesoplenty:hot_springs"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:snow_block",
+       "count": 32
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "endbop",
+    "title": "codex.quest.more_explore.endbop.title",
+    "icon": "minecraft:chorus_fruit",
+    "x": 3,
+    "y": 2,
+    "text": [
+     "codex.quest.more_explore.endbop.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "biomesoplenty:end_wilds"
+     },
+     {
+      "type": "biome",
+      "id": "biomesoplenty:end_reef"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:chorus_fruit",
+       "count": 32
+      }
+     ],
+     "xp": 80,
+     "text": []
+    }
+   },
+   {
+    "id": "geob",
+    "title": "codex.quest.more_explore.geob.title",
+    "icon": "eternal_tales:geobstractsite",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.more_explore.geob.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "eternal_tales:geobstractsite_biome"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:uranium",
+       "count": 8
+      }
+     ],
+     "xp": 80,
+     "text": []
+    }
+   },
+   {
+    "id": "mucun",
+    "title": "codex.quest.more_explore.mucun.title",
+    "icon": "eternal_tales:mucunfectio_sand",
+    "x": 1,
+    "y": 3,
+    "text": [
+     "codex.quest.more_explore.mucun.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "eternal_tales:mucunfectio_abyss"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:crabsburger",
+       "count": 4
+      }
+     ],
+     "xp": 80,
+     "text": []
+    }
+   },
+   {
+    "id": "amberian",
+    "title": "codex.quest.more_explore.amberian.title",
+    "icon": "eternal_tales:amber_bricks",
+    "x": 2,
+    "y": 3,
+    "text": [
+     "codex.quest.more_explore.amberian.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "eternal_tales:amberian_city"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:amber_bricks",
+       "count": 64
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "atlas_done",
+    "title": "codex.quest.more_explore.atlas_done.title",
+    "icon": "minecraft:filled_map",
+    "x": 3,
+    "y": 3,
+    "deps": [
+     "sakura",
+     "lavender",
+     "amethyst",
+     "glacial",
+     "skylands",
+     "volcano",
+     "mystic",
+     "ominous",
+     "redwood",
+     "wasteland",
+     "hotsprings",
+     "endbop",
+     "geob",
+     "mucun",
+     "amberian"
+    ],
+    "text": [
+     "codex.quest.more_explore.atlas_done.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:filled_map",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "waystones:waystone",
+       "count": 4
+      },
+      {
+       "id": "waystones:warp_dust",
+       "count": 32
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "more_kitchen",
+  "section": "more",
+  "order": 30,
+  "title": "codex.chapter.more_kitchen.title",
+  "icon": "farmersdelight:skillet",
+  "subtitle": "codex.chapter.more_kitchen.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "stew",
+    "title": "codex.quest.more_kitchen.stew.title",
+    "icon": "farmersdelight:beef_stew",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.more_kitchen.stew.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:beef_stew",
+      "count": 4,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "farmersdelight:chicken_soup",
+      "count": 4,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "farmersdelight:fish_stew",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "farmersdelight:rich_soil",
+       "count": 16
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "bread",
+    "title": "codex.quest.more_kitchen.bread.title",
+    "icon": "farmersdelight:bacon_sandwich",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.more_kitchen.bread.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:bacon_sandwich",
+      "count": 8,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "farmersdelight:chicken_sandwich",
+      "count": 8,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:bread",
+       "count": 32
+      }
+     ],
+     "xp": 50,
+     "text": []
+    },
+    "deps": [
+     "stew"
+    ]
+   },
+   {
+    "id": "pies",
+    "title": "codex.quest.more_kitchen.pies.title",
+    "icon": "farmersdelight:apple_pie",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.more_kitchen.pies.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:apple_pie",
+      "count": 2,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "farmersdelight:chocolate_pie",
+      "count": 2,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:cocoa_beans",
+       "count": 32
+      },
+      {
+       "id": "minecraft:sugar",
+       "count": 32
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "deps": [
+     "bread"
+    ]
+   },
+   {
+    "id": "colony_food",
+    "title": "codex.quest.more_kitchen.colony_food.title",
+    "icon": "minecolonies:cheese_pizza",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.more_kitchen.colony_food.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:cheese_pizza",
+      "count": 2,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:borscht",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecolonies:lembas_scone",
+       "count": 8
+      }
+     ],
+     "xp": 80,
+     "text": []
+    },
+    "deps": [
+     "pies"
+    ]
+   },
+   {
+    "id": "et_food",
+    "title": "codex.quest.more_kitchen.et_food.title",
+    "icon": "eternal_tales:crabsburger",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.more_kitchen.et_food.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_crabsburger"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:eat_mutatongue_chowder"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:yummy"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:energy_drink",
+       "count": 4
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "colony_food"
+    ]
+   },
+   {
+    "id": "feast_hall",
+    "title": "codex.quest.more_kitchen.feast_hall.title",
+    "icon": "farmersdelight:honey_glazed_ham",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.more_kitchen.feast_hall.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:honey_glazed_ham",
+      "count": 2,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "farmersdelight:roast_chicken_block",
+      "count": 2,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "farmersdelight:stuffed_pumpkin_block",
+      "count": 1,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "farmersdelight:netherite_knife",
+       "count": 1
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "et_food"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "more_rails",
+  "section": "more",
+  "order": 40,
+  "title": "codex.chapter.more_rails.title",
+  "icon": "railways:conductor_cap",
+  "subtitle": "codex.chapter.more_rails.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "locomotive",
+    "title": "codex.quest.more_rails.locomotive.title",
+    "icon": "railways:smokestack_coalburner",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.more_rails.locomotive.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "railways:smokestack_coalburner",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "railways:locometal_boiler",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "railways:locometal_smokebox",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "railways:brass_wrapped_locometal",
+       "count": 32
+      }
+     ],
+     "xp": 80,
+     "text": []
+    }
+   },
+   {
+    "id": "couplers",
+    "title": "codex.quest.more_rails.couplers.title",
+    "icon": "railways:track_coupler",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.more_rails.couplers.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "railways:track_coupler",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "railways:track_coupler",
+       "count": 8
+      },
+      {
+       "id": "railways:buffer",
+       "count": 4
+      }
+     ],
+     "xp": 80,
+     "text": []
+    },
+    "deps": [
+     "locomotive"
+    ]
+   },
+   {
+    "id": "semaphore",
+    "title": "codex.quest.more_rails.semaphore.title",
+    "icon": "railways:semaphore",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.more_rails.semaphore.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "railways:semaphore",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:track_signal",
+       "count": 8
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "deps": [
+     "couplers"
+    ]
+   },
+   {
+    "id": "crossing",
+    "title": "codex.quest.more_rails.crossing.title",
+    "icon": "railways:generic_crossing",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.more_rails.crossing.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "railways:generic_crossing",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "railways:hazard_stripes_diagonal_on_black",
+       "count": 16
+      }
+     ],
+     "xp": 40,
+     "text": []
+    },
+    "deps": [
+     "semaphore"
+    ]
+   },
+   {
+    "id": "fuel",
+    "title": "codex.quest.more_rails.fuel.title",
+    "icon": "railways:fuel_tank",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.more_rails.fuel.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "railways:fuel_tank",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "railways:smokestack_diesel",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:biodiesel_bucket",
+       "count": 4
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "crossing"
+    ]
+   },
+   {
+    "id": "depot",
+    "title": "codex.quest.more_rails.depot.title",
+    "icon": "railways:handcar",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.more_rails.depot.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:schedule",
+      "count": 3
+     },
+     {
+      "type": "item",
+      "id": "railways:conductor_cap",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:railway_casing",
+       "count": 16
+      },
+      {
+       "id": "railways:conductor_whistle",
+       "count": 2
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "fuel"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "more_munitions",
+  "section": "more",
+  "order": 50,
+  "title": "codex.chapter.more_munitions.title",
+  "icon": "createbigcannons:powder_charge",
+  "subtitle": "codex.chapter.more_munitions.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "powder",
+    "title": "codex.quest.more_munitions.powder.title",
+    "icon": "createbigcannons:packed_gunpowder",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.more_munitions.powder.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:powder_charge",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:guncotton",
+       "count": 32
+      }
+     ],
+     "xp": 80,
+     "text": []
+    }
+   },
+   {
+    "id": "fuzes",
+    "title": "codex.quest.more_munitions.fuzes.title",
+    "icon": "createbigcannons:timed_fuze",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.more_munitions.fuzes.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:impact_fuze",
+      "count": 8,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:timed_fuze",
+      "count": 8,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:proximity_fuze",
+      "count": 8,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:delayed_impact_fuze",
+       "count": 8
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "powder"
+    ]
+   },
+   {
+    "id": "shells",
+    "title": "codex.quest.more_munitions.shells.title",
+    "icon": "createbigcannons:shrapnel_shell",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.more_munitions.shells.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:shrapnel_shell",
+      "count": 8,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:smoke_shell",
+      "count": 8,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:fluid_shell",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:he_shell",
+       "count": 16
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "fuzes"
+    ]
+   },
+   {
+    "id": "belt",
+    "title": "codex.quest.more_munitions.belt.title",
+    "icon": "createbigcannons:autocannon_cartridge",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.more_munitions.belt.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:autocannon_cartridge",
+      "count": 128,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:autocannon_ammo_container",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:tracer_tip",
+       "count": 32
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "shells"
+    ]
+   },
+   {
+    "id": "mg",
+    "title": "codex.quest.more_munitions.mg.title",
+    "icon": "createbigcannons:machine_gun_round",
+    "x": 1,
+    "y": 3,
+    "text": [
+     "codex.quest.more_munitions.mg.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:machine_gun_round",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:machine_gun_round",
+       "count": 128
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "belt"
+    ]
+   },
+   {
+    "id": "supply",
+    "title": "codex.quest.more_munitions.supply.title",
+    "icon": "create:redstone_requester",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.more_munitions.supply.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:redstone_requester",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:cannon_loader",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create:package_frogport",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:cannon_mount",
+       "count": 1
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "mg"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "more_et_side",
+  "section": "more",
+  "order": 60,
+  "title": "codex.chapter.more_et_side.title",
+  "icon": "eternal_tales:raccoon_flag",
+  "subtitle": "codex.chapter.more_et_side.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "raccoons",
+    "title": "codex.quest.more_et_side.raccoons.title",
+    "icon": "eternal_tales:raccoon_flag",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.more_et_side.raccoons.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:tame_all_the_types_of_raccoons"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:pet_the_raccoon"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:white_chocolate_chip_cookie",
+       "count": 16
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "tarkos",
+    "title": "codex.quest.more_et_side.tarkos.title",
+    "icon": "eternal_tales:fermented_tarantula_eye",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.more_et_side.tarkos.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:tame_all_the_types_of_tarkos"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "chests",
+    "title": "codex.quest.more_et_side.chests.title",
+    "icon": "eternal_tales:sorcery_chest",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.more_et_side.chests.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_digging_chest"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_fishing_chest"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_growing_chest"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_sorcery_chest"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:ancient_coin",
+       "count": 16
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "lamps",
+    "title": "codex.quest.more_et_side.lamps.title",
+    "icon": "eternal_tales:soul_lava_lamp",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.more_et_side.lamps.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_all_of_the_lava_lamps"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:ender_lamp",
+       "count": 4
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "music",
+    "title": "codex.quest.more_et_side.music.title",
+    "icon": "eternal_tales:ruby_record",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.more_et_side.music.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_all_the_mod_music_discs"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:jukebox",
+       "count": 2
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "blue_moon",
+    "title": "codex.quest.more_et_side.blue_moon.title",
+    "icon": "eternal_tales:blue_paste",
+    "x": 2,
+    "y": 1,
+    "text": [
+     "codex.quest.more_et_side.blue_moon.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:stay_alive_during_blue_moon"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:slime_block",
+       "count": 16
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "clown",
+    "title": "codex.quest.more_et_side.clown.title",
+    "icon": "eternal_tales:clown_armor_helmet",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.more_et_side.clown.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:stay_alive_during_clown_moon"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:clown_armor_helmet",
+       "count": 1
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "crabs",
+    "title": "codex.quest.more_et_side.crabs.title",
+    "icon": "eternal_tales:crabsapocalypse_banner",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.more_et_side.crabs.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:pass_the_crabsapocalypse"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:crabsburger",
+       "count": 16
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "arky",
+    "title": "codex.quest.more_et_side.arky.title",
+    "icon": "eternal_tales:ach_arky_item",
+    "x": 2,
+    "y": 2,
+    "text": [
+     "codex.quest.more_et_side.arky.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:summon_arky"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_any_fursuit"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "gravicycle",
+    "title": "codex.quest.more_et_side.gravicycle.title",
+    "icon": "eternal_tales:arkemer_gravicycle_item",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.more_et_side.gravicycle.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:make_arkemer_gravicycle"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:accelerate_gravicycle_to_the_maximum"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:gravicycle_acceleration_modifier",
+       "count": 1
+      }
+     ],
+     "xp": 250,
+     "text": []
+    }
+   },
+   {
+    "id": "bomb",
+    "title": "codex.quest.more_et_side.bomb.title",
+    "icon": "eternal_tales:atomic_bomb",
+    "x": 1,
+    "y": 3,
+    "text": [
+     "codex.quest.more_et_side.bomb.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:blow_atomic_bomb"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:tnt",
+       "count": 64
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "darwin",
+    "title": "codex.quest.more_et_side.darwin.title",
+    "icon": "eternal_tales:unahzaal_pancakes",
+    "x": 2,
+    "y": 3,
+    "text": [
+     "codex.quest.more_et_side.darwin.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:die_by_all_3_stupid_ways"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:unahzaal_pancakes",
+       "count": 1
+      }
+     ],
+     "xp": 50,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "more_home",
+  "section": "more",
+  "order": 70,
+  "title": "codex.chapter.more_home.title",
+  "icon": "handcrafted:bench",
+  "subtitle": "codex.chapter.more_home.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "bed",
+    "title": "codex.quest.more_home.bed.title",
+    "icon": "minecraft:red_bed",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.more_home.bed.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:red_bed",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "handcrafted:blue_cushion",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "refurbished_furniture:bath",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "handcrafted:white_sheet",
+       "count": 4
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "kitchen",
+    "title": "codex.quest.more_home.kitchen.title",
+    "icon": "refurbished_furniture:computer",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.more_home.kitchen.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Собрать кухню из Refurbished Furniture",
+      "note": "codex.quest.more_home.kitchen.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:bread",
+       "count": 16
+      }
+     ],
+     "xp": 40,
+     "text": []
+    },
+    "deps": [
+     "bed"
+    ]
+   },
+   {
+    "id": "workshop",
+    "title": "codex.quest.more_home.workshop.title",
+    "icon": "domum_ornamentum:architectscutter",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.more_home.workshop.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "domum_ornamentum:architectscutter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:schematic_table",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "domum_ornamentum:dynamic_timberframe",
+       "count": 32
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "deps": [
+     "kitchen"
+    ]
+   },
+   {
+    "id": "garden",
+    "title": "codex.quest.more_home.garden.title",
+    "icon": "farmersdelight:tomato",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.more_home.garden.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:rich_soil",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:gardeners_pot",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:cloche",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "farmersdelight:organic_compost",
+       "count": 32
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "workshop"
+    ]
+   },
+   {
+    "id": "hall",
+    "title": "codex.quest.more_home.hall.title",
+    "icon": "handcrafted:bear_trophy",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.more_home.hall.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:trophy_pedestal",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "handcrafted:bear_trophy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:naga_trophy",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:item_frame",
+       "count": 32
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "garden"
+    ]
+   }
+  ]
+ }
+]

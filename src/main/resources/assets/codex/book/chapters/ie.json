@@ -1,0 +1,1398 @@
+[
+ {
+  "id": "ie_start",
+  "section": "ie",
+  "order": 10,
+  "title": "codex.chapter.ie_start.title",
+  "icon": "immersiveengineering:hammer",
+  "subtitle": "codex.chapter.ie_start.subtitle",
+  "intro": [
+   "codex.chapter.ie_start.intro.0",
+   "codex.chapter.ie_start.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "manual",
+    "title": "codex.quest.ie_start.manual.title",
+    "icon": "immersiveengineering:manual",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.ie_start.manual.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:manual",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "hammer",
+    "title": "codex.quest.ie_start.hammer.title",
+    "icon": "immersiveengineering:hammer",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.ie_start.hammer.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:hammer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:wirecutter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:screwdriver",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "manual"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "coke_oven",
+    "title": "codex.quest.ie_start.coke_oven.title",
+    "icon": "immersiveengineering:coke_oven",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.ie_start.coke_oven.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:cokebrick",
+      "count": 27
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:coal_coke",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:coal_coke",
+       "count": 32
+      }
+     ],
+     "xp": 40,
+     "text": []
+    },
+    "deps": [
+     "hammer"
+    ]
+   },
+   {
+    "id": "treated",
+    "title": "codex.quest.ie_start.treated.title",
+    "icon": "immersiveengineering:treated_wood_horizontal",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.ie_start.treated.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:treated_wood_horizontal",
+      "count": 32
+     }
+    ],
+    "deps": [
+     "coke_oven"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "blast",
+    "title": "codex.quest.ie_start.blast.title",
+    "icon": "immersiveengineering:blast_furnace",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_start.blast.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:blastbrick",
+      "count": 27
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:ingot_steel",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:ingot_steel",
+       "count": 16
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "deps": [
+     "treated"
+    ]
+   },
+   {
+    "id": "workbench",
+    "title": "codex.quest.ie_start.workbench.title",
+    "icon": "immersiveengineering:workbench",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_start.workbench.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:workbench",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:blueprint",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "blast"
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:blueprint",
+       "count": 1
+      }
+     ],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "components",
+    "title": "codex.quest.ie_start.components.title",
+    "icon": "immersiveengineering:component_steel",
+    "x": 1,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_start.components.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:component_iron",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:component_steel",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:component_electronic",
+      "count": 4
+     }
+    ],
+    "deps": [
+     "workbench"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "scaffold",
+    "title": "codex.quest.ie_start.scaffold.title",
+    "icon": "immersiveengineering:steel_scaffolding_standard",
+    "x": 2,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_start.scaffold.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:steel_scaffolding_standard",
+      "count": 16
+     }
+    ],
+    "optional": true,
+    "deps": [
+     "components"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "ie_power",
+  "section": "ie",
+  "order": 20,
+  "title": "codex.chapter.ie_power.title",
+  "icon": "immersiveengineering:wirecoil_copper",
+  "subtitle": "codex.chapter.ie_power.subtitle",
+  "intro": [
+   "codex.chapter.ie_power.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "wire_lv",
+    "title": "codex.quest.ie_power.wire_lv.title",
+    "icon": "immersiveengineering:wirecoil_copper",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.ie_power.wire_lv.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:wirecoil_copper",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:connector_lv",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "dynamo",
+    "title": "codex.quest.ie_power.dynamo.title",
+    "icon": "immersiveengineering:dynamo",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.ie_power.dynamo.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:dynamo",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:watermill",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "wire_lv"
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:wirecoil_copper",
+       "count": 4
+      },
+      {
+       "id": "immersiveengineering:connector_lv",
+       "count": 4
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "windmill_ie",
+    "title": "codex.quest.ie_power.windmill_ie.title",
+    "icon": "immersiveengineering:windmill",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.ie_power.windmill_ie.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:windmill",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:windmill_blade",
+      "count": 8
+     }
+    ],
+    "deps": [
+     "dynamo"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "capacitor",
+    "title": "codex.quest.ie_power.capacitor.title",
+    "icon": "immersiveengineering:capacitor_lv",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.ie_power.capacitor.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:capacitor_lv",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "windmill_ie"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "wire_mv",
+    "title": "codex.quest.ie_power.wire_mv.title",
+    "icon": "immersiveengineering:wirecoil_electrum",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.ie_power.wire_mv.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:wirecoil_electrum",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:connector_mv",
+      "count": 2
+     }
+    ],
+    "deps": [
+     "capacitor"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "wire_hv",
+    "title": "codex.quest.ie_power.wire_hv.title",
+    "icon": "immersiveengineering:wirecoil_steel",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_power.wire_hv.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:wirecoil_steel",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:connector_hv",
+      "count": 2
+     }
+    ],
+    "deps": [
+     "wire_mv"
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:capacitor_mv",
+       "count": 1
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "transformer",
+    "title": "codex.quest.ie_power.transformer.title",
+    "icon": "immersiveengineering:transformer",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_power.transformer.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:transformer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:transformer_hv",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "wire_hv"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "safety",
+    "title": "codex.quest.ie_power.safety.title",
+    "icon": "immersiveengineering:armor_faraday_chestplate",
+    "x": 1,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_power.safety.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:armor_faraday_chestplate",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:voltmeter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:breaker_switch",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "transformer"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "thermo",
+    "title": "codex.quest.ie_power.thermo.title",
+    "icon": "immersiveengineering:thermoelectric_generator",
+    "x": -1,
+    "y": 4,
+    "deps": [
+     "capacitor"
+    ],
+    "text": [
+     "codex.quest.ie_power.thermo.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:thermoelectric_generator",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "lightning",
+    "title": "codex.quest.ie_power.lightning.title",
+    "icon": "immersiveengineering:lightning_rod",
+    "x": -1,
+    "y": 5,
+    "deps": [
+     "wire_hv"
+    ],
+    "text": [
+     "codex.quest.ie_power.lightning.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:lightning_rod",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "ie_machines",
+  "section": "ie",
+  "order": 30,
+  "title": "codex.chapter.ie_machines.title",
+  "icon": "immersiveengineering:crusher",
+  "subtitle": "codex.chapter.ie_machines.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "crusher_ie",
+    "title": "codex.quest.ie_machines.crusher_ie.title",
+    "icon": "immersiveengineering:crusher",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.ie_machines.crusher_ie.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:crusher",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:steel_scaffolding_standard",
+       "count": 32
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "press",
+    "title": "codex.quest.ie_machines.press.title",
+    "icon": "immersiveengineering:metal_press",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.ie_machines.press.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:metal_press",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:mold_plate",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:mold_rod",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:mold_wire",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "crusher_ie"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "arc",
+    "title": "codex.quest.ie_machines.arc.title",
+    "icon": "immersiveengineering:arc_furnace",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.ie_machines.arc.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:arc_furnace",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:graphite_electrode",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "press"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "assembler",
+    "title": "codex.quest.ie_machines.assembler.title",
+    "icon": "immersiveengineering:assembler",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.ie_machines.assembler.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:assembler",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:auto_workbench",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "arc"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "sample",
+    "title": "codex.quest.ie_machines.sample.title",
+    "icon": "immersiveengineering:sample_drill",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.ie_machines.sample.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:survey_tools",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:sample_drill",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:coresample",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "assembler"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "excavator",
+    "title": "codex.quest.ie_machines.excavator.title",
+    "icon": "immersiveengineering:excavator",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_machines.excavator.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:excavator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:bucket_wheel",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:coresample",
+       "count": 1
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "sample"
+    ]
+   },
+   {
+    "id": "storage",
+    "title": "codex.quest.ie_machines.storage.title",
+    "icon": "immersiveengineering:silo",
+    "x": 1,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_machines.storage.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:silo",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:tank",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "excavator"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "conveyor",
+    "title": "codex.quest.ie_machines.conveyor.title",
+    "icon": "immersiveengineering:conveyor_basic",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_machines.conveyor.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:conveyor_basic",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:sorter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:item_batcher",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "storage"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "ie_chemistry",
+  "section": "ie",
+  "order": 40,
+  "title": "codex.chapter.ie_chemistry.title",
+  "icon": "immersiveengineering:refinery",
+  "subtitle": "codex.chapter.ie_chemistry.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "squeezer",
+    "title": "codex.quest.ie_chemistry.squeezer.title",
+    "icon": "immersiveengineering:squeezer",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.ie_chemistry.squeezer.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:squeezer",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "fermenter",
+    "title": "codex.quest.ie_chemistry.fermenter.title",
+    "icon": "immersiveengineering:fermenter",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.ie_chemistry.fermenter.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:fermenter",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "squeezer"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "refinery_ie",
+    "title": "codex.quest.ie_chemistry.refinery_ie.title",
+    "icon": "immersiveengineering:refinery",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.ie_chemistry.refinery_ie.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:refinery",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:biodiesel_bucket",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "fermenter"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "diesel",
+    "title": "codex.quest.ie_chemistry.diesel.title",
+    "icon": "immersiveengineering:diesel_generator",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.ie_chemistry.diesel.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:diesel_generator",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:biodiesel_bucket",
+       "count": 4
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "refinery_ie"
+    ]
+   },
+   {
+    "id": "mixer",
+    "title": "codex.quest.ie_chemistry.mixer.title",
+    "icon": "immersiveengineering:mixer",
+    "x": 1,
+    "y": 2,
+    "deps": [
+     "fermenter"
+    ],
+    "text": [
+     "codex.quest.ie_chemistry.mixer.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:mixer",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "bottling",
+    "title": "codex.quest.ie_chemistry.bottling.title",
+    "icon": "immersiveengineering:bottling_machine",
+    "x": 2,
+    "y": 2,
+    "deps": [
+     "fermenter"
+    ],
+    "text": [
+     "codex.quest.ie_chemistry.bottling.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:bottling_machine",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "duroplast",
+    "title": "codex.quest.ie_chemistry.duroplast.title",
+    "icon": "immersiveengineering:plate_duroplast",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_chemistry.duroplast.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:plate_duroplast",
+      "count": 4
+     }
+    ],
+    "deps": [
+     "bottling"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "cloche",
+    "title": "codex.quest.ie_chemistry.cloche.title",
+    "icon": "immersiveengineering:cloche",
+    "x": 1,
+    "y": 4,
+    "deps": [
+     "squeezer"
+    ],
+    "text": [
+     "codex.quest.ie_chemistry.cloche.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:cloche",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": [
+      "codex.quest.ie_chemistry.cloche.reward.0"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "ie_gear",
+  "section": "ie",
+  "order": 50,
+  "title": "codex.chapter.ie_gear.title",
+  "icon": "immersiveengineering:revolver",
+  "subtitle": "codex.chapter.ie_gear.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "drill_ie",
+    "title": "codex.quest.ie_gear.drill_ie.title",
+    "icon": "immersiveengineering:drill",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.ie_gear.drill_ie.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:drill",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:drillhead_steel",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:drillhead_steel",
+       "count": 1
+      }
+     ],
+     "xp": 50,
+     "text": []
+    }
+   },
+   {
+    "id": "buzzsaw",
+    "title": "codex.quest.ie_gear.buzzsaw.title",
+    "icon": "immersiveengineering:buzzsaw",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.ie_gear.buzzsaw.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:buzzsaw",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "drill_ie"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "revolver",
+    "title": "codex.quest.ie_gear.revolver.title",
+    "icon": "immersiveengineering:revolver",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.ie_gear.revolver.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:revolver",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:gunpart_hammer",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "buzzsaw"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "railgun",
+    "title": "codex.quest.ie_gear.railgun.title",
+    "icon": "immersiveengineering:railgun",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.ie_gear.railgun.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:railgun",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "revolver"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "chemthrower",
+    "title": "codex.quest.ie_gear.chemthrower.title",
+    "icon": "immersiveengineering:chemthrower",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.ie_gear.chemthrower.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:chemthrower",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "railgun"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "powerpack",
+    "title": "codex.quest.ie_gear.powerpack.title",
+    "icon": "immersiveengineering:powerpack",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.ie_gear.powerpack.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:powerpack",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:charging_station",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "chemthrower"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "skyhook",
+    "title": "codex.quest.ie_gear.skyhook.title",
+    "icon": "immersiveengineering:skyhook",
+    "x": 1,
+    "y": 3,
+    "text": [
+     "codex.quest.ie_gear.skyhook.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:skyhook",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:wirecoil_structure_steel",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "powerpack"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "steel_armor",
+    "title": "codex.quest.ie_gear.steel_armor.title",
+    "icon": "immersiveengineering:armor_steel_chestplate",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_gear.steel_armor.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:armor_steel_chestplate",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "skyhook"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "turret",
+    "title": "codex.quest.ie_gear.turret.title",
+    "icon": "immersiveengineering:turret_gun",
+    "x": 1,
+    "y": 4,
+    "deps": [
+     "revolver"
+    ],
+    "text": [
+     "codex.quest.ie_gear.turret.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:turret_gun",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:turret_chem",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "misc_ie",
+    "title": "codex.quest.ie_gear.misc_ie.title",
+    "icon": "immersiveengineering:floodlight",
+    "x": 2,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_gear.misc_ie.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:floodlight",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:electric_lantern",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:maintenance_kit",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "deps": [
+     "turret"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "shaders",
+    "title": "codex.quest.ie_gear.shaders.title",
+    "icon": "immersiveengineering:shader_bag_common",
+    "x": 3,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_gear.shaders.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:shader_bag_common",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "deps": [
+     "misc_ie"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 30,
+     "text": []
+    }
+   }
+  ]
+ }
+]

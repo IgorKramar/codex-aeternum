@@ -1,0 +1,1225 @@
+[
+ {
+  "id": "trials_early",
+  "section": "trials",
+  "order": 10,
+  "title": "codex.chapter.trials_early.title",
+  "icon": "minecraft:iron_pickaxe",
+  "subtitle": "codex.chapter.trials_early.subtitle",
+  "intro": [
+   "codex.chapter.trials_early.intro.0",
+   "codex.chapter.trials_early.intro.1",
+   "codex.chapter.trials_early.intro.2"
+  ],
+  "quests": [
+   {
+    "id": "logs",
+    "title": "codex.quest.trials_early.logs.title",
+    "icon": "minecraft:oak_log",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.trials_early.logs.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:oak_log",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_axe",
+       "count": 1
+      },
+      {
+       "id": "minecraft:bread",
+       "count": 16
+      }
+     ],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "cobble",
+    "title": "codex.quest.trials_early.cobble.title",
+    "icon": "minecraft:cobblestone",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.trials_early.cobble.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:cobblestone",
+      "count": 192,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:stone_bricks",
+       "count": 128
+      },
+      {
+       "id": "minecraft:torch",
+       "count": 32
+      }
+     ],
+     "xp": 30,
+     "text": []
+    },
+    "deps": [
+     "logs"
+    ]
+   },
+   {
+    "id": "iron",
+    "title": "codex.quest.trials_early.iron.title",
+    "icon": "minecraft:iron_ingot",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.trials_early.iron.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:iron_ingot",
+      "count": 32,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_pickaxe",
+       "count": 1
+      },
+      {
+       "id": "minecraft:iron_ingot",
+       "count": 48
+      }
+     ],
+     "xp": 60,
+     "text": [
+      "codex.quest.trials_early.iron.reward.0"
+     ]
+    },
+    "deps": [
+     "cobble"
+    ]
+   },
+   {
+    "id": "food",
+    "title": "codex.quest.trials_early.food.title",
+    "icon": "minecraft:cooked_beef",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.trials_early.food.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:cooked_beef",
+      "count": 32,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "farmersdelight:cooking_pot",
+       "count": 1
+      },
+      {
+       "id": "farmersdelight:iron_knife",
+       "count": 1
+      },
+      {
+       "id": "farmersdelight:rice",
+       "count": 16
+      }
+     ],
+     "xp": 40,
+     "text": []
+    },
+    "deps": [
+     "iron"
+    ]
+   },
+   {
+    "id": "leather",
+    "title": "codex.quest.trials_early.leather.title",
+    "icon": "minecraft:leather",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.trials_early.leather.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:leather",
+      "count": 16,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "sophisticatedbackpacks:iron_backpack",
+       "count": 1
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "deps": [
+     "food"
+    ]
+   },
+   {
+    "id": "glass",
+    "title": "codex.quest.trials_early.glass.title",
+    "icon": "minecraft:glass",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.trials_early.glass.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:glass",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:andesite_alloy",
+       "count": 32
+      },
+      {
+       "id": "create:framed_glass",
+       "count": 16
+      }
+     ],
+     "xp": 40,
+     "text": []
+    },
+    "deps": [
+     "leather"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "trials_mid",
+  "section": "trials",
+  "order": 20,
+  "title": "codex.chapter.trials_mid.title",
+  "icon": "create:precision_mechanism",
+  "subtitle": "codex.chapter.trials_mid.subtitle",
+  "intro": [
+   "codex.chapter.trials_mid.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "alloy",
+    "title": "codex.quest.trials_mid.alloy.title",
+    "icon": "create:andesite_alloy",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.trials_mid.alloy.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:andesite_alloy",
+      "count": 128,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:andesite_casing",
+       "count": 32
+      },
+      {
+       "id": "create:mechanical_saw",
+       "count": 1
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "sheets",
+    "title": "codex.quest.trials_mid.sheets.title",
+    "icon": "create:iron_sheet",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.trials_mid.sheets.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:iron_sheet",
+      "count": 64,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "create:copper_sheet",
+      "count": 32,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:copper_casing",
+       "count": 16
+      },
+      {
+       "id": "create:mechanical_press",
+       "count": 1
+      }
+     ],
+     "xp": 80,
+     "text": []
+    },
+    "deps": [
+     "alloy"
+    ]
+   },
+   {
+    "id": "brass",
+    "title": "codex.quest.trials_mid.brass.title",
+    "icon": "create:brass_ingot",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.trials_mid.brass.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:brass_ingot",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:brass_casing",
+       "count": 32
+      },
+      {
+       "id": "create:crushing_wheel",
+       "count": 2
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "sheets"
+    ]
+   },
+   {
+    "id": "precision",
+    "title": "codex.quest.trials_mid.precision.title",
+    "icon": "create:precision_mechanism",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.trials_mid.precision.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:precision_mechanism",
+      "count": 16,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:rotation_speed_controller",
+       "count": 4
+      },
+      {
+       "id": "create:mechanical_arm",
+       "count": 2
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "brass"
+    ]
+   },
+   {
+    "id": "steel_ie",
+    "title": "codex.quest.trials_mid.steel_ie.title",
+    "icon": "immersiveengineering:ingot_steel",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.trials_mid.steel_ie.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:ingot_steel",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:drill",
+       "count": 1
+      },
+      {
+       "id": "immersiveengineering:drillhead_steel",
+       "count": 1
+      },
+      {
+       "id": "immersiveengineering:powerpack",
+       "count": 1
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "precision"
+    ]
+   },
+   {
+    "id": "coke",
+    "title": "codex.quest.trials_mid.coke.title",
+    "icon": "immersiveengineering:coal_coke",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.trials_mid.coke.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:coal_coke",
+      "count": 128,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:creosote_bucket",
+      "count": 8,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:treated_wood_horizontal",
+       "count": 128
+      },
+      {
+       "id": "immersiveengineering:cokebrick",
+       "count": 27
+      }
+     ],
+     "xp": 80,
+     "text": [
+      "codex.quest.trials_mid.coke.reward.0"
+     ]
+    },
+    "deps": [
+     "steel_ie"
+    ]
+   },
+   {
+    "id": "osmium",
+    "title": "codex.quest.trials_mid.osmium.title",
+    "icon": "mekanism:ingot_osmium",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.trials_mid.osmium.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:ingot_osmium",
+      "count": 64,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "mekanism:ingot_steel",
+      "count": 32,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:steel_casing",
+       "count": 8
+      },
+      {
+       "id": "mekanism:basic_control_circuit",
+       "count": 16
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "coke"
+    ]
+   },
+   {
+    "id": "circuits",
+    "title": "codex.quest.trials_mid.circuits.title",
+    "icon": "mekanism:advanced_control_circuit",
+    "x": 1,
+    "y": 3,
+    "text": [
+     "codex.quest.trials_mid.circuits.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:advanced_control_circuit",
+      "count": 8,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:elite_control_circuit",
+       "count": 4
+      },
+      {
+       "id": "mekanism:alloy_reinforced",
+       "count": 4
+      }
+     ],
+     "xp": 160,
+     "text": []
+    },
+    "deps": [
+     "osmium"
+    ]
+   },
+   {
+    "id": "processors",
+    "title": "codex.quest.trials_mid.processors.title",
+    "icon": "refinedstorage:improved_processor",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.trials_mid.processors.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:improved_processor",
+      "count": 16,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "refinedstorage:advanced_processor",
+       "count": 8
+      },
+      {
+       "id": "refinedstorage:16k_storage_disk",
+       "count": 1
+      }
+     ],
+     "xp": 140,
+     "text": []
+    },
+    "deps": [
+     "circuits"
+    ]
+   },
+   {
+    "id": "bread",
+    "title": "codex.quest.trials_mid.bread.title",
+    "icon": "minecraft:bread",
+    "x": 1,
+    "y": 4,
+    "text": [
+     "codex.quest.trials_mid.bread.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:bread",
+      "count": 128,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecolonies:scroll_tp",
+       "count": 2
+      },
+      {
+       "id": "minecolonies:ancienttome",
+       "count": 1
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "processors"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "trials_late",
+  "section": "trials",
+  "order": 30,
+  "title": "codex.chapter.trials_late.title",
+  "icon": "mekanism:pellet_polonium",
+  "subtitle": "codex.chapter.trials_late.subtitle",
+  "intro": [
+   "codex.chapter.trials_late.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "sturdy",
+    "title": "codex.quest.trials_late.sturdy.title",
+    "icon": "create:sturdy_sheet",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.trials_late.sturdy.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:sturdy_sheet",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:railway_casing",
+       "count": 16
+      },
+      {
+       "id": "create:track",
+       "count": 128
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "electrum",
+    "title": "codex.quest.trials_late.electrum.title",
+    "icon": "createaddition:electrum_ingot",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.trials_late.electrum.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:electrum_ingot",
+      "count": 32,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "createaddition:electrum_wire",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createaddition:electric_motor",
+       "count": 2
+      },
+      {
+       "id": "createaddition:modular_accumulator",
+       "count": 4
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "sturdy"
+    ]
+   },
+   {
+    "id": "nethersteel",
+    "title": "codex.quest.trials_late.nethersteel.title",
+    "icon": "createbigcannons:nethersteel_ingot",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.trials_late.nethersteel.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:nethersteel_ingot",
+      "count": 16,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:nethersteel_screw_breech",
+       "count": 1
+      },
+      {
+       "id": "createbigcannons:he_shell",
+       "count": 8
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "electrum"
+    ]
+   },
+   {
+    "id": "duroplast",
+    "title": "codex.quest.trials_late.duroplast.title",
+    "icon": "immersiveengineering:plate_duroplast",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.trials_late.duroplast.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:plate_duroplast",
+      "count": 32,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:biodiesel_bucket",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:railgun",
+       "count": 1
+      },
+      {
+       "id": "immersiveengineering:capacitor_hv",
+       "count": 1
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "nethersteel"
+    ]
+   },
+   {
+    "id": "atomic",
+    "title": "codex.quest.trials_late.atomic.title",
+    "icon": "mekanism:alloy_atomic",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.trials_late.atomic.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:alloy_atomic",
+      "count": 16,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:ultimate_control_circuit",
+       "count": 4
+      },
+      {
+       "id": "mekanism:teleportation_core",
+       "count": 2
+      }
+     ],
+     "xp": 350,
+     "text": []
+    },
+    "deps": [
+     "duroplast"
+    ]
+   },
+   {
+    "id": "polonium",
+    "title": "codex.quest.trials_late.polonium.title",
+    "icon": "mekanism:pellet_polonium",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.trials_late.polonium.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:pellet_polonium",
+      "count": 8,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "mekanism:pellet_plutonium",
+      "count": 8,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:sps_casing",
+       "count": 16
+      },
+      {
+       "id": "mekanism:sps_port",
+       "count": 2
+      }
+     ],
+     "xp": 500,
+     "text": []
+    },
+    "deps": [
+     "atomic"
+    ]
+   },
+   {
+    "id": "disks",
+    "title": "codex.quest.trials_late.disks.title",
+    "icon": "refinedstorage:64k_storage_disk",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.trials_late.disks.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:64k_storage_disk",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "refinedstorage:64k_storage_part",
+       "count": 8
+      },
+      {
+       "id": "refinedstorage:wireless_grid",
+       "count": 1
+      }
+     ],
+     "xp": 250,
+     "text": [
+      "codex.quest.trials_late.disks.reward.0"
+     ]
+    },
+    "deps": [
+     "polonium"
+    ]
+   },
+   {
+    "id": "levitite",
+    "title": "codex.quest.trials_late.levitite.title",
+    "icon": "aeronautics:levitite",
+    "x": 1,
+    "y": 3,
+    "text": [
+     "codex.quest.trials_late.levitite.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aeronautics:levitite",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "aeronautics:pearlescent_levitite",
+       "count": 16
+      },
+      {
+       "id": "aeronautics:smart_propeller",
+       "count": 4
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "disks"
+    ]
+   },
+   {
+    "id": "truadamantite",
+    "title": "codex.quest.trials_late.truadamantite.title",
+    "icon": "eternal_tales:truadamantite_ingot",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.trials_late.truadamantite.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "eternal_tales:truadamantite_ingot",
+      "count": 16,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:truadamantite_brush",
+       "count": 1
+      },
+      {
+       "id": "eternal_tales:crystal_of_greatness",
+       "count": 1
+      }
+     ],
+     "xp": 500,
+     "text": []
+    },
+    "deps": [
+     "levitite"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "trials_bosses",
+  "section": "trials",
+  "order": 40,
+  "title": "codex.chapter.trials_bosses.title",
+  "icon": "minecraft:dragon_head",
+  "subtitle": "codex.chapter.trials_bosses.subtitle",
+  "intro": [
+   "codex.chapter.trials_bosses.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "dragon",
+    "title": "codex.quest.trials_bosses.dragon.title",
+    "icon": "minecraft:dragon_egg",
+    "x": 0,
+    "y": 0,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "minecraft:end/kill_dragon"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:shulker_shell",
+       "count": 8
+      },
+      {
+       "id": "minecraft:ender_pearl",
+       "count": 32
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   },
+   {
+    "id": "wither",
+    "title": "codex.quest.trials_bosses.wither.title",
+    "icon": "minecraft:wither_skeleton_skull",
+    "x": 1,
+    "y": 0,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "minecraft:nether/summon_wither"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:netherite_scrap",
+       "count": 8
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   },
+   {
+    "id": "naga",
+    "title": "codex.quest.trials_bosses.naga.title",
+    "icon": "twilightforest:naga_trophy",
+    "x": 0,
+    "y": 1,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "twilightforest:progress_naga"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "twilightforest:naga_scale",
+       "count": 12
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "lich",
+    "title": "codex.quest.trials_bosses.lich.title",
+    "icon": "twilightforest:lich_trophy",
+    "x": 1,
+    "y": 1,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "twilightforest:progress_lich"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "twilightforest:transformation_powder",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "hydra",
+    "title": "codex.quest.trials_bosses.hydra.title",
+    "icon": "twilightforest:hydra_trophy",
+    "x": 2,
+    "y": 1,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "twilightforest:progress_hydra"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "twilightforest:fiery_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "terrible_tree",
+    "title": "codex.quest.trials_bosses.terrible_tree.title",
+    "icon": "eternal_tales:comet_banner",
+    "x": 0,
+    "y": 2,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_terrible_tree"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:aerolite_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "nyetet",
+    "title": "codex.quest.trials_bosses.nyetet.title",
+    "icon": "eternal_tales:purgatory_banner",
+    "x": 1,
+    "y": 2,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_nyetet"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:lapsidian_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "pterion",
+    "title": "codex.quest.trials_bosses.pterion.title",
+    "icon": "eternal_tales:rayana_banner",
+    "x": 2,
+    "y": 2,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_pterion"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:sunhog_leather",
+       "count": 8
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "xaxxas",
+    "title": "codex.quest.trials_bosses.xaxxas.title",
+    "icon": "eternal_tales:royal_banner",
+    "x": 0,
+    "y": 3,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_xaxxas_xix"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:pharos",
+       "count": 1
+      }
+     ],
+     "xp": 600,
+     "text": []
+    }
+   },
+   {
+    "id": "unahzaal",
+    "title": "codex.quest.trials_bosses.unahzaal.title",
+    "icon": "eternal_tales:unahzaal_bricks_dimension",
+    "x": 1,
+    "y": 3,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_unahzaal"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:nether_star",
+       "count": 4
+      }
+     ],
+     "xp": 2000,
+     "text": []
+    }
+   },
+   {
+    "id": "raid",
+    "title": "codex.quest.trials_bosses.raid.title",
+    "icon": "minecolonies:chiefsword",
+    "x": 2,
+    "y": 3,
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "minecolonies:military/army_8"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:diamond",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   }
+  ]
+ }
+]

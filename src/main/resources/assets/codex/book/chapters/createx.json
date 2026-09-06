@@ -1,0 +1,1796 @@
+[
+ {
+  "id": "cbc_foundry",
+  "section": "createx",
+  "order": 40,
+  "title": "codex.chapter.cbc_foundry.title",
+  "icon": "createbigcannons:cast_iron_ingot",
+  "subtitle": "codex.chapter.cbc_foundry.subtitle",
+  "intro": [
+   "codex.chapter.cbc_foundry.intro.0",
+   "codex.chapter.cbc_foundry.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "melting",
+    "title": "codex.quest.cbc_foundry.melting.title",
+    "icon": "createbigcannons:molten_cast_iron_bucket",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.cbc_foundry.melting.text.0",
+     "codex.quest.cbc_foundry.melting.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:basin_foundry_lid",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:molten_cast_iron_bucket",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "sand",
+    "title": "codex.quest.cbc_foundry.sand.title",
+    "icon": "createbigcannons:casting_sand",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.cbc_foundry.sand.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:casting_sand",
+      "count": 16
+     }
+    ],
+    "deps": [
+     "melting"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "cast",
+    "title": "codex.quest.cbc_foundry.cast.title",
+    "icon": "createbigcannons:cannon_cast",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.cbc_foundry.cast.text.0",
+     "codex.quest.cbc_foundry.cast.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:cannon_cast",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:small_cast_mould",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "sand"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "drill",
+    "title": "codex.quest.cbc_foundry.drill.title",
+    "icon": "createbigcannons:cannon_drill",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.cbc_foundry.drill.text.0",
+     "codex.quest.cbc_foundry.drill.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:cannon_drill",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:cannon_drill_bit",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "cast"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "barrel",
+    "title": "codex.quest.cbc_foundry.barrel.title",
+    "icon": "createbigcannons:cast_iron_cannon_barrel",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.cbc_foundry.barrel.text.0",
+     "codex.quest.cbc_foundry.barrel.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:cast_iron_cannon_barrel",
+      "count": 3
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:cast_iron_cannon_chamber",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:cast_iron_cannon_end",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "drill"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "welder",
+    "title": "codex.quest.cbc_foundry.welder.title",
+    "icon": "createbigcannons:cannon_welder",
+    "x": 1,
+    "y": 4,
+    "text": [
+     "codex.quest.cbc_foundry.welder.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:cannon_welder",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "barrel"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "mount",
+    "title": "codex.quest.cbc_foundry.mount.title",
+    "icon": "createbigcannons:cannon_mount",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.cbc_foundry.mount.text.0",
+     "codex.quest.cbc_foundry.mount.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:cannon_mount",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:cannon_carriage",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "welder"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "powder",
+    "title": "codex.quest.cbc_foundry.powder.title",
+    "icon": "createbigcannons:powder_charge",
+    "x": 0,
+    "y": 6,
+    "text": [
+     "codex.quest.cbc_foundry.powder.text.0",
+     "codex.quest.cbc_foundry.powder.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:powder_charge",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:packed_gunpowder",
+      "count": 4
+     }
+    ],
+    "deps": [
+     "mount"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "shot",
+    "title": "codex.quest.cbc_foundry.shot.title",
+    "icon": "createbigcannons:solid_shot",
+    "x": 0,
+    "y": 7,
+    "text": [
+     "codex.quest.cbc_foundry.shot.text.0",
+     "codex.quest.cbc_foundry.shot.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:solid_shot",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:bag_of_grapeshot",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:powder_charge",
+       "count": 16
+      }
+     ],
+     "xp": 80,
+     "text": []
+    },
+    "deps": [
+     "powder"
+    ]
+   },
+   {
+    "id": "loader",
+    "title": "codex.quest.cbc_foundry.loader.title",
+    "icon": "createbigcannons:cannon_loader",
+    "x": 0,
+    "y": 8,
+    "text": [
+     "codex.quest.cbc_foundry.loader.text.0",
+     "codex.quest.cbc_foundry.loader.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:cannon_loader",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:ram_rod",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:worm",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "shot"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "cbc_advanced",
+  "section": "createx",
+  "order": 50,
+  "title": "codex.chapter.cbc_advanced.title",
+  "icon": "createbigcannons:steel_cannon_barrel",
+  "subtitle": "codex.chapter.cbc_advanced.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "bronze",
+    "title": "codex.quest.cbc_advanced.bronze.title",
+    "icon": "createbigcannons:bronze_ingot",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.cbc_advanced.bronze.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:bronze_cannon_barrel",
+      "count": 3
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "steel",
+    "title": "codex.quest.cbc_advanced.steel.title",
+    "icon": "createbigcannons:steel_ingot",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.cbc_advanced.steel.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:steel_cannon_barrel",
+      "count": 3
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:built_up_steel_cannon_barrel",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "bronze"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "nethersteel",
+    "title": "codex.quest.cbc_advanced.nethersteel.title",
+    "icon": "createbigcannons:nethersteel_ingot",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.cbc_advanced.nethersteel.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:nethersteel_cannon_barrel",
+      "count": 3
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:nethersteel_screw_breech",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "steel"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "breech",
+    "title": "codex.quest.cbc_advanced.breech.title",
+    "icon": "createbigcannons:steel_sliding_breech",
+    "x": 1,
+    "y": 1,
+    "deps": [
+     "steel"
+    ],
+    "text": [
+     "codex.quest.cbc_advanced.breech.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:steel_sliding_breech",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:steel_quickfiring_breech",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "shells",
+    "title": "codex.quest.cbc_advanced.shells.title",
+    "icon": "createbigcannons:he_shell",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.cbc_advanced.shells.text.0",
+     "codex.quest.cbc_advanced.shells.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:he_shell",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:ap_shell",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:impact_fuze",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:timed_fuze",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "breech"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "autocannon",
+    "title": "codex.quest.cbc_advanced.autocannon.title",
+    "icon": "createbigcannons:steel_autocannon_barrel",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.cbc_advanced.autocannon.text.0",
+     "codex.quest.cbc_advanced.autocannon.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:steel_autocannon_barrel",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:steel_autocannon_breech",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:autocannon_ammo_container",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:autocannon_cartridge",
+       "count": 32
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "shells"
+    ]
+   },
+   {
+    "id": "autoammo",
+    "title": "codex.quest.cbc_advanced.autoammo.title",
+    "icon": "createbigcannons:filled_autocannon_cartridge",
+    "x": 1,
+    "y": 4,
+    "deps": [
+     "autocannon"
+    ],
+    "text": [
+     "codex.quest.cbc_advanced.autoammo.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:ap_autocannon_round",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:flak_autocannon_round",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:tracer_tip",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "mortar",
+    "title": "codex.quest.cbc_advanced.mortar.title",
+    "icon": "createbigcannons:drop_mortar_shell",
+    "x": -1,
+    "y": 4,
+    "deps": [
+     "bronze"
+    ],
+    "text": [
+     "codex.quest.cbc_advanced.mortar.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:drop_mortar_shell",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "armor",
+    "title": "codex.quest.cbc_advanced.armor.title",
+    "icon": "createbigcannons:block_armor_inspection_tool",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.cbc_advanced.armor.text.0",
+     "codex.quest.cbc_advanced.armor.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:block_armor_inspection_tool",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:gas_mask",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "mortar"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "radar",
+  "section": "createx",
+  "order": 60,
+  "title": "codex.chapter.radar.title",
+  "icon": "create_radar:plane_radar",
+  "subtitle": "codex.chapter.radar.subtitle",
+  "intro": [
+   "codex.chapter.radar.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "plate",
+    "title": "codex.quest.radar.plate.title",
+    "icon": "create_radar:radar_plate_block",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.radar.plate.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_radar:radar_plate_block",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "radar",
+    "title": "codex.quest.radar.radar.title",
+    "icon": "create_radar:plane_radar",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.radar.radar.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_radar:plane_radar",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:radar_bearing",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "plate"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "datalink",
+    "title": "codex.quest.radar.datalink.title",
+    "icon": "create_radar:data_link",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.radar.datalink.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_radar:data_link",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:monitor",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "radar"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "iff",
+    "title": "codex.quest.radar.iff.title",
+    "icon": "create_radar:identification_transponder",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.radar.iff.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_radar:identification_transponder",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:radar_warning_receiver",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "datalink"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "controllers",
+    "title": "codex.quest.radar.controllers.title",
+    "icon": "create_radar:auto_yaw_controller",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.radar.controllers.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_radar:auto_yaw_controller",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:auto_pitch_controller",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:fire_controller",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create_radar:data_link",
+       "count": 4
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "iff"
+    ]
+   },
+   {
+    "id": "guidance",
+    "title": "codex.quest.radar.guidance.title",
+    "icon": "create_radar:guided_fuze",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.radar.guidance.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_radar:guided_fuze",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:arad_guidance",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:jammer",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "controllers"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "misc_radar",
+    "title": "codex.quest.radar.misc_radar.title",
+    "icon": "create_radar:binoculars",
+    "x": 1,
+    "y": 4,
+    "text": [
+     "codex.quest.radar.misc_radar.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_radar:binoculars",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:radio",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "deps": [
+     "guidance"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "missiles",
+  "section": "createx",
+  "order": 70,
+  "title": "codex.chapter.missiles.title",
+  "icon": "cbcaeronauticsmissiles:rocket_motor",
+  "subtitle": "codex.chapter.missiles.subtitle",
+  "intro": [
+   "codex.chapter.missiles.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "motor_rocket",
+    "title": "codex.quest.missiles.motor_rocket.title",
+    "icon": "cbcaeronauticsmissiles:rocket_motor",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.missiles.motor_rocket.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:rocket_motor",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "fins",
+    "title": "codex.quest.missiles.fins.title",
+    "icon": "cbcaeronauticsmissiles:actuator_fins",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.missiles.fins.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:actuator_fins",
+      "count": 4
+     }
+    ],
+    "deps": [
+     "motor_rocket"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "computer",
+    "title": "codex.quest.missiles.computer.title",
+    "icon": "cbcaeronauticsmissiles:guidance_computer",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.missiles.computer.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:guidance_computer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:targeting_interface",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "fins"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "fuze_prox",
+    "title": "codex.quest.missiles.fuze_prox.title",
+    "icon": "cbcaeronauticsmissiles:aircraft_proximity_fuze",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.missiles.fuze_prox.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:aircraft_proximity_fuze",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "computer"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "mount_missile",
+    "title": "codex.quest.missiles.mount_missile.title",
+    "icon": "cbcaeronauticsmissiles:missile_mount",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.missiles.mount_missile.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:missile_mount",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cbcaeronauticsmissiles:rocket_motor",
+       "count": 4
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "fuze_prox"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ca_electric",
+  "section": "createx",
+  "order": 10,
+  "title": "codex.chapter.ca_electric.title",
+  "icon": "createaddition:electric_motor",
+  "subtitle": "codex.chapter.ca_electric.subtitle",
+  "intro": [
+   "codex.chapter.ca_electric.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "rolling",
+    "title": "codex.quest.ca_electric.rolling.title",
+    "icon": "createaddition:rolling_mill",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.ca_electric.rolling.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:rolling_mill",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "wire",
+    "title": "codex.quest.ca_electric.wire.title",
+    "icon": "createaddition:copper_wire",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.ca_electric.wire.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:copper_wire",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "createaddition:copper_spool",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "rolling"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "electrum",
+    "title": "codex.quest.ca_electric.electrum.title",
+    "icon": "createaddition:electrum_ingot",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.ca_electric.electrum.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:electrum_ingot",
+      "count": 8
+     }
+    ],
+    "deps": [
+     "wire"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "alternator",
+    "title": "codex.quest.ca_electric.alternator.title",
+    "icon": "createaddition:alternator",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.ca_electric.alternator.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:alternator",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createaddition:connector",
+       "count": 8
+      },
+      {
+       "id": "createaddition:copper_spool",
+       "count": 4
+      }
+     ],
+     "xp": 50,
+     "text": []
+    },
+    "deps": [
+     "electrum"
+    ]
+   },
+   {
+    "id": "motor",
+    "title": "codex.quest.ca_electric.motor.title",
+    "icon": "createaddition:electric_motor",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.ca_electric.motor.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:electric_motor",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "alternator"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "connector",
+    "title": "codex.quest.ca_electric.connector.title",
+    "icon": "createaddition:connector",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.ca_electric.connector.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:connector",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "createaddition:redstone_relay",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "motor"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "accumulator",
+    "title": "codex.quest.ca_electric.accumulator.title",
+    "icon": "createaddition:accumulator",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.ca_electric.accumulator.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:accumulator",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "connector"
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createaddition:capacitor",
+       "count": 4
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "burner",
+    "title": "codex.quest.ca_electric.burner.title",
+    "icon": "createaddition:liquid_blaze_burner",
+    "x": -1,
+    "y": 4,
+    "text": [
+     "codex.quest.ca_electric.burner.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:liquid_blaze_burner",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createaddition:bioethanol_bucket",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "accumulator"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "tesla",
+    "title": "codex.quest.ca_electric.tesla.title",
+    "icon": "createaddition:tesla_coil",
+    "x": 1,
+    "y": 4,
+    "text": [
+     "codex.quest.ca_electric.tesla.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:tesla_coil",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "burner"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "digital",
+    "title": "codex.quest.ca_electric.digital.title",
+    "icon": "createaddition:digital_adapter",
+    "x": 0,
+    "y": 5,
+    "deps": [
+     "accumulator",
+     "connector"
+    ],
+    "text": [
+     "codex.quest.ca_electric.digital.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:digital_adapter",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "pei",
+    "title": "codex.quest.ca_electric.pei.title",
+    "icon": "createaddition:portable_energy_interface",
+    "x": 1,
+    "y": 5,
+    "deps": [
+     "accumulator"
+    ],
+    "text": [
+     "codex.quest.ca_electric.pei.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:portable_energy_interface",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "aero_basics",
+  "section": "createx",
+  "order": 20,
+  "title": "codex.chapter.aero_basics.title",
+  "icon": "aeronautics:white_envelope",
+  "subtitle": "codex.chapter.aero_basics.subtitle",
+  "intro": [
+   "codex.chapter.aero_basics.intro.0",
+   "codex.chapter.aero_basics.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "assembler",
+    "title": "codex.quest.aero_basics.assembler.title",
+    "icon": "simulated:physics_assembler",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.aero_basics.assembler.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "simulated:physics_assembler",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": [
+      "codex.quest.aero_basics.assembler.reward.0"
+     ]
+    }
+   },
+   {
+    "id": "levitite",
+    "title": "codex.quest.aero_basics.levitite.title",
+    "icon": "aeronautics:levitite",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.aero_basics.levitite.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aeronautics:levitite_blend_bucket",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aeronautics:levitite",
+      "count": 8
+     }
+    ],
+    "deps": [
+     "assembler"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "envelope",
+    "title": "codex.quest.aero_basics.envelope.title",
+    "icon": "aeronautics:white_envelope",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.aero_basics.envelope.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aeronautics:white_envelope",
+      "count": 16
+     }
+    ],
+    "deps": [
+     "levitite"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "burner_aero",
+    "title": "codex.quest.aero_basics.burner_aero.title",
+    "icon": "aeronautics:adjustable_burner",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.aero_basics.burner_aero.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aeronautics:adjustable_burner",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "envelope"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "airship",
+    "title": "codex.quest.aero_basics.airship.title",
+    "icon": "aeronautics:steam_vent",
+    "x": 0,
+    "y": 3,
+    "deps": [
+     "assembler",
+     "envelope",
+     "burner_aero"
+    ],
+    "text": [
+     "codex.quest.aero_basics.airship.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aeronautics:steam_vent",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "aeronautics:white_envelope",
+       "count": 32
+      }
+     ],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "propeller",
+    "title": "codex.quest.aero_basics.propeller.title",
+    "icon": "aeronautics:wooden_propeller",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.aero_basics.propeller.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aeronautics:wooden_propeller",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aeronautics:propeller_bearing",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "airship"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "gyro",
+    "title": "codex.quest.aero_basics.gyro.title",
+    "icon": "aeronautics:gyroscopic_propeller_bearing",
+    "x": 1,
+    "y": 4,
+    "text": [
+     "codex.quest.aero_basics.gyro.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aeronautics:gyroscopic_propeller_bearing",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "simulated:gyroscopic_mechanism",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "propeller"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "goggles_aero",
+    "title": "codex.quest.aero_basics.goggles_aero.title",
+    "icon": "aeronautics:aviators_goggles",
+    "x": 2,
+    "y": 4,
+    "text": [
+     "codex.quest.aero_basics.goggles_aero.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aeronautics:aviators_goggles",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "gyro"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "sensors",
+    "title": "codex.quest.aero_basics.sensors.title",
+    "icon": "simulated:altitude_sensor",
+    "x": 0,
+    "y": 5,
+    "deps": [
+     "airship"
+    ],
+    "text": [
+     "codex.quest.aero_basics.sensors.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "simulated:altitude_sensor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "simulated:gimbal_sensor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "simulated:laser_sensor",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "engine",
+    "title": "codex.quest.aero_basics.engine.title",
+    "icon": "simulated:black_portable_engine",
+    "x": 0,
+    "y": 6,
+    "deps": [
+     "sensors"
+    ],
+    "text": [
+     "codex.quest.aero_basics.engine.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "simulated:engine_assembly",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "simulated:black_portable_engine",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "docking",
+    "title": "codex.quest.aero_basics.docking.title",
+    "icon": "simulated:docking_connector",
+    "x": 1,
+    "y": 6,
+    "deps": [
+     "sensors"
+    ],
+    "text": [
+     "codex.quest.aero_basics.docking.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "simulated:docking_connector",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "simulated:rope_connector",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "navigation",
+    "title": "codex.quest.aero_basics.navigation.title",
+    "icon": "simulated:navigation_table",
+    "x": 0,
+    "y": 7,
+    "deps": [
+     "engine",
+     "docking"
+    ],
+    "text": [
+     "codex.quest.aero_basics.navigation.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "simulated:navigation_table",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "simulated:gyroscopic_mechanism",
+       "count": 2
+      }
+     ],
+     "xp": 120,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "offroad",
+  "section": "createx",
+  "order": 30,
+  "title": "codex.chapter.offroad.title",
+  "icon": "offroad:tire",
+  "subtitle": "codex.chapter.offroad.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "wheel_mount",
+    "title": "codex.quest.offroad.wheel_mount.title",
+    "icon": "offroad:wheel_mount",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.offroad.wheel_mount.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "offroad:wheel_mount",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "tires",
+    "title": "codex.quest.offroad.tires.title",
+    "icon": "offroad:tire",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.offroad.tires.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "offroad:tire",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "offroad:sticky_tire",
+      "count": 4
+     }
+    ],
+    "deps": [
+     "wheel_mount"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "borehead",
+    "title": "codex.quest.offroad.borehead.title",
+    "icon": "offroad:borehead_bearing",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.offroad.borehead.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "offroad:borehead_bearing",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "offroad:rockcutting_wheel",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "deps": [
+     "tires"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "vehicle",
+    "title": "codex.quest.offroad.vehicle.title",
+    "icon": "offroad:large_tire",
+    "x": 0,
+    "y": 3,
+    "deps": [
+     "tires"
+    ],
+    "text": [
+     "codex.quest.offroad.vehicle.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "simulated:directional_gearshift",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 40,
+     "text": [
+      "codex.quest.offroad.vehicle.reward.0"
+     ]
+    }
+   }
+  ]
+ }
+]

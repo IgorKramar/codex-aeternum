@@ -1,0 +1,641 @@
+[
+ {
+  "id": "start_first_day",
+  "section": "start",
+  "order": 10,
+  "title": "codex.chapter.start_first_day.title",
+  "icon": "minecraft:oak_sapling",
+  "subtitle": "codex.chapter.start_first_day.subtitle",
+  "intro": [
+   "codex.chapter.start_first_day.intro.0",
+   "codex.chapter.start_first_day.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "wood",
+    "title": "codex.quest.start_first_day.wood.title",
+    "icon": "minecraft:oak_log",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.start_first_day.wood.text.0",
+     "codex.quest.start_first_day.wood.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:oak_log",
+      "count": 16,
+      "note": "codex.quest.start_first_day.wood.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:bread",
+       "count": 8
+      }
+     ],
+     "xp": 10,
+     "text": []
+    }
+   },
+   {
+    "id": "crafting",
+    "title": "codex.quest.start_first_day.crafting.title",
+    "icon": "minecraft:crafting_table",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.start_first_day.crafting.text.0",
+     "codex.quest.start_first_day.crafting.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:crafting_table",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:stone_pickaxe",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "wood"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "carry",
+    "title": "codex.quest.start_first_day.carry.title",
+    "icon": "minecraft:chest",
+    "x": -1,
+    "y": 2,
+    "deps": [
+     "crafting"
+    ],
+    "text": [
+     "codex.quest.start_first_day.carry.text.0",
+     "codex.quest.start_first_day.carry.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Перенести сундук с вещами при помощи Car",
+      "note": "codex.quest.start_first_day.carry.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "backpack",
+    "title": "codex.quest.start_first_day.backpack.title",
+    "icon": "sophisticatedbackpacks:backpack",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "crafting"
+    ],
+    "text": [
+     "codex.quest.start_first_day.backpack.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "sophisticatedbackpacks:backpack",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "sophisticatedbackpacks:pickup_upgrade",
+       "count": 1
+      }
+     ],
+     "xp": 20,
+     "text": []
+    }
+   },
+   {
+    "id": "backpack_upgrades",
+    "title": "codex.quest.start_first_day.backpack_upgrades.title",
+    "icon": "sophisticatedbackpacks:pickup_upgrade",
+    "x": 1,
+    "y": 2,
+    "deps": [
+     "backpack"
+    ],
+    "text": [
+     "codex.quest.start_first_day.backpack_upgrades.text.0",
+     "codex.quest.start_first_day.backpack_upgrades.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "sophisticatedbackpacks:pickup_upgrade",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "sophisticatedbackpacks:magnet_upgrade",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "night",
+    "title": "codex.quest.start_first_day.night.title",
+    "icon": "comforts:sleeping_bag_red",
+    "x": 0,
+    "y": 3,
+    "deps": [
+     "backpack"
+    ],
+    "text": [
+     "codex.quest.start_first_day.night.text.0",
+     "codex.quest.start_first_day.night.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "comforts:sleeping_bag_red",
+      "count": 1,
+      "note": "codex.quest.start_first_day.night.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "death",
+    "title": "codex.quest.start_first_day.death.title",
+    "icon": "minecraft:skeleton_skull",
+    "x": 1,
+    "y": 3,
+    "deps": [
+     "night"
+    ],
+    "text": [
+     "codex.quest.start_first_day.death.text.0",
+     "codex.quest.start_first_day.death.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано: тело с вещами остаётся на мес",
+      "note": "codex.quest.start_first_day.death.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "jade",
+    "title": "codex.quest.start_first_day.jade.title",
+    "icon": "minecraft:spyglass",
+    "x": -1,
+    "y": 3,
+    "deps": [
+     "crafting"
+    ],
+    "text": [
+     "codex.quest.start_first_day.jade.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Навести прицел на блок и увидеть подсказ",
+      "note": "codex.quest.start_first_day.jade.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "iron",
+    "title": "codex.quest.start_first_day.iron.title",
+    "icon": "minecraft:iron_ingot",
+    "x": 0,
+    "y": 4,
+    "deps": [
+     "night",
+     "death"
+    ],
+    "text": [
+     "codex.quest.start_first_day.iron.text.0",
+     "codex.quest.start_first_day.iron.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:iron_ingot",
+      "count": 32
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 20,
+     "text": []
+    }
+   },
+   {
+    "id": "waystone",
+    "title": "codex.quest.start_first_day.waystone.title",
+    "icon": "waystones:waystone",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.start_first_day.waystone.text.0",
+     "codex.quest.start_first_day.waystone.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "waystones:waystone",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "waystones:return_scroll",
+       "count": 2
+      }
+     ],
+     "xp": 20,
+     "text": []
+    },
+    "deps": [
+     "iron"
+    ]
+   },
+   {
+    "id": "map",
+    "title": "codex.quest.start_first_day.map.title",
+    "icon": "minecraft:filled_map",
+    "x": 1,
+    "y": 5,
+    "deps": [
+     "waystone"
+    ],
+    "text": [
+     "codex.quest.start_first_day.map.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Открыть полную карту и поставить точку у",
+      "note": "codex.quest.start_first_day.map.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "base",
+    "title": "codex.quest.start_first_day.base.title",
+    "icon": "minecraft:bricks",
+    "x": 0,
+    "y": 6,
+    "deps": [
+     "waystone"
+    ],
+    "text": [
+     "codex.quest.start_first_day.base.text.0",
+     "codex.quest.start_first_day.base.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Выбрано место под базу",
+      "note": "codex.quest.start_first_day.base.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:torch",
+       "count": 64
+      },
+      {
+       "id": "minecraft:oak_planks",
+       "count": 64
+      }
+     ],
+     "xp": 30,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "start_qol",
+  "section": "start",
+  "order": 20,
+  "title": "codex.chapter.start_qol.title",
+  "icon": "minecraft:clock",
+  "subtitle": "codex.chapter.start_qol.subtitle",
+  "intro": [
+   "codex.chapter.start_qol.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "jei",
+    "title": "codex.quest.start_qol.jei.title",
+    "icon": "minecraft:bookshelf",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.start_qol.jei.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Найти рецепт любого предмета через JEI",
+      "note": "codex.quest.start_qol.jei.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "mousetweaks",
+    "title": "codex.quest.start_qol.mousetweaks.title",
+    "icon": "minecraft:hopper",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.start_qol.mousetweaks.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.start_qol.mousetweaks.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "inventoryqol",
+    "title": "codex.quest.start_qol.inventoryqol.title",
+    "icon": "minecraft:barrel",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.start_qol.inventoryqol.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.start_qol.inventoryqol.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "keyconflict",
+    "title": "codex.quest.start_qol.keyconflict.title",
+    "icon": "minecraft:lever",
+    "x": 3,
+    "y": 0,
+    "text": [
+     "codex.quest.start_qol.keyconflict.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.start_qol.keyconflict.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "effortless",
+    "title": "codex.quest.start_qol.effortless.title",
+    "icon": "minecraft:scaffolding",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.start_qol.effortless.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "effortlessbuilding:randomizer_tool",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "treechop2",
+    "title": "codex.quest.start_qol.treechop2.title",
+    "icon": "treechop:chopped_log",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.start_qol.treechop2.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.start_qol.treechop2.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "chunkloaders",
+    "title": "codex.quest.start_qol.chunkloaders.title",
+    "icon": "chunkloaders:basic_chunk_loader",
+    "x": 2,
+    "y": 1,
+    "text": [
+     "codex.quest.start_qol.chunkloaders.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "chunkloaders:basic_chunk_loader",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "easyvillagers",
+    "title": "codex.quest.start_qol.easyvillagers.title",
+    "icon": "easy_villagers:trader",
+    "x": 3,
+    "y": 1,
+    "text": [
+     "codex.quest.start_qol.easyvillagers.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "easy_villagers:trader",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "voicechat",
+    "title": "codex.quest.start_qol.voicechat.title",
+    "icon": "minecraft:note_block",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.start_qol.voicechat.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.start_qol.voicechat.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "performance",
+    "title": "codex.quest.start_qol.performance.title",
+    "icon": "minecraft:redstone_torch",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.start_qol.performance.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.start_qol.performance.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "smartdeleter",
+    "title": "codex.quest.start_qol.smartdeleter.title",
+    "icon": "minecraft:lava_bucket",
+    "x": 2,
+    "y": 2,
+    "text": [
+     "codex.quest.start_qol.smartdeleter.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.start_qol.smartdeleter.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
+    "id": "almanac",
+    "title": "codex.quest.start_qol.almanac.title",
+    "icon": "minecraft:wheat_seeds",
+    "x": 3,
+    "y": 2,
+    "text": [
+     "codex.quest.start_qol.almanac.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.start_qol.almanac.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   }
+  ]
+ }
+]

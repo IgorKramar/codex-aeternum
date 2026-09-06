@@ -1,0 +1,1120 @@
+[
+ {
+  "id": "dim_nether",
+  "section": "dim",
+  "order": 10,
+  "title": "codex.chapter.dim_nether.title",
+  "icon": "minecraft:netherrack",
+  "subtitle": "codex.chapter.dim_nether.subtitle",
+  "intro": [
+   "codex.chapter.dim_nether.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "portal",
+    "title": "codex.quest.dim_nether.portal.title",
+    "icon": "minecraft:obsidian",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.dim_nether.portal.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "minecraft:the_nether",
+      "note": "codex.quest.dim_nether.portal.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "blaze",
+    "title": "codex.quest.dim_nether.blaze.title",
+    "icon": "minecraft:blaze_rod",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.dim_nether.blaze.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:blaze_rod",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "create:empty_blaze_burner",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "portal"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "quartz",
+    "title": "codex.quest.dim_nether.quartz.title",
+    "icon": "minecraft:quartz",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.dim_nether.quartz.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:quartz",
+      "count": 64
+     }
+    ],
+    "deps": [
+     "blaze"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "ancient",
+    "title": "codex.quest.dim_nether.ancient.title",
+    "icon": "minecraft:netherite_ingot",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.dim_nether.ancient.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:netherite_ingot",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "quartz"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "fortress",
+    "title": "codex.quest.dim_nether.fortress.title",
+    "icon": "minecraft:nether_brick",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.dim_nether.fortress.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:nether_wart",
+      "count": 16
+     }
+    ],
+    "deps": [
+     "ancient"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "nether_et",
+    "title": "codex.quest.dim_nether.nether_et.title",
+    "icon": "minecraft:clock",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.dim_nether.nether_et.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Найти часовую башню в Нижнем мире",
+      "note": "codex.quest.dim_nether.nether_et.task.0"
+     }
+    ],
+    "optional": true,
+    "deps": [
+     "fortress"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "dim_end",
+  "section": "dim",
+  "order": 20,
+  "title": "codex.chapter.dim_end.title",
+  "icon": "minecraft:end_portal_frame",
+  "subtitle": "codex.chapter.dim_end.subtitle",
+  "intro": [],
+  "quests": [
+   {
+    "id": "stronghold",
+    "title": "codex.quest.dim_end.stronghold.title",
+    "icon": "minecraft:ender_eye",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.dim_end.stronghold.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:ender_eye",
+      "count": 12
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "dragon",
+    "title": "codex.quest.dim_end.dragon.title",
+    "icon": "minecraft:dragon_head",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.dim_end.dragon.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "minecraft:the_end",
+      "note": "codex.quest.dim_end.dragon.task.0"
+     },
+     {
+      "type": "item",
+      "id": "minecraft:dragon_breath",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "stronghold"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "elytra",
+    "title": "codex.quest.dim_end.elytra.title",
+    "icon": "minecraft:elytra",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.dim_end.elytra.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:elytra",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "dragon"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "shulker",
+    "title": "codex.quest.dim_end.shulker.title",
+    "icon": "minecraft:shulker_shell",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.dim_end.shulker.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:shulker_shell",
+      "count": 4
+     }
+    ],
+    "deps": [
+     "elytra"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "end_et",
+    "title": "codex.quest.dim_end.end_et.title",
+    "icon": "minecraft:end_stone",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.dim_end.end_et.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.dim_end.end_et.task.0"
+     }
+    ],
+    "optional": true,
+    "deps": [
+     "shulker"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "dim_aether",
+  "section": "dim",
+  "order": 30,
+  "title": "codex.chapter.dim_aether.title",
+  "icon": "aether:aether_portal_frame",
+  "subtitle": "codex.chapter.dim_aether.subtitle",
+  "intro": [
+   "codex.chapter.dim_aether.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "aether_portal",
+    "title": "codex.quest.dim_aether.aether_portal.title",
+    "icon": "aether:aether_portal_frame",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.dim_aether.aether_portal.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "aether:the_aether",
+      "note": "codex.quest.dim_aether.aether_portal.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "holystone",
+    "title": "codex.quest.dim_aether.holystone.title",
+    "icon": "aether:holystone_pickaxe",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.dim_aether.holystone.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:skyroot_pickaxe",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:holystone_pickaxe",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:ambrosium_shard",
+      "count": 16
+     }
+    ],
+    "deps": [
+     "aether_portal"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "zanite",
+    "title": "codex.quest.dim_aether.zanite.title",
+    "icon": "aether:zanite_gemstone",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.dim_aether.zanite.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:zanite_gemstone",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "aether:zanite_pickaxe",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "holystone"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "altar",
+    "title": "codex.quest.dim_aether.altar.title",
+    "icon": "aether:altar",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.dim_aether.altar.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:altar",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:freezer",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "zanite"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "gravitite",
+    "title": "codex.quest.dim_aether.gravitite.title",
+    "icon": "aether:enchanted_gravitite",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.dim_aether.gravitite.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:enchanted_gravitite",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "aether:gravitite_chestplate",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "altar"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "moa",
+    "title": "codex.quest.dim_aether.moa.title",
+    "icon": "aether:blue_moa_egg",
+    "x": -1,
+    "y": 3,
+    "deps": [
+     "holystone"
+    ],
+    "text": [
+     "codex.quest.dim_aether.moa.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:incubator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:blue_moa_egg",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:aechor_petal",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "bronze_dungeon",
+    "title": "codex.quest.dim_aether.bronze_dungeon.title",
+    "icon": "aether:bronze_dungeon_key",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.dim_aether.bronze_dungeon.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:bronze_dungeon_key",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:victory_medal",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": [
+      "codex.quest.dim_aether.bronze_dungeon.reward.0"
+     ]
+    },
+    "deps": [
+     "moa"
+    ]
+   },
+   {
+    "id": "silver_dungeon",
+    "title": "codex.quest.dim_aether.silver_dungeon.title",
+    "icon": "aether:silver_dungeon_key",
+    "x": 0,
+    "y": 6,
+    "text": [
+     "codex.quest.dim_aether.silver_dungeon.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:valkyrie_lance",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:silver_dungeon_key",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:valkyrie_helmet",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "bronze_dungeon"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "gold_dungeon",
+    "title": "codex.quest.dim_aether.gold_dungeon.title",
+    "icon": "aether:gold_dungeon_key",
+    "x": 0,
+    "y": 7,
+    "text": [
+     "codex.quest.dim_aether.gold_dungeon.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:gold_dungeon_key",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:hammer_of_kingbdogz",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "aether:golden_amber",
+       "count": 8
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "silver_dungeon"
+    ]
+   },
+   {
+    "id": "accessories",
+    "title": "codex.quest.dim_aether.accessories.title",
+    "icon": "aether:golden_ring",
+    "x": 1,
+    "y": 5,
+    "deps": [
+     "altar"
+    ],
+    "text": [
+     "codex.quest.dim_aether.accessories.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:golden_ring",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:ice_pendant",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aether:golden_feather",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "lore",
+    "title": "codex.quest.dim_aether.lore.title",
+    "icon": "aether:book_of_lore",
+    "x": 2,
+    "y": 5,
+    "deps": [
+     "altar"
+    ],
+    "text": [
+     "codex.quest.dim_aether.lore.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:book_of_lore",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "dim_twilight",
+  "section": "dim",
+  "order": 40,
+  "title": "codex.chapter.dim_twilight.title",
+  "icon": "twilightforest:twilight_portal_miniature_structure",
+  "subtitle": "codex.chapter.dim_twilight.subtitle",
+  "intro": [
+   "codex.chapter.dim_twilight.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "tf_portal",
+    "title": "codex.quest.dim_twilight.tf_portal.title",
+    "icon": "twilightforest:twilight_portal_miniature_structure",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.dim_twilight.tf_portal.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "twilightforest:twilight_forest",
+      "note": "codex.quest.dim_twilight.tf_portal.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "tf_start",
+    "title": "codex.quest.dim_twilight.tf_start.title",
+    "icon": "twilightforest:ironwood_ingot",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.dim_twilight.tf_start.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:liveroot",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:ironwood_ingot",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:magic_map_focus",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "tf_portal"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "naga",
+    "title": "codex.quest.dim_twilight.naga.title",
+    "icon": "twilightforest:naga_trophy",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.dim_twilight.naga.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:naga_trophy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:naga_scale",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "twilightforest:naga_scale",
+       "count": 8
+      }
+     ],
+     "xp": 80,
+     "text": []
+    },
+    "deps": [
+     "tf_start"
+    ]
+   },
+   {
+    "id": "lich",
+    "title": "codex.quest.dim_twilight.lich.title",
+    "icon": "twilightforest:lich_trophy",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.dim_twilight.lich.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:lich_trophy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:zombie_scepter",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": [
+      "codex.quest.dim_twilight.lich.reward.0"
+     ]
+    },
+    "deps": [
+     "naga"
+    ]
+   },
+   {
+    "id": "minoshroom",
+    "title": "codex.quest.dim_twilight.minoshroom.title",
+    "icon": "twilightforest:minoshroom_trophy",
+    "x": -1,
+    "y": 4,
+    "text": [
+     "codex.quest.dim_twilight.minoshroom.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:minoshroom_trophy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:mazebreaker_pickaxe",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "lich"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "hydra",
+    "title": "codex.quest.dim_twilight.hydra.title",
+    "icon": "twilightforest:hydra_trophy",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.dim_twilight.hydra.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:hydra_trophy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:fiery_blood",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:fiery_sword",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "minoshroom"
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "twilightforest:fiery_blood",
+       "count": 4
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "knight_phantom",
+    "title": "codex.quest.dim_twilight.knight_phantom.title",
+    "icon": "twilightforest:knight_phantom_trophy",
+    "x": 1,
+    "y": 4,
+    "text": [
+     "codex.quest.dim_twilight.knight_phantom.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:knight_phantom_trophy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:knightmetal_ingot",
+      "count": 4
+     }
+    ],
+    "deps": [
+     "hydra"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "ur_ghast",
+    "title": "codex.quest.dim_twilight.ur_ghast.title",
+    "icon": "twilightforest:ur_ghast_trophy",
+    "x": 0,
+    "y": 5,
+    "deps": [
+     "knight_phantom"
+    ],
+    "text": [
+     "codex.quest.dim_twilight.ur_ghast.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:ur_ghast_trophy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:carminite",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:experiment_115",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "snow_queen",
+    "title": "codex.quest.dim_twilight.snow_queen.title",
+    "icon": "twilightforest:snow_queen_trophy",
+    "x": 0,
+    "y": 6,
+    "deps": [
+     "ur_ghast",
+     "hydra"
+    ],
+    "text": [
+     "codex.quest.dim_twilight.snow_queen.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:alpha_yeti_fur",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:snow_queen_trophy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:arctic_chestplate",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "giants",
+    "title": "codex.quest.dim_twilight.giants.title",
+    "icon": "twilightforest:giant_pickaxe",
+    "x": 0,
+    "y": 7,
+    "text": [
+     "codex.quest.dim_twilight.giants.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:uberous_soil",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:magic_beans",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:giant_pickaxe",
+      "count": 1
+     }
+    ],
+    "deps": [
+     "snow_queen"
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "cinders",
+    "title": "codex.quest.dim_twilight.cinders.title",
+    "icon": "twilightforest:lamp_of_cinders",
+    "x": 0,
+    "y": 8,
+    "text": [
+     "codex.quest.dim_twilight.cinders.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:lamp_of_cinders",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "twilightforest:fiery_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "giants"
+    ]
+   },
+   {
+    "id": "uncrafting",
+    "title": "codex.quest.dim_twilight.uncrafting.title",
+    "icon": "twilightforest:uncrafting_table",
+    "x": 1,
+    "y": 2,
+    "deps": [
+     "tf_start"
+    ],
+    "text": [
+     "codex.quest.dim_twilight.uncrafting.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:uncrafting_table",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "charms",
+    "title": "codex.quest.dim_twilight.charms.title",
+    "icon": "twilightforest:charm_of_life_1",
+    "x": 2,
+    "y": 2,
+    "deps": [
+     "tf_start"
+    ],
+    "text": [
+     "codex.quest.dim_twilight.charms.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:charm_of_life_1",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:charm_of_keeping_1",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   },
+   {
+    "id": "trophy",
+    "title": "codex.quest.dim_twilight.trophy.title",
+    "icon": "twilightforest:trophy_pedestal",
+    "x": 1,
+    "y": 8,
+    "deps": [
+     "ur_ghast"
+    ],
+    "text": [
+     "codex.quest.dim_twilight.trophy.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:trophy_pedestal",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 45,
+     "text": []
+    }
+   }
+  ]
+ }
+]

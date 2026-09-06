@@ -1,0 +1,743 @@
+[
+ {
+  "id": "end_monuments",
+  "section": "endgame",
+  "order": 10,
+  "title": "codex.chapter.end_monuments.title",
+  "icon": "minecraft:beacon",
+  "subtitle": "codex.chapter.end_monuments.subtitle",
+  "intro": [
+   "codex.chapter.end_monuments.intro.0",
+   "codex.chapter.end_monuments.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "spire",
+    "title": "codex.quest.end_monuments.spire.title",
+    "icon": "create:metal_girder",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.end_monuments.spire.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:metal_girder",
+      "count": 1024,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:brass_casing",
+       "count": 64
+      },
+      {
+       "id": "create:sturdy_sheet",
+       "count": 64
+      }
+     ],
+     "xp": 1200,
+     "text": []
+    }
+   },
+   {
+    "id": "bridge",
+    "title": "codex.quest.end_monuments.bridge.title",
+    "icon": "create:track",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.end_monuments.bridge.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:track",
+      "count": 2048,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:railway_casing",
+       "count": 32
+      },
+      {
+       "id": "railways:track_coupler",
+       "count": 8
+      }
+     ],
+     "xp": 1500,
+     "text": []
+    }
+   },
+   {
+    "id": "vault_city",
+    "title": "codex.quest.end_monuments.vault_city.title",
+    "icon": "refinedstorage:64k_storage_disk",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.end_monuments.vault_city.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:64k_storage_disk",
+      "count": 16,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "refinedstorage:64k_storage_part",
+       "count": 64
+      }
+     ],
+     "xp": 1500,
+     "text": []
+    }
+   },
+   {
+    "id": "matrix",
+    "title": "codex.quest.end_monuments.matrix.title",
+    "icon": "mekanism:induction_casing",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.end_monuments.matrix.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:induction_casing",
+      "count": 54,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "mekanism:ultimate_induction_cell",
+      "count": 8,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:ultimate_induction_provider",
+       "count": 4
+      },
+      {
+       "id": "mekanism:pellet_antimatter",
+       "count": 4
+      }
+     ],
+     "xp": 2000,
+     "text": []
+    }
+   },
+   {
+    "id": "shipyard",
+    "title": "codex.quest.end_monuments.shipyard.title",
+    "icon": "aeronautics:pearlescent_levitite",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.end_monuments.shipyard.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aeronautics:pearlescent_levitite",
+      "count": 256,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "aeronautics:smart_propeller",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "simulated:navigation_table",
+       "count": 4
+      },
+      {
+       "id": "simulated:gyroscopic_mechanism",
+       "count": 32
+      }
+     ],
+     "xp": 2500,
+     "text": []
+    }
+   },
+   {
+    "id": "fortress",
+    "title": "codex.quest.end_monuments.fortress.title",
+    "icon": "createbigcannons:nethersteel_screw_breech",
+    "x": 2,
+    "y": 1,
+    "text": [
+     "codex.quest.end_monuments.fortress.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:nethersteel_screw_breech",
+      "count": 8,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:he_shell",
+      "count": 128,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:nethersteel_ingot",
+       "count": 64
+      },
+      {
+       "id": "create_radar:fire_controller",
+       "count": 4
+      }
+     ],
+     "xp": 2500,
+     "text": []
+    }
+   },
+   {
+    "id": "cathedral",
+    "title": "codex.quest.end_monuments.cathedral.title",
+    "icon": "domum_ornamentum:architectscutter",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "spire"
+    ],
+    "text": [
+     "codex.quest.end_monuments.cathedral.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "domum_ornamentum:dynamic_timberframe",
+      "count": 1024,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:emerald_block",
+       "count": 16
+      }
+     ],
+     "xp": 1500,
+     "text": []
+    }
+   },
+   {
+    "id": "eternal_town",
+    "title": "codex.quest.end_monuments.eternal_town.title",
+    "icon": "eternal_tales:the_ultimate_bricks",
+    "x": 1,
+    "y": 2,
+    "deps": [
+     "vault_city"
+    ],
+    "text": [
+     "codex.quest.end_monuments.eternal_town.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "eternal_tales:the_ultimate_bricks",
+      "count": 512,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:crystal_of_greatness",
+       "count": 4
+      },
+      {
+       "id": "eternal_tales:restored_astral",
+       "count": 1
+      }
+     ],
+     "xp": 3000,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "end_marathon",
+  "section": "endgame",
+  "order": 20,
+  "title": "codex.chapter.end_marathon.title",
+  "icon": "minecraft:clock",
+  "subtitle": "codex.chapter.end_marathon.subtitle",
+  "intro": [
+   "codex.chapter.end_marathon.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "mech1024",
+    "title": "codex.quest.end_marathon.mech1024.title",
+    "icon": "create:precision_mechanism",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.end_marathon.mech1024.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:precision_mechanism",
+      "count": 1024,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:rotation_speed_controller",
+       "count": 32
+      },
+      {
+       "id": "create:mechanical_crafter",
+       "count": 64
+      }
+     ],
+     "xp": 3000,
+     "text": []
+    }
+   },
+   {
+    "id": "steel4096",
+    "title": "codex.quest.end_marathon.steel4096.title",
+    "icon": "immersiveengineering:ingot_steel",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.end_marathon.steel4096.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:ingot_steel",
+      "count": 4096,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:graphite_electrode",
+       "count": 16
+      },
+      {
+       "id": "immersiveengineering:capacitor_hv",
+       "count": 4
+      }
+     ],
+     "xp": 3000,
+     "text": []
+    }
+   },
+   {
+    "id": "circuits256",
+    "title": "codex.quest.end_marathon.circuits256.title",
+    "icon": "mekanism:ultimate_control_circuit",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.end_marathon.circuits256.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:ultimate_control_circuit",
+      "count": 256,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:alloy_atomic",
+       "count": 128
+      },
+      {
+       "id": "mekanism:qio_drive_supermassive",
+       "count": 1
+      }
+     ],
+     "xp": 4000,
+     "text": []
+    }
+   },
+   {
+    "id": "antimatter64",
+    "title": "codex.quest.end_marathon.antimatter64.title",
+    "icon": "mekanism:pellet_antimatter",
+    "x": 0,
+    "y": 1,
+    "deps": [
+     "circuits256"
+    ],
+    "text": [
+     "codex.quest.end_marathon.antimatter64.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:pellet_antimatter",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:antiprotonic_nucleosynthesizer",
+       "count": 1
+      },
+      {
+       "id": "mekanism:mekasuit_bodyarmor",
+       "count": 1
+      }
+     ],
+     "xp": 6000,
+     "text": []
+    }
+   },
+   {
+    "id": "processors1024",
+    "title": "codex.quest.end_marathon.processors1024.title",
+    "icon": "refinedstorage:advanced_processor",
+    "x": 1,
+    "y": 1,
+    "deps": [
+     "mech1024"
+    ],
+    "text": [
+     "codex.quest.end_marathon.processors1024.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:advanced_processor",
+      "count": 1024,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "refinedstorage:64k_storage_disk",
+       "count": 8
+      },
+      {
+       "id": "refinedstorage:autocrafter",
+       "count": 16
+      }
+     ],
+     "xp": 3000,
+     "text": []
+    }
+   },
+   {
+    "id": "crystals9",
+    "title": "codex.quest.end_marathon.crystals9.title",
+    "icon": "eternal_tales:unahzaal_multiverse",
+    "x": 2,
+    "y": 1,
+    "deps": [
+     "steel4096"
+    ],
+    "text": [
+     "codex.quest.end_marathon.crystals9.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "eternal_tales:comets",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:purgatorium",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:gardens_of_eden",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:rayana",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:lands_of_karvat",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:volcanech",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:kingdom_of_amber",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:unahzaal_multiverse",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:ultimate_world",
+      "count": 1,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:return_ticket",
+       "count": 16
+      },
+      {
+       "id": "eternal_tales:the_ultimate_bricks",
+       "count": 64
+      }
+     ],
+     "xp": 5000,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "end_apotheosis",
+  "section": "endgame",
+  "order": 30,
+  "title": "codex.chapter.end_apotheosis.title",
+  "icon": "minecraft:nether_star",
+  "subtitle": "codex.chapter.end_apotheosis.subtitle",
+  "intro": [
+   "codex.chapter.end_apotheosis.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "darkness_unahzaal",
+    "title": "codex.quest.end_apotheosis.darkness_unahzaal.title",
+    "icon": "eternal_tales:calamity_ring",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.end_apotheosis.darkness_unahzaal.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_unahzaal_with_hard_mode"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_noxifer"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_luciden"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:nether_star",
+       "count": 8
+      },
+      {
+       "id": "eternal_tales:totem_of_death",
+       "count": 1
+      }
+     ],
+     "xp": 8000,
+     "text": []
+    }
+   },
+   {
+    "id": "arkemer",
+    "title": "codex.quest.end_apotheosis.arkemer.title",
+    "icon": "eternal_tales:stabilized_miniature_black_hole",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.end_apotheosis.arkemer.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_stabilized_miniature_black_hole"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:learn_order_of_the_universe"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_the_first_prism"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_the_ultimate_two"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:hammer_of_eternity",
+       "count": 1
+      }
+     ],
+     "xp": 8000,
+     "text": []
+    }
+   },
+   {
+    "id": "seven",
+    "title": "codex.quest.end_apotheosis.seven.title",
+    "icon": "minecraft:enchanted_golden_apple",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.end_apotheosis.seven.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:factory_gauge",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:excavator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:pellet_antimatter",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "refinedstorage:64k_storage_disk",
+      "count": 16
+     },
+     {
+      "type": "advancement",
+      "id": "minecolonies:minecolonies/build_town_hall_5"
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:lamp_of_cinders",
+      "count": 1
+     },
+     {
+      "type": "dimension",
+      "id": "eternal_tales:ultimate_world"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:enchanted_golden_apple",
+       "count": 16
+      },
+      {
+       "id": "minecraft:netherite_block",
+       "count": 4
+      }
+     ],
+     "xp": 10000,
+     "text": []
+    }
+   },
+   {
+    "id": "codex",
+    "title": "codex.quest.end_apotheosis.codex.title",
+    "icon": "minecraft:writable_book",
+    "x": 1,
+    "y": 1,
+    "deps": [
+     "darkness_unahzaal",
+     "arkemer",
+     "seven"
+    ],
+    "text": [
+     "codex.quest.end_apotheosis.codex.text.0",
+     "codex.quest.end_apotheosis.codex.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:nether_star",
+      "count": 1,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:dragon_egg",
+       "count": 1
+      },
+      {
+       "id": "minecraft:elytra",
+       "count": 1
+      },
+      {
+       "id": "minecraft:nether_star",
+       "count": 16
+      }
+     ],
+     "xp": 20000,
+     "text": [
+      "codex.quest.end_apotheosis.codex.reward.0"
+     ]
+    },
+    "shape": "big"
+   }
+  ]
+ }
+]

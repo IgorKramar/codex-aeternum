@@ -1,0 +1,1982 @@
+[
+ {
+  "id": "story_forge",
+  "section": "story",
+  "order": 10,
+  "title": "codex.chapter.story_forge.title",
+  "icon": "create:mechanical_press",
+  "subtitle": "codex.chapter.story_forge.subtitle",
+  "intro": [
+   "codex.chapter.story_forge.intro.0",
+   "codex.chapter.story_forge.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "hand",
+    "title": "codex.quest.story_forge.hand.title",
+    "icon": "create:hand_crank",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.story_forge.hand.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:hand_crank",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:mechanical_press",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:iron_sheet",
+      "count": 10
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:andesite_alloy",
+       "count": 12
+      }
+     ],
+     "xp": 30,
+     "text": []
+    }
+   },
+   {
+    "id": "wind",
+    "title": "codex.quest.story_forge.wind.title",
+    "icon": "create:windmill_bearing",
+    "x": -1,
+    "y": 1,
+    "deps": [
+     "hand"
+    ],
+    "text": [
+     "codex.quest.story_forge.wind.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:windmill_bearing",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:sail_frame",
+      "count": 64
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:white_sail",
+       "count": 32
+      }
+     ],
+     "xp": 50,
+     "text": []
+    }
+   },
+   {
+    "id": "water",
+    "title": "codex.quest.story_forge.water.title",
+    "icon": "create:large_water_wheel",
+    "x": 1,
+    "y": 1,
+    "deps": [
+     "hand"
+    ],
+    "text": [
+     "codex.quest.story_forge.water.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:large_water_wheel",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:cogwheel",
+       "count": 16
+      },
+      {
+       "id": "create:large_cogwheel",
+       "count": 8
+      }
+     ],
+     "xp": 50,
+     "text": []
+    }
+   },
+   {
+    "id": "source",
+    "title": "codex.quest.story_forge.source.title",
+    "icon": "create:stressometer",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "wind"
+    ],
+    "text": [
+     "codex.quest.story_forge.source.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:stressometer",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:wrench",
+       "count": 1
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "source_w",
+    "title": "codex.quest.story_forge.source_w.title",
+    "icon": "create:stressometer",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "water"
+    ],
+    "text": [
+     "codex.quest.story_forge.source_w.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:stressometer",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 10,
+     "text": []
+    }
+   },
+   {
+    "id": "mill",
+    "title": "codex.quest.story_forge.mill.title",
+    "icon": "create:millstone",
+    "x": -1,
+    "y": 3,
+    "deps": [
+     "source",
+     "source_w"
+    ],
+    "text": [
+     "codex.quest.story_forge.mill.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:crushed_raw_iron",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_ingot",
+       "count": 96
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "wheels",
+    "title": "codex.quest.story_forge.wheels.title",
+    "icon": "create:crushing_wheel",
+    "x": 1,
+    "y": 3,
+    "deps": [
+     "source",
+     "source_w"
+    ],
+    "text": [
+     "codex.quest.story_forge.wheels.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:crushing_wheel",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create:crushed_raw_iron",
+      "count": 128,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:brass_ingot",
+       "count": 32
+      },
+      {
+       "id": "minecraft:iron_ingot",
+       "count": 192
+      }
+     ],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "smelt",
+    "title": "codex.quest.story_forge.smelt.title",
+    "icon": "create:encased_fan",
+    "x": 0,
+    "y": 4,
+    "deps": [
+     "mill",
+     "wheels"
+    ],
+    "text": [
+     "codex.quest.story_forge.smelt.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:encased_fan",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create:belt",
+      "count": 16
+     },
+     {
+      "type": "ponder",
+      "id": "create:encased_fan"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:andesite_funnel",
+       "count": 8
+      },
+      {
+       "id": "create:chute",
+       "count": 8
+      }
+     ],
+     "xp": 80,
+     "text": []
+    }
+   },
+   {
+    "id": "boiler",
+    "title": "codex.quest.story_forge.boiler.title",
+    "icon": "create:steam_engine",
+    "x": 0,
+    "y": 5,
+    "deps": [
+     "smelt"
+    ],
+    "text": [
+     "codex.quest.story_forge.boiler.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:steam_engine",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "create:fluid_tank",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "create:blaze_burner",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:copper_casing",
+       "count": 16
+      }
+     ],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "precision",
+    "title": "codex.quest.story_forge.precision.title",
+    "icon": "create:precision_mechanism",
+    "x": -1,
+    "y": 6,
+    "deps": [
+     "boiler"
+    ],
+    "text": [
+     "codex.quest.story_forge.precision.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:precision_mechanism",
+      "count": 8,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:precision_mechanism",
+       "count": 12
+      },
+      {
+       "id": "create:mechanical_arm",
+       "count": 1
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "rails",
+    "title": "codex.quest.story_forge.rails.title",
+    "icon": "create:track",
+    "x": 1,
+    "y": 6,
+    "deps": [
+     "boiler"
+    ],
+    "text": [
+     "codex.quest.story_forge.rails.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:track",
+      "count": 64
+     },
+     {
+      "type": "item",
+      "id": "create:track_station",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:track",
+       "count": 64
+      },
+      {
+       "id": "create:track_signal",
+       "count": 4
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "train",
+    "title": "codex.quest.story_forge.train.title",
+    "icon": "create:schedule",
+    "x": 0,
+    "y": 7,
+    "deps": [
+     "precision",
+     "rails"
+    ],
+    "text": [
+     "codex.quest.story_forge.train.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:controls",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:schedule",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "railways:conductor_cap",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:portable_storage_interface",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:railway_casing",
+       "count": 8
+      },
+      {
+       "id": "create:large_bogey",
+       "count": 2
+      }
+     ],
+     "xp": 250,
+     "text": [
+      "codex.quest.story_forge.train.reward.0"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "story_current",
+  "section": "story",
+  "order": 20,
+  "title": "codex.chapter.story_current.title",
+  "icon": "immersiveengineering:wirecoil_steel",
+  "subtitle": "codex.chapter.story_current.subtitle",
+  "intro": [
+   "codex.chapter.story_current.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "coke",
+    "title": "codex.quest.story_current.coke.title",
+    "icon": "immersiveengineering:coke_oven",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.story_current.coke.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:coal_coke",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:blastbrick",
+       "count": 27
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "steel",
+    "title": "codex.quest.story_current.steel.title",
+    "icon": "immersiveengineering:ingot_steel",
+    "x": 0,
+    "y": 1,
+    "deps": [
+     "coke"
+    ],
+    "text": [
+     "codex.quest.story_current.steel.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:ingot_steel",
+      "count": 32,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "mekanism:ingot_steel",
+      "count": 32,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:steel_casing",
+       "count": 4
+      },
+      {
+       "id": "immersiveengineering:component_steel",
+       "count": 16
+      }
+     ],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "dynamo",
+    "title": "codex.quest.story_current.dynamo.title",
+    "icon": "immersiveengineering:dynamo",
+    "x": -1,
+    "y": 2,
+    "deps": [
+     "steel"
+    ],
+    "text": [
+     "codex.quest.story_current.dynamo.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:dynamo",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:capacitor_lv",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:connector_lv",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:wirecoil_copper",
+       "count": 8
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "alternator",
+    "title": "codex.quest.story_current.alternator.title",
+    "icon": "createaddition:alternator",
+    "x": 1,
+    "y": 2,
+    "deps": [
+     "steel"
+    ],
+    "text": [
+     "codex.quest.story_current.alternator.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:alternator",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "createaddition:rolling_mill",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createaddition:connector",
+       "count": 8
+      },
+      {
+       "id": "createaddition:copper_spool",
+       "count": 8
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "grid",
+    "title": "codex.quest.story_current.grid.title",
+    "icon": "immersiveengineering:transformer",
+    "x": 0,
+    "y": 3,
+    "deps": [
+     "dynamo",
+     "alternator"
+    ],
+    "text": [
+     "codex.quest.story_current.grid.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:transformer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:wirecoil_steel",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "mekanism:basic_energy_cube",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:capacitor_mv",
+       "count": 1
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "ore5",
+    "title": "codex.quest.story_current.ore5.title",
+    "icon": "mekanism:chemical_crystallizer",
+    "x": -1,
+    "y": 4,
+    "deps": [
+     "grid"
+    ],
+    "text": [
+     "codex.quest.story_current.ore5.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:chemical_dissolution_chamber",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:chemical_crystallizer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:crystal_iron",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:ingot_osmium",
+       "count": 64
+      },
+      {
+       "id": "mekanism:alloy_reinforced",
+       "count": 8
+      }
+     ],
+     "xp": 250,
+     "text": []
+    }
+   },
+   {
+    "id": "diesel",
+    "title": "codex.quest.story_current.diesel.title",
+    "icon": "immersiveengineering:diesel_generator",
+    "x": 1,
+    "y": 4,
+    "deps": [
+     "grid"
+    ],
+    "text": [
+     "codex.quest.story_current.diesel.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:diesel_generator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:biodiesel_bucket",
+      "count": 16,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:capacitor_hv",
+       "count": 1
+      }
+     ],
+     "xp": 250,
+     "text": []
+    }
+   },
+   {
+    "id": "fission",
+    "title": "codex.quest.story_current.fission.title",
+    "icon": "mekanismgenerators:fission_reactor_casing",
+    "x": 0,
+    "y": 5,
+    "deps": [
+     "ore5",
+     "diesel"
+    ],
+    "text": [
+     "codex.quest.story_current.fission.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanismgenerators:fission_reactor_logic_adapter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanismgenerators:turbine_rotor",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "mekanismgenerators:fission_fuel_assembly",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:elite_control_circuit",
+       "count": 8
+      },
+      {
+       "id": "mekanismgenerators:turbine_blade",
+       "count": 16
+      }
+     ],
+     "xp": 600,
+     "text": [
+      "codex.quest.story_current.fission.reward.0"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "story_expedition",
+  "section": "story",
+  "order": 30,
+  "title": "codex.chapter.story_expedition.title",
+  "icon": "twilightforest:magic_map_focus",
+  "subtitle": "codex.chapter.story_expedition.subtitle",
+  "intro": [
+   "codex.chapter.story_expedition.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "kit",
+    "title": "codex.quest.story_expedition.kit.title",
+    "icon": "waystones:return_scroll",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.story_expedition.kit.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "waystones:waystone",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "waystones:return_scroll",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "comforts:sleeping_bag_red",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "waystones:warp_dust",
+       "count": 8
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "sky",
+    "title": "codex.quest.story_expedition.sky.title",
+    "icon": "aether:aether_portal_frame",
+    "x": -1,
+    "y": 1,
+    "deps": [
+     "kit"
+    ],
+    "text": [
+     "codex.quest.story_expedition.sky.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "aether:the_aether"
+     },
+     {
+      "type": "item",
+      "id": "aether:bronze_dungeon_key",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "aether:ambrosium_shard",
+       "count": 32
+      },
+      {
+       "id": "aether:skyroot_bucket",
+       "count": 1
+      }
+     ],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "dusk",
+    "title": "codex.quest.story_expedition.dusk.title",
+    "icon": "twilightforest:naga_trophy",
+    "x": 1,
+    "y": 1,
+    "deps": [
+     "kit"
+    ],
+    "text": [
+     "codex.quest.story_expedition.dusk.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "twilightforest:twilight_forest"
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:naga_trophy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:lich_trophy",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "twilightforest:charm_of_life_1",
+       "count": 2
+      },
+      {
+       "id": "twilightforest:charm_of_keeping_1",
+       "count": 1
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "comets",
+    "title": "codex.quest.story_expedition.comets.title",
+    "icon": "eternal_tales:comets",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "sky",
+     "dusk"
+    ],
+    "text": [
+     "codex.quest.story_expedition.comets.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "eternal_tales:comets"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_terrible_tree"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:return_ticket",
+       "count": 2
+      },
+      {
+       "id": "eternal_tales:skylite_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "purg",
+    "title": "codex.quest.story_expedition.purg.title",
+    "icon": "eternal_tales:purgatorium",
+    "x": 0,
+    "y": 3,
+    "deps": [
+     "comets"
+    ],
+    "text": [
+     "codex.quest.story_expedition.purg.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "eternal_tales:purgatorium"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_nyetet"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:sun_stone_nugget",
+       "count": 4
+      },
+      {
+       "id": "eternal_tales:lapsidian_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "eden",
+    "title": "codex.quest.story_expedition.eden.title",
+    "icon": "eternal_tales:gardens_of_eden",
+    "x": 0,
+    "y": 4,
+    "deps": [
+     "purg"
+    ],
+    "text": [
+     "codex.quest.story_expedition.eden.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "eternal_tales:gardens_of_eden"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:eden_quest"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:aragotium_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "rayana",
+    "title": "codex.quest.story_expedition.rayana.title",
+    "icon": "eternal_tales:rayana",
+    "x": -1,
+    "y": 5,
+    "deps": [
+     "eden"
+    ],
+    "text": [
+     "codex.quest.story_expedition.rayana.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "eternal_tales:rayana"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_pterion"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:destroyer_eye",
+       "count": 2
+      }
+     ],
+     "xp": 350,
+     "text": []
+    }
+   },
+   {
+    "id": "karvat",
+    "title": "codex.quest.story_expedition.karvat.title",
+    "icon": "eternal_tales:lands_of_karvat",
+    "x": 1,
+    "y": 5,
+    "deps": [
+     "eden"
+    ],
+    "text": [
+     "codex.quest.story_expedition.karvat.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "eternal_tales:lands_of_karvat"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_enicrih"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_arla"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_ikkorh"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:spore_edennus",
+       "count": 8
+      },
+      {
+       "id": "eternal_tales:crimson_eel",
+       "count": 8
+      }
+     ],
+     "xp": 350,
+     "text": []
+    }
+   },
+   {
+    "id": "volcanech",
+    "title": "codex.quest.story_expedition.volcanech.title",
+    "icon": "eternal_tales:volcanech",
+    "x": 0,
+    "y": 6,
+    "deps": [
+     "rayana",
+     "karvat"
+    ],
+    "text": [
+     "codex.quest.story_expedition.volcanech.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "eternal_tales:volcanech"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_arahulum"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:truadamantite_ingot",
+       "count": 4
+      },
+      {
+       "id": "eternal_tales:flame_sphere",
+       "count": 1
+      }
+     ],
+     "xp": 450,
+     "text": []
+    }
+   },
+   {
+    "id": "amber",
+    "title": "codex.quest.story_expedition.amber.title",
+    "icon": "eternal_tales:kingdom_of_amber",
+    "x": 0,
+    "y": 7,
+    "deps": [
+     "volcanech"
+    ],
+    "text": [
+     "codex.quest.story_expedition.amber.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "eternal_tales:kingdom_of_amber"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_xaxxas_xix"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:damaged_astral",
+       "count": 1
+      },
+      {
+       "id": "eternal_tales:pharos",
+       "count": 1
+      }
+     ],
+     "xp": 700,
+     "text": []
+    }
+   },
+   {
+    "id": "unahzaal",
+    "title": "codex.quest.story_expedition.unahzaal.title",
+    "icon": "eternal_tales:unahzaal_multiverse",
+    "x": 0,
+    "y": 8,
+    "deps": [
+     "amber"
+    ],
+    "text": [
+     "codex.quest.story_expedition.unahzaal.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "eternal_tales:unahzaal_multiverse"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_unahzaal"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "eternal_tales:the_ultimate_bricks",
+       "count": 32
+      },
+      {
+       "id": "minecraft:nether_star",
+       "count": 2
+      }
+     ],
+     "xp": 1500,
+     "text": [
+      "codex.quest.story_expedition.unahzaal.reward.0"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "story_colony",
+  "section": "story",
+  "order": 40,
+  "title": "codex.chapter.story_colony.title",
+  "icon": "minecolonies:blockhuttownhall",
+  "subtitle": "codex.chapter.story_colony.subtitle",
+  "intro": [
+   "codex.chapter.story_colony.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "found",
+    "title": "codex.quest.story_colony.found.title",
+    "icon": "minecolonies:supplychestdeployer",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.story_colony.found.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhuttownhall",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutbuilder",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutcitizen",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:oak_log",
+       "count": 64
+      },
+      {
+       "id": "minecraft:cobblestone",
+       "count": 128
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "supply",
+    "title": "codex.quest.story_colony.supply.title",
+    "icon": "minecolonies:blockhutwarehouse",
+    "x": 0,
+    "y": 1,
+    "deps": [
+     "found"
+    ],
+    "text": [
+     "codex.quest.story_colony.supply.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutwarehouse",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutdeliveryman",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutcook",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:bread",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecolonies:blockminecoloniesrack",
+       "count": 16
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "wood",
+    "title": "codex.quest.story_colony.wood.title",
+    "icon": "minecolonies:blockhutlumberjack",
+    "x": -1,
+    "y": 2,
+    "deps": [
+     "supply"
+    ],
+    "text": [
+     "codex.quest.story_colony.wood.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutlumberjack",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutsawmill",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutminer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutstonemason",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_ingot",
+       "count": 32
+      }
+     ],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "guard",
+    "title": "codex.quest.story_colony.guard.title",
+    "icon": "minecolonies:blockhutguardtower",
+    "x": 1,
+    "y": 2,
+    "deps": [
+     "supply"
+    ],
+    "text": [
+     "codex.quest.story_colony.guard.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutguardtower",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:banner_rally_guards",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_sword",
+       "count": 2
+      },
+      {
+       "id": "minecraft:bow",
+       "count": 2
+      },
+      {
+       "id": "minecraft:arrow",
+       "count": 64
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "population",
+    "title": "codex.quest.story_colony.population.title",
+    "icon": "minecolonies:blockhuttavern",
+    "x": 0,
+    "y": 3,
+    "deps": [
+     "wood",
+     "guard"
+    ],
+    "text": [
+     "codex.quest.story_colony.population.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "minecolonies:minecolonies/colony_population_25"
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhuthospital",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:emerald",
+       "count": 16
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "science",
+    "title": "codex.quest.story_colony.science.title",
+    "icon": "minecolonies:blockhutuniversity",
+    "x": -1,
+    "y": 4,
+    "deps": [
+     "population"
+    ],
+    "text": [
+     "codex.quest.story_colony.science.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutlibrary",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutschool",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutuniversity",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecolonies:ancienttome",
+       "count": 2
+      },
+      {
+       "id": "minecraft:book",
+       "count": 32
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "industry",
+    "title": "codex.quest.story_colony.industry.title",
+    "icon": "minecolonies:blockhutmechanic",
+    "x": 1,
+    "y": 4,
+    "deps": [
+     "population"
+    ],
+    "text": [
+     "codex.quest.story_colony.industry.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutsmeltery",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutblacksmith",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutmechanic",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create:andesite_alloy",
+       "count": 64
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "network",
+    "title": "codex.quest.story_colony.network.title",
+    "icon": "refinedstorage:external_storage",
+    "x": 0,
+    "y": 5,
+    "deps": [
+     "science",
+     "industry"
+    ],
+    "text": [
+     "codex.quest.story_colony.network.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:external_storage",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "refinedstorage:grid",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "refinedstorage:4k_storage_disk",
+       "count": 2
+      }
+     ],
+     "xp": 250,
+     "text": []
+    }
+   },
+   {
+    "id": "garrison",
+    "title": "codex.quest.story_colony.garrison.title",
+    "icon": "minecolonies:blockhutbarracks",
+    "x": -1,
+    "y": 6,
+    "deps": [
+     "network"
+    ],
+    "text": [
+     "codex.quest.story_colony.garrison.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutbarracks",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "minecolonies:military/army_8"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:diamond",
+       "count": 8
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "fifty",
+    "title": "codex.quest.story_colony.fifty.title",
+    "icon": "minecolonies:blockhutmysticalsite",
+    "x": 1,
+    "y": 6,
+    "deps": [
+     "network"
+    ],
+    "text": [
+     "codex.quest.story_colony.fifty.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "minecolonies:minecolonies/colony_population_50"
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutmysticalsite",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:emerald_block",
+       "count": 4
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   },
+   {
+    "id": "technopolis",
+    "title": "codex.quest.story_colony.technopolis.title",
+    "icon": "minecolonies:blockhuttownhall",
+    "x": 0,
+    "y": 7,
+    "deps": [
+     "garrison",
+     "fifty"
+    ],
+    "text": [
+     "codex.quest.story_colony.technopolis.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "minecolonies:minecolonies/build_town_hall_5"
+     },
+     {
+      "type": "item",
+      "id": "mekanism:ultimate_control_circuit",
+      "count": 8,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:ultimate_control_circuit",
+       "count": 16
+      },
+      {
+       "id": "minecraft:netherite_ingot",
+       "count": 4
+      }
+     ],
+     "xp": 800,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "story_sky",
+  "section": "story",
+  "order": 50,
+  "title": "codex.chapter.story_sky.title",
+  "icon": "aeronautics:white_envelope",
+  "subtitle": "codex.chapter.story_sky.subtitle",
+  "intro": [
+   "codex.chapter.story_sky.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "lift",
+    "title": "codex.quest.story_sky.lift.title",
+    "icon": "simulated:physics_assembler",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.story_sky.lift.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "simulated:physics_assembler",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "aeronautics:levitite",
+      "count": 16,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "aeronautics:white_envelope",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "aeronautics:levitite",
+       "count": 32
+      },
+      {
+       "id": "aeronautics:adjustable_burner",
+       "count": 2
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "cast",
+    "title": "codex.quest.story_sky.cast.title",
+    "icon": "createbigcannons:cannon_cast",
+    "x": -1,
+    "y": 1,
+    "deps": [
+     "lift"
+    ],
+    "text": [
+     "codex.quest.story_sky.cast.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:cast_iron_cannon_barrel",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:bronze_ingot",
+       "count": 16
+      },
+      {
+       "id": "createbigcannons:powder_charge",
+       "count": 16
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "eyes",
+    "title": "codex.quest.story_sky.eyes.title",
+    "icon": "create_radar:plane_radar",
+    "x": 1,
+    "y": 1,
+    "deps": [
+     "lift"
+    ],
+    "text": [
+     "codex.quest.story_sky.eyes.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_radar:plane_radar",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:data_link",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create_radar:monitor",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create_radar:radar_plate_block",
+       "count": 16
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "mount",
+    "title": "codex.quest.story_sky.mount.title",
+    "icon": "create_radar:auto_yaw_controller",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "cast",
+     "eyes"
+    ],
+    "text": [
+     "codex.quest.story_sky.mount.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:cannon_mount",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:auto_yaw_controller",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:auto_pitch_controller",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:fire_controller",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:steel_ingot",
+       "count": 32
+      }
+     ],
+     "xp": 250,
+     "text": []
+    }
+   },
+   {
+    "id": "flak",
+    "title": "codex.quest.story_sky.flak.title",
+    "icon": "createbigcannons:flak_autocannon_round",
+    "x": -1,
+    "y": 3,
+    "deps": [
+     "mount"
+    ],
+    "text": [
+     "codex.quest.story_sky.flak.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createbigcannons:steel_autocannon_barrel",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createbigcannons:flak_autocannon_round",
+      "count": 64,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "createbigcannons:autocannon_ammo_container",
+       "count": 2
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "missile",
+    "title": "codex.quest.story_sky.missile.title",
+    "icon": "cbcaeronauticsmissiles:guidance_computer",
+    "x": 1,
+    "y": 3,
+    "deps": [
+     "mount"
+    ],
+    "text": [
+     "codex.quest.story_sky.missile.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:rocket_motor",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:actuator_fins",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:guidance_computer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cbcaeronauticsmissiles:missile_mount",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cbcaeronauticsmissiles:rocket_motor",
+       "count": 8
+      },
+      {
+       "id": "cbcaeronauticsmissiles:aircraft_proximity_fuze",
+       "count": 4
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "fleet",
+    "title": "codex.quest.story_sky.fleet.title",
+    "icon": "simulated:navigation_table",
+    "x": 0,
+    "y": 4,
+    "deps": [
+     "flak",
+     "missile"
+    ],
+    "text": [
+     "codex.quest.story_sky.fleet.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "simulated:navigation_table",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:identification_transponder",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "simulated:gyroscopic_mechanism",
+      "count": 4,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "aeronautics:pearlescent_levitite",
+       "count": 32
+      },
+      {
+       "id": "simulated:gyroscopic_mechanism",
+       "count": 8
+      }
+     ],
+     "xp": 800,
+     "text": [
+      "codex.quest.story_sky.fleet.reward.0"
+     ]
+    }
+   }
+  ]
+ }
+]

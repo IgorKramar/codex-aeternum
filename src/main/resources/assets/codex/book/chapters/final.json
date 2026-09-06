@@ -1,0 +1,624 @@
+[
+ {
+  "id": "final_bridges",
+  "section": "final",
+  "order": 10,
+  "title": "codex.chapter.final_bridges.title",
+  "icon": "createaddition:electric_motor",
+  "subtitle": "codex.chapter.final_bridges.subtitle",
+  "intro": [
+   "codex.chapter.final_bridges.intro.0",
+   "codex.chapter.final_bridges.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "rot_to_fe",
+    "title": "codex.quest.final_bridges.rot_to_fe.title",
+    "icon": "createaddition:alternator",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.final_bridges.rot_to_fe.text.0",
+     "codex.quest.final_bridges.rot_to_fe.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "createaddition:alternator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createaddition:electric_motor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:capacitor_lv",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:basic_energy_cube",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": [
+      "codex.quest.final_bridges.rot_to_fe.reward.0"
+     ]
+    }
+   },
+   {
+    "id": "ore_chain",
+    "title": "codex.quest.final_bridges.ore_chain.title",
+    "icon": "mekanism:chemical_dissolution_chamber",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.final_bridges.ore_chain.text.0",
+     "codex.quest.final_bridges.ore_chain.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:crushing_wheel",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:crusher",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:chemical_dissolution_chamber",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "fuel_chain",
+    "title": "codex.quest.final_bridges.fuel_chain.title",
+    "icon": "immersiveengineering:refinery",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.final_bridges.fuel_chain.text.0",
+     "codex.quest.final_bridges.fuel_chain.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:cloche",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:biodiesel_bucket",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "createaddition:bioethanol_bucket",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "storage_bridge",
+    "title": "codex.quest.final_bridges.storage_bridge.title",
+    "icon": "refinedstorage:external_storage",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.final_bridges.storage_bridge.text.0",
+     "codex.quest.final_bridges.storage_bridge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:external_storage",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:item_vault",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:basic_bin",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "autocraft_bridge",
+    "title": "codex.quest.final_bridges.autocraft_bridge.title",
+    "icon": "refinedstorage:autocrafter",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.final_bridges.autocraft_bridge.text.0",
+     "codex.quest.final_bridges.autocraft_bridge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:autocrafter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "refinedstorage:pattern",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": [
+      "codex.quest.final_bridges.autocraft_bridge.reward.0"
+     ]
+    }
+   },
+   {
+    "id": "logistics_bridge",
+    "title": "codex.quest.final_bridges.logistics_bridge.title",
+    "icon": "create:stock_ticker",
+    "x": 2,
+    "y": 1,
+    "text": [
+     "codex.quest.final_bridges.logistics_bridge.text.0",
+     "codex.quest.final_bridges.logistics_bridge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:stock_ticker",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "refinedstorage:grid",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "colony_bridge",
+    "title": "codex.quest.final_bridges.colony_bridge.title",
+    "icon": "minecolonies:blockhutmechanic",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.final_bridges.colony_bridge.text.0",
+     "codex.quest.final_bridges.colony_bridge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutmechanic",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutwarehouse",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "transport_bridge",
+    "title": "codex.quest.final_bridges.transport_bridge.title",
+    "icon": "create:track_station",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.final_bridges.transport_bridge.text.0",
+     "codex.quest.final_bridges.transport_bridge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:track_station",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:portable_storage_interface",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:teleporter",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "defense_bridge",
+    "title": "codex.quest.final_bridges.defense_bridge.title",
+    "icon": "create_radar:fire_controller",
+    "x": 2,
+    "y": 2,
+    "text": [
+     "codex.quest.final_bridges.defense_bridge.text.0",
+     "codex.quest.final_bridges.defense_bridge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:turret_gun",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutbarracks",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:fire_controller",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "adventure_bridge",
+    "title": "codex.quest.final_bridges.adventure_bridge.title",
+    "icon": "mekanism:meka_tool",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.final_bridges.adventure_bridge.text.0",
+     "codex.quest.final_bridges.adventure_bridge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:meka_tool",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:mekasuit_bodyarmor",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "final_goals",
+  "section": "final",
+  "order": 20,
+  "title": "codex.chapter.final_goals.title",
+  "icon": "minecraft:nether_star",
+  "subtitle": "codex.chapter.final_goals.subtitle",
+  "intro": [
+   "codex.chapter.final_goals.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "goal_create",
+    "title": "codex.quest.final_goals.goal_create.title",
+    "icon": "create:factory_gauge",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.final_goals.goal_create.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:factory_gauge",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "create:steam_engine",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "simulated:physics_assembler",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "goal_ie",
+    "title": "codex.quest.final_goals.goal_ie.title",
+    "icon": "immersiveengineering:excavator",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.final_goals.goal_ie.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:excavator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:arc_furnace",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:diesel_generator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:railgun",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "goal_mek",
+    "title": "codex.quest.final_goals.goal_mek.title",
+    "icon": "mekanism:pellet_antimatter",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.final_goals.goal_mek.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:pellet_antimatter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:mekasuit_bodyarmor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:meka_tool",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanismgenerators:fusion_reactor_controller",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "goal_storage",
+    "title": "codex.quest.final_goals.goal_storage.title",
+    "icon": "refinedstorage:64k_storage_disk",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.final_goals.goal_storage.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:64k_storage_disk",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "refinedstorage:wireless_grid",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:qio_drive_supermassive",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "goal_colony",
+    "title": "codex.quest.final_goals.goal_colony.title",
+    "icon": "minecolonies:blockhuttownhall",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.final_goals.goal_colony.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "minecolonies:minecolonies/colony_population_50"
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutuniversity",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutbarracks",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "goal_adventure",
+    "title": "codex.quest.final_goals.goal_adventure.title",
+    "icon": "twilightforest:lamp_of_cinders",
+    "x": 2,
+    "y": 1,
+    "text": [
+     "codex.quest.final_goals.goal_adventure.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:hammer_of_kingbdogz",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:lamp_of_cinders",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:trophy_pedestal",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "goal_eternal",
+    "title": "codex.quest.final_goals.goal_eternal.title",
+    "icon": "eternal_tales:the_ultimate_two",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.final_goals.goal_eternal.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "eternal_tales:kill_unahzaal"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:enter_in_the_ultimate_world"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:get_the_ultimate_two"
+     },
+     {
+      "type": "advancement",
+      "id": "eternal_tales:pass_all_quests"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "goal_all",
+    "title": "codex.quest.final_goals.goal_all.title",
+    "icon": "minecraft:nether_star",
+    "x": 1,
+    "y": 2,
+    "deps": [
+     "goal_create",
+     "goal_ie",
+     "goal_mek",
+     "goal_storage",
+     "goal_colony",
+     "goal_adventure",
+     "goal_eternal"
+    ],
+    "text": [
+     "codex.quest.final_goals.goal_all.text.0",
+     "codex.quest.final_goals.goal_all.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:nether_star",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:nether_star",
+       "count": 1
+      },
+      {
+       "id": "minecraft:enchanted_golden_apple",
+       "count": 4
+      }
+     ],
+     "xp": 5000,
+     "text": []
+    },
+    "shape": "big"
+   }
+  ]
+ }
+]
