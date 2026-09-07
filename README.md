@@ -39,17 +39,21 @@ chapters, linked quests with rewards, item turn-ins and server-side progress.
 | Вернуть вид в центр | `Home` |
 | Рецепт / применение предмета | ЛКМ / ПКМ по иконке цели |
 
+### Установка
+
+Готовый jar — на странице [релизов](https://github.com/IgorKramar/codex-aeternum/releases).
+Кладётся в папку `mods` клиента и сервера.
+
 ### Сборка
 
-Gradle не нужен: мод компилируется напрямую против библиотек, которые уже скачал
-PrismLauncher.
+Нужен только JDK 21 — остальное Gradle скачает сам:
 
 ```
-./build.sh
+./gradlew build
 ```
 
-Переменные `PRISM`, `JAVA_HOME_21`, `NEO_VER`, `MC_ART`, `MODS` переопределяют пути.
-Результат — `build/libs/codex-aeternum-1.0.0.jar`.
+Результат — `build/libs/codex-aeternum-1.0.0.jar`. Версия мода, версия NeoForge и версия
+JEI задаются в `gradle.properties`; версия оттуда же попадает в манифест мода.
 
 ### Содержимое книги
 
@@ -97,17 +101,21 @@ server the book runs as a reference: progress is stored locally and no rewards a
 | Reset view | `Home` |
 | Recipe / uses of an item | LMB / RMB on an objective icon |
 
+### Installing
+
+Grab the jar from the [releases page](https://github.com/IgorKramar/codex-aeternum/releases)
+and drop it into the `mods` folder of both client and server.
+
 ### Building
 
-No Gradle: the mod compiles directly against the libraries PrismLauncher already
-downloaded.
+JDK 21 is the only prerequisite; Gradle fetches the rest:
 
 ```
-./build.sh
+./gradlew build
 ```
 
-`PRISM`, `JAVA_HOME_21`, `NEO_VER`, `MC_ART` and `MODS` override the paths.
-Output: `build/libs/codex-aeternum-1.0.0.jar`.
+Output: `build/libs/codex-aeternum-1.0.0.jar`. Mod, NeoForge and JEI versions live in
+`gradle.properties`, and the mod version is injected into the mod manifest from there.
 
 ### Book content
 
