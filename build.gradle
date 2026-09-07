@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.146'
+}
+
+group = 'ru.kramar'
+version = mod_version
+base.archivesName = 'codex-aeternum'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    maven {
+        name = 'BlameJared'
+        url = 'https://maven.blamejared.com'
+        content { includeGroup 'mezz.jei' }
+    }
+}
+
+neoForge {
+    version = neoforge_version
+}
+
+dependencies {
+    compileOnly "mezz.jei:jei-1.21.1-neoforge-api:${jei_version}"
+}
+
+tasks.named('processResources', ProcessResources) {
+    inputs.property 'version', version
+
+    // Версия мода живёт в gradle.properties, в манифест попадает отсюда
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand version: version
+    }
+
+    // Та же книга нужна серверу как датапак: в репозитории лежит только копия для клиента
+    from('src/main/resources/assets/codex/book') {
+        into 'data/codex/book'
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}

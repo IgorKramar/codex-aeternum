@@ -5,7 +5,7 @@ issueTrackerURL = "https://github.com/IgorKramar/codex-aeternum/issues"
 
 [[mods]]
 modId = "codex"
-version = "1.0.0"
+version = "${version}"
 displayName = "Codex Aeternum"
 authors = "Igor Kramar"
 description = '''

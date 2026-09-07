@@ -4,3 +4,5 @@ build/
 *.iml
 __pycache__/
 tools/__pycache__/
+.gradle/
+run/
