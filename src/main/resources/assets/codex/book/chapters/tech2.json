@@ -452,5 +452,1083 @@
     "optional": true
    }
   ]
+ },
+ {
+  "id": "tech2_pneumatic",
+  "section": "tech2",
+  "order": 10,
+  "title": "codex.chapter.tech2_pneumatic.title",
+  "icon": "pneumaticcraft:air_compressor",
+  "subtitle": "codex.chapter.tech2_pneumatic.subtitle",
+  "intro": [
+   "codex.chapter.tech2_pneumatic.intro.0",
+   "codex.chapter.tech2_pneumatic.intro.1",
+   "codex.chapter.tech2_pneumatic.intro.2"
+  ],
+  "quests": [
+   {
+    "id": "compressed",
+    "title": "codex.quest.tech2_pneumatic.compressed.title",
+    "icon": "pneumaticcraft:ingot_iron_compressed",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.tech2_pneumatic.compressed.text.0",
+     "codex.quest.tech2_pneumatic.compressed.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:ingot_iron_compressed",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:tnt",
+       "count": 8
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "compressor",
+    "title": "codex.quest.tech2_pneumatic.compressor.title",
+    "icon": "pneumaticcraft:air_compressor",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.tech2_pneumatic.compressor.text.0",
+     "codex.quest.tech2_pneumatic.compressor.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:air_compressor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:pressure_tube",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:manometer",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "pneumaticcraft:pressure_tube",
+       "count": 8
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "compressed"
+    ]
+   },
+   {
+    "id": "chamber",
+    "title": "codex.quest.tech2_pneumatic.chamber.title",
+    "icon": "pneumaticcraft:pressure_chamber_valve",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.tech2_pneumatic.chamber.text.0",
+     "codex.quest.tech2_pneumatic.chamber.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:pressure_chamber_wall",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:pressure_chamber_valve",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:pressure_chamber_interface",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "pneumaticcraft:pressure_chamber_wall",
+       "count": 8
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "compressor"
+    ]
+   },
+   {
+    "id": "plastic",
+    "title": "codex.quest.tech2_pneumatic.plastic.title",
+    "icon": "pneumaticcraft:plastic",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.tech2_pneumatic.plastic.text.0",
+     "codex.quest.tech2_pneumatic.plastic.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:plastic",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:refinery",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "pneumaticcraft:plastic",
+       "count": 16
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "chamber"
+    ]
+   },
+   {
+    "id": "pcb",
+    "title": "codex.quest.tech2_pneumatic.pcb.title",
+    "icon": "pneumaticcraft:printed_circuit_board",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.tech2_pneumatic.pcb.text.0",
+     "codex.quest.tech2_pneumatic.pcb.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:empty_pcb",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:etching_tank",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:printed_circuit_board",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "pneumaticcraft:printed_circuit_board",
+       "count": 4
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "plastic"
+    ]
+   },
+   {
+    "id": "assembly",
+    "title": "codex.quest.tech2_pneumatic.assembly.title",
+    "icon": "pneumaticcraft:assembly_controller",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.tech2_pneumatic.assembly.text.0",
+     "codex.quest.tech2_pneumatic.assembly.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:assembly_controller",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:assembly_platform",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:assembly_drill",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:assembly_laser",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "pneumaticcraft:plastic",
+       "count": 32
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "pcb"
+    ]
+   },
+   {
+    "id": "drone",
+    "title": "codex.quest.tech2_pneumatic.drone.title",
+    "icon": "pneumaticcraft:drone",
+    "x": 0,
+    "y": 6,
+    "text": [
+     "codex.quest.tech2_pneumatic.drone.text.0",
+     "codex.quest.tech2_pneumatic.drone.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:programmer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:gps_tool",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:drone",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "pneumaticcraft:drone",
+       "count": 2
+      }
+     ],
+     "xp": 500,
+     "text": []
+    },
+    "deps": [
+     "assembly"
+    ]
+   },
+   {
+    "id": "armor",
+    "title": "codex.quest.tech2_pneumatic.armor.title",
+    "icon": "pneumaticcraft:pneumatic_helmet",
+    "x": 0,
+    "y": 7,
+    "text": [
+     "codex.quest.tech2_pneumatic.armor.text.0",
+     "codex.quest.tech2_pneumatic.armor.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:pneumatic_helmet",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:pneumatic_chestplate",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:charging_station",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "pneumaticcraft:air_canister",
+       "count": 4
+      }
+     ],
+     "xp": 600,
+     "text": []
+    },
+    "deps": [
+     "drone"
+    ]
+   },
+   {
+    "id": "elevator",
+    "title": "codex.quest.tech2_pneumatic.elevator.title",
+    "icon": "pneumaticcraft:elevator_base",
+    "x": 1,
+    "y": 6,
+    "deps": [
+     "assembly"
+    ],
+    "text": [
+     "codex.quest.tech2_pneumatic.elevator.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:elevator_base",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:elevator_frame",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "pneumaticcraft:plastic",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "optional": true
+   }
+  ]
+ },
+ {
+  "id": "tech2_foregoing",
+  "section": "tech2",
+  "order": 20,
+  "title": "codex.chapter.tech2_foregoing.title",
+  "icon": "industrialforegoing:machine_frame_pity",
+  "subtitle": "codex.chapter.tech2_foregoing.subtitle",
+  "intro": [
+   "codex.chapter.tech2_foregoing.intro.0",
+   "codex.chapter.tech2_foregoing.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "latex",
+    "title": "codex.quest.tech2_foregoing.latex.title",
+    "icon": "industrialforegoing:latex_processing_unit",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.tech2_foregoing.latex.text.0",
+     "codex.quest.tech2_foregoing.latex.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "industrialforegoing:latex_processing_unit",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:dryrubber",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:plastic",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "industrialforegoing:plastic",
+       "count": 16
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "frames",
+    "title": "codex.quest.tech2_foregoing.frames.title",
+    "icon": "industrialforegoing:machine_frame_pity",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.tech2_foregoing.frames.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "industrialforegoing:machine_frame_pity",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:machine_frame_simple",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "industrialforegoing:machine_frame_pity",
+       "count": 4
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "latex"
+    ]
+   },
+   {
+    "id": "farm",
+    "title": "codex.quest.tech2_foregoing.farm.title",
+    "icon": "industrialforegoing:plant_gatherer",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.tech2_foregoing.farm.text.0",
+     "codex.quest.tech2_foregoing.farm.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "industrialforegoing:plant_sower",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:plant_gatherer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:fertilizer",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "industrialforegoing:fertilizer",
+       "count": 16
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "frames"
+    ]
+   },
+   {
+    "id": "animals",
+    "title": "codex.quest.tech2_foregoing.animals.title",
+    "icon": "industrialforegoing:animal_rancher",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.tech2_foregoing.animals.text.0",
+     "codex.quest.tech2_foregoing.animals.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "industrialforegoing:animal_rancher",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:animal_feeder",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:mob_crusher",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "industrialforegoing:pink_slime_ingot",
+       "count": 4
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "farm"
+    ]
+   },
+   {
+    "id": "blackhole",
+    "title": "codex.quest.tech2_foregoing.blackhole.title",
+    "icon": "industrialforegoing:black_hole_unit",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.tech2_foregoing.blackhole.text.0",
+     "codex.quest.tech2_foregoing.blackhole.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "industrialforegoing:black_hole_unit",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:black_hole_tank",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:black_hole_controller",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "industrialforegoing:black_hole_unit",
+       "count": 2
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "animals"
+    ]
+   },
+   {
+    "id": "laser",
+    "title": "codex.quest.tech2_foregoing.laser.title",
+    "icon": "industrialforegoing:laser_drill",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.tech2_foregoing.laser.text.0",
+     "codex.quest.tech2_foregoing.laser.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "industrialforegoing:laser_drill",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:fluid_laser_base",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:laser_lens",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "industrialforegoing:machine_frame_advanced",
+       "count": 2
+      }
+     ],
+     "xp": 600,
+     "text": []
+    },
+    "deps": [
+     "blackhole"
+    ]
+   },
+   {
+    "id": "stonework",
+    "title": "codex.quest.tech2_foregoing.stonework.title",
+    "icon": "industrialforegoing:material_stonework_factory",
+    "x": 1,
+    "y": 5,
+    "deps": [
+     "blackhole"
+    ],
+    "text": [
+     "codex.quest.tech2_foregoing.stonework.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "industrialforegoing:material_stonework_factory",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:stone",
+       "count": 64
+      }
+     ],
+     "xp": 350,
+     "text": []
+    },
+    "optional": true
+   }
+  ]
+ },
+ {
+  "id": "tech2_powah",
+  "section": "tech2",
+  "order": 30,
+  "title": "codex.chapter.tech2_powah.title",
+  "icon": "powah:energy_cell_starter",
+  "subtitle": "codex.chapter.tech2_powah.subtitle",
+  "intro": [
+   "codex.chapter.tech2_powah.intro.0",
+   "codex.chapter.tech2_powah.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "dielectric",
+    "title": "codex.quest.tech2_powah.dielectric.title",
+    "icon": "powah:dielectric_paste",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.tech2_powah.dielectric.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "powah:dielectric_paste",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "powah:dielectric_casing",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "powah:dielectric_paste",
+       "count": 16
+      }
+     ],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "generators",
+    "title": "codex.quest.tech2_powah.generators.title",
+    "icon": "powah:thermo_generator_starter",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.tech2_powah.generators.text.0",
+     "codex.quest.tech2_powah.generators.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "powah:thermo_generator_starter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "powah:furnator_starter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "powah:magmator_starter",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "powah:energy_cable_starter",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "dielectric"
+    ]
+   },
+   {
+    "id": "cells",
+    "title": "codex.quest.tech2_powah.cells.title",
+    "icon": "powah:energy_cell_starter",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.tech2_powah.cells.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "powah:energy_cell_starter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "powah:energy_cable_starter",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "powah:ender_cell_starter",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "powah:energy_cell_basic",
+       "count": 1
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "generators"
+    ]
+   },
+   {
+    "id": "energizing",
+    "title": "codex.quest.tech2_powah.energizing.title",
+    "icon": "powah:energizing_orb",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.tech2_powah.energizing.text.0",
+     "codex.quest.tech2_powah.energizing.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "powah:energizing_orb",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "powah:energizing_rod_starter",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "powah:steel_energized",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "powah:steel_energized",
+       "count": 8
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "cells"
+    ]
+   },
+   {
+    "id": "crystals",
+    "title": "codex.quest.tech2_powah.crystals.title",
+    "icon": "powah:blazing_crystal",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.tech2_powah.crystals.text.0",
+     "codex.quest.tech2_powah.crystals.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "powah:blazing_crystal",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "powah:niotic_crystal",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "powah:blazing_crystal",
+       "count": 8
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "energizing"
+    ]
+   },
+   {
+    "id": "reactor",
+    "title": "codex.quest.tech2_powah.reactor.title",
+    "icon": "powah:reactor_starter",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.tech2_powah.reactor.text.0",
+     "codex.quest.tech2_powah.reactor.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "powah:uraninite_raw",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "powah:uraninite",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "powah:reactor_starter",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "powah:uraninite",
+       "count": 8
+      }
+     ],
+     "xp": 600,
+     "text": []
+    },
+    "deps": [
+     "crystals"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tech2_petroleum",
+  "section": "tech2",
+  "order": 40,
+  "title": "codex.chapter.tech2_petroleum.title",
+  "icon": "immersivepetroleum:pumpjack",
+  "subtitle": "codex.chapter.tech2_petroleum.subtitle",
+  "intro": [
+   "codex.chapter.tech2_petroleum.intro.0",
+   "codex.chapter.tech2_petroleum.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "survey",
+    "title": "codex.quest.tech2_petroleum.survey.title",
+    "icon": "immersivepetroleum:seismic_survey",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.tech2_petroleum.survey.text.0",
+     "codex.quest.tech2_petroleum.survey.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersivepetroleum:seismic_survey",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:coresample",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersivepetroleum:seismic_survey",
+       "count": 2
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "derrick",
+    "title": "codex.quest.tech2_petroleum.derrick.title",
+    "icon": "immersivepetroleum:derrick",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.tech2_petroleum.derrick.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersivepetroleum:derrick",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersiveengineering:ingot_steel",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "survey"
+    ]
+   },
+   {
+    "id": "pumpjack",
+    "title": "codex.quest.tech2_petroleum.pumpjack.title",
+    "icon": "immersivepetroleum:pumpjack",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.tech2_petroleum.pumpjack.text.0",
+     "codex.quest.tech2_petroleum.pumpjack.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersivepetroleum:pumpjack",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersivepetroleum:gasoline_bucket",
+       "count": 4
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "derrick"
+    ]
+   },
+   {
+    "id": "tower",
+    "title": "codex.quest.tech2_petroleum.tower.title",
+    "icon": "immersivepetroleum:distillation_tower",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.tech2_petroleum.tower.text.0",
+     "codex.quest.tech2_petroleum.tower.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersivepetroleum:distillation_tower",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersivepetroleum:flarestack",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersivepetroleum:diesel_bucket",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersivepetroleum:lubricant_bucket",
+       "count": 4
+      }
+     ],
+     "xp": 500,
+     "text": []
+    },
+    "deps": [
+     "pumpjack"
+    ]
+   },
+   {
+    "id": "products",
+    "title": "codex.quest.tech2_petroleum.products.title",
+    "icon": "immersivepetroleum:asphalt",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.tech2_petroleum.products.text.0",
+     "codex.quest.tech2_petroleum.products.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersivepetroleum:asphalt",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "immersivepetroleum:auto_lubricator",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "immersivepetroleum:asphalt",
+       "count": 32
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "tower"
+    ]
+   }
+  ]
  }
 ]
