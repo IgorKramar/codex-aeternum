@@ -1,0 +1,456 @@
+[
+ {
+  "id": "tech2_newage",
+  "section": "tech2",
+  "order": 60,
+  "title": "codex.chapter.tech2_newage.title",
+  "icon": "create_new_age:generator_coil",
+  "subtitle": "codex.chapter.tech2_newage.subtitle",
+  "intro": [
+   "codex.chapter.tech2_newage.intro.0",
+   "codex.chapter.tech2_newage.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "coil",
+    "title": "codex.quest.tech2_newage.coil.title",
+    "icon": "create_new_age:generator_coil",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.tech2_newage.coil.text.0",
+     "codex.quest.tech2_newage.coil.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_new_age:generator_coil",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:carbon_brushes",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:magnetite_block",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:copper_ingot",
+       "count": 32
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "energiser",
+    "title": "codex.quest.tech2_newage.energiser.title",
+    "icon": "create_new_age:basic_energiser",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.tech2_newage.energiser.text.0",
+     "codex.quest.tech2_newage.energiser.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_new_age:basic_energiser",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:overcharged_iron",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create_new_age:overcharged_iron",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "coil"
+    ]
+   },
+   {
+    "id": "wires",
+    "title": "codex.quest.tech2_newage.wires.title",
+    "icon": "create_new_age:copper_wire",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.tech2_newage.wires.text.0",
+     "codex.quest.tech2_newage.wires.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_new_age:electrical_connector",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:copper_wire",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create_new_age:copper_wire",
+       "count": 8
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "energiser"
+    ]
+   },
+   {
+    "id": "motor",
+    "title": "codex.quest.tech2_newage.motor.title",
+    "icon": "create_new_age:basic_motor",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.tech2_newage.motor.text.0",
+     "codex.quest.tech2_newage.motor.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_new_age:basic_motor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:basic_motor_extension",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create_new_age:overcharged_gold",
+       "count": 4
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "wires"
+    ]
+   },
+   {
+    "id": "heat",
+    "title": "codex.quest.tech2_newage.heat.title",
+    "icon": "create_new_age:heat_pipe",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.tech2_newage.heat.text.0",
+     "codex.quest.tech2_newage.heat.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_new_age:heat_pipe",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:stirling_engine",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:heater",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create_new_age:heat_pipe",
+       "count": 8
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "motor"
+    ]
+   },
+   {
+    "id": "thorium",
+    "title": "codex.quest.tech2_newage.thorium.title",
+    "icon": "create_new_age:thorium",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.tech2_newage.thorium.text.0",
+     "codex.quest.tech2_newage.thorium.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_new_age:thorium",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:nuclear_fuel",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create_new_age:thorium",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "heat"
+    ]
+   },
+   {
+    "id": "reactor",
+    "title": "codex.quest.tech2_newage.reactor.title",
+    "icon": "create_new_age:reactor_rod",
+    "x": 0,
+    "y": 6,
+    "text": [
+     "codex.quest.tech2_newage.reactor.text.0",
+     "codex.quest.tech2_newage.reactor.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_new_age:reactor_casing",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:reactor_rod",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:reactor_fuel_acceptor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:reactor_heat_vent",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "create_new_age:overcharged_diamond",
+       "count": 4
+      }
+     ],
+     "xp": 800,
+     "text": []
+    },
+    "deps": [
+     "thorium"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tech2_mektools",
+  "section": "tech2",
+  "order": 70,
+  "title": "codex.chapter.tech2_mektools.title",
+  "icon": "mekanismtools:refined_obsidian_pickaxe",
+  "subtitle": "codex.chapter.tech2_mektools.subtitle",
+  "intro": [
+   "codex.chapter.tech2_mektools.intro.0",
+   "codex.chapter.tech2_mektools.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "lapis",
+    "title": "codex.quest.tech2_mektools.lapis.title",
+    "icon": "mekanismtools:lapis_lazuli_pickaxe",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.tech2_mektools.lapis.text.0",
+     "codex.quest.tech2_mektools.lapis.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanismtools:lapis_lazuli_pickaxe",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:lapis_block",
+       "count": 4
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "glowstone",
+    "title": "codex.quest.tech2_mektools.glowstone.title",
+    "icon": "mekanismtools:refined_glowstone_pickaxe",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.tech2_mektools.glowstone.text.0",
+     "codex.quest.tech2_mektools.glowstone.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanismtools:refined_glowstone_pickaxe",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:glowstone",
+       "count": 16
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "osmium",
+    "title": "codex.quest.tech2_mektools.osmium.title",
+    "icon": "mekanismtools:osmium_paxel",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.tech2_mektools.osmium.text.0",
+     "codex.quest.tech2_mektools.osmium.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanismtools:osmium_paxel",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "mekanismtools:paxel"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:ingot_osmium",
+       "count": 16
+      }
+     ],
+     "xp": 250,
+     "text": []
+    }
+   },
+   {
+    "id": "obsidian",
+    "title": "codex.quest.tech2_mektools.obsidian.title",
+    "icon": "mekanismtools:refined_obsidian_helmet",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.tech2_mektools.obsidian.text.0",
+     "codex.quest.tech2_mektools.obsidian.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanismtools:refined_obsidian_helmet",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanismtools:refined_obsidian_pickaxe",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "mekanismtools:better_than_netherite"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:ingot_refined_obsidian",
+       "count": 8
+      }
+     ],
+     "xp": 500,
+     "text": []
+    }
+   },
+   {
+    "id": "shield",
+    "title": "codex.quest.tech2_mektools.shield.title",
+    "icon": "mekanismtools:osmium_shield",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.tech2_mektools.shield.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanismtools:osmium_shield",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "mekanismtools:not_enough_shielding"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mekanism:ingot_steel",
+       "count": 16
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "optional": true
+   }
+  ]
+ }
+]

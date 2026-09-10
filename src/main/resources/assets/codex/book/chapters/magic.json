@@ -1130,6 +1130,444 @@
   ]
  },
  {
+  "id": "magic_agriculture",
+  "section": "magic",
+  "order": 60,
+  "title": "codex.chapter.magic_agriculture.title",
+  "icon": "mysticalagriculture:supremium_essence",
+  "subtitle": "codex.chapter.magic_agriculture.subtitle",
+  "intro": [
+   "codex.chapter.magic_agriculture.intro.0",
+   "codex.chapter.magic_agriculture.intro.1",
+   "codex.chapter.magic_agriculture.intro.2"
+  ],
+  "quests": [
+   {
+    "id": "inferium",
+    "title": "codex.quest.magic_agriculture.inferium.title",
+    "icon": "mysticalagriculture:inferium_essence",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.magic_agriculture.inferium.text.0",
+     "codex.quest.magic_agriculture.inferium.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:inferium_essence",
+      "count": 32
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:prosperity_shard",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:inferium_essence",
+       "count": 32
+      }
+     ],
+     "xp": 80,
+     "text": []
+    }
+   },
+   {
+    "id": "crystal",
+    "title": "codex.quest.magic_agriculture.crystal.title",
+    "icon": "mysticalagriculture:infusion_crystal",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.magic_agriculture.crystal.text.0",
+     "codex.quest.magic_agriculture.crystal.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:infusion_crystal",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:prudentium_essence",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:prosperity_shard",
+       "count": 16
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "inferium"
+    ]
+   },
+   {
+    "id": "altar",
+    "title": "codex.quest.magic_agriculture.altar.title",
+    "icon": "mysticalagriculture:infusion_altar",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.magic_agriculture.altar.text.0",
+     "codex.quest.magic_agriculture.altar.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:infusion_altar",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:infusion_pedestal",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:prosperity_seed_base",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:prosperity_seed_base",
+       "count": 4
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "crystal"
+    ]
+   },
+   {
+    "id": "first_seeds",
+    "title": "codex.quest.magic_agriculture.first_seeds.title",
+    "icon": "mysticalagriculture:iron_essence",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.magic_agriculture.first_seeds.text.0",
+     "codex.quest.magic_agriculture.first_seeds.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:iron_essence",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_block",
+       "count": 4
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "altar"
+    ]
+   },
+   {
+    "id": "farmland",
+    "title": "codex.quest.magic_agriculture.farmland.title",
+    "icon": "mysticalagriculture:inferium_farmland",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.magic_agriculture.farmland.text.0",
+     "codex.quest.magic_agriculture.farmland.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:inferium_farmland",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:inferium_growth_accelerator",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:mystical_fertilizer",
+       "count": 8
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "first_seeds"
+    ]
+   },
+   {
+    "id": "machines",
+    "title": "codex.quest.magic_agriculture.machines.title",
+    "icon": "mysticalagriculture:harvester",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.magic_agriculture.machines.text.0",
+     "codex.quest.magic_agriculture.machines.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:harvester",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:seed_reprocessor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:machine_frame",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:tertium_essence",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "farmland"
+    ]
+   },
+   {
+    "id": "souls",
+    "title": "codex.quest.magic_agriculture.souls.title",
+    "icon": "mysticalagriculture:soulium_dagger",
+    "x": -1,
+    "y": 5,
+    "deps": [
+     "altar"
+    ],
+    "text": [
+     "codex.quest.magic_agriculture.souls.text.0",
+     "codex.quest.magic_agriculture.souls.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:soulium_dagger",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:soulium_ingot",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:soul_extractor",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:soulium_dust",
+       "count": 8
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "supremium",
+    "title": "codex.quest.magic_agriculture.supremium.title",
+    "icon": "mysticalagriculture:supremium_essence",
+    "x": 0,
+    "y": 6,
+    "text": [
+     "codex.quest.magic_agriculture.supremium.text.0",
+     "codex.quest.magic_agriculture.supremium.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:supremium_essence",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:supremium_ingot",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:supremium_helmet",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:supremium_essence",
+       "count": 16
+      }
+     ],
+     "xp": 600,
+     "text": []
+    },
+    "deps": [
+     "souls"
+    ]
+   },
+   {
+    "id": "augments",
+    "title": "codex.quest.magic_agriculture.augments.title",
+    "icon": "mysticalagriculture:unattuned_augment",
+    "x": 1,
+    "y": 6,
+    "deps": [
+     "supremium"
+    ],
+    "text": [
+     "codex.quest.magic_agriculture.augments.text.0",
+     "codex.quest.magic_agriculture.augments.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:tinkering_table",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:unattuned_augment",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:supremium_ingot",
+       "count": 4
+      }
+     ],
+     "xp": 500,
+     "text": []
+    }
+   },
+   {
+    "id": "awakening",
+    "title": "codex.quest.magic_agriculture.awakening.title",
+    "icon": "mysticalagriculture:awakening_altar",
+    "x": 0,
+    "y": 7,
+    "text": [
+     "codex.quest.magic_agriculture.awakening.text.0",
+     "codex.quest.magic_agriculture.awakening.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:awakening_altar",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:awakening_pedestal",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:essence_vessel",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "mysticalagriculture:awakened_supremium_ingot",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:awakened_supremium_ingot",
+       "count": 4
+      }
+     ],
+     "xp": 1000,
+     "text": []
+    },
+    "deps": [
+     "augments"
+    ]
+   },
+   {
+    "id": "insanium",
+    "title": "codex.quest.magic_agriculture.insanium.title",
+    "icon": "mysticalagradditions:insanium_essence",
+    "x": 0,
+    "y": 8,
+    "text": [
+     "codex.quest.magic_agriculture.insanium.text.0",
+     "codex.quest.magic_agriculture.insanium.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagradditions:insanium_essence",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "mysticalagradditions:nether_star_crux",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mysticalagradditions:nether_star_shard",
+      "count": 3
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:nether_star",
+       "count": 2
+      }
+     ],
+     "xp": 2000,
+     "text": []
+    },
+    "deps": [
+     "awakening"
+    ]
+   }
+  ]
+ },
+ {
   "id": "magic_ars",
   "section": "magic",
   "order": 40,

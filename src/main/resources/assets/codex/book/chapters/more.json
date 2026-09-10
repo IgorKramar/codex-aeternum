@@ -1928,5 +1928,284 @@
     ]
    }
   ]
+ },
+ {
+  "id": "more_qol2",
+  "section": "more",
+  "order": 15,
+  "title": "codex.chapter.more_qol2.title",
+  "icon": "buildinggadgets2:gadget_building",
+  "subtitle": "codex.chapter.more_qol2.subtitle",
+  "intro": [
+   "codex.chapter.more_qol2.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "gadgets",
+    "title": "codex.quest.more_qol2.gadgets.title",
+    "icon": "buildinggadgets2:gadget_building",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.more_qol2.gadgets.text.0",
+     "codex.quest.more_qol2.gadgets.text.1",
+     "codex.quest.more_qol2.gadgets.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "buildinggadgets2:gadget_building",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "buildinggadgets2:gadget_exchanging",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "buildinggadgets2:gadget_copy_paste",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "buildinggadgets2:template_manager",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:diamond",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "hammers",
+    "title": "codex.quest.more_qol2.hammers.title",
+    "icon": "justhammers:iron_hammer",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.more_qol2.hammers.text.0",
+     "codex.quest.more_qol2.hammers.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "justhammers:iron_hammer",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_block",
+       "count": 4
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "trash",
+    "title": "codex.quest.more_qol2.trash.title",
+    "icon": "trashcans:item_trash_can",
+    "x": 2,
+    "y": 0,
+    "text": [
+     "codex.quest.more_qol2.trash.text.0",
+     "codex.quest.more_qol2.trash.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "trashcans:item_trash_can",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "trashcans:trash_can"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:hopper",
+       "count": 4
+      }
+     ],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "lootr2",
+    "title": "codex.quest.more_qol2.lootr2.title",
+    "icon": "lootr:trophy",
+    "x": 3,
+    "y": 0,
+    "text": [
+     "codex.quest.more_qol2.lootr2.text.0",
+     "codex.quest.more_qol2.lootr2.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "lootr:1chest"
+     },
+     {
+      "type": "advancement",
+      "id": "lootr:social"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:gold_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "compasses",
+    "title": "codex.quest.more_qol2.compasses.title",
+    "icon": "naturescompass:naturescompass",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.more_qol2.compasses.text.0",
+     "codex.quest.more_qol2.compasses.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "naturescompass:naturescompass",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "explorerscompass:explorerscompass",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:map",
+       "count": 4
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "enchdesc",
+    "title": "codex.quest.more_qol2.enchdesc.title",
+    "icon": "minecraft:enchanted_book",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.more_qol2.enchdesc.text.0",
+     "codex.quest.more_qol2.enchdesc.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано: Shift показывает описание чар",
+      "note": "codex.quest.more_qol2.enchdesc.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:lapis_lazuli",
+       "count": 32
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "macaw",
+    "title": "codex.quest.more_qol2.macaw.title",
+    "icon": "mcwroofs:oak_roof",
+    "x": 2,
+    "y": 1,
+    "text": [
+     "codex.quest.more_qol2.macaw.text.0",
+     "codex.quest.more_qol2.macaw.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mcwroofs:oak_roof",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mcwroofs:roofing_hammer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mcwwindows:window_base",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mcwroofs:oak_roof",
+       "count": 32
+      },
+      {
+       "id": "mcwlights:wall_lantern",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "styles",
+    "title": "codex.quest.more_qol2.styles.title",
+    "icon": "minecolonies:blockhuttownhall",
+    "x": 3,
+    "y": 1,
+    "text": [
+     "codex.quest.more_qol2.styles.text.0",
+     "codex.quest.more_qol2.styles.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Выбрать новый стиль при постройке колони",
+      "note": "codex.quest.more_qol2.styles.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecolonies:blockhutcitizen",
+       "count": 2
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   }
+  ]
  }
 ]
