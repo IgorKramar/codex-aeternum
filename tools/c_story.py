@@ -30,12 +30,12 @@ chapter(
                 "не зависят от погоды. Классика."],
           tasks=[item("create:large_water_wheel", 2)],
           rewards=loot(("create:cogwheel", 16), ("create:large_cogwheel", 8), xp=50)),
-        Q("source", "Источник найден", "create:stressometer", 0, 2, deps=["wind"],
+        Q("source", "Источник найден", "create:stressometer", -1, 2, deps=["wind"],
           text=["Любой из двух путей приводит сюда: к стрессометру, стрелка которого "
                 "впервые не в красном. Теперь можно ставить машины, а не игрушки."],
           tasks=[item("create:stressometer")],
           rewards=loot(("create:wrench", 1), xp=40)),
-        Q("source_w", "Источник найден", "create:stressometer", 0, 2, deps=["water"],
+        Q("source_w", "Источник найден", "create:stressometer", 1, 2, deps=["water"],
           text=["Двойник узла выше: развилка сходится. Книга засчитает тот путь, "
                 "по которому вы пришли."],
           tasks=[item("create:stressometer")],

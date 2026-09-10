@@ -85,7 +85,7 @@ EN = {
             "datalink": {"title": "Data Link", "text": ["The data link connects radar, monitor and controllers. Filters (target, ident, network) weed out clutter."]},
             "iff": {"title": "Friend or Foe", "text": ["The transponder marks your object as friendly, the safe zone designator excludes an area from fire, the RWR warns you're being painted by someone else's radar."]},
             "controllers": {"title": "Targeting Controllers", "text": ["Auto yaw and pitch controllers aim the mount at a target from the radar. The fire controller gives the shot command with lead."], "rewards": ["An automatic turret"]},
-            "guidance": {"title": "Shell Guidance", "text": ["The guided fuze and ARAD module steer a shell to a target or a radio source. The jammer breaks enemy guidance."]},
+            "guidance": {"title": "Shell Guidance", "text": ["The guided fuze walks a shell onto the mark the radar is holding. The radar warning receiver screams when someone else's beam finds you first, and the identification transponder keeps your own battery from mistaking you for a target."]},
             "misc_radar": {"title": "Miscellany", "text": ["Binoculars zoom and highlight targets; the radio carries voice and signals over distance."]},
         },
     },

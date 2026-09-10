@@ -244,11 +244,14 @@ chapter(
 
         Q("guidance", "Наведение снарядов", "create_radar:guided_fuze", 0, 4,
           text=[
-              "Управляемый взрыватель и модуль ARAD наводят снаряд на цель или на "
-              "источник радиоизлучения. Глушилка (Jammer) срывает чужое наведение.",
+              "Управляемый взрыватель доводит снаряд до отметки, которую держит радар. "
+              "Приёмник предупреждения об облучении кричит, когда луч чужой станции "
+              "нащупал вас первым, а транспондер опознавания не даёт своей же батарее "
+              "принять вас за цель.",
           ],
-          tasks=[item("create_radar:guided_fuze"), item("create_radar:arad_guidance"),
-                 item("create_radar:jammer")]),
+          tasks=[item("create_radar:guided_fuze"),
+                 item("create_radar:radar_warning_receiver"),
+                 item("create_radar:identification_transponder")]),
 
         Q("misc_radar", "Прочее", "create_radar:binoculars", 1, 4,
           text=["Бинокль приближает изображение и подсвечивает цели, радио "

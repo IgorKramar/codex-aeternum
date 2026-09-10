@@ -121,7 +121,7 @@
     "id": "source",
     "title": "codex.quest.story_forge.source.title",
     "icon": "create:stressometer",
-    "x": 0,
+    "x": -1,
     "y": 2,
     "deps": [
      "wind"
@@ -151,7 +151,7 @@
     "id": "source_w",
     "title": "codex.quest.story_forge.source_w.title",
     "icon": "create:stressometer",
-    "x": 0,
+    "x": 1,
     "y": 2,
     "deps": [
      "water"

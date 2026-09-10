@@ -20,8 +20,10 @@ for m in MODULES:
 
 OUT = os.path.join(HERE, "..", "src", "main", "resources", "assets", "codex", "book", "chapters")
 OUT = os.path.normpath(OUT)
-VALID = os.environ.get("VALID_IDS", "")
-VALID_ADV = os.environ.get("VALID_ADV", "")
+# Списки существующих идентификаторов строит tools/scan_pack.py по папке модов.
+# Переменные окружения позволяют указать другие файлы, не трогая репозиторий.
+VALID = os.environ.get("VALID_IDS", os.path.join(HERE, "valid_ids.txt"))
+VALID_ADV = os.environ.get("VALID_ADV", os.path.join(HERE, "valid_adv.txt"))
 
 valid = set()
 if VALID and os.path.isfile(VALID):

@@ -66,8 +66,21 @@ JEI задаются в `gradle.properties`; версия оттуда же по
 и оба языковых файла и проверяет каждый идентификатор предмета и достижения:
 
 ```
-VALID_IDS=<файл со списком предметов> VALID_ADV=<файл с достижениями> python3 tools/build_book.py
+python3 tools/build_book.py
 ```
+
+Списки существующих идентификаторов лежат в `tools/valid_ids.txt`,
+`tools/valid_adv.txt` и `tools/valid_biomes.txt`. После смены состава сборки их
+пересобирают по папке модов и клиентскому jar:
+
+```
+python3 tools/scan_pack.py <папка mods> <клиентский jar Minecraft>
+```
+
+Списки строятся по моделям предметов, состояниям блоков, рецептам, тегам и
+таблицам добычи, а не по языковым файлам: в них годами остаются ключи
+предметов, которых в реестре давно нет. Переменные окружения `VALID_IDS` и
+`VALID_ADV` позволяют подставить другие файлы, не трогая репозиторий.
 
 Главы лежат в `assets/codex/book/chapters/` и продублированы в `data/codex/book/`
 для сервера, поэтому их можно переопределить ресурспаком или датапаком.
@@ -132,8 +145,21 @@ rewards in `tools/rewards.py`. The builder emits chapter JSON plus both language
 validates every item and advancement id:
 
 ```
-VALID_IDS=<item id list> VALID_ADV=<advancement id list> python3 tools/build_book.py
+python3 tools/build_book.py
 ```
+
+The id lists live in `tools/valid_ids.txt`, `tools/valid_adv.txt` and
+`tools/valid_biomes.txt`. After the pack changes, regenerate them from the mods folder
+and the Minecraft client jar:
+
+```
+python3 tools/scan_pack.py <mods folder> <Minecraft client jar>
+```
+
+The lists are built from item models, blockstates, recipes, tags and loot tables rather
+than language files: those keep keys for items that left the registry years ago. The
+`VALID_IDS` and `VALID_ADV` environment variables point the builder at other files
+without touching the repository.
 
 Chapters live in `assets/codex/book/chapters/` and are mirrored to `data/codex/book/`
 for the server, so a resource pack or data pack can override them.

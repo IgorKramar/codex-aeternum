@@ -474,7 +474,8 @@
     "y": 0,
     "text": [
      "codex.quest.tech2_pneumatic.compressed.text.0",
-     "codex.quest.tech2_pneumatic.compressed.text.1"
+     "codex.quest.tech2_pneumatic.compressed.text.1",
+     "codex.quest.tech2_pneumatic.compressed.text.2"
     ],
     "tasks": [
      {
@@ -502,7 +503,8 @@
     "y": 1,
     "text": [
      "codex.quest.tech2_pneumatic.compressor.text.0",
-     "codex.quest.tech2_pneumatic.compressor.text.1"
+     "codex.quest.tech2_pneumatic.compressor.text.1",
+     "codex.quest.tech2_pneumatic.compressor.text.2"
     ],
     "tasks": [
      {
@@ -543,7 +545,9 @@
     "y": 2,
     "text": [
      "codex.quest.tech2_pneumatic.chamber.text.0",
-     "codex.quest.tech2_pneumatic.chamber.text.1"
+     "codex.quest.tech2_pneumatic.chamber.text.1",
+     "codex.quest.tech2_pneumatic.chamber.text.2",
+     "codex.quest.tech2_pneumatic.chamber.text.3"
     ],
     "tasks": [
      {
@@ -584,7 +588,8 @@
     "y": 3,
     "text": [
      "codex.quest.tech2_pneumatic.plastic.text.0",
-     "codex.quest.tech2_pneumatic.plastic.text.1"
+     "codex.quest.tech2_pneumatic.plastic.text.1",
+     "codex.quest.tech2_pneumatic.plastic.text.2"
     ],
     "tasks": [
      {
@@ -595,6 +600,11 @@
      {
       "type": "item",
       "id": "pneumaticcraft:refinery",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:thermopneumatic_processing_plant",
       "count": 1
      }
     ],
@@ -620,12 +630,19 @@
     "y": 4,
     "text": [
      "codex.quest.tech2_pneumatic.pcb.text.0",
-     "codex.quest.tech2_pneumatic.pcb.text.1"
+     "codex.quest.tech2_pneumatic.pcb.text.1",
+     "codex.quest.tech2_pneumatic.pcb.text.2",
+     "codex.quest.tech2_pneumatic.pcb.text.3"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "pneumaticcraft:empty_pcb",
+      "id": "pneumaticcraft:amadron_tablet",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:uv_light_box",
       "count": 1
      },
      {
@@ -661,7 +678,8 @@
     "y": 5,
     "text": [
      "codex.quest.tech2_pneumatic.assembly.text.0",
-     "codex.quest.tech2_pneumatic.assembly.text.1"
+     "codex.quest.tech2_pneumatic.assembly.text.1",
+     "codex.quest.tech2_pneumatic.assembly.text.2"
     ],
     "tasks": [
      {
@@ -748,7 +766,8 @@
     "y": 7,
     "text": [
      "codex.quest.tech2_pneumatic.armor.text.0",
-     "codex.quest.tech2_pneumatic.armor.text.1"
+     "codex.quest.tech2_pneumatic.armor.text.1",
+     "codex.quest.tech2_pneumatic.armor.text.2"
     ],
     "tasks": [
      {
@@ -987,36 +1006,36 @@
     ]
    },
    {
-    "id": "blackhole",
-    "title": "codex.quest.tech2_foregoing.blackhole.title",
-    "icon": "industrialforegoing:black_hole_unit",
+    "id": "ore_meat",
+    "title": "codex.quest.tech2_foregoing.ore_meat.title",
+    "icon": "industrialforegoing:washing_factory",
     "x": 0,
     "y": 4,
     "text": [
-     "codex.quest.tech2_foregoing.blackhole.text.0",
-     "codex.quest.tech2_foregoing.blackhole.text.1"
+     "codex.quest.tech2_foregoing.ore_meat.text.0",
+     "codex.quest.tech2_foregoing.ore_meat.text.1"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "industrialforegoing:black_hole_unit",
+      "id": "industrialforegoing:washing_factory",
       "count": 1
      },
      {
       "type": "item",
-      "id": "industrialforegoing:black_hole_tank",
+      "id": "industrialforegoing:fermentation_station",
       "count": 1
      },
      {
       "type": "item",
-      "id": "industrialforegoing:black_hole_controller",
+      "id": "industrialforegoing:fluid_sieving_machine",
       "count": 1
      }
     ],
     "rewards": {
      "items": [
       {
-       "id": "industrialforegoing:black_hole_unit",
+       "id": "industrialforegoing:machine_frame_advanced",
        "count": 2
       }
      ],
@@ -1050,8 +1069,13 @@
      },
      {
       "type": "item",
-      "id": "industrialforegoing:laser_lens",
-      "count": 4
+      "id": "industrialforegoing:black_laser_lens",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:blue_laser_lens",
+      "count": 1
      }
     ],
     "rewards": {
@@ -1065,7 +1089,7 @@
      "text": []
     },
     "deps": [
-     "blackhole"
+     "ore_meat"
     ]
    },
    {
@@ -1075,7 +1099,7 @@
     "x": 1,
     "y": 5,
     "deps": [
-     "blackhole"
+     "ore_meat"
     ],
     "text": [
      "codex.quest.tech2_foregoing.stonework.text.0"
@@ -1270,7 +1294,7 @@
    {
     "id": "crystals",
     "title": "codex.quest.tech2_powah.crystals.title",
-    "icon": "powah:blazing_crystal",
+    "icon": "powah:crystal_blazing",
     "x": 0,
     "y": 4,
     "text": [
@@ -1280,19 +1304,19 @@
     "tasks": [
      {
       "type": "item",
-      "id": "powah:blazing_crystal",
+      "id": "powah:crystal_blazing",
       "count": 4
      },
      {
       "type": "item",
-      "id": "powah:niotic_crystal",
+      "id": "powah:crystal_niotic",
       "count": 2
      }
     ],
     "rewards": {
      "items": [
       {
-       "id": "powah:blazing_crystal",
+       "id": "powah:crystal_blazing",
        "count": 8
       }
      ],
@@ -1366,7 +1390,8 @@
     "y": 0,
     "text": [
      "codex.quest.tech2_petroleum.survey.text.0",
-     "codex.quest.tech2_petroleum.survey.text.1"
+     "codex.quest.tech2_petroleum.survey.text.1",
+     "codex.quest.tech2_petroleum.survey.text.2"
     ],
     "tasks": [
      {
@@ -1398,7 +1423,8 @@
     "x": 0,
     "y": 1,
     "text": [
-     "codex.quest.tech2_petroleum.derrick.text.0"
+     "codex.quest.tech2_petroleum.derrick.text.0",
+     "codex.quest.tech2_petroleum.derrick.text.1"
     ],
     "tasks": [
      {
