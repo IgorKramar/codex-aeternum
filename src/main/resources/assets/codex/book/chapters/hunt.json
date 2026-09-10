@@ -1,0 +1,631 @@
+[
+ {
+  "id": "hunt_cataclysm",
+  "section": "hunt",
+  "order": 10,
+  "title": "codex.chapter.hunt_cataclysm.title",
+  "icon": "cataclysm:the_incinerator",
+  "subtitle": "codex.chapter.hunt_cataclysm.subtitle",
+  "intro": [
+   "codex.chapter.hunt_cataclysm.intro.0",
+   "codex.chapter.hunt_cataclysm.intro.1",
+   "codex.chapter.hunt_cataclysm.intro.2"
+  ],
+  "quests": [
+   {
+    "id": "root",
+    "title": "codex.quest.hunt_cataclysm.root.title",
+    "icon": "cataclysm:black_steel_ingot",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.hunt_cataclysm.root.text.0",
+     "codex.quest.hunt_cataclysm.root.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cataclysm:black_steel_ingot",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:ancient_metal_ingot",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:black_steel_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "pyramid",
+    "title": "codex.quest.hunt_cataclysm.pyramid.title",
+    "icon": "cataclysm:khopesh",
+    "x": -1,
+    "y": 1,
+    "deps": [
+     "root"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.pyramid.text.0",
+     "codex.quest.hunt_cataclysm.pyramid.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:find_cursed_pyramid"
+     },
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_remnant"
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:khopesh",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:sandstorm_in_a_bottle",
+       "count": 2
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "sunken",
+    "title": "codex.quest.hunt_cataclysm.sunken.title",
+    "icon": "cataclysm:tidal_claws",
+    "x": 1,
+    "y": 1,
+    "deps": [
+     "root"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.sunken.text.0",
+     "codex.quest.hunt_cataclysm.sunken.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:find_sunken_city"
+     },
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_scylla"
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:tidal_claws",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:coral_bardiche",
+       "count": 1
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "frosted",
+    "title": "codex.quest.hunt_cataclysm.frosted.title",
+    "icon": "cataclysm:wither_assault_shoulder_weapon",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "pyramid",
+     "sunken"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.frosted.text.0",
+     "codex.quest.hunt_cataclysm.frosted.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:find_frosted_prison"
+     },
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_clawdian"
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:wither_assault_shoulder_weapon",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:witherite_ingot",
+       "count": 4
+      }
+     ],
+     "xp": 500,
+     "text": []
+    }
+   },
+   {
+    "id": "burning",
+    "title": "codex.quest.hunt_cataclysm.burning.title",
+    "icon": "cataclysm:the_incinerator",
+    "x": 0,
+    "y": 3,
+    "deps": [
+     "frosted"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.burning.text.0",
+     "codex.quest.hunt_cataclysm.burning.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:find_burning_arena"
+     },
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_ignis"
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:the_incinerator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:ignitium_ingot",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:ignitium_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 800,
+     "text": []
+    }
+   },
+   {
+    "id": "ignitium",
+    "title": "codex.quest.hunt_cataclysm.ignitium.title",
+    "icon": "cataclysm:ignitium_elytra_chestplate",
+    "x": 1,
+    "y": 3,
+    "deps": [
+     "burning"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.ignitium.text.0",
+     "codex.quest.hunt_cataclysm.ignitium.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cataclysm:ignitium_helmet",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:ignitium_elytra_chestplate",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:ignitium_upgrade_smithing_template",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:ignitium_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 600,
+     "text": []
+    }
+   },
+   {
+    "id": "acropolis",
+    "title": "codex.quest.hunt_cataclysm.acropolis.title",
+    "icon": "cataclysm:monstrous_helm",
+    "x": -1,
+    "y": 4,
+    "deps": [
+     "burning"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.acropolis.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:find_acropolis"
+     },
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_monstrosity"
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:monstrous_helm",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:monstrous_horn",
+       "count": 1
+      }
+     ],
+     "xp": 700,
+     "text": []
+    }
+   },
+   {
+    "id": "citadel",
+    "title": "codex.quest.hunt_cataclysm.citadel.title",
+    "icon": "cataclysm:void_forge",
+    "x": 0,
+    "y": 5,
+    "deps": [
+     "burning"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.citadel.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:find_ruined_citadel"
+     },
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_ender_guardian"
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:void_forge",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:ender_pearl",
+       "count": 32
+      }
+     ],
+     "xp": 900,
+     "text": []
+    }
+   },
+   {
+    "id": "factory",
+    "title": "codex.quest.hunt_cataclysm.factory.title",
+    "icon": "cataclysm:laser_gatling",
+    "x": 0,
+    "y": 6,
+    "deps": [
+     "citadel"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.factory.text.0",
+     "codex.quest.hunt_cataclysm.factory.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:find_ancient_factory"
+     },
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_harbinger"
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:laser_gatling",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:mechanical_fusion_anvil",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:mech_eye",
+       "count": 1
+      }
+     ],
+     "xp": 1500,
+     "text": []
+    }
+   },
+   {
+    "id": "leviathan",
+    "title": "codex.quest.hunt_cataclysm.leviathan.title",
+    "icon": "cataclysm:abyssal_sacrifice",
+    "x": 1,
+    "y": 5,
+    "deps": [
+     "sunken"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.leviathan.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cataclysm:abyssal_sacrifice",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_leviathan"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:tidal_claws",
+       "count": 1
+      }
+     ],
+     "xp": 800,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "maledictus",
+    "title": "codex.quest.hunt_cataclysm.maledictus.title",
+    "icon": "cataclysm:music_disc_maledictus",
+    "x": -1,
+    "y": 5,
+    "deps": [
+     "acropolis"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.maledictus.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_maledictus"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:cursium_ingot",
+       "count": 4
+      }
+     ],
+     "xp": 700,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "all_bosses",
+    "title": "codex.quest.hunt_cataclysm.all_bosses.title",
+    "icon": "cataclysm:kobolediator_skull",
+    "x": 0,
+    "y": 7,
+    "deps": [
+     "factory"
+    ],
+    "text": [
+     "codex.quest.hunt_cataclysm.all_bosses.text.0",
+     "codex.quest.hunt_cataclysm.all_bosses.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_all_bosses"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "cataclysm:ignitium_ingot",
+       "count": 16
+      },
+      {
+       "id": "minecraft:netherite_ingot",
+       "count": 4
+      }
+     ],
+     "xp": 3000,
+     "text": [
+      "codex.quest.hunt_cataclysm.all_bosses.reward.0"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "hunt_beasts",
+  "section": "hunt",
+  "order": 20,
+  "title": "codex.chapter.hunt_beasts.title",
+  "icon": "alexsmobs:animal_dictionary",
+  "subtitle": "codex.chapter.hunt_beasts.subtitle",
+  "intro": [
+   "codex.chapter.hunt_beasts.intro.0",
+   "codex.chapter.hunt_beasts.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "dictionary",
+    "title": "codex.quest.hunt_beasts.dictionary.title",
+    "icon": "alexsmobs:animal_dictionary",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.hunt_beasts.dictionary.text.0",
+     "codex.quest.hunt_beasts.dictionary.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "alexsmobs:animal_dictionary",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:book",
+       "count": 4
+      }
+     ],
+     "xp": 80,
+     "text": []
+    }
+   },
+   {
+    "id": "mutants",
+    "title": "codex.quest.hunt_beasts.mutants.title",
+    "icon": "mutantmonsters:mutant_skeleton_spawn_egg",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.hunt_beasts.mutants.text.0",
+     "codex.quest.hunt_beasts.mutants.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Встретить любого мутанта Mutant Monsters",
+      "note": "codex.quest.hunt_beasts.mutants.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:golden_apple",
+       "count": 4
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "mowzie",
+    "title": "codex.quest.hunt_beasts.mowzie.title",
+    "icon": "mowziesmobs:wrought_axe",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.hunt_beasts.mowzie.text.0",
+     "codex.quest.hunt_beasts.mowzie.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Победить любого босса Mowzie's Mobs",
+      "note": "codex.quest.hunt_beasts.mowzie.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:diamond",
+       "count": 8
+      }
+     ],
+     "xp": 500,
+     "text": []
+    }
+   },
+   {
+    "id": "hunt_gear",
+    "title": "codex.quest.hunt_beasts.hunt_gear.title",
+    "icon": "alexsmobs:shark_tooth",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "dictionary"
+    ],
+    "text": [
+     "codex.quest.hunt_beasts.hunt_gear.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Собрать любой трофей Alex's Mobs",
+      "note": "codex.quest.hunt_beasts.hunt_gear.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:emerald",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "combat",
+    "title": "codex.quest.hunt_beasts.combat.title",
+    "icon": "minecraft:iron_sword",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.hunt_beasts.combat.text.0",
+     "codex.quest.hunt_beasts.combat.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано: у каждого оружия своя дуга уд",
+      "note": "codex.quest.hunt_beasts.combat.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:iron_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   }
+  ]
+ }
+]
