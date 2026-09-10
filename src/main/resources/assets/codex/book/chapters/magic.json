@@ -1,0 +1,1132 @@
+[
+ {
+  "id": "magic_botania",
+  "section": "magic",
+  "order": 10,
+  "title": "codex.chapter.magic_botania.title",
+  "icon": "botania:lexicon",
+  "subtitle": "codex.chapter.magic_botania.subtitle",
+  "intro": [
+   "codex.chapter.magic_botania.intro.0",
+   "codex.chapter.magic_botania.intro.1",
+   "codex.chapter.magic_botania.intro.2"
+  ],
+  "quests": [
+   {
+    "id": "flowers",
+    "title": "codex.quest.magic_botania.flowers.title",
+    "icon": "botania:white_mystical_flower",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.magic_botania.flowers.text.0",
+     "codex.quest.magic_botania.flowers.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:white_mystical_flower",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/flower_pickup"
+     },
+     {
+      "type": "item",
+      "id": "botania:fertilizer",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:fertilizer",
+       "count": 4
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "lexicon",
+    "title": "codex.quest.magic_botania.lexicon.title",
+    "icon": "botania:lexicon",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.magic_botania.lexicon.text.0",
+     "codex.quest.magic_botania.lexicon.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:lexicon",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/lexicon_use"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:book",
+       "count": 4
+      }
+     ],
+     "xp": 40,
+     "text": []
+    },
+    "deps": [
+     "flowers"
+    ]
+   },
+   {
+    "id": "apothecary",
+    "title": "codex.quest.magic_botania.apothecary.title",
+    "icon": "botania:apothecary_default",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.magic_botania.apothecary.text.0",
+     "codex.quest.magic_botania.apothecary.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:apothecary_default",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:white_petal",
+       "count": 16
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "deps": [
+     "lexicon"
+    ]
+   },
+   {
+    "id": "wand",
+    "title": "codex.quest.magic_botania.wand.title",
+    "icon": "botania:twig_wand",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.magic_botania.wand.text.0",
+     "codex.quest.magic_botania.wand.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:twig_wand",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:livingwood_twig",
+       "count": 8
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "deps": [
+     "apothecary"
+    ]
+   },
+   {
+    "id": "daisy",
+    "title": "codex.quest.magic_botania.daisy.title",
+    "icon": "botania:pure_daisy",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.magic_botania.daisy.text.0",
+     "codex.quest.magic_botania.daisy.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:pure_daisy",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:livingwood",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "botania:livingrock",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:livingwood",
+       "count": 32
+      },
+      {
+       "id": "botania:livingrock",
+       "count": 32
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "wand"
+    ]
+   },
+   {
+    "id": "pool",
+    "title": "codex.quest.magic_botania.pool.title",
+    "icon": "botania:mana_pool",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.magic_botania.pool.text.0",
+     "codex.quest.magic_botania.pool.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:mana_pool",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/mana_pool_pickup"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:livingrock",
+       "count": 32
+      }
+     ],
+     "xp": 80,
+     "text": []
+    },
+    "deps": [
+     "daisy"
+    ]
+   },
+   {
+    "id": "spreader",
+    "title": "codex.quest.magic_botania.spreader.title",
+    "icon": "botania:mana_spreader",
+    "x": 0,
+    "y": 6,
+    "text": [
+     "codex.quest.magic_botania.spreader.text.0",
+     "codex.quest.magic_botania.spreader.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:mana_spreader",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:mana_spreader",
+       "count": 2
+      }
+     ],
+     "xp": 80,
+     "text": []
+    },
+    "deps": [
+     "pool"
+    ]
+   },
+   {
+    "id": "endoflame",
+    "title": "codex.quest.magic_botania.endoflame.title",
+    "icon": "botania:endoflame",
+    "x": 0,
+    "y": 7,
+    "text": [
+     "codex.quest.magic_botania.endoflame.text.0",
+     "codex.quest.magic_botania.endoflame.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:endoflame",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/generating_flower"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:endoflame",
+       "count": 4
+      },
+      {
+       "id": "minecraft:coal",
+       "count": 32
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "spreader"
+    ]
+   },
+   {
+    "id": "manasteel",
+    "title": "codex.quest.magic_botania.manasteel.title",
+    "icon": "botania:manasteel_ingot",
+    "x": 0,
+    "y": 8,
+    "text": [
+     "codex.quest.magic_botania.manasteel.text.0",
+     "codex.quest.magic_botania.manasteel.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:manasteel_ingot",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "botania:mana_pearl",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:mana_diamond",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:manasteel_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "endoflame"
+    ]
+   },
+   {
+    "id": "spark",
+    "title": "codex.quest.magic_botania.spark.title",
+    "icon": "botania:spark",
+    "x": 0,
+    "y": 9,
+    "text": [
+     "codex.quest.magic_botania.spark.text.0",
+     "codex.quest.magic_botania.spark.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:spark",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/spark_craft"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:spark",
+       "count": 4
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "manasteel"
+    ]
+   },
+   {
+    "id": "tablet",
+    "title": "codex.quest.magic_botania.tablet.title",
+    "icon": "botania:mana_tablet",
+    "x": 1,
+    "y": 9,
+    "deps": [
+     "manasteel"
+    ],
+    "text": [
+     "codex.quest.magic_botania.tablet.text.0",
+     "codex.quest.magic_botania.tablet.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:mana_tablet",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:mana_ring",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:mana_diamond",
+       "count": 2
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "potato",
+    "title": "codex.quest.magic_botania.potato.title",
+    "icon": "botania:tiny_potato",
+    "x": -1,
+    "y": 9,
+    "deps": [
+     "manasteel"
+    ],
+    "text": [
+     "codex.quest.magic_botania.potato.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:tiny_potato",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:potato",
+       "count": 16
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "optional": true
+   }
+  ]
+ },
+ {
+  "id": "magic_botania_runes",
+  "section": "magic",
+  "order": 20,
+  "title": "codex.chapter.magic_botania_runes.title",
+  "icon": "botania:terrasteel_ingot",
+  "subtitle": "codex.chapter.magic_botania_runes.subtitle",
+  "intro": [
+   "codex.chapter.magic_botania_runes.intro.0",
+   "codex.chapter.magic_botania_runes.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "altar",
+    "title": "codex.quest.magic_botania_runes.altar.title",
+    "icon": "botania:runic_altar",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.magic_botania_runes.altar.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:runic_altar",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:mana_powder",
+       "count": 8
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "elements",
+    "title": "codex.quest.magic_botania_runes.elements.title",
+    "icon": "botania:rune_water",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.magic_botania_runes.elements.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:rune_water",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:rune_earth",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:rune_fire",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:rune_air",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/rune_pickup"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:manasteel_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "altar"
+    ]
+   },
+   {
+    "id": "mana_rune",
+    "title": "codex.quest.magic_botania_runes.mana_rune.title",
+    "icon": "botania:rune_mana",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.magic_botania_runes.mana_rune.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:rune_mana",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:mana_pearl",
+       "count": 2
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "elements"
+    ]
+   },
+   {
+    "id": "flowers2",
+    "title": "codex.quest.magic_botania_runes.flowers2.title",
+    "icon": "botania:orechid",
+    "x": 1,
+    "y": 2,
+    "deps": [
+     "elements"
+    ],
+    "text": [
+     "codex.quest.magic_botania_runes.flowers2.text.0",
+     "codex.quest.magic_botania_runes.flowers2.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "botania:main/functional_flower"
+     },
+     {
+      "type": "item",
+      "id": "botania:hopperhock",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:agricarnation",
+       "count": 2
+      },
+      {
+       "id": "botania:hopperhock",
+       "count": 2
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "brewery",
+    "title": "codex.quest.magic_botania_runes.brewery.title",
+    "icon": "botania:brewery",
+    "x": -1,
+    "y": 2,
+    "deps": [
+     "altar"
+    ],
+    "text": [
+     "codex.quest.magic_botania_runes.brewery.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:brewery",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/brew_pickup"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:brew_vial",
+       "count": 4
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "terra_plate",
+    "title": "codex.quest.magic_botania_runes.terra_plate.title",
+    "icon": "botania:terra_plate",
+    "x": 0,
+    "y": 3,
+    "deps": [
+     "mana_rune",
+     "elements"
+    ],
+    "text": [
+     "codex.quest.magic_botania_runes.terra_plate.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:terra_plate",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:lapis_block",
+       "count": 8
+      }
+     ],
+     "xp": 250,
+     "text": []
+    }
+   },
+   {
+    "id": "terrasteel",
+    "title": "codex.quest.magic_botania_runes.terrasteel.title",
+    "icon": "botania:terrasteel_ingot",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.magic_botania_runes.terrasteel.text.0",
+     "codex.quest.magic_botania_runes.terrasteel.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:terrasteel_ingot",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/terrasteel_pickup"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:terrasteel_ingot",
+       "count": 2
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "terra_plate"
+    ]
+   },
+   {
+    "id": "terra_gear",
+    "title": "codex.quest.magic_botania_runes.terra_gear.title",
+    "icon": "botania:terra_sword",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.magic_botania_runes.terra_gear.text.0",
+     "codex.quest.magic_botania_runes.terra_gear.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:terra_sword",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/terrasteel_weapon_craft"
+     },
+     {
+      "type": "item",
+      "id": "botania:terrasteel_helmet",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:terrasteel_ingot",
+       "count": 4
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "terrasteel"
+    ]
+   },
+   {
+    "id": "belt",
+    "title": "codex.quest.magic_botania_runes.belt.title",
+    "icon": "botania:travel_belt",
+    "x": 1,
+    "y": 5,
+    "deps": [
+     "terrasteel"
+    ],
+    "text": [
+     "codex.quest.magic_botania_runes.belt.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:travel_belt",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:mana_ring",
+       "count": 1
+      }
+     ],
+     "xp": 250,
+     "text": []
+    }
+   },
+   {
+    "id": "halo",
+    "title": "codex.quest.magic_botania_runes.halo.title",
+    "icon": "botania:crafting_halo",
+    "x": -1,
+    "y": 5,
+    "deps": [
+     "terrasteel"
+    ],
+    "text": [
+     "codex.quest.magic_botania_runes.halo.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:crafting_halo",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/crafting_halo_craft"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:manaweave_cloth",
+       "count": 8
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "optional": true
+   }
+  ]
+ },
+ {
+  "id": "magic_botania_end",
+  "section": "magic",
+  "order": 30,
+  "title": "codex.chapter.magic_botania_end.title",
+  "icon": "botania:gaia_ingot",
+  "subtitle": "codex.chapter.magic_botania_end.subtitle",
+  "intro": [
+   "codex.chapter.magic_botania_end.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "portal",
+    "title": "codex.quest.magic_botania_end.portal.title",
+    "icon": "botania:alfheim_portal",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.magic_botania_end.portal.text.0",
+     "codex.quest.magic_botania_end.portal.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:alfheim_portal",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:natura_pylon",
+      "count": 2
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/elf_portal_open"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:mana_pearl",
+       "count": 4
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   },
+   {
+    "id": "trade",
+    "title": "codex.quest.magic_botania_end.trade.title",
+    "icon": "botania:elementium_ingot",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.magic_botania_end.trade.text.0",
+     "codex.quest.magic_botania_end.trade.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:elementium_ingot",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "botania:pixie_dust",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:dragonstone",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:dreamwood",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:elementium_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "portal"
+    ]
+   },
+   {
+    "id": "elven_gear",
+    "title": "codex.quest.magic_botania_end.elven_gear.title",
+    "icon": "botania:elementium_helmet",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.magic_botania_end.elven_gear.text.0",
+     "codex.quest.magic_botania_end.elven_gear.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:elementium_helmet",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:elven_spreader",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:pixie_dust",
+       "count": 8
+      }
+     ],
+     "xp": 350,
+     "text": []
+    },
+    "deps": [
+     "trade"
+    ]
+   },
+   {
+    "id": "corporea",
+    "title": "codex.quest.magic_botania_end.corporea.title",
+    "icon": "botania:corporea_spark",
+    "x": -1,
+    "y": 2,
+    "deps": [
+     "trade"
+    ],
+    "text": [
+     "codex.quest.magic_botania_end.corporea.text.0",
+     "codex.quest.magic_botania_end.corporea.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:corporea_spark",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "botania:corporea_spark_master",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:corporea_index",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/corporea_craft"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:corporea_spark",
+       "count": 8
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   },
+   {
+    "id": "gaia1",
+    "title": "codex.quest.magic_botania_end.gaia1.title",
+    "icon": "botania:gaia_pylon",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.magic_botania_end.gaia1.text.0",
+     "codex.quest.magic_botania_end.gaia1.text.1",
+     "codex.quest.magic_botania_end.gaia1.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:gaia_pylon",
+      "count": 4
+     },
+     {
+      "type": "advancement",
+      "id": "botania:main/gaia_guardian_kill"
+     },
+     {
+      "type": "item",
+      "id": "botania:life_essence",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:life_essence",
+       "count": 4
+      }
+     ],
+     "xp": 800,
+     "text": []
+    },
+    "deps": [
+     "corporea"
+    ]
+   },
+   {
+    "id": "gaia2",
+    "title": "codex.quest.magic_botania_end.gaia2.title",
+    "icon": "botania:gaia_ingot",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.magic_botania_end.gaia2.text.0",
+     "codex.quest.magic_botania_end.gaia2.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:gaia_ingot",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:challenge/gaia_guardian_hardmode"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:life_essence",
+       "count": 8
+      },
+      {
+       "id": "botania:black_lotus",
+       "count": 2
+      }
+     ],
+     "xp": 1500,
+     "text": []
+    },
+    "deps": [
+     "gaia1"
+    ]
+   },
+   {
+    "id": "relics",
+    "title": "codex.quest.magic_botania_end.relics.title",
+    "icon": "botania:dice",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.magic_botania_end.relics.text.0",
+     "codex.quest.magic_botania_end.relics.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:dice",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:challenge/odin_ring"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:life_essence",
+       "count": 8
+      }
+     ],
+     "xp": 2000,
+     "text": []
+    },
+    "deps": [
+     "gaia2"
+    ]
+   },
+   {
+    "id": "rank_ss",
+    "title": "codex.quest.magic_botania_end.rank_ss.title",
+    "icon": "botania:terra_pick",
+    "x": 1,
+    "y": 5,
+    "deps": [
+     "gaia2"
+    ],
+    "text": [
+     "codex.quest.magic_botania_end.rank_ss.text.0",
+     "codex.quest.magic_botania_end.rank_ss.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "botania:challenge/rank_ss_pick"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:gaia_ingot",
+       "count": 2
+      }
+     ],
+     "xp": 3000,
+     "text": []
+    },
+    "optional": true
+   }
+  ]
+ }
+]
