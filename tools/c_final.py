@@ -136,7 +136,7 @@ chapter(
     "final_goals", "final", 20, "Финальные цели", "minecraft:nether_star",
     "Чем заканчивается сборка",
     [
-        "У сборки нет одного финала — у неё их семь. Ниже собраны "
+        "У сборки нет одного финала — у неё их десять. Ниже собраны "
         "вершины каждой ветки. Пройти все — значит увидеть всё, "
         "что она может предложить.",
     ],
@@ -210,12 +210,36 @@ chapter(
                  adv("eternal_tales:get_the_ultimate_two"),
                  adv("eternal_tales:pass_all_quests")]),
 
-        Q("goal_all", "Всё сразу", "minecraft:nether_star", 1, 2,
+        Q("goal_space", "Вершина космоса", "ad_astra:tier_4_rocket", 0, 3,
+          text=[
+              "Ракета четвёртого уровня, реактивный костюм и база на Глейсио с "
+              "распылителем кислорода. Другая звёздная система, обжитая всерьёз.",
+          ],
+          tasks=[item("ad_astra:tier_4_rocket"), item("ad_astra:jet_suit"),
+                 adv("ad_astra:interstellar")]),
+
+        Q("goal_magic", "Вершина магии", "botania:dice", 1, 3,
+          text=[
+              "Страж Гайи во второй ипостаси, Кости судьбы и хотя бы одна реликвия. "
+              "Цветочная магия, доведённая до конца.",
+          ],
+          tasks=[item("botania:dice"), adv("botania:challenge/gaia_guardian_hardmode")]),
+
+        Q("goal_hunt", "Вершина охоты", "cataclysm:the_incinerator", 2, 3,
+          text=[
+              "Все десять боссов Катаклизма и полный комплект брони Игнитиума. "
+              "Трофейный зал, в котором нет пустых мест.",
+          ],
+          tasks=[adv("cataclysm:kill_all_bosses"),
+                 item("cataclysm:ignitium_elytra_chestplate")]),
+
+        Q("goal_all", "Всё сразу", "minecraft:nether_star", 1, 4,
           deps=["goal_create", "goal_ie", "goal_mek", "goal_storage",
-                "goal_colony", "goal_adventure", "goal_eternal"],
+                "goal_colony", "goal_adventure", "goal_eternal",
+                "goal_space", "goal_magic", "goal_hunt"],
           shape="big",
           text=[
-              "Семь вершин пройдены. Дальше сборка не ведёт вас "
+              "Десять вершин пройдены. Дальше сборка не ведёт вас "
               "никуда — дальше вы ведёте её сами.",
               "Хорошая следующая цель: построить то, что не "
               "предусмотрено ни одним модом, но возможно из их "

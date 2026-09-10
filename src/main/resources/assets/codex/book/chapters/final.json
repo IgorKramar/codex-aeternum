@@ -578,11 +578,94 @@
     }
    },
    {
+    "id": "goal_space",
+    "title": "codex.quest.final_goals.goal_space.title",
+    "icon": "ad_astra:tier_4_rocket",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.final_goals.goal_space.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:tier_4_rocket",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:jet_suit",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:interstellar"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "goal_magic",
+    "title": "codex.quest.final_goals.goal_magic.title",
+    "icon": "botania:dice",
+    "x": 1,
+    "y": 3,
+    "text": [
+     "codex.quest.final_goals.goal_magic.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:dice",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "botania:challenge/gaia_guardian_hardmode"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
+    "id": "goal_hunt",
+    "title": "codex.quest.final_goals.goal_hunt.title",
+    "icon": "cataclysm:the_incinerator",
+    "x": 2,
+    "y": 3,
+    "text": [
+     "codex.quest.final_goals.goal_hunt.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "cataclysm:kill_all_bosses"
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:ignitium_elytra_chestplate",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 120,
+     "text": []
+    }
+   },
+   {
     "id": "goal_all",
     "title": "codex.quest.final_goals.goal_all.title",
     "icon": "minecraft:nether_star",
     "x": 1,
-    "y": 2,
+    "y": 4,
     "deps": [
      "goal_create",
      "goal_ie",
@@ -590,7 +673,10 @@
      "goal_storage",
      "goal_colony",
      "goal_adventure",
-     "goal_eternal"
+     "goal_eternal",
+     "goal_space",
+     "goal_magic",
+     "goal_hunt"
     ],
     "text": [
      "codex.quest.final_goals.goal_all.text.0",

@@ -72,7 +72,7 @@ EN = {
     },
     "final_goals": {
         "title": "Final Goals", "subtitle": "How the pack ends",
-        "intro": ["This pack has no single ending. It has seven, and none is mandatory. Below are the peaks of each branch. Reach them all — and you've seen everything here, and realized you've long been building your own game."],
+        "intro": ["This pack has no single ending. It has ten, and none is mandatory. Below are the peaks of each branch. Reach them all — and you've seen everything here, and realized you've long been building your own game."],
         "quests": {
             "goal_create": {"title": "Peak of Create", "text": ["A fully automated factory on gauges, a railway between sites, and a flying base on Create Aeronautics."]},
             "goal_ie": {"title": "Peak of Immersive Engineering", "text": ["An excavator on a surveyed vein, an arc furnace, diesel generators on home-made biodiesel and the full engineer's toolkit."]},
@@ -81,7 +81,10 @@ EN = {
             "goal_colony": {"title": "Peak of the Colony", "text": ["A level-five colony with every building, the full research tree and a garrison that repels any raid."]},
             "goal_adventure": {"title": "Peak of Adventure", "text": ["All three Aether dungeons, the full Twilight Forest boss chain and the Lamp of Cinders in hand."]},
             "goal_eternal": {"title": "Peak of Eternal Tales", "text": ["All nine dimensions, victory over Unahzaal, the Ultimate World and the Arkemers' ultimate items."]},
-            "goal_all": {"title": "All at Once", "text": ["Seven peaks climbed. The pack leads you nowhere further — from here you lead it.", "A good next goal: build what no mod foresaw but their parts allow."], "rewards": ["Pack fully completed"]},
+            "goal_space": {"title": "Peak of Space", "text": ["A tier four rocket, a jet suit and a base on Glacio with an oxygen distributor. Another star system, properly settled."]},
+            "goal_magic": {"title": "Peak of Magic", "text": ["The Gaia Guardian in his second form, the Dice of Fate and at least one relic. Flower magic taken to its end."]},
+            "goal_hunt": {"title": "Peak of the Hunt", "text": ["All ten Cataclysm bosses and a full set of Ignitium armor. A trophy hall with no empty spots."]},
+            "goal_all": {"title": "All at Once", "text": ["Ten peaks climbed. The pack leads you nowhere further — from here you lead it.", "A good next goal: build what no mod foresaw but their parts allow."], "rewards": ["Pack fully completed"]},
         },
     },
     "end_monuments": {
