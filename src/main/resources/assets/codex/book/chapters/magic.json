@@ -1128,5 +1128,659 @@
     "optional": true
    }
   ]
+ },
+ {
+  "id": "magic_ars",
+  "section": "magic",
+  "order": 40,
+  "title": "codex.chapter.magic_ars.title",
+  "icon": "ars_nouveau:novice_spell_book",
+  "subtitle": "codex.chapter.magic_ars.subtitle",
+  "intro": [
+   "codex.chapter.magic_ars.intro.0",
+   "codex.chapter.magic_ars.intro.1",
+   "codex.chapter.magic_ars.intro.2"
+  ],
+  "quests": [
+   {
+    "id": "notebook",
+    "title": "codex.quest.magic_ars.notebook.title",
+    "icon": "ars_nouveau:worn_notebook",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.magic_ars.notebook.text.0",
+     "codex.quest.magic_ars.notebook.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:worn_notebook",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ars_nouveau:sourceberry_bush",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ars_nouveau:source_gem",
+       "count": 8
+      }
+     ],
+     "xp": 60,
+     "text": []
+    }
+   },
+   {
+    "id": "gems",
+    "title": "codex.quest.magic_ars.gems.title",
+    "icon": "ars_nouveau:source_gem",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.magic_ars.gems.text.0",
+     "codex.quest.magic_ars.gems.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:imbuement_chamber",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ars_nouveau:imbuement_chamber"
+     },
+     {
+      "type": "item",
+      "id": "ars_nouveau:source_gem",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ars_nouveau:source_gem",
+       "count": 16
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "notebook"
+    ]
+   },
+   {
+    "id": "book",
+    "title": "codex.quest.magic_ars.book.title",
+    "icon": "ars_nouveau:novice_spell_book",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.magic_ars.book.text.0",
+     "codex.quest.magic_ars.book.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:scribes_table",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ars_nouveau:novice_spell_book",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ars_nouveau:novice_spell_book"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ars_nouveau:blank_parchment",
+       "count": 8
+      }
+     ],
+     "xp": 120,
+     "text": []
+    },
+    "deps": [
+     "gems"
+    ]
+   },
+   {
+    "id": "glyphs",
+    "title": "codex.quest.magic_ars.glyphs.title",
+    "icon": "ars_nouveau:blank_glyph",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.magic_ars.glyphs.text.0",
+     "codex.quest.magic_ars.glyphs.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:blank_glyph",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "ars_nouveau:spell_parchment",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ars_nouveau:blank_glyph",
+       "count": 8
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "book"
+    ]
+   },
+   {
+    "id": "source",
+    "title": "codex.quest.magic_ars.source.title",
+    "icon": "ars_nouveau:source_jar",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.magic_ars.source.text.0",
+     "codex.quest.magic_ars.source.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:source_jar",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ars_nouveau:relay",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ars_nouveau:volcanic_sourcelink",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ars_nouveau:source_jar",
+       "count": 2
+      },
+      {
+       "id": "ars_nouveau:relay",
+       "count": 2
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "glyphs"
+    ]
+   },
+   {
+    "id": "apparatus",
+    "title": "codex.quest.magic_ars.apparatus.title",
+    "icon": "ars_nouveau:enchanting_apparatus",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.magic_ars.apparatus.text.0",
+     "codex.quest.magic_ars.apparatus.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:enchanting_apparatus",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ars_nouveau:arcane_pedestal",
+      "count": 4
+     },
+     {
+      "type": "advancement",
+      "id": "ars_nouveau:enchanting_apparatus"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ars_nouveau:arcane_core",
+       "count": 2
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "source"
+    ]
+   },
+   {
+    "id": "familiars",
+    "title": "codex.quest.magic_ars.familiars.title",
+    "icon": "ars_nouveau:starbuncle_charm",
+    "x": 0,
+    "y": 6,
+    "text": [
+     "codex.quest.magic_ars.familiars.text.0",
+     "codex.quest.magic_ars.familiars.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:starbuncle_charm",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ars_nouveau:drygmy_charm",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ars_nouveau:drygmy_charm"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ars_nouveau:whirlisprig_charm",
+       "count": 1
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "apparatus"
+    ]
+   },
+   {
+    "id": "rituals",
+    "title": "codex.quest.magic_ars.rituals.title",
+    "icon": "ars_nouveau:ritual_brazier",
+    "x": 0,
+    "y": 7,
+    "text": [
+     "codex.quest.magic_ars.rituals.text.0",
+     "codex.quest.magic_ars.rituals.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:ritual_brazier",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ars_nouveau:create_portal"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ars_nouveau:source_gem_block",
+       "count": 4
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "familiars"
+    ]
+   },
+   {
+    "id": "archmage",
+    "title": "codex.quest.magic_ars.archmage.title",
+    "icon": "ars_nouveau:archmage_spell_book",
+    "x": 0,
+    "y": 8,
+    "text": [
+     "codex.quest.magic_ars.archmage.text.0",
+     "codex.quest.magic_ars.archmage.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:archmage_spell_book",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ars_nouveau:archmage_spell_book"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ars_nouveau:source_gem_block",
+       "count": 8
+      }
+     ],
+     "xp": 800,
+     "text": []
+    },
+    "deps": [
+     "rituals"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "magic_irons",
+  "section": "magic",
+  "order": 50,
+  "title": "codex.chapter.magic_irons.title",
+  "icon": "irons_spellbooks:arcane_ingot",
+  "subtitle": "codex.chapter.magic_irons.subtitle",
+  "intro": [
+   "codex.chapter.magic_irons.intro.0",
+   "codex.chapter.magic_irons.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "scroll",
+    "title": "codex.quest.magic_irons.scroll.title",
+    "icon": "irons_spellbooks:scroll",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.magic_irons.scroll.text.0",
+     "codex.quest.magic_irons.scroll.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "irons_spellbooks:scroll",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "irons_spellbooks:ruined_book",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "irons_spellbooks:scroll",
+       "count": 2
+      }
+     ],
+     "xp": 100,
+     "text": []
+    }
+   },
+   {
+    "id": "inscription",
+    "title": "codex.quest.magic_irons.inscription.title",
+    "icon": "irons_spellbooks:inscription_table",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.magic_irons.inscription.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "irons_spellbooks:inscription_table",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "irons_spellbooks:irons_spellbooks/make_inscription_table"
+     },
+     {
+      "type": "item",
+      "id": "irons_spellbooks:copper_spell_book",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "irons_spellbooks:scroll",
+       "count": 4
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "scroll"
+    ]
+   },
+   {
+    "id": "arcane",
+    "title": "codex.quest.magic_irons.arcane.title",
+    "icon": "irons_spellbooks:arcane_ingot",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.magic_irons.arcane.text.0",
+     "codex.quest.magic_irons.arcane.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "irons_spellbooks:arcane_debris",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "irons_spellbooks:arcane_ingot",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "irons_spellbooks:arcane_anvil",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "irons_spellbooks:irons_spellbooks/make_arcane_anvil"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "irons_spellbooks:arcane_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "inscription"
+    ]
+   },
+   {
+    "id": "runes",
+    "title": "codex.quest.magic_irons.runes.title",
+    "icon": "irons_spellbooks:fire_rune",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.magic_irons.runes.text.0",
+     "codex.quest.magic_irons.runes.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "irons_spellbooks:blank_rune",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "irons_spellbooks:fire_rune",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "irons_spellbooks:blank_rune",
+       "count": 4
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "arcane"
+    ]
+   },
+   {
+    "id": "upgrade",
+    "title": "codex.quest.magic_irons.upgrade.title",
+    "icon": "irons_spellbooks:upgrade_orb",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.magic_irons.upgrade.text.0",
+     "codex.quest.magic_irons.upgrade.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "irons_spellbooks:upgrade_orb",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "irons_spellbooks:cooldown_upgrade_orb",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "irons_spellbooks:upgrade_orb",
+       "count": 2
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "runes"
+    ]
+   },
+   {
+    "id": "robes",
+    "title": "codex.quest.magic_irons.robes.title",
+    "icon": "irons_spellbooks:pyromancer_helmet",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.magic_irons.robes.text.0",
+     "codex.quest.magic_irons.robes.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Собрать любой комплект мантии мага",
+      "note": "codex.quest.magic_irons.robes.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "irons_spellbooks:arcane_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 400,
+     "text": []
+    },
+    "deps": [
+     "upgrade"
+    ]
+   },
+   {
+    "id": "staff",
+    "title": "codex.quest.magic_irons.staff.title",
+    "icon": "irons_spellbooks:blood_staff",
+    "x": 0,
+    "y": 6,
+    "text": [
+     "codex.quest.magic_irons.staff.text.0",
+     "codex.quest.magic_irons.staff.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "irons_spellbooks:blood_staff",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "irons_spellbooks:arcane_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 600,
+     "text": []
+    },
+    "deps": [
+     "robes"
+    ]
+   },
+   {
+    "id": "legendary",
+    "title": "codex.quest.magic_irons.legendary.title",
+    "icon": "irons_spellbooks:arcane_essence",
+    "x": 0,
+    "y": 7,
+    "text": [
+     "codex.quest.magic_irons.legendary.text.0",
+     "codex.quest.magic_irons.legendary.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "irons_spellbooks:irons_spellbooks/ink_legendary"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "irons_spellbooks:arcane_ingot",
+       "count": 24
+      }
+     ],
+     "xp": 1000,
+     "text": []
+    },
+    "deps": [
+     "staff"
+    ]
+   }
+  ]
  }
 ]
