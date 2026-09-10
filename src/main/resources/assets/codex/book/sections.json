@@ -88,5 +88,29 @@
     "title": "codex.section.endgame",
     "icon": "minecraft:beacon",
     "color": "C99CFF"
+  },
+  "magic": {
+    "order": 55,
+    "title": "codex.section.magic",
+    "icon": "botania:lexicon",
+    "color": "C77DFF"
+  },
+  "tech2": {
+    "order": 45,
+    "title": "codex.section.tech2",
+    "icon": "pneumaticcraft:pressure_chamber_wall",
+    "color": "7FD1E8"
+  },
+  "space": {
+    "order": 95,
+    "title": "codex.section.space",
+    "icon": "ad_astra:tier_1_rocket",
+    "color": "8FA8FF"
+  },
+  "hunt": {
+    "order": 85,
+    "title": "codex.section.hunt",
+    "icon": "cataclysm:the_incinerator",
+    "color": "E85C5C"
   }
 }

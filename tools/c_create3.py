@@ -184,9 +184,6 @@ chapter(
           text=["Мельницы, лесопилки, фермерские дворы. Деревенский Create, вписанный "
                 "в холмы Terralith."],
           tasks=[check("Найти деревенскую постройку Create")]),
-        Q("oplenty", "CreateOPlenty", "createoplenty:orange_sand_paper", 2, 0,
-          text=["Наждак из песков BOP, породы и древесина BOP в машинах Create."],
-          tasks=[item("createoplenty:orange_sand_paper")], optional=True),
         Q("stickywheels", "Sticky Wheels", "offroad:sticky_tire", 0, 1,
           text=["Липкие шины для Offroad: держат склон, не скользят по льду."],
           tasks=[item("offroad:sticky_tire")], optional=True),

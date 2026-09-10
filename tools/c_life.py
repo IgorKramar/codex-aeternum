@@ -154,9 +154,9 @@ chapter(
 
         Q("et_deco", "Декор Eternal Tales", "eternal_tales:soul_lava_lamp", 2, 1,
           text=[
-              "Мод добавляет сотни блоков из каждого измерения: "
-              "янтарные кирпичи, кометная древесина, эдемский камень, "
-              "лава-лампы, вазы, картины и пластинки.",
+              "Мод добавляет сотни блоков из каждого измерения: янтарные кирпичи, "
+              "кометная древесина, эдемский камень, лава-лампы, вазы, картины "
+              "и пластинки.",
               "Музей и витрины позволяют выставлять трофеи.",
           ],
           tasks=[item("eternal_tales:soul_lava_lamp")],
@@ -170,27 +170,28 @@ chapter(
           ],
           tasks=[item("comforts:rope_and_nail")]),
 
-        Q("bop_blocks", "Материалы Biomes O' Plenty", "biomesoplenty:fir_planks", 1, 2,
+        Q("macaw", "Серия Macaw's", "mcwroofs:oak_roof", 1, 2,
           text=[
-              "BOP добавляет больше двадцати пород дерева, "
-              "новые виды камня, песка, цветов и грибов.",
-              "Все они работают в лесопилке Create, резаке "
-              "Domum Ornamentum и мебельных модах.",
+              "Семь модов одного автора закрывают то, чего в ванили нет совсем: крыши "
+              "под настоящим углом, двери и калитки всех видов, окна со ставнями, "
+              "лестницы и перила, мосты, фонари и праздничный декор.",
+              "Крафтится всё из обычных материалов и стыкуется с любым стилем — "
+              "от деревенского до промышленного.",
           ],
-          tasks=[item("biomesoplenty:fir_planks")],
+          tasks=[item("mcwroofs:oak_roof"), item("mcwdoors:oak_japanese_door"),
+                 item("mcwwindows:oak_window")],
           optional=True),
     ],
 )
 
 chapter(
     "life_world", "world", 10, "Мир сборки", "minecraft:filled_map",
-    "Terralith, Biomes O' Plenty и дальняя прорисовка",
+    "Terralith, компасы и дальняя прорисовка",
     [
-        "Генерация мира собрана из двух модов сразу: Terralith "
-        "переделывает рельеф и добавляет более ста биомов, "
-        "Biomes O' Plenty — свои биомы, деревья и растения.",
-        "Lithostitched и TerraBlender следят, чтобы они не мешали "
-        "друг другу.",
+        "Terralith переделывает мир целиком: настоящие горные хребты, каньоны, "
+        "пещерные системы, оазисы и вулканы — больше сотни биомов.",
+        "Lithostitched и TerraBlender следят, чтобы он не спорил с измерениями, "
+        "которые добавляют остальные моды.",
     ],
     [
         Q("terralith", "Terralith", "minecraft:grass_block", 0, 0,
@@ -201,13 +202,15 @@ chapter(
           ],
           tasks=[check("Найти биом Terralith")]),
 
-        Q("bop", "Biomes O' Plenty", "biomesoplenty:fir_sapling", 1, 0,
+        Q("compass", "Компасы исследователя", "naturescompass:naturescompass", 1, 0,
           text=[
-              "BOP добавляет пихту, красное дерево, иву, умбру, "
-              "живое дерево и десятки других пород, а также "
-              "цветы, ягоды и новые виды почвы.",
+              "Nature's Compass ищет биом по названию, Explorer's Compass — структуру. "
+              "Выбираете в списке, компас показывает направление и расстояние.",
+              "В мире, где биомов больше сотни, а структур ещё больше, это не читерство, "
+              "а способ не потратить вечер на поиски деревни.",
           ],
-          tasks=[item("biomesoplenty:fir_sapling")]),
+          tasks=[item("naturescompass:naturescompass"),
+                 item("explorerscompass:explorerscompass")]),
 
         Q("dh", "Distant Horizons", "minecraft:spyglass", 2, 0,
           text=[
@@ -231,8 +234,8 @@ chapter(
           text=[
               "Помимо ванильных в мире генерируются: постройки "
               "Create (Structures Arise и Rustic Structures), "
-              "деревни и башни Eternal Tales, путевые камни, "
-              "структуры Terralith и BOP.",
+              "деревни и башни Eternal Tales, подземелья Cataclysm, "
+              "путевые камни и структуры Terralith.",
           ],
           tasks=[check("Найти любую модовую структуру")]),
 
@@ -248,19 +251,19 @@ chapter(
           tasks=[item("waystones:waystone"), item("waystones:sharestone"),
                  item("waystones:warp_dust")]),
 
-        Q("daylength", "Длина суток", "minecraft:clock", 0, 2,
+        Q("lootr_world", "Личная добыча", "lootr:trophy", 0, 2,
           text=[
-              "SimpleDayLengthExtender удлиняет игровые сутки. "
-              "Это меняет планирование: ночь дольше, урожай растёт "
-              "по реальному времени медленнее.",
+              "Lootr делает сундуки в структурах личными: каждый игрок открывает свой "
+              "набор добычи. Крепость, разграбленная соседом час назад, для вас "
+              "по-прежнему полна.",
           ],
           tasks=[check("Прочитано")]),
 
         Q("mobs", "Мобы сборки", "minecraft:zombie_head", 1, 2,
           text=[
-              "Помимо ванильных в мире водятся сотни существ "
-              "Eternal Tales, мобы Biomes O' Plenty, налётчики "
-              "MineColonies и обитатели Aether и Сумеречного леса.",
+              "Помимо ванильных в мире водятся сотни существ Eternal Tales, звери "
+              "Alex's Mobs, боссы Cataclysm и Mowzie's Mobs, мутанты Mutant Monsters, "
+              "налётчики MineColonies и обитатели Aether и Сумеречного леса.",
               "LetMeDespawn убирает лишних мобов, чтобы сервер "
               "не задыхался.",
           ],

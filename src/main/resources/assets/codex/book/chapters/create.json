@@ -2894,29 +2894,6 @@
     }
    },
    {
-    "id": "oplenty",
-    "title": "codex.quest.create_world.oplenty.title",
-    "icon": "createoplenty:orange_sand_paper",
-    "x": 2,
-    "y": 0,
-    "text": [
-     "codex.quest.create_world.oplenty.text.0"
-    ],
-    "tasks": [
-     {
-      "type": "item",
-      "id": "createoplenty:orange_sand_paper",
-      "count": 1
-     }
-    ],
-    "optional": true,
-    "rewards": {
-     "items": [],
-     "xp": 25,
-     "text": []
-    }
-   },
-   {
     "id": "stickywheels",
     "title": "codex.quest.create_world.stickywheels.title",
     "icon": "offroad:sticky_tire",

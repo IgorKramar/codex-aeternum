@@ -22,6 +22,7 @@ SECTIONS_EN = {
     "mek": "Mekanism", "storage": "Storage & Logistics", "colony": "Colony", "dim": "Other Worlds",
     "eternal": "Eternal Tales", "life": "Home & Comfort", "trials": "Trials", "final": "Finale",
     "endgame": "Endgame", "more": "Beyond the Path",
+    "magic": "Magic", "tech2": "Industry II", "space": "Space", "hunt": "The Hunt",
 }
 SECTIONS_RU = {
     "start": "Начало пути", "story": "Сюжетные линии", "world": "Мир и разведка",
@@ -29,6 +30,7 @@ SECTIONS_RU = {
     "mek": "Mekanism", "storage": "Хранение и логистика", "colony": "Колония", "dim": "Иные миры",
     "eternal": "Eternal Tales", "life": "Быт и уют", "trials": "Испытания", "final": "Финал",
     "endgame": "Эндгейм", "more": "За пределами пути",
+    "magic": "Магия", "tech2": "Индустрия II", "space": "Космос", "hunt": "Охота",
 }
 
 UI_RU = {

@@ -301,7 +301,7 @@
      },
      {
       "type": "biome",
-      "id": "biomesoplenty:lavender_field"
+      "id": "terralith:lavender_forest"
      }
     ],
     "rewards": {
@@ -422,7 +422,7 @@
    {
     "id": "mystic",
     "title": "codex.quest.more_explore.mystic.title",
-    "icon": "biomesoplenty:glowflower",
+    "icon": "minecraft:emerald",
     "x": 2,
     "y": 1,
     "text": [
@@ -431,13 +431,13 @@
     "tasks": [
      {
       "type": "biome",
-      "id": "biomesoplenty:mystic_grove"
+      "id": "terralith:emerald_peaks"
      }
     ],
     "rewards": {
      "items": [
       {
-       "id": "biomesoplenty:glowflower",
+       "id": "minecraft:emerald",
        "count": 8
       }
      ],
@@ -448,7 +448,7 @@
    {
     "id": "ominous",
     "title": "codex.quest.more_explore.ominous.title",
-    "icon": "biomesoplenty:dead_sapling",
+    "icon": "minecraft:magma_block",
     "x": 3,
     "y": 1,
     "text": [
@@ -457,14 +457,14 @@
     "tasks": [
      {
       "type": "biome",
-      "id": "biomesoplenty:ominous_woods"
+      "id": "terralith:volcanic_crater"
      }
     ],
     "rewards": {
      "items": [
       {
-       "id": "minecraft:torch",
-       "count": 64
+       "id": "minecraft:magma_block",
+       "count": 32
       }
      ],
      "xp": 50,
@@ -474,7 +474,7 @@
    {
     "id": "redwood",
     "title": "codex.quest.more_explore.redwood.title",
-    "icon": "biomesoplenty:redwood_sapling",
+    "icon": "minecraft:moss_block",
     "x": 0,
     "y": 2,
     "text": [
@@ -483,14 +483,14 @@
     "tasks": [
      {
       "type": "biome",
-      "id": "biomesoplenty:redwood_forest"
+      "id": "terralith:cloud_forest"
      }
     ],
     "rewards": {
      "items": [
       {
-       "id": "biomesoplenty:redwood_sapling",
-       "count": 8
+       "id": "minecraft:moss_block",
+       "count": 32
       }
      ],
      "xp": 40,
@@ -500,7 +500,7 @@
    {
     "id": "wasteland",
     "title": "codex.quest.more_explore.wasteland.title",
-    "icon": "minecraft:dead_bush",
+    "icon": "minecraft:orange_terracotta",
     "x": 1,
     "y": 2,
     "text": [
@@ -509,14 +509,14 @@
     "tasks": [
      {
       "type": "biome",
-      "id": "biomesoplenty:wasteland"
+      "id": "terralith:painted_mountains"
      }
     ],
     "rewards": {
      "items": [
       {
-       "id": "minecraft:bone_block",
-       "count": 8
+       "id": "minecraft:orange_terracotta",
+       "count": 32
       }
      ],
      "xp": 40,
@@ -526,7 +526,7 @@
    {
     "id": "hotsprings",
     "title": "codex.quest.more_explore.hotsprings.title",
-    "icon": "minecraft:water_bucket",
+    "icon": "minecraft:glow_lichen",
     "x": 2,
     "y": 2,
     "text": [
@@ -535,14 +535,14 @@
     "tasks": [
      {
       "type": "biome",
-      "id": "biomesoplenty:hot_springs"
+      "id": "terralith:moonlight_grove"
      }
     ],
     "rewards": {
      "items": [
       {
-       "id": "minecraft:snow_block",
-       "count": 32
+       "id": "minecraft:glow_lichen",
+       "count": 16
       }
      ],
      "xp": 40,
@@ -552,7 +552,7 @@
    {
     "id": "endbop",
     "title": "codex.quest.more_explore.endbop.title",
-    "icon": "minecraft:chorus_fruit",
+    "icon": "minecraft:sand",
     "x": 3,
     "y": 2,
     "text": [
@@ -561,18 +561,14 @@
     "tasks": [
      {
       "type": "biome",
-      "id": "biomesoplenty:end_wilds"
-     },
-     {
-      "type": "biome",
-      "id": "biomesoplenty:end_reef"
+      "id": "terralith:mirage_isles"
      }
     ],
     "rewards": {
      "items": [
       {
-       "id": "minecraft:chorus_fruit",
-       "count": 32
+       "id": "minecraft:sand",
+       "count": 64
       }
      ],
      "xp": 80,

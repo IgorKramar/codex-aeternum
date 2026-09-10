@@ -66,7 +66,7 @@ EN = {
         "title": "Colony Production", "subtitle": "From forest and mine to smithy and glassblower",
         "intro": ["The colony can make nearly anything once the chains are set: lumberjack gives logs, sawmill gives products, miner gives ore, smeltery gives ingots, blacksmith gives tools. Your job is deciding what comes first."],
         "quests": {
-            "lumberjack": {"title": "Lumberjack", "text": ["Fells and replants. Knows every wood, BOP included."]},
+            "lumberjack": {"title": "Lumberjack", "text": ["Fells and replants. Knows every wood in the pack."]},
             "sawmill": {"title": "Sawmill", "text": ["Planks, doors, stairs, furniture — on the builder's orders."]},
             "miner": {"title": "Miner", "text": ["Digs a mine in levels. The stonemason cuts stone, the crusher grinds cobble to gravel and sand, the sifter shakes rarities from the soil."]},
             "smeltery": {"title": "Smelteries", "text": ["Ore to ingots; stone and sand in the stone one. Level is furnace count."]},

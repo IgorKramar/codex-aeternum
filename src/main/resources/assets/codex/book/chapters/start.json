@@ -439,10 +439,32 @@
     }
    },
    {
+    "id": "lootr",
+    "title": "codex.quest.start_qol.lootr.title",
+    "icon": "lootr:trophy",
+    "x": 3,
+    "y": 0,
+    "text": [
+     "codex.quest.start_qol.lootr.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Прочитано",
+      "note": "codex.quest.start_qol.lootr.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 15,
+     "text": []
+    }
+   },
+   {
     "id": "keyconflict",
     "title": "codex.quest.start_qol.keyconflict.title",
     "icon": "minecraft:lever",
-    "x": 3,
+    "x": 4,
     "y": 0,
     "text": [
      "codex.quest.start_qol.keyconflict.text.0"
@@ -461,18 +483,19 @@
     }
    },
    {
-    "id": "effortless",
-    "title": "codex.quest.start_qol.effortless.title",
-    "icon": "minecraft:scaffolding",
+    "id": "gadgets",
+    "title": "codex.quest.start_qol.gadgets.title",
+    "icon": "buildinggadgets2:gadget_building",
     "x": 0,
     "y": 1,
     "text": [
-     "codex.quest.start_qol.effortless.text.0"
+     "codex.quest.start_qol.gadgets.text.0",
+     "codex.quest.start_qol.gadgets.text.1"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "effortlessbuilding:randomizer_tool",
+      "id": "buildinggadgets2:gadget_building",
       "count": 1
      }
     ],
@@ -577,7 +600,8 @@
     "x": 1,
     "y": 2,
     "text": [
-     "codex.quest.start_qol.performance.text.0"
+     "codex.quest.start_qol.performance.text.0",
+     "codex.quest.start_qol.performance.text.1"
     ],
     "tasks": [
      {

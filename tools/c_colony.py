@@ -59,7 +59,7 @@ chapter(
     ],
     chain([
         Q("lumberjack", "Лесоруб", "minecolonies:blockhutlumberjack", 0, 0,
-          text=["Валит и сажает. Понимает все породы, включая BOP."],
+          text=["Валит и сажает. Понимает все породы, какие есть в сборке."],
           tasks=[item("minecolonies:blockhutlumberjack")]),
         Q("sawmill", "Лесопилка", "minecolonies:blockhutsawmill", 0, 1,
           text=["Доски, двери, лестницы, мебель — по заказам строителя."],

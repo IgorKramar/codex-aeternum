@@ -35,18 +35,24 @@
     }
    },
    {
-    "id": "bop",
-    "title": "codex.quest.life_world.bop.title",
-    "icon": "biomesoplenty:fir_sapling",
+    "id": "compass",
+    "title": "codex.quest.life_world.compass.title",
+    "icon": "naturescompass:naturescompass",
     "x": 1,
     "y": 0,
     "text": [
-     "codex.quest.life_world.bop.text.0"
+     "codex.quest.life_world.compass.text.0",
+     "codex.quest.life_world.compass.text.1"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "biomesoplenty:fir_sapling",
+      "id": "naturescompass:naturescompass",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "explorerscompass:explorerscompass",
       "count": 1
      }
     ],
@@ -158,19 +164,19 @@
     }
    },
    {
-    "id": "daylength",
-    "title": "codex.quest.life_world.daylength.title",
-    "icon": "minecraft:clock",
+    "id": "lootr_world",
+    "title": "codex.quest.life_world.lootr_world.title",
+    "icon": "lootr:trophy",
     "x": 0,
     "y": 2,
     "text": [
-     "codex.quest.life_world.daylength.text.0"
+     "codex.quest.life_world.lootr_world.text.0"
     ],
     "tasks": [
      {
       "type": "check",
       "id": "Прочитано",
-      "note": "codex.quest.life_world.daylength.task.0"
+      "note": "codex.quest.life_world.lootr_world.task.0"
      }
     ],
     "rewards": {

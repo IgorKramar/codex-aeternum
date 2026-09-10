@@ -166,7 +166,6 @@ EN = {
         "quests": {
             "arise": {"title": "Create: Structures Arise", "text": ["Abandoned factories, workshops, mines with working mechanisms. Someone built here before you — and left, leaving blueprints in chests."], "tasks": ["Find a Create structure in the world"]},
             "rustic": {"title": "Create: Rustic Structures", "text": ["Mills, sawmills, farmyards. Village Create, fitted into Terralith's hills."], "tasks": ["Find a rustic Create structure"]},
-            "oplenty": {"title": "CreateOPlenty", "text": ["Sandpaper from BOP sands, BOP stone and wood in Create machines."]},
             "stickywheels": {"title": "Sticky Wheels", "text": ["Sticky tires for Offroad: hold a slope, don't slip on ice."]},
             "deco": {"title": "Decorative Blocks", "text": ["Copper shingles in every stage of green, framed glass, girders, brackets, copycat blocks that take any look. Create knows how to be beautiful."]},
         },

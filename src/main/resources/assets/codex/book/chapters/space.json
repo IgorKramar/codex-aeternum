@@ -1,0 +1,1462 @@
+[
+ {
+  "id": "space_ground",
+  "section": "space",
+  "order": 10,
+  "title": "codex.chapter.space_ground.title",
+  "icon": "ad_astra:nasa_workbench",
+  "subtitle": "codex.chapter.space_ground.subtitle",
+  "intro": [
+   "codex.chapter.space_ground.intro.0",
+   "codex.chapter.space_ground.intro.1",
+   "codex.chapter.space_ground.intro.2"
+  ],
+  "quests": [
+   {
+    "id": "generator",
+    "title": "codex.quest.space_ground.generator.title",
+    "icon": "ad_astra:coal_generator",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.space_ground.generator.text.0",
+     "codex.quest.space_ground.generator.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:coal_generator",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:carbon_footprint"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:steel_ingot",
+       "count": 8
+      }
+     ],
+     "xp": 40,
+     "text": []
+    }
+   },
+   {
+    "id": "compressor",
+    "title": "codex.quest.space_ground.compressor.title",
+    "icon": "ad_astra:compressor",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.space_ground.compressor.text.0",
+     "codex.quest.space_ground.compressor.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:compressor",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:under_pressure"
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:iron_plate",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:iron_plate",
+       "count": 16
+      }
+     ],
+     "xp": 40,
+     "text": []
+    },
+    "deps": [
+     "generator"
+    ]
+   },
+   {
+    "id": "furnace",
+    "title": "codex.quest.space_ground.furnace.title",
+    "icon": "ad_astra:etrionic_blast_furnace",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.space_ground.furnace.text.0",
+     "codex.quest.space_ground.furnace.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:etrionic_blast_furnace",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:smart_blasting"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:steel_plate",
+       "count": 16
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "deps": [
+     "compressor"
+    ]
+   },
+   {
+    "id": "steel",
+    "title": "codex.quest.space_ground.steel.title",
+    "icon": "ad_astra:steel_ingot",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.space_ground.steel.text.0",
+     "codex.quest.space_ground.steel.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:steel_ingot",
+      "count": 64
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:steel_plate",
+      "count": 32
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:steel_ingot",
+       "count": 32
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "furnace"
+    ]
+   },
+   {
+    "id": "workbench",
+    "title": "codex.quest.space_ground.workbench.title",
+    "icon": "ad_astra:nasa_workbench",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.space_ground.workbench.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:nasa_workbench",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:rocket_science"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:steel_block",
+       "count": 4
+      }
+     ],
+     "xp": 80,
+     "text": []
+    },
+    "deps": [
+     "steel"
+    ]
+   },
+   {
+    "id": "oil",
+    "title": "codex.quest.space_ground.oil.title",
+    "icon": "ad_astra:oil_bucket",
+    "x": -1,
+    "y": 5,
+    "text": [
+     "codex.quest.space_ground.oil.text.0",
+     "codex.quest.space_ground.oil.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:oil_bucket",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:ocean_cleanup"
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:fuel_refinery",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:fuel_bucket",
+      "count": 3
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:fuel_bucket",
+       "count": 3
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "workbench"
+    ]
+   },
+   {
+    "id": "oxygen",
+    "title": "codex.quest.space_ground.oxygen.title",
+    "icon": "ad_astra:oxygen_loader",
+    "x": 1,
+    "y": 5,
+    "text": [
+     "codex.quest.space_ground.oxygen.text.0",
+     "codex.quest.space_ground.oxygen.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:oxygen_loader",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:gas_tank",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:oxygen_gear",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:gas_tank",
+       "count": 2
+      }
+     ],
+     "xp": 100,
+     "text": []
+    },
+    "deps": [
+     "oil"
+    ]
+   },
+   {
+    "id": "suit",
+    "title": "codex.quest.space_ground.suit.title",
+    "icon": "ad_astra:space_helmet",
+    "x": 0,
+    "y": 6,
+    "deps": [
+     "oxygen"
+    ],
+    "text": [
+     "codex.quest.space_ground.suit.text.0",
+     "codex.quest.space_ground.suit.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:space_helmet",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:space_suit",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:space_pants",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:space_boots",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:astronaut"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:gas_tank",
+       "count": 4
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "rocket",
+    "title": "codex.quest.space_ground.rocket.title",
+    "icon": "ad_astra:tier_1_rocket",
+    "x": 0,
+    "y": 7,
+    "deps": [
+     "workbench",
+     "oil",
+     "suit"
+    ],
+    "text": [
+     "codex.quest.space_ground.rocket.text.0",
+     "codex.quest.space_ground.rocket.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:rocket_nose_cone",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:rocket_fin",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:steel_tank",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:steel_engine",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:tier_1_rocket",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:launch_pad",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:tier_1_rocket"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:launch_pad",
+       "count": 1
+      },
+      {
+       "id": "ad_astra:fuel_bucket",
+       "count": 6
+      }
+     ],
+     "xp": 300,
+     "text": [
+      "codex.quest.space_ground.rocket.reward.0"
+     ]
+    }
+   },
+   {
+    "id": "checklist",
+    "title": "codex.quest.space_ground.checklist.title",
+    "icon": "ad_astra:gas_tank",
+    "x": 0,
+    "y": 8,
+    "text": [
+     "codex.quest.space_ground.checklist.text.0",
+     "codex.quest.space_ground.checklist.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Площадка и топливо на обратный путь лежа",
+      "note": "codex.quest.space_ground.checklist.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:soul_torch",
+       "count": 32
+      }
+     ],
+     "xp": 80,
+     "text": []
+    },
+    "deps": [
+     "rocket"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "space_moon",
+  "section": "space",
+  "order": 20,
+  "title": "codex.chapter.space_moon.title",
+  "icon": "ad_astra:moon_globe",
+  "subtitle": "codex.chapter.space_moon.subtitle",
+  "intro": [
+   "codex.chapter.space_moon.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "landing",
+    "title": "codex.quest.space_moon.landing.title",
+    "icon": "ad_astra:moon_globe",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.space_moon.landing.text.0",
+     "codex.quest.space_moon.landing.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "ad_astra:moon"
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:moon"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:steel_plate",
+       "count": 16
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "desh",
+    "title": "codex.quest.space_moon.desh.title",
+    "icon": "ad_astra:desh_ingot",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.space_moon.desh.text.0",
+     "codex.quest.space_moon.desh.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:raw_desh",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:desh_ingot",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:ice_shard",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:desh_plate",
+       "count": 16
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "deps": [
+     "landing"
+    ]
+   },
+   {
+    "id": "cheese",
+    "title": "codex.quest.space_moon.cheese.title",
+    "icon": "ad_astra:cheese",
+    "x": 1,
+    "y": 1,
+    "text": [
+     "codex.quest.space_moon.cheese.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:cheese",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:moon_cheese"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:cheese",
+       "count": 8
+      }
+     ],
+     "xp": 60,
+     "text": []
+    },
+    "optional": true,
+    "deps": [
+     "desh"
+    ]
+   },
+   {
+    "id": "solar",
+    "title": "codex.quest.space_moon.solar.title",
+    "icon": "ad_astra:solar_panel",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.space_moon.solar.text.0",
+     "codex.quest.space_moon.solar.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:solar_panel",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:solar_panel"
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:steel_cable",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:cable_duct",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:solar_panel",
+       "count": 2
+      }
+     ],
+     "xp": 150,
+     "text": []
+    },
+    "deps": [
+     "cheese"
+    ]
+   },
+   {
+    "id": "distributor",
+    "title": "codex.quest.space_moon.distributor.title",
+    "icon": "ad_astra:oxygen_distributor",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.space_moon.distributor.text.0",
+     "codex.quest.space_moon.distributor.text.1",
+     "codex.quest.space_moon.distributor.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:oxygen_distributor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:water_pump",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:vent",
+      "count": 2
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:oxygen_distributor"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:airlock",
+       "count": 2
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "solar"
+    ]
+   },
+   {
+    "id": "gravity",
+    "title": "codex.quest.space_moon.gravity.title",
+    "icon": "ad_astra:gravity_normalizer",
+    "x": 1,
+    "y": 3,
+    "deps": [
+     "distributor"
+    ],
+    "text": [
+     "codex.quest.space_moon.gravity.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:gravity_normalizer",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:gravity_normalizer"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:etrionic_capacitor",
+       "count": 1
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "rover",
+    "title": "codex.quest.space_moon.rover.title",
+    "icon": "ad_astra:tier_1_rover",
+    "x": -1,
+    "y": 3,
+    "deps": [
+     "desh"
+    ],
+    "text": [
+     "codex.quest.space_moon.rover.text.0",
+     "codex.quest.space_moon.rover.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:radio",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:dj"
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:tier_1_rover",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:rover"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:fuel_bucket",
+       "count": 4
+      }
+     ],
+     "xp": 200,
+     "text": []
+    }
+   },
+   {
+    "id": "gadgets",
+    "title": "codex.quest.space_moon.gadgets.title",
+    "icon": "ad_astra:ti_69",
+    "x": -1,
+    "y": 4,
+    "deps": [
+     "rover"
+    ],
+    "text": [
+     "codex.quest.space_moon.gadgets.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:ti_69",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:ti_69"
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:zip_gun",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:zip_gun"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:gas_tank",
+       "count": 4
+      }
+     ],
+     "xp": 200,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "orbit",
+    "title": "codex.quest.space_moon.orbit.title",
+    "icon": "ad_astra:space_painting",
+    "x": 1,
+    "y": 4,
+    "deps": [
+     "distributor"
+    ],
+    "text": [
+     "codex.quest.space_moon.orbit.text.0",
+     "codex.quest.space_moon.orbit.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "ad_astra:earth_orbit"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:steel_plate",
+       "count": 32
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "tier2",
+    "title": "codex.quest.space_moon.tier2.title",
+    "icon": "ad_astra:tier_2_rocket",
+    "x": 0,
+    "y": 5,
+    "deps": [
+     "desh",
+     "distributor"
+    ],
+    "text": [
+     "codex.quest.space_moon.tier2.text.0",
+     "codex.quest.space_moon.tier2.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:desh_tank",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:desh_engine",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:tier_2_rocket",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:tier_2_rocket"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:desh_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "space_mars",
+  "section": "space",
+  "order": 30,
+  "title": "codex.chapter.space_mars.title",
+  "icon": "ad_astra:ostrum_ingot",
+  "subtitle": "codex.chapter.space_mars.subtitle",
+  "intro": [
+   "codex.chapter.space_mars.intro.0"
+  ],
+  "quests": [
+   {
+    "id": "landing_mars",
+    "title": "codex.quest.space_mars.landing_mars.title",
+    "icon": "ad_astra:mars_globe",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.space_mars.landing_mars.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "ad_astra:mars"
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:mars"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:desh_plate",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    }
+   },
+   {
+    "id": "ostrum",
+    "title": "codex.quest.space_mars.ostrum.title",
+    "icon": "ad_astra:ostrum_ingot",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.space_mars.ostrum.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:raw_ostrum",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:ostrum_ingot",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:ostrum_plate",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:ostrum_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "landing_mars"
+    ]
+   },
+   {
+    "id": "cryo",
+    "title": "codex.quest.space_mars.cryo.title",
+    "icon": "ad_astra:cryo_fuel_bucket",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.space_mars.cryo.text.0",
+     "codex.quest.space_mars.cryo.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:cryo_freezer",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:cryo_freezer"
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:cryo_fuel_bucket",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:cryo_fuel"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:cryo_fuel_bucket",
+       "count": 2
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "ostrum"
+    ]
+   },
+   {
+    "id": "energizer",
+    "title": "codex.quest.space_mars.energizer.title",
+    "icon": "ad_astra:energizer",
+    "x": 1,
+    "y": 2,
+    "text": [
+     "codex.quest.space_mars.energizer.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:energizer",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:energizer"
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:etrionic_capacitor",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:etrionic_capacitor",
+       "count": 2
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "cryo"
+    ]
+   },
+   {
+    "id": "netherite_suit",
+    "title": "codex.quest.space_mars.netherite_suit.title",
+    "icon": "ad_astra:netherite_space_helmet",
+    "x": 0,
+    "y": 3,
+    "deps": [
+     "ostrum"
+    ],
+    "text": [
+     "codex.quest.space_mars.netherite_suit.text.0",
+     "codex.quest.space_mars.netherite_suit.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:netherite_space_helmet",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:netherite_space_suit",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:netherite_space_pants",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:netherite_space_boots",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:doom_slayer"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:large_gas_tank",
+       "count": 2
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   },
+   {
+    "id": "tier3",
+    "title": "codex.quest.space_mars.tier3.title",
+    "icon": "ad_astra:tier_3_rocket",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.space_mars.tier3.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:ostrum_tank",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:ostrum_engine",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:tier_3_rocket",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:tier_3_rocket"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:ostrum_ingot",
+       "count": 24
+      }
+     ],
+     "xp": 500,
+     "text": []
+    },
+    "deps": [
+     "netherite_suit"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "space_hot",
+  "section": "space",
+  "order": 40,
+  "title": "codex.chapter.space_hot.title",
+  "icon": "ad_astra:calorite_ingot",
+  "subtitle": "codex.chapter.space_hot.subtitle",
+  "intro": [
+   "codex.chapter.space_hot.intro.0",
+   "codex.chapter.space_hot.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "venus",
+    "title": "codex.quest.space_hot.venus.title",
+    "icon": "ad_astra:venus_globe",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.space_hot.venus.text.0",
+     "codex.quest.space_hot.venus.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "ad_astra:venus"
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:venus"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:ostrum_plate",
+       "count": 16
+      }
+     ],
+     "xp": 500,
+     "text": []
+    }
+   },
+   {
+    "id": "calorite",
+    "title": "codex.quest.space_hot.calorite.title",
+    "icon": "ad_astra:calorite_ingot",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.space_hot.calorite.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:raw_calorite",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:calorite_ingot",
+      "count": 16
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:calorite_plate",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:calorite_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 600,
+     "text": []
+    },
+    "deps": [
+     "venus"
+    ]
+   },
+   {
+    "id": "mercury",
+    "title": "codex.quest.space_hot.mercury.title",
+    "icon": "ad_astra:mercury_globe",
+    "x": 1,
+    "y": 0,
+    "text": [
+     "codex.quest.space_hot.mercury.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "ad_astra:mercury"
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:mercury"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:solar_panel",
+       "count": 4
+      }
+     ],
+     "xp": 500,
+     "text": []
+    },
+    "deps": [
+     "calorite"
+    ]
+   },
+   {
+    "id": "jet",
+    "title": "codex.quest.space_hot.jet.title",
+    "icon": "ad_astra:jet_suit",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "calorite"
+    ],
+    "text": [
+     "codex.quest.space_hot.jet.text.0",
+     "codex.quest.space_hot.jet.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:jet_suit_helmet",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:jet_suit",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:jet_suit_pants",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:jet_suit_boots",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:rocket_man"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:etrionic_capacitor",
+       "count": 4
+      }
+     ],
+     "xp": 800,
+     "text": []
+    }
+   },
+   {
+    "id": "tier4",
+    "title": "codex.quest.space_hot.tier4.title",
+    "icon": "ad_astra:tier_4_rocket",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.space_hot.tier4.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:calorite_tank",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:calorite_engine",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:tier_4_rocket",
+      "count": 1
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:tier_4_rocket"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:calorite_ingot",
+       "count": 24
+      }
+     ],
+     "xp": 800,
+     "text": []
+    },
+    "deps": [
+     "jet"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "space_glacio",
+  "section": "space",
+  "order": 50,
+  "title": "codex.chapter.space_glacio.title",
+  "icon": "ad_astra:glacio_globe",
+  "subtitle": "codex.chapter.space_glacio.subtitle",
+  "intro": [
+   "codex.chapter.space_glacio.intro.0",
+   "codex.chapter.space_glacio.intro.1"
+  ],
+  "quests": [
+   {
+    "id": "interstellar",
+    "title": "codex.quest.space_glacio.interstellar.title",
+    "icon": "ad_astra:glacio_globe",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.space_glacio.interstellar.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "dimension",
+      "id": "ad_astra:glacio"
+     },
+     {
+      "type": "advancement",
+      "id": "ad_astra:interstellar"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:calorite_plate",
+       "count": 16
+      }
+     ],
+     "xp": 1000,
+     "text": []
+    }
+   },
+   {
+    "id": "glacio_life",
+    "title": "codex.quest.space_glacio.glacio_life.title",
+    "icon": "ad_astra:glacian_fur",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.space_glacio.glacio_life.text.0"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:glacian_fur",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:ice_shard",
+      "count": 32
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:cryo_fuel_bucket",
+       "count": 4
+      }
+     ],
+     "xp": 600,
+     "text": []
+    },
+    "deps": [
+     "interstellar"
+    ]
+   },
+   {
+    "id": "colony",
+    "title": "codex.quest.space_glacio.colony.title",
+    "icon": "ad_astra:oxygen_distributor",
+    "x": 0,
+    "y": 2,
+    "deps": [
+     "glacio_life"
+    ],
+    "text": [
+     "codex.quest.space_glacio.colony.text.0",
+     "codex.quest.space_glacio.colony.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:oxygen_distributor",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:water_pump",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:gravity_normalizer",
+      "count": 1,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:solar_panel",
+      "count": 4,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:airlock",
+      "count": 2,
+      "consume": true
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:energizer",
+      "count": 1,
+      "consume": true
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "ad_astra:desh_plate",
+       "count": 32
+      },
+      {
+       "id": "ad_astra:ostrum_plate",
+       "count": 32
+      },
+      {
+       "id": "ad_astra:calorite_plate",
+       "count": 16
+      }
+     ],
+     "xp": 2000,
+     "text": [
+      "codex.quest.space_glacio.colony.reward.0"
+     ]
+    }
+   }
+  ]
+ }
+]

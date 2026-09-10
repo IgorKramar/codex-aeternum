@@ -99,7 +99,7 @@ dupes = []
 seen_chapters = set()
 total_quests = 0
 
-XP_BY_SECTION = {"start": 15, "world": 15, "story": 0, "endgame": 0, "more": 30, "create": 25, "createx": 40, "ie": 30, "mek": 40,
+XP_BY_SECTION = {"start": 15, "world": 15, "story": 0, "endgame": 0, "more": 30, "magic": 45, "tech2": 45, "space": 70, "hunt": 60, "create": 25, "createx": 40, "ie": 30, "mek": 40,
                  "storage": 30, "colony": 30, "dim": 45, "eternal": 60, "life": 20, "final": 120,
                  "trials": 0}
 

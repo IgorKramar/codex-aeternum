@@ -487,19 +487,29 @@
     }
    },
    {
-    "id": "bop_blocks",
-    "title": "codex.quest.life_furniture.bop_blocks.title",
-    "icon": "biomesoplenty:fir_planks",
+    "id": "macaw",
+    "title": "codex.quest.life_furniture.macaw.title",
+    "icon": "mcwroofs:oak_roof",
     "x": 1,
     "y": 2,
     "text": [
-     "codex.quest.life_furniture.bop_blocks.text.0",
-     "codex.quest.life_furniture.bop_blocks.text.1"
+     "codex.quest.life_furniture.macaw.text.0",
+     "codex.quest.life_furniture.macaw.text.1"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "biomesoplenty:fir_planks",
+      "id": "mcwroofs:oak_roof",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mcwdoors:oak_japanese_door",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mcwwindows:oak_window",
       "count": 1
      }
     ],
