@@ -627,5 +627,361 @@
     }
    }
   ]
+ },
+ {
+  "id": "hunt_apotheosis",
+  "section": "hunt",
+  "order": 30,
+  "title": "codex.chapter.hunt_apotheosis.title",
+  "icon": "apotheosis:gem_cutting_table",
+  "subtitle": "codex.chapter.hunt_apotheosis.subtitle",
+  "intro": [
+   "codex.chapter.hunt_apotheosis.intro.0",
+   "codex.chapter.hunt_apotheosis.intro.1",
+   "codex.chapter.hunt_apotheosis.intro.2"
+  ],
+  "quests": [
+   {
+    "id": "affixes",
+    "title": "codex.quest.hunt_apotheosis.affixes.title",
+    "icon": "apotheosis:gem_dust",
+    "x": 0,
+    "y": 0,
+    "text": [
+     "codex.quest.hunt_apotheosis.affixes.text.0",
+     "codex.quest.hunt_apotheosis.affixes.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apotheosis:gem_dust",
+      "count": 4
+     },
+     {
+      "type": "advancement",
+      "id": "apotheosis:progression/root"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "apotheosis:gem_dust",
+       "count": 8
+      }
+     ],
+     "xp": 150,
+     "text": []
+    }
+   },
+   {
+    "id": "gems",
+    "title": "codex.quest.hunt_apotheosis.gems.title",
+    "icon": "apotheosis:gem_cutting_table",
+    "x": 0,
+    "y": 1,
+    "text": [
+     "codex.quest.hunt_apotheosis.gems.text.0",
+     "codex.quest.hunt_apotheosis.gems.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apotheosis:gem_cutting_table",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "apotheosis:gem_fused_slate",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "apotheosis:gem_case",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "apotheosis:gem_fused_slate",
+       "count": 8
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "deps": [
+     "affixes"
+    ]
+   },
+   {
+    "id": "sigils",
+    "title": "codex.quest.hunt_apotheosis.sigils.title",
+    "icon": "apotheosis:sigil_of_socketing",
+    "x": 0,
+    "y": 2,
+    "text": [
+     "codex.quest.hunt_apotheosis.sigils.text.0",
+     "codex.quest.hunt_apotheosis.sigils.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apotheosis:sigil_of_socketing",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "apotheosis:sigil_of_withdrawal",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "apotheosis:vial_of_extraction",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "apotheosis:sigil_of_socketing",
+       "count": 2
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "gems"
+    ]
+   },
+   {
+    "id": "reforge",
+    "title": "codex.quest.hunt_apotheosis.reforge.title",
+    "icon": "apotheosis:reforging_table",
+    "x": 0,
+    "y": 3,
+    "text": [
+     "codex.quest.hunt_apotheosis.reforge.text.0",
+     "codex.quest.hunt_apotheosis.reforge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apotheosis:reforging_table",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "apotheosis:salvaging_table",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "apotheosis:gem_dust",
+       "count": 16
+      }
+     ],
+     "xp": 300,
+     "text": []
+    },
+    "deps": [
+     "sigils"
+    ]
+   },
+   {
+    "id": "enchanting",
+    "title": "codex.quest.hunt_apotheosis.enchanting.title",
+    "icon": "apothic_enchanting:apothic_enchanting_table",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.hunt_apotheosis.enchanting.text.0",
+     "codex.quest.hunt_apotheosis.enchanting.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apothic_enchanting:apothic_enchanting_table",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "apothic_enchanting:basic_bookshelf",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "apothic_enchanting:blazing_hellshelf",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "apothic_enchanting:basic_bookshelf",
+       "count": 16
+      }
+     ],
+     "xp": 350,
+     "text": []
+    },
+    "deps": [
+     "reforge"
+    ]
+   },
+   {
+    "id": "tomes",
+    "title": "codex.quest.hunt_apotheosis.tomes.title",
+    "icon": "apothic_enchanting:bow_tome",
+    "x": 1,
+    "y": 4,
+    "deps": [
+     "enchanting"
+    ],
+    "text": [
+     "codex.quest.hunt_apotheosis.tomes.text.0",
+     "codex.quest.hunt_apotheosis.tomes.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apothic_enchanting:bow_tome",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "apothic_enchanting:chestplate_tome",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "minecraft:lapis_block",
+       "count": 8
+      }
+     ],
+     "xp": 250,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "spawners",
+    "title": "codex.quest.hunt_apotheosis.spawners.title",
+    "icon": "apotheosis:spawner_rune",
+    "x": -1,
+    "y": 4,
+    "deps": [
+     "reforge"
+    ],
+    "text": [
+     "codex.quest.hunt_apotheosis.spawners.text.0",
+     "codex.quest.hunt_apotheosis.spawners.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apotheosis:spawner_chain",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "apotheosis:spawner_rune",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "apotheosis:spawner_rune",
+       "count": 4
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   },
+   {
+    "id": "gateways",
+    "title": "codex.quest.hunt_apotheosis.gateways.title",
+    "icon": "apotheosis:gem_case",
+    "x": 0,
+    "y": 5,
+    "text": [
+     "codex.quest.hunt_apotheosis.gateways.text.0",
+     "codex.quest.hunt_apotheosis.gateways.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "apotheosis:gateways/frontier"
+     },
+     {
+      "type": "advancement",
+      "id": "apotheosis:gateways/ascent"
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "apotheosis:gem_fused_slate",
+       "count": 16
+      }
+     ],
+     "xp": 600,
+     "text": []
+    },
+    "deps": [
+     "spawners"
+    ]
+   },
+   {
+    "id": "pinnacle",
+    "title": "codex.quest.hunt_apotheosis.pinnacle.title",
+    "icon": "apotheosis:godforged_pearl",
+    "x": 0,
+    "y": 6,
+    "text": [
+     "codex.quest.hunt_apotheosis.pinnacle.text.0",
+     "codex.quest.hunt_apotheosis.pinnacle.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "apotheosis:gateways/pinnacle"
+     },
+     {
+      "type": "advancement",
+      "id": "apotheosis:gateways/sigil_of_supremacy"
+     },
+     {
+      "type": "item",
+      "id": "apotheosis:godforged_pearl",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "apotheosis:sigil_of_supremacy",
+       "count": 1
+      },
+      {
+       "id": "apotheosis:godforged_pearl",
+       "count": 2
+      }
+     ],
+     "xp": 1500,
+     "text": []
+    },
+    "deps": [
+     "gateways"
+    ]
+   }
+  ]
  }
 ]
