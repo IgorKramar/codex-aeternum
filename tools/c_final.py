@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from dsl import chapter, Q, item, adv, dim, check, chain
+from dsl import chapter, Q, item, give, adv, dim, biome, check, loot, chain
 
 chapter(
     "final_bridges", "final", 10, "Мосты между модами", "createaddition:electric_motor",
@@ -118,7 +118,45 @@ chapter(
                  item("minecolonies:blockhutbarracks"),
                  item("create_radar:fire_controller")]),
 
-        Q("adventure_bridge", "Приключение и техника", "mekanism:meka_tool", 0, 3,
+        Q("energy_bridge2", "Четыре энергосистемы", "powah:energy_cell_starter", 0, 4,
+          text=[
+              "К трём старым линиям добавились три новые: Powah, Create: New Age "
+              "и Ad Astra. Все они говорят на одном языке FE, и провод из "
+              "Immersive Engineering дотянется до любой.",
+              "Практический вывод: генератор ставьте там, где дешевле топливо, "
+              "а машины — там, где удобно. Расстояние решается кабелем.",
+          ],
+          tasks=[item("powah:energy_cell_starter"), item("create_new_age:basic_motor"),
+                 item("ad_astra:coal_generator"),
+                 item("immersiveengineering:connector_lv", 2)],
+          rewards=loot(("powah:energy_cable_starter", 16), xp=400)),
+
+        Q("resource_bridge", "Руда, которая растёт", "mysticalagriculture:supremium_essence", 1, 4,
+          text=[
+              "Mystical Agriculture закрывает добычу окончательно: любой металл "
+              "сборки, включая осмий Mekanism и уранинит Powah, растёт на грядке.",
+              "Лазерное бурение Industrial Foregoing делает то же самое из "
+              "бедрока, а цифровой шахтёр Mekanism — из земли. Три способа "
+              "не копать вручную.",
+          ],
+          tasks=[item("mysticalagriculture:supremium_essence", 4),
+                 item("industrialforegoing:laser_drill"),
+                 item("mekanism:digital_miner")],
+          rewards=loot(("mysticalagriculture:prosperity_shard", 32), xp=500)),
+
+        Q("magic_tech_bridge", "Магия и техника", "botania:mana_spreader", 2, 4,
+          text=[
+              "Botania делает манасталь из железа, Ars Nouveau автоматизирует "
+              "сбор дропа зверьками, Apotheosis навешивает аффиксы на "
+              "инструменты Mekanism.",
+              "Ни один из этих модов не знает про остальные — но вы знаете, "
+              "и это ваше преимущество.",
+          ],
+          tasks=[item("botania:mana_spreader"), item("ars_nouveau:source_jar"),
+                 item("apotheosis:gem_dust", 4)],
+          rewards=loot(("botania:manasteel_ingot", 16), xp=500)),
+
+        Q("adventure_bridge", "Приключение и техника", "mekanism:meka_tool", 0, 5,
           text=[
               "Технологическое снаряжение резко упрощает "
               "приключенческие моды: MekaSuit держит удар боссов "

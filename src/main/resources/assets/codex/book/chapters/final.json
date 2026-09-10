@@ -303,11 +303,130 @@
     }
    },
    {
+    "id": "energy_bridge2",
+    "title": "codex.quest.final_bridges.energy_bridge2.title",
+    "icon": "powah:energy_cell_starter",
+    "x": 0,
+    "y": 4,
+    "text": [
+     "codex.quest.final_bridges.energy_bridge2.text.0",
+     "codex.quest.final_bridges.energy_bridge2.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "powah:energy_cell_starter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_new_age:basic_motor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:coal_generator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:connector_lv",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "powah:energy_cable_starter",
+       "count": 16
+      }
+     ],
+     "xp": 400,
+     "text": []
+    }
+   },
+   {
+    "id": "resource_bridge",
+    "title": "codex.quest.final_bridges.resource_bridge.title",
+    "icon": "mysticalagriculture:supremium_essence",
+    "x": 1,
+    "y": 4,
+    "text": [
+     "codex.quest.final_bridges.resource_bridge.text.0",
+     "codex.quest.final_bridges.resource_bridge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:supremium_essence",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "industrialforegoing:laser_drill",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:digital_miner",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "mysticalagriculture:prosperity_shard",
+       "count": 32
+      }
+     ],
+     "xp": 500,
+     "text": []
+    }
+   },
+   {
+    "id": "magic_tech_bridge",
+    "title": "codex.quest.final_bridges.magic_tech_bridge.title",
+    "icon": "botania:mana_spreader",
+    "x": 2,
+    "y": 4,
+    "text": [
+     "codex.quest.final_bridges.magic_tech_bridge.text.0",
+     "codex.quest.final_bridges.magic_tech_bridge.text.1"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:mana_spreader",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "ars_nouveau:source_jar",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "apotheosis:gem_dust",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [
+      {
+       "id": "botania:manasteel_ingot",
+       "count": 16
+      }
+     ],
+     "xp": 500,
+     "text": []
+    }
+   },
+   {
     "id": "adventure_bridge",
     "title": "codex.quest.final_bridges.adventure_bridge.title",
     "icon": "mekanism:meka_tool",
     "x": 0,
-    "y": 3,
+    "y": 5,
     "text": [
      "codex.quest.final_bridges.adventure_bridge.text.0",
      "codex.quest.final_bridges.adventure_bridge.text.1"

@@ -67,7 +67,16 @@ EN = {
             "colony_bridge": {"title": "Colony and Tech", "text": ["The colony mechanic can make tech-mod parts once taught. The courier delivers, and the warehouse joins the RS network.", "Result: the colony supplies your factory, and the factory the colony."]},
             "transport_bridge": {"title": "Transport", "text": ["Create trains haul ore from the mine, Aeronautics airships carry cargo over rough terrain, Mekanism teleporters and waystones carry you.", "Create's portable interfaces and Create Addition's energy interface unload transport automatically."]},
             "defense_bridge": {"title": "Defense", "text": ["IE turrets guard the base from mobs, MineColonies guards protect the colony from raids, Big Cannons artillery with radar — from players and air targets.", "All three run on the shared grid."]},
-            "adventure_bridge": {"title": "Adventure and Tech", "text": ["Tech gear makes the adventure mods much easier: MekaSuit takes Eternal Tales boss hits, the IE drill digs the Twilight Forest, the jetpack replaces Aether wings.", "And the reverse: Eternal Tales and Aether artifacts boost survival on dangerous production floors."]},
+            "energy_bridge2": {"title": "Four Power Systems", "text": [
+                "Three new lines joined the old three: Powah, Create: New Age and Ad Astra. They all speak FE, and an Immersive Engineering wire reaches any of them.",
+                "The practical upshot: put the generator where fuel is cheap and the machines where it suits you. Distance is a cable problem."]},
+            "resource_bridge": {"title": "Ore That Grows", "text": [
+                "Mystical Agriculture closes mining for good: every metal in the pack, Mekanism osmium and Powah uraninite included, grows in a field.",
+                "Industrial Foregoing's laser drill does the same from bedrock, and Mekanism's digital miner from the ground. Three ways not to swing a pickaxe."]},
+            "magic_tech_bridge": {"title": "Magic and Tech", "text": [
+                "Botania turns iron into manasteel, Ars Nouveau automates drop collection with critters, Apotheosis hangs affixes on Mekanism tools.",
+                "None of these mods knows about the others — but you do, and that's your edge."]},
+            "adventure_bridge": {"title": "Adventure and Tech", "text": ["Tech gear makes the adventure mods much easier: MekaSuit takes Cataclysm boss hits, the IE drill digs the Twilight Forest, the Ad Astra jet suit replaces Aether wings.", "And the reverse: Eternal Tales and Aether artifacts boost survival on dangerous production floors."]},
         },
     },
     "final_goals": {

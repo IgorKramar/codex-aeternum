@@ -12,10 +12,14 @@ chapters, linked quests with rewards, item turn-ins and server-side progress.
 
 ### Что внутри
 
-- 15 разделов, 85 глав, 718 заданий по всем модам сборки: Create и все его аддоны,
-  Immersive Engineering, Mekanism, Refined Storage, MineColonies, Aether, Twilight Forest,
+- 19 разделов, 106 глав, 889 заданий по всем модам сборки: Create и все его аддоны,
+  Immersive Engineering, Mekanism, PneumaticCraft, Industrial Foregoing, Powah,
+  Refined Storage, MineColonies, Botania, Ars Nouveau, Iron's Spellbooks,
+  Mystical Agriculture, Apotheosis, Ad Astra, Cataclysm, Aether, Twilight Forest,
   Eternal Tales, кухня, мебель, мелочи.
 - **Сюжетные линии** — сквозные цепочки через несколько модов с настоящими развилками.
+- **Космос, магия и охота** — три больших раздела: полёты на планеты Ad Astra,
+  три школы магии и десять боссов Cataclysm.
 - **Испытания и эндгейм** — сдача ресурсов с наградами, от 64 брёвен до 1024 прецизионных
   механизмов и всех девяти кристаллов измерений разом.
 - Прогресс считается сам: предметы, достижения, посещённые измерения и биомы, просмотренные
@@ -74,10 +78,14 @@ VALID_IDS=<файл со списком предметов> VALID_ADV=<файл 
 
 ### What's inside
 
-- 15 sections, 85 chapters, 718 quests covering every content mod in the pack: Create and
-  all its add-ons, Immersive Engineering, Mekanism, Refined Storage, MineColonies, Aether,
-  Twilight Forest, Eternal Tales, cooking, furniture and utilities.
+- 19 sections, 106 chapters, 889 quests covering every content mod in the pack: Create and
+  all its add-ons, Immersive Engineering, Mekanism, PneumaticCraft, Industrial Foregoing,
+  Powah, Refined Storage, MineColonies, Botania, Ars Nouveau, Iron's Spellbooks,
+  Mystical Agriculture, Apotheosis, Ad Astra, Cataclysm, Aether, Twilight Forest,
+  Eternal Tales, cooking, furniture and utilities.
 - **Storylines** — cross-mod chains with real branching and convergence.
+- **Space, magic and the hunt** — three large sections: Ad Astra planetary flight,
+  three schools of magic and ten Cataclysm bosses.
 - **Trials and Endgame** — resource turn-ins with rewards, from 64 logs up to 1024
   precision mechanisms and all nine dimension crystals at once.
 - Progress tracks itself: items, advancements, visited dimensions and biomes, watched
