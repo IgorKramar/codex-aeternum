@@ -4,6 +4,8 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.mojang.serialization.JsonOps;
+import net.minecraft.network.chat.ComponentSerialization;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.Holder;
@@ -77,6 +79,20 @@ public final class Hints {
         list(lines, entry, "chests", "codex.hint.chest", Hints::chestName);
         list(lines, entry, "blocks", "codex.hint.block", Hints::blockName);
         list(lines, entry, "world", "codex.hint.world", Hints::biomeName);
+        return lines;
+    }
+
+    /** Название и описание достижения из JSON мода; пусто, если достижение не описано в индексе. */
+    public static List<Component> advancement(String id) {
+        JsonObject all = index.getAsJsonObject("advancements");
+        JsonObject entry = all == null ? null : all.getAsJsonObject(id);
+        List<Component> lines = new ArrayList<>();
+        if (entry == null) return lines;
+        for (String key : new String[]{"title", "description"}) {
+            JsonElement raw = entry.get(key);
+            if (raw == null) continue;
+            ComponentSerialization.CODEC.parse(JsonOps.INSTANCE, raw).result().ifPresent(lines::add);
+        }
         return lines;
     }
 

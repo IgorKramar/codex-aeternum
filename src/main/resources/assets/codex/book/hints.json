@@ -1,4 +1,2392 @@
 {
+ "advancements": {
+  "ad_astra:astronaut": {
+   "description": {
+    "translate": "advancements.ad_astra.astronaut.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.astronaut.title"
+   }
+  },
+  "ad_astra:carbon_footprint": {
+   "description": {
+    "translate": "advancements.ad_astra.carbon_footprint.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.carbon_footprint.title"
+   }
+  },
+  "ad_astra:cryo_freezer": {
+   "description": {
+    "translate": "advancements.ad_astra.cryo_freezer.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.cryo_freezer.title"
+   }
+  },
+  "ad_astra:cryo_fuel": {
+   "description": {
+    "translate": "advancements.ad_astra.cryo_fuel.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.cryo_fuel.title"
+   }
+  },
+  "ad_astra:dj": {
+   "description": {
+    "translate": "advancements.ad_astra.dj.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.dj.title"
+   }
+  },
+  "ad_astra:doom_slayer": {
+   "description": {
+    "translate": "advancements.ad_astra.doom_slayer.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.doom_slayer.title"
+   }
+  },
+  "ad_astra:energizer": {
+   "description": {
+    "translate": "advancements.ad_astra.energizer.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.energizer.title"
+   }
+  },
+  "ad_astra:gravity_normalizer": {
+   "description": {
+    "translate": "advancements.ad_astra.gravity_normalizer.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.gravity_normalizer.title"
+   }
+  },
+  "ad_astra:interstellar": {
+   "description": {
+    "translate": "advancements.ad_astra.interstellar.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.interstellar.title"
+   }
+  },
+  "ad_astra:mars": {
+   "description": {
+    "translate": "advancements.ad_astra.mars.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.mars.title"
+   }
+  },
+  "ad_astra:mercury": {
+   "description": {
+    "translate": "advancements.ad_astra.mercury.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.mercury.title"
+   }
+  },
+  "ad_astra:moon": {
+   "description": {
+    "translate": "advancements.ad_astra.moon.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.moon.title"
+   }
+  },
+  "ad_astra:moon_cheese": {
+   "description": {
+    "translate": "advancements.ad_astra.moon_cheese.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.moon_cheese.title"
+   }
+  },
+  "ad_astra:ocean_cleanup": {
+   "description": {
+    "translate": "advancements.ad_astra.ocean_cleanup.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.ocean_cleanup.title"
+   }
+  },
+  "ad_astra:oxygen_distributor": {
+   "description": {
+    "translate": "advancements.ad_astra.oxygen_distributor.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.oxygen_distributor.title"
+   }
+  },
+  "ad_astra:rocket_man": {
+   "description": {
+    "translate": "advancements.ad_astra.rocket_man.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.rocket_man.title"
+   }
+  },
+  "ad_astra:rocket_science": {
+   "description": {
+    "translate": "advancements.ad_astra.rocket_science.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.rocket_science.title"
+   }
+  },
+  "ad_astra:rover": {
+   "description": {
+    "translate": "advancements.ad_astra.rover.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.rover.title"
+   }
+  },
+  "ad_astra:smart_blasting": {
+   "description": {
+    "translate": "advancements.ad_astra.smart_blasting.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.smart_blasting.title"
+   }
+  },
+  "ad_astra:solar_panel": {
+   "description": {
+    "translate": "advancements.ad_astra.solar_panel.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.solar_panel.title"
+   }
+  },
+  "ad_astra:ti_69": {
+   "description": {
+    "translate": "advancements.ad_astra.ti_69.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.ti_69.title"
+   }
+  },
+  "ad_astra:tier_1_rocket": {
+   "description": {
+    "translate": "advancements.ad_astra.tier_1_rocket.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.tier_1_rocket.title"
+   }
+  },
+  "ad_astra:tier_2_rocket": {
+   "description": {
+    "translate": "advancements.ad_astra.tier_2_rocket.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.tier_2_rocket.title"
+   }
+  },
+  "ad_astra:tier_3_rocket": {
+   "description": {
+    "translate": "advancements.ad_astra.tier_3_rocket.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.tier_3_rocket.title"
+   }
+  },
+  "ad_astra:tier_4_rocket": {
+   "description": {
+    "translate": "advancements.ad_astra.tier_4_rocket.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.tier_4_rocket.title"
+   }
+  },
+  "ad_astra:under_pressure": {
+   "description": {
+    "translate": "advancements.ad_astra.under_pressure.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.under_pressure.title"
+   }
+  },
+  "ad_astra:venus": {
+   "description": {
+    "translate": "advancements.ad_astra.venus.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.venus.title"
+   }
+  },
+  "ad_astra:zip_gun": {
+   "description": {
+    "translate": "advancements.ad_astra.zip_gun.description"
+   },
+   "title": {
+    "translate": "advancements.ad_astra.zip_gun.title"
+   }
+  },
+  "alexsmobs:alexsmobs/tame_gorilla": {
+   "description": {
+    "translate": "advancements.alexsmobs.tame_gorilla.desc"
+   },
+   "title": {
+    "translate": "advancements.alexsmobs.tame_gorilla.title"
+   }
+  },
+  "alexsmobs:alexsmobs/tame_grizzly_bear": {
+   "description": {
+    "translate": "advancements.alexsmobs.tame_grizzly_bear.desc"
+   },
+   "title": {
+    "translate": "advancements.alexsmobs.tame_grizzly_bear.title"
+   }
+  },
+  "alexsmobs:alexsmobs/void_worm_kill": {
+   "description": {
+    "translate": "advancements.alexsmobs.void_worm_kill.desc"
+   },
+   "title": {
+    "translate": "advancements.alexsmobs.void_worm_kill.title"
+   }
+  },
+  "apotheosis:progression/ascent": {
+   "description": {
+    "translate": "advancements.apotheosis.progression.ascent.desc"
+   },
+   "title": {
+    "translate": "advancements.apotheosis.progression.ascent.title"
+   }
+  },
+  "apotheosis:progression/frontier": {
+   "description": {
+    "translate": "advancements.apotheosis.progression.frontier.desc"
+   },
+   "title": {
+    "translate": "advancements.apotheosis.progression.frontier.title"
+   }
+  },
+  "apotheosis:progression/haven": {
+   "description": {
+    "translate": "advancements.apotheosis.progression.haven.desc"
+   },
+   "title": {
+    "translate": "advancements.apotheosis.progression.haven.title"
+   }
+  },
+  "apotheosis:progression/pinnacle": {
+   "description": {
+    "translate": "advancements.apotheosis.progression.pinnacle.desc"
+   },
+   "title": {
+    "translate": "advancements.apotheosis.progression.pinnacle.title"
+   }
+  },
+  "apotheosis:progression/root": {
+   "description": {
+    "translate": "advancements.apotheosis.progression.root.desc"
+   },
+   "title": {
+    "translate": "advancements.apotheosis.progression.root.title"
+   }
+  },
+  "apotheosis:progression/summit": {
+   "description": {
+    "translate": "advancements.apotheosis.progression.summit.desc"
+   },
+   "title": {
+    "translate": "advancements.apotheosis.progression.summit.title"
+   }
+  },
+  "ars_nouveau:archmage_spell_book": {
+   "description": {
+    "translate": "ars_nouveau.adv.desc.archmage_spell_book"
+   },
+   "title": {
+    "translate": "ars_nouveau.adv.title.archmage_spell_book"
+   }
+  },
+  "ars_nouveau:create_portal": {
+   "description": {
+    "translate": "ars_nouveau.adv.desc.create_portal"
+   },
+   "title": {
+    "translate": "ars_nouveau.adv.title.create_portal"
+   }
+  },
+  "ars_nouveau:drygmy_charm": {
+   "description": {
+    "translate": "ars_nouveau.adv.desc.drygmy_charm"
+   },
+   "title": {
+    "translate": "ars_nouveau.adv.title.drygmy_charm"
+   }
+  },
+  "ars_nouveau:enchanting_apparatus": {
+   "description": {
+    "translate": "ars_nouveau.adv.desc.enchanting_apparatus"
+   },
+   "title": {
+    "translate": "ars_nouveau.adv.title.enchanting_apparatus"
+   }
+  },
+  "ars_nouveau:imbuement_chamber": {
+   "description": {
+    "translate": "ars_nouveau.adv.desc.imbuement_chamber"
+   },
+   "title": {
+    "translate": "ars_nouveau.adv.title.imbuement_chamber"
+   }
+  },
+  "ars_nouveau:novice_spell_book": {
+   "description": {
+    "translate": "ars_nouveau.adv.desc.novice_spell_book"
+   },
+   "title": {
+    "translate": "ars_nouveau.adv.title.novice_spell_book"
+   }
+  },
+  "botania:challenge/gaia_guardian_hardmode": {
+   "description": {
+    "translate": "advancement.botania:gaiaGuardianHardmode.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:gaiaGuardianHardmode"
+   }
+  },
+  "botania:challenge/odin_ring": {
+   "description": {
+    "translate": "advancement.botania:odinRing.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:odinRing"
+   }
+  },
+  "botania:challenge/rank_ss_pick": {
+   "description": {
+    "translate": "advancement.botania:rankSSPick.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:rankSSPick"
+   }
+  },
+  "botania:main/brew_pickup": {
+   "description": {
+    "translate": "advancement.botania:brewPickup.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:brewPickup"
+   }
+  },
+  "botania:main/corporea_craft": {
+   "description": {
+    "translate": "advancement.botania:corporeaCraft.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:corporeaCraft"
+   }
+  },
+  "botania:main/crafting_halo_craft": {
+   "description": {
+    "translate": "advancement.botania:craftingHaloCraft.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:craftingHaloCraft"
+   }
+  },
+  "botania:main/elf_portal_open": {
+   "description": {
+    "translate": "advancement.botania:elfPortalOpen.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:elfPortalOpen"
+   }
+  },
+  "botania:main/flower_pickup": {
+   "description": {
+    "translate": "advancement.botania:flowerPickup.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:flowerPickup"
+   }
+  },
+  "botania:main/functional_flower": {
+   "description": {
+    "translate": "advancement.botania:functionalFlower.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:functionalFlower"
+   }
+  },
+  "botania:main/gaia_guardian_kill": {
+   "description": {
+    "translate": "advancement.botania:gaiaGuardianKill.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:gaiaGuardianKill"
+   }
+  },
+  "botania:main/generating_flower": {
+   "description": {
+    "translate": "advancement.botania:generatingFlower.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:generatingFlower"
+   }
+  },
+  "botania:main/lexicon_use": {
+   "description": {
+    "translate": "advancement.botania:lexiconUse.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:lexiconUse"
+   }
+  },
+  "botania:main/mana_pool_pickup": {
+   "description": {
+    "translate": "advancement.botania:manaPoolPickup.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:manaPoolPickup"
+   }
+  },
+  "botania:main/rune_pickup": {
+   "description": {
+    "translate": "advancement.botania:runePickup.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:runePickup"
+   }
+  },
+  "botania:main/spark_craft": {
+   "description": {
+    "translate": "advancement.botania:sparkCraft.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:sparkCraft"
+   }
+  },
+  "botania:main/terrasteel_pickup": {
+   "description": {
+    "translate": "advancement.botania:terrasteelPickup.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:terrasteelPickup"
+   }
+  },
+  "botania:main/terrasteel_weapon_craft": {
+   "description": {
+    "translate": "advancement.botania:terrasteelWeaponCraft.desc"
+   },
+   "title": {
+    "translate": "advancement.botania:terrasteelWeaponCraft"
+   }
+  },
+  "cataclysm:find_acropolis": {
+   "description": {
+    "translate": "advancements.cataclysm.acropolis.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.acropolis.title"
+   }
+  },
+  "cataclysm:find_ancient_factory": {
+   "description": {
+    "translate": "advancements.cataclysm.ancient_factory.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.ancient_factory.title"
+   }
+  },
+  "cataclysm:find_burning_arena": {
+   "description": {
+    "translate": "advancements.cataclysm.burning_arena.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.burning_arena.title"
+   }
+  },
+  "cataclysm:find_cursed_pyramid": {
+   "description": {
+    "translate": "advancements.cataclysm.cursed_pyramid.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.cursed_pyramid.title"
+   }
+  },
+  "cataclysm:find_frosted_prison": {
+   "description": {
+    "translate": "advancements.cataclysm.frosted_prison.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.frosted_prison.title"
+   }
+  },
+  "cataclysm:find_ruined_citadel": {
+   "description": {
+    "translate": "advancements.cataclysm.find_ruined_citadel.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.find_ruined_citadel.title"
+   }
+  },
+  "cataclysm:find_soul_black_smith": {
+   "description": {
+    "translate": "advancements.cataclysm.find_soul_black_smith.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.find_soul_black_smith.title"
+   }
+  },
+  "cataclysm:find_sunken_city": {
+   "description": {
+    "translate": "advancements.cataclysm.sunken_city.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.sunken_city.title"
+   }
+  },
+  "cataclysm:kill_all_bosses": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_all_bosses.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_all_bosses.title"
+   }
+  },
+  "cataclysm:kill_clawdian": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_clawdian.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_clawdian.title"
+   }
+  },
+  "cataclysm:kill_ender_golem": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_ender_golem.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_ender_golem.title"
+   }
+  },
+  "cataclysm:kill_ender_guardian": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_ender_guardian.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_ender_guardian.title"
+   }
+  },
+  "cataclysm:kill_harbinger": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_harbinger.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_harbinger.title"
+   }
+  },
+  "cataclysm:kill_ignis": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_ignis.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_ignis.title"
+   }
+  },
+  "cataclysm:kill_leviathan": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_leviathan.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_leviathan.title"
+   }
+  },
+  "cataclysm:kill_maledictus": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_maledictus.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_maledictus.title"
+   }
+  },
+  "cataclysm:kill_monstrosity": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_monstrosity.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_monstrosity.title"
+   }
+  },
+  "cataclysm:kill_remnant": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_remnant.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_remnant.title"
+   }
+  },
+  "cataclysm:kill_revenant": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_revenant.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_revenant.title"
+   }
+  },
+  "cataclysm:kill_scylla": {
+   "description": {
+    "translate": "advancements.cataclysm.kill_scylla.description"
+   },
+   "title": {
+    "translate": "advancements.cataclysm.kill_scylla.title"
+   }
+  },
+  "eternal_tales:accelerate_gravicycle_to_the_maximum": {
+   "description": {
+    "translate": "advancements.accelerate_gravicycle_to_the_maximum.descr"
+   },
+   "title": {
+    "translate": "advancements.accelerate_gravicycle_to_the_maximum.title"
+   }
+  },
+  "eternal_tales:activate_eternal_darkness_mode": {
+   "description": {
+    "translate": "advancements.activate_eternal_darkness_mode.descr"
+   },
+   "title": {
+    "translate": "advancements.activate_eternal_darkness_mode.title"
+   }
+  },
+  "eternal_tales:activate_super_duper_darkness_mode": {
+   "description": {
+    "translate": "advancements.activate_super_duper_darkness_mode.descr"
+   },
+   "title": {
+    "translate": "advancements.activate_super_duper_darkness_mode.title"
+   }
+  },
+  "eternal_tales:aftermath_quest": {
+   "description": {
+    "translate": "advancements.aftermath_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.aftermath_quest.title"
+   }
+  },
+  "eternal_tales:amber_quest": {
+   "description": {
+    "translate": "advancements.amber_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.amber_quest.title"
+   }
+  },
+  "eternal_tales:blow_atomic_bomb": {
+   "description": {
+    "translate": "advancements.blow_atomic_bomb.descr"
+   },
+   "title": {
+    "translate": "advancements.blow_atomic_bomb.title"
+   }
+  },
+  "eternal_tales:blow_up_sulfur_tnt": {
+   "description": {
+    "translate": "advancements.blow_up_sulfur_tnt.descr"
+   },
+   "title": {
+    "translate": "advancements.blow_up_sulfur_tnt.title"
+   }
+  },
+  "eternal_tales:comets_quest": {
+   "description": {
+    "translate": "advancements.comets_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.comets_quest.title"
+   }
+  },
+  "eternal_tales:die_by_all_3_stupid_ways": {
+   "description": {
+    "translate": "advancements.die_by_all_3_stupid_ways.descr"
+   },
+   "title": {
+    "translate": "advancements.die_by_all_3_stupid_ways.title"
+   }
+  },
+  "eternal_tales:duplicate_blueprint_on_printer": {
+   "description": {
+    "translate": "advancements.duplicate_blueprint_on_printer.descr"
+   },
+   "title": {
+    "translate": "advancements.duplicate_blueprint_on_printer.title"
+   }
+  },
+  "eternal_tales:eat_mutatongue_chowder": {
+   "description": {
+    "translate": "advancements.eat_mutatongue_chowder.descr"
+   },
+   "title": {
+    "translate": "advancements.eat_mutatongue_chowder.title"
+   }
+  },
+  "eternal_tales:eden_quest": {
+   "description": {
+    "translate": "advancements.eden_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.eden_quest.title"
+   }
+  },
+  "eternal_tales:eden_warrior": {
+   "description": {
+    "translate": "advancements.eden_warrior.descr"
+   },
+   "title": {
+    "translate": "advancements.eden_warrior.title"
+   }
+  },
+  "eternal_tales:enchant_something_on_astral_enchancer": {
+   "description": {
+    "translate": "advancements.enchant_something_on_astral_enchancer.descr"
+   },
+   "title": {
+    "translate": "advancements.enchant_something_on_astral_enchancer.title"
+   }
+  },
+  "eternal_tales:end_quest": {
+   "description": {
+    "translate": "advancements.end_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.end_quest.title"
+   }
+  },
+  "eternal_tales:enter_in_the_ultimate_world": {
+   "description": {
+    "translate": "advancements.enter_in_the_ultimate_world.descr"
+   },
+   "title": {
+    "translate": "advancements.enter_in_the_ultimate_world.title"
+   }
+  },
+  "eternal_tales:enter_into_comets_icelands_biome": {
+   "description": {
+    "translate": "advancements.enter_into_comets_icelands_biome.descr"
+   },
+   "title": {
+    "translate": "advancements.enter_into_comets_icelands_biome.title"
+   }
+  },
+  "eternal_tales:excavate_suspicious_block_by_venetium_or_truadamantite_brush": {
+   "description": {
+    "translate": "advancements.excavate_suspicious_block_by_venetium_or_truadamantite_brush.descr"
+   },
+   "title": {
+    "translate": "advancements.excavate_suspicious_block_by_venetium_or_truadamantite_brush.title"
+   }
+  },
+  "eternal_tales:explain_amber_maze": {
+   "description": {
+    "translate": "advancements.explain_amber_maze.descr"
+   },
+   "title": {
+    "translate": "advancements.explain_amber_maze.title"
+   }
+  },
+  "eternal_tales:find_mucunfectio_biome": {
+   "description": {
+    "translate": "advancements.find_mucunfectio_biome.descr"
+   },
+   "title": {
+    "translate": "advancements.find_mucunfectio_biome.title"
+   }
+  },
+  "eternal_tales:find_scorched_lands_of_eden_biome": {
+   "description": {
+    "translate": "advancements.find_scorched_lands_of_eden_biome.descr"
+   },
+   "title": {
+    "translate": "advancements.find_scorched_lands_of_eden_biome.title"
+   }
+  },
+  "eternal_tales:get_100_humanity": {
+   "description": {
+    "translate": "advancements.get_100_humanity.descr"
+   },
+   "title": {
+    "translate": "advancements.get_100_humanity.title"
+   }
+  },
+  "eternal_tales:get_aerolite_nugget": {
+   "description": {
+    "translate": "advancements.get_aerolite_nugget.descr"
+   },
+   "title": {
+    "translate": "advancements.get_aerolite_nugget.title"
+   }
+  },
+  "eternal_tales:get_aetherium": {
+   "description": {
+    "translate": "advancements.get_aetherium.descr"
+   },
+   "title": {
+    "translate": "advancements.get_aetherium.title"
+   }
+  },
+  "eternal_tales:get_all_of_the_lava_lamps": {
+   "description": {
+    "translate": "advancements.get_all_of_the_lava_lamps.descr"
+   },
+   "title": {
+    "translate": "advancements.get_all_of_the_lava_lamps.title"
+   }
+  },
+  "eternal_tales:get_all_the_mod_music_discs": {
+   "description": {
+    "translate": "advancements.get_all_the_mod_music_discs.descr"
+   },
+   "title": {
+    "translate": "advancements.get_all_the_mod_music_discs.title"
+   }
+  },
+  "eternal_tales:get_ammit_staff": {
+   "description": {
+    "translate": "advancements.get_ammit_staff.descr"
+   },
+   "title": {
+    "translate": "advancements.get_ammit_staff.title"
+   }
+  },
+  "eternal_tales:get_ancient_coin": {
+   "description": {
+    "translate": "advancements.get_ancient_coin.descr"
+   },
+   "title": {
+    "translate": "advancements.get_ancient_coin.title"
+   }
+  },
+  "eternal_tales:get_any_archaeology_totem": {
+   "description": {
+    "translate": "advancements.get_any_archaeology_totem.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_archaeology_totem.title"
+   }
+  },
+  "eternal_tales:get_any_archery_armor": {
+   "description": {
+    "translate": "advancements.get_any_archery_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_archery_armor.title"
+   }
+  },
+  "eternal_tales:get_any_blueprint": {
+   "description": {
+    "translate": "advancements.get_any_blueprint.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_blueprint.title"
+   }
+  },
+  "eternal_tales:get_any_fursuit": {
+   "description": {
+    "translate": "advancements.get_any_fursuit.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_fursuit.title"
+   }
+  },
+  "eternal_tales:get_any_of_immunity_accessories": {
+   "description": {
+    "translate": "advancements.get_any_of_immunity_accessories.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_of_immunity_accessories.title"
+   }
+  },
+  "eternal_tales:get_any_of_neodymium_pottery_sherds": {
+   "description": {
+    "translate": "advancements.get_any_of_neodymium_pottery_sherds.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_of_neodymium_pottery_sherds.title"
+   }
+  },
+  "eternal_tales:get_any_of_neodymium_vases": {
+   "description": {
+    "translate": "advancements.get_any_of_neodymium_vases.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_of_neodymium_vases.title"
+   }
+  },
+  "eternal_tales:get_any_quest": {
+   "description": {
+    "translate": "advancements.get_any_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_quest.title"
+   }
+  },
+  "eternal_tales:get_any_skill_boost_effect": {
+   "description": {
+    "translate": "advancements.get_any_skill_boost_effect.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_skill_boost_effect.title"
+   }
+  },
+  "eternal_tales:get_any_sorcery_book": {
+   "description": {
+    "translate": "advancements.get_any_sorcery_book.descr"
+   },
+   "title": {
+    "translate": "advancements.get_any_sorcery_book.title"
+   }
+  },
+  "eternal_tales:get_aragotium_ingot": {
+   "description": {
+    "translate": "advancements.get_aragotium_ingot.descr"
+   },
+   "title": {
+    "translate": "advancements.get_aragotium_ingot.title"
+   }
+  },
+  "eternal_tales:get_arkemer_aetherium_imbued_armor": {
+   "description": {
+    "translate": "advancements.get_arkemer_aetherium_imbued_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_arkemer_aetherium_imbued_armor.title"
+   }
+  },
+  "eternal_tales:get_arkemer_aleph_railgun": {
+   "description": {
+    "translate": "advancements.get_arkemer_aleph_railgun.descr"
+   },
+   "title": {
+    "translate": "advancements.get_arkemer_aleph_railgun.title"
+   }
+  },
+  "eternal_tales:get_arkemer_emblem": {
+   "description": {
+    "translate": "advancements.get_arkemer_emblem.descr"
+   },
+   "title": {
+    "translate": "advancements.get_arkemer_emblem.title"
+   }
+  },
+  "eternal_tales:get_arkemer_quarry": {
+   "description": {
+    "translate": "advancements.get_arkemer_quarry.descr"
+   },
+   "title": {
+    "translate": "advancements.get_arkemer_quarry.title"
+   }
+  },
+  "eternal_tales:get_atimites_crossbow": {
+   "description": {
+    "translate": "advancements.get_atimites_crossbow.descr"
+   },
+   "title": {
+    "translate": "advancements.get_atimites_crossbow.title"
+   }
+  },
+  "eternal_tales:get_big_portable_chest": {
+   "description": {
+    "translate": "advancements.get_big_portable_chest.descr"
+   },
+   "title": {
+    "translate": "advancements.get_big_portable_chest.title"
+   }
+  },
+  "eternal_tales:get_bloody_anchor": {
+   "description": {
+    "translate": "advancements.get_bloody_anchor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_bloody_anchor.title"
+   }
+  },
+  "eternal_tales:get_bonespur": {
+   "description": {
+    "translate": "advancements.get_bonespur.descr"
+   },
+   "title": {
+    "translate": "advancements.get_bonespur.title"
+   }
+  },
+  "eternal_tales:get_calamity_ring": {
+   "description": {
+    "translate": "advancements.get_calamity_ring.descr"
+   },
+   "title": {
+    "translate": "advancements.get_calamity_ring.title"
+   }
+  },
+  "eternal_tales:get_celestial_sphere": {
+   "description": {
+    "translate": "advancements.get_celestial_sphere.descr"
+   },
+   "title": {
+    "translate": "advancements.get_celestial_sphere.title"
+   }
+  },
+  "eternal_tales:get_charged_copper_armor": {
+   "description": {
+    "translate": "advancements.get_charged_copper_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_charged_copper_armor.title"
+   }
+  },
+  "eternal_tales:get_chthonic_armor": {
+   "description": {
+    "translate": "advancements.get_chthonic_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_chthonic_armor.title"
+   }
+  },
+  "eternal_tales:get_cobalt": {
+   "description": {
+    "translate": "advancements.get_cobalt.descr"
+   },
+   "title": {
+    "translate": "advancements.get_cobalt.title"
+   }
+  },
+  "eternal_tales:get_cobalt_pickaxe": {
+   "description": {
+    "translate": "advancements.get_cobalt_pickaxe.descr"
+   },
+   "title": {
+    "translate": "advancements.get_cobalt_pickaxe.title"
+   }
+  },
+  "eternal_tales:get_crabsburger": {
+   "description": {
+    "translate": "advancements.get_crabsburger.descr"
+   },
+   "title": {
+    "translate": "advancements.get_crabsburger.title"
+   }
+  },
+  "eternal_tales:get_dark_mage_armor": {
+   "description": {
+    "translate": "advancements.get_dark_mage_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_dark_mage_armor.title"
+   }
+  },
+  "eternal_tales:get_destroyers_eye": {
+   "description": {
+    "translate": "advancements.get_destroyers_eye.descr"
+   },
+   "title": {
+    "translate": "advancements.get_destroyers_eye.title"
+   }
+  },
+  "eternal_tales:get_digging_chest": {
+   "description": {
+    "translate": "advancements.get_digging_chest.descr"
+   },
+   "title": {
+    "translate": "advancements.get_digging_chest.title"
+   }
+  },
+  "eternal_tales:get_divine_hoe": {
+   "description": {
+    "translate": "advancements.get_divine_hoe.descr"
+   },
+   "title": {
+    "translate": "advancements.get_divine_hoe.title"
+   }
+  },
+  "eternal_tales:get_divine_pickaxe": {
+   "description": {
+    "translate": "advancements.get_divine_pickaxe.descr"
+   },
+   "title": {
+    "translate": "advancements.get_divine_pickaxe.title"
+   }
+  },
+  "eternal_tales:get_ectraterrestrial_gardeners_pot": {
+   "description": {
+    "translate": "advancements.get_ectraterrestrial_gardeners_pot.descr"
+   },
+   "title": {
+    "translate": "advancements.get_ectraterrestrial_gardeners_pot.title"
+   }
+  },
+  "eternal_tales:get_ergosphere_forged_armor": {
+   "description": {
+    "translate": "advancements.get_ergosphere_forged_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_ergosphere_forged_armor.title"
+   }
+  },
+  "eternal_tales:get_essence_gem": {
+   "description": {
+    "translate": "advancements.get_essence_gem.descr"
+   },
+   "title": {
+    "translate": "advancements.get_essence_gem.title"
+   }
+  },
+  "eternal_tales:get_extraction_cauldron": {
+   "description": {
+    "translate": "advancements.get_extraction_cauldron.descr"
+   },
+   "title": {
+    "translate": "advancements.get_extraction_cauldron.title"
+   }
+  },
+  "eternal_tales:get_eye_of_arahulum": {
+   "description": {
+    "translate": "advancements.get_eye_of_arahulum.descr"
+   },
+   "title": {
+    "translate": "advancements.get_eye_of_arahulum.title"
+   }
+  },
+  "eternal_tales:get_fertilizing_machine": {
+   "description": {
+    "translate": "advancements.get_fertilizing_machine.descr"
+   },
+   "title": {
+    "translate": "advancements.get_fertilizing_machine.title"
+   }
+  },
+  "eternal_tales:get_first_digging_skill_level": {
+   "description": {
+    "translate": "advancements.get_first_digging_skill_level.descr"
+   },
+   "title": {
+    "translate": "advancements.get_first_digging_skill_level.title"
+   }
+  },
+  "eternal_tales:get_fishing_chest": {
+   "description": {
+    "translate": "advancements.get_fishing_chest.descr"
+   },
+   "title": {
+    "translate": "advancements.get_fishing_chest.title"
+   }
+  },
+  "eternal_tales:get_fishing_web": {
+   "description": {
+    "translate": "advancements.get_fishing_web.descr"
+   },
+   "title": {
+    "translate": "advancements.get_fishing_web.title"
+   }
+  },
+  "eternal_tales:get_forest_ranger_armor": {
+   "description": {
+    "translate": "advancements.get_forest_ranger_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_forest_ranger_armor.title"
+   }
+  },
+  "eternal_tales:get_gardeners_pot": {
+   "description": {
+    "translate": "advancements.get_gardeners_pot.descr"
+   },
+   "title": {
+    "translate": "advancements.get_gardeners_pot.title"
+   }
+  },
+  "eternal_tales:get_gauntlet_of_the_destinies": {
+   "description": {
+    "translate": "advancements.get_gauntlet_of_the_destinies.descr"
+   },
+   "title": {
+    "translate": "advancements.get_gauntlet_of_the_destinies.title"
+   }
+  },
+  "eternal_tales:get_glowberry_cookie": {
+   "description": {
+    "translate": "advancements.get_glowberry_cookie.descr"
+   },
+   "title": {
+    "translate": "advancements.get_glowberry_cookie.title"
+   }
+  },
+  "eternal_tales:get_gold_coin": {
+   "description": {
+    "translate": "advancements.get_gold_coin.descr"
+   },
+   "title": {
+    "translate": "advancements.get_gold_coin.title"
+   }
+  },
+  "eternal_tales:get_gold_ring": {
+   "description": {
+    "translate": "advancements.get_gold_ring.descr"
+   },
+   "title": {
+    "translate": "advancements.get_gold_ring.title"
+   }
+  },
+  "eternal_tales:get_grand_unahzaal_armor": {
+   "description": {
+    "translate": "advancements.get_grand_unahzaal_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_grand_unahzaal_armor.title"
+   }
+  },
+  "eternal_tales:get_growing_chest": {
+   "description": {
+    "translate": "advancements.get_growing_chest.descr"
+   },
+   "title": {
+    "translate": "advancements.get_growing_chest.title"
+   }
+  },
+  "eternal_tales:get_hammer_of_eternity": {
+   "description": {
+    "translate": "advancements.get_hammer_of_eternity.descr"
+   },
+   "title": {
+    "translate": "advancements.get_hammer_of_eternity.title"
+   }
+  },
+  "eternal_tales:get_harpy_ring": {
+   "description": {
+    "translate": "advancements.get_harpy_ring.descr"
+   },
+   "title": {
+    "translate": "advancements.get_harpy_ring.title"
+   }
+  },
+  "eternal_tales:get_heart_of_the_elements": {
+   "description": {
+    "translate": "advancements.get_heart_of_the_elements.descr"
+   },
+   "title": {
+    "translate": "advancements.get_heart_of_the_elements.title"
+   }
+  },
+  "eternal_tales:get_hoz_de_muerte": {
+   "description": {
+    "translate": "advancements.get_hoz_de_muerte.descr"
+   },
+   "title": {
+    "translate": "advancements.get_hoz_de_muerte.title"
+   }
+  },
+  "eternal_tales:get_irrigating_machine": {
+   "description": {
+    "translate": "advancements.get_irrigating_machine.descr"
+   },
+   "title": {
+    "translate": "advancements.get_irrigating_machine.title"
+   }
+  },
+  "eternal_tales:get_khonshu_staff": {
+   "description": {
+    "translate": "advancements.get_khonshu_staff.descr"
+   },
+   "title": {
+    "translate": "advancements.get_khonshu_staff.title"
+   }
+  },
+  "eternal_tales:get_nether_fishing_web": {
+   "description": {
+    "translate": "advancements.get_nether_fishing_web.descr"
+   },
+   "title": {
+    "translate": "advancements.get_nether_fishing_web.title"
+   }
+  },
+  "eternal_tales:get_nether_gardeners_pot": {
+   "description": {
+    "translate": "advancements.get_nether_gardeners_pot.descr"
+   },
+   "title": {
+    "translate": "advancements.get_nether_gardeners_pot.title"
+   }
+  },
+  "eternal_tales:get_one_of_five_unahzaal_gifts": {
+   "description": {
+    "translate": "advancements.get_one_of_five_unahzaal_gifts.descr"
+   },
+   "title": {
+    "translate": "advancements.get_one_of_five_unahzaal_gifts.title"
+   }
+  },
+  "eternal_tales:get_orichalcum_chthonic_armor": {
+   "description": {
+    "translate": "advancements.get_orichalcum_chthonic_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_orichalcum_chthonic_armor.title"
+   }
+  },
+  "eternal_tales:get_piece_of_gulibegs_powers": {
+   "description": {
+    "translate": "advancements.get_piece_of_gulibegs_powers.descr"
+   },
+   "title": {
+    "translate": "advancements.get_piece_of_gulibegs_powers.title"
+   }
+  },
+  "eternal_tales:get_portable_chest": {
+   "description": {
+    "translate": "advancements.get_portable_chest.descr"
+   },
+   "title": {
+    "translate": "advancements.get_portable_chest.title"
+   }
+  },
+  "eternal_tales:get_ring_of_crimson_tears": {
+   "description": {
+    "translate": "advancements.get_ring_of_crimson_tears.descr"
+   },
+   "title": {
+    "translate": "advancements.get_ring_of_crimson_tears.title"
+   }
+  },
+  "eternal_tales:get_rockets_gun": {
+   "description": {
+    "translate": "advancements.get_rockets_gun.descr"
+   },
+   "title": {
+    "translate": "advancements.get_rockets_gun.title"
+   }
+  },
+  "eternal_tales:get_ruby_pickaxe": {
+   "description": {
+    "translate": "advancements.get_ruby_pickaxe.descr"
+   },
+   "title": {
+    "translate": "advancements.get_ruby_pickaxe.title"
+   }
+  },
+  "eternal_tales:get_rune": {
+   "description": {
+    "translate": "advancements.get_rune.descr"
+   },
+   "title": {
+    "translate": "advancements.get_rune.title"
+   }
+  },
+  "eternal_tales:get_runic_armor": {
+   "description": {
+    "translate": "advancements.get_runic_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_runic_armor.title"
+   }
+  },
+  "eternal_tales:get_runic_matrix_enchantment": {
+   "description": {
+    "translate": "advancements.get_runic_matrix_enchantment.descr"
+   },
+   "title": {
+    "translate": "advancements.get_runic_matrix_enchantment.title"
+   }
+  },
+  "eternal_tales:get_seraphim": {
+   "description": {
+    "translate": "advancements.get_seraphim.descr"
+   },
+   "title": {
+    "translate": "advancements.get_seraphim.title"
+   }
+  },
+  "eternal_tales:get_singularity_emblem": {
+   "description": {
+    "translate": "advancements.get_singularity_emblem.descr"
+   },
+   "title": {
+    "translate": "advancements.get_singularity_emblem.title"
+   }
+  },
+  "eternal_tales:get_sorcery_chest": {
+   "description": {
+    "translate": "advancements.get_sorcery_chest.descr"
+   },
+   "title": {
+    "translate": "advancements.get_sorcery_chest.title"
+   }
+  },
+  "eternal_tales:get_stabilized_miniature_black_hole": {
+   "description": {
+    "translate": "advancements.get_stabilized_miniature_black_hole.descr"
+   },
+   "title": {
+    "translate": "advancements.get_stabilized_miniature_black_hole.title"
+   }
+  },
+  "eternal_tales:get_the_first_prism": {
+   "description": {
+    "translate": "advancements.get_the_first_prism.descr"
+   },
+   "title": {
+    "translate": "advancements.get_the_first_prism.title"
+   }
+  },
+  "eternal_tales:get_the_grand_emblem": {
+   "description": {
+    "translate": "advancements.get_the_grand_emblem.descr"
+   },
+   "title": {
+    "translate": "advancements.get_the_grand_emblem.title"
+   }
+  },
+  "eternal_tales:get_the_ultimate_one": {
+   "description": {
+    "translate": "advancements.get_the_ultimate_one.descr"
+   },
+   "title": {
+    "translate": "advancements.get_the_ultimate_one.title"
+   }
+  },
+  "eternal_tales:get_the_ultimate_two": {
+   "description": {
+    "translate": "advancements.get_the_ultimate_two.descr"
+   },
+   "title": {
+    "translate": "advancements.get_the_ultimate_two.title"
+   }
+  },
+  "eternal_tales:get_thinking_stone": {
+   "description": {
+    "translate": "advancements.get_thinking_stone.descr"
+   },
+   "title": {
+    "translate": "advancements.get_thinking_stone.title"
+   }
+  },
+  "eternal_tales:get_treasure_hunter_armor": {
+   "description": {
+    "translate": "advancements.get_treasure_hunter_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_treasure_hunter_armor.title"
+   }
+  },
+  "eternal_tales:get_truadamantite_armor": {
+   "description": {
+    "translate": "advancements.get_truadamantite_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_truadamantite_armor.title"
+   }
+  },
+  "eternal_tales:get_truadamantite_ingot": {
+   "description": {
+    "translate": "advancements.get_truadamantite_ingot.descr"
+   },
+   "title": {
+    "translate": "advancements.get_truadamantite_ingot.title"
+   }
+  },
+  "eternal_tales:get_uranium_without_an_protection": {
+   "description": {
+    "translate": "advancements.get_uranium_without_an_protection.descr"
+   },
+   "title": {
+    "translate": "advancements.get_uranium_without_an_protection.title"
+   }
+  },
+  "eternal_tales:get_vivids_oathsword": {
+   "description": {
+    "translate": "advancements.get_vivids_oathsword.descr"
+   },
+   "title": {
+    "translate": "advancements.get_vivids_oathsword.title"
+   }
+  },
+  "eternal_tales:get_volkihar": {
+   "description": {
+    "translate": "advancements.get_volkihar.descr"
+   },
+   "title": {
+    "translate": "advancements.get_volkihar.title"
+   }
+  },
+  "eternal_tales:get_walock_armor": {
+   "description": {
+    "translate": "advancements.get_walock_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_walock_armor.title"
+   }
+  },
+  "eternal_tales:get_whaler_armor": {
+   "description": {
+    "translate": "advancements.get_whaler_armor.descr"
+   },
+   "title": {
+    "translate": "advancements.get_whaler_armor.title"
+   }
+  },
+  "eternal_tales:give_a_coin_to_the_bard": {
+   "description": {
+    "translate": "advancements.give_a_coin_to_the_bard.descr"
+   },
+   "title": {
+    "translate": "advancements.give_a_coin_to_the_bard.title"
+   }
+  },
+  "eternal_tales:into_amber": {
+   "description": {
+    "translate": "advancements.into_amber.descr"
+   },
+   "title": {
+    "translate": "advancements.into_amber.title"
+   }
+  },
+  "eternal_tales:into_comets": {
+   "description": {
+    "translate": "advancements.into_comets.descr"
+   },
+   "title": {
+    "translate": "advancements.into_comets.title"
+   }
+  },
+  "eternal_tales:into_eden": {
+   "description": {
+    "translate": "advancements.into_eden.descr"
+   },
+   "title": {
+    "translate": "advancements.into_eden.title"
+   }
+  },
+  "eternal_tales:into_karvat": {
+   "description": {
+    "translate": "advancements.into_karvat.descr"
+   },
+   "title": {
+    "translate": "advancements.into_karvat.title"
+   }
+  },
+  "eternal_tales:into_purgatorium": {
+   "description": {
+    "translate": "advancements.into_purgatorium.descr"
+   },
+   "title": {
+    "translate": "advancements.into_purgatorium.title"
+   }
+  },
+  "eternal_tales:into_rayana": {
+   "description": {
+    "translate": "advancements.into_rayana.descr"
+   },
+   "title": {
+    "translate": "advancements.into_rayana.title"
+   }
+  },
+  "eternal_tales:into_unahzaal": {
+   "description": {
+    "translate": "advancements.into_unahzaal.descr"
+   },
+   "title": {
+    "translate": "advancements.into_unahzaal.title"
+   }
+  },
+  "eternal_tales:into_volcanech": {
+   "description": {
+    "translate": "advancements.into_volcanech.descr"
+   },
+   "title": {
+    "translate": "advancements.into_volcanech.title"
+   }
+  },
+  "eternal_tales:karvat_quest": {
+   "description": {
+    "translate": "advancements.karvat_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.karvat_quest.title"
+   }
+  },
+  "eternal_tales:kill_adam": {
+   "description": {
+    "translate": "advancements.kill_adam.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_adam.title"
+   }
+  },
+  "eternal_tales:kill_arahulum": {
+   "description": {
+    "translate": "advancements.kill_arahulum.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_arahulum.title"
+   }
+  },
+  "eternal_tales:kill_arla": {
+   "description": {
+    "translate": "advancements.kill_arla.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_arla.title"
+   }
+  },
+  "eternal_tales:kill_brimstone_agaric": {
+   "description": {
+    "translate": "advancements.kill_brimstone_agaric.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_brimstone_agaric.title"
+   }
+  },
+  "eternal_tales:kill_chac_mool": {
+   "description": {
+    "translate": "advancements.kill_chac_mool.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_chac_mool.title"
+   }
+  },
+  "eternal_tales:kill_dreadful_sapling": {
+   "description": {
+    "translate": "advancements.kill_dreadful_sapling.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_dreadful_sapling.title"
+   }
+  },
+  "eternal_tales:kill_ekatebrina": {
+   "description": {
+    "translate": "advancements.kill_ekatebrina.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_ekatebrina.title"
+   }
+  },
+  "eternal_tales:kill_enicrih": {
+   "description": {
+    "translate": "advancements.kill_enicrih.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_enicrih.title"
+   }
+  },
+  "eternal_tales:kill_eve": {
+   "description": {
+    "translate": "advancements.kill_eve.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_eve.title"
+   }
+  },
+  "eternal_tales:kill_eye_of_unahzaal": {
+   "description": {
+    "translate": "advancements.kill_eye_of_unahzaal.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_eye_of_unahzaal.title"
+   }
+  },
+  "eternal_tales:kill_grotesterk": {
+   "description": {
+    "translate": "advancements.kill_grotesterk.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_grotesterk.title"
+   }
+  },
+  "eternal_tales:kill_haciru": {
+   "description": {
+    "translate": "advancements.kill_haciru.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_haciru.title"
+   }
+  },
+  "eternal_tales:kill_halloween_spirit": {
+   "description": {
+    "translate": "advancements.kill_halloween_spirit.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_halloween_spirit.title"
+   }
+  },
+  "eternal_tales:kill_hirots": {
+   "description": {
+    "translate": "advancements.kill_hirots.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_hirots.title"
+   }
+  },
+  "eternal_tales:kill_ikkorh": {
+   "description": {
+    "translate": "advancements.kill_ikkorh.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_ikkorh.title"
+   }
+  },
+  "eternal_tales:kill_infected_kracken": {
+   "description": {
+    "translate": "advancements.kill_infected_kracken.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_infected_kracken.title"
+   }
+  },
+  "eternal_tales:kill_jaghax": {
+   "description": {
+    "translate": "advancements.kill_jaghax.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_jaghax.title"
+   }
+  },
+  "eternal_tales:kill_khogachi": {
+   "description": {
+    "translate": "advancements.kill_khogachi.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_khogachi.title"
+   }
+  },
+  "eternal_tales:kill_luciden": {
+   "description": {
+    "translate": "advancements.kill_luciden.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_luciden.title"
+   }
+  },
+  "eternal_tales:kill_noxifer": {
+   "description": {
+    "translate": "advancements.kill_noxifer.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_noxifer.title"
+   }
+  },
+  "eternal_tales:kill_nyetet": {
+   "description": {
+    "translate": "advancements.kill_nyetet.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_nyetet.title"
+   }
+  },
+  "eternal_tales:kill_piglin_warlock": {
+   "description": {
+    "translate": "advancements.kill_piglin_warlock.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_piglin_warlock.title"
+   }
+  },
+  "eternal_tales:kill_pterion": {
+   "description": {
+    "translate": "advancements.kill_pterion.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_pterion.title"
+   }
+  },
+  "eternal_tales:kill_quetzalcoatl": {
+   "description": {
+    "translate": "advancements.kill_quetzalcoatl.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_quetzalcoatl.title"
+   }
+  },
+  "eternal_tales:kill_ravrite_queen": {
+   "description": {
+    "translate": "advancements.kill_ravrite_queen.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_ravrite_queen.title"
+   }
+  },
+  "eternal_tales:kill_rock_blaze": {
+   "description": {
+    "translate": "advancements.kill_rock_blaze.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_rock_blaze.title"
+   }
+  },
+  "eternal_tales:kill_smuciel": {
+   "description": {
+    "translate": "advancements.kill_smuciel.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_smuciel.title"
+   }
+  },
+  "eternal_tales:kill_terrible_tree": {
+   "description": {
+    "translate": "advancements.kill_terrible_tree.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_terrible_tree.title"
+   }
+  },
+  "eternal_tales:kill_tetragrammaton": {
+   "description": {
+    "translate": "advancements.kill_tetragrammaton.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_tetragrammaton.title"
+   }
+  },
+  "eternal_tales:kill_tsar_of_piglins": {
+   "description": {
+    "translate": "advancements.kill_tsar_of_piglins.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_tsar_of_piglins.title"
+   }
+  },
+  "eternal_tales:kill_unahzaal": {
+   "description": {
+    "translate": "advancements.kill_unahzaal.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_unahzaal.title"
+   }
+  },
+  "eternal_tales:kill_unahzaal_with_hard_mode": {
+   "description": {
+    "translate": "advancements.kill_unahzaal_with_hard_mode.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_unahzaal_with_hard_mode.title"
+   }
+  },
+  "eternal_tales:kill_vivid": {
+   "description": {
+    "translate": "advancements.kill_vivid.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_vivid.title"
+   }
+  },
+  "eternal_tales:kill_volcanic_golem": {
+   "description": {
+    "translate": "advancements.kill_volcanic_golem.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_volcanic_golem.title"
+   }
+  },
+  "eternal_tales:kill_xaxxas_xix": {
+   "description": {
+    "translate": "advancements.kill_xaxxas_xix.descr"
+   },
+   "title": {
+    "translate": "advancements.kill_xaxxas_xix.title"
+   }
+  },
+  "eternal_tales:learn_order_of_the_universe": {
+   "description": {
+    "translate": "advancements.learn_order_of_the_universe.descr"
+   },
+   "title": {
+    "translate": "advancements.learn_order_of_the_universe.title"
+   }
+  },
+  "eternal_tales:make_arkemer_gravicycle": {
+   "description": {
+    "translate": "advancements.make_arkemer_gravicycle.descr"
+   },
+   "title": {
+    "translate": "advancements.make_arkemer_gravicycle.title"
+   }
+  },
+  "eternal_tales:make_arkemer_rift_heavenbreaker": {
+   "description": {
+    "translate": "advancements.make_arkemer_rift_heavenbreaker.descr"
+   },
+   "title": {
+    "translate": "advancements.make_arkemer_rift_heavenbreaker.title"
+   }
+  },
+  "eternal_tales:make_smartphone": {
+   "description": {
+    "translate": "advancements.make_smartphone.descr"
+   },
+   "title": {
+    "translate": "advancements.make_smartphone.title"
+   }
+  },
+  "eternal_tales:make_the_blood_moon_rise": {
+   "description": {
+    "translate": "advancements.make_the_blood_moon_rise.descr"
+   },
+   "title": {
+    "translate": "advancements.make_the_blood_moon_rise.title"
+   }
+  },
+  "eternal_tales:make_the_blue_moon_rise": {
+   "description": {
+    "translate": "advancements.make_the_blue_moon_rise.descr"
+   },
+   "title": {
+    "translate": "advancements.make_the_blue_moon_rise.title"
+   }
+  },
+  "eternal_tales:make_the_clown_moon_rise": {
+   "description": {
+    "translate": "advancements.make_the_clown_moon_rise.descr"
+   },
+   "title": {
+    "translate": "advancements.make_the_clown_moon_rise.title"
+   }
+  },
+  "eternal_tales:nether_quest": {
+   "description": {
+    "translate": "advancements.nether_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.nether_quest.title"
+   }
+  },
+  "eternal_tales:overworld_quest": {
+   "description": {
+    "translate": "advancements.overworld_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.overworld_quest.title"
+   }
+  },
+  "eternal_tales:pass_all_quests": {
+   "description": {
+    "translate": "advancements.pass_all_quests.descr"
+   },
+   "title": {
+    "translate": "advancements.pass_all_quests.title"
+   }
+  },
+  "eternal_tales:pass_flecheresha_stone_trial": {
+   "description": {
+    "translate": "advancements.pass_flecheresha_stone_trial.descr"
+   },
+   "title": {
+    "translate": "advancements.pass_flecheresha_stone_trial.title"
+   }
+  },
+  "eternal_tales:pass_the_crabsapocalypse": {
+   "description": {
+    "translate": "advancements.pass_the_crabsapocalypse.descr"
+   },
+   "title": {
+    "translate": "advancements.pass_the_crabsapocalypse.title"
+   }
+  },
+  "eternal_tales:pet_the_raccoon": {
+   "description": {
+    "translate": "advancements.pet_the_raccoon.descr"
+   },
+   "title": {
+    "translate": "advancements.pet_the_raccoon.title"
+   }
+  },
+  "eternal_tales:purgatorium_quest": {
+   "description": {
+    "translate": "advancements.purgatorium_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.purgatorium_quest.title"
+   }
+  },
+  "eternal_tales:rayana_quest": {
+   "description": {
+    "translate": "advancements.rayana_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.rayana_quest.title"
+   }
+  },
+  "eternal_tales:remove_the_blueprint_in_shredder_to_increase_archaeology_skill_level": {
+   "description": {
+    "translate": "advancements.remove_the_blueprint_in_shredder_to_increase_archaeology_skill_level.descr"
+   },
+   "title": {
+    "translate": "advancements.remove_the_blueprint_in_shredder_to_increase_archaeology_skill_level.title"
+   }
+  },
+  "eternal_tales:ride_endacea": {
+   "description": {
+    "translate": "advancements.ride_endacea.descr"
+   },
+   "title": {
+    "translate": "advancements.ride_endacea.title"
+   }
+  },
+  "eternal_tales:spawn_miguel": {
+   "description": {
+    "translate": "advancements.spawn_miguel.descr"
+   },
+   "title": {
+    "translate": "advancements.spawn_miguel.title"
+   }
+  },
+  "eternal_tales:stay_alive_during_blood_moon": {
+   "description": {
+    "translate": "advancements.stay_alive_during_blood_moon.descr"
+   },
+   "title": {
+    "translate": "advancements.stay_alive_during_blood_moon.title"
+   }
+  },
+  "eternal_tales:stay_alive_during_blue_moon": {
+   "description": {
+    "translate": "advancements.stay_alive_during_blue_moon.descr"
+   },
+   "title": {
+    "translate": "advancements.stay_alive_during_blue_moon.title"
+   }
+  },
+  "eternal_tales:stay_alive_during_clown_moon": {
+   "description": {
+    "translate": "advancements.stay_alive_during_clown_moon.descr"
+   },
+   "title": {
+    "translate": "advancements.stay_alive_during_clown_moon.title"
+   }
+  },
+  "eternal_tales:summon_arky": {
+   "description": {
+    "translate": "advancements.summon_arky.descr"
+   },
+   "title": {
+    "translate": "advancements.summon_arky.title"
+   }
+  },
+  "eternal_tales:tame_all_the_types_of_raccoons": {
+   "description": {
+    "translate": "advancements.tame_all_the_types_of_raccoons.descr"
+   },
+   "title": {
+    "translate": "advancements.tame_all_the_types_of_raccoons.title"
+   }
+  },
+  "eternal_tales:tame_all_the_types_of_tarkos": {
+   "description": {
+    "translate": "advancements.tame_all_the_types_of_tarkos.descr"
+   },
+   "title": {
+    "translate": "advancements.tame_all_the_types_of_tarkos.title"
+   }
+  },
+  "eternal_tales:tame_all_types_of_gultravs": {
+   "description": {
+    "translate": "advancements.tame_all_types_of_gultravs.descr"
+   },
+   "title": {
+    "translate": "advancements.tame_all_types_of_gultravs.title"
+   }
+  },
+  "eternal_tales:tame_comethorn": {
+   "description": {
+    "translate": "advancements.tame_comethorn.descr"
+   },
+   "title": {
+    "translate": "advancements.tame_comethorn.title"
+   }
+  },
+  "eternal_tales:upgrade_skill_with_notice_board": {
+   "description": {
+    "translate": "advancements.upgrade_skill_with_notice_board.descr"
+   },
+   "title": {
+    "translate": "advancements.upgrade_skill_with_notice_board.title"
+   }
+  },
+  "eternal_tales:use_energy_drink": {
+   "description": {
+    "translate": "advancements.use_energy_drink.descr"
+   },
+   "title": {
+    "translate": "advancements.use_energy_drink.title"
+   }
+  },
+  "eternal_tales:use_return_ticket": {
+   "description": {
+    "translate": "advancements.use_return_ticket.descr"
+   },
+   "title": {
+    "translate": "advancements.use_return_ticket.title"
+   }
+  },
+  "eternal_tales:volcanech_quest": {
+   "description": {
+    "translate": "advancements.volcanech_quest.descr"
+   },
+   "title": {
+    "translate": "advancements.volcanech_quest.title"
+   }
+  },
+  "eternal_tales:yummy": {
+   "description": {
+    "translate": "advancements.yummy.descr"
+   },
+   "title": {
+    "translate": "advancements.yummy.title"
+   }
+  },
+  "irons_spellbooks:irons_spellbooks/ink_legendary": {
+   "description": {
+    "translate": "advancements.irons_spellbooks.ink_legendary.description"
+   },
+   "title": {
+    "translate": "advancements.irons_spellbooks.ink_legendary.title"
+   }
+  },
+  "irons_spellbooks:irons_spellbooks/make_arcane_anvil": {
+   "description": {
+    "translate": "advancements.irons_spellbooks.make_arcane_anvil.description"
+   },
+   "title": {
+    "translate": "advancements.irons_spellbooks.make_arcane_anvil.title"
+   }
+  },
+  "irons_spellbooks:irons_spellbooks/make_inscription_table": {
+   "description": {
+    "translate": "advancements.irons_spellbooks.make_inscription_table.description"
+   },
+   "title": {
+    "translate": "advancements.irons_spellbooks.make_inscription_table.title"
+   }
+  },
+  "lootr:1chest": {
+   "description": {
+    "translate": "lootr.advancements.1chest.description"
+   },
+   "title": {
+    "translate": "lootr.advancements.1chest.title"
+   }
+  },
+  "lootr:social": {
+   "description": {
+    "translate": "lootr.advancements.social.description"
+   },
+   "title": {
+    "translate": "lootr.advancements.social.title"
+   }
+  },
+  "mekanismtools:better_than_netherite": {
+   "description": {
+    "translate": "advancements.mekanismtools.better_than_netherite.description"
+   },
+   "title": {
+    "translate": "advancements.mekanismtools.better_than_netherite.title"
+   }
+  },
+  "mekanismtools:not_enough_shielding": {
+   "description": {
+    "translate": "advancements.mekanismtools.not_enough_shielding.description"
+   },
+   "title": {
+    "translate": "advancements.mekanismtools.not_enough_shielding.title"
+   }
+  },
+  "mekanismtools:paxel": {
+   "description": {
+    "translate": "advancements.mekanismtools.paxel.description"
+   },
+   "title": {
+    "translate": "advancements.mekanismtools.paxel.title"
+   }
+  },
+  "minecolonies:military/army_8": {
+   "description": {
+    "translate": "advancements.minecolonies.army_8.description"
+   },
+   "title": {
+    "translate": "advancements.minecolonies.army_8.title"
+   }
+  },
+  "minecolonies:minecolonies/build_town_hall_5": {
+   "description": {
+    "translate": "advancements.minecolonies.complete_build_request_5_town_hall.description"
+   },
+   "title": {
+    "translate": "advancements.minecolonies.complete_build_request_5_town_hall.title"
+   }
+  },
+  "minecolonies:minecolonies/colony_population_25": {
+   "description": {
+    "translate": "advancements.minecolonies.colony_population_25.description"
+   },
+   "title": {
+    "translate": "advancements.minecolonies.colony_population_25.title"
+   }
+  },
+  "minecolonies:minecolonies/colony_population_50": {
+   "description": {
+    "translate": "advancements.minecolonies.colony_population_50.description"
+   },
+   "title": {
+    "translate": "advancements.minecolonies.colony_population_50.title"
+   }
+  },
+  "minecraft:end/kill_dragon": {
+   "description": {
+    "translate": "advancements.end.kill_dragon.description"
+   },
+   "title": {
+    "translate": "advancements.end.kill_dragon.title"
+   }
+  },
+  "minecraft:nether/summon_wither": {
+   "description": {
+    "translate": "advancements.nether.summon_wither.description"
+   },
+   "title": {
+    "translate": "advancements.nether.summon_wither.title"
+   }
+  },
+  "mowziesmobs:kill_ferrous_wroughtnaut": {
+   "description": {
+    "translate": "advancements.mowziesmobs.kill_ferrous_wroughtnaut.description"
+   },
+   "title": {
+    "translate": "advancements.mowziesmobs.kill_ferrous_wroughtnaut.title"
+   }
+  },
+  "mowziesmobs:kill_frostmaw": {
+   "description": {
+    "translate": "advancements.mowziesmobs.kill_frostmaw.description"
+   },
+   "title": {
+    "translate": "advancements.mowziesmobs.kill_frostmaw.title"
+   }
+  },
+  "mowziesmobs:kill_grottol_silk_touch": {
+   "description": {
+    "translate": "advancements.mowziesmobs.kill_grottol_silk_touch.description"
+   },
+   "title": {
+    "translate": "advancements.mowziesmobs.kill_grottol_silk_touch.title"
+   }
+  },
+  "mowziesmobs:kill_naga": {
+   "description": {
+    "translate": "advancements.mowziesmobs.kill_naga.description"
+   },
+   "title": {
+    "translate": "advancements.mowziesmobs.kill_naga.title"
+   }
+  },
+  "mowziesmobs:kill_umvuthi": {
+   "description": {
+    "translate": "advancements.mowziesmobs.kill_umvuthi.description"
+   },
+   "title": {
+    "translate": "advancements.mowziesmobs.kill_umvuthi.title"
+   }
+  },
+  "mowziesmobs:sculptor_challenge": {
+   "description": {
+    "translate": "advancements.mowziesmobs.sculptor_challenge.description"
+   },
+   "title": {
+    "translate": "advancements.mowziesmobs.sculptor_challenge.title"
+   }
+  },
+  "mowziesmobs:steal_ice_crystal": {
+   "description": {
+    "translate": "advancements.mowziesmobs.steal_ice_crystal.description"
+   },
+   "title": {
+    "translate": "advancements.mowziesmobs.steal_ice_crystal.title"
+   }
+  },
+  "mowziesmobs:suns_blessing": {
+   "description": {
+    "translate": "advancements.mowziesmobs.suns_blessing.description"
+   },
+   "title": {
+    "translate": "advancements.mowziesmobs.suns_blessing.title"
+   }
+  },
+  "mutantmonsters:burn_zombie_burn": {
+   "description": {
+    "translate": "advancements.mutantmonsters.burn_zombie_burn.description"
+   },
+   "title": {
+    "translate": "advancements.mutantmonsters.burn_zombie_burn.title"
+   }
+  },
+  "mutantmonsters:gunpowder_spice": {
+   "description": {
+    "translate": "advancements.mutantmonsters.gunpowder_spice.description"
+   },
+   "title": {
+    "translate": "advancements.mutantmonsters.gunpowder_spice.title"
+   }
+  },
+  "mutantmonsters:you_da_bomby": {
+   "description": {
+    "translate": "advancements.mutantmonsters.you_da_bomby.description"
+   },
+   "title": {
+    "translate": "advancements.mutantmonsters.you_da_bomby.title"
+   }
+  },
+  "trashcans:trash_can": {
+   "description": {
+    "translate": "trashcans.advancement.trash_can.description"
+   },
+   "title": {
+    "translate": "trashcans.advancement.trash_can.title"
+   }
+  },
+  "twilightforest:progress_hydra": {
+   "description": {
+    "translate": "advancement.twilightforest.kill_hydra.desc",
+    "with": [
+     {
+      "translate": "entity.twilightforest.hydra"
+     }
+    ]
+   },
+   "title": {
+    "translate": "advancement.twilightforest.kill_hydra"
+   }
+  },
+  "twilightforest:progress_lich": {
+   "description": {
+    "translate": "advancement.twilightforest.kill_lich.desc",
+    "with": [
+     {
+      "translate": "entity.twilightforest.lich"
+     }
+    ]
+   },
+   "title": {
+    "translate": "advancement.twilightforest.kill_lich"
+   }
+  },
+  "twilightforest:progress_naga": {
+   "description": {
+    "translate": "advancement.twilightforest.kill_naga.desc",
+    "with": [
+     {
+      "translate": "entity.twilightforest.naga"
+     },
+     {
+      "translate": "item.twilightforest.naga_scale"
+     }
+    ]
+   },
+   "title": {
+    "translate": "advancement.twilightforest.kill_naga"
+   }
+  }
+ },
  "entities": {
   "aether:aechor_plant": [
    "aether:skyroot_forest",

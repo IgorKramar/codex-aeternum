@@ -308,9 +308,10 @@ public final class CodexScreen extends Screen {
         List<Component> lines = new ArrayList<>();
         if (stack.isEmpty()) return lines;
         lines.addAll(getTooltipFromItem(minecraft, stack));
-        String namespace = BuiltInRegistries.ITEM.getKey(stack.getItem()).getNamespace();
-        String mod = ModList.get().getModContainerById(namespace).map(c -> c.getModInfo().getDisplayName()).orElse(namespace);
-        lines.add(Component.literal(mod).withStyle(ChatFormatting.BLUE, ChatFormatting.ITALIC));
+        String mod = modName(BuiltInRegistries.ITEM.getKey(stack.getItem()).toString());
+        // JEI и подобные моды уже дописывают название мода в подсказку предмета — не дублируем.
+        if (lines.stream().noneMatch(c -> c.getString().equalsIgnoreCase(mod)))
+            lines.add(Component.literal(mod).withStyle(ChatFormatting.BLUE, ChatFormatting.ITALIC));
         List<Component> sources = Hints.lines(stack.getItem());
         lines.add(Component.translatable(sources.isEmpty() ? "codex.hint.none" : "codex.hint.obtain").withStyle(ChatFormatting.GOLD));
         lines.addAll(sources);
@@ -327,12 +328,16 @@ public final class CodexScreen extends Screen {
                 lines.add(Component.translatable("codex.hint.advancement").withStyle(ChatFormatting.GOLD));
                 AdvancementHolder holder = minecraft.player == null ? null
                         : minecraft.player.connection.getAdvancements().get(t.location());
+                List<Component> described = Hints.advancement(t.id);
                 if (holder != null && holder.value().display().isPresent()) {
                     var display = holder.value().display().get();
-                    lines.add(Component.literal(" ▸ ").append(display.getTitle()).withStyle(ChatFormatting.GRAY));
-                    lines.add(Component.literal("   ").append(display.getDescription()).withStyle(ChatFormatting.DARK_GRAY));
-                } else {
+                    described = List.of(display.getTitle(), display.getDescription());
+                }
+                if (described.isEmpty()) {
                     lines.add(Component.literal(" ▸ " + t.id).withStyle(ChatFormatting.DARK_GRAY));
+                } else {
+                    lines.add(Component.literal(" ▸ ").append(described.get(0)).withStyle(ChatFormatting.GRAY));
+                    if (described.size() > 1) lines.add(Component.literal("   ").append(described.get(1)).withStyle(ChatFormatting.DARK_GRAY));
                 }
                 lines.add(Component.literal(modName(t.id)).withStyle(ChatFormatting.BLUE, ChatFormatting.ITALIC));
             }

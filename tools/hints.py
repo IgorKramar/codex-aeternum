@@ -37,16 +37,20 @@ MAX_RECIPES, MAX_LIST = 3, 4
 
 
 def wanted_items():
-    items = set()
+    """Предметы целей и наград и достижения целей."""
+    items, advancements = set(), set()
     for path in CHAPTERS.glob('*.json'):
         for chapter in json.loads(path.read_text(encoding='utf-8')):
             for q in chapter['quests']:
                 for t in q.get('tasks', []):
-                    if t.get('type', 'item') == 'item':
+                    kind = t.get('type', 'item')
+                    if kind == 'item':
                         items.add(t['id'])
+                    elif kind == 'advancement':
+                        advancements.add(t['id'])
                 for stack in q.get('rewards', {}).get('items', []):
                     items.add(stack['id'])
-    return items
+    return items, advancements
 
 
 def jars(paths):
@@ -167,7 +171,8 @@ def main(argv):
     if not argv:
         print(__doc__)
         return 2
-    wanted = wanted_items()
+    wanted, wanted_advancements = wanted_items()
+    advancements = {}
     recipes = defaultdict(list)
     drops, chests, blocks = defaultdict(list), defaultdict(list), defaultdict(list)
     installed = {'minecraft', 'neoforge'}
@@ -233,6 +238,11 @@ def main(argv):
                 for item in found:
                     if item != block:
                         blocks[item].append(block)
+        elif kind in ('advancement', 'advancements') and len(parts) > 3:
+            aid = f"{namespace}:{'/'.join(parts[3:])[:-5]}"
+            display = doc.get('display')
+            if aid in wanted_advancements and isinstance(display, dict):
+                advancements[aid] = {k: display[k] for k in ('title', 'description') if k in display}
         elif kind == 'worldgen' and len(parts) > 4:
             name = f"{namespace}:{'/'.join(parts[4:])[:-5]}"
             if parts[3] == 'configured_feature':
@@ -287,14 +297,14 @@ def main(argv):
             entry['world'] = sorted(world[item])[:MAX_LIST]
         if entry:
             index[item] = entry
-    index = {'items': index, 'entities': entities}
+    index = {'items': index, 'entities': entities, 'advancements': advancements}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(index, ensure_ascii=False, indent=1, sort_keys=True) + '\n', encoding='utf-8')
     types = defaultdict(int)
     for entry in index['items'].values():
         for r in entry.get('recipes', []):
             types[r['type']] += 1
-    print(f'предметов в книге: {len(wanted)}, с источниками: {len(index["items"])}, без источников: {len(wanted) - len(index["items"])}, существ с местами обитания: {len(entities)}')
+    print(f'предметов в книге: {len(wanted)}, с источниками: {len(index["items"])}, без источников: {len(wanted) - len(index["items"])}, существ с местами обитания: {len(entities)}, достижений с описанием: {len(advancements)} из {len(wanted_advancements)}')
     print('типы рецептов:', ', '.join(f'{t} {n}' for t, n in sorted(types.items(), key=lambda kv: -kv[1])))
     print('без источников:', ' '.join(sorted(wanted - set(index['items']))))
     return 0
