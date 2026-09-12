@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/IgorKramar/codex-aeternum/releases/latest"><img src="https://img.shields.io/github/v/release/IgorKramar/codex-aeternum?style=flat-square&label=релиз&color=c9a227" alt="Последний релиз"></a>
-  <a href="https://github.com/IgorKramar/codex-aeternum/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/IgorKramar/codex-aeternum/ci.yml?branch=main&style=flat-square&label=сборка" alt="Состояние сборки"></a>
+  <a href="https://github.com/IgorKramar/codex-aeternum/releases/latest"><img src="https://img.shields.io/github/v/release/IgorKramar/codex-aeternum?style=flat-square&label=%D1%80%D0%B5%D0%BB%D0%B8%D0%B7&color=c9a227" alt="Последний релиз"></a>
+  <a href="https://github.com/IgorKramar/codex-aeternum/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/IgorKramar/codex-aeternum/ci.yml?branch=main&style=flat-square&label=%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B0" alt="Состояние сборки"></a>
   <img src="https://img.shields.io/badge/Minecraft-1.21.1-2a9d8f?style=flat-square" alt="Minecraft 1.21.1">
   <img src="https://img.shields.io/badge/NeoForge-21.1-1d3557?style=flat-square" alt="NeoForge 21.1">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/IgorKramar/codex-aeternum?style=flat-square&label=лицензия&color=555" alt="Лицензия MIT"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/IgorKramar/codex-aeternum?style=flat-square&label=%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F&color=555" alt="Лицензия MIT"></a>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
   <a href="#управление">Управление</a> ·
   <a href="#карты">Карты</a> ·
   <a href="docs/validation.md">Отчёт о проверках</a> ·
-  <a href="docs/release-history.md">История версий</a>
+  <a href="CHANGELOG.md">История изменений</a>
 </p>
 
 ---
@@ -96,7 +96,7 @@ Ad Astra, Cataclysm, Aether, Twilight Forest, Eternal Tales и десятки м
 
 | Действие | Управление |
 |---|---|
-| Открыть книгу | `K` (настраивается) или `/codex`; в первый раз — вступление, потом «Обложка» возвращает к нему |
+| Открыть книгу | `K` (настраивается) или `/codex`; в первый раз — вступление, потом «Обложка» возвращает к нему. Если `K` занята другим модом, переназначьте клавишу в настройках управления |
 | Настроить книгу | «Настройки» на обложке: порядок прохождения, подсказки о предметах, уведомления, стартовый экран |
 | Переместить карту | перетаскивание ЛКМ |
 | Масштаб | колесо мыши; `Home` или «Вписать» показывает всю карту |
