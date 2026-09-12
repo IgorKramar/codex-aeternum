@@ -14,14 +14,37 @@ public final class Rules {
     private Rules() {
     }
 
-    /** Задание доступно, если выполнены все его предпосылки. */
+    /** Задание доступно, если выполнены все предпосылки, действующие в выбранном порядке прохождения. */
     public static boolean unlocked(Book book, Progress p, Quest q) {
+        if (p.order == Progress.Order.FREE) return true;
         for (String dep : q.deps) {
-            String gid = dep.contains("/") ? dep : q.chapterId + "/" + dep;
-            if (!p.completed.contains(gid)) return false;
+            if (enforced(book, p, q, dep) && !p.completed.contains(resolve(q, dep))) return false;
         }
-        return q.anyDeps.isEmpty() || q.anyDeps.stream()
-                .anyMatch(dep -> p.completed.contains(dep.contains("/") ? dep : q.chapterId + "/" + dep));
+        boolean anyEnforced = false;
+        for (String dep : q.anyDeps) {
+            if (!enforced(book, p, q, dep)) continue;
+            anyEnforced = true;
+            if (p.completed.contains(resolve(q, dep))) return true;
+        }
+        return !anyEnforced;
+    }
+
+    public static String resolve(Quest q, String dep) {
+        return dep.contains("/") ? dep : q.chapterId + "/" + dep;
+    }
+
+    /** Требует ли выбранный порядок эту предпосылку: свободный — ничего, внутри карты — только свою карту. */
+    public static boolean enforced(Book book, Progress p, Quest q, String dep) {
+        return switch (p.order) {
+            case FREE -> false;
+            case STRICT -> true;
+            case MAP -> {
+                Quest target = book.quest(resolve(q, dep));
+                Chapter own = book.chapter(q.chapterId);
+                Chapter other = target == null ? null : book.chapter(target.chapterId);
+                yield own == null || other == null || own.mapId.equals(other.mapId);
+            }
+        };
     }
 
     public static boolean completed(Progress p, Quest q) {

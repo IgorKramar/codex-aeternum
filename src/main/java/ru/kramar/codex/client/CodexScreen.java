@@ -20,7 +20,10 @@ import ru.kramar.codex.book.Reward;
 import ru.kramar.codex.book.Section;
 import ru.kramar.codex.book.Task;
 import ru.kramar.codex.compat.Jei;
+import ru.kramar.codex.progress.Rules;
 import ru.kramar.codex.progress.Tracker;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.neoforged.fml.ModList;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -131,6 +134,15 @@ public final class CodexScreen extends Screen {
             return chapter == null;
         }
     }
+
+    /** Строка цели или предмет награды на панели описания: по ним показывается подсказка, как это получить. */
+    private record HoverHit(int x, int y, int w, int h, ItemStack stack, Task task) {
+        boolean contains(double mx, double my) {
+            return mx >= x && mx <= x + w && my >= y && my <= y + h;
+        }
+    }
+
+    private final List<HoverHit> hoverHits = new ArrayList<>();
 
     /** Кликабельная область на панели описания. */
     private record Hit(int x, int y, int w, int h, Runnable left, Runnable right) {
@@ -247,6 +259,7 @@ public final class CodexScreen extends Screen {
         Draw.frame(g, left, top, width0, height0, Theme.BORDER_LIGHT);
 
         hits.clear();
+        hoverHits.clear();
         search.visible = sidebarVisible;
         search.active = sidebarVisible;
         if (!sidebarVisible) search.setFocused(false);
@@ -275,6 +288,79 @@ public final class CodexScreen extends Screen {
 
         for (Renderable r : this.renderables) r.render(g, mouseX, mouseY, partial);
         renderHoverTooltip(g, graphX, graphY, graphW, graphH, mouseX, mouseY);
+        renderItemTooltip(g, graphY, graphH, mouseX, mouseY);
+    }
+
+    /** Подсказка о цели или награде: что это, откуда берётся и как получить. */
+    private void renderItemTooltip(GuiGraphics g, int graphY, int graphH, int mouseX, int mouseY) {
+        if (!ClientOptions.get().itemTooltips || !detailVisible() || selected == null) return;
+        if (mouseX < detailX() || mouseX > detailX() + detailWidth() || mouseY < graphY || mouseY > graphY + graphH) return;
+        for (HoverHit hit : hoverHits) {
+            if (!hit.contains(mouseX, mouseY)) continue;
+            List<Component> lines = hit.task() == null || hit.task().kind == Task.Kind.ITEM
+                    ? itemTooltip(hit.stack()) : taskTooltip(hit.task());
+            if (!lines.isEmpty()) g.renderComponentTooltip(font, lines, mouseX, mouseY);
+            return;
+        }
+    }
+
+    private List<Component> itemTooltip(ItemStack stack) {
+        List<Component> lines = new ArrayList<>();
+        if (stack.isEmpty()) return lines;
+        lines.addAll(getTooltipFromItem(minecraft, stack));
+        String namespace = BuiltInRegistries.ITEM.getKey(stack.getItem()).getNamespace();
+        String mod = ModList.get().getModContainerById(namespace).map(c -> c.getModInfo().getDisplayName()).orElse(namespace);
+        lines.add(Component.literal(mod).withStyle(ChatFormatting.BLUE, ChatFormatting.ITALIC));
+        List<Component> sources = Hints.lines(stack.getItem());
+        lines.add(Component.translatable(sources.isEmpty() ? "codex.hint.none" : "codex.hint.obtain").withStyle(ChatFormatting.GOLD));
+        lines.addAll(sources);
+        lines.add(Component.translatable("codex.ui.jei_hint").withStyle(ChatFormatting.DARK_GRAY));
+        return lines;
+    }
+
+    /** Достижение: официальные название и описание из самого мода; измерение и биом — их имена; ручная цель — критерий. */
+    private List<Component> taskTooltip(Task t) {
+        List<Component> lines = new ArrayList<>();
+        switch (t.kind) {
+            case ADVANCEMENT -> {
+                if (!t.note.isEmpty()) lines.add(Component.translatable(t.note).withStyle(ChatFormatting.WHITE));
+                lines.add(Component.translatable("codex.hint.advancement").withStyle(ChatFormatting.GOLD));
+                AdvancementHolder holder = minecraft.player == null ? null
+                        : minecraft.player.connection.getAdvancements().get(t.location());
+                if (holder != null && holder.value().display().isPresent()) {
+                    var display = holder.value().display().get();
+                    lines.add(Component.literal(" ▸ ").append(display.getTitle()).withStyle(ChatFormatting.GRAY));
+                    lines.add(Component.literal("   ").append(display.getDescription()).withStyle(ChatFormatting.DARK_GRAY));
+                } else {
+                    lines.add(Component.literal(" ▸ " + t.id).withStyle(ChatFormatting.DARK_GRAY));
+                }
+                lines.add(Component.literal(modName(t.id)).withStyle(ChatFormatting.BLUE, ChatFormatting.ITALIC));
+            }
+            case BIOME -> {
+                ResourceLocation id = t.location();
+                lines.add(Component.translatable("codex.hint.biome", id == null ? t.id
+                        : Component.translatable("biome." + id.getNamespace() + "." + id.getPath()).getString()).withStyle(ChatFormatting.WHITE));
+                if (!t.note.isEmpty()) lines.add(Component.translatable(t.note).withStyle(ChatFormatting.GRAY));
+                lines.add(Component.literal(modName(t.id)).withStyle(ChatFormatting.BLUE, ChatFormatting.ITALIC));
+            }
+            case DIMENSION -> {
+                lines.add(Component.translatable("codex.hint.dimension", t.id.substring(t.id.indexOf(':') + 1).replace('_', ' ')).withStyle(ChatFormatting.WHITE));
+                if (!t.note.isEmpty()) lines.add(Component.translatable(t.note).withStyle(ChatFormatting.GRAY));
+                lines.add(Component.literal(modName(t.id)).withStyle(ChatFormatting.BLUE, ChatFormatting.ITALIC));
+            }
+            case CHECK -> {
+                lines.add(Component.translatable("codex.hint.check").withStyle(ChatFormatting.GOLD));
+                if (!t.note.isEmpty()) lines.add(Component.translatable(t.note).withStyle(ChatFormatting.GRAY));
+            }
+            case PONDER -> lines.add(Component.translatable("codex.hint.ponder").withStyle(ChatFormatting.GRAY));
+            default -> { }
+        }
+        return lines;
+    }
+
+    private static String modName(String id) {
+        String namespace = id.contains(":") ? id.substring(0, id.indexOf(':')) : "minecraft";
+        return ModList.get().getModContainerById(namespace).map(c -> c.getModInfo().getDisplayName()).orElse(namespace);
     }
 
     private void renderSidebar(GuiGraphics g, int mouseX, int mouseY) {
@@ -468,11 +554,13 @@ public final class CodexScreen extends Screen {
             lines.add(Component.translatable("codex.ui.tip.locked").withStyle(ChatFormatting.GRAY));
             for (String dep : q.deps) {
                 Quest required = dependency(q, dep);
-                if (required != null && !Tracker.completed(required)) lines.add(Component.literal(" • " + tr(required.title)).withStyle(ChatFormatting.RED));
+                if (required != null && !Tracker.completed(required) && Rules.enforced(Tracker.book(), Tracker.PROGRESS, q, dep))
+                    lines.add(Component.literal(" • " + tr(required.title)).withStyle(ChatFormatting.RED));
             }
-            if (!q.anyDeps.isEmpty() && q.anyDeps.stream().map(dep -> dependency(q, dep)).noneMatch(p -> p != null && Tracker.completed(p))) {
+            List<String> alternatives = q.anyDeps.stream().filter(dep -> Rules.enforced(Tracker.book(), Tracker.PROGRESS, q, dep)).toList();
+            if (!alternatives.isEmpty() && alternatives.stream().map(dep -> dependency(q, dep)).noneMatch(p -> p != null && Tracker.completed(p))) {
                 lines.add(Component.translatable("codex.ui.requires_any").withStyle(ChatFormatting.GOLD));
-                for (String dep : q.anyDeps) {
+                for (String dep : alternatives) {
                     Quest required = dependency(q, dep);
                     if (required != null) lines.add(Component.literal(" • " + tr(required.title)).withStyle(ChatFormatting.RED));
                 }
@@ -534,6 +622,8 @@ public final class CodexScreen extends Screen {
                 g.drawString(font, tdone ? "✔" : "✖", x + w - 16, dy, tdone ? Theme.DONE : Theme.TEXT_FAINT, true);
                 int used = Draw.wrapped(g, font, taskLabel(q, t), tx, dy, w - (tx - x) - 22,
                         tdone ? Theme.DONE : Theme.TEXT);
+                hoverHits.add(new HoverHit(x + 8, rowTop - 1, w - 30, Math.max(12, used) + 1,
+                        t.kind == Task.Kind.ITEM ? Draw.stack(t.id) : ItemStack.EMPTY, t));
                 dy = rowTop + Math.max(12, used) + 3;
             }
         } else {
@@ -555,6 +645,7 @@ public final class CodexScreen extends Screen {
                 ItemStack stack = Draw.stack(s.id());
                 Draw.item(g, stack, x + 8, dy - 1, 0.7f);
                 hits.add(new Hit(x + 8, dy - 1, 12, 12, () -> Jei.showRecipe(stack), () -> Jei.showUsage(stack)));
+                hoverHits.add(new HoverHit(x + 8, dy - 1, w - 30, 12, stack, null));
                 String name = Draw.itemExists(s.id()) ? stack.getHoverName().getString() : s.id();
                 dy += Draw.wrapped(g, font, name + " ×" + s.count(), x + 22, dy, w - 36, Theme.TEXT) + 3;
             }
@@ -604,7 +695,9 @@ public final class CodexScreen extends Screen {
         for (boolean any : new boolean[]{false, true}) {
             List<String> deps = any ? q.anyDeps : q.deps;
             if (deps.isEmpty()) continue;
-            dy += Draw.wrapped(g, font, tr(any ? "codex.ui.requires_any" : "codex.ui.requires_all"), x + 8, dy, inner, Theme.ACCENT_DIM) + 4;
+            String heading = Tracker.PROGRESS.order != ru.kramar.codex.progress.Progress.Order.STRICT ? "codex.ui.related_steps"
+                    : any ? "codex.ui.requires_any" : "codex.ui.requires_all";
+            dy += Draw.wrapped(g, font, tr(heading), x + 8, dy, inner, Theme.ACCENT_DIM) + 4;
             for (String dep : deps) {
                 Quest target = dependency(q, dep);
                 if (target != null) dy = questLink(g, target, x + 8, dy, inner);

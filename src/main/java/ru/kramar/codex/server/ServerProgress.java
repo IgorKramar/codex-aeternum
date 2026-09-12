@@ -173,6 +173,15 @@ public final class ServerProgress {
         DIRTY_SYNC.put(player.getUUID(), true);
     }
 
+    /** Смена порядка сразу пересчитывает задания: уже сделанное засчитывается без ожидания тика. */
+    public static void order(ServerPlayer player, Progress.Order mode) {
+        Progress p = PLAYERS.get(player.getUUID());
+        if (p == null) return;
+        p.setOrder(mode);
+        processCompletions(player, p);
+        DIRTY_SYNC.put(player.getUUID(), true);
+    }
+
     public static void pin(ServerPlayer player, String gid) {
         Progress p = PLAYERS.get(player.getUUID());
         if (p == null || Book.SERVER.quest(gid) == null) return;

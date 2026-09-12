@@ -239,6 +239,12 @@ public final class Tracker {
         setFlag(key, !PROGRESS.manual.contains(key));
     }
 
+    public static void setOrder(Progress.Order mode) {
+        PROGRESS.setOrder(mode);
+        if (serverMode) PacketDistributor.sendToServer(new Payloads.Order(mode.name().toLowerCase()));
+        else processCompletions();
+    }
+
     public static void togglePin(String gid) {
         if (book().quest(gid) == null) return;
         PROGRESS.togglePin(gid);
@@ -287,6 +293,7 @@ public final class Tracker {
 
     private static void toast(Quest q) {
         if (!PROGRESS.announced.add(q.globalId()) || q.isLore()) return;
+        if (!ru.kramar.codex.client.ClientOptions.get().toasts) return;
         Minecraft mc = Minecraft.getInstance();
         if (mc.getToasts() == null) return;
         Chapter c = book().chapter(q.chapterId);

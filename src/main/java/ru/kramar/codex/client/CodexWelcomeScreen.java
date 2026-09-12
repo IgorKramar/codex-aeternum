@@ -31,6 +31,7 @@ public final class CodexWelcomeScreen extends Screen {
         addRenderableWidget(Draw.button(Component.translatable(primary), b -> minecraft.setScreen(new CodexScreen()), margin, footerY, buttonWidth, 22));
         addRenderableWidget(Draw.button(Component.translatable("codex.welcome.beginning"), b -> minecraft.setScreen(new CodexScreen("start")), margin + buttonWidth + gap, footerY, buttonWidth, 22));
         addRenderableWidget(Draw.button(Component.translatable("codex.ui.close"), b -> onClose(), width - 68, 8, 60, 20));
+        addRenderableWidget(Draw.button(Component.translatable("codex.ui.settings"), b -> minecraft.setScreen(new CodexSettingsScreen(this)), width - 156, 8, 80, 20));
         scroll = 0;
     }
 

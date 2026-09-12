@@ -2,6 +2,7 @@ package ru.kramar.codex.net;
 
 import net.minecraft.server.level.ServerPlayer;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
+import ru.kramar.codex.progress.Progress;
 import ru.kramar.codex.server.ServerProgress;
 
 /** Обработчики сообщений от клиента. Выполняются в потоке сервера. */
@@ -19,6 +20,12 @@ final class ServerHandlers {
     static void onFlag(Payloads.Flag msg, IPayloadContext ctx) {
         ctx.enqueueWork(() -> {
             if (ctx.player() instanceof ServerPlayer sp) ServerProgress.flag(sp, msg.key(), msg.value());
+        });
+    }
+
+    static void onOrder(Payloads.Order msg, IPayloadContext ctx) {
+        ctx.enqueueWork(() -> {
+            if (ctx.player() instanceof ServerPlayer sp) ServerProgress.order(sp, Progress.Order.parse(msg.mode()));
         });
     }
 

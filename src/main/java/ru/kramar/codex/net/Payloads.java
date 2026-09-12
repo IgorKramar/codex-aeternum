@@ -93,13 +93,27 @@ public final class Payloads {
         }
     }
 
+    /** Порядок прохождения, выбранный игроком в настройках книги. */
+    public record Order(String mode) implements CustomPacketPayload {
+        public static final Type<Order> TYPE = makeType("order");
+        public static final StreamCodec<RegistryFriendlyByteBuf, Order> CODEC = StreamCodec.composite(
+                ByteBufCodecs.STRING_UTF8, Order::mode,
+                Order::new);
+
+        @Override
+        public Type<Order> type() {
+            return TYPE;
+        }
+    }
+
     public static void register(RegisterPayloadHandlersEvent event) {
-        PayloadRegistrar r = event.registrar("codex").versioned("2").optional();
+        PayloadRegistrar r = event.registrar("codex").versioned("3").optional();
         r.playToClient(BookSync.TYPE, BookSync.CODEC, ClientHandlers::onBook);
         r.playToClient(ProgressSync.TYPE, ProgressSync.CODEC, ClientHandlers::onProgress);
         r.playToServer(Claim.TYPE, Claim.CODEC, ServerHandlers::onClaim);
         r.playToServer(Flag.TYPE, Flag.CODEC, ServerHandlers::onFlag);
         r.playToServer(Pin.TYPE, Pin.CODEC, ServerHandlers::onPin);
+        r.playToServer(Order.TYPE, Order.CODEC, ServerHandlers::onOrder);
     }
 
     /** Разделитель документов внутри одного сжатого блока. */

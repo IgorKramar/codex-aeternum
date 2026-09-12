@@ -24,7 +24,8 @@ public final class RuntimeRegression {
         snapshotsAndRecovery();
         networkBoundsAndLocalProgress();
         bundledBook();
-        System.out.println("Runtime regression: 8 сценариев пройдены");
+        orderModes();
+        System.out.println("Runtime regression: 9 сценариев пройдены");
     }
 
     private static void alternativesAndMaps() {
@@ -171,6 +172,35 @@ public final class RuntimeRegression {
     private static String chapter(String id, String quests) {
         return "{\"id\":\"" + id + "\",\"section\":\"s\",\"title\":\"Chapter\",\"quests\":[" + quests + "]}";
     }
+    /** Порядок прохождения: строгий требует чужую карту, «внутри карты» — только свою, свободный — ничего. */
+    private static void orderModes() {
+        Book book = Book.CLIENT;
+        book.loadFromDocuments("{\"s\":{\"title\":\"Этап\"},\"t\":{\"title\":\"Другая\"}}", List.of(
+                mappedChapter("a", "{\"id\":\"base\",\"title\":\"Base\"}"),
+                """
+                [{"id":"b","section":"t","map":"t","title":"B","quests":[
+                    {"id":"x","title":"X","x":0,"y":0,"deps":["a/base"]},
+                    {"id":"y","title":"Y","x":1,"y":0,"deps":["x"],"any_deps":["a/base"]}]}]
+                """));
+        Progress p = new Progress();
+        Quest x = book.quest("b/x");
+        Quest y = book.quest("b/y");
+        check(!Rules.unlocked(book, p, x), "Строгий порядок требует задание другой карты");
+        p.setOrder(Progress.Order.MAP);
+        check(Rules.unlocked(book, p, x) && !Rules.unlocked(book, p, y), "Внутри карты чужая карта не требуется, свой шаг требуется");
+        p.completed.add("b/x");
+        check(Rules.unlocked(book, p, y), "Альтернатива из другой карты не блокирует задание внутри карты");
+        p.completed.clear();
+        p.setOrder(Progress.Order.FREE);
+        check(Rules.unlocked(book, p, y), "Свободный порядок открывает всё");
+        Progress copy = new Progress();
+        copy.fromJson(JsonParser.parseString(p.toJsonString()).getAsJsonObject());
+        check(copy.order == Progress.Order.FREE, "Порядок сохраняется в JSON");
+        copy.fromJson(JsonParser.parseString("{}").getAsJsonObject());
+        check(copy.order == Progress.Order.STRICT, "Старый прогресс без поля читается как строгий");
+        check(Progress.Order.parse("nonsense") == Progress.Order.STRICT, "Неизвестное значение из сети не ломает прогресс");
+    }
+
     private static String mappedChapter(String id, String quests) {
         var document = JsonParser.parseString(chapter(id, quests)).getAsJsonObject();
         document.addProperty("map", "s");

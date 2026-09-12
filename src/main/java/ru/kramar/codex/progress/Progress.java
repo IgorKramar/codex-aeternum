@@ -44,6 +44,17 @@ public final class Progress {
     public final Set<String> claimed = new LinkedHashSet<>();
     public final Set<String> announced = new HashSet<>();
     public final Set<String> pinned = new LinkedHashSet<>();
+    /** Порядок прохождения: какие предпосылки книга требует на самом деле. */
+    public Order order = Order.STRICT;
+
+    public enum Order {
+        STRICT, MAP, FREE;
+
+        public static Order parse(String value) {
+            for (Order o : values()) if (o.name().equalsIgnoreCase(value)) return o;
+            return STRICT;
+        }
+    }
 
     private Path file;
     private boolean dirty;
@@ -79,6 +90,7 @@ public final class Progress {
         claimed.clear();
         announced.clear();
         pinned.clear();
+        order = Order.STRICT;
         dirty = false;
     }
 
@@ -166,6 +178,12 @@ public final class Progress {
         if (changed) dirty = true;
     }
 
+    public void setOrder(Order value) {
+        if (order == value) return;
+        order = value;
+        dirty = true;
+    }
+
     public void togglePin(String globalQuestId) {
         if (!pinned.remove(globalQuestId)) pinned.add(globalQuestId);
         dirty = true;
@@ -210,6 +228,7 @@ public final class Progress {
         o.add("claimed", array(claimed));
         o.add("announced", array(announced));
         o.add("pinned", array(pinned));
+        if (order != Order.STRICT) o.addProperty("order", order.name().toLowerCase());
         return o;
     }
 
@@ -239,6 +258,7 @@ public final class Progress {
         claimed.addAll(next.claimed);
         announced.addAll(next.announced);
         pinned.addAll(next.pinned);
+        order = next.order;
     }
 
     private void readJson(JsonObject o) {
@@ -257,6 +277,7 @@ public final class Progress {
         readSet(o, "claimed", claimed);
         readSet(o, "announced", announced);
         readSet(o, "pinned", pinned);
+        if (o.has("order")) order = Order.parse(o.get("order").getAsString());
     }
 
     private static void readSet(JsonObject o, String name, Set<String> into) {

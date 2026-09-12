@@ -40,6 +40,7 @@ public final class CodexClient {
 
     private void registerReloadListeners(RegisterClientReloadListenersEvent event) {
         event.registerReloadListener(Book.CLIENT.listener());
+        event.registerReloadListener(Hints.listener());
     }
 
     @EventBusSubscriber(modid = Codex.ID, value = Dist.CLIENT)
@@ -62,7 +63,7 @@ public final class CodexClient {
         public static void onClientTick(ClientTickEvent.Post event) {
             Minecraft mc = Minecraft.getInstance();
             while (OPEN_KEY.consumeClick()) {
-                if (mc.screen == null && mc.player != null) mc.setScreen(new CodexWelcomeScreen());
+                if (mc.screen == null && mc.player != null) mc.setScreen(ClientOptions.opening());
             }
             Tracker.clientTick();
         }
@@ -72,7 +73,7 @@ public final class CodexClient {
             LiteralArgumentBuilder<CommandSourceStack> root = Commands.literal("codex")
                     .executes(ctx -> {
                         Minecraft.getInstance().tell(() ->
-                                Minecraft.getInstance().setScreen(new CodexWelcomeScreen()));
+                                Minecraft.getInstance().setScreen(ClientOptions.opening()));
                         return 1;
                     });
             event.getDispatcher().register(root);
