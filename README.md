@@ -1,169 +1,124 @@
 # Codex Aeternum
 
-**RU** · Квестовая книга для модпака Minecraft 1.21.1 / NeoForge 21.1 — по образцу
-GTNH: разделы, главы, связанные задания с наградами, сдача предметов, серверный прогресс.
+Квестовая книга для Minecraft 1.21.1 / NeoForge 21.1. Русский и английский языки,
+серверный прогресс, сдача ресурсов, награды, JEI и Ponder.
 
-**EN** · A GTNH-style quest book for a Minecraft 1.21.1 / NeoForge 21.1 modpack: sections,
-chapters, linked quests with rewards, item turn-ins and server-side progress.
+Версия 0.3.0: **1165 заданий, 106 тематических глав, 20 карт прогрессии**.
+Каждое задание описано для новичка: назначение, где и как получить, порядок
+действий, проверка результата. 204 факультативные боковые ветки учат диагностике,
+автоматизации, снабжению и экспедициям. Крупные карты объединяют задания разных
+глав в общий граф: обязательные предпосылки, альтернативные пути и специализации.
 
----
+Книга открывается вступительным экраном Codex Aethernum: назначение, три шага
+чтения, прогресс и переход к карте. Все экраны выдержаны в одной палитре —
+ночной синий, бирюза и золото.
 
-## Русский
+![Вступительный экран Codex Aethernum](docs/images/welcome.png)
 
-### Что внутри
+[Отчёт о проверках 0.3.0](docs/validation.md) · [история версий](docs/release-history.md).
 
-- 19 разделов, 106 глав, 889 заданий по всем модам сборки: Create и все его аддоны,
-  Immersive Engineering, Mekanism, PneumaticCraft, Industrial Foregoing, Powah,
-  Refined Storage, MineColonies, Botania, Ars Nouveau, Iron's Spellbooks,
-  Mystical Agriculture, Apotheosis, Ad Astra, Cataclysm, Aether, Twilight Forest,
-  Eternal Tales, кухня, мебель, мелочи.
-- **Сюжетные линии** — сквозные цепочки через несколько модов с настоящими развилками.
-- **Космос, магия и охота** — три больших раздела: полёты на планеты Ad Astra,
-  три школы магии и десять боссов Cataclysm.
-- **Испытания и эндгейм** — сдача ресурсов с наградами, от 64 брёвен до 1024 прецизионных
-  механизмов и всех девяти кристаллов измерений разом.
-- Прогресс считается сам: предметы, достижения, посещённые измерения и биомы, просмотренные
-  сцены Ponder. Клик по предмету открывает рецепт в JEI.
-- Два языка: русский и английский. Переключается языком игры.
+## Игра
 
-### Как это работает
+Положите JAR в `mods` клиента и сервера. На обеих сторонах нужна одна и та же
+версия: сетевой протокол версионируется отдельно от номера релиза. Без мода на сервере
+книга работает как локальный справочник без выдачи наград.
 
-Мод ставится на клиент и на сервер (в одиночной игре сервер встроенный). Сервер ведёт
-прогресс каждого игрока в `<мир>/codex/<uuid>.json`, проверяет цели и выдаёт награды.
-Клиент рисует книгу и отправляет действия. Без мода на сервере книга работает
-как справочник: прогресс хранится локально, награды не выдаются.
-
-| Действие | Клавиша |
+| Действие | Управление |
 |---|---|
-| Открыть или закрыть книгу | `K` (настраивается), или `/codex` |
-| Панорамирование | перетаскивание ЛКМ |
-| Масштаб | колесо мыши |
-| Выбрать задание | ЛКМ по узлу |
-| Закладка | ПКМ по узлу |
-| Вернуть вид в центр | `Home` |
-| Рецепт / применение предмета | ЛКМ / ПКМ по иконке цели |
+| Открыть книгу | `K` (настраивается) или `/codex`; первый раз — вступление, затем «Обложка» возвращает к нему |
+| Переместить карту | Перетаскивание ЛКМ |
+| Изменить масштаб | Колесо мыши |
+| Вписать карту в экран | `Home` или «Вписать» |
+| Открыть задание / поставить закладку | ЛКМ / ПКМ по узлу |
+| Найти задание | Поиск по названию или ID предмета, `Enter` / `F3` — следующий результат |
+| Перейти к предпосылке или следующему заданию | Ссылка в описании |
+| Прочитать введения в главы | «Обзор» |
+| Открыть рецепт / применение | ЛКМ / ПКМ по предмету цели при установленном JEI |
 
-### Установка
+Сплошные связи означают обязательные предпосылки. Пунктир — достаточно одного
+из перечисленных путей; обязательные предпосылки при этом тоже нужны.
+Необязательные задания помечены ромбом. Цели-достижения показаны человеческим
+действием («Победить Игниса на Горящей арене»), а не техническим ID.
 
-Готовый jar — на странице [релизов](https://github.com/IgorKramar/codex-aeternum/releases).
-Кладётся в папку `mods` клиента и сервера.
+18 производственных проектов дополняют книгу 54 заданиями: подготовить оборудование,
+получить партию продукции, проверить работу линии. Последний шаг подтверждается
+игроком вручную по конкретным критериям. Наличие блоков в инвентаре само по себе
+не доказывает, что фабрика построена и работает.
 
-### Сборка
+Сервер хранит прогресс в `<мир>/codex/<uuid>.json`, предыдущую сохранённую версию —
+в `.bak`. Повреждённый файл сохраняется отдельно при восстановлении из резервной
+копии. Все **907 исходных идентификаторов заданий** сохранены; выполненные задания
+не переименованы и не удалены. Для ещё не выполненных заданий действуют новые связи.
 
-Нужен только JDK 21 — остальное Gradle скачает сам:
+## Сборка и проверки
 
-```
+Нужны JDK 21 и Python 3. Gradle скачивает зависимости при первой сборке.
+
+```sh
+python3 -m unittest discover -s tools/tests
+python3 tools/build_book.py --check
 ./gradlew build
 ```
 
-Результат — `build/libs/codex-aeternum-1.0.0.jar`. Версия мода, версия NeoForge и версия
-JEI задаются в `gradle.properties`; версия оттуда же попадает в манифест мода.
+Артефакт: `build/libs/codex-aeternum-0.3.0.jar`.
+`build` запускает Java-регрессии модели и сохранений. Python-проверки и соответствие
+сгенерированных ресурсов запускаются отдельно и включены в CI.
 
-### Содержимое книги
+Изолированный клиент разработки:
 
-Задания описаны на Python в `tools/c_*.py`, английские тексты — в `tools/en_*.py`,
-награды ключевых заданий — в `tools/rewards.py`. Сборщик выпускает JSON глав
-и оба языковых файла и проверяет каждый идентификатор предмета и достижения:
-
-```
-python3 tools/build_book.py
+```sh
+./gradlew runClient
 ```
 
-Списки существующих идентификаторов лежат в `tools/valid_ids.txt`,
-`tools/valid_adv.txt` и `tools/valid_biomes.txt`. После смены состава сборки их
-пересобирают по папке модов и клиентскому jar:
+Его настройки, моды и тестовые миры находятся в `build/run`. Проверка с полным
+набором сторонних модов должна выполняться также через обычный лаунчер:
+не все моды поддерживают именования методов среды разработки.
 
-```
-python3 tools/scan_pack.py <папка mods> <клиентский jar Minecraft>
-```
+## Редактирование книги
 
-Списки строятся по моделям предметов, состояниям блоков, рецептам, тегам и
-таблицам добычи, а не по языковым файлам: в них годами остаются ключи
-предметов, которых в реестре давно нет. Переменные окружения `VALID_IDS` и
-`VALID_ADV` позволяют подставить другие файлы, не трогая репозиторий.
-
-Главы лежат в `assets/codex/book/chapters/` и продублированы в `data/codex/book/`
-для сервера, поэтому их можно переопределить ресурспаком или датапаком.
-
----
-
-## English
-
-### What's inside
-
-- 19 sections, 106 chapters, 889 quests covering every content mod in the pack: Create and
-  all its add-ons, Immersive Engineering, Mekanism, PneumaticCraft, Industrial Foregoing,
-  Powah, Refined Storage, MineColonies, Botania, Ars Nouveau, Iron's Spellbooks,
-  Mystical Agriculture, Apotheosis, Ad Astra, Cataclysm, Aether, Twilight Forest,
-  Eternal Tales, cooking, furniture and utilities.
-- **Storylines** — cross-mod chains with real branching and convergence.
-- **Space, magic and the hunt** — three large sections: Ad Astra planetary flight,
-  three schools of magic and ten Cataclysm bosses.
-- **Trials and Endgame** — resource turn-ins with rewards, from 64 logs up to 1024
-  precision mechanisms and all nine dimension crystals at once.
-- Progress tracks itself: items, advancements, visited dimensions and biomes, watched
-  Ponder scenes. Clicking an item opens its recipe in JEI.
-- Two languages, Russian and English, following the game language.
-
-### How it works
-
-The mod goes on both client and server (single-player uses the integrated server). The
-server keeps each player's progress in `<world>/codex/<uuid>.json`, verifies objectives
-and grants rewards. The client renders the book and sends actions. Without the mod on the
-server the book runs as a reference: progress is stored locally and no rewards are given.
-
-| Action | Key |
+| Файл | Назначение |
 |---|---|
-| Open or close the book | `K` (rebindable), or `/codex` |
-| Pan | drag with LMB |
-| Zoom | mouse wheel |
-| Select a quest | LMB on a node |
-| Pin | RMB on a node |
-| Reset view | `Home` |
-| Recipe / uses of an item | LMB / RMB on an objective icon |
+| `tools/c_*.py`, `tools/en_*.py` | Исходные задания, цели и награды, английские названия |
+| `tools/guides/<карта>.json`, `tools/guidebook.py` | Полная редакция: описания всех заданий и введений RU/EN, пояснения целей, новые ветки `guide_*`; формат — [`docs/authoring-contract.md`](docs/authoring-contract.md) |
+| `tools/progression.py` | Входы в главы, развилки, общий граф и координаты |
+| `tools/editorial.py`, `tools/registry_corrections.py` | Исправления объяснений, целей и ссылок по реестру игры |
+| `tools/curriculum.py` | Практические производственные проекты |
+| `tools/rewards.py`, `tools/polish.py` | Награды и введения |
+| `tools/book_compiler.py` | Проверка схемы, ссылок, циклов, переводов и локализация |
+| `tools/build_book.py` | Загрузка исходников и выпуск ресурсов |
 
-### Installing
+После редактирования выполните `python3 tools/build_book.py` и проверки выше.
+Компилятор проверяет весь набор перед записью; ошибка в данных не изменяет JSON.
+`--check` ничего не записывает и завершает работу с ошибкой при расхождении ресурсов.
 
-Grab the jar from the [releases page](https://github.com/IgorKramar/codex-aeternum/releases)
-and drop it into the `mods` folder of both client and server.
+`deps` требует все перечисленные задания, `any_deps` — хотя бы одно.
+Ссылка `chapter/quest` межглавная, `quest` — локальная. Поле `map` объединяет главы;
+старые книги без этого поля показывают каждую главу отдельно с её координатами.
 
-### Building
+Ресурсы клиента лежат в `assets/codex/book`; Gradle также помещает их в
+`data/codex/book` для сервера. Книгу можно переопределить ресурспаком/датапаком.
+Некорректная перезагрузка не заменяет ранее загруженную книгу.
 
-JDK 21 is the only prerequisite; Gradle fetches the rest:
+Каталоги `tools/valid_ids.txt` и `tools/valid_adv.txt` проверяют ссылки на содержимое
+сборки. После изменения набора модов:
 
-```
-./gradlew build
-```
-
-Output: `build/libs/codex-aeternum-1.0.0.jar`. Mod, NeoForge and JEI versions live in
-`gradle.properties`, and the mod version is injected into the mod manifest from there.
-
-### Book content
-
-Quests are described in Python in `tools/c_*.py`, English text in `tools/en_*.py`, key
-rewards in `tools/rewards.py`. The builder emits chapter JSON plus both language files and
-validates every item and advancement id:
-
-```
-python3 tools/build_book.py
+```sh
+python3 tools/scan_pack.py <папка-mods> <клиентский-jar-Minecraft>
 ```
 
-The id lists live in `tools/valid_ids.txt`, `tools/valid_adv.txt` and
-`tools/valid_biomes.txt`. After the pack changes, regenerate them from the mods folder
-and the Minecraft client jar:
+Для точной проверки предпочтителен реестр запущенной сборки. В тестовом мире
+с правами оператора выполните:
 
+```text
+/neoforge dump registry minecraft:item true false
 ```
-python3 tools/scan_pack.py <mods folder> <Minecraft client jar>
-```
 
-The lists are built from item models, blockstates, recipes, tags and loot tables rather
-than language files: those keep keys for items that left the registry years ago. The
-`VALID_IDS` and `VALID_ADV` environment variables point the builder at other files
-without touching the repository.
+Замените `tools/valid_ids.txt` содержимым `dumps/registry/minecraft/item.txt` из этого
+экземпляра. Текущий каталог получен этим способом и содержит 19 341 предмет.
+Сканер JAR полезен до запуска игры, но включает некоторые внутренние блоки;
+после него нужно повторить проверку по реестру.
 
-Chapters live in `assets/codex/book/chapters/` and are mirrored to `data/codex/book/`
-for the server, so a resource pack or data pack can override them.
+Наличие ID в каталоге не доказывает доступность предмета в выживании или правильность
+рецепта. Источники и границы проверки описаны в [проверке содержимого](docs/content-sources.md).
 
-## License
-
-MIT — see `LICENSE`.
+Лицензия: [MIT](LICENSE).

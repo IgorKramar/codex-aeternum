@@ -17,6 +17,7 @@ import java.util.zip.GZIPOutputStream;
 
 /** Сетевые сообщения книги. Все помечены как необязательные: без мода на сервере клиент работает сам. */
 public final class Payloads {
+    public static final int MAX_UNCOMPRESSED_BYTES = 32_000_000;
 
     private Payloads() {
     }
@@ -93,7 +94,7 @@ public final class Payloads {
     }
 
     public static void register(RegisterPayloadHandlersEvent event) {
-        PayloadRegistrar r = event.registrar("codex").versioned("1").optional();
+        PayloadRegistrar r = event.registrar("codex").versioned("2").optional();
         r.playToClient(BookSync.TYPE, BookSync.CODEC, ClientHandlers::onBook);
         r.playToClient(ProgressSync.TYPE, ProgressSync.CODEC, ClientHandlers::onProgress);
         r.playToServer(Claim.TYPE, Claim.CODEC, ServerHandlers::onClaim);
@@ -120,7 +121,11 @@ public final class Payloads {
              ByteArrayOutputStream bos = new ByteArrayOutputStream()) {
             byte[] buf = new byte[8192];
             int n;
-            while ((n = gz.read(buf)) > 0) bos.write(buf, 0, n);
+            while ((n = gz.read(buf)) > 0) {
+                if (bos.size() > MAX_UNCOMPRESSED_BYTES - n)
+                    throw new IOException("Слишком большой распакованный пакет кодекса");
+                bos.write(buf, 0, n);
+            }
             return bos.toString(StandardCharsets.UTF_8);
         } catch (IOException e) {
             throw new IllegalStateException(e);

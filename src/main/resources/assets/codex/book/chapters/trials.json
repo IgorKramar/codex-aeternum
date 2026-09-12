@@ -8,8 +8,7 @@
   "subtitle": "codex.chapter.trials_early.subtitle",
   "intro": [
    "codex.chapter.trials_early.intro.0",
-   "codex.chapter.trials_early.intro.1",
-   "codex.chapter.trials_early.intro.2"
+   "codex.chapter.trials_early.intro.1"
   ],
   "quests": [
    {
@@ -19,7 +18,9 @@
     "x": 0,
     "y": 0,
     "text": [
-     "codex.quest.trials_early.logs.text.0"
+     "codex.quest.trials_early.logs.text.0",
+     "codex.quest.trials_early.logs.text.1",
+     "codex.quest.trials_early.logs.text.2"
     ],
     "tasks": [
      {
@@ -42,16 +43,21 @@
      ],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "cobble",
     "title": "codex.quest.trials_early.cobble.title",
     "icon": "minecraft:cobblestone",
-    "x": 1,
-    "y": 0,
+    "x": 2,
+    "y": 4,
     "text": [
-     "codex.quest.trials_early.cobble.text.0"
+     "codex.quest.trials_early.cobble.text.0",
+     "codex.quest.trials_early.cobble.text.1",
+     "codex.quest.trials_early.cobble.text.2"
     ],
     "tasks": [
      {
@@ -83,10 +89,12 @@
     "id": "iron",
     "title": "codex.quest.trials_early.iron.title",
     "icon": "minecraft:iron_ingot",
-    "x": 0,
-    "y": 1,
+    "x": 4,
+    "y": 5,
     "text": [
-     "codex.quest.trials_early.iron.text.0"
+     "codex.quest.trials_early.iron.text.0",
+     "codex.quest.trials_early.iron.text.1",
+     "codex.quest.trials_early.iron.text.2"
     ],
     "tasks": [
      {
@@ -120,10 +128,12 @@
     "id": "food",
     "title": "codex.quest.trials_early.food.title",
     "icon": "minecraft:cooked_beef",
-    "x": 1,
-    "y": 1,
+    "x": 6,
+    "y": 4,
     "text": [
-     "codex.quest.trials_early.food.text.0"
+     "codex.quest.trials_early.food.text.0",
+     "codex.quest.trials_early.food.text.1",
+     "codex.quest.trials_early.food.text.2"
     ],
     "tasks": [
      {
@@ -159,10 +169,12 @@
     "id": "leather",
     "title": "codex.quest.trials_early.leather.title",
     "icon": "minecraft:leather",
-    "x": 0,
-    "y": 2,
+    "x": 8,
+    "y": 5,
     "text": [
-     "codex.quest.trials_early.leather.text.0"
+     "codex.quest.trials_early.leather.text.0",
+     "codex.quest.trials_early.leather.text.1",
+     "codex.quest.trials_early.leather.text.2"
     ],
     "tasks": [
      {
@@ -190,10 +202,12 @@
     "id": "glass",
     "title": "codex.quest.trials_early.glass.title",
     "icon": "minecraft:glass",
-    "x": 1,
-    "y": 2,
+    "x": 10,
+    "y": 5,
     "text": [
-     "codex.quest.trials_early.glass.text.0"
+     "codex.quest.trials_early.glass.text.0",
+     "codex.quest.trials_early.glass.text.1",
+     "codex.quest.trials_early.glass.text.2"
     ],
     "tasks": [
      {
@@ -220,8 +234,110 @@
     "deps": [
      "leather"
     ]
+   },
+   {
+    "id": "guide_replant",
+    "title": "codex.quest.trials_early.guide_replant.title",
+    "icon": "minecraft:oak_sapling",
+    "deps": [
+     "logs"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:oak_sapling",
+      "count": 8
+     },
+     {
+      "type": "check",
+      "id": "oak_regrowth",
+      "note": "codex.quest.trials_early.guide_replant.task.1",
+      "note_en": "Plant oaks and wait for at least one tree to grow"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 35,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 5,
+    "text": [
+     "codex.quest.trials_early.guide_replant.text.0",
+     "codex.quest.trials_early.guide_replant.text.1",
+     "codex.quest.trials_early.guide_replant.text.2"
+    ]
+   },
+   {
+    "id": "guide_charcoal",
+    "title": "codex.quest.trials_early.guide_charcoal.title",
+    "icon": "minecraft:charcoal",
+    "deps": [
+     "guide_replant"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:charcoal",
+      "count": 16,
+      "consume": true
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 35,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 6,
+    "text": [
+     "codex.quest.trials_early.guide_charcoal.text.0",
+     "codex.quest.trials_early.guide_charcoal.text.1",
+     "codex.quest.trials_early.guide_charcoal.text.2"
+    ]
+   },
+   {
+    "id": "guide_iron_reserve",
+    "title": "codex.quest.trials_early.guide_iron_reserve.title",
+    "icon": "minecraft:bucket",
+    "deps": [
+     "iron"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:bucket",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:shield",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:iron_pickaxe",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 35,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 5,
+    "text": [
+     "codex.quest.trials_early.guide_iron_reserve.text.0",
+     "codex.quest.trials_early.guide_iron_reserve.text.1",
+     "codex.quest.trials_early.guide_iron_reserve.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "trials"
  },
  {
   "id": "trials_mid",
@@ -231,7 +347,8 @@
   "icon": "create:precision_mechanism",
   "subtitle": "codex.chapter.trials_mid.subtitle",
   "intro": [
-   "codex.chapter.trials_mid.intro.0"
+   "codex.chapter.trials_mid.intro.0",
+   "codex.chapter.trials_mid.intro.1"
   ],
   "quests": [
    {
@@ -239,9 +356,11 @@
     "title": "codex.quest.trials_mid.alloy.title",
     "icon": "create:andesite_alloy",
     "x": 0,
-    "y": 0,
+    "y": 1,
     "text": [
-     "codex.quest.trials_mid.alloy.text.0"
+     "codex.quest.trials_mid.alloy.text.0",
+     "codex.quest.trials_mid.alloy.text.1",
+     "codex.quest.trials_mid.alloy.text.2"
     ],
     "tasks": [
      {
@@ -264,16 +383,21 @@
      ],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "create_andesite/press"
+    ]
    },
    {
     "id": "sheets",
     "title": "codex.quest.trials_mid.sheets.title",
     "icon": "create:iron_sheet",
-    "x": 1,
-    "y": 0,
+    "x": 2,
+    "y": 6,
     "text": [
-     "codex.quest.trials_mid.sheets.text.0"
+     "codex.quest.trials_mid.sheets.text.0",
+     "codex.quest.trials_mid.sheets.text.1",
+     "codex.quest.trials_mid.sheets.text.2"
     ],
     "tasks": [
      {
@@ -311,10 +435,12 @@
     "id": "brass",
     "title": "codex.quest.trials_mid.brass.title",
     "icon": "create:brass_ingot",
-    "x": 0,
-    "y": 1,
+    "x": 4,
+    "y": 7,
     "text": [
-     "codex.quest.trials_mid.brass.text.0"
+     "codex.quest.trials_mid.brass.text.0",
+     "codex.quest.trials_mid.brass.text.1",
+     "codex.quest.trials_mid.brass.text.2"
     ],
     "tasks": [
      {
@@ -346,10 +472,12 @@
     "id": "precision",
     "title": "codex.quest.trials_mid.precision.title",
     "icon": "create:precision_mechanism",
-    "x": 1,
-    "y": 1,
+    "x": 6,
+    "y": 6,
     "text": [
-     "codex.quest.trials_mid.precision.text.0"
+     "codex.quest.trials_mid.precision.text.0",
+     "codex.quest.trials_mid.precision.text.1",
+     "codex.quest.trials_mid.precision.text.2"
     ],
     "tasks": [
      {
@@ -381,10 +509,12 @@
     "id": "steel_ie",
     "title": "codex.quest.trials_mid.steel_ie.title",
     "icon": "immersiveengineering:ingot_steel",
-    "x": 0,
-    "y": 2,
+    "x": 8,
+    "y": 6,
     "text": [
-     "codex.quest.trials_mid.steel_ie.text.0"
+     "codex.quest.trials_mid.steel_ie.text.0",
+     "codex.quest.trials_mid.steel_ie.text.1",
+     "codex.quest.trials_mid.steel_ie.text.2"
     ],
     "tasks": [
      {
@@ -420,10 +550,12 @@
     "id": "coke",
     "title": "codex.quest.trials_mid.coke.title",
     "icon": "immersiveengineering:coal_coke",
-    "x": 1,
-    "y": 2,
+    "x": 10,
+    "y": 6,
     "text": [
-     "codex.quest.trials_mid.coke.text.0"
+     "codex.quest.trials_mid.coke.text.0",
+     "codex.quest.trials_mid.coke.text.1",
+     "codex.quest.trials_mid.coke.text.2"
     ],
     "tasks": [
      {
@@ -463,10 +595,12 @@
     "id": "osmium",
     "title": "codex.quest.trials_mid.osmium.title",
     "icon": "mekanism:ingot_osmium",
-    "x": 0,
-    "y": 3,
+    "x": 12,
+    "y": 5,
     "text": [
-     "codex.quest.trials_mid.osmium.text.0"
+     "codex.quest.trials_mid.osmium.text.0",
+     "codex.quest.trials_mid.osmium.text.1",
+     "codex.quest.trials_mid.osmium.text.2"
     ],
     "tasks": [
      {
@@ -504,10 +638,12 @@
     "id": "circuits",
     "title": "codex.quest.trials_mid.circuits.title",
     "icon": "mekanism:advanced_control_circuit",
-    "x": 1,
-    "y": 3,
+    "x": 14,
+    "y": 5,
     "text": [
-     "codex.quest.trials_mid.circuits.text.0"
+     "codex.quest.trials_mid.circuits.text.0",
+     "codex.quest.trials_mid.circuits.text.1",
+     "codex.quest.trials_mid.circuits.text.2"
     ],
     "tasks": [
      {
@@ -539,10 +675,12 @@
     "id": "processors",
     "title": "codex.quest.trials_mid.processors.title",
     "icon": "refinedstorage:improved_processor",
-    "x": 0,
-    "y": 4,
+    "x": 16,
+    "y": 6,
     "text": [
-     "codex.quest.trials_mid.processors.text.0"
+     "codex.quest.trials_mid.processors.text.0",
+     "codex.quest.trials_mid.processors.text.1",
+     "codex.quest.trials_mid.processors.text.2"
     ],
     "tasks": [
      {
@@ -574,10 +712,12 @@
     "id": "bread",
     "title": "codex.quest.trials_mid.bread.title",
     "icon": "minecraft:bread",
-    "x": 1,
-    "y": 4,
+    "x": 18,
+    "y": 6,
     "text": [
-     "codex.quest.trials_mid.bread.text.0"
+     "codex.quest.trials_mid.bread.text.0",
+     "codex.quest.trials_mid.bread.text.1",
+     "codex.quest.trials_mid.bread.text.2"
     ],
     "tasks": [
      {
@@ -604,8 +744,106 @@
     "deps": [
      "processors"
     ]
+   },
+   {
+    "id": "guide_output_buffer",
+    "title": "codex.quest.trials_mid.guide_output_buffer.title",
+    "icon": "minecraft:chest",
+    "deps": [
+     "brass"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:chest",
+      "count": 2
+     },
+     {
+      "type": "check",
+      "id": "brass_buffer",
+      "note": "codex.quest.trials_mid.guide_output_buffer.task.1",
+      "note_en": "Process one brass batch with automatic chest collection and no drops on the ground"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 35,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 7,
+    "text": [
+     "codex.quest.trials_mid.guide_output_buffer.text.0",
+     "codex.quest.trials_mid.guide_output_buffer.text.1",
+     "codex.quest.trials_mid.guide_output_buffer.text.2"
+    ]
+   },
+   {
+    "id": "guide_resume",
+    "title": "codex.quest.trials_mid.guide_resume.title",
+    "icon": "create:brass_funnel",
+    "deps": [
+     "guide_output_buffer"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "brass_restart",
+      "note": "codex.quest.trials_mid.guide_resume.task.0",
+      "note_en": "Let input run out, replenish it and obtain more brass without rebuilding the line"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 45,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 7,
+    "text": [
+     "codex.quest.trials_mid.guide_resume.text.0",
+     "codex.quest.trials_mid.guide_resume.text.1",
+     "codex.quest.trials_mid.guide_resume.text.2"
+    ]
+   },
+   {
+    "id": "guide_seed_reserve",
+    "title": "codex.quest.trials_mid.guide_seed_reserve.title",
+    "icon": "minecraft:wheat_seeds",
+    "deps": [
+     "bread"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:wheat_seeds",
+      "count": 32
+     },
+     {
+      "type": "check",
+      "id": "wheat_replant",
+      "note": "codex.quest.trials_mid.guide_seed_reserve.task.1",
+      "note_en": "Harvest a wheat plot and fully replant it while retaining food for citizens"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 35,
+     "items": [],
+     "text": []
+    },
+    "x": 20,
+    "y": 6,
+    "text": [
+     "codex.quest.trials_mid.guide_seed_reserve.text.0",
+     "codex.quest.trials_mid.guide_seed_reserve.text.1",
+     "codex.quest.trials_mid.guide_seed_reserve.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "trials"
  },
  {
   "id": "trials_late",
@@ -615,7 +853,8 @@
   "icon": "mekanism:pellet_polonium",
   "subtitle": "codex.chapter.trials_late.subtitle",
   "intro": [
-   "codex.chapter.trials_late.intro.0"
+   "codex.chapter.trials_late.intro.0",
+   "codex.chapter.trials_late.intro.1"
   ],
   "quests": [
    {
@@ -623,9 +862,11 @@
     "title": "codex.quest.trials_late.sturdy.title",
     "icon": "create:sturdy_sheet",
     "x": 0,
-    "y": 0,
+    "y": 2,
     "text": [
-     "codex.quest.trials_late.sturdy.text.0"
+     "codex.quest.trials_late.sturdy.text.0",
+     "codex.quest.trials_late.sturdy.text.1",
+     "codex.quest.trials_late.sturdy.text.2"
     ],
     "tasks": [
      {
@@ -648,16 +889,21 @@
      ],
      "xp": 200,
      "text": []
-    }
+    },
+    "deps": [
+     "create_brass/precision"
+    ]
    },
    {
     "id": "electrum",
     "title": "codex.quest.trials_late.electrum.title",
     "icon": "createaddition:electrum_ingot",
-    "x": 1,
-    "y": 0,
+    "x": 2,
+    "y": 7,
     "text": [
-     "codex.quest.trials_late.electrum.text.0"
+     "codex.quest.trials_late.electrum.text.0",
+     "codex.quest.trials_late.electrum.text.1",
+     "codex.quest.trials_late.electrum.text.2"
     ],
     "tasks": [
      {
@@ -695,10 +941,12 @@
     "id": "nethersteel",
     "title": "codex.quest.trials_late.nethersteel.title",
     "icon": "createbigcannons:nethersteel_ingot",
-    "x": 0,
-    "y": 1,
+    "x": 4,
+    "y": 8,
     "text": [
-     "codex.quest.trials_late.nethersteel.text.0"
+     "codex.quest.trials_late.nethersteel.text.0",
+     "codex.quest.trials_late.nethersteel.text.1",
+     "codex.quest.trials_late.nethersteel.text.2"
     ],
     "tasks": [
      {
@@ -730,10 +978,12 @@
     "id": "duroplast",
     "title": "codex.quest.trials_late.duroplast.title",
     "icon": "immersiveengineering:plate_duroplast",
-    "x": 1,
-    "y": 1,
+    "x": 6,
+    "y": 8,
     "text": [
-     "codex.quest.trials_late.duroplast.text.0"
+     "codex.quest.trials_late.duroplast.text.0",
+     "codex.quest.trials_late.duroplast.text.1",
+     "codex.quest.trials_late.duroplast.text.2"
     ],
     "tasks": [
      {
@@ -771,10 +1021,12 @@
     "id": "atomic",
     "title": "codex.quest.trials_late.atomic.title",
     "icon": "mekanism:alloy_atomic",
-    "x": 0,
-    "y": 2,
+    "x": 8,
+    "y": 8,
     "text": [
-     "codex.quest.trials_late.atomic.text.0"
+     "codex.quest.trials_late.atomic.text.0",
+     "codex.quest.trials_late.atomic.text.1",
+     "codex.quest.trials_late.atomic.text.2"
     ],
     "tasks": [
      {
@@ -806,10 +1058,12 @@
     "id": "polonium",
     "title": "codex.quest.trials_late.polonium.title",
     "icon": "mekanism:pellet_polonium",
-    "x": 1,
-    "y": 2,
+    "x": 10,
+    "y": 7,
     "text": [
-     "codex.quest.trials_late.polonium.text.0"
+     "codex.quest.trials_late.polonium.text.0",
+     "codex.quest.trials_late.polonium.text.1",
+     "codex.quest.trials_late.polonium.text.2"
     ],
     "tasks": [
      {
@@ -846,16 +1100,18 @@
    {
     "id": "disks",
     "title": "codex.quest.trials_late.disks.title",
-    "icon": "refinedstorage:64k_storage_disk",
-    "x": 0,
-    "y": 3,
+    "icon": "refinedstorage:64k_storage_part",
+    "x": 12,
+    "y": 6,
     "text": [
-     "codex.quest.trials_late.disks.text.0"
+     "codex.quest.trials_late.disks.text.0",
+     "codex.quest.trials_late.disks.text.1",
+     "codex.quest.trials_late.disks.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "refinedstorage:64k_storage_disk",
+      "id": "refinedstorage:64k_storage_part",
       "count": 4,
       "consume": true
      }
@@ -872,9 +1128,7 @@
       }
      ],
      "xp": 250,
-     "text": [
-      "codex.quest.trials_late.disks.reward.0"
-     ]
+     "text": []
     },
     "deps": [
      "polonium"
@@ -884,10 +1138,12 @@
     "id": "levitite",
     "title": "codex.quest.trials_late.levitite.title",
     "icon": "aeronautics:levitite",
-    "x": 1,
-    "y": 3,
+    "x": 14,
+    "y": 6,
     "text": [
-     "codex.quest.trials_late.levitite.text.0"
+     "codex.quest.trials_late.levitite.text.0",
+     "codex.quest.trials_late.levitite.text.1",
+     "codex.quest.trials_late.levitite.text.2"
     ],
     "tasks": [
      {
@@ -919,10 +1175,12 @@
     "id": "truadamantite",
     "title": "codex.quest.trials_late.truadamantite.title",
     "icon": "eternal_tales:truadamantite_ingot",
-    "x": 0,
-    "y": 4,
+    "x": 16,
+    "y": 7,
     "text": [
-     "codex.quest.trials_late.truadamantite.text.0"
+     "codex.quest.trials_late.truadamantite.text.0",
+     "codex.quest.trials_late.truadamantite.text.1",
+     "codex.quest.trials_late.truadamantite.text.2"
     ],
     "tasks": [
      {
@@ -949,8 +1207,67 @@
     "deps": [
      "levitite"
     ]
+   },
+   {
+    "id": "guide_archive_readback",
+    "title": "codex.quest.trials_late.guide_archive_readback.title",
+    "icon": "refinedstorage:grid",
+    "deps": [
+     "disks"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "storage_readback",
+      "note": "codex.quest.trials_late.guide_archive_readback.task.0",
+      "note_en": "Add a new empty disk, then insert and retrieve a test batch of 64 cobblestone through the grid"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 45,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 7,
+    "text": [
+     "codex.quest.trials_late.guide_archive_readback.text.0",
+     "codex.quest.trials_late.guide_archive_readback.text.1",
+     "codex.quest.trials_late.guide_archive_readback.text.2"
+    ]
+   },
+   {
+    "id": "guide_waste_stop",
+    "title": "codex.quest.trials_late.guide_waste_stop.title",
+    "icon": "mekanism:geiger_counter",
+    "deps": [
+     "polonium"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "waste_shutdown",
+      "note": "codex.quest.trials_late.guide_waste_stop.task.0",
+      "note_en": "At a minimal safe operating rate, manually stop the reactor and verify burning stops while cooling and waste handling remain available"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 50,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 7,
+    "text": [
+     "codex.quest.trials_late.guide_waste_stop.text.0",
+     "codex.quest.trials_late.guide_waste_stop.text.1",
+     "codex.quest.trials_late.guide_waste_stop.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "trials"
  },
  {
   "id": "trials_bosses",
@@ -960,7 +1277,8 @@
   "icon": "minecraft:dragon_head",
   "subtitle": "codex.chapter.trials_bosses.subtitle",
   "intro": [
-   "codex.chapter.trials_bosses.intro.0"
+   "codex.chapter.trials_bosses.intro.0",
+   "codex.chapter.trials_bosses.intro.1"
   ],
   "quests": [
    {
@@ -968,11 +1286,12 @@
     "title": "codex.quest.trials_bosses.dragon.title",
     "icon": "minecraft:dragon_egg",
     "x": 0,
-    "y": 0,
+    "y": 3,
     "tasks": [
      {
       "type": "advancement",
-      "id": "minecraft:end/kill_dragon"
+      "id": "minecraft:end/kill_dragon",
+      "note": "codex.quest.trials_bosses.dragon.task.0"
      }
     ],
     "rewards": {
@@ -988,18 +1307,27 @@
      ],
      "xp": 400,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.dragon.text.0",
+     "codex.quest.trials_bosses.dragon.text.1",
+     "codex.quest.trials_bosses.dragon.text.2"
+    ]
    },
    {
     "id": "wither",
     "title": "codex.quest.trials_bosses.wither.title",
     "icon": "minecraft:wither_skeleton_skull",
-    "x": 1,
-    "y": 0,
+    "x": 0,
+    "y": 4,
     "tasks": [
      {
       "type": "advancement",
-      "id": "minecraft:nether/summon_wither"
+      "id": "minecraft:nether/summon_wither",
+      "note": "codex.quest.trials_bosses.wither.task.0"
      }
     ],
     "rewards": {
@@ -1011,18 +1339,27 @@
      ],
      "xp": 400,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.wither.text.0",
+     "codex.quest.trials_bosses.wither.text.1",
+     "codex.quest.trials_bosses.wither.text.2"
+    ]
    },
    {
     "id": "naga",
     "title": "codex.quest.trials_bosses.naga.title",
     "icon": "twilightforest:naga_trophy",
     "x": 0,
-    "y": 1,
+    "y": 5,
     "tasks": [
      {
       "type": "advancement",
-      "id": "twilightforest:progress_naga"
+      "id": "twilightforest:progress_naga",
+      "note": "codex.quest.trials_bosses.naga.task.0"
      }
     ],
     "rewards": {
@@ -1034,18 +1371,27 @@
      ],
      "xp": 150,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.naga.text.0",
+     "codex.quest.trials_bosses.naga.text.1",
+     "codex.quest.trials_bosses.naga.text.2"
+    ]
    },
    {
     "id": "lich",
     "title": "codex.quest.trials_bosses.lich.title",
     "icon": "twilightforest:lich_trophy",
-    "x": 1,
-    "y": 1,
+    "x": 0,
+    "y": 6,
     "tasks": [
      {
       "type": "advancement",
-      "id": "twilightforest:progress_lich"
+      "id": "twilightforest:progress_lich",
+      "note": "codex.quest.trials_bosses.lich.task.0"
      }
     ],
     "rewards": {
@@ -1057,18 +1403,27 @@
      ],
      "xp": 200,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.lich.text.0",
+     "codex.quest.trials_bosses.lich.text.1",
+     "codex.quest.trials_bosses.lich.text.2"
+    ]
    },
    {
     "id": "hydra",
     "title": "codex.quest.trials_bosses.hydra.title",
     "icon": "twilightforest:hydra_trophy",
-    "x": 2,
-    "y": 1,
+    "x": 0,
+    "y": 7,
     "tasks": [
      {
       "type": "advancement",
-      "id": "twilightforest:progress_hydra"
+      "id": "twilightforest:progress_hydra",
+      "note": "codex.quest.trials_bosses.hydra.task.0"
      }
     ],
     "rewards": {
@@ -1080,18 +1435,27 @@
      ],
      "xp": 300,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.hydra.text.0",
+     "codex.quest.trials_bosses.hydra.text.1",
+     "codex.quest.trials_bosses.hydra.text.2"
+    ]
    },
    {
     "id": "terrible_tree",
     "title": "codex.quest.trials_bosses.terrible_tree.title",
     "icon": "eternal_tales:comet_banner",
     "x": 0,
-    "y": 2,
+    "y": 8,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_terrible_tree"
+      "id": "eternal_tales:kill_terrible_tree",
+      "note": "codex.quest.trials_bosses.terrible_tree.task.0"
      }
     ],
     "rewards": {
@@ -1103,18 +1467,27 @@
      ],
      "xp": 200,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.terrible_tree.text.0",
+     "codex.quest.trials_bosses.terrible_tree.text.1",
+     "codex.quest.trials_bosses.terrible_tree.text.2"
+    ]
    },
    {
     "id": "nyetet",
     "title": "codex.quest.trials_bosses.nyetet.title",
     "icon": "eternal_tales:purgatory_banner",
-    "x": 1,
-    "y": 2,
+    "x": 0,
+    "y": 9,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_nyetet"
+      "id": "eternal_tales:kill_nyetet",
+      "note": "codex.quest.trials_bosses.nyetet.task.0"
      }
     ],
     "rewards": {
@@ -1126,18 +1499,27 @@
      ],
      "xp": 300,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.nyetet.text.0",
+     "codex.quest.trials_bosses.nyetet.text.1",
+     "codex.quest.trials_bosses.nyetet.text.2"
+    ]
    },
    {
     "id": "pterion",
     "title": "codex.quest.trials_bosses.pterion.title",
     "icon": "eternal_tales:rayana_banner",
-    "x": 2,
-    "y": 2,
+    "x": 0,
+    "y": 10,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_pterion"
+      "id": "eternal_tales:kill_pterion",
+      "note": "codex.quest.trials_bosses.pterion.task.0"
      }
     ],
     "rewards": {
@@ -1149,18 +1531,27 @@
      ],
      "xp": 300,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.pterion.text.0",
+     "codex.quest.trials_bosses.pterion.text.1",
+     "codex.quest.trials_bosses.pterion.text.2"
+    ]
    },
    {
     "id": "xaxxas",
     "title": "codex.quest.trials_bosses.xaxxas.title",
     "icon": "eternal_tales:royal_banner",
     "x": 0,
-    "y": 3,
+    "y": 11,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_xaxxas_xix"
+      "id": "eternal_tales:kill_xaxxas_xix",
+      "note": "codex.quest.trials_bosses.xaxxas.task.0"
      }
     ],
     "rewards": {
@@ -1172,18 +1563,27 @@
      ],
      "xp": 600,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.xaxxas.text.0",
+     "codex.quest.trials_bosses.xaxxas.text.1",
+     "codex.quest.trials_bosses.xaxxas.text.2"
+    ]
    },
    {
     "id": "unahzaal",
     "title": "codex.quest.trials_bosses.unahzaal.title",
     "icon": "eternal_tales:unahzaal_bricks_dimension",
-    "x": 1,
-    "y": 3,
+    "x": 0,
+    "y": 12,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_unahzaal"
+      "id": "eternal_tales:kill_unahzaal",
+      "note": "codex.quest.trials_bosses.unahzaal.task.0"
      }
     ],
     "rewards": {
@@ -1195,18 +1595,27 @@
      ],
      "xp": 2000,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.unahzaal.text.0",
+     "codex.quest.trials_bosses.unahzaal.text.1",
+     "codex.quest.trials_bosses.unahzaal.text.2"
+    ]
    },
    {
     "id": "raid",
     "title": "codex.quest.trials_bosses.raid.title",
     "icon": "minecolonies:chiefsword",
-    "x": 2,
-    "y": 3,
+    "x": 0,
+    "y": 13,
     "tasks": [
      {
       "type": "advancement",
-      "id": "minecolonies:military/army_8"
+      "id": "minecolonies:military/army_8",
+      "note": "codex.quest.trials_bosses.raid.task.0"
      }
     ],
     "rewards": {
@@ -1218,8 +1627,80 @@
      ],
      "xp": 200,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/portal"
+    ],
+    "text": [
+     "codex.quest.trials_bosses.raid.text.0",
+     "codex.quest.trials_bosses.raid.text.1",
+     "codex.quest.trials_bosses.raid.text.2"
+    ]
+   },
+   {
+    "id": "guide_trophy_room",
+    "title": "codex.quest.trials_bosses.guide_trophy_room.title",
+    "icon": "minecraft:item_frame",
+    "deps": [
+     "terrible_tree"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:item_frame",
+      "count": 3
+     },
+     {
+      "type": "check",
+      "id": "trophy_return",
+      "note": "codex.quest.trials_bosses.guide_trophy_room.task.1",
+      "note_en": "Bring an expedition trophy home, register its advancement and display it safely"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 35,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 8,
+    "text": [
+     "codex.quest.trials_bosses.guide_trophy_room.text.0",
+     "codex.quest.trials_bosses.guide_trophy_room.text.1",
+     "codex.quest.trials_bosses.guide_trophy_room.text.2"
+    ]
+   },
+   {
+    "id": "guide_guard_routes",
+    "title": "codex.quest.trials_bosses.guide_guard_routes.title",
+    "icon": "minecolonies:banner_rally_guards",
+    "deps": [
+     "raid"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guard_access",
+      "note": "codex.quest.trials_bosses.guide_guard_routes.task.0",
+      "note_en": "Check routes from military buildings to two colony entrances and remove obstacles for guards"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 9,
+    "text": [
+     "codex.quest.trials_bosses.guide_guard_routes.text.0",
+     "codex.quest.trials_bosses.guide_guard_routes.text.1",
+     "codex.quest.trials_bosses.guide_guard_routes.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "trials"
  }
 ]

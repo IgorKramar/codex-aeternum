@@ -1,0 +1,1189 @@
+{
+  "section": "mek",
+  "chapters": {
+    "mek_start": {
+      "intro": [
+        "Mekanism начинается с питания и нескольких повторяемых материалов: осмия, стали, схем и сплавов. Сначала соберите маленькую мастерскую, где видны входы и выходы каждой машины; переносить понятную схему в фабрики легче, чем искать ошибку среди труб.",
+        "Энергия, предметы, жидкости и химикаты передаются разными сетями. Глава учит различать их и настраивать стороны машин. Получение корпуса или кабеля подтверждает запас деталей, а работоспособность линии проверяется отдельным опытом."
+      ],
+      "intro_en": [
+        "Mekanism starts with power and a few recurring materials: osmium, steel, circuits and alloys. Begin with a small workshop where every machine input and output is visible; expanding a clear arrangement into factories is easier than hunting a fault among pipes.",
+        "Energy, items, fluids and chemicals use different networks. This chapter teaches you to distinguish them and configure machine sides. Obtaining a casing or cable confirms that you have parts; a separate experiment checks whether the production line actually works."
+      ]
+    },
+    "mek_ore": {
+      "intro": [
+        "Переработка увеличивает выход металла ценой энергии, машин и химикатов. Надписи ×2–×5 относятся к блокам руды: для сырого железа действуют другие соотношения. Выбирайте цепочку под свой способ добычи и проверяйте результат небольшой известной партией.",
+        "Каждая новая стадия добавляется перед уже освоенными машинами. Сохраняйте рабочую простую линию, пока налаживаете кислород, рассол и кислоты; химическое производство требует свободного места для побочных продуктов и отдельных труб."
+      ],
+      "intro_en": [
+        "Ore processing increases metal yield at the cost of energy, machinery and chemicals. The ×2–×5 labels apply to ore blocks; raw iron uses different ratios. Choose a chain that fits your mining method and verify it with a small known batch.",
+        "Each new stage goes before machines you have already learned. Keep the simple line working while establishing oxygen, brine and acids; chemical production needs space for byproducts and separate transport lines."
+      ]
+    },
+    "mek_power": {
+      "intro": [
+        "Надёжная энергосистема имеет источник, передачу и запас. Начните с генератора для нескольких машин, затем измеряйте нагрузку при реальной работе: пустой аккумулятор не всегда означает слабый генератор, иногда энергия просто не выходит с нужной стороны.",
+        "Паровая энергетика требует отдельного внимания к воде и отводу пара. Собранные корпуса подтверждают наличие материалов; мощность и устойчивость определяются полной установкой, её настройками и текущей конфигурацией мира."
+      ],
+      "intro_en": [
+        "A reliable power system needs a source, transmission and storage. Start with generation for a few machines, then measure demand during real operation: an empty battery does not always mean weak generation, since energy may simply be blocked at an output side.",
+        "Steam systems need particular attention to water supply and steam removal. Crafted casings confirm available materials; actual output and reliability depend on the complete installation, its settings and the world’s configuration."
+      ]
+    },
+    "mek_nuclear": {
+      "intro": [
+        "Ядерная ветка начинается с химического топлива и заранее подготовленного охлаждения. До первой подачи делящегося топлива нужны отвод пара, приём отходов, показания температуры и проверенный аварийный останов. Корпуса реактора в инвентаре не подтверждают ни одного из этих условий.",
+        "Радиоактивные химикаты нельзя обслуживать как обычный бак с водой. Размещайте участок вдали от жилья, используйте полный защитный комплект и не разбирайте заполненные трубы. Термоядерная ветка использует другую топливную цепочку и требует собственной подготовки запуска."
+      ],
+      "intro_en": [
+        "The nuclear branch begins with chemical fuel and cooling prepared in advance. Before admitting fissile fuel, provide steam removal, waste handling, temperature monitoring and a tested emergency stop. Reactor casings in an inventory confirm none of these conditions.",
+        "Radioactive chemicals cannot be serviced like an ordinary water tank. Locate the site away from living areas, use a complete protective set and do not dismantle filled tubes. Fusion uses a different fuel chain and needs its own startup preparation."
+      ]
+    },
+    "mek_qio": {
+      "intro": [
+        "Квантовые устройства убирают длинные транспортные линии, но сохраняют требования к частоте, доступу и загрузке мира. Сначала испытайте пару устройств рядом: так ошибки настроек видны до строительства удалённой площадки.",
+        "QIO хранит предметы на дисках и предоставляет доступ через выбранную частоту. Телепорты перевозят игрока, а квантовые связыватели передают поддерживаемые ресурсы; это разные подсистемы с отдельными правилами."
+      ],
+      "intro_en": [
+        "Quantum devices remove long transport runs but retain frequency, access and world-loading requirements. Test a pair nearby first so configuration errors become visible before building a remote site.",
+        "QIO stores items on drives and exposes them through a selected frequency. Teleporters move players, while quantum entangloporters transfer supported resources; these are different subsystems with separate rules."
+      ]
+    },
+    "mek_gear": {
+      "intro": [
+        "Снаряжение Mekanism требует не только изготовления, но и энергии, химического топлива или установленных модулей. Проверяйте каждый новый инструмент на безопасной площадке перед экспедицией: пустой заряд и неверный режим часто выглядят как поломка.",
+        "MekaSuit и Meka-Tool настраиваются под задачу через станцию модификации. Возможности модулей привязаны к совместимым предметам, а радиационная защита и полёт требуют отдельной проверки, даже если все детали уже лежат в инвентаре."
+      ],
+      "intro_en": [
+        "Mekanism equipment needs more than crafting: it may require energy, chemical fuel or installed modules. Test each new tool in a safe area before an expedition; an empty charge or wrong mode can look like a fault.",
+        "MekaSuit and the Meka-Tool are configured for specific tasks through the modification station. Modules fit particular compatible items, and radiation shielding and flight need separate verification even when every component is already in your inventory."
+      ]
+    }
+  },
+  "quests": {
+    "mek_start/osmium": {
+      "text": [
+        "Осмий нужен для первых механизмов Mekanism, а олово пригодится для бронзы и дальнейших рецептов. Ищите соответствующие руды во время обычной разведки шахт; собирайте и соседние ресурсы, но оставьте отдельный запас железа для инструментов и генератора.",
+        "Переплавьте найденное сырьё в обычной печи. На этом этапе электрическая переработка ещё не обязательна: важнее получить шестнадцать осмиевых и восемь оловянных слитков, необходимых заданию. Рудный блок и выпавшее из него сырое сырьё — разные входы будущих машин.",
+        "Сложите технические металлы отдельно от строительных материалов. Слитки определяются по указанному предмету задания; наличие руды вместо слитков не завершит цель. Осмий открывает инфузер, а устойчивое питание позволит сразу начать выпуск схем."
+      ],
+      "text_en": [
+        "Osmium is needed for Mekanism’s first mechanisms, while tin will be useful for bronze and later recipes. Look for their ores during ordinary mine exploration; collect neighbouring resources too, but keep a separate iron reserve for tools and a generator.",
+        "Smelt the raw material in an ordinary furnace. Electrical processing is not required yet: the immediate aim is the sixteen osmium and eight tin ingots requested here. An ore block and the raw material it drops are different inputs for future machines.",
+        "Store technical metals separately from building supplies. The objective detects the specified ingot items; carrying ore instead does not complete it. Osmium unlocks the infuser, and a reliable power connection lets you start making circuits immediately."
+      ]
+    },
+    "mek_start/infuser": {
+      "text": [
+        "Металлургический инфузер соединяет основной предмет с запасом вещества внутри машины. Для старта изготовьте его из железа, печей, красного камня и осмия по рецепту, затем подключите к тепловой установке универсальным кабелем.",
+        "В интерфейсе различайте основной вход и слот материала для инфузии. Красный камень заполняет внутренний запас соответствующего вещества; железо в основном слоте превращается в обогащённый сплав. Углерод используется для стали и требует другой партии работы.",
+        "Если машина молчит, проверьте заряд, правильность двух входов и свободный выход. Остаток красного камня внутри мешает переходу на углерод: выгрузите расходники и осознанно очистите резервуар либо поставьте второй инфузер. Очистка уничтожает оставшееся вещество."
+      ],
+      "text_en": [
+        "The metallurgic infuser combines a main item with a substance stored inside the machine. Craft it from iron, furnaces, redstone and osmium using its recipe, then connect a heat generator with universal cable.",
+        "Distinguish the main input from the slot that supplies infusion material. Redstone fills the internal redstone reserve; iron in the main slot becomes infused alloy. Carbon is used for steel and belongs to a different production batch.",
+        "If nothing happens, check stored energy, both input types and output space. Residual redstone prevents switching the internal tank to carbon: remove supplies and deliberately clear the tank, or use another infuser. Clearing destroys the substance left inside."
+      ]
+    },
+    "mek_start/steel": {
+      "text": [
+        "Сталь получается из железа за два прохода через инфузер и одну плавку. Подготовьте железные слитки, уголь или древесный уголь для углерода и топливо для печи. Сама инфузия также требует электричества.",
+        "Сначала железо с углеродом превращается в обогащённое железо. Повторная обработка этого предмета углеродом даёт стальную пыль; переплавьте её в слиток. В рецептах установленной версии каждому проходу нужно десять единиц инфузионного углерода.",
+        "Не отправляйте обогащённое железо прямо в печь, пропуская второй проход. Для шестнадцати слитков повторите всю цепочку шестнадцать раз и заранее обеспечьте углерод на обе стадии. Позже два специализированных инфузера избавят от ручного перекладывания и обеспечат корпуса машин."
+      ],
+      "text_en": [
+        "Steel requires two passes through an infuser followed by smelting. Prepare iron ingots, coal or charcoal to supply carbon, and furnace fuel. Infusion itself also consumes electricity.",
+        "First, iron and carbon become enriched iron. Infuse that item with carbon again to obtain steel dust, then smelt the dust into an ingot. The installed recipes require ten units of infusion carbon for each pass.",
+        "Do not send enriched iron straight to the furnace and skip the second pass. Repeat the entire chain sixteen times for sixteen ingots, supplying carbon for both stages in advance. Later, two dedicated infusers remove the manual transfer and keep machine casings supplied."
+      ]
+    },
+    "mek_start/casing": {
+      "text": [
+        "Стальной корпус — промежуточная деталь многих машин, поэтому партия из восьми корпусов быстро найдёт применение. Подготовьте сталь, осмий и стекло: часть осмия лучше заранее отложить для схем, чтобы корпуса не остановили всё остальное производство.",
+        "Соберите корпуса на верстаке по действующему рецепту. У них нет собственного рабочего интерфейса: размещение корпуса в мире не создаёт ни печь, ни обогатитель. Готовая машина получается отдельным рецептом с нужными схемами и материалами.",
+        "Перед расходованием партии выберите первую линию: обогатительная камера и электрическая печь дают полезный результат сразу. Задание проверяет восемь корпусов в инвентаре, поэтому не превращайте последний корпус в машину до фиксации цели. Запас стали затем понадобится ещё и для транспортных сетей."
+      ],
+      "text_en": [
+        "Steel casing is an ingredient in many machines, so a batch of eight will soon find a use. Prepare steel, osmium and glass; reserve some osmium for circuits beforehand so casing production does not stall everything else.",
+        "Craft the casings at a crafting table using the current recipe. They have no working machine interface of their own: placing one does not create a furnace or enrichment chamber. Each complete machine has a separate recipe requiring the appropriate circuits and materials.",
+        "Choose your first production line before spending the batch: an enrichment chamber and energized smelter provide an immediate benefit. The objective checks for eight casings in your inventory, so let it register before crafting the last one into a machine. Transport networks will also require further steel."
+      ]
+    },
+    "mek_start/circuit": {
+      "text": [
+        "Управляющие схемы входят в рецепты машин, кабелей и улучшений. Начните с базовых: осмиевый слиток обрабатывается красным камнем в металлургическом инфузере. Железо в том же основном слоте дало бы сплав, поэтому не смешивайте две партии.",
+        "Наполните инфузер красным камнем, подайте четыре осмиевых слитка и дождитесь четырёх схем. Если внутри остался углерод от стали, этот рецепт не запускается: используйте отдельный инфузер для красного камня либо сначала очистите его резервуар.",
+        "Продвинутая, элитная и предельная схемы собираются из предыдущей ступени с соответствующими сплавами. Это последовательные рецепты, а не изменение настройки инфузера. Небольшой отдельный склад базовых схем позволит спокойно расширять энергосеть и не разбирать уже работающие машины ради деталей."
+      ],
+      "text_en": [
+        "Control circuits appear in machine, cable and upgrade recipes. Start with basic circuits: infuse an osmium ingot with redstone in the metallurgic infuser. Iron in that same main slot would produce alloy, so keep the two batches separate.",
+        "Supply redstone, insert four osmium ingots and wait for four circuits. Carbon left over from steel prevents this recipe from starting: use a dedicated redstone infuser or clear its internal tank first.",
+        "Advanced, elite and ultimate circuits are crafted from the previous tier using the corresponding alloys. These are successive crafting recipes, not different infuser settings. Keeping a small dedicated stock of basic circuits makes power-network expansion easier and avoids dismantling working machines to recover components."
+      ]
+    },
+    "mek_start/alloys": {
+      "text": [
+        "Обогащённый сплав — железо, обработанное красным камнем в инфузере. Он нужен уже для конфигуратора и многих первых машин. Подготовьте отдельную партию железных слитков: осмий в этом рецепте заменил бы результат базовой схемой.",
+        "Получите четыре сплава, следя за внутренним запасом красного камня и питанием. Позднее обогащённый сплав обрабатывают алмазным веществом, получая усиленный; следующий переход использует очищенный обсидиан и даёт атомный сплав.",
+        "Не кладите алмаз поверх незаконченного красного камня в резервуаре. Разделяйте инфузеры по веществу или заканчивайте одну партию перед очисткой. Обогатительная камера позволяет заранее концентрировать расходники для инфузии: это полезнее бездумного увеличения скорости, пока ресурсы поступают вручную."
+      ],
+      "text_en": [
+        "Infused alloy is iron processed with redstone in an infuser. It is already needed for the configurator and many early machines. Prepare a separate batch of iron ingots: osmium in this recipe would produce basic circuits instead.",
+        "Obtain four alloys while watching the internal redstone reserve and power supply. Later, infused alloy is treated with diamond infusion material to become reinforced alloy; the next step uses refined obsidian infusion material to produce atomic alloy.",
+        "Do not add diamond material on top of unfinished redstone in the tank. Dedicate infusers to individual substances or finish a batch before clearing the tank. An enrichment chamber can concentrate infusion supplies in advance, often helping more than blindly increasing speed while materials are still delivered by hand."
+      ]
+    },
+    "mek_start/cables": {
+      "text": [
+        "Сети Mekanism различаются по содержимому. Универсальный кабель передаёт энергию, механическая труба — жидкости, труба под давлением — химикаты, а логистический транспортёр — предметы. Например, вода сепаратора идёт по механической трубе, а полученный кислород — по трубе под давлением.",
+        "Соберите указанный стартовый комплект и соедините одну пару устройств каждого нужного типа. На машине назначьте вход и выход отдельно для энергии, предметов и химикатов. Соединение трубы с блоком ещё не означает, что выбранная сторона разрешает передачу.",
+        "Для извлечения из пассивного хранилища используйте режим Pull на соединении либо подходящий активный выход. Не объединяйте несовместимые жидкости или химикаты в одну магистраль. Основные уровни транспортных сетей — базовый, продвинутый, элитный и предельный; тепло передаётся отдельным проводником."
+      ],
+      "text_en": [
+        "Mekanism networks differ by what they carry. Universal cable transfers energy, mechanical pipe carries fluids, pressurized tube carries chemicals, and logistical transporter moves items. For example, separator water travels through mechanical pipe while the resulting oxygen needs pressurized tube.",
+        "Craft the requested starter set and connect one pair of devices for each type you need. Configure machine inputs and outputs separately for energy, items and chemicals. A visible pipe connection does not guarantee that the attached side allows transfer.",
+        "Use Pull mode on a connection or a suitable active output to extract from passive storage. Keep incompatible fluids or chemicals off the same line. The main transport tiers are basic, advanced, elite and ultimate; heat uses a separate conductor."
+      ]
+    },
+    "mek_start/sorter": {
+      "text": [
+        "Логистический сортировщик извлекает подходящие предметы из соседнего инвентаря и направляет их в транспортную сеть. Он полезен между общим сундуком и линией стали: железо должно идти в первый инфузер, а уголь — в подачу углерода.",
+        "Поставьте сортировщик вплотную к сундуку, соедините выход с транспортёром и создайте один простой фильтр по предмету. Сначала проверьте небольшую партию; затем добавляйте цвета и дополнительные получатели, если одной линии действительно недостаточно.",
+        "Диверсионный транспортёр управляет соединениями по сигналу красного камня, а не заменяет предметный фильтр сортировщика. Если груз возвращается или остаётся в сундуке, проверьте доступный инвентарь назначения, цвета и состояние сигнала. Такая проверка предотвращает забивание входов машин чужим сырьём."
+      ],
+      "text_en": [
+        "The logistical sorter extracts matching items from an adjacent inventory and routes them into a transporter network. It is useful between a shared chest and a steel line: iron belongs in the first infuser, while coal belongs in the carbon supply.",
+        "Place the sorter against the chest, connect its output to a transporter and create one simple item filter. Test a small batch first; add colours and further destinations only when a single route is insufficient.",
+        "A diversion transporter controls connections according to redstone signals; it does not replace the sorter’s item filters. If cargo returns or stays in the chest, check destination inventory space, colours and signal state. This prevents machine inputs from filling with unrelated materials."
+      ]
+    },
+    "mek_start/energy": {
+      "text": [
+        "Энергетический куб сглаживает паузы генерации и кратковременные пики нагрузки. Он хранит уже выработанную энергию, поэтому сам по себе не исправит постоянный дефицит питания. Для начала изготовьте базовый куб и оставьте доступ к его интерфейсу.",
+        "Подключите генератор к стороне входа, а потребителей — к стороне выхода. Проверьте конфигурацию сторон в самом кубе: случайный разворот блока часто оставляет кабель подключённым к отключённой грани. Дождитесь роста внутреннего запаса при остановленных машинах.",
+        "Запустите обогатитель и сравните изменение запаса. Медленное снижение означает, что средняя нагрузка превышает генерацию; полностью заполненный куб при голодных машинах указывает на проблему вывода или пропускной способности. Для сравнения показаний выберите одну единицу энергии, например FE, во всех доступных интерфейсах."
+      ],
+      "text_en": [
+        "An energy cube bridges gaps in generation and short peaks in demand. It stores previously generated energy, so it cannot fix a permanent power deficit by itself. Craft a basic cube and keep its interface accessible.",
+        "Connect the generator to an input side and consumers to an output side. Check the cube’s own side configuration: rotating a block can leave a cable attached to a disabled face. With machines stopped, confirm that stored energy rises.",
+        "Start an enrichment chamber and compare the reserve. A gradual decline means average demand exceeds generation; a full cube beside starving machines points to output configuration or transfer limits. Choose one energy unit, such as FE, in the available interfaces when comparing readings."
+      ]
+    },
+    "mek_start/configurator": {
+      "text": [
+        "Конфигуратор меняет соединения транспортных сетей и помогает настраивать оборудование. Это электрический инструмент: сначала зарядите его в доступном энергетическом устройстве. Карта конфигурации переносит поддерживаемые настройки и удобна при установке одинаковых машин.",
+        "Посмотрите выбранный режим инструмента перед нажатием. Для предметов, жидкостей, химикатов и энергии нужны соответствующие действия; сочетания клавиш можно проверить в настройках управления, поскольку сборка допускает переназначение. Испытайте переключение соединения на коротком участке рядом с сундуком.",
+        "Запишите настройки одной проверенной машины на карту и примените к совместимой второй. После копирования сверяйте ориентацию и стороны: одинаковая конфигурация при другом развороте меняет фактическое расположение входов. Освоенный конфигуратор экономит больше времени, чем разбор всей магистрали при каждой остановке."
+      ],
+      "text_en": [
+        "The configurator changes transport connections and helps set up equipment. It is an electric tool, so charge it in an available energy device first. The configuration card transfers supported settings and is useful when installing identical machines.",
+        "Check the selected tool mode before interacting. Items, fluids, chemicals and energy require the appropriate actions; consult control settings for key combinations because the pack allows rebinding. Practise changing a connection on a short section beside a chest.",
+        "Copy settings from one tested machine onto the card, then apply them to a compatible second machine. Afterwards, check orientation and sides: identical settings on a rotated machine put the actual inputs elsewhere. A familiar configurator saves more time than dismantling a whole network whenever it stops."
+      ]
+    },
+    "mek_start/box": {
+      "text": [
+        "Картонная коробка позволяет переносить поддерживаемые блоки вместе с их данными. Для её изготовления нужны опилки, которые удобно получать на точной пилораме. До доступа к пилораме посмотрите доступные рецепты опилок в JEI; коробка не обязательна для первой стали.",
+        "Начните с безопасного опыта на обычном сундуке с одним ненужным предметом. Упакуйте блок, перенесите полученную коробку, поставьте её и распакуйте предусмотренным взаимодействием. Убедитесь, что содержимое сохранилось, прежде чем перевозить мастерскую.",
+        "Упаковка имеет ограничения и не является универсальным способом разобрать многоблочную конструкцию. Особо не экспериментируйте с радиоактивными резервуарами и работающим реактором. Для обычных машин сначала остановите подачу материалов и энергии, запомните ориентацию, а после переезда заново проверьте подключения."
+      ],
+      "text_en": [
+        "A cardboard box can move supported blocks together with their stored data. Crafting uses sawdust, conveniently produced by a precision sawmill. Before you have a sawmill, inspect available sawdust recipes in JEI; a box is not required for your first steel.",
+        "Begin with a safe trial on an ordinary chest containing one expendable item. Pack the block, move the resulting box, place it and unpack it with the supported interaction. Confirm that its contents survived before relocating the workshop.",
+        "Packing has restrictions and is not a universal way to dismantle multiblocks. In particular, do not experiment with radioactive containers or a running reactor. For ordinary machines, stop material and energy supply first, remember their orientation and check every connection again after moving."
+      ]
+    },
+    "mek_start/steel_line_setup": {
+      "text": [
+        "Эта боковая ветка превращает ручное изготовление стали в небольшой участок с понятными стадиями. Для оснащения нужны два инфузера и электрическая печь; кабели, транспортёры и сундуки подготовьте дополнительно по месту. Оставьте перед интерфейсами проход для обслуживания.",
+        "Первый инфузер принимает железо и углерод, второй — обогащённое железо и углерод. Его выход со стальной пылью направьте в электрическую печь. На каждом устройстве настройте предметные стороны независимо от стороны питания.",
+        "Начните без сложной сортировки: вручную заполните углеродные запасы, затем испытайте передачу одного железного слитка через все стадии. Получение перечисленных машин подтверждает только оснащение. Пробная партия и проверка остановок идут следующими заданиями, поэтому не считайте одну собранную стопку машин работающей линией."
+      ],
+      "text_en": [
+        "This side branch turns manual steelmaking into a small line with clear stages. The equipment objective needs two infusers and an energized smelter; prepare cables, transporters and chests separately as the layout requires. Leave service access to the interfaces.",
+        "The first infuser receives iron and carbon; the second receives enriched iron and carbon. Send its steel dust output to the energized smelter. Configure item sides on every device separately from its energy input.",
+        "Start without elaborate sorting: fill the carbon reserves by hand, then test one iron ingot through the entire chain. Possessing the listed machines only confirms equipment. A test batch and interruption checks follow in later objectives, so a stack of crafted machines does not establish a working production line."
+      ]
+    },
+    "mek_start/steel_line_batch": {
+      "text": [
+        "Пробная партия показывает, где именно линия теряет темп или ожидает расходник. Отделите шестнадцать железных слитков от остального склада, обеспечьте углеродом оба инфузера и освободите выходной сундук. Не добавляйте скорость до завершения этого опыта.",
+        "Пустите железо в первый инфузер. Поочерёдно посмотрите на обогащённое железо, стальную пыль и готовые слитки; задержка на конкретной стадии сразу указывает, какой интерфейс нужно открыть. На выходе должна собраться партия из шестнадцати стальных слитков.",
+        "Возьмите готовые слитки в обычный инвентарь для фиксации цели. Предметная проверка не отличает ручное производство от автоматического и не расходует партию. Если всё изготовлено вручную, результат всё равно полезен как запас, но устойчивость установки подтвердите следующим отдельным испытанием."
+      ],
+      "text_en": [
+        "A test batch reveals where the line slows down or waits for a consumable. Separate sixteen iron ingots from the rest of storage, supply carbon to both infusers and clear the output chest. Leave speed upgrades out until this trial is complete.",
+        "Feed the iron into the first infuser. Watch enriched iron, steel dust and finished ingots in sequence; a delay at one stage tells you which interface to inspect. The output should collect sixteen steel ingots.",
+        "Move the finished ingots into your ordinary inventory so the objective can detect them. This item check does not distinguish manual from automatic production and does not consume the batch. If you made everything manually, the stock remains useful, but verify installation reliability with the next separate test."
+      ]
+    },
+    "mek_start/steel_line_run": {
+      "text": [
+        "Теперь проверьте, переживёт ли стальная линия обычный перебой снабжения. Уберите ценные посторонние предметы из тестового входа и приготовьте несколько железных слитков. Наблюдать нужно оба инфузера и печь, а не только конечный сундук.",
+        "Остановите подачу основного сырья, затем восстановите её. Отдельно прекратите подачу углерода до остановки нужного инфузера и снова пополните запас. Обогащённое железо должно остаться промежуточным продуктом, а стальная пыль — попасть в печь без ручной перестановки маршрутов.",
+        "Поставьте ручную отметку только после проверки раздельных входов, остановки и возобновления без смешивания материалов. Кодекс не наблюдает эту работу автоматически. Если вместо остановки в правильный слот попадает чужой предмет, исправьте фильтр или конфигурацию сторон и повторите опыт перед подтверждением."
+      ],
+      "text_en": [
+        "Now test whether the steel line survives an ordinary supply interruption. Remove valuable unrelated items from the test input and prepare several iron ingots. Watch both infusers and the smelter, not just the final chest.",
+        "Stop the main material supply, then restore it. Separately interrupt carbon until the relevant infuser stops, then replenish its reserve. Enriched iron should remain an intermediate product, and steel dust should reach the smelter without manually rerouting anything.",
+        "Mark the manual objective only after checking separate inputs, interruption and recovery without mixed materials. Codex does not observe this operation automatically. If an unrelated item enters the wrong slot instead of the line simply pausing, fix the filter or side configuration and repeat the experiment before confirming."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: проверить раздельную подачу углерода и сырья; прервать и восстановить вход без смешивания промежуточных материалов.",
+          "en": "Manual: verify separate carbon and material feeds; interrupt and restore an input without mixing intermediate materials."
+        }
+      }
+    },
+    "mek_ore/enrichment": {
+      "text": [
+        "Обогатительная камера делает чистую металлическую пыль для последующей плавки. Изготовьте машину, подключите питание и поставьте рядом печь: сама камера не выпускает слитки. На первом опыте используйте железо, чтобы легко сравнить вход и выход.",
+        "В установленном рецепте один блок железной руды даёт две пыли, три единицы сырого железа — четыре, а блок сырого железа — двенадцать. Каждая пыль затем переплавляется в один слиток. Одна единица сырого железа не запускает рецепт, требующий три.",
+        "Настройте вывод пыли и ввод печи, затем сравните результат с выбранным рецептом. Название ×2 нельзя применять к сырому материалу после добычи киркой. Камера также производит концентрированные материалы для инфузера, поэтому остаётся полезной даже после перехода на более сложную рудную линию."
+      ],
+      "text_en": [
+        "An enrichment chamber produces clean metal dust for subsequent smelting. Craft the machine, connect power and place a furnace nearby: the chamber does not output ingots itself. Use iron for your first trial so input and output are easy to compare.",
+        "In the installed recipe, one iron ore block gives two dust, three raw iron give four, and a raw iron block gives twelve. Each dust then smelts into one ingot. A single raw iron does not start the recipe that requires three.",
+        "Configure dust output and furnace input, then compare the result with the selected recipe. The ×2 name cannot be applied to raw material dropped by ordinary mining. The chamber also produces concentrated infuser supplies, so it remains useful after you move to a more complex ore-processing line."
+      ]
+    },
+    "mek_ore/crusher_mek": {
+      "text": [
+        "Дробилка Mekanism превращает подходящие предметы в пыль и перерабатывает комки из камеры очистки. Комбайнер выполняет другую задачу: соединяет основной материал с дополнительным и восстанавливает некоторые блоки. Обеим машинам нужны питание и свободный выход.",
+        "Для понятного первого опыта измельчите железный слиток в одну железную пыль. Комбайнер проверьте отдельно: его рецепт обычной железной руды требует восемь единиц сырого железа и булыжник. Основной и дополнительный ингредиенты имеют разные входы.",
+        "Такое восстановление руды не создаёт бесплатный цикл: восемь сырых единиц превращаются лишь в один рудный блок. Не направляйте всю добычу в комбайнер ради красивого множителя ×5. Дробилка пригодится в продуктивной цепочке очистки, а комбайнер оставьте для конкретного рецепта или восстановления нужного блока."
+      ],
+      "text_en": [
+        "Mekanism’s crusher turns suitable items into dust and processes clumps from the purification chamber. The combiner serves a different purpose: it joins a main material with an extra ingredient to reconstruct certain blocks. Both machines need power and clear outputs.",
+        "For a straightforward first trial, crush one iron ingot into one iron dust. Test the combiner separately: its ordinary iron ore recipe needs eight raw iron and cobblestone. The main and extra ingredients use different inputs.",
+        "Reconstructing ore does not create a free loop: eight raw items become just one ore block. Do not route all mining output into the combiner to chase an attractive ×5 label. The crusher belongs in productive purification chains; reserve the combiner for a particular recipe or block you actually need."
+      ]
+    },
+    "mek_ore/purification": {
+      "text": [
+        "Камера очистки начинает кислородную цепочку и выпускает комки металла. Перед запуском нужны дробилка, обогатитель и печь: без них комки останутся промежуточным продуктом. Электролитический сепаратор получает воду по механической трубе и питание по кабелю.",
+        "Сепаратор разделяет воду на водород и кислород. Подайте кислород по трубе под давлением в камеру очистки; второму продукту обеспечьте отдельное хранилище или осознанный сброс избытка. Заполненный водородный выход может остановить производство кислорода.",
+        "Один блок железной руды даёт три комка, одна единица сырого железа — два. Далее каждый комок проходит дробление в грязную пыль, обогащение в чистую и плавку. Проверяйте движение всех промежуточных форм и не складывайте чистую и грязную пыль в один неотфильтрованный вход."
+      ],
+      "text_en": [
+        "The purification chamber starts an oxygen-based chain and outputs metal clumps. Have a crusher, enrichment chamber and furnace ready before starting, otherwise clumps remain unfinished intermediates. The electrolytic separator receives water through mechanical pipe and power through cable.",
+        "The separator splits water into hydrogen and oxygen. Send oxygen through pressurized tube to the purification chamber; give the other product separate storage or deliberately dump its excess. A full hydrogen output can stop oxygen production.",
+        "One iron ore block gives three clumps, while one raw iron gives two. Each clump then becomes dirty dust in the crusher, clean dust in the enrichment chamber and an ingot in the furnace. Track every intermediate form and avoid mixing clean and dirty dust in an unfiltered input."
+      ]
+    },
+    "mek_ore/injection": {
+      "text": [
+        "Химическая инъекция ставится перед камерой очистки и превращает руду в осколки с помощью хлороводорода. Сохраните кислородную линию: осколки ещё должны пройти очистку, дробление, обогащение и плавку. Одной новой машины недостаточно для готового металла.",
+        "Получите рассол в испарительной установке, разделите его электролизом и соедините хлор с водородом в химическом инфузере. Химический инфузер принимает два химиката; это другая машина, чем металлургический инфузер с предметным входом. Разведите химические магистрали до сборки основной линии.",
+        "Из блока железной руды получается четыре осколка, из трёх единиц сырого железа — восемь. Если выпуск остановился, проверьте хлор, водород и место для побочных продуктов сепаратора. Повышайте скорость только после устойчивой подачи обоих газов и кислорода на следующую стадию."
+      ],
+      "text_en": [
+        "Chemical injection goes before purification and turns ore into shards using hydrogen chloride. Keep the oxygen line: shards still require purification, crushing, enrichment and smelting. One new machine alone does not produce finished metal.",
+        "Make brine in an evaporation plant, separate it by electrolysis and combine chlorine with hydrogen in a chemical infuser. The chemical infuser accepts two chemicals; it is a different machine from the metallurgic infuser with its item input. Arrange separate chemical lines before assembling the main chain.",
+        "One iron ore block yields four shards, while three raw iron yield eight. If production stops, inspect chlorine, hydrogen and separator byproduct space. Increase speed only after both gases and the oxygen required by the next stage arrive reliably."
+      ]
+    },
+    "mek_ore/evaporation": {
+      "text": [
+        "Термальная испарительная установка превращает воду в рассол, а отдельная такая же установка — рассол в жидкий литий. Оба рецепта в установленной версии имеют соотношение десять единиц входной жидкости к одной выходной. Жидкий литий позднее используется в другой топливной цепочке.",
+        "Постройте полую башню по схеме Mekanism с контроллером и клапанами; шестнадцать блоков из задания — запас деталей, а не полный комплект любой высоты. Воду подайте в настроенный входной клапан, рассол отведите из выходного механической трубой.",
+        "Работа зависит от температуры: предусмотрите подходящий нагрев и контролируйте показатели, прежде чем наращивать высоту. Если вход заполнен, а рассола нет, проверьте сборку, тепло и свободный выход. Испаритель не производит тяжёлую воду или серную кислоту; для них используются самостоятельные процессы."
+      ],
+      "text_en": [
+        "A thermal evaporation plant turns water into brine, while a separate plant of the same kind turns brine into liquid lithium. Both installed recipes use ten units of input fluid for one unit of output. Liquid lithium later feeds a different fuel chain.",
+        "Build the hollow tower according to Mekanism’s structure layout, including its controller and valves; the sixteen blocks requested here are a component stock, not a complete structure of every height. Supply water through an input valve and remove brine through an output valve using mechanical pipe.",
+        "Operation depends on temperature: provide suitable heating and watch the readings before increasing height. If water is present but brine is absent, check formation, heat and output space. The plant does not produce heavy water or sulfuric acid; those have their own processes."
+      ]
+    },
+    "mek_ore/dissolution": {
+      "text": [
+        "Растворение добавляет перед рудной линией химическую суспензию. Нужны серная кислота, вода для промывки и отдельные трубы под давлением для грязной и чистой суспензии. Серную цепочку выстраивают через диоксид серы, триоксид серы и водяной пар; не подменяйте её рассолом.",
+        "Камера растворения получает из блока железной руды тысячу единиц грязной суспензии, а из трёх сырых железных единиц — две тысячи. Промыватель расходует воду и выдаёт чистую суспензию; кристаллизатор превращает каждые двести единиц в один кристалл.",
+        "Кристаллы ещё проходят инъекцию хлороводородом, очистку кислородом, дробление, обогащение и плавку. Итог — пять слитков на рудный блок или десять на три сырых железа. Не смешивайте металлы в общей незавершённой партии: остаток одного вида суспензии способен заблокировать следующий."
+      ],
+      "text_en": [
+        "Dissolution introduces chemical slurry before the existing ore chain. You need sulfuric acid, washing water and separate pressurized tubes for dirty and clean slurry. Build the sulfur chain through sulfur dioxide, sulfur trioxide and water vapour; brine is not a substitute.",
+        "The dissolution chamber produces one thousand units of dirty iron slurry from an iron ore block, or two thousand from three raw iron. The washer consumes water to make clean slurry; the crystallizer turns each two hundred units into one crystal.",
+        "Crystals still pass through hydrogen chloride injection, oxygen purification, crushing, enrichment and smelting. The result is five ingots per ore block or ten per three raw iron. Avoid mixing metals in an unfinished shared batch: residual slurry of one type can block the next."
+      ]
+    },
+    "mek_ore/factory": {
+      "text": [
+        "Фабрика выполняет несколько одинаковых операций параллельно. Базовая имеет три рабочих дорожки, продвинутая — пять, элитная — семь, предельная — девять. Это увеличение числа одновременных операций, а не гарантированное удвоение скорости каждой следующей ступенью.",
+        "Начните с базовой плавильной фабрики и установщика базового уровня. Установщик применяется к совместимой уже поставленной машине; перед использованием проверьте требуемую ступень, остановите вход и запомните настройки. Для другой операции нужна фабрика соответствующего типа.",
+        "После модернизации подайте достаточную партию пыли и включите распределение предметов между дорожками, если оно нужно вашему режиму. Одна занятая дорожка при пустых остальных может означать настройку сортировки или недостаток сырья. Также измерьте энергоснабжение: дополнительные дорожки бесполезны, если общая сеть постоянно разряжена."
+      ],
+      "text_en": [
+        "A factory performs several operations of the same kind in parallel. Basic factories have three processing lanes, advanced five, elite seven and ultimate nine. This increases simultaneous operations rather than guaranteeing that every tier doubles each lane’s speed.",
+        "Start with a basic smelting factory and basic tier installer. An installer upgrades a compatible placed machine; check the required tier, stop its input and note its settings before use. A different operation requires the corresponding factory type.",
+        "After upgrading, supply enough dust and enable item distribution between lanes if your workflow needs it. One busy lane beside empty ones may indicate sorting settings or insufficient input. Also check power delivery: extra lanes are useless when the shared network is constantly empty."
+      ]
+    },
+    "mek_ore/miner": {
+      "text": [
+        "Цифровой шахтёр добывает блоки по фильтру внутри заданной области. Подготовьте стабильную энергию, сундук для результата и понятный фильтр на нужную руду. Перед запуском выставьте радиус и диапазон высот: удобнее проверить небольшой участок, чем сразу охватить окрестности базы.",
+        "Запустите поиск и посмотрите количество найденных блоков до начала добычи. Режим обратного фильтра меняет смысл списка, поэтому не включайте его без понимания результата. Шёлковое касание сохраняет рудные блоки и влияет на расход энергии; это полезно для сравнения рецептов переработки.",
+        "Улучшение генерации камня помогает замещать добытые блоки при соответствующей настройке, но не задаёт безопасный фильтр за вас. Проверьте несколько первых находок и остановку при полном выходе. Не размещайте рабочую область поверх чужих построек или скрытых коммуникаций, полагаясь только на название фильтра."
+      ],
+      "text_en": [
+        "The digital miner extracts blocks matching a filter within a configured area. Prepare stable power, output storage and a clear filter for the desired ore. Set radius and height range before starting; a small trial area is easier to verify than the entire neighbourhood.",
+        "Run the search and inspect the number of matching blocks before mining. Inverse filtering changes the list’s meaning, so do not enable it without understanding the result. Silk Touch preserves ore blocks and affects energy cost, making it useful when comparing processing recipes.",
+        "The stone generator upgrade helps replace mined blocks with the appropriate settings, but does not choose a safe filter for you. Check the first few extracted items and behaviour with a full output. Avoid placing the work area over other players’ structures or hidden utilities while trusting a filter name alone."
+      ]
+    },
+    "mek_ore/upgrades": {
+      "text": [
+        "Улучшения меняют работу совместимых машин, но сначала полезно понять исходное ограничение. Если инфузер ожидает железо или кислород, ускорение не создаст недостающий ресурс. Подготовьте по одному улучшению скорости, энергоэффективности и якоря, как требует задача.",
+        "Установите скорость в загруженную машину и наблюдайте расход энергии. Добавьте улучшение энергии и сравните поведение с тем же рецептом. Не путайте размер внутреннего буфера, мощность передачи кабеля и среднюю генерацию: каждое из этих ограничений проявляется отдельно.",
+        "Якорь удерживает работу поддерживаемого устройства при выгрузке области и зависит от разрешений сервера. Это не универсальное улучшение любой машины и не замена проверке загрузки всей цепочки. Начните с экономии энергии, когда сеть проседает; ускоряйте только тот этап, перед которым действительно копится сырьё."
+      ],
+      "text_en": [
+        "Upgrades change compatible machines, but first identify the actual bottleneck. Speed cannot create iron or oxygen that an infuser is waiting for. Prepare one speed, one energy and one anchor upgrade as requested.",
+        "Install speed in a busy machine and watch its energy consumption. Add an energy upgrade and compare the same recipe. Do not confuse internal buffer capacity, cable transfer rate and average generation: each can impose a separate limit.",
+        "An anchor keeps a supported device operating when its area would otherwise unload, subject to server permissions. It is not a universal upgrade for every machine and does not replace checking the entire chain’s loading. Improve efficiency when the network sags; accelerate only the stage with material genuinely accumulating in front of it."
+      ]
+    },
+    "mek_ore/sawmill": {
+      "text": [
+        "Точная пилорама, электрическая печь и формульный сборщик решают разные бытовые задачи мастерской. Пилорама перерабатывает древесину и даёт опилки по подходящим рецептам; печь плавит за электричество; сборщик повторяет заранее записанный рецепт крафта.",
+        "Подключите устройства к сети и испытайте по одному понятному входу: бревно для пилорамы, металлическую пыль для печи. У пилорамы проверяйте место для основного и дополнительного выхода. Забитые опилки могут остановить полезный выпуск досок.",
+        "Для сборщика сначала подготовьте формулу изготовления, задайте нужный рецепт и подайте весь комплект ингредиентов. Случайная смесь ресурсов без формулы не превращает его в автоматический верстак. Эти машины особенно полезны для повторяющихся корпусов и строительных деталей, когда основные схемы и металлы уже поступают устойчиво."
+      ],
+      "text_en": [
+        "The precision sawmill, energized smelter and formulaic assemblicator solve different workshop jobs. The sawmill processes wood and produces sawdust in suitable recipes; the smelter uses electricity for smelting; the assemblicator repeats a recorded crafting recipe.",
+        "Connect the machines and test one clear input each: a log for the sawmill and metal dust for the smelter. Check space for both the sawmill’s primary and secondary outputs. A sawdust backlog can stop useful plank production.",
+        "For the assemblicator, prepare a crafting formula, record the intended recipe and supply every required ingredient. A random mixture of resources without a formula does not make it an automatic crafting table. These devices are particularly useful for repeated casings and construction parts once circuits and metals arrive reliably."
+      ]
+    },
+    "mek_ore/ore_line_setup": {
+      "text": [
+        "Небольшой участок обогащения состоит из камеры и электрической печи. Подготовьте входной сундук, приёмник слитков и питание обеих машин; пока достаточно короткой линии без фабрик и улучшений. Оставьте возможность открыть каждый интерфейс и увидеть промежуточную пыль.",
+        "Назначьте камере предметный вход со стороны сундука и выход к печи. У печи разрешите ввод с этой стороны и вывод готовых слитков. Включите автоматическую выгрузку там, где именно машина должна толкать предметы; для пассивного сундука потребуется извлечение.",
+        "Прежде чем подавать целую стопку, выберите фактический рецепт: блок руды даёт две пыли, три сырых железа — четыре. Наличие двух машин завершает только подготовку оборудования. Следующая партия проверит выпуск, а ручное испытание покажет, сохраняются ли материалы при заполнении конечного сундука."
+      ],
+      "text_en": [
+        "A small enrichment line consists of a chamber and an energized smelter. Prepare an input chest, ingot destination and power for both machines; a short line without factories or upgrades is enough for now. Keep every interface accessible so you can see intermediate dust.",
+        "Set the chamber’s item input towards the chest and its output towards the smelter. Allow input on the matching smelter side and configure its ingot output. Enable automatic ejection where a machine must push items; passive chests need extraction.",
+        "Before feeding a stack, choose the actual recipe: an ore block gives two dust, while three raw iron give four. Possessing the two machines completes equipment preparation only. The next batch checks production; the manual trial tests whether materials remain safe when the final chest fills."
+      ]
+    },
+    "mek_ore/ore_line_batch": {
+      "text": [
+        "Для пробной партии приготовьте двенадцать единиц сырого железа: обогащение даст шестнадцать пылей и после плавки шестнадцать слитков. Альтернативно подойдут восемь блоков железной руды, сохранённых шёлковым касанием. Не смешивайте эти способы в одном подсчёте.",
+        "Освободите камеру, печь и выходной сундук от старых остатков. Запустите выбранную партию и проследите путь пыли до плавки. Если камера оставила одну или две сырые единицы, ей не хватает полного комплекта из трёх для следующего рецепта.",
+        "Соберите шестнадцать железных слитков в обычный инвентарь. Кодекс проверяет наличие и не забирает металл; происхождение слитков автоматически не устанавливается. Запишите выбранный вход для следующей ручной проверки, иначе случайные старые слитки в сундуке исказят измеренный выход линии."
+      ],
+      "text_en": [
+        "Prepare twelve raw iron for this trial: enrichment produces sixteen dust, then smelting produces sixteen ingots. Alternatively, use eight iron ore blocks preserved with Silk Touch. Do not mix these input methods in one yield calculation.",
+        "Clear old leftovers from the chamber, smelter and output chest. Run the chosen batch and follow dust through smelting. If one or two raw iron remain in the chamber, it lacks the complete group of three required for another recipe.",
+        "Collect sixteen iron ingots in your ordinary inventory. Codex checks possession without taking the metal, and does not automatically establish where it came from. Record your selected input for the following manual check, otherwise old ingots accidentally left in storage will distort the measured line yield."
+      ]
+    },
+    "mek_ore/ore_line_run": {
+      "text": [
+        "Это испытание проверяет учёт материала и поведение заполненной линии. Сначала очистите тестовый участок от остатков предыдущих партий, отсчитайте входное сырьё и посчитайте полученные слитки. Сравнивайте с рецептом именно сырого железа или рудных блоков, а не с общим названием главы.",
+        "Затем заполните конечный сундук недорогими предметами, чтобы слиткам некуда было выгружаться. Подайте небольшую новую партию и убедитесь, что пыль остаётся в машинах или транспортной системе, а обработка останавливается без потери промежуточного материала.",
+        "Освободите сундук и дождитесь продолжения работы. Ручную цель отмечайте только после подсчёта выхода и проверки сохранности пыли при заполненном приёмнике. Это наблюдение в мире, а не автоматическое измерение Кодекса; при несовпадении результата найдите неправильную сторону или посторонний маршрут и повторите тест."
+      ],
+      "text_en": [
+        "This trial checks material accounting and a backed-up line. First clear leftovers from earlier batches, count the input and count the resulting ingots. Compare against the recipe for the actual raw iron or ore blocks, rather than the chapter’s general multiplier.",
+        "Then fill the final chest with inexpensive items so ingots cannot leave. Feed a small new batch and confirm that dust remains in machines or the transport system, with processing stopping without losing intermediate material.",
+        "Clear the chest and wait for operation to resume. Mark the manual objective only after checking output counts and retained dust with a full destination. This is an in-world observation, not an automatic Codex measurement; if results disagree, find the incorrect side or unintended route and repeat the test."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: сверить вход и выход партии; заполнить конечный сундук и убедиться, что промежуточная пыль сохраняется.",
+          "en": "Manual: compare batch inputs and outputs; fill the destination chest and verify that intermediate dust is retained."
+        }
+      }
+    },
+    "mek_power/heat_gen": {
+      "text": [
+        "Тепловая установка — ранний источник электричества для инфузера. Она поддерживает активное сжигание топлива и пассивное получение энергии от окружающего тепла. Для первого запуска достаточно изготовить генератор, поставить его рядом с будущей мастерской и подготовить топливо.",
+        "Соедините выход генератора универсальным кабелем с машиной либо энергетическим кубом. Сначала проверьте рост запаса без нагрузки, затем включите один рецепт. При пассивной схеме учитывайте расположение лавы и защитите проход: открытый горячий блок опасен для игрока и выпавших предметов.",
+        "Не рассчитывайте на этот источник для большой фабрики только потому, что кабель подключён. Если инфузер работает рывками, сравните потребление с текущей генерацией и дайте буферу зарядиться. Позже тепловая установка останется полезной как небольшой независимый источник запуска."
+      ],
+      "text_en": [
+        "The heat generator is an early electricity source for an infuser. It supports active fuel burning and passive generation from surrounding heat. For the first start, craft it, place it near the future workshop and prepare fuel.",
+        "Connect its output to a machine or energy cube with universal cable. First check that storage rises without a load, then run one recipe. For a passive arrangement, consider lava placement and protect the walkway: exposed hot blocks threaten players and dropped items.",
+        "Do not expect this source to power a large factory merely because a cable connects. If the infuser works in bursts, compare demand with current generation and allow the buffer to charge. Later, the heat generator remains useful as a small independent startup source."
+      ]
+    },
+    "mek_power/solar": {
+      "text": [
+        "Солнечные генераторы обеспечивают питание при подходящем освещении неба. Для задания изготовьте обычный и продвинутый варианты, но не расходуйте весь запас деталей до подготовки аккумулятора: ночью непрерывная производственная линия останется без солнечной подпитки.",
+        "Поставьте панели на открытой площадке и подключите энергетический куб. У продвинутой конструкции предусмотрите место для развёрнутой панели, не застраивая её сверху. Откройте интерфейс днём и проверьте фактическую генерацию в своём биоме и погоде.",
+        "Сравните дневное накопление с расходом мастерской за ночь. Если запас кончается, помогут меньшая ночная нагрузка, дополнительное хранение при достаточном дневном избытке или независимый источник энергии. Само наличие продвинутой панели не гарантирует круглосуточное питание и не отменяет проверки сторон кабеля."
+      ],
+      "text_en": [
+        "Solar generators supply power when sky lighting permits. Craft both the normal and advanced versions for this objective, but prepare storage before spending all your parts: a continuous production line loses its solar input at night.",
+        "Place the panels in an open area and connect an energy cube. Leave room for the advanced generator’s extended panel and avoid building over it. Open the interface during daytime and inspect actual generation in your biome and weather.",
+        "Compare daytime accumulation with the workshop’s overnight consumption. If reserves run out, reduce night demand, add storage when there is sufficient daytime surplus, or provide an independent source. Owning an advanced panel does not guarantee continuous power and does not remove the need to check cable sides."
+      ]
+    },
+    "mek_power/wind": {
+      "text": [
+        "Ветрогенератор даёт пассивную энергию и удобен для удалённой мастерской. Его выработка связана с высотой установки в пределах настроек мира, поэтому выбирайте место осмысленно: доступная башня с безопасным обслуживанием часто удобнее далёкой вершины без дороги.",
+        "Подготовьте площадку, установите генератор с пространством для конструкции и проведите кабель к аккумулятору. До подключения машин проверьте, что энергия действительно поступает в хранилище. Высокая мачта без подключённого выхода остаётся лишь дорогим ориентиром.",
+        "Сравните показания на выбранной высоте с нагрузкой базы, не обещая себе фиксированную мощность по чужому руководству. При расширении проверьте пропускную способность общей линии и запас на пиковые рецепты. Ветер полезен как постоянная основа питания, но ускоренные химические машины могут потребовать намного больше."
+      ],
+      "text_en": [
+        "The wind generator provides passive power and suits an outlying workshop. Its output depends on installation height within the world’s configured limits, so choose deliberately: an accessible service tower can be more practical than a distant peak without a route.",
+        "Prepare a platform, place the generator with room for its structure and run cable to storage. Before connecting machines, confirm that energy actually enters the battery. A tall tower without a working output is only an expensive landmark.",
+        "Compare the reading at your chosen height with base demand instead of assuming a fixed output from another guide. When expanding, check the shared cable’s throughput and reserves for demanding recipes. Wind is useful as a steady power foundation, but accelerated chemical machinery may require substantially more."
+      ]
+    },
+    "mek_power/bio": {
+      "text": [
+        "Биогенератор превращает биотопливо Mekanism в электричество. Биотопливо получают дроблением подходящих растений и сельскохозяйственных продуктов; точный выход различается, поэтому для опыта выберите урожай, который уже можете регулярно выращивать.",
+        "Изготовьте генератор, подготовьте дробилку и переработайте небольшую партию. Подайте полученное биотопливо в предметный вход генератора, а энергию выведите в куб. Дробилке самой нужно питание: оставьте запас для запуска вместо полностью разряженной замкнутой системы.",
+        "Понаблюдайте, хватает ли урожая на непрерывную работу и остаётся ли свободное место в выходе дробилки. Не отправляйте туда последние семена, необходимые для восстановления фермы. Освоенная линия биотоплива затем пригодится реакционной камере для этилена, поэтому её полезно отделить от основного продовольственного склада."
+      ],
+      "text_en": [
+        "The bio-generator turns Mekanism bio fuel into electricity. Bio fuel comes from crushing suitable plants and crops; yields vary, so choose a crop you can already grow consistently for the trial.",
+        "Craft the generator, prepare a crusher and process a small batch. Feed the resulting bio fuel into the generator’s item input and send energy to a cube. The crusher also needs power: retain a startup reserve rather than leaving a closed system completely discharged.",
+        "Watch whether crop production sustains operation and whether the crusher output remains clear. Do not consume the last seeds needed to replant the farm. This bio fuel line later supplies a pressurized reaction chamber for ethene, so keeping it separate from food storage is worthwhile."
+      ]
+    },
+    "mek_power/gas_gen": {
+      "text": [
+        "Газовый генератор может использовать этилен из реакционной камеры под давлением. Подготовьте биотопливо из дробилки, воду и водород из электролитического сепаратора. Камере одновременно нужны предметный вход, жидкость, химикат и собственное электричество.",
+        "Установленный рецепт расходует две единицы биотоплива, десять единиц воды и сто водорода, выдавая один субстрат и сто этилена. Субстрат здесь побочный выход, а не стартовый ингредиент. Выведите его в отдельный сундук, этилен — по трубе под давлением к генератору.",
+        "До перехода на собственное питание накопите резерв энергии для дробилки, сепаратора и камеры. При остановке проверьте все три входа и оба выхода, включая ненужный кислород сепаратора. Рост генерации бессмысленен, пока камера заблокирована полным сундуком субстрата или нехваткой водорода."
+      ],
+      "text_en": [
+        "The gas-burning generator can use ethene made in a pressurized reaction chamber. Prepare crusher-produced bio fuel, water and hydrogen from an electrolytic separator. The chamber simultaneously needs an item input, fluid, chemical and its own electricity.",
+        "The installed recipe consumes two bio fuel, ten units of water and one hundred hydrogen, producing one substrate and one hundred ethene. Substrate is a byproduct here, not a starting ingredient. Send it to a separate chest and ethene through pressurized tube to the generator.",
+        "Build an energy reserve for the crusher, separator and chamber before relying on the system’s own output. If it stops, inspect all three inputs and both outputs, including unwanted separator oxygen. More generating capacity is pointless while a full substrate chest or insufficient hydrogen blocks the chamber."
+      ]
+    },
+    "mek_power/boiler": {
+      "text": [
+        "Термальный котёл переносит тепло в воду и выпускает пар; электричество из этого пара получает отдельная турбина. Подготовьте оболочку, клапаны, нагревательные элементы и распределители давления по схеме структуры. Два клапана и шестнадцать корпусов задания не составляют весь котёл.",
+        "Соберите водяную часть с перегревающими элементами, отделите паровую область слоем распределителей и убедитесь, что структура распознана. Подведите воду и подходящий источник тепла; при натриевом охлаждении реактора дополнительно разделяйте нагретый и охлаждённый теплоноситель по своим соединениям.",
+        "Сначала испытайте небольшой безопасный поток тепла и свободный отвод пара. Потеря воды или остановка потребителя меняет тепловой баланс всей связанной установки. Котёл следует оценивать вместе с насосами, турбиной и возвратом воды, а не по числу изготовленных блоков корпуса."
+      ],
+      "text_en": [
+        "The thermoelectric boiler transfers heat into water and produces steam; a separate turbine turns that steam into electricity. Prepare casings, valves, superheating elements and pressure dispersers according to the structure layout. The objective’s two valves and sixteen casings are not a complete boiler.",
+        "Build the water section with superheating elements, separate the steam area with the disperser layer and confirm that the structure forms. Supply water and a suitable heat source; when cooling a reactor with sodium, route heated and cooled coolant through their own connections as well.",
+        "Begin with a small safe heat flow and unrestricted steam removal. Losing water or stopping the consumer changes the entire connected system’s heat balance. Assess the boiler together with pumps, turbine and water return, rather than by the number of crafted casing blocks."
+      ]
+    },
+    "mek_power/turbine": {
+      "text": [
+        "Промышленная турбина принимает пар и преобразует его поток в энергию. Для настоящей установки нужны не только детали задания: подготовьте клапаны, вентиляционные блоки, распределители давления, комплекс вращения и электромагнитные катушки по схеме Mekanism Generators.",
+        "Внутри оболочки соберите центральный ротор с лопастями; верхняя часть связывает вращение с катушками, а конденсаторы возвращают воду. Размещайте детали по слоям схемы и проверяйте распознавание структуры до подачи пара. Четыре ротора сами по себе не определяют мощность.",
+        "Подключите пар, энергетический выход и возврат воды. Наблюдайте фактический поток, запас энергии и накопление пара: заполненное хранилище или недостаточный отвод способны ограничить работу. При связке с реактором проверяйте остановку потребления заранее на холодной системе и обеспечьте аварийное прекращение нагрева."
+      ],
+      "text_en": [
+        "The industrial turbine accepts steam and converts its flow into energy. A real installation requires more than the listed parts: prepare valves, vents, pressure dispersers, a rotational complex and electromagnetic coils according to the Mekanism Generators layout.",
+        "Build the central rotor and blades inside the casing; the upper section couples rotation to coils, while condensers recover water. Follow the layered layout and confirm formation before supplying steam. Four rotor blocks alone do not establish generating capacity.",
+        "Connect steam, energy output and water return. Observe actual flow, stored energy and steam accumulation: full energy storage or inadequate removal can limit operation. In a reactor system, test loss of consumption beforehand while the system is cold and provide an emergency way to stop heat production."
+      ]
+    },
+    "mek_power/induction": {
+      "text": [
+        "Индукционная матрица — многоблочный аккумулятор для большой энергосистемы. Ячейки определяют ёмкость, провайдеры — допустимую скорость передачи. Поэтому много ячеек с одним слабым провайдером дают большой запас, который может разряжаться слишком медленно для вашей нагрузки.",
+        "Соберите оболочку с индукционными портами и поместите внутрь хотя бы ячейку и провайдер. Указанные шестнадцать корпусов — только стартовая партия; весь объём и границы стройте по правилам матрицы. После формирования настройте порт входа и отдельный выход.",
+        "Зарядите матрицу и подключите известную нагрузку, сравнивая показания в одной единице энергии. Если внутри большой запас, а машины голодают, проверяйте провайдеры, порты и кабели. Матрица не вырабатывает электричество и не делает реактор безопасным при остановке всех потребителей; она лишь даёт дополнительный запас времени."
+      ],
+      "text_en": [
+        "The induction matrix is a multiblock battery for a large power system. Cells determine storage capacity, while providers determine transfer rate. Many cells with one weak provider therefore create a large reserve that may discharge too slowly for your load.",
+        "Build the shell with induction ports and place at least a cell and provider inside. The requested sixteen casings are only a starting batch; build the complete boundary and volume according to matrix rules. Once formed, configure an input port and a separate output.",
+        "Charge the matrix and connect a known load, comparing readings in the same energy unit. If it holds plenty of energy while machines starve, check providers, ports and cables. The matrix does not generate electricity or make a reactor safe when every consumer stops; it only adds reserve time."
+      ]
+    },
+    "mek_nuclear/uranium": {
+      "text": [
+        "Урановая руда даёт сырьё для делящегося топлива, но сам урановый слиток ещё не готовое реакторное горючее. Добудьте руду, переплавьте часть сырья и подготовьте обогатительную камеру. Не связывайте опасность радиоактивных отходов с простым ношением обычных урановых слитков.",
+        "В обогатителе получите жёлтый кек из урановых слитков по его рецепту. Сначала покажите Кодексу восемь слитков одной партией, затем переработайте их и зарегистрируйте четыре единицы кека. Разные предметные цели запоминаются по очереди; возвращать слитки после их учёта не требуется. Кек пойдёт в химический окислитель.",
+        "Перед расширением запасите флюорит и подготовьте серную кислоту: топливной цепочке они понадобятся на отдельной стадии. Рабочий реактор пока не нужен. Такая подготовка позволяет отладить производство химикатов и транспорт до того, как в системе появятся действительно радиоактивные отходы."
+      ],
+      "text_en": [
+        "Uranium ore supplies fissile-fuel production, but a uranium ingot is not reactor fuel yet. Mine ore, smelt some of the material and prepare an enrichment chamber. Do not confuse radioactive-waste hazards with merely carrying ordinary uranium ingots.",
+        "Produce yellow cake from uranium ingots in the enrichment chamber using its recipe. First let the Codex record eight ingots in one batch, then process them and register four yellow cake. Different item objectives are remembered sequentially; recorded ingots need not be recovered afterward. The cake feeds a chemical oxidizer.",
+        "Before expanding, stock fluorite and prepare sulfuric acid: another stage of the fuel chain needs them. No operating reactor is required yet. This preparation lets you debug chemical production and transport before genuinely radioactive waste enters the system."
+      ]
+    },
+    "mek_nuclear/hazmat": {
+      "text": [
+        "Защита от радиации требует полного комплекта подходящего снаряжения. Халат из задания — лишь одна часть костюма: дополнительно изготовьте маску, штаны и ботинки Hazmat и наденьте весь комплект до входа на участок. Обычная броня не заменяет радиационную защиту.",
+        "Счётчик Гейгера показывает окружающий радиационный фон, дозиметр — накопленное облучение игрока. Снимите исходные показания в чистом месте и научитесь различать эти два измерения. Защитный костюм не удаляет загрязнение мира и не отменяет уже полученную дозу.",
+        "Храните запасной комплект вне реакторного помещения. Если обнаружен выброс, прекратите приближение без защиты и остановите источник доступным безопасным способом. Наличие одного халата и приборов завершает предметную часть задания, но не подтверждает защищённость игрока: перед работой сверяйте все надетые части."
+      ],
+      "text_en": [
+        "Radiation protection requires a complete set of suitable equipment. The gown requested here is only one piece: also craft the Hazmat mask, pants and boots, and wear the entire set before entering the site. Ordinary armour does not replace radiation shielding.",
+        "A Geiger counter measures environmental radiation, while a dosimeter measures the player’s accumulated exposure. Take baseline readings in a clean area and learn to distinguish the two. A protective suit does not remove world contamination or erase a dose already received.",
+        "Keep a spare set outside the reactor room. If a release is detected, do not approach unprotected and stop the source by a safely available method. Owning one gown and the instruments completes the item portion, but does not establish protection: check every equipped piece before working."
+      ]
+    },
+    "mek_nuclear/fuel": {
+      "text": [
+        "Топливная сборка — внутренняя деталь реактора, а делящееся топливо поступает в него химикатом. Сначала подготовьте цепочку без запуска реактора: обогатитель делает жёлтый кек, химический окислитель превращает его в оксид урана. Отдельно растворите флюорит серной кислотой, получив плавиковую кислоту.",
+        "Химический инфузер соединяет оксид урана с плавиковой кислотой в гексафторид урана. Изотопная центрифуга превращает его в делящееся топливо. Проверяйте названия химикатов в резервуарах: одноимённая жидкая форма не проходит через химический вход без нужного преобразования.",
+        "Проложите отдельные линии и обеспечьте энергию каждому этапу. Собранные пять устройств из задания не означают готовую работающую цепь. До подачи топлива в реактор оставьте производство остановленным либо направьте результат в разрешённое хранилище; охлаждение и обращение с отходами готовят раньше первой реакции."
+      ],
+      "text_en": [
+        "A fuel assembly is an internal reactor component; fissile fuel itself enters as a chemical. Prepare the chain without starting the reactor: enrichment produces yellow cake, and the chemical oxidizer turns it into uranium oxide. Separately dissolve fluorite with sulfuric acid to obtain hydrofluoric acid.",
+        "The chemical infuser combines uranium oxide and hydrofluoric acid into uranium hexafluoride. The isotopic centrifuge converts that into fissile fuel. Check chemical names in the tanks: a similarly named fluid cannot use a chemical input without the required conversion.",
+        "Run separate lines and power every stage. Owning the five requested devices does not establish a working chain. Before feeding the reactor, keep production stopped or direct output to permitted storage; cooling and waste handling must be ready before the first reaction."
+      ]
+    },
+    "mek_nuclear/reactor": {
+      "text": [
+        "Реактор деления нагревает теплоноситель и производит радиоактивные отходы. Постройте оболочку по схеме, разместите топливные сборки с управляющими стержнями сверху и настройте порты топлива, охлаждения, нагретого выхода и отходов. Количество корпусов в задании не заменяет полный расчёт структуры.",
+        "До загрузки топлива заполните систему охлаждения, подготовьте приём пара и безопасную ёмкость отходов. Логический адаптер настройте для управления работой, а аварийную цепь проверьте на холодном реакторе: снятие разрешения обязано его остановить. Для мониторинга и управления могут потребоваться разные адаптеры.",
+        "Запускайте с малой скоростью горения и наблюдайте температуру, повреждение, теплоноситель и отходы. Если любой поток перестал справляться, немедленно остановите реакцию. Перегрев способен привести к разрушению и радиоактивному загрязнению; не разбирайте горячий или заполненный радиоактивными химикатами реактор ради исправления трубы."
+      ],
+      "text_en": [
+        "A fission reactor heats coolant and produces radioactive waste. Build the shell from its layout, place fuel assemblies with control rods above them and configure ports for fuel, coolant, heated output and waste. The requested casing count does not replace a complete structure plan.",
+        "Before loading fuel, fill the cooling system and prepare steam reception and safe waste capacity. Configure a logic adapter to control operation, then test the emergency circuit on the cold reactor: withdrawing permission must stop it. Monitoring and control may need separate adapters.",
+        "Start at a low burn rate and watch temperature, damage, coolant and waste. Stop the reaction immediately if any flow cannot keep up. Overheating can cause destruction and radioactive contamination; do not dismantle a hot reactor or one containing radioactive chemicals just to fix a pipe."
+      ]
+    },
+    "mek_nuclear/waste": {
+      "text": [
+        "Отходы реактора требуют отдельной химической линии и запаса свободного объёма. Радиоактивная бочка принимает допустимые отходы и постепенно уменьшает их запас; заполненная бочка не становится бездонной. Переполнение прежде всего блокирует отвод, поэтому контролируйте всю цепочку до реактора.",
+        "Ядерные отходы превращаются в полоний в солнечном нейтронном активаторе либо в плутоний в изотопной центрифуге. Реакционная камера получает из соответствующего химиката, воды и флюоритовой пыли гранулу, оставляя отработанные ядерные отходы. Этот дополнительный выход также нельзя игнорировать.",
+        "Активатор зависит от солнечных условий, поэтому нужен запас на паузу производства. Не ломайте заполненные радиоактивные трубы и резервуары: это может вызвать выброс. Полный защитный костюм нужен обслуживающему игроку, но не делает выброс допустимым. Гранулы в инвентаре подтверждают продукт, а не безопасность хранения отходов."
+      ],
+      "text_en": [
+        "Reactor waste needs a separate chemical line and spare storage capacity. A radioactive waste barrel accepts supported waste and gradually reduces its contents; a full barrel is not bottomless. Filling it chiefly blocks removal, so monitor the entire path back to the reactor.",
+        "Nuclear waste becomes polonium in a solar neutron activator or plutonium in an isotopic centrifuge. A pressurized reaction chamber combines the corresponding chemical, water and fluorite dust into a pellet, leaving spent nuclear waste. That additional output also needs attention.",
+        "The activator depends on solar conditions, so provide capacity for production pauses. Do not break filled radioactive tubes or containers, as this can release radiation. A complete protective suit protects the operator but does not make a release acceptable. Inventory pellets confirm a product, not safe waste storage."
+      ]
+    },
+    "mek_nuclear/fusion": {
+      "text": [
+        "Термоядерному реактору нужны дейтерий и тритий, а не делящееся урановое топливо. Тяжёлую воду получают электрическим насосом с фильтрующим улучшением и разделяют электролизом на дейтерий и кислород. Рассол выпаривают в литий, переводят в химическую форму и обрабатывают солнечным нейтронным активатором для трития.",
+        "Подготовьте обе непрерывные линии и запас трития на ночь. Соберите реактор по схеме с портами и лазерной фокусирующей матрицей. Заполните хольраум D-T-топливом, вставьте его в контроллер и подготовьте лазерный импульс достаточной энергии по показаниям установки.",
+        "До импульса оградите луч и проверьте выход энергии либо водяное охлаждение с отводом пара для выбранного режима. Устанавливайте подачу топлива в пределах подтверждённого снабжения. Первая вспышка не означает устойчивой работы: наблюдайте температуру и оба топлива после расходования стартового хольраума."
+      ],
+      "text_en": [
+        "Fusion requires deuterium and tritium rather than uranium-based fissile fuel. An electric pump with a filter upgrade produces heavy water, which electrolysis separates into deuterium and oxygen. Evaporate brine into lithium, convert it to chemical form and use a solar neutron activator to produce tritium.",
+        "Prepare both continuous supply lines and enough tritium for nighttime. Build the reactor according to its layout with ports and a laser focus matrix. Fill a hohlraum with D-T fuel, insert it into the controller and prepare a laser pulse with sufficient stored energy as indicated by the installation.",
+        "Before firing, enclose the beam and verify energy removal or water cooling with steam output for your chosen mode. Keep fuel injection within proven supply. Initial ignition does not establish sustained operation: watch temperature and both fuels after the starting hohlraum is spent."
+      ]
+    },
+    "mek_nuclear/sps": {
+      "text": [
+        "Сверхкритический сдвигатель фаз перерабатывает полоний в антиматерию с большим расходом энергии. Приступайте после устойчивого производства полония и мощного источника питания: это отдельная нагрузка, которую не стоит подключать к аварийному запасу реакторного охлаждения.",
+        "Соберите предусмотренную схемой оболочку SPS, порты и сверхзаряженные катушки. Партия корпусов из задания не является полной структурой. Подайте полоний по выделенной химической линии и энергию через подготовленные катушки, наблюдая внутренний прогресс и наличие свободного выхода.",
+        "Антиматерию можно кристаллизовать: тысяча единиц даёт одну гранулу в установленном рецепте. Антипротонный нуклеосинтезатор использует антиматерию в конкретных рецептах преобразования предметов; он не создаёт произвольный выбранный предмет. Не разбирайте вход с остатками радиоактивного полония и не считайте полученную гранулу свидетельством безопасного остановленного SPS."
+      ],
+      "text_en": [
+        "The supercritical phase shifter processes polonium into antimatter at a large energy cost. Begin after establishing reliable polonium production and powerful generation: this separate load should not share the emergency reserve needed for reactor cooling.",
+        "Build the specified SPS shell, ports and supercharged coils. The requested casing batch is not a complete structure. Supply polonium through a dedicated chemical line and energy through the prepared coils, watching internal progress and output space.",
+        "Antimatter can be crystallized: one thousand units produce one pellet in the installed recipe. The antiprotonic nucleosynthesizer uses antimatter in specific item-conversion recipes; it does not create an arbitrary chosen item. Do not dismantle an input containing radioactive polonium, and do not treat possession of a pellet as proof that the SPS is safely stopped."
+      ]
+    },
+    "mek_qio/teleport_core": {
+      "text": [
+        "Телепортационное ядро входит в рецепты устройств, работающих с расстоянием. Это деталь, а не переносной телепорт: применение самого ядра не перемещает игрока. Подготовьте требуемые схемы, сплавы и остальные ингредиенты по рецепту, прежде чем расходовать редкие запасы.",
+        "Изготовьте четыре ядра и дайте цели зарегистрировать их в инвентаре. Затем выберите первое применение: стационарный телепорт для посещаемой точки или устройства беспроводной инфраструктуры. Полный маршрут обычно требует нескольких готовых блоков и отдельного питания.",
+        "Продумайте место назначения заранее: безопасная площадка, доступ к энергии и понятное название частоты важнее лишнего ядра в сундуке. Не оставляйте удалённый телепорт единственным способом возвращения до успешного двустороннего испытания. Освоенные ядра открывают дальнейшую квантовую ветку, но сами не обеспечивают связь."
+      ],
+      "text_en": [
+        "The teleportation core is an ingredient for devices that work across distance. It is a component, not a portable teleporter: using the core itself does not move a player. Prepare the required circuits, alloys and other recipe ingredients before spending rare reserves.",
+        "Craft four cores and let the inventory objective register them. Then choose your first application: a stationary teleporter for a frequently visited location or wireless infrastructure devices. A complete route generally needs several finished blocks and its own power.",
+        "Plan the destination first: a safe platform, energy access and a clear frequency name matter more than another core in a chest. Do not make a remote teleporter your only return route before testing both directions. The cores unlock the quantum branch but establish no connection on their own."
+      ]
+    },
+    "mek_qio/teleporter": {
+      "text": [
+        "Стационарный телепорт создаёт точку перемещения после сборки рамки и настройки частоты. Переносной телепорт выбирает подходящую стационарную точку, но не заменяет её. Подготовьте рамочные блоки сверх предметов задания и зарядите переносное устройство.",
+        "Соберите портал по форме телепорта, подведите питание и задайте частоту с подходящим доступом. Для двух стационарных площадок согласуйте частоту и проверьте готовность каждой. В интерфейсе убедитесь, что устройство видит действительное место назначения, прежде чем уходить в другое измерение.",
+        "Первый переход выполните с запасным способом возвращения и свободной площадкой выхода. Не размещайте выход в лаве, тесной шахте или внутри работающей машины. При недоступности проверьте энергию, структуру, права частоты и загрузку точки; совпадающее имя без этих условий не гарантирует перемещение."
+      ],
+      "text_en": [
+        "A stationary teleporter creates a travel point once its frame is built and a frequency selected. A portable teleporter selects a suitable stationary destination but does not replace it. Prepare frame blocks in addition to the requested items and charge the portable device.",
+        "Build the required teleporter frame, supply power and choose a frequency with appropriate access. For two stationary sites, match the frequency and check readiness at each end. Confirm that the interface sees a valid destination before leaving for another dimension.",
+        "Make the first trip with a backup return method and a clear exit platform. Do not place an exit in lava, a cramped shaft or an operating machine. If unavailable, check power, structure, frequency permissions and destination loading; a matching name alone does not guarantee travel."
+      ]
+    },
+    "mek_qio/entangloporter": {
+      "text": [
+        "Квантовый связыватель передаёт поддерживаемые ресурсы между устройствами одной частоты. Для настоящего соединения нужны минимум два блока, хотя задача просит один. Сначала испытайте передачу обычных предметов или энергии на коротком расстоянии, где видны оба конца.",
+        "Выберите одинаковую частоту и настройте стороны для каждого ресурса отдельно. У источника разрешите ввод, у получателя — вывод и автоматическую выгрузку при необходимости. Запас частоты общий, поэтому независимым производствам с несовместимыми жидкостями лучше выделять отдельные частоты.",
+        "Проверяйте права доступа и загрузку обоих участков. Связыватель не является универсальным обходом ограничений радиоактивных химикатов: не планируйте вывоз реакторных отходов таким способом без подтверждения поддержки. Если энергия передаётся, а предметы нет, это ещё не поломка всей сети — чаще нужно исправить предметные стороны."
+      ],
+      "text_en": [
+        "The quantum entangloporter transfers supported resources between devices on one frequency. A real link needs at least two blocks, although this objective requests one. Start by testing ordinary items or energy over a short distance where both ends are visible.",
+        "Select the same frequency and configure sides separately for each resource. Allow input at the source and output at the destination, enabling automatic ejection where needed. Frequency storage is shared, so independent processes with incompatible fluids should use separate frequencies.",
+        "Check access rights and loading at both sites. An entangloporter is not a universal way around restrictions on radioactive chemicals: do not plan reactor-waste transport through it without confirmed support. If energy transfers but items do not, the entire network is not necessarily broken; item-side settings usually deserve inspection first."
+      ]
+    },
+    "mek_qio/qio_array": {
+      "text": [
+        "Массив дисков QIO содержит носители беспроводного предметного хранилища. Один установленный массив без диска не даёт полезной ёмкости, а диск без выбранной частоты не создаёт доступную сеть. Подготовьте базовый диск и массив, затем разместите их в обслуживаемой части базы.",
+        "Вставьте диск, создайте частоту хранения и задайте доступ. Для взаимодействия с предметами понадобится панель QIO из следующего узла. Первый тест проведите на небольшом количестве обычного булыжника, оставив ценные материалы в старом сундуке до проверки обратного извлечения.",
+        "Диски ограничены и общим числом предметов, и разнообразием типов. Поэтому множество разных повреждённых инструментов может занимать хранилище иначе, чем большие стопки камня. Проверяйте обе величины в интерфейсе перед расширением; новый уровень диска выбирайте под фактическую нехватку, а не только по названию."
+      ],
+      "text_en": [
+        "A QIO drive array holds the media for wireless item storage. An array without a drive provides no useful capacity, and a drive without a selected frequency does not create an accessible network. Prepare a base drive and array, then place them in a serviceable part of the base.",
+        "Insert the drive, create a storage frequency and set access. A QIO dashboard from the next node will provide item interaction. Run the first test with a small amount of ordinary cobblestone, leaving valuables in the old chest until retrieval works.",
+        "Drives limit both total item count and the number of different types. Many distinct damaged tools can therefore use storage differently from large stacks of stone. Inspect both values before expanding; choose a higher drive tier for the limit you actually reached rather than its name alone."
+      ]
+    },
+    "mek_qio/qio_dash": {
+      "text": [
+        "Панель QIO открывает содержимое выбранной частоты хранения. Стационарная панель удобна у рабочего места, переносная — в дороге. Обеим нужен существующий массив с диском и правильная частота; пустая сеть не появится от одного изготовления панели.",
+        "Выберите ту же частоту, что у массива, и положите несколько обычных предметов через интерфейс. Найдите их поиском и извлеките обратно. Переносную панель заранее зарядите и проверьте доступ, прежде чем убирать резервные инструменты в удалённое хранилище.",
+        "Если список пуст, сначала сравните частоту, владельца и права доступа, затем состояние массива. Не подтверждайте себе перенос всего склада, пока не проверено обратное получение вещей. После этого панель становится удобной точкой работы, а импортёры и экспортёры смогут связать QIO с производственными машинами."
+      ],
+      "text_en": [
+        "A QIO dashboard exposes the contents of a selected storage frequency. A stationary dashboard suits a workstation, while the portable version travels with you. Both need an existing drive array and the right frequency; crafting a dashboard alone creates no populated network.",
+        "Select the array’s frequency and insert a few ordinary items through the interface. Find them with search and retrieve them again. Charge the portable dashboard and test access before placing backup tools into remote storage.",
+        "If the list is empty, first compare frequency, ownership and permissions, then inspect the array. Do not consider the whole warehouse migrated until retrieval is proven. The dashboard then becomes a useful access point, while importers and exporters can connect QIO to production machines."
+      ]
+    },
+    "mek_qio/qio_io": {
+      "text": [
+        "Импортёр QIO забирает предметы из соседнего инвентаря в сеть, экспортёр выдаёт подходящие предметы обратно. Адаптер красного камня превращает наличие заданного запаса в сигнал для управления. Это удобная основа пополнения расходников без ручного поиска на панели.",
+        "Подключите все три устройства к нужной частоте. Сначала импортируйте небольшой тестовый сундук, затем задайте экспортёру один конкретный фильтр и направьте его в отдельный приёмник. Не включайте широкое извлечение рядом с сундуком, где лежат личные инструменты.",
+        "Настройте порог адаптера и проверьте изменение сигнала при добавлении и удалении материала. Для автоматического выпуска это позволяет остановить производство после накопления запаса. Избегайте пары импортёр–экспортёр, бесконечно гоняющей один предмет через тот же сундук: сначала определите одностороннее назначение каждого инвентаря."
+      ],
+      "text_en": [
+        "A QIO importer moves items from an adjacent inventory into the network; an exporter sends matching items back out. The redstone adapter converts a configured stock level into a control signal. Together they support automatic replenishment without repeated dashboard searches.",
+        "Connect all three devices to the intended frequency. First import a small test chest, then give the exporter one specific filter and a separate destination. Avoid broad extraction beside a chest containing personal tools.",
+        "Set the adapter threshold and verify its signal while adding and removing material. This can stop automatic production once enough stock exists. Avoid an importer–exporter pair that endlessly circulates the same item through one chest: define a one-way purpose for each inventory first."
+      ]
+    },
+    "mek_qio/stabilizer": {
+      "text": [
+        "Стабилизатор измерения удерживает выбранные чанки загруженными при наличии питания и разрешённой работе этой функции. Он нужен удалённым производствам, которые должны продолжаться без игрока. До установки убедитесь, что именно выгрузка мира останавливает линию, а не пустой аккумулятор или забитый выход.",
+        "Поставьте устройство, подайте энергию и выберите необходимые участки в интерфейсе. Учитывайте всю цепочку: генератор, насос, входное хранилище и получатель могут стоять в соседних чанках. Загруженная машина с выгруженным источником воды всё равно не работает устойчиво.",
+        "Проведите опыт с безопасным обычным производством, отойдите и сравните накопленный результат после возвращения. Не используйте радиоактивный реактор как первый тест. Отмечайте только действительно нужную область: дополнительная загрузка потребляет ресурсы сервера и не должна заменять компактное размещение связанных устройств."
+      ],
+      "text_en": [
+        "The dimensional stabilizer keeps selected chunks loaded while powered and while the feature is permitted. It serves remote production that must continue without a player present. Before installing one, confirm that unloading actually stops the line rather than an empty battery or blocked output.",
+        "Place and power the device, then select the required areas in its interface. Include the whole chain: generator, pump, input storage and destination may occupy neighbouring chunks. A loaded machine with an unloaded water source is still unreliable.",
+        "Test with safe ordinary production, leave the area and compare accumulated output after returning. Do not use a radioactive reactor as the first experiment. Select only the necessary area: extra loading consumes server resources and should not replace placing related devices compactly."
+      ]
+    },
+    "mek_gear/scuba": {
+      "text": [
+        "Маска акваланга работает вместе с кислородным баллоном, которого нет в списке целей: изготовьте и заправьте его отдельно. Реактивный ранец использует водород, а свободные бегуны — энергию. Все три устройства требуют подготовки своего ресурса, поэтому одного набора предметов недостаточно.",
+        "Кислород и водород удобно получить электролизом воды; используйте подходящие слоты заправки оборудования. Зарядите бегуны и проверьте включённые режимы. В сборке есть интеграция ранца с аксессуарами, но фактический слот и управление сверяйте в интерфейсе снаряжения.",
+        "Испытайте дыхание у берега и полёт невысоко над ровной землёй. Следите за запасом газа и имейте обычный выход из воды. Бегуны помогают с движением и падениями, однако не заменяют проверки оставшегося заряда перед прыжком с большой высоты."
+      ],
+      "text_en": [
+        "The scuba mask works with an oxygen tank that is not listed among the objectives; craft and fill it separately. The jetpack uses hydrogen, while free runners use energy. Each needs its own resource, so owning the equipment alone is insufficient.",
+        "Electrolysis of water conveniently supplies oxygen and hydrogen; use the appropriate equipment-filling slots. Charge the free runners and check enabled modes. The pack includes jetpack accessory integration, but verify the actual slot and controls in the equipment interface.",
+        "Test breathing beside the shore and flight just above level ground. Watch gas reserves and keep an ordinary route out of the water. Free runners help movement and falls, but checking remaining charge is still necessary before a large drop."
+      ]
+    },
+    "mek_gear/atomic_disassembler": {
+      "text": [
+        "Атомный дизассемблер объединяет несколько добывающих функций в одном электрическом инструменте. Подготовьте дорогие сплавы по рецепту и место зарядки; незаряженный предмет не показывает его рабочие возможности. Старую кирку разумно оставить резервом на первые выходы.",
+        "Зарядите инструмент, посмотрите доступные режимы и начните с обычной скорости на безопасном каменном участке. Переключение режима меняет характер работы и расход энергии. Управление сверяйте в настройках, а не по чужим клавишам из другой сборки.",
+        "Режимы массовой добычи испытывайте вдали от пола базы, кабелей и декоративных построек. Перед шахтой оцените запас энергии и место для выпавших блоков. Дизассемблер удобен как универсальный инструмент, но не заменяет специализированные возможности Meka-Tool с модулями и не гарантирует нужное зачарование добычи."
+      ],
+      "text_en": [
+        "The atomic disassembler combines several mining functions in one electric tool. Prepare the expensive alloys in its recipe and a charging location; an uncharged item does not demonstrate its capabilities. Keep an ordinary pickaxe as backup for the first outings.",
+        "Charge the tool, inspect its available modes and begin at normal speed on a safe stone patch. Changing mode alters behaviour and energy consumption. Check the pack’s control settings rather than assuming keys from someone else’s configuration.",
+        "Test bulk-mining modes away from base floors, cables and decorative structures. Before entering a mine, assess charge and room for dropped blocks. The disassembler is a convenient general tool, but does not replace a modular Meka-Tool’s specialised functions or guarantee a particular harvesting enchantment."
+      ]
+    },
+    "mek_gear/robit": {
+      "text": [
+        "Робит — переносной помощник с инвентарём и полезными рабочими интерфейсами. Для его размещения и возвращения домой нужна зарядная площадка, которую следует подготовить отдельно. Подведите к ней энергию и оставьте вокруг место для появления помощника.",
+        "Разместите Робита на площадке, откройте интерфейс и изучите доступные режимы следования и сбора предметов. Начните с одного брошенного булыжника, чтобы понять, куда попадает груз. Проверяйте заряд и настройки прежде, чем брать его в длительную шахтную вылазку.",
+        "Не считайте Робита автономной фабрикой: его плавка, хранение и другие функции имеют собственные ограничения интерфейса. Перед опасным переходом убедитесь, что знаете команду возвращения и где находится домашняя площадка. Помощник особенно удобен для переноски находок, когда путь домой уже защищён."
+      ],
+      "text_en": [
+        "Robit is a mobile assistant with storage and useful work interfaces. It needs a chargepad for placement and returning home, so prepare one separately. Supply the pad with power and leave space around it for the assistant to appear.",
+        "Place Robit on the pad, open its interface and inspect following and item-collection modes. Start with one dropped cobblestone to see where cargo goes. Check charge and settings before taking it on a long mining trip.",
+        "Do not treat Robit as an autonomous factory: smelting, storage and other functions have their own interface limits. Before a dangerous crossing, make sure you understand the return action and know where its home pad is. The assistant is particularly useful for carrying finds once the route home is protected."
+      ]
+    },
+    "mek_gear/mekasuit": {
+      "text": [
+        "MekaSuit — комплект электрической брони из четырёх частей. Его изготовление связано с поздними материалами Mekanism, включая полониевые компоненты по действующим рецептам. Подготовьте устойчивое производство материалов и зарядку, прежде чем расходовать запас на одну случайную часть.",
+        "Изготовьте шлем, нагрудник, штаны и ботинки; Кодекс может зарегистрировать разные части по очереди. Затем зарядите их и наденьте полный комплект. Проверьте внутренние запасы: сама броня уже использует энергию для защиты, а модули добавляют отдельные возможности. Установленную после регистрации деталь не требуется возвращать ради предметной цели.",
+        "Не приписывайте пустому комплекту полёт или полную радиационную защиту. Для них нужны соответствующие установленные модули и проверенные условия работы. Испытайте броню сначала в безопасной обстановке и сохраните обычный комплект; последующая станция модификации позволит развивать костюм под реальные задачи."
+      ],
+      "text_en": [
+        "MekaSuit is a four-piece set of electric armour. Crafting it requires late Mekanism materials, including polonium components in the current recipes. Establish dependable material production and charging before spending your reserve on a random single piece.",
+        "Craft the helmet, bodyarmor, pants and boots; the Codex can record different pieces sequentially. Then charge them and equip the complete set. Inspect internal reserves: the armor itself uses energy for protection, while modules add separate functions. A piece equipped after registration need not be returned for its item objective.",
+        "Do not assume an unmodified set provides flight or complete radiation protection. Those require the appropriate installed modules and verified operating conditions. Test the armour in a safe setting and retain an ordinary set; the following modification station lets you develop the suit around actual needs."
+      ]
+    },
+    "mek_gear/modification": {
+      "text": [
+        "Станция модификации устанавливает и извлекает модули из совместимого снаряжения. Базовый модуль — ингредиент функциональных модулей, поэтому четыре заготовки из задания сами по себе не увеличат заряд или скорость. Подготовьте питание станции и предмет, который хотите улучшить.",
+        "Сначала изготовьте один нужный функциональный модуль, откройте станцию и поместите совместимую часть костюма либо инструмент. Проверьте список допускаемых модулей и предел количества. Некоторые улучшения имеют несколько устанавливаемых единиц, а другие достаточно поставить один раз.",
+        "После установки откройте настройки самого снаряжения и убедитесь, что функция включена нужным образом. Сохраняйте снятые модули: извлечение позволяет менять назначение оборудования без нового комплекта брони. Не покупайте сразу всю линейку улучшений, пока не проверено, какие части их принимают и сколько энергии потребляет выбранный режим."
+      ],
+      "text_en": [
+        "The modification station installs and removes modules in compatible equipment. A module base is an ingredient for functional modules, so the four bases requested here do not increase capacity or speed by themselves. Prepare station power and the item you want to improve.",
+        "First craft one useful functional module, open the station and insert a compatible suit piece or tool. Check which modules it accepts and their quantity limits. Some upgrades allow several installed units, while others only need one.",
+        "After installation, open the equipment’s own settings and confirm that the feature is enabled appropriately. Keep removed modules: extraction lets you change equipment roles without crafting a new armour set. Avoid making every upgrade before checking compatibility and the energy demand of the chosen operating mode."
+      ]
+    },
+    "mek_gear/modules_core": {
+      "text": [
+        "Энергетический модуль увеличивает доступный запас энергии совместимого снаряжения; он не создаёт заряд из ничего. Электролитическое дыхание и очистка вдыхаемого воздуха выполняют отдельные функции шлема. Сначала подготовьте зарядную систему, чтобы новые возможности можно было действительно испытать.",
+        "Установите модули через станцию в допустимые части костюма. Для дыхания проверьте настройки шлема и запас энергии, затем войдите в неглубокую воду рядом с выходом. Очистка воздуха имеет свои поддерживаемые эффекты и не является универсальной защитой от любой опасности мира.",
+        "Наблюдайте расход при включённых функциях и выключайте ненужное перед дальней дорогой. Дополнительная ёмкость помогает пережить вылазку, но увеличивает объём последующей зарядки. Не путайте эти модули с радиационным экранированием: для ядерного участка нужна соответствующая защита всех частей, а не только улучшенное дыхание."
+      ],
+      "text_en": [
+        "The energy unit increases compatible equipment’s energy reserve; it does not create charge. Electrolytic breathing and inhalation purification perform separate helmet functions. Prepare a charging system first so you can actually test the new capabilities.",
+        "Install the modules into permitted suit pieces through the station. For breathing, check helmet settings and energy reserve, then enter shallow water beside an exit. Inhalation purification handles its supported effects and is not universal protection against every hazard.",
+        "Observe consumption with the features enabled and disable unnecessary ones before travelling far. Extra capacity helps an expedition but also means more energy is needed to recharge later. Do not confuse these modules with radiation shielding: a nuclear site requires appropriate protection across all pieces, not simply improved breathing."
+      ]
+    },
+    "mek_gear/modules_move": {
+      "text": [
+        "Модули движения меняют управление костюмом и заметно влияют на расход энергии. Гравитационный модулятор даёт управляемый полёт и требует поздних ресурсов, гидравлический усилитель меняет прыжок, а локомотивный — скорость передвижения. Не считайте три модуля взаимозаменяемыми.",
+        "Установите каждый в поддерживаемую часть комплекта через станцию и откройте настройки оборудования. Начните с умеренных параметров: высокий прыжок и быстрый бег неудобны в тесной мастерской. Полёт проверьте над ровной площадкой после полной зарядки.",
+        "Перед экспедицией испытайте включение и выключение функций, посадку и движение при малом запасе энергии без риска падения. Дополнительные энергетические модули полезны, если полёт быстро разряжает костюм. Готовый модуль в кармане не даёт его эффект: требуется установка, включение и достаточное питание соответствующей части."
+      ],
+      "text_en": [
+        "Movement modules change suit controls and can substantially affect energy consumption. The gravitational modulating unit provides controlled flight and needs late-game resources; hydraulic propulsion changes jumping, while locomotive boosting increases movement speed. The three are not interchangeable.",
+        "Install each in a supported suit piece through the station and open equipment settings. Begin with moderate values: high jumps and fast running can be awkward in a cramped workshop. Test flight above a level area after charging fully.",
+        "Before an expedition, practise enabling and disabling features, landing and low-energy behaviour without risking a fall. Extra energy units help if flight drains the suit quickly. A module carried in your pocket grants no effect: it must be installed, enabled and sufficiently powered in the relevant piece."
+      ]
+    },
+    "mek_gear/modules_util": {
+      "text": [
+        "Утилитарные модули здесь решают три задачи: улучшенное зрение, притягивание предметов и радиационное экранирование. Начните с совместимости каждой части костюма в станции модификации. Один изготовленный модуль радиационной защиты не означает, что весь комплект защищён.",
+        "Установите зрение и магнит в поддерживаемые части, включите функции и испытайте их на тёмной безопасной площадке с несколькими обычными предметами. Подберите режим магнита так, чтобы не собирать нежелательный мусор во время строительства или сортировки склада.",
+        "Для ядерных работ обеспечьте экранирование всех нужных частей и проверьте комплект до выхода на участок. Счётчик радиации не заменяет защиту, а хороший обзор не защищает от мобов. Держите управление дополнительными функциями под рукой: отключение ненужного эффекта часто удобнее постоянной работы всех модулей."
+      ],
+      "text_en": [
+        "These utility modules cover three jobs: enhanced vision, item attraction and radiation shielding. Begin by checking compatibility for each suit piece in the modification station. Crafting one radiation-shielding module does not mean the whole set is protected.",
+        "Install vision and magnetic attraction in supported pieces, enable them and test in a safe dark area with a few ordinary items. Choose a magnet setting that avoids unwanted clutter while building or organising storage.",
+        "For nuclear work, provide shielding in every required piece and inspect the set before entering the site. A radiation meter does not replace protection, and clear vision does not protect against mobs. Keep feature controls accessible: disabling an unnecessary effect is often more convenient than running every module continuously."
+      ]
+    },
+    "mek_gear/mekatool": {
+      "text": [
+        "Meka-Tool — настраиваемый электрический инструмент, возможности которого расширяются модулями. Изготовьте сам инструмент, модуль ускорения добычи и модуль жиловой добычи. Это три отдельных предмета задания; после их учёта установите улучшения через станцию модификации.",
+        "Зарядите инструмент и выберите умеренную скорость для первого испытания. Проверьте жиловую добычу на небольшом естественном скоплении далеко от важных построек. Дополнительные режимы вроде шёлкового касания или удачи требуют своих совместимых модулей и настроек, а не включаются автоматически вместе с жиловой добычей.",
+        "Следите за расходом энергии и количеством выпавших предметов: быстрый инструмент легко переполняет обычный инвентарь. Сохраните понятный безопасный режим для работ в мастерской. Если добывается слишком большая область, остановитесь и измените параметры до продолжения, вместо попытки исправлять разобранную конструкцию после факта."
+      ],
+      "text_en": [
+        "The Meka-Tool is a configurable electric tool whose abilities expand through modules. Craft the tool, an excavation escalation unit and a vein mining unit. These are three separate item objectives; after they register, install the upgrades through the modification station.",
+        "Charge the tool and select moderate speed for its first trial. Test vein mining on a small natural deposit far from important structures. Additional modes such as Silk Touch or Fortune require their own compatible modules and settings, rather than arriving automatically with vein mining.",
+        "Watch energy consumption and dropped-item volume: a fast tool easily overwhelms an ordinary inventory. Keep a clearly understood safe mode for workshop work. If the affected area is too large, stop and change settings before continuing instead of trying to repair a dismantled structure afterwards."
+      ]
+    },
+    "mek_gear/laser": {
+      "text": [
+        "Лазер Mekanism испускает опасный направленный луч, используя электричество. Усилитель накапливает энергию для управляемого импульса, а притягивающий луч помогает собирать результат разрушения. Для задания нужны все три устройства, но первый тест проводите с одним коротким ограждённым лучом.",
+        "Поставьте источник так, чтобы направление не пересекало проходы, сундуки и чужие постройки. Подключайте питание после проверки направления. У усилителя изучите пороги и управление сигналом: накопленная энергия может выйти позже, когда рядом уже окажется игрок.",
+        "Перед обслуживанием отключите питание и учтите остаток энергии в усилителе. Для запуска термоядерного реактора луч направляют в специальную фокусирующую матрицу, а не в произвольную стенку. Лазерный участок должен иметь контролируемое включение и безопасный конечный блок даже во время обычных опытов."
+      ],
+      "text_en": [
+        "A Mekanism laser emits a dangerous directed beam using electricity. The amplifier stores energy for a controlled pulse, while the tractor beam helps collect the results of breaking blocks. This objective needs all three devices, but begin with one short enclosed beam.",
+        "Place the emitter so its path avoids walkways, chests and other players’ structures. Connect power only after checking direction. Study amplifier thresholds and redstone control: stored energy may discharge later when a player has entered the area.",
+        "Before servicing, disconnect power and account for energy remaining in the amplifier. Fusion startup directs the beam into a dedicated laser focus matrix, not an arbitrary reactor wall. The laser area needs controlled activation and a safe endpoint even during ordinary experiments."
+      ]
+    },
+    "mek_gear/security": {
+      "text": [
+        "Стол безопасности помогает управлять доступом к поддерживаемым устройствам Mekanism. Он полезен на общей базе, где часть машин принадлежит одному игроку, а часть используется командой. Начните с обычного тестового устройства, чтобы случайно не закрыть обслуживание важной линии.",
+        "Изготовьте стол, откройте настройки владельца и выберите подходящий режим доступа. Добавляйте доверенных игроков осознанно и проверьте поведение устройства с нужной настройкой безопасности. Частоты беспроводных устройств также имеют параметры доступа, которые следует согласовать отдельно.",
+        "Безопасность машины не заменяет защиту территории сервером и не предотвращает все способы повреждения мира. Оставьте владельцу понятный путь восстановления доступа, особенно для энергии и телепортов. Задание подтверждает изготовление стола; рабочая политика доступа появляется только после настройки и проверки на конкретных устройствах."
+      ],
+      "text_en": [
+        "The security desk helps manage access to supported Mekanism devices. It is useful on a shared base where some machines are personal and others serve the team. Begin with an ordinary test device so you do not accidentally block service access to an important line.",
+        "Craft the desk, open owner settings and select an appropriate access mode. Add trusted players deliberately and verify behaviour on a device using the intended security setting. Wireless frequencies also have access settings that must be aligned separately.",
+        "Machine security does not replace server land protection or prevent every form of world damage. Leave the owner a clear way to recover access, especially for power and teleporters. This objective confirms desk crafting; a working access policy requires configuration and checks on the actual devices."
+      ]
+    },
+    "mek_ore/guide_carbon": {
+      "text": [
+        "Обогатитель позволяет экономнее снабжать стальные инфузеры углеродом. В установленной версии обычный уголь даёт десять единиц инфузионного углерода, древесный — двадцать, а обогащённый углерод — восемьдесят. При этом один уголь или древесный уголь обогащается в одну единицу концентрата.",
+        "Получите восемь концентратов в камере и направьте их в расходный вход инфузера. Основной вход по-прежнему принимает железо либо обогащённое железо. Не пытайтесь переплавлять концентрат вместо обработки металла: это запас вещества, а не стальная заготовка.",
+        "Сравните, сколько циклов проходит линия между пополнениями. Экономия сырья требует дополнительной электрической операции, поэтому сохраните возможность обычной подачи при остановке обогатителя. Небольшой запас концентрата особенно полезен двум инфузерам, где углерод расходуется независимо на обоих проходах."
+      ],
+      "text_en": [
+        "Enrichment makes carbon supply for steel infusers more economical. In the installed version, ordinary coal supplies ten infusion-carbon units, charcoal twenty and enriched carbon eighty. One coal or charcoal enriches into one unit of concentrate.",
+        "Produce eight concentrates in the chamber and route them to the infuser’s infusion-material input. The main input still receives iron or enriched iron. Do not smelt concentrate instead of processing metal: it stores infusion substance rather than being a steel intermediate.",
+        "Compare how many cycles the line runs between refills. Saving material requires an extra electrical operation, so retain ordinary supply as an option if enrichment stops. A small concentrate reserve is particularly helpful with two infusers consuming carbon independently in the two passes."
+      ]
+    },
+    "mek_power/guide_ethene_phase": {
+      "text": [
+        "Этилен для газового генератора и жидкий этилен для пластика — разные формы одного материала. Роторный конденсатор переводит поддерживаемые вещества между химической и жидкой формами. Изготовьте его и оставьте энергетический резерв: преобразование тоже потребляет электричество.",
+        "Выберите конденсацию, подайте этилен из реакционной камеры через трубу под давлением и выведите жидкость механической трубой. В интерфейсе должны меняться разные резервуары, а не перетекать содержимое одной общей трубы. Для обратного преобразования используется другой режим устройства.",
+        "Не отбирайте весь этилен у единственного работающего генератора: линия пластика может лишить питания собственный источник сырья. Начните с небольшого отдельного запаса и проверьте остановку при заполненном выходе. Различение форм понадобится и литию в подготовке термоядерного топлива."
+      ],
+      "text_en": [
+        "Ethene for the gas-burning generator and liquid ethene for plastics are different forms of the same material. The rotary condensentrator converts supported substances between chemical and fluid forms. Craft one and retain an energy reserve, because conversion also consumes electricity.",
+        "Select condensation, supply reaction-chamber ethene through pressurized tube and remove fluid through mechanical pipe. Different interface tanks should change rather than sharing one undifferentiated pipe. Reverse conversion uses the device’s other mode.",
+        "Do not divert all ethene from your only working generator: plastic production could remove power from its own material supply. Begin with a small separate reserve and check stopping with a full output. Distinguishing forms is also necessary for lithium in fusion-fuel preparation."
+      ]
+    },
+    "mek_power/guide_hdpe": {
+      "text": [
+        "Полиэтилен высокой плотности получается в реакционной камере из субстрата, жидкого этилена и кислорода. Все три ресурса уже связаны с биотопливной линией, но рецепт отличается от производства самого этилена. Подготовьте отдельную камеру или полностью освободите старые входы перед переключением.",
+        "Один субстрат, пятьдесят единиц жидкого этилена и десять кислорода дают одну гранулу HDPE в установленном рецепте. Жидкость подайте механической трубой, кислород — трубой под давлением, субстрат — предметным транспортом. Подключите энергию и соберите шесть гранул.",
+        "Если камера принимает субстрат, но не начинает работу, прежде всего проверьте форму этилена и отсутствие остатков другого химиката. Гранулы открывают листы и прочие пластиковые детали. Сохраните часть субстрата, чтобы производство пластика не зависело от случайного содержимого выходного сундука генераторной линии."
+      ],
+      "text_en": [
+        "High-density polyethylene is made in a pressurized reaction chamber from substrate, liquid ethene and oxygen. All three resources connect to the biofuel line, but this recipe differs from producing ethene itself. Prepare a separate chamber or completely clear the previous inputs before switching.",
+        "One substrate, fifty units of liquid ethene and ten oxygen produce one HDPE pellet in the installed recipe. Feed the liquid through mechanical pipe, oxygen through pressurized tube and substrate through item transport. Connect power and collect six pellets.",
+        "If the chamber accepts substrate but does not run, first check ethene’s form and any residual incompatible chemical. Pellets unlock sheets and other plastic components. Keep some substrate in reserve so plastic production does not depend on whatever happens to remain in the generating line’s output chest."
+      ]
+    },
+    "mek_power/guide_hdpe_sheet": {
+      "text": [
+        "Листы HDPE — следующий практический продукт химической мастерской. В обогатительной камере три гранулы превращаются в один лист; из шести гранул предыдущей партии получится два. Для этой стадии кислород и жидкий этилен уже не подаются, нужна только энергия.",
+        "Освободите камеру от рудной пыли и загрузите гранулы полными тройками. Получите два листа и проверьте остатки входа: одна или две гранулы не являются ошибкой машины, им просто не хватает комплекта для рецепта. Отдельный вход предотвращает перемешивание с обычной переработкой руды.",
+        "Посмотрите применения листов, прежде чем запускать большой выпуск: пластик нужен конкретным поздним компонентам и вариантам снаряжения. Небольшой запас удобнее переполненного склада гранул, если этилен одновременно питает генератор. Эта партия закрепляет всю цепочку от растений до готового промышленного материала."
+      ],
+      "text_en": [
+        "HDPE sheets are the next practical product of the chemical workshop. An enrichment chamber converts three pellets into one sheet, so the previous six-pellet batch makes two. This stage needs energy but no further oxygen or liquid ethene.",
+        "Clear ore-processing leftovers from the chamber and supply pellets in complete groups of three. Obtain two sheets and inspect input leftovers: one or two pellets do not indicate a fault, only an incomplete recipe group. A separate input prevents mixing with ordinary ore processing.",
+        "Inspect sheet uses before starting bulk production: plastics serve particular late components and equipment variants. A small reserve is more useful than overflowing pellet storage when ethene also powers your generator. This batch completes the practical chain from plants to a finished industrial material."
+      ]
+    },
+    "mek_nuclear/guide_complete_hazmat": {
+      "text": [
+        "Предыдущий узел познакомил с халатом и приборами, теперь подготовьте все четыре части Hazmat. Полный комплект нужен до работы рядом с возможным радиоактивным выбросом. Проверьте рецепт каждой части и не заменяйте недостающие ботинки обычной металлической бронёй.",
+        "Изготовьте маску, халат, штаны и ботинки, зарегистрировав разные предметы по очереди, затем наденьте весь комплект в соответствующие слоты. Проверьте, не осталось ли в одном слоте привычное снаряжение после переодевания. Все четыре части требуются одновременно именно для защиты во время работы, а не для накопительной предметной проверки Кодекса.",
+        "Запишите чистые показания приборов и выделите безопасный шкаф для запасного комплекта. Не входите в заражённую область ради проверки защиты: испытание должно состоять в проверке состава и надетых вещей. Радиационное загрязнение устраняют прекращением утечки и временем, а костюм лишь защищает оператора в пределах своей механики."
+      ],
+      "text_en": [
+        "The previous node introduced the gown and instruments; now prepare all four Hazmat pieces. A complete set is needed before working near a possible radioactive release. Check each recipe and do not substitute ordinary metal armour for missing boots.",
+        "Craft the mask, gown, pants and boots, registering the different items sequentially, then equip the complete set in the appropriate slots. Check that no familiar equipment remains in a slot after changing. All four pieces are required together for protection during work, not for the Codex’s persistent item checks.",
+        "Record clean instrument readings and designate a safe cabinet for a spare set. Do not enter contamination merely to test protection: the check is the set’s composition and equipped pieces. Contamination is addressed by stopping releases and allowing time; the suit protects its wearer within its mechanics."
+      ]
+    },
+    "mek_nuclear/guide_cold_stop": {
+      "text": [
+        "Проверьте управление реактором до первой заправки. Оставьте топливный вход отключённым и убедитесь, что делящегося топлива внутри нет. Подготовьте управляющий адаптер, отдельную доступную кнопку или рычаг аварийного отключения и понятное отображение состояния реактора.",
+        "Включите разрешение работы и снимите его аварийным органом управления. Проверьте, что реактор переходит в остановленное состояние и не включается от случайного постоянного сигнала другой машины. Для температурной автоматики отдельно проследите путь сигнала от датчика до управляющего входа.",
+        "Ручную цель отмечайте после реальной проверки отключения на холодной пустой установке и восстановления управляемого состояния. Кодекс не измеряет эту цепь. Это испытание не доказывает достаточность охлаждения под нагрузкой; вода, отвод пара и свободная ёмкость отходов проверяются независимо перед подачей топлива."
+      ],
+      "text_en": [
+        "Test reactor control before its first fuel load. Leave fuel input disconnected and confirm there is no fissile fuel inside. Prepare the control adapter, a separately accessible emergency button or lever and a clear reactor-state indication.",
+        "Enable operation permission, then withdraw it using the emergency control. Verify that the reactor enters its stopped state and cannot restart from an unrelated machine’s constant signal. For temperature automation, separately trace the signal from the sensor to the control input.",
+        "Mark the manual objective after actually checking shutdown on the cold empty installation and restoring a controlled state. Codex does not measure this circuit. The trial does not prove cooling capacity under load; water, steam removal and spare waste capacity must be checked independently before admitting fuel."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: без топлива проверить, что аварийный орган снимает разрешение работы реактора и оставляет его остановленным.",
+          "en": "Manual: without fuel, verify that the emergency control withdraws operating permission and leaves the reactor stopped."
+        }
+      }
+    },
+    "mek_nuclear/guide_heavy_water": {
+      "text": [
+        "Дейтериевая линия начинается с тяжёлой воды, которую получает электрический насос с фильтрующим улучшением. Она не выходит из испарительной башни для рассола. Подготовьте насос, фильтр, питание и доступный источник воды рядом с будущей топливной мастерской.",
+        "Установите улучшение в насос и проверьте название жидкости на выходе. Подайте тяжёлую воду механической трубой в электролитический сепаратор; в установленном рецепте две единицы тяжёлой воды дают две дейтерия и одну кислорода. У обоих химических выходов должно быть свободное место.",
+        "Если дейтерий перестал поступать, осмотрите не только насос, но и кислородный резервуар сепаратора. Небольшой буфер позволяет заметить перебой раньше погасшего реактора. Это ответвление закрепляет отдельное снабжение дейтерием; тритий по-прежнему требует лития, солнечной активации и запаса на ночную паузу."
+      ],
+      "text_en": [
+        "The deuterium line begins with heavy water from an electric pump fitted with a filter upgrade. It does not come from a brine evaporation tower. Prepare the pump, filter, power and an accessible water source beside the future fuel workshop.",
+        "Install the upgrade and check the output fluid’s name. Send heavy water through mechanical pipe to an electrolytic separator; the installed recipe turns two heavy-water units into two deuterium and one oxygen. Both chemical outputs need free capacity.",
+        "If deuterium stops arriving, inspect the separator’s oxygen tank as well as the pump. A small buffer reveals interruptions before a reactor loses its flame. This branch establishes deuterium supply separately; tritium still requires lithium, solar activation and storage for the nighttime pause."
+      ]
+    },
+    "mek_qio/guide_stock_signal": {
+      "text": [
+        "Адаптер QIO позволяет выпускать расходник до нужного запаса, не заполняя им весь диск. Для опыта выберите обычный булыжник и небольшое количество, которое легко пересчитать. Подключите адаптер к той же частоте, где лежит тестовый материал, и подготовьте видимый индикатор сигнала.",
+        "Установите фильтр на булыжник и порог. Добавьте материал так, чтобы пересечь его, затем уберите часть обратно. Наблюдайте изменение выхода; если логика обратная ожидаемой, исправьте режим до подключения настоящего производства.",
+        "Отметьте ручную цель после двух проверенных переходов через порог. Для рабочего применения подключите сигнал к поддерживаемому управлению машины и оставьте запас на уже начатые операции. Сам сигнал ничего не останавливает, пока не связан с потребителем; наличие адаптера в инвентаре не подтверждает работу автоматического пополнения."
+      ],
+      "text_en": [
+        "A QIO adapter can produce a consumable up to a chosen stock level without filling an entire drive. Use ordinary cobblestone and a small easily counted amount for the experiment. Connect the adapter to the frequency containing the test material and prepare a visible signal indicator.",
+        "Set a cobblestone filter and threshold. Add material to cross the threshold, then remove some again. Watch the output change; if its logic is opposite to your expectation, correct the mode before connecting actual production.",
+        "Mark the manual objective after verifying both threshold crossings. For practical use, connect the signal to supported machine control and allow for operations already in progress. A signal stops nothing until connected to a consumer; carrying an adapter does not demonstrate automatic replenishment."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: добавлением и извлечением одного материала проверить переключение сигнала QIO в обе стороны через заданный порог.",
+          "en": "Manual: add and remove one material to verify the QIO signal switches both ways across the configured threshold."
+        }
+      }
+    },
+    "mek_qio/guide_remote_supply": {
+      "text": [
+        "Проверьте квантовую доставку обычных предметов до переноса устройств в разные измерения. Поставьте два связывателя рядом, выберите отдельную тестовую частоту и подготовьте входной сундук с восемью булыжниками. У получателя оставьте пустой сундук только для этой партии.",
+        "Настройте предметный ввод источника и предметный вывод получателя, включив необходимое извлечение. Дождитесь восьми предметов на выходе и сравните количество. Затем заблокируйте приёмник заполнением, подайте ещё небольшую партию и убедитесь, что ресурс остаётся в доступных буферах.",
+        "Разблокируйте выход и проверьте завершение доставки без потерь. Только после этого отметьте ручную цель и переносите проверенную пару на дальние площадки. Там дополнительно потребуется загрузка обоих концов и согласованные права частоты; успешный соседний тест проверяет маршрутизацию, но не эти условия мира."
+      ],
+      "text_en": [
+        "Test quantum delivery with ordinary items before moving devices to different dimensions. Place two entangloporters nearby, choose a dedicated test frequency and prepare an input chest with eight cobblestone. Leave the receiving chest empty for this batch.",
+        "Configure item input at the source and item output at the destination, enabling the required extraction. Wait for eight items at the output and compare counts. Then block the destination by filling it, feed another small batch and confirm that material remains in accessible buffers.",
+        "Unblock the output and verify delivery completes without loss. Only then mark the manual objective and move the tested pair to distant sites. Those sites additionally require both ends loaded and matching frequency permissions; the nearby test establishes routing, not these world conditions."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: передать восемь предметов, проверить сохранность следующей партии при полном выходе и доставку после освобождения.",
+          "en": "Manual: transfer eight items, retain the next batch with a full output and complete delivery after clearing it."
+        }
+      }
+    },
+    "mek_gear/guide_charge_stop": {
+      "text": [
+        "Зарядная площадка удобна как постоянное место подготовки электрического снаряжения. Поставьте её рядом с выходом из базы и подключите к аккумулятору через разрешённую сторону. Не выбирайте место на пути опасной конвейерной линии или возле открытого лазера.",
+        "Наденьте частично разряженный комплект и встаньте на площадку. Наблюдайте изменение энергии в вещах и расход в питающем кубе. Если предмет не заряжается, проверьте его совместимость, запас источника и соединение, прежде чем менять всю энергосистему.",
+        "Домашняя площадка Робита также должна оставаться доступной; при активной работе помощника удобнее предусмотреть отдельное место для игрока. Изготовление площадки завершает предметную цель, а испытание покажет реальную скорость обслуживания. Перед длинной экспедицией проверяйте каждую часть комплекта: полный нагрудник не означает полный инструмент или ботинки."
+      ],
+      "text_en": [
+        "A chargepad provides a fixed preparation point for electric equipment. Place it near the base exit and connect it to storage through an enabled side. Avoid hazardous conveyor routes or exposed laser paths.",
+        "Equip a partly discharged set and stand on the pad. Watch equipment energy rise and the supplying cube’s reserve fall. If an item does not charge, inspect compatibility, source reserves and connections before changing the entire power system.",
+        "Robit’s home pad must also remain accessible; with an active assistant, a separate player charging spot is convenient. Crafting the pad completes the item objective, while the trial reveals actual service speed. Before a long expedition, check every piece: a full bodyarmour battery does not mean the tool or boots are full."
+      ]
+    }
+  },
+  "additions": [
+    {
+      "chapter": "mek_ore",
+      "id": "guide_carbon",
+      "title": "Углерод без лишнего расхода",
+      "title_en": "Concentrated carbon",
+      "icon": "mekanism:enriched_carbon",
+      "deps": [
+        "enrichment",
+        "mek_start/steel"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "mekanism:enriched_carbon",
+          "count": 8
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "mek_power",
+      "id": "guide_ethene_phase",
+      "title": "Этилен: газ и жидкость",
+      "title_en": "Ethene: chemical and fluid",
+      "icon": "mekanism:rotary_condensentrator",
+      "deps": [
+        "gas_gen"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "mekanism:rotary_condensentrator",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "mek_power",
+      "id": "guide_hdpe",
+      "title": "Первые гранулы пластика",
+      "title_en": "First plastic pellets",
+      "icon": "mekanism:hdpe_pellet",
+      "deps": [
+        "guide_ethene_phase"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "mekanism:hdpe_pellet",
+          "count": 6
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "mek_power",
+      "id": "guide_hdpe_sheet",
+      "title": "Листовой HDPE",
+      "title_en": "HDPE sheets",
+      "icon": "mekanism:hdpe_sheet",
+      "deps": [
+        "guide_hdpe"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "mekanism:hdpe_sheet",
+          "count": 2
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "mek_nuclear",
+      "id": "guide_complete_hazmat",
+      "title": "Полный комплект защиты",
+      "title_en": "Complete protective set",
+      "icon": "mekanism:hazmat_mask",
+      "deps": [
+        "hazmat"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "mekanism:hazmat_mask",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "mekanism:hazmat_gown",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "mekanism:hazmat_pants",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "mekanism:hazmat_boots",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "mek_nuclear",
+      "id": "guide_cold_stop",
+      "title": "Холодная проверка аварийного останова",
+      "title_en": "Cold emergency-stop test",
+      "icon": "mekanismgenerators:fission_reactor_logic_adapter",
+      "deps": [
+        "reactor",
+        "guide_complete_hazmat"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "Аварийный останов проверен без топлива"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "mek_nuclear",
+      "id": "guide_heavy_water",
+      "title": "Тяжёлая вода для дейтерия",
+      "title_en": "Heavy water for deuterium",
+      "icon": "mekanism:electric_pump",
+      "deps": [
+        "fusion"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "mekanism:electric_pump",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "mekanism:upgrade_filter",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "mek_qio",
+      "id": "guide_stock_signal",
+      "title": "Сигнал запаса QIO",
+      "title_en": "QIO stock signal",
+      "icon": "mekanism:qio_redstone_adapter",
+      "deps": [
+        "qio_io"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "Порог запаса изменяет сигнал"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "mek_qio",
+      "id": "guide_remote_supply",
+      "title": "Доставка между двумя связывателями",
+      "title_en": "Delivery between two entangloporters",
+      "icon": "mekanism:quantum_entangloporter",
+      "deps": [
+        "entangloporter"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "Пробная доставка и остановка выхода проверены"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "mek_gear",
+      "id": "guide_charge_stop",
+      "title": "Место зарядки перед вылазкой",
+      "title_en": "Charging stop before a trip",
+      "icon": "mekanism:chargepad",
+      "deps": [
+        "robit",
+        "mekasuit"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "mekanism:chargepad",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    }
+  ]
+}

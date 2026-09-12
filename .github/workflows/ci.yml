@@ -23,6 +23,12 @@ jobs:
       # Кэширует ~/.gradle, иначе каждый прогон заново тянет NeoForge
       - uses: gradle/actions/setup-gradle@v6
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: python3 -m unittest discover -s tools/tests -v
+      - run: python3 tools/build_book.py --check
       - run: ./gradlew build
 
       - uses: actions/upload-artifact@v7
@@ -42,6 +48,12 @@ jobs:
         with:
           name: codex-aeternum-jar
 
-      - run: gh release create "$GITHUB_REF_NAME" *.jar --repo "$GITHUB_REPOSITORY" --title "$GITHUB_REF_NAME" --generate-notes
+      # Релиз с проверенным локально JAR может быть создан вручную до завершения CI: тогда его не трогаем
+      - run: |
+          if gh release view "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Релиз $GITHUB_REF_NAME уже существует, приложения сохранены"
+          else
+            gh release create "$GITHUB_REF_NAME" *.jar --repo "$GITHUB_REPOSITORY" --title "$GITHUB_REF_NAME" --generate-notes
+          fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

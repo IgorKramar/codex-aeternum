@@ -228,7 +228,7 @@ EN = {
         },
     },
     "life_furniture": {
-        "title": "Furniture and Comfort", "subtitle": "Handcrafted, Refurbished Furniture, Furnicraft and decor",
+        "title": "Furniture and Comfort", "subtitle": "Handcrafted, Refurbished Furniture and architectural decor",
         "intro": ["The pack has three independent furniture mods plus the decorative blocks of Create, Domum Ornamentum and Eternal Tales. Together they cover any interior."],
         "quests": {
             "handcrafted": {"title": "Handcrafted", "text": ["Tables, chairs, benches, cupboards, nightstands and shelves for every wood, plus crockery, cushions, sheets, mob trophies and wall decor.", "Trims and corner pieces give tidy wall joints."]},

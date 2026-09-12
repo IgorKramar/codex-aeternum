@@ -16,9 +16,11 @@
     "title": "codex.quest.mek_start.osmium.title",
     "icon": "mekanism:ingot_osmium",
     "x": 0,
-    "y": 0,
+    "y": 5,
     "text": [
-     "codex.quest.mek_start.osmium.text.0"
+     "codex.quest.mek_start.osmium.text.0",
+     "codex.quest.mek_start.osmium.text.1",
+     "codex.quest.mek_start.osmium.text.2"
     ],
     "tasks": [
      {
@@ -36,16 +38,21 @@
      "items": [],
      "xp": 40,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "infuser",
     "title": "codex.quest.mek_start.infuser.title",
     "icon": "mekanism:metallurgic_infuser",
-    "x": 0,
-    "y": 1,
+    "x": 4,
+    "y": 5,
     "text": [
-     "codex.quest.mek_start.infuser.text.0"
+     "codex.quest.mek_start.infuser.text.0",
+     "codex.quest.mek_start.infuser.text.1",
+     "codex.quest.mek_start.infuser.text.2"
     ],
     "tasks": [
      {
@@ -55,7 +62,8 @@
      }
     ],
     "deps": [
-     "osmium"
+     "osmium",
+     "mek_power/heat_gen"
     ],
     "rewards": {
      "items": [],
@@ -67,10 +75,12 @@
     "id": "steel",
     "title": "codex.quest.mek_start.steel.title",
     "icon": "mekanism:ingot_steel",
-    "x": 0,
-    "y": 2,
+    "x": 6,
+    "y": 4,
     "text": [
-     "codex.quest.mek_start.steel.text.0"
+     "codex.quest.mek_start.steel.text.0",
+     "codex.quest.mek_start.steel.text.1",
+     "codex.quest.mek_start.steel.text.2"
     ],
     "tasks": [
      {
@@ -97,10 +107,12 @@
     "id": "casing",
     "title": "codex.quest.mek_start.casing.title",
     "icon": "mekanism:steel_casing",
-    "x": 0,
-    "y": 3,
+    "x": 8,
+    "y": 0,
     "text": [
-     "codex.quest.mek_start.casing.text.0"
+     "codex.quest.mek_start.casing.text.0",
+     "codex.quest.mek_start.casing.text.1",
+     "codex.quest.mek_start.casing.text.2"
     ],
     "tasks": [
      {
@@ -127,10 +139,12 @@
     "id": "circuit",
     "title": "codex.quest.mek_start.circuit.title",
     "icon": "mekanism:basic_control_circuit",
-    "x": 0,
-    "y": 4,
+    "x": 6,
+    "y": 5,
     "text": [
-     "codex.quest.mek_start.circuit.text.0"
+     "codex.quest.mek_start.circuit.text.0",
+     "codex.quest.mek_start.circuit.text.1",
+     "codex.quest.mek_start.circuit.text.2"
     ],
     "tasks": [
      {
@@ -140,7 +154,7 @@
      }
     ],
     "deps": [
-     "casing"
+     "infuser"
     ],
     "rewards": {
      "items": [],
@@ -152,10 +166,12 @@
     "id": "alloys",
     "title": "codex.quest.mek_start.alloys.title",
     "icon": "mekanism:alloy_infused",
-    "x": 1,
-    "y": 4,
+    "x": 6,
+    "y": 6,
     "text": [
-     "codex.quest.mek_start.alloys.text.0"
+     "codex.quest.mek_start.alloys.text.0",
+     "codex.quest.mek_start.alloys.text.1",
+     "codex.quest.mek_start.alloys.text.2"
     ],
     "tasks": [
      {
@@ -165,7 +181,7 @@
      }
     ],
     "deps": [
-     "circuit"
+     "infuser"
     ],
     "rewards": {
      "items": [],
@@ -177,10 +193,12 @@
     "id": "cables",
     "title": "codex.quest.mek_start.cables.title",
     "icon": "mekanism:basic_universal_cable",
-    "x": 0,
-    "y": 5,
+    "x": 8,
+    "y": 1,
     "text": [
-     "codex.quest.mek_start.cables.text.0"
+     "codex.quest.mek_start.cables.text.0",
+     "codex.quest.mek_start.cables.text.1",
+     "codex.quest.mek_start.cables.text.2"
     ],
     "tasks": [
      {
@@ -205,7 +223,7 @@
      }
     ],
     "deps": [
-     "alloys"
+     "steel"
     ],
     "rewards": {
      "items": [],
@@ -217,10 +235,12 @@
     "id": "sorter",
     "title": "codex.quest.mek_start.sorter.title",
     "icon": "mekanism:logistical_sorter",
-    "x": 1,
-    "y": 5,
+    "x": 8,
+    "y": 3,
     "text": [
-     "codex.quest.mek_start.sorter.text.0"
+     "codex.quest.mek_start.sorter.text.0",
+     "codex.quest.mek_start.sorter.text.1",
+     "codex.quest.mek_start.sorter.text.2"
     ],
     "tasks": [
      {
@@ -235,7 +255,7 @@
      }
     ],
     "deps": [
-     "cables"
+     "circuit"
     ],
     "rewards": {
      "items": [],
@@ -247,10 +267,12 @@
     "id": "energy",
     "title": "codex.quest.mek_start.energy.title",
     "icon": "mekanism:basic_energy_cube",
-    "x": 0,
-    "y": 6,
+    "x": 8,
+    "y": 4,
     "text": [
-     "codex.quest.mek_start.energy.text.0"
+     "codex.quest.mek_start.energy.text.0",
+     "codex.quest.mek_start.energy.text.1",
+     "codex.quest.mek_start.energy.text.2"
     ],
     "tasks": [
      {
@@ -260,7 +282,7 @@
      }
     ],
     "deps": [
-     "sorter"
+     "circuit"
     ],
     "rewards": {
      "items": [],
@@ -272,10 +294,12 @@
     "id": "configurator",
     "title": "codex.quest.mek_start.configurator.title",
     "icon": "mekanism:configurator",
-    "x": 1,
-    "y": 6,
+    "x": 8,
+    "y": 5,
     "text": [
-     "codex.quest.mek_start.configurator.text.0"
+     "codex.quest.mek_start.configurator.text.0",
+     "codex.quest.mek_start.configurator.text.1",
+     "codex.quest.mek_start.configurator.text.2"
     ],
     "tasks": [
      {
@@ -290,7 +314,7 @@
      }
     ],
     "deps": [
-     "energy"
+     "alloys"
     ],
     "rewards": {
      "items": [],
@@ -303,9 +327,11 @@
     "title": "codex.quest.mek_start.box.title",
     "icon": "mekanism:cardboard_box",
     "x": 2,
-    "y": 6,
+    "y": 5,
     "text": [
-     "codex.quest.mek_start.box.text.0"
+     "codex.quest.mek_start.box.text.0",
+     "codex.quest.mek_start.box.text.1",
+     "codex.quest.mek_start.box.text.2"
     ],
     "tasks": [
      {
@@ -315,15 +341,106 @@
      }
     ],
     "deps": [
-     "configurator"
+     "osmium"
     ],
     "rewards": {
      "items": [],
      "xp": 40,
      "text": []
     }
+   },
+   {
+    "id": "steel_line_setup",
+    "title": "codex.quest.mek_start.steel_line_setup.title",
+    "icon": "mekanism:metallurgic_infuser",
+    "x": 8,
+    "y": 2,
+    "deps": [
+     "steel"
+    ],
+    "text": [
+     "codex.quest.mek_start.steel_line_setup.text.0",
+     "codex.quest.mek_start.steel_line_setup.text.1",
+     "codex.quest.mek_start.steel_line_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:metallurgic_infuser",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "mekanism:energized_smelter",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "steel_line_batch",
+    "title": "codex.quest.mek_start.steel_line_batch.title",
+    "icon": "mekanism:metallurgic_infuser",
+    "x": 10,
+    "y": 6,
+    "deps": [
+     "steel_line_setup"
+    ],
+    "text": [
+     "codex.quest.mek_start.steel_line_batch.text.0",
+     "codex.quest.mek_start.steel_line_batch.text.1",
+     "codex.quest.mek_start.steel_line_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:ingot_steel",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "steel_line_run",
+    "title": "codex.quest.mek_start.steel_line_run.title",
+    "icon": "mekanism:metallurgic_infuser",
+    "x": 12,
+    "y": 10,
+    "deps": [
+     "steel_line_batch"
+    ],
+    "text": [
+     "codex.quest.mek_start.steel_line_run.text.0",
+     "codex.quest.mek_start.steel_line_run.text.1",
+     "codex.quest.mek_start.steel_line_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.mek_start.steel_line_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
    }
-  ]
+  ],
+  "map": "mek"
  },
  {
   "id": "mek_ore",
@@ -333,17 +450,20 @@
   "icon": "mekanism:enrichment_chamber",
   "subtitle": "codex.chapter.mek_ore.subtitle",
   "intro": [
-   "codex.chapter.mek_ore.intro.0"
+   "codex.chapter.mek_ore.intro.0",
+   "codex.chapter.mek_ore.intro.1"
   ],
   "quests": [
    {
     "id": "enrichment",
     "title": "codex.quest.mek_ore.enrichment.title",
     "icon": "mekanism:enrichment_chamber",
-    "x": 0,
-    "y": 0,
+    "x": 10,
+    "y": 3,
     "text": [
-     "codex.quest.mek_ore.enrichment.text.0"
+     "codex.quest.mek_ore.enrichment.text.0",
+     "codex.quest.mek_ore.enrichment.text.1",
+     "codex.quest.mek_ore.enrichment.text.2"
     ],
     "tasks": [
      {
@@ -365,16 +485,21 @@
      ],
      "xp": 50,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_start/casing"
+    ]
    },
    {
     "id": "crusher_mek",
     "title": "codex.quest.mek_ore.crusher_mek.title",
     "icon": "mekanism:crusher",
-    "x": 1,
+    "x": 12,
     "y": 0,
     "text": [
-     "codex.quest.mek_ore.crusher_mek.text.0"
+     "codex.quest.mek_ore.crusher_mek.text.0",
+     "codex.quest.mek_ore.crusher_mek.text.1",
+     "codex.quest.mek_ore.crusher_mek.text.2"
     ],
     "tasks": [
      {
@@ -401,10 +526,12 @@
     "id": "purification",
     "title": "codex.quest.mek_ore.purification.title",
     "icon": "mekanism:purification_chamber",
-    "x": 0,
+    "x": 12,
     "y": 1,
     "text": [
-     "codex.quest.mek_ore.purification.text.0"
+     "codex.quest.mek_ore.purification.text.0",
+     "codex.quest.mek_ore.purification.text.1",
+     "codex.quest.mek_ore.purification.text.2"
     ],
     "tasks": [
      {
@@ -426,17 +553,19 @@
      ]
     },
     "deps": [
-     "crusher_mek"
+     "enrichment"
     ]
    },
    {
     "id": "injection",
     "title": "codex.quest.mek_ore.injection.title",
     "icon": "mekanism:chemical_injection_chamber",
-    "x": 0,
-    "y": 2,
+    "x": 16,
+    "y": 3,
     "text": [
-     "codex.quest.mek_ore.injection.text.0"
+     "codex.quest.mek_ore.injection.text.0",
+     "codex.quest.mek_ore.injection.text.1",
+     "codex.quest.mek_ore.injection.text.2"
     ],
     "tasks": [
      {
@@ -458,17 +587,20 @@
      ]
     },
     "deps": [
-     "purification"
+     "purification",
+     "evaporation"
     ]
    },
    {
     "id": "evaporation",
     "title": "codex.quest.mek_ore.evaporation.title",
     "icon": "mekanism:thermal_evaporation_controller",
-    "x": 1,
+    "x": 14,
     "y": 2,
     "text": [
-     "codex.quest.mek_ore.evaporation.text.0"
+     "codex.quest.mek_ore.evaporation.text.0",
+     "codex.quest.mek_ore.evaporation.text.1",
+     "codex.quest.mek_ore.evaporation.text.2"
     ],
     "tasks": [
      {
@@ -483,7 +615,7 @@
      }
     ],
     "deps": [
-     "injection"
+     "purification"
     ],
     "rewards": {
      "items": [],
@@ -495,10 +627,12 @@
     "id": "dissolution",
     "title": "codex.quest.mek_ore.dissolution.title",
     "icon": "mekanism:chemical_dissolution_chamber",
-    "x": 0,
+    "x": 18,
     "y": 3,
     "text": [
-     "codex.quest.mek_ore.dissolution.text.0"
+     "codex.quest.mek_ore.dissolution.text.0",
+     "codex.quest.mek_ore.dissolution.text.1",
+     "codex.quest.mek_ore.dissolution.text.2"
     ],
     "tasks": [
      {
@@ -533,17 +667,19 @@
      "text": []
     },
     "deps": [
-     "evaporation"
+     "injection"
     ]
    },
    {
     "id": "factory",
     "title": "codex.quest.mek_ore.factory.title",
     "icon": "mekanism:basic_smelting_factory",
-    "x": 0,
-    "y": 4,
+    "x": 12,
+    "y": 2,
     "text": [
-     "codex.quest.mek_ore.factory.text.0"
+     "codex.quest.mek_ore.factory.text.0",
+     "codex.quest.mek_ore.factory.text.1",
+     "codex.quest.mek_ore.factory.text.2"
     ],
     "tasks": [
      {
@@ -558,7 +694,7 @@
      }
     ],
     "deps": [
-     "dissolution"
+     "enrichment"
     ],
     "rewards": {
      "items": [],
@@ -570,10 +706,12 @@
     "id": "miner",
     "title": "codex.quest.mek_ore.miner.title",
     "icon": "mekanism:digital_miner",
-    "x": 0,
-    "y": 5,
+    "x": 8,
+    "y": 6,
     "text": [
-     "codex.quest.mek_ore.miner.text.0"
+     "codex.quest.mek_ore.miner.text.0",
+     "codex.quest.mek_ore.miner.text.1",
+     "codex.quest.mek_ore.miner.text.2"
     ],
     "tasks": [
      {
@@ -598,17 +736,19 @@
      "text": []
     },
     "deps": [
-     "factory"
+     "mek_start/alloys"
     ]
    },
    {
     "id": "upgrades",
     "title": "codex.quest.mek_ore.upgrades.title",
     "icon": "mekanism:upgrade_speed",
-    "x": 1,
-    "y": 5,
+    "x": 12,
+    "y": 3,
     "text": [
-     "codex.quest.mek_ore.upgrades.text.0"
+     "codex.quest.mek_ore.upgrades.text.0",
+     "codex.quest.mek_ore.upgrades.text.1",
+     "codex.quest.mek_ore.upgrades.text.2"
     ],
     "tasks": [
      {
@@ -628,7 +768,7 @@
      }
     ],
     "deps": [
-     "miner"
+     "enrichment"
     ],
     "rewards": {
      "items": [],
@@ -640,10 +780,12 @@
     "id": "sawmill",
     "title": "codex.quest.mek_ore.sawmill.title",
     "icon": "mekanism:precision_sawmill",
-    "x": 2,
-    "y": 5,
+    "x": 12,
+    "y": 4,
     "text": [
-     "codex.quest.mek_ore.sawmill.text.0"
+     "codex.quest.mek_ore.sawmill.text.0",
+     "codex.quest.mek_ore.sawmill.text.1",
+     "codex.quest.mek_ore.sawmill.text.2"
     ],
     "tasks": [
      {
@@ -663,15 +805,135 @@
      }
     ],
     "deps": [
-     "upgrades"
+     "enrichment"
     ],
     "rewards": {
      "items": [],
      "xp": 40,
      "text": []
     }
+   },
+   {
+    "id": "ore_line_setup",
+    "title": "codex.quest.mek_ore.ore_line_setup.title",
+    "icon": "mekanism:enrichment_chamber",
+    "x": 12,
+    "y": 5,
+    "deps": [
+     "enrichment"
+    ],
+    "text": [
+     "codex.quest.mek_ore.ore_line_setup.text.0",
+     "codex.quest.mek_ore.ore_line_setup.text.1",
+     "codex.quest.mek_ore.ore_line_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:enrichment_chamber",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:energized_smelter",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "ore_line_batch",
+    "title": "codex.quest.mek_ore.ore_line_batch.title",
+    "icon": "mekanism:enrichment_chamber",
+    "x": 14,
+    "y": 3,
+    "deps": [
+     "ore_line_setup"
+    ],
+    "text": [
+     "codex.quest.mek_ore.ore_line_batch.text.0",
+     "codex.quest.mek_ore.ore_line_batch.text.1",
+     "codex.quest.mek_ore.ore_line_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:iron_ingot",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "ore_line_run",
+    "title": "codex.quest.mek_ore.ore_line_run.title",
+    "icon": "mekanism:enrichment_chamber",
+    "x": 16,
+    "y": 4,
+    "deps": [
+     "ore_line_batch"
+    ],
+    "text": [
+     "codex.quest.mek_ore.ore_line_run.text.0",
+     "codex.quest.mek_ore.ore_line_run.text.1",
+     "codex.quest.mek_ore.ore_line_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.mek_ore.ore_line_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_carbon",
+    "title": "codex.quest.mek_ore.guide_carbon.title",
+    "icon": "mekanism:enriched_carbon",
+    "deps": [
+     "enrichment",
+     "mek_start/steel"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:enriched_carbon",
+      "count": 8
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 7,
+    "text": [
+     "codex.quest.mek_ore.guide_carbon.text.0",
+     "codex.quest.mek_ore.guide_carbon.text.1",
+     "codex.quest.mek_ore.guide_carbon.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "mek"
  },
  {
   "id": "mek_power",
@@ -680,16 +942,21 @@
   "title": "codex.chapter.mek_power.title",
   "icon": "mekanismgenerators:gas_burning_generator",
   "subtitle": "codex.chapter.mek_power.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.mek_power.intro.0",
+   "codex.chapter.mek_power.intro.1"
+  ],
   "quests": [
    {
     "id": "heat_gen",
     "title": "codex.quest.mek_power.heat_gen.title",
     "icon": "mekanismgenerators:heat_generator",
-    "x": 0,
-    "y": 0,
+    "x": 2,
+    "y": 6,
     "text": [
-     "codex.quest.mek_power.heat_gen.text.0"
+     "codex.quest.mek_power.heat_gen.text.0",
+     "codex.quest.mek_power.heat_gen.text.1",
+     "codex.quest.mek_power.heat_gen.text.2"
     ],
     "tasks": [
      {
@@ -702,16 +969,21 @@
      "items": [],
      "xp": 40,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_start/osmium"
+    ]
    },
    {
     "id": "solar",
     "title": "codex.quest.mek_power.solar.title",
     "icon": "mekanismgenerators:solar_generator",
-    "x": 1,
-    "y": 0,
+    "x": 8,
+    "y": 7,
     "text": [
-     "codex.quest.mek_power.solar.text.0"
+     "codex.quest.mek_power.solar.text.0",
+     "codex.quest.mek_power.solar.text.1",
+     "codex.quest.mek_power.solar.text.2"
     ],
     "tasks": [
      {
@@ -726,7 +998,7 @@
      }
     ],
     "deps": [
-     "heat_gen"
+     "mek_start/alloys"
     ],
     "rewards": {
      "items": [],
@@ -738,10 +1010,12 @@
     "id": "wind",
     "title": "codex.quest.mek_power.wind.title",
     "icon": "mekanismgenerators:wind_generator",
-    "x": 2,
-    "y": 0,
+    "x": 8,
+    "y": 8,
     "text": [
-     "codex.quest.mek_power.wind.text.0"
+     "codex.quest.mek_power.wind.text.0",
+     "codex.quest.mek_power.wind.text.1",
+     "codex.quest.mek_power.wind.text.2"
     ],
     "tasks": [
      {
@@ -751,7 +1025,7 @@
      }
     ],
     "deps": [
-     "solar"
+     "mek_start/alloys"
     ],
     "rewards": {
      "items": [],
@@ -763,10 +1037,12 @@
     "id": "bio",
     "title": "codex.quest.mek_power.bio.title",
     "icon": "mekanismgenerators:bio_generator",
-    "x": 3,
-    "y": 0,
+    "x": 14,
+    "y": 1,
     "text": [
-     "codex.quest.mek_power.bio.text.0"
+     "codex.quest.mek_power.bio.text.0",
+     "codex.quest.mek_power.bio.text.1",
+     "codex.quest.mek_power.bio.text.2"
     ],
     "tasks": [
      {
@@ -776,7 +1052,7 @@
      }
     ],
     "deps": [
-     "wind"
+     "mek_ore/crusher_mek"
     ],
     "rewards": {
      "items": [],
@@ -788,10 +1064,12 @@
     "id": "gas_gen",
     "title": "codex.quest.mek_power.gas_gen.title",
     "icon": "mekanismgenerators:gas_burning_generator",
-    "x": 0,
-    "y": 1,
+    "x": 16,
+    "y": 2,
     "text": [
-     "codex.quest.mek_power.gas_gen.text.0"
+     "codex.quest.mek_power.gas_gen.text.0",
+     "codex.quest.mek_power.gas_gen.text.1",
+     "codex.quest.mek_power.gas_gen.text.2"
     ],
     "tasks": [
      {
@@ -820,10 +1098,12 @@
     "id": "boiler",
     "title": "codex.quest.mek_power.boiler.title",
     "icon": "mekanism:boiler_casing",
-    "x": 0,
-    "y": 2,
+    "x": 10,
+    "y": 4,
     "text": [
-     "codex.quest.mek_power.boiler.text.0"
+     "codex.quest.mek_power.boiler.text.0",
+     "codex.quest.mek_power.boiler.text.1",
+     "codex.quest.mek_power.boiler.text.2"
     ],
     "tasks": [
      {
@@ -838,7 +1118,7 @@
      }
     ],
     "deps": [
-     "gas_gen"
+     "mek_start/casing"
     ],
     "rewards": {
      "items": [],
@@ -850,10 +1130,12 @@
     "id": "turbine",
     "title": "codex.quest.mek_power.turbine.title",
     "icon": "mekanismgenerators:turbine_casing",
-    "x": 0,
-    "y": 3,
+    "x": 12,
+    "y": 8,
     "text": [
-     "codex.quest.mek_power.turbine.text.0"
+     "codex.quest.mek_power.turbine.text.0",
+     "codex.quest.mek_power.turbine.text.1",
+     "codex.quest.mek_power.turbine.text.2"
     ],
     "tasks": [
      {
@@ -895,10 +1177,12 @@
     "id": "induction",
     "title": "codex.quest.mek_power.induction.title",
     "icon": "mekanism:induction_casing",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 9,
     "text": [
-     "codex.quest.mek_power.induction.text.0"
+     "codex.quest.mek_power.induction.text.0",
+     "codex.quest.mek_power.induction.text.1",
+     "codex.quest.mek_power.induction.text.2"
     ],
     "tasks": [
      {
@@ -918,15 +1202,100 @@
      }
     ],
     "deps": [
-     "turbine"
+     "mek_start/alloys"
     ],
     "rewards": {
      "items": [],
      "xp": 40,
      "text": []
     }
+   },
+   {
+    "id": "guide_ethene_phase",
+    "title": "codex.quest.mek_power.guide_ethene_phase.title",
+    "icon": "mekanism:rotary_condensentrator",
+    "deps": [
+     "gas_gen"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:rotary_condensentrator",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 18,
+    "y": 2,
+    "text": [
+     "codex.quest.mek_power.guide_ethene_phase.text.0",
+     "codex.quest.mek_power.guide_ethene_phase.text.1",
+     "codex.quest.mek_power.guide_ethene_phase.text.2"
+    ]
+   },
+   {
+    "id": "guide_hdpe",
+    "title": "codex.quest.mek_power.guide_hdpe.title",
+    "icon": "mekanism:hdpe_pellet",
+    "deps": [
+     "guide_ethene_phase"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:hdpe_pellet",
+      "count": 6
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 20,
+    "y": 3,
+    "text": [
+     "codex.quest.mek_power.guide_hdpe.text.0",
+     "codex.quest.mek_power.guide_hdpe.text.1",
+     "codex.quest.mek_power.guide_hdpe.text.2"
+    ]
+   },
+   {
+    "id": "guide_hdpe_sheet",
+    "title": "codex.quest.mek_power.guide_hdpe_sheet.title",
+    "icon": "mekanism:hdpe_sheet",
+    "deps": [
+     "guide_hdpe"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:hdpe_sheet",
+      "count": 2
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 22,
+    "y": 4,
+    "text": [
+     "codex.quest.mek_power.guide_hdpe_sheet.text.0",
+     "codex.quest.mek_power.guide_hdpe_sheet.text.1",
+     "codex.quest.mek_power.guide_hdpe_sheet.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "mek"
  },
  {
   "id": "mek_nuclear",
@@ -944,10 +1313,12 @@
     "id": "uranium",
     "title": "codex.quest.mek_nuclear.uranium.title",
     "icon": "mekanism:ingot_uranium",
-    "x": 0,
-    "y": 0,
+    "x": 12,
+    "y": 6,
     "text": [
-     "codex.quest.mek_nuclear.uranium.text.0"
+     "codex.quest.mek_nuclear.uranium.text.0",
+     "codex.quest.mek_nuclear.uranium.text.1",
+     "codex.quest.mek_nuclear.uranium.text.2"
     ],
     "tasks": [
      {
@@ -965,16 +1336,21 @@
      "items": [],
      "xp": 40,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_ore/enrichment"
+    ]
    },
    {
     "id": "hazmat",
     "title": "codex.quest.mek_nuclear.hazmat.title",
     "icon": "mekanism:hazmat_gown",
-    "x": 1,
-    "y": 0,
+    "x": 14,
+    "y": 4,
     "text": [
-     "codex.quest.mek_nuclear.hazmat.text.0"
+     "codex.quest.mek_nuclear.hazmat.text.0",
+     "codex.quest.mek_nuclear.hazmat.text.1",
+     "codex.quest.mek_nuclear.hazmat.text.2"
     ],
     "tasks": [
      {
@@ -1006,10 +1382,12 @@
     "id": "fuel",
     "title": "codex.quest.mek_nuclear.fuel.title",
     "icon": "mekanismgenerators:fission_fuel_assembly",
-    "x": 0,
-    "y": 1,
+    "x": 14,
+    "y": 5,
     "text": [
-     "codex.quest.mek_nuclear.fuel.text.0"
+     "codex.quest.mek_nuclear.fuel.text.0",
+     "codex.quest.mek_nuclear.fuel.text.1",
+     "codex.quest.mek_nuclear.fuel.text.2"
     ],
     "tasks": [
      {
@@ -1024,12 +1402,22 @@
      },
      {
       "type": "item",
-      "id": "mekanism:solar_neutron_activator",
+      "id": "mekanism:chemical_oxidizer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:chemical_infuser",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:chemical_dissolution_chamber",
       "count": 1
      }
     ],
     "deps": [
-     "hazmat"
+     "uranium"
     ],
     "rewards": {
      "items": [],
@@ -1041,10 +1429,12 @@
     "id": "reactor",
     "title": "codex.quest.mek_nuclear.reactor.title",
     "icon": "mekanismgenerators:fission_reactor_casing",
-    "x": 0,
-    "y": 2,
+    "x": 16,
+    "y": 6,
     "text": [
-     "codex.quest.mek_nuclear.reactor.text.0"
+     "codex.quest.mek_nuclear.reactor.text.0",
+     "codex.quest.mek_nuclear.reactor.text.1",
+     "codex.quest.mek_nuclear.reactor.text.2"
     ],
     "tasks": [
      {
@@ -1091,6 +1481,7 @@
      "text": []
     },
     "deps": [
+     "hazmat",
      "fuel"
     ]
    },
@@ -1098,10 +1489,12 @@
     "id": "waste",
     "title": "codex.quest.mek_nuclear.waste.title",
     "icon": "mekanism:radioactive_waste_barrel",
-    "x": 0,
-    "y": 3,
+    "x": 18,
+    "y": 5,
     "text": [
-     "codex.quest.mek_nuclear.waste.text.0"
+     "codex.quest.mek_nuclear.waste.text.0",
+     "codex.quest.mek_nuclear.waste.text.1",
+     "codex.quest.mek_nuclear.waste.text.2"
     ],
     "tasks": [
      {
@@ -1133,10 +1526,12 @@
     "id": "fusion",
     "title": "codex.quest.mek_nuclear.fusion.title",
     "icon": "mekanismgenerators:fusion_reactor_controller",
-    "x": 0,
+    "x": 20,
     "y": 4,
     "text": [
-     "codex.quest.mek_nuclear.fusion.text.0"
+     "codex.quest.mek_nuclear.fusion.text.0",
+     "codex.quest.mek_nuclear.fusion.text.1",
+     "codex.quest.mek_nuclear.fusion.text.2"
     ],
     "tasks": [
      {
@@ -1176,17 +1571,20 @@
      "text": []
     },
     "deps": [
-     "waste"
+     "waste",
+     "mek_ore/evaporation"
     ]
    },
    {
     "id": "sps",
     "title": "codex.quest.mek_nuclear.sps.title",
     "icon": "mekanism:sps_casing",
-    "x": 0,
+    "x": 20,
     "y": 5,
     "text": [
-     "codex.quest.mek_nuclear.sps.text.0"
+     "codex.quest.mek_nuclear.sps.text.0",
+     "codex.quest.mek_nuclear.sps.text.1",
+     "codex.quest.mek_nuclear.sps.text.2"
     ],
     "tasks": [
      {
@@ -1218,10 +1616,116 @@
      ]
     },
     "deps": [
+     "waste"
+    ]
+   },
+   {
+    "id": "guide_complete_hazmat",
+    "title": "codex.quest.mek_nuclear.guide_complete_hazmat.title",
+    "icon": "mekanism:hazmat_mask",
+    "deps": [
+     "hazmat"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:hazmat_mask",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:hazmat_gown",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:hazmat_pants",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:hazmat_boots",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 5,
+    "text": [
+     "codex.quest.mek_nuclear.guide_complete_hazmat.text.0",
+     "codex.quest.mek_nuclear.guide_complete_hazmat.text.1",
+     "codex.quest.mek_nuclear.guide_complete_hazmat.text.2"
+    ]
+   },
+   {
+    "id": "guide_cold_stop",
+    "title": "codex.quest.mek_nuclear.guide_cold_stop.title",
+    "icon": "mekanismgenerators:fission_reactor_logic_adapter",
+    "deps": [
+     "reactor",
+     "guide_complete_hazmat"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Аварийный останов проверен без топлива",
+      "note": "codex.quest.mek_nuclear.guide_cold_stop.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 18,
+    "y": 4,
+    "text": [
+     "codex.quest.mek_nuclear.guide_cold_stop.text.0",
+     "codex.quest.mek_nuclear.guide_cold_stop.text.1",
+     "codex.quest.mek_nuclear.guide_cold_stop.text.2"
+    ]
+   },
+   {
+    "id": "guide_heavy_water",
+    "title": "codex.quest.mek_nuclear.guide_heavy_water.title",
+    "icon": "mekanism:electric_pump",
+    "deps": [
      "fusion"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:electric_pump",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mekanism:upgrade_filter",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 22,
+    "y": 5,
+    "text": [
+     "codex.quest.mek_nuclear.guide_heavy_water.text.0",
+     "codex.quest.mek_nuclear.guide_heavy_water.text.1",
+     "codex.quest.mek_nuclear.guide_heavy_water.text.2"
     ]
    }
-  ]
+  ],
+  "map": "mek"
  },
  {
   "id": "mek_qio",
@@ -1230,16 +1734,21 @@
   "title": "codex.chapter.mek_qio.title",
   "icon": "mekanism:qio_dashboard",
   "subtitle": "codex.chapter.mek_qio.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.mek_qio.intro.0",
+   "codex.chapter.mek_qio.intro.1"
+  ],
   "quests": [
    {
     "id": "teleport_core",
     "title": "codex.quest.mek_qio.teleport_core.title",
     "icon": "mekanism:teleportation_core",
-    "x": 0,
-    "y": 0,
+    "x": 8,
+    "y": 10,
     "text": [
-     "codex.quest.mek_qio.teleport_core.text.0"
+     "codex.quest.mek_qio.teleport_core.text.0",
+     "codex.quest.mek_qio.teleport_core.text.1",
+     "codex.quest.mek_qio.teleport_core.text.2"
     ],
     "tasks": [
      {
@@ -1252,16 +1761,21 @@
      "items": [],
      "xp": 40,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_start/alloys"
+    ]
    },
    {
     "id": "teleporter",
     "title": "codex.quest.mek_qio.teleporter.title",
     "icon": "mekanism:teleporter",
-    "x": 0,
-    "y": 1,
+    "x": 10,
+    "y": 7,
     "text": [
-     "codex.quest.mek_qio.teleporter.text.0"
+     "codex.quest.mek_qio.teleporter.text.0",
+     "codex.quest.mek_qio.teleporter.text.1",
+     "codex.quest.mek_qio.teleporter.text.2"
     ],
     "tasks": [
      {
@@ -1288,10 +1802,12 @@
     "id": "entangloporter",
     "title": "codex.quest.mek_qio.entangloporter.title",
     "icon": "mekanism:quantum_entangloporter",
-    "x": 1,
-    "y": 1,
+    "x": 12,
+    "y": 11,
     "text": [
-     "codex.quest.mek_qio.entangloporter.text.0"
+     "codex.quest.mek_qio.entangloporter.text.0",
+     "codex.quest.mek_qio.entangloporter.text.1",
+     "codex.quest.mek_qio.entangloporter.text.2"
     ],
     "tasks": [
      {
@@ -1313,10 +1829,12 @@
     "id": "qio_array",
     "title": "codex.quest.mek_qio.qio_array.title",
     "icon": "mekanism:qio_drive_array",
-    "x": 0,
-    "y": 2,
+    "x": 14,
+    "y": 8,
     "text": [
-     "codex.quest.mek_qio.qio_array.text.0"
+     "codex.quest.mek_qio.qio_array.text.0",
+     "codex.quest.mek_qio.qio_array.text.1",
+     "codex.quest.mek_qio.qio_array.text.2"
     ],
     "tasks": [
      {
@@ -1343,10 +1861,12 @@
     "id": "qio_dash",
     "title": "codex.quest.mek_qio.qio_dash.title",
     "icon": "mekanism:qio_dashboard",
-    "x": 0,
-    "y": 3,
+    "x": 16,
+    "y": 9,
     "text": [
-     "codex.quest.mek_qio.qio_dash.text.0"
+     "codex.quest.mek_qio.qio_dash.text.0",
+     "codex.quest.mek_qio.qio_dash.text.1",
+     "codex.quest.mek_qio.qio_dash.text.2"
     ],
     "tasks": [
      {
@@ -1375,10 +1895,12 @@
     "id": "qio_io",
     "title": "codex.quest.mek_qio.qio_io.title",
     "icon": "mekanism:qio_importer",
-    "x": 0,
-    "y": 4,
+    "x": 18,
+    "y": 9,
     "text": [
-     "codex.quest.mek_qio.qio_io.text.0"
+     "codex.quest.mek_qio.qio_io.text.0",
+     "codex.quest.mek_qio.qio_io.text.1",
+     "codex.quest.mek_qio.qio_io.text.2"
     ],
     "tasks": [
      {
@@ -1410,10 +1932,12 @@
     "id": "stabilizer",
     "title": "codex.quest.mek_qio.stabilizer.title",
     "icon": "mekanism:dimensional_stabilizer",
-    "x": 1,
-    "y": 4,
+    "x": 20,
+    "y": 7,
     "text": [
-     "codex.quest.mek_qio.stabilizer.text.0"
+     "codex.quest.mek_qio.stabilizer.text.0",
+     "codex.quest.mek_qio.stabilizer.text.1",
+     "codex.quest.mek_qio.stabilizer.text.2"
     ],
     "tasks": [
      {
@@ -1430,8 +1954,65 @@
      "xp": 40,
      "text": []
     }
+   },
+   {
+    "id": "guide_stock_signal",
+    "title": "codex.quest.mek_qio.guide_stock_signal.title",
+    "icon": "mekanism:qio_redstone_adapter",
+    "deps": [
+     "qio_io"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Порог запаса изменяет сигнал",
+      "note": "codex.quest.mek_qio.guide_stock_signal.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 20,
+    "y": 8,
+    "text": [
+     "codex.quest.mek_qio.guide_stock_signal.text.0",
+     "codex.quest.mek_qio.guide_stock_signal.text.1",
+     "codex.quest.mek_qio.guide_stock_signal.text.2"
+    ]
+   },
+   {
+    "id": "guide_remote_supply",
+    "title": "codex.quest.mek_qio.guide_remote_supply.title",
+    "icon": "mekanism:quantum_entangloporter",
+    "deps": [
+     "entangloporter"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Пробная доставка и остановка выхода проверены",
+      "note": "codex.quest.mek_qio.guide_remote_supply.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 9,
+    "text": [
+     "codex.quest.mek_qio.guide_remote_supply.text.0",
+     "codex.quest.mek_qio.guide_remote_supply.text.1",
+     "codex.quest.mek_qio.guide_remote_supply.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "mek"
  },
  {
   "id": "mek_gear",
@@ -1441,17 +2022,20 @@
   "icon": "mekanism:mekasuit_bodyarmor",
   "subtitle": "codex.chapter.mek_gear.subtitle",
   "intro": [
-   "codex.chapter.mek_gear.intro.0"
+   "codex.chapter.mek_gear.intro.0",
+   "codex.chapter.mek_gear.intro.1"
   ],
   "quests": [
    {
     "id": "scuba",
     "title": "codex.quest.mek_gear.scuba.title",
     "icon": "mekanism:scuba_mask",
-    "x": 0,
-    "y": 0,
+    "x": 10,
+    "y": 5,
     "text": [
-     "codex.quest.mek_gear.scuba.text.0"
+     "codex.quest.mek_gear.scuba.text.0",
+     "codex.quest.mek_gear.scuba.text.1",
+     "codex.quest.mek_gear.scuba.text.2"
     ],
     "tasks": [
      {
@@ -1474,16 +2058,21 @@
      "items": [],
      "xp": 40,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_start/casing"
+    ]
    },
    {
     "id": "atomic_disassembler",
     "title": "codex.quest.mek_gear.atomic_disassembler.title",
     "icon": "mekanism:atomic_disassembler",
-    "x": 1,
-    "y": 0,
+    "x": 12,
+    "y": 9,
     "text": [
-     "codex.quest.mek_gear.atomic_disassembler.text.0"
+     "codex.quest.mek_gear.atomic_disassembler.text.0",
+     "codex.quest.mek_gear.atomic_disassembler.text.1",
+     "codex.quest.mek_gear.atomic_disassembler.text.2"
     ],
     "tasks": [
      {
@@ -1505,10 +2094,12 @@
     "id": "robit",
     "title": "codex.quest.mek_gear.robit.title",
     "icon": "mekanism:robit",
-    "x": 2,
-    "y": 0,
+    "x": 14,
+    "y": 6,
     "text": [
-     "codex.quest.mek_gear.robit.text.0"
+     "codex.quest.mek_gear.robit.text.0",
+     "codex.quest.mek_gear.robit.text.1",
+     "codex.quest.mek_gear.robit.text.2"
     ],
     "tasks": [
      {
@@ -1531,10 +2122,12 @@
     "id": "mekasuit",
     "title": "codex.quest.mek_gear.mekasuit.title",
     "icon": "mekanism:mekasuit_bodyarmor",
-    "x": 0,
-    "y": 1,
+    "x": 14,
+    "y": 7,
     "text": [
-     "codex.quest.mek_gear.mekasuit.text.0"
+     "codex.quest.mek_gear.mekasuit.text.0",
+     "codex.quest.mek_gear.mekasuit.text.1",
+     "codex.quest.mek_gear.mekasuit.text.2"
     ],
     "tasks": [
      {
@@ -1559,7 +2152,7 @@
      }
     ],
     "deps": [
-     "robit"
+     "atomic_disassembler"
     ],
     "rewards": {
      "items": [
@@ -1576,10 +2169,12 @@
     "id": "modification",
     "title": "codex.quest.mek_gear.modification.title",
     "icon": "mekanism:modification_station",
-    "x": 0,
-    "y": 2,
+    "x": 16,
+    "y": 8,
     "text": [
-     "codex.quest.mek_gear.modification.text.0"
+     "codex.quest.mek_gear.modification.text.0",
+     "codex.quest.mek_gear.modification.text.1",
+     "codex.quest.mek_gear.modification.text.2"
     ],
     "tasks": [
      {
@@ -1606,10 +2201,12 @@
     "id": "modules_core",
     "title": "codex.quest.mek_gear.modules_core.title",
     "icon": "mekanism:module_energy_unit",
-    "x": 0,
-    "y": 3,
+    "x": 18,
+    "y": 6,
     "text": [
-     "codex.quest.mek_gear.modules_core.text.0"
+     "codex.quest.mek_gear.modules_core.text.0",
+     "codex.quest.mek_gear.modules_core.text.1",
+     "codex.quest.mek_gear.modules_core.text.2"
     ],
     "tasks": [
      {
@@ -1641,10 +2238,12 @@
     "id": "modules_move",
     "title": "codex.quest.mek_gear.modules_move.title",
     "icon": "mekanism:module_gravitational_modulating_unit",
-    "x": 1,
-    "y": 3,
+    "x": 20,
+    "y": 6,
     "text": [
-     "codex.quest.mek_gear.modules_move.text.0"
+     "codex.quest.mek_gear.modules_move.text.0",
+     "codex.quest.mek_gear.modules_move.text.1",
+     "codex.quest.mek_gear.modules_move.text.2"
     ],
     "tasks": [
      {
@@ -1676,10 +2275,12 @@
     "id": "modules_util",
     "title": "codex.quest.mek_gear.modules_util.title",
     "icon": "mekanism:module_vision_enhancement_unit",
-    "x": 2,
-    "y": 3,
+    "x": 22,
+    "y": 6,
     "text": [
-     "codex.quest.mek_gear.modules_util.text.0"
+     "codex.quest.mek_gear.modules_util.text.0",
+     "codex.quest.mek_gear.modules_util.text.1",
+     "codex.quest.mek_gear.modules_util.text.2"
     ],
     "tasks": [
      {
@@ -1711,10 +2312,12 @@
     "id": "mekatool",
     "title": "codex.quest.mek_gear.mekatool.title",
     "icon": "mekanism:meka_tool",
-    "x": 0,
-    "y": 4,
+    "x": 24,
+    "y": 5,
     "text": [
-     "codex.quest.mek_gear.mekatool.text.0"
+     "codex.quest.mek_gear.mekatool.text.0",
+     "codex.quest.mek_gear.mekatool.text.1",
+     "codex.quest.mek_gear.mekatool.text.2"
     ],
     "tasks": [
      {
@@ -1748,13 +2351,15 @@
     "id": "laser",
     "title": "codex.quest.mek_gear.laser.title",
     "icon": "mekanism:laser",
-    "x": -1,
-    "y": 3,
+    "x": 18,
+    "y": 7,
     "deps": [
      "modification"
     ],
     "text": [
-     "codex.quest.mek_gear.laser.text.0"
+     "codex.quest.mek_gear.laser.text.0",
+     "codex.quest.mek_gear.laser.text.1",
+     "codex.quest.mek_gear.laser.text.2"
     ],
     "tasks": [
      {
@@ -1784,13 +2389,15 @@
     "id": "security",
     "title": "codex.quest.mek_gear.security.title",
     "icon": "mekanism:security_desk",
-    "x": -1,
-    "y": 4,
+    "x": 18,
+    "y": 8,
     "deps": [
      "modification"
     ],
     "text": [
-     "codex.quest.mek_gear.security.text.0"
+     "codex.quest.mek_gear.security.text.0",
+     "codex.quest.mek_gear.security.text.1",
+     "codex.quest.mek_gear.security.text.2"
     ],
     "tasks": [
      {
@@ -1805,7 +2412,37 @@
      "xp": 40,
      "text": []
     }
+   },
+   {
+    "id": "guide_charge_stop",
+    "title": "codex.quest.mek_gear.guide_charge_stop.title",
+    "icon": "mekanism:chargepad",
+    "deps": [
+     "robit",
+     "mekasuit"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanism:chargepad",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 7,
+    "text": [
+     "codex.quest.mek_gear.guide_charge_stop.text.0",
+     "codex.quest.mek_gear.guide_charge_stop.text.1",
+     "codex.quest.mek_gear.guide_charge_stop.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "mek"
  }
 ]

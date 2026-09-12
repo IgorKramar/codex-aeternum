@@ -19,6 +19,15 @@ repositories {
 
 neoForge {
     version = neoforge_version
+    runs {
+        client {
+            client()
+            gameDirectory = file("build/run")
+        }
+    }
+    mods {
+        codex { sourceSet sourceSets.main }
+    }
 }
 
 dependencies {
@@ -42,4 +51,17 @@ tasks.named('processResources', ProcessResources) {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
     options.release = 21
+}
+
+// Регрессии модели и сохранений без запуска Minecraft и без отдельного тестового фреймворка.
+tasks.register('runtimeRegression', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'ru.kramar.codex.RuntimeRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(21) }
+}
+tasks.named('check') { dependsOn tasks.named('runtimeRegression') }
+sourceSets.test {
+    compileClasspath += sourceSets.main.compileClasspath
+    runtimeClasspath += sourceSets.main.runtimeClasspath
 }

@@ -1,0 +1,1650 @@
+{
+  "section": "more",
+  "chapters": {
+    "more_vanilla": {
+      "intro": [
+        "Обычные системы Minecraft продолжают работать рядом с модами: зачарования, торговля, маяк и элитры дают полезные самостоятельные возможности. Эта глава закрепляет их практическое применение после первых ресурсов.",
+        "Численные предметные цели требуют указанный запас одного предмета, а разные виды запоминаются по очереди. Перед дорогим изготовлением различайте готовый предмет, его рабочую установку и расходники, необходимые для использования."
+      ],
+      "intro_en": [
+        "Ordinary Minecraft systems remain useful alongside mods: enchanting, trading, beacons and elytra provide independent capabilities. This chapter develops practical applications beyond your first resources.",
+        "Numerical item objectives require the stated stock of one item, while different item types are remembered sequentially. Before expensive crafting, distinguish the finished item, its operational setup and required consumables."
+      ]
+    },
+    "more_kitchen": {
+      "intro": [
+        "Эта глава собирает настоящие блюда разных кухонь, а не перечень съедобных названий. Farmer’s Delight использует котелок с нагревом, обычный крафт и разделку; специальные блюда MineColonies готовят соответствующие граждане.",
+        "Цели с Consume принимают партию как вклад и забирают еду. Готовьте отдельный запас для сдачи, оставляя питание игроку и колонии; блюдо на столе или уже съеденная порция не находится в текущем инвентаре для передачи."
+      ],
+      "intro_en": [
+        "This chapter collects actual dishes from different kitchens rather than listing edible names. Farmer’s Delight uses heated cooking pots, ordinary crafting and cutting; specialized MineColonies dishes require the appropriate citizens.",
+        "Consume objectives accept contributions and remove food. Prepare separate submission batches while retaining meals for yourself and the colony; a plated feast or already eaten portion is not currently in inventory for delivery."
+      ]
+    },
+    "more_explore": {
+      "intro": [
+        "Атлас ведёт по конкретным биомам, а не по приблизительно похожим пейзажам. Большая часть этой главы относится к Terralith в обычном мире; три последних направления связаны с Eternal Tales. Компас природы ищет выбранный биом в текущем измерении.",
+        "Записывайте координаты безопасного подхода и проверяйте название места в интерфейсе или F3. Пролёт высоко над красивым участком и посещение нужного биома не всегда совпадают: границы учитывают реальное положение персонажа."
+      ],
+      "intro_en": [
+        "The atlas follows specific biomes rather than approximately similar scenery. Most destinations are Terralith areas in the Overworld; the final three belong to Eternal Tales. Nature’s Compass searches the selected biome in the current dimension.",
+        "Record safe approach coordinates and check location names through the interface or F3. Flying high above attractive terrain does not always count as visiting its biome: boundaries use the character’s actual position."
+      ]
+    },
+    "more_rails": {
+      "intro": [
+        "Депо обслуживает настоящие составы Create и их расширения Steam ’n’ Rails. Декоративный котёл задаёт внешний вид локомотива, а движение обеспечивается собранным поездом с тележками, управлением и маршрутом.",
+        "Проверяйте сцепление, сигнализацию и снабжение на коротком участке перед выводом состава на общую линию. Сдаваемые с Consume принадлежности исчезают; действующее оборудование депо держите отдельным запасом."
+      ],
+      "intro_en": [
+        "The depot services actual Create trains and Steam ’n’ Rails additions. A decorative boiler shapes a locomotive’s appearance, while movement requires an assembled train with bogeys, controls and a route.",
+        "Test coupling, signalling and supplies on a short section before joining the main line. Accessories submitted with Consume disappear; keep operational depot equipment as a separate reserve."
+      ]
+    },
+    "more_munitions": {
+      "intro": [
+        "Арсенал принимает отдельные партии игровых боеприпасов Create Big Cannons. Большинство целей здесь Consume: сданные запасы исчезают, поэтому практическое оснащение батареи готовится отдельно.",
+        "Не испытывайте снаряды в жилом квартале. Для учебного выстрела нужен подготовленный полигон, подходящая пушка, правильный метательный заряд и понятный эффект снаряда; одно совпадение внешнего диаметра не подтверждает совместимость."
+      ],
+      "intro_en": [
+        "The arsenal accepts separate batches of Create Big Cannons game ammunition. Most objectives Consume submissions, so operational battery stock must be prepared separately.",
+        "Do not test shells in residential districts. A trial shot needs a prepared range, compatible cannon, suitable propellant and understood projectile effects; similar-looking diameter alone does not establish compatibility."
+      ]
+    },
+    "more_et_side": {
+      "intro": [
+        "Побочные цели Eternal Tales включают коллекции, превращения, события и необычные испытания. Отображаемое название достижения не всегда точно описывает проверку: иногда нужен предмет, иногда надетый комплект или завершение события.",
+        "Читайте конкретное действие у цели и готовьте безопасное место для игровых эффектов. Редкие коллекции удобно вести по списку, а эксперименты со взрывами и опасной пищей — отдельно от колонии и ценного багажа."
+      ],
+      "intro_en": [
+        "Eternal Tales side objectives include collections, transformations, events and unusual trials. Advancement names do not always precisely describe their checks: an item, equipped set or event ending may be required.",
+        "Read the specific action beside each objective and prepare a safe place for game effects. Track rare collections with a checklist and keep explosive or hazardous-food experiments separate from the colony and valuable luggage."
+      ]
+    },
+    "more_home": {
+      "intro": [
+        "Дом объединяет работающую мастерскую, удобную кухню и место отдыха. Выбирайте мебель из реально установленных модов и сохраняйте проходы к контейнерам и устройствам, чтобы оформление не мешало обычной игре.",
+        "Архив Furnicraft в папке mods сам по себе не означает загруженный datapack. Эти задания опираются на доступные Handcrafted, Refurbished Furniture, Domum Ornamentum и другие предметы сборки; включение отдельного набора не требуется."
+      ],
+      "intro_en": [
+        "A home combines a functional workshop, convenient kitchen and resting space. Choose furniture from actually installed mods and preserve access to storage and devices so decoration supports everyday play.",
+        "A Furnicraft archive in the mods folder does not itself mean its datapack is loaded. These quests use available Handcrafted, Refurbished Furniture, Domum Ornamentum and other pack items; no separate pack activation is required."
+      ]
+    },
+    "more_qol2": {
+      "intro": [
+        "Удобства сборки помогают искать места, строить, хранить добычу и понимать предметы. Каждое устройство решает свою задачу: компас структур не ищет биомы, а мусорная корзина удаляет груз вместо расширения склада.",
+        "Испытывайте новый инструмент на маленьком понятном примере. Проверяйте энергию, материалы, фильтры и возможность отмены до работы с дорогой постройкой; доступные названия в меню ещё не доказывают безопасную настройку."
+      ],
+      "intro_en": [
+        "Pack conveniences help with navigation, building, loot storage and item understanding. Each tool has its own role: a structure compass does not search biomes, and a trash can deletes stock rather than expanding storage.",
+        "Test unfamiliar tools on small clear examples. Inspect energy, materials, filters and undo behaviour before using valuable buildings; visible menu names do not establish a safe configuration."
+      ]
+    }
+  },
+  "quests": {
+    "more_vanilla/diamonds": {
+      "text": [
+        "Шестнадцать алмазов дают запас для зачарований, инструментов и дальнейших улучшений. Ищите алмазную руду в глубинных слоях обычного мира и используйте кирку подходящего уровня. Каменная кирка не выдаст нужный результат; перед разработкой жилы убедитесь, что инструмент пригоден и не сломается посреди работы.",
+        "Осмотрите соседние блоки на лаву и обеспечьте свет с выходом. Удача повышает возможный выход алмазов, а Шёлковое касание сохраняет рудный блок для последующей обработки. Для этой цели нужны сами алмазы, поэтому принесённая руда ещё не является готовой партией.",
+        "Соберите шестнадцать одновременно у игрока и зарегистрируйте запас, затем распределите его по плану. Разрозненные находки, сразу потраченные по одной, не суммируются в такую проверку. Не превращайте всё в броню до изготовления стола зачарований и сохранения материала для необходимых инструментов."
+      ],
+      "text_en": [
+        "Sixteen diamonds provide reserves for enchanting, tools and later upgrades. Search deep Overworld layers for diamond ore using an appropriate pickaxe. Stone tools do not yield the required drops; verify suitability and durability before mining a vein.",
+        "Inspect adjacent blocks for lava and provide lighting and an exit. Fortune can increase diamond yield, while Silk Touch preserves ore blocks for later processing. This objective needs diamonds themselves, so collected ore is not yet a finished batch.",
+        "Hold sixteen together and register the reserve before allocating it. Separate finds immediately spent individually do not accumulate for this check. Avoid converting everything into armour before making an enchanting table and retaining material for necessary tools."
+      ]
+    },
+    "more_vanilla/enchant": {
+      "text": [
+        "Стол зачарований использует опыт игрока и лазурит, а книжные полки открывают более высокие предложения. Подготовьте стол и пятнадцать обычных полок. В рецепте стола нужны книга, два алмаза и четыре обсидиана; цветная декоративная мебель другого мода не обязательно заменяет рабочие полки.",
+        "Разместите полки вокруг стола с нужным свободным промежутком и без мешающих блоков между ними. Откройте интерфейс с подходящим предметом и проверьте предложение высокого уровня. Для верхней обычной ступени требуется тридцатый уровень опыта, хотя сама операция расходует меньше уровней.",
+        "Добавьте лазурит и выберите чары после чтения предложения. Наличие пятнадцати полок в истории инвентаря не доказывает их правильное расположение. Если уровень предложения низок, сначала осмотрите расстояния и препятствия, включая поставленный в промежутке декор, затем проверяйте собственный опыт и возможность зачаровать выбранный предмет."
+      ],
+      "text_en": [
+        "An enchanting table uses player experience and lapis, while bookshelves unlock higher offers. Prepare the table and fifteen ordinary shelves. Its recipe needs a book, two diamonds and four obsidian; another mod’s decorative furniture does not necessarily replace functional shelves.",
+        "Arrange shelves around the table with the required open gap and no obstructing blocks between them. Open the interface with an eligible item and inspect the high-level offer. The highest ordinary tier requires experience level thirty, although the operation itself consumes fewer levels.",
+        "Add lapis and choose after reading the offer. Historical possession of fifteen shelves does not verify placement. If offers remain low, inspect distances and obstacles, including gap decorations, before checking experience and whether the selected item can be enchanted."
+      ]
+    },
+    "more_vanilla/villagers": {
+      "text": [
+        "Торговля превращает воспроизводимые ресурсы в изумруды и полезные покупки. Подготовьте тридцать два изумруда одной партией и блок Trader из Easy Villagers. Этот блок обслуживает помещённого жителя; пустой торговый корпус не генерирует предложения сам по себе.",
+        "Перенесите жителя поддерживаемым способом мода, задайте подходящий рабочий блок и прочитайте сделки до первой покупки. Проведённая торговля закрепляет профессию и предложения, поэтому выбирайте нужную специализацию заранее. Следите за наличием товара и восстановлением предложений вместо ожидания бесконечной продажи одной партии.",
+        "Полученный запас изумрудов Кодекс не забирает. Разделите его между запланированными покупками и резервом обмена, а сырьё для продажи храните отдельно. Если Trader не показывает ожидаемую профессию, проверьте самого жителя и его прежние сделки; перестановка рабочего блока не отменяет уже закреплённую торговую историю."
+      ],
+      "text_en": [
+        "Trading converts renewable resources into emeralds and useful purchases. Prepare thirty-two emeralds together and an Easy Villagers Trader block. This block serves an inserted villager; an empty trading housing does not generate offers itself.",
+        "Transfer a villager using the mod’s supported method, supply a suitable workstation and inspect trades before the first purchase. Trading locks profession and offers, so select the desired specialization beforehand. Monitor stock and offer restocking instead of expecting unlimited sales from one batch.",
+        "The Codex does not consume your emerald reserve. Divide it between planned purchases and trading reserves while storing sale inputs separately. If the Trader shows an unexpected profession, inspect the villager and previous deals; changing a workstation does not erase an established trading history."
+      ]
+    },
+    "more_vanilla/netherite": {
+      "text": [
+        "Незеритовые слитки изготавливают из обломков, полученных плавкой древних обломков Нижнего мира, и золота. Один слиток требует четыре незеритовых обломка и четыре золотых слитка. Для партии из четырёх подготовьте соответствующий запас, не перепутав сырой добытый блок с готовой деталью.",
+        "Добывайте подходящей киркой, проверяя лавовые карманы и путь возвращения. После плавки соберите слитки и зарегистрируйте четыре вместе. При использовании взрывных способов добычи выбирайте отдельный участок без своей инфраструктуры и заранее подготовленное укрытие, а не испытывайте их внутри портальной базы.",
+        "Улучшение алмазного снаряжения в этой версии дополнительно требует шаблон незеритового улучшения и кузнечный стол. Один слиток не превращает железный инструмент напрямую в незеритовый. Сначала сохраните или размножьте нужный шаблон доступным рецептом, затем распределяйте металл между наиболее полезными предметами и будущими модовыми компонентами."
+      ],
+      "text_en": [
+        "Netherite ingots combine scraps smelted from Nether ancient debris with gold. One ingot requires four netherite scraps and four gold ingots. Prepare sufficient stock for four ingots without confusing mined debris blocks with finished components.",
+        "Mine with a suitable pickaxe while checking lava pockets and return routes. Smelt and craft, then register four ingots together. If using explosive mining methods, choose an isolated site away from infrastructure with prepared shelter rather than testing inside your portal base.",
+        "Upgrading diamond equipment in this version additionally requires a netherite upgrade template and smithing table. An ingot cannot directly convert an iron tool to netherite. Preserve or duplicate the required template with its available recipe before assigning metal to priority equipment and future mod components."
+      ]
+    },
+    "more_vanilla/beacon": {
+      "text": [
+        "Маяк даёт эффект в окружающей области, когда стоит на подходящей минеральной пирамиде и его луч не перекрыт. Получите звезду Нижнего мира после победы над Иссушителем и изготовьте маяк. Девять железных блоков из задания образуют только первый базовый слой три на три.",
+        "Разместите маяк по центру слоя и обеспечьте лучу выход вверх. Откройте интерфейс, выберите доступный эффект и внесите принимаемый платёж. Блоки пирамиды являются конструкцией, а не топливом, которое требуется постоянно подбрасывать для каждого тика работы.",
+        "Проверьте появление выбранного эффекта, находясь рядом. Первый слой не открывает все возможности максимальной пирамиды, поэтому не обещает сразу второй уровень спешки. Если луча нет, осмотрите основание и перекрытия; если эффекта нет, проверьте выбор, оплату и расстояние до работающего маяка."
+      ],
+      "text_en": [
+        "A beacon applies an area effect when supported by a suitable mineral pyramid with an unobstructed beam. Obtain a Nether star by defeating the Wither and craft the beacon. The nine iron blocks in this quest form only the initial three-by-three base layer.",
+        "Place the beacon centrally above the layer and provide an upward beam path. Open its interface, choose an available effect and insert accepted payment. Pyramid blocks are structural material rather than fuel needing constant replenishment.",
+        "Check the selected effect while standing nearby. A single layer does not unlock every maximum-pyramid option and cannot immediately promise Haste II. If the beam is absent, inspect the base and overhead obstruction; if the effect is absent, check selection, payment and distance from the active beacon."
+      ]
+    },
+    "more_vanilla/trims": {
+      "text": [
+        "Отделка брони меняет внешний рисунок снаряжения, а не автоматически повышает его защиту. Подготовьте кузнечный стол, найденный шаблон отделки, подходящую броню и материал цвета. Шаблон незеритового улучшения выполняет другую операцию и не заменяет декоративный узор.",
+        "Откройте стол, поместите шаблон, броню и цветовой материал, затем осмотрите предпросмотр результата. Если рисунок нравится, заберите обработанный предмет. Использованный шаблон и материал расходуются, поэтому редкий образец разумно сначала сохранить размножением по доступному рецепту.",
+        "Ручная цель требует нанести отделку на любую броню; наличие стола в инвентаре не подтверждает этот шаг. Наденьте результат или осмотрите его в интерфейсе и только затем отметьте выполнение. Для согласованного комплекта отдельно планируйте расход шаблонов на каждую часть, не ожидая, что один обработанный нагрудник автоматически украсит шлем и ботинки."
+      ],
+      "text_en": [
+        "Armour trims change equipment appearance rather than automatically increasing protection. Prepare a smithing table, a found trim template, eligible armour and a colour material. A netherite upgrade template performs another operation and cannot substitute for a decorative pattern.",
+        "Open the table, insert template, armour and colouring material, then inspect the preview. If satisfied, take the finished item. The template and material are consumed, so consider preserving a rare design through its available duplication recipe first.",
+        "The manual objective requires applying a trim to any armour; merely owning the table does not complete it. Equip or inspect the result before confirming. For a coordinated set, budget templates separately for each piece instead of expecting one decorated chestplate to automatically decorate helmet and boots."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Нанести кузнечную отделку на любой предмет брони",
+          "en": "Apply a smithing trim to any armour item"
+        }
+      }
+    },
+    "more_vanilla/elytra2": {
+      "text": [
+        "Элитры позволяют планировать и ускоряться фейерверками, но требуют свободного места и исправной прочности. Обычный путь получения ведёт к кораблю города Края. Подготовьте снаряжение для экспедиции, а после находки сохраните безопасный способ возвращения с внешних островов.",
+        "Изготовьте шестьдесят четыре ракеты без пиротехнических звёзд для движения. Звёзды добавляют взрывные эффекты, которые не нужны для обычного полёта и могут причинить вред. Наденьте элитры в соответствующий слот, начните планирование и испытайте короткий разгон над знакомым открытым участком.",
+        "Проверьте посадку, расход ракет и прочность до дальнего маршрута. Предметная цель не подтверждает освоенное управление, а потеря высоты рядом со стеной остаётся опасной даже с полным запасом ускорителей. Держите еду и запас ремонта доступными; элитры не восстанавливаются от того, что в инвентаре лежит ещё одна стопка топлива."
+      ],
+      "text_en": [
+        "Elytra enable gliding and firework acceleration but need open space and adequate durability. Their ordinary source is an End city ship. Prepare expedition equipment and preserve a safe return method after reaching the outer islands.",
+        "Craft sixty-four rockets without firework stars for propulsion. Stars add explosive effects unnecessary for ordinary flight and potentially harmful. Equip elytra in the appropriate slot, begin gliding and test a short boost over a familiar open area.",
+        "Check landing, rocket consumption and durability before a long route. The item objective does not establish handling skill, and losing height beside a wall remains dangerous even with ample boosters. Keep food and repair supplies accessible; another stack of fuel does not restore elytra durability."
+      ]
+    },
+    "more_kitchen/stew": {
+      "text": [
+        "Для сдачи нужны по четыре говяжьих рагу, куриных супа и рыбных рагу Farmer’s Delight. Все три цели Consume: готовые порции будут удалены при передаче. Подготовьте котелок с источником тепла и миски для извлечения блюд, а также отдельную еду для себя.",
+        "Говяжье рагу сочетает сырую говядину, морковь и картофель. Куриный суп использует сырую курицу, морковь, листовую зелень и подходящий овощ; рыбное рагу требует безопасную сырую рыбу, томатный соус и лук. Разместите ингредиенты каждого рецепта отдельно и дождитесь приготовления.",
+        "Соберите нужные порции в миски и держите все три сдаваемые партии до подтверждения. Похожий ванильный суп не подходит вместо указанного блюда. При остановке проверьте нагрев и тару; свободный выход важен не меньше ингредиентов, поскольку приготовленная пища в котелке ещё должна стать предметами для передачи."
+      ],
+      "text_en": [
+        "Submission requires four each of Farmer’s Delight beef stew, chicken soup and fish stew. All three objectives Consume: finished portions are removed on delivery. Prepare a heated cooking pot and bowls for extraction, plus separate food for yourself.",
+        "Beef stew combines raw beef, carrot and potato. Chicken soup uses raw chicken, carrot, leafy greens and a suitable vegetable; fish stew needs safe raw fish, tomato sauce and onion. Load ingredients for each recipe separately and await cooking.",
+        "Collect portions in bowls and retain all three submission batches until confirmation. A similar vanilla soup cannot replace the specified dish. For stoppages, inspect heat and containers; output space matters alongside ingredients because food in the pot must still become transferable items."
+      ]
+    },
+    "more_kitchen/bread": {
+      "text": [
+        "Сэндвичи собираются обычным крафтом из хлеба, готового мяса и овощей. Подготовьте восемь с беконом и восемь с курицей; обе партии сдаются с Consume и исчезнут после подтверждения. Не рассчитывайте продолжить путешествие на этой же еде после передачи.",
+        "Для варианта с беконом нужны хлеб, приготовленный бекон, листовая зелень и томат. Куриный использует хлеб, готовую курицу, зелень и морковь. Сырая мясная нарезка ещё требует приготовления, а замена томата морковью меняет рецепт вместо универсального заполнения овощного слота.",
+        "Сначала изготовьте по образцу, затем доведите каждую партию до восьми и передайте весь набор. Для устойчивого выпуска обеспечьте отдельные источники хлеба, зелени и мяса; один переполненный сундук пшеницы не заменяет недостающую начинку. Этот шаг удобно связать с уже действующей фермой и разделочной доской."
+      ],
+      "text_en": [
+        "Sandwiches use ordinary crafting with bread, cooked meat and vegetables. Prepare eight bacon sandwiches and eight chicken sandwiches; both batches are consumed on submission. Do not expect to continue travelling on the same food afterward.",
+        "The bacon variant needs bread, cooked bacon, leafy greens and tomato. The chicken version uses bread, cooked chicken, greens and carrot. Raw meat cuts still need cooking, and replacing tomato with carrot changes the recipe rather than filling a universal vegetable slot.",
+        "Make one sample each before expanding to eight and submitting the complete set. Reliable production needs separate bread, greens and meat supplies; a full wheat chest does not replace missing filling. This step connects conveniently with an existing farm and cutting board."
+      ]
+    },
+    "more_kitchen/pies": {
+      "text": [
+        "Пироги для этой цели нужны целыми: два яблочных и два шоколадных. Consume заберёт все четыре изделия, поэтому не нарезайте их на порции перед сдачей. Подготовьте основы пирога и отдельные начинки, оставив образец для собственного стола при желании.",
+        "Яблочный рецепт включает три пшеницы, три яблока, два сахара и основу. Обычный шоколадный сочетает какао, молоко, сахар и основу; установленная интеграция Create также позволяет наполнить основу пятьюстами милливедрами шоколада. Выбирайте один доступный способ и проверяйте конкретный результат.",
+        "Сохраните целые предметы до передачи. Разделочная доска превращает каждый пирог в четыре ломтика, но эти ломтики не заменяют целый пирог в задании. Если рецепт не собирается, различайте обычную основу и уже готовую выпечку, а у жидкостного пути проверьте тип шоколада и достаточный объём в системе наполнения."
+      ],
+      "text_en": [
+        "This objective needs whole pies: two apple and two chocolate. Consume removes all four, so avoid cutting them into portions before submission. Prepare pie crusts and separate fillings, optionally keeping another sample for your own table.",
+        "Apple pie uses three wheat, three apples, two sugar and a crust. Ordinary chocolate pie combines cocoa, milk, sugar and crust; the installed Create integration also fills a crust with five hundred millibuckets of chocolate. Choose an available method and inspect exact output.",
+        "Retain whole items until delivery. The cutting board turns each pie into four slices, but slices cannot replace whole pies here. If crafting fails, distinguish crust from finished pastry; for the fluid route, verify chocolate type and sufficient volume in the filling system."
+      ]
+    },
+    "more_kitchen/colony_food": {
+      "text": [
+        "Колониальный обед требует две сырные пиццы и четыре порции борща MineColonies. Это сдача с Consume: приготовленные блюда покинут инвентарь. Заранее сохраните отдельный запас для столовой и не забирайте последнее подходящее питание у жителей ради отметки.",
+        "Сырную пиццу изготовьте по её доступному рецепту, а борщ закажите у кухни шефа: установленная запись относится к crafterrecipes/chef. Обычный котелок Farmer’s Delight не заменяет гражданина только потому, что блюдо называется супом. Проверьте состав ингредиентов и доступность рецепта на текущем этапе колонии.",
+        "Дождитесь готовых предметов, соберите весь набор и подтвердите передачу. Если кухня ждёт, осмотрите назначение повара и его запросы, затем доставку нужных растений. Наличие сырых овощей на складе не равно готовому борщу; эта партия связывает развитие колонии с настоящим выпуском особых блюд и отдельным учётом расходуемого запаса."
+      ],
+      "text_en": [
+        "The colony meal requires two MineColonies cheese pizzas and four portions of borscht. This is a Consume submission: prepared dishes leave your inventory. Preserve a separate dining-hall reserve instead of taking citizens’ last suitable meals for a completion mark.",
+        "Craft cheese pizza through its available recipe, and order borscht from the chef’s kitchen: the installed entry belongs to crafterrecipes/chef. A Farmer’s Delight cooking pot cannot replace the citizen merely because the dish is soup. Check ingredients and recipe availability at the colony’s current stage.",
+        "Await finished items, collect the full set and confirm delivery. If the kitchen waits, inspect chef assignment and requests, then supplies of required crops. Raw vegetables in storage are not finished borscht; this batch connects colony development to real specialty-food production and separate expendable stock accounting."
+      ]
+    },
+    "more_kitchen/et_food": {
+      "text": [
+        "Три достижения Eternal Tales проверяют разные действия, несмотря на общую тему еды. Для черники и крабсбургера достаточно получить соответствующий предмет, а похлёбку из мутантного языка нужно действительно съесть. Не пытайтесь закрыть всю карточку только демонстрацией трёх блюд.",
+        "Чернику ищите через её растения и доступные источники обычного мира. Крабсбургер связан с продуктами крабовой ветки Мукунфекцио; подготовьте ингредиенты по открытому рецепту, сохранив трофеи отдельно. Для похлёбки сначала изготовьте готовое блюдо и обеспечьте возможность его употребить, если текущая сытость мешает обычному действию.",
+        "Проверьте каждую отметку после соответствующего шага. Употребление расходует порцию, поэтому редкую еду удобно сначала зарегистрировать и лишь затем съесть. Эта карточка не требует пробовать случайные опасные продукты мода: речь идёт о конкретных названных достижениях, которые помогают различать получение пищи и её эффект при использовании."
+      ],
+      "text_en": [
+        "These three Eternal Tales advancements check different actions despite sharing a food theme. Blueberries and crabsburgers require obtaining the corresponding item, while mutatongue chowder must actually be eaten. Showing all three foods alone cannot complete the card.",
+        "Find blueberries through their plants and available Overworld sources. Crabsburgers belong to the Mucunfectio crab-product branch; prepare ingredients using the available recipe while preserving trophies separately. For chowder, craft the finished dish and ensure it can be consumed if current fullness prevents ordinary eating.",
+        "Check each mark after its appropriate action. Eating consumes a portion, so register rare food before eating it when relevant. This card does not require sampling arbitrary dangerous mod foods: its named advancements teach the distinction between obtaining food and using its effects."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Получить крабсбургер",
+          "en": "Obtain a crabsburger"
+        },
+        "1": {
+          "ru": "Съесть похлёбку из мутантного языка",
+          "en": "Eat mutatongue chowder"
+        },
+        "2": {
+          "ru": "Получить чернику",
+          "en": "Obtain a blueberry"
+        }
+      }
+    },
+    "more_kitchen/feast_hall": {
+      "text": [
+        "Праздничная сдача принимает два окорока в медовой глазури, две целые жареные курицы и одну фаршированную тыкву. Все предметы расходуются через Consume. Для отдачи нужны именно полные блюда, а не уже снятые с сервированного стола отдельные порции.",
+        "Окорок подготовьте по доступному рецепту глазури, жареную курицу соберите с готовым мясом и гарниром. Фаршированная тыква варится в котелке из риса, лука, коричневого гриба, картофеля, ягод и подходящего овоща; контейнером служит тыква. Обеспечьте нагрев и нужную тару до начала партии.",
+        "Оставьте всё в виде предметов и проверьте количество перед подтверждением. Сервировка и угощение друзей являются отдельным применением: отданные Кодексу блюда не появляются автоматически в зале. Если хотите настоящий пир после сдачи, приготовьте дополнительную партию и разместите её отдельно, сохраняя проходы и удобный доступ к столам."
+      ],
+      "text_en": [
+        "The feast contribution accepts two honey-glazed hams, two whole roast chickens and one stuffed pumpkin. Every item is consumed. Submit complete dishes rather than individual servings already taken from a plated feast.",
+        "Prepare glazed ham using its available recipe and assemble roast chicken with cooked meat and accompaniments. Stuffed pumpkin cooks from rice, onion, brown mushroom, potato, berries and a suitable vegetable, using a pumpkin as container. Provide heat and the correct container before beginning.",
+        "Keep everything as inventory items and verify counts before confirming. Serving friends is a separate use: dishes donated to the Codex do not automatically appear in the hall. For a real feast afterward, prepare another batch and place it separately while preserving walkways and convenient table access."
+      ]
+    },
+    "more_explore/sakura": {
+      "text": [
+        "Сакуровая роща Terralith сочетает цветущие деревья с собственной композицией растительности, включая берёзы и бамбук. Для задания нужен биом sakura_grove, а не любая ванильная вишнёвая роща. Подготовьте компас природы, еду и инструмент для прокладки небольшого прохода.",
+        "Выберите точное название в поиске и двигайтесь к найденному направлению, обходя ущелья и водоёмы. После прибытия зайдите в саму рощу и проверьте отображаемый биом. Красивые розовые листья по соседству могут принадлежать другому участку, поэтому ориентиром служит не только цвет.",
+        "Сохраните точку безопасной остановки и осмотрите сочетания древесины с камнем для будущей стройки. Биомная цель не требует вырубать рощу или собирать определённую породу. Если берёте саженцы, оставьте посадочный запас и восстановите участок возле маршрута, чтобы место оставалось удобным ориентиром на следующих экспедициях."
+      ],
+      "text_en": [
+        "Terralith’s sakura grove combines flowering trees with its own vegetation composition, including birch and bamboo. The objective needs sakura_grove rather than any vanilla cherry grove. Prepare Nature’s Compass, food and a tool for clearing a small passage.",
+        "Choose the exact search name and follow the result while avoiding ravines and water obstacles. Enter the grove itself on arrival and inspect the displayed biome. Nearby pink leaves may belong to another area, so colour alone is insufficient.",
+        "Record a safe stopping point and inspect wood-and-stone combinations for future building. The biome objective requires neither clearing the grove nor collecting a particular tree. If taking saplings, retain replanting stock and restore the route-side area so it remains a useful landmark on later expeditions."
+      ]
+    },
+    "more_explore/lavender": {
+      "text": [
+        "Лавандовая карточка требует два разных биома: долину и лес. У них близкое оформление цветов и деревьев, но отдельные идентификаторы, поэтому один красивый луг не закрывает оба пункта. Подготовьте компас природы и запишите, какое направление уже посещено.",
+        "Сначала найдите lavender_valley, войдите в её границы и проверьте отметку. Затем переключите поиск на lavender_forest и посетите лес отдельно. Ориентируйтесь на названия биомов, а не ожидание обязательного предмета «лаванда»: Terralith создаёт пейзажи композициями существующих блоков.",
+        "Сохраните две точки в атласе с разными подписями. Это помогает вернуться к нужной плотности растительности при выборе места дома или цветочного участка. Если второй пункт не сработал рядом с первым, продолжайте поиск именно лесного варианта; повторная прогулка по долине не изменит его реальный идентификатор."
+      ],
+      "text_en": [
+        "The lavender card requires two distinct biomes: valley and forest. They share floral and tree styling but have separate identifiers, so one attractive meadow cannot satisfy both. Prepare Nature’s Compass and record which destination is already visited.",
+        "First find lavender_valley, enter its boundaries and check progress. Then switch to lavender_forest and visit it separately. Follow biome names instead of expecting an obligatory “lavender” item: Terralith composes landscapes from existing blocks.",
+        "Save two differently labelled atlas points. This helps return to the desired vegetation density when choosing a home or flower plot. If the second objective fails beside the first location, continue searching for the forest variant specifically; another walk through the valley cannot change its actual identifier."
+      ]
+    },
+    "more_explore/amethyst": {
+      "text": [
+        "Аметистовый каньон Terralith сочетает выразительный рельеф с тёплой растительностью: его данные включают бамбук, лианы и местные варианты деревьев. Для посещения подготовьте блоки для спуска и понятный способ подняться обратно. Прыжок в красивую расщелину не является обязательной частью исследования.",
+        "Найдите amethyst_canyon компасом природы и подойдите по краю, осматривая высоты. Спускайтесь ступенями или другим контролируемым способом, проверяя название биома на выбранной площадке. Обычная подземная аметистовая жеода не заменяет каньон, несмотря на общий материал в названии.",
+        "Отметьте безопасный вход и осмотрите вид с нескольких уровней, сохраняя маршрут возвращения. Цель фиксирует посещение, а не добычу кристаллов. Если собираете материалы для палитры, различайте декоративное оформление территории и стандартные правила роста аметиста: само название каньона не превращает каждый найденный блок в возобновляемый источник осколков."
+      ],
+      "text_en": [
+        "Terralith’s amethyst canyon combines dramatic terrain with warm vegetation: its data includes bamboo, vines and local tree variants. Prepare descent blocks and a clear way back up. Jumping into an attractive fissure is not mandatory exploration.",
+        "Find amethyst_canyon with Nature’s Compass and approach along the rim while inspecting elevation. Descend using steps or another controlled method, checking the biome name at your chosen stop. An ordinary underground amethyst geode cannot substitute for the canyon despite the shared material name.",
+        "Mark a safe entrance and inspect views from several levels while preserving the return route. The objective records visiting, not crystal mining. If collecting palette samples, distinguish terrain decoration from normal amethyst-growth rules: the canyon name does not make every encountered block a renewable shard source."
+      ]
+    },
+    "more_explore/glacial": {
+      "text": [
+        "Ледниковая расселина — холодный участок со сложными перепадами высоты и скользкими поверхностями. Возьмите еду, строительные блоки и средства безопасного спуска. Для цели нужен glacial_chasm, поэтому обычная снежная равнина или любой замёрзший океан не заменяют нужный маршрут.",
+        "Подойдите к найденной расселине и осмотрите опоры перед движением вниз. На льду легко проскользить дальше края, а снег способен скрывать неудобный перепад. Выбирайте площадку, с которой можно вернуться тем же путём, и проверяйте реальный биом после прибытия.",
+        "Сохраните координаты доступного входа вместо точки на недостижимом обрыве. Для дальнейшего освоения отметьте, где можно провести лестницу или мост без перекрытия существующей дороги. Посещение не требует стоять в опасном холодном блоке: задача знакомит с рельефом и безопасной навигацией, а не проверяет, сколько урона персонаж способен выдержать."
+      ],
+      "text_en": [
+        "A glacial chasm is a cold area with complicated elevation changes and slippery surfaces. Bring food, building blocks and a safe descent method. The objective needs glacial_chasm, so an ordinary snowy plain or frozen ocean cannot replace the destination.",
+        "Approach the located chasm and inspect footing before descending. Ice can carry you past an edge, while snow may conceal awkward drops. Choose a stopping place with a usable return route and check the actual biome on arrival.",
+        "Save coordinates for an accessible entrance rather than an unreachable cliff point. For future development, identify where stairs or a bridge fit without obstructing an existing route. Visiting does not require standing inside a dangerous cold block: the task teaches terrain and navigation rather than damage endurance."
+      ]
+    },
+    "more_explore/skylands": {
+      "text": [
+        "Весенние Небесные земли Terralith используют особый высокий рельеф с водопадами, озерцами и цветущей растительностью. Это биом обычного мира, а не отдельное измерение, требующее нового портала. Подготовьте способ контролируемого подъёма и запас для возвращения вниз.",
+        "Найдите skylands_spring и оцените высоту цели относительно текущей дороги. Если пользуетесь элитрами, оставьте место для посадки и проверьте прочность до полёта. Пешком прокладывайте лестницу с опорами; не рассчитывайте, что видимый водопад обязательно обеспечивает удобный спуск на каждом участке.",
+        "Зайдите в нужную область и проверьте отметку биома. Сохраните координаты площадки, где можно безопасно остановиться с багажом, а не просто красивую точку в воздухе. Будущая небесная база потребует отдельных решений для снабжения и ограждения: само посещение не создаёт мостов, лифта или защиты от падения."
+      ],
+      "text_en": [
+        "Terralith’s spring skylands use elevated terrain with waterfalls, small lakes and flowering vegetation. This is an Overworld biome rather than a separate dimension needing another portal. Prepare a controlled ascent method and supplies for descending again.",
+        "Locate skylands_spring and assess target height relative to your route. With elytra, reserve landing space and check durability before flight. On foot, build supported stairs; a visible waterfall does not necessarily provide a convenient descent everywhere.",
+        "Enter the required area and inspect biome progress. Save coordinates of a place where you can safely stop with luggage rather than an attractive point in midair. A future sky base separately needs logistics and railings: visiting alone creates no bridges, lifts or fall protection."
+      ]
+    },
+    "more_explore/volcano": {
+      "text": [
+        "Кальдера Terralith — отдельный тип горного ландшафта, который не следует путать с соседним заданием на Volcanic Crater. В данных кальдеры есть растительность и обычные поверхностные объекты; название не гарантирует обязательное озеро лавы в каждом месте. Подготовьте снаряжение для горной прогулки.",
+        "Выберите caldera в компасе природы и подходите с доступного склона, оценивая внутренний рельеф до спуска. Проверьте название биома в самой области. Если видите кратерообразную форму, но цель молчит, возможно, вы нашли другой ландшафт с похожими очертаниями.",
+        "Отметьте подход, обзорную точку и дорогу домой. Для исследования достаточно посещения: сносить край кальдеры или добывать особый вулканический предмет не требуется. Если позже выберете место под базу, заранее оцените перепады высоты и освещение внутренних склонов, чтобы красивый естественный амфитеатр не осложнил каждую доставку материалов."
+      ],
+      "text_en": [
+        "Terralith’s caldera is a distinct mountain landscape and must not be confused with the separate Volcanic Crater objective. Its data includes vegetation and ordinary surface features; the name does not guarantee a lava lake at every site. Prepare mountain-travel equipment.",
+        "Choose caldera in Nature’s Compass and approach along an accessible slope, inspecting interior terrain before descending. Check the biome name inside the area. A crater-shaped formation without progress may belong to another similarly shaped landscape.",
+        "Mark the approach, viewpoint and home route. Visiting is sufficient: destroying the rim or collecting a special volcanic item is unnecessary. If later building a base there, assess height changes and inner-slope lighting first so an attractive natural amphitheatre does not complicate every material delivery."
+      ]
+    },
+    "more_explore/mystic": {
+      "text": [
+        "Изумрудные пики Terralith — горный биом с холодными высокими участками и редкой поверхностной растительностью. Для цели нужен emerald_peaks; название не обещает, что вся гора состоит из изумрудной руды. Возьмите припасы и инструмент, но планируйте прежде всего безопасный маршрут.",
+        "Найдите направление компасом природы и поднимайтесь по доступным уступам. Проверяйте склон перед каждым переходом, сохраняя возможность спуститься без прыжка с вершины. Внутри гор встречаются заражённые каменные включения, поэтому бесцельное вскрытие стен может добавить неожиданного противника к обычным опасностям высоты.",
+        "Дождитесь отметки посещения и сохраните координаты реальной площадки. Осмотрите природную палитру и вид на соседние долины для будущего строительства. Никакая добытая изумрудная партия не заменяет вход в биом, а стоять на самой высокой и неудобной точке для завершения задания не требуется."
+      ],
+      "text_en": [
+        "Terralith’s emerald peaks are a mountain biome with cold elevated areas and sparse surface vegetation. The objective needs emerald_peaks; its name does not promise a mountain made entirely of emerald ore. Bring supplies and tools, prioritizing a safe route.",
+        "Locate it with Nature’s Compass and climb accessible ledges. Inspect slopes before transitions while preserving a descent without jumping from the summit. Infested stone features occur within these mountains, so unnecessary wall mining can add unexpected enemies to ordinary height hazards.",
+        "Await the visit mark and save coordinates of an actual stopping platform. Inspect the natural palette and neighbouring-valley views for future construction. Collecting emeralds cannot replace entering the biome, and reaching its highest awkward point is unnecessary for completion."
+      ]
+    },
+    "more_explore/ominous": {
+      "text": [
+        "Вулканический кратер Terralith имеет собственный идентификатор volcanic_crater и отличается от кальдеры предыдущего маршрута. Подготовьте блоки для мостиков, еду и доступную защиту от огня, если планируете близкий осмотр горячих участков. Посещение не требует заходить в лаву.",
+        "Двигайтесь по внешней кромке, выбирая устойчивые опоры и наблюдая внутренний рельеф. Не доверяйте одному тёмному цвету породы: проверяйте название биома на месте. Для отметки достаточно доступной части нужной области, поэтому рискованный спуск в центр можно оставить отдельной подготовленной экспедиции.",
+        "Запишите безопасный подход и потенциальные обходы для будущей дороги. Вулканическая тема не означает автоматическую генерацию электричества или бесконечный запас конкретного топлива. Если берёте камень для стройки, сначала проверьте безопасность добычи и не повреждайте единственный участок, по которому можно вернуть полный инвентарь домой."
+      ],
+      "text_en": [
+        "Terralith’s volcanic crater has the distinct volcanic_crater identifier and differs from the earlier caldera route. Bring bridging blocks, food and available fire protection if inspecting hot areas closely. Visiting does not require entering lava.",
+        "Follow the outer rim using stable footing and inspect the interior terrain. Do not rely solely on dark rock colours: check the biome name locally. An accessible part of the correct area suffices, leaving a risky descent into its centre for a separately prepared expedition.",
+        "Record safe approaches and possible future road bypasses. A volcanic theme does not imply automatic electricity generation or unlimited stocks of a particular fuel. When collecting building stone, first check mining safety and preserve the only route capable of carrying a full inventory home."
+      ]
+    },
+    "more_explore/redwood": {
+      "text": [
+        "Облачный лес в этой карте — cloud_forest Terralith, а не обязательная роща гигантских секвой. Его оформление использует собственные деревья и светлые цветочные группы. Подготовьте компас природы и выделите место в багаже для небольших образцов палитры, если собираете материалы.",
+        "Подойдите к найденному лесу и проверьте биом под ногами. Плотная растительность ухудшает обзор, поэтому отмечайте вход и не уходите по кругу вслед за похожими деревьями. На перепадах высоты сохраняйте освещённые опоры и безопасные переходы между участками.",
+        "После отметки осмотрите сочетание листвы, цветов и камня, не вырубая весь ориентир ради нескольких блоков. Для цели не требуется особый предмет с названием Redwood. Названия старых путей могут сохраняться в технических идентификаторах книги, но действующий маршрут здесь определяется русским заголовком и конкретным биомом Облачного леса."
+      ],
+      "text_en": [
+        "This map’s cloud forest is Terralith cloud_forest, not necessarily a grove of giant redwoods. Its design uses its own trees and pale floral groups. Prepare Nature’s Compass and spare luggage space for small palette samples if collecting materials.",
+        "Approach the located forest and inspect the biome underfoot. Dense vegetation reduces visibility, so mark the entrance instead of circling among similar trees. Preserve lit footing and safe transitions over elevation changes.",
+        "After progress registers, study foliage, flower and stone combinations without removing the whole landmark for a few blocks. No special Redwood item is required. Old route names may remain in technical book identifiers, but the actual destination follows the displayed title and the specific Cloud Forest biome."
+      ]
+    },
+    "more_explore/wasteland": {
+      "text": [
+        "Расписные горы Terralith предлагают цветные слои и выраженные склоны для изучения строительной палитры. Цель указывает painted_mountains, а не любую пустошь или ванильное плато. Возьмите блоки для подъёма, еду и свободный слот для найденного образца, если он понадобится.",
+        "Найдите подходящий биом компасом и двигайтесь по уступам с запасом места. На открытых высотах встречаются козы, поэтому не устраивайте остановку на узком краю. При добыче камня учитывайте заражённые включения, а не принимайте каждый блок горы за безопасный декоративный материал.",
+        "Проверьте отметку и запишите удобный обзорный пункт. Сравните цвета при обычном освещении, прежде чем переносить палитру в дом: расстояние и тени могут менять впечатление. Задание завершается посещением, поэтому большая выемка в красивом склоне не нужна и только усложняет обратный путь с добычей."
+      ],
+      "text_en": [
+        "Terralith’s painted mountains offer coloured layers and pronounced slopes for studying building palettes. The objective specifies painted_mountains rather than any wasteland or vanilla plateau. Bring climbing blocks, food and space for a sample if needed.",
+        "Locate the biome with a compass and travel along sufficiently wide ledges. Goats occur on exposed heights, so avoid stopping on narrow edges. When mining, account for infested stone instead of assuming every mountain block is harmless decoration.",
+        "Check progress and record an accessible viewpoint. Compare colours in ordinary lighting before applying the palette at home: distance and shadows affect appearance. Visiting completes the task, so a large scar in an attractive slope is unnecessary and merely complicates the return journey with materials."
+      ]
+    },
+    "more_explore/hotsprings": {
+      "text": [
+        "Лунная роща Terralith находится в обычном мире и не требует ракеты Ad Astra. Её оформление связано с синими цветочными группами, необычной почвой и аметистовыми деталями. Ищите moonlight_grove, не ориентируясь на старое техническое имя узла про горячие источники.",
+        "Найдите биом компасом природы и войдите в его границы. Осматривайте детали днём или с достаточным освещением: красивый ночной оттенок не делает участок свободным от обычных угроз. Сохраните вход, чтобы затем возвращаться к собранной палитре без нового дальнего поиска.",
+        "Проверьте отметку посещения и выберите несколько сочетаний для собственного сада. Вода в таком месте не получает автоматически лечебных свойств, а название рощи не означает особого лунного события Eternal Tales. Задача требует реального биома и помогает различать тематическое оформление разных модов без смешивания их механик."
+      ],
+      "text_en": [
+        "Terralith’s moonlight grove is in the Overworld and requires no Ad Astra rocket. Its styling includes blue flower groups, unusual ground details and amethyst features. Search for moonlight_grove rather than following the node’s historical hot-springs identifier.",
+        "Locate it with Nature’s Compass and enter its boundaries. Inspect details by daylight or with adequate lighting: attractive night colours do not remove ordinary threats. Mark the entrance so palette research can continue later without another distant search.",
+        "Check the visit mark and choose combinations for a home garden. Water there does not automatically gain healing properties, and the grove’s name does not imply an Eternal Tales lunar event. The task requires the actual biome and helps distinguish themes across mods without mixing their mechanics."
+      ]
+    },
+    "more_explore/endbop": {
+      "text": [
+        "Острова миража относятся к Terralith в обычном мире. Техническое имя задания сохранилось от другой темы, но цель теперь mirage_isles; отправляться в Край ради этой отметки не требуется. Подготовьте лодку или иной привычный способ пересечь воду и запас еды.",
+        "Ищите биом компасом природы из правильного измерения, затем подойдите к островной области. В оформлении используются крупные и небольшие грибы с деревьями, но похожий грибной остров другого типа не заменяет нужный идентификатор. Высадитесь на безопасной площадке и проверьте биом.",
+        "Отметьте берег для возвращения и осмотрите возможный причал. Наличие грибов не гарантирует особые правила отсутствия монстров ванильного грибного поля: это другой биом со своими данными. Для завершения достаточно посещения, поэтому не оставляйте транспорт далеко в море ради обхода всего острова до первой регистрации."
+      ],
+      "text_en": [
+        "Mirage Isles belong to Terralith in the Overworld. The quest’s technical name survives from another theme, but the actual target is mirage_isles; visiting the End is unnecessary. Prepare a boat or another familiar water-crossing method and food.",
+        "Search using Nature’s Compass in the correct dimension, then approach the island area. Its styling includes large and small mushrooms with trees, but a similar mushroom island of another type cannot replace the identifier. Land safely and inspect the biome.",
+        "Mark the return shore and examine possible dock sites. Mushrooms do not guarantee vanilla mushroom-fields monster rules: this is another biome with its own data. Visiting is sufficient, so avoid leaving transport far offshore to circle the entire island before the first registration."
+      ]
+    },
+    "more_explore/geob": {
+      "text": [
+        "Геобстрактсит связан с особой областью Eternal Tales и полезным одноимённым материалом. Цель проверяет geobstractsite_biome, поэтому обычная аметистовая жеода не подходит. Подготовьте средства подземной разведки: свет, кирку, блоки для безопасного прохода и отмеченный выход.",
+        "Ищите нужный биом через доступный поиск в соответствующем мире, учитывая вертикальное положение. Если направление проходит над или под вами, осмотрите высоту вместо бесконечной ходьбы по поверхности. При обнаружении необычной формации сначала проверьте название области, затем решайте, какие образцы брать.",
+        "Дождитесь биомной отметки и сохраните путь возвращения. Материал имеет собственные применения в Eternal Tales, включая связанные с кометными существами механики, но его получение не заменяет посещение. Не удаляйте всю найденную формацию до изучения её использования: небольшой сохранённый участок и координаты полезнее случайной груды неизвестных предметов."
+      ],
+      "text_en": [
+        "Geobstractsite is associated with a special Eternal Tales area and a useful material of the same name. The objective checks geobstractsite_biome, so an ordinary amethyst geode is insufficient. Prepare underground exploration equipment: lighting, a pickaxe, passage blocks and a marked exit.",
+        "Search for the biome through available tools in the appropriate world, accounting for vertical position. If the direction leads above or below you, inspect elevation instead of endlessly walking the surface. On finding an unusual formation, check the area’s name before choosing samples.",
+        "Await the biome mark and preserve the return route. The material has Eternal Tales uses, including mechanics involving comet creatures, but obtaining it cannot replace visiting. Avoid removing the entire formation before studying applications: a preserved section and coordinates are more useful than an arbitrary pile of unknown items."
+      ]
+    },
+    "more_explore/mucun": {
+      "text": [
+        "Бездна Мукунфекцио — конкретный биом заражённой тематики Eternal Tales. В задании указан mucunfectio_abyss, поэтому голубой пляж Мукунфекцио и любой другой заражённый участок не закрывают цель автоматически. Подготовьте лечение, защиту и безопасный способ спуска к найденной области.",
+        "Используйте поиск биома с учётом измерения и высоты, затем продвигайтесь небольшими осмотренными участками. Если встречаете мутировавших существ, сохраняйте пространство для отхода и не смешивайте разведку с необязательным боем. Сначала нужна подтверждённая географическая точка, а не любой трофей заражения.",
+        "После появления отметки сохраните координаты безопасного входа. Материалы, связанные с инфекцией, переносите домой после изучения их поведения: некоторые специальные формы заражения способны распространяться. Посещение само не требует устраивать заражённый сад возле колонии; образцы и отдельная исследовательская площадка позволяют изучать ветку, сохраняя удобный путь к обычной базе."
+      ],
+      "text_en": [
+        "Mucunfectio Abyss is a specific infection-themed Eternal Tales biome. The objective specifies mucunfectio_abyss, so Mucunfectio Beach or another infected area does not automatically qualify. Prepare healing, protection and a safe descent to the located region.",
+        "Use biome search with dimension and height in mind, advancing through small inspected sections. If mutated creatures appear, preserve retreat space instead of combining reconnaissance with optional combat. First establish the geographic destination rather than collecting any infection trophy.",
+        "Once progress appears, record a safe entrance. Bring infection-related materials home only after learning their behaviour: certain specialized forms can spread. Visiting does not require making an infected garden beside the colony; samples and a separate research site let you study the branch while preserving normal base access."
+      ]
+    },
+    "more_explore/amberian": {
+      "text": [
+        "Янтарный город относится к Королевству Янтаря в Eternal Tales и проверяется как отдельный биом amberian_city. Сначала откройте путь в это измерение по его сюжетной ветке, подготовив защиту и обратный переход. Обычная колония из жёлтого камня не заменяет место назначения.",
+        "После входа сохраните координаты первого портала: от него зависят важные направления янтарного сюжета. Ищите городской биом в самом Королевстве Янтаря, проверяя название области после прибытия. Для этой географической цели не нужно заранее завершать лабиринт или подменять посещение победой над королём.",
+        "Осмотрите доступные проходы, персонажей и безопасную остановку, не начиная случайных боёв в тесных улицах. Дождитесь отметки, затем продолжайте нужные разговоры отдельно. Городская разведка полезна для ориентации и дальнейших экспедиций, но предметы из Янтаря, принесённые другим игроком, не доказывают личное посещение этого биома."
+      ],
+      "text_en": [
+        "Amberian City belongs to Eternal Tales’ Kingdom of Amber and is checked as the specific amberian_city biome. First unlock travel through its story branch, preparing protection and a return route. An ordinary colony built from yellow stone cannot substitute for the destination.",
+        "Record the first portal’s coordinates after entering: important Amber story directions depend on it. Search for the city biome within the Kingdom itself and verify the area name on arrival. This geographical objective does not require completing the labyrinth first or replacing exploration with defeating the king.",
+        "Inspect accessible passages, characters and a safe stopping point without starting unnecessary fights in narrow streets. Await the mark, then pursue relevant conversations separately. City reconnaissance helps navigation and later expeditions, but Amber items brought by another player do not prove your own biome visit."
+      ]
+    },
+    "more_explore/atlas_done": {
+      "text": [
+        "Заполненная карта является материальным итогом атласной прогулки, но не содержит автоматически все найденные биомы. Изготовьте пустую карту и примените её в нужной области обычного мира, чтобы получить заполненный предмет. Выбирайте масштаб под конкретный район, а не ожидайте весь мир на одном листе.",
+        "Пройдите вокруг точки активации, постепенно открывая изображение, и сохраните маршрут домой. Для удобства используйте картографический стол: он помогает работать с масштабом, копиями и сохранением карты. Подпишите район понятным названием, чтобы не спутать почти одинаковые предметы в общем хранилище.",
+        "Предметная цель проверяет одну заполненную карту; географические посещения подтверждались отдельными узлами. Разместите результат на стене или оставьте в дорожном наборе после регистрации. Для нескольких областей подготовьте отдельные листы и координатные заметки: карта не становится межпространственным навигатором только потому, что закрывает главу с разными мирами."
+      ],
+      "text_en": [
+        "A filled map is a physical result of atlas exploration but does not automatically contain every discovered biome. Craft an empty map and use it in the desired Overworld region to create a filled item. Choose scale for a specific district rather than expecting the entire world on one sheet.",
+        "Travel around the activation area to reveal its image while preserving a home route. A cartography table helps manage scale, copies and locking. Label the region clearly to distinguish nearly identical items in shared storage.",
+        "The item objective checks one filled map; geographic visits were recorded by separate nodes. Display the result or keep it in travelling equipment after registration. For multiple areas, prepare separate sheets and coordinate notes: finishing a multiworld chapter does not turn the map into an interdimensional navigator."
+      ]
+    },
+    "more_rails/locomotive": {
+      "text": [
+        "Угольная дымовая труба, четыре блока котла Locometal и дымовая коробка оформляют паровозный корпус. Эти детали не являются самостоятельным паровым двигателем с обязательной подачей воды. Подготовьте их для уже понятной конструкции поезда Create с тележками и органами управления.",
+        "Разместите оформление на общей связанной конструкции, оставив доступ к кабине и багажу. Варианты трубы выбираются через меню смены блока; подсказка указывает клавишу Open Cycle Menu. Осмотрите корпус на повороте, чтобы выступающие детали не создавали неудобный габарит возле платформ.",
+        "Предметная цель подтверждает набор декора, а настоящий состав собирается на станции и испытывается отдельно. Проверьте, что все нужные части вошли в поезд, затем выполните короткий проезд с остановкой. Красивый котёл не исправляет отсутствующую тележку, разорванный путь или неправильно установленное управление, поэтому эти причины проверяйте прежде косметики."
+      ],
+      "text_en": [
+        "A coal-burning smokestack, four Locometal boiler blocks and a smokebox decorate a steam-locomotive body. These parts are not an independent steam engine requiring a water feed. Prepare them for an understood Create train design with bogeys and controls.",
+        "Install decoration on the connected structure while retaining cab access and luggage space. Smokestack variants use the block-cycle menu; its tooltip identifies the Open Cycle Menu key. Inspect the body through a curve so projecting parts do not create awkward platform clearances.",
+        "The item objective verifies decoration stock, while an actual train must be assembled at a station and tested separately. Check that required parts joined the train, then make a short run and stop. An attractive boiler cannot fix missing bogeys, disconnected track or incorrect controls, so inspect those before cosmetics."
+      ]
+    },
+    "more_rails/couplers": {
+      "text": [
+        "Путевой сцепщик соединяет и разъединяет составы без полного разбора на станции. Задание принимает четыре устройства с Consume, поэтому они исчезнут при сдаче; сохраните отдельный рабочий экземпляр для испытания. Подготовьте ровный маневровый участок и место для двух выровненных частей поезда.",
+        "Выберите рельс и поставьте сцепщик рядом. Ключом меняют режим соединения или разъединения, прокруткой настраивают расстояние между рабочими площадками. Центры тележек должны совпасть с отмеченными точками, а вагоны — смотреть в согласованном направлении; станция помогает точно остановить состав.",
+        "Подайте сигнал только после выравнивания и проверьте ожидаемое соединение. Сданные четыре блока не появляются автоматически на пути. Если устройство сообщает ошибку, сначала сравните положение тележек и ориентацию вагонов, вместо увеличения сигнала или демонтажа всего поезда: сцепщик реагирует на правильную геометрию, а не просто близость корпусов."
+      ],
+      "text_en": [
+        "A track coupler joins and separates trains without fully disassembling them at a station. This quest consumes four devices, so keep a separate operational one for testing. Prepare a level shunting section with room for two aligned train portions.",
+        "Select a track and place the coupler nearby. A wrench changes coupling or decoupling mode, while scrolling adjusts pad spacing. Bogey centres must align with marked points and carriages must face compatible directions; a station helps stop accurately.",
+        "Apply a signal after alignment and inspect the expected connection. The four submitted blocks do not automatically appear on track. For errors, compare bogey positions and carriage orientation before increasing signal strength or dismantling the whole train: the coupler depends on correct geometry rather than merely nearby bodies."
+      ]
+    },
+    "more_rails/semaphore": {
+      "text": [
+        "Семафор показывает состояние железнодорожного сигнала через заметную механическую стрелку. Подготовьте четыре устройства и разместите их на столбах над Train Signal. Сам семафор не делит путь на занятые участки и не заменяет базовую настройку сигнализации Create.",
+        "Сначала проверьте один столб: нижний сигнал должен управлять видимым положением семафора при занятии и освобождении участка. Материал столба может различаться. Для латунного сигнала с несколькими выходами два семафора дают разные сведения: нижний закрывается при блокировке любого пути, верхний — всех.",
+        "Осмотрите показания с направления приближающегося машиниста и сохраните видимость возле поворотов. На обычном нелатунном сигнале пара семафоров закрывается вместе, поэтому два устройства не всегда добавляют новую информацию. Предметная цель не проверяет расположение: законченная система должна ясно показывать именно тот участок, на который поезд собирается въехать."
+      ],
+      "text_en": [
+        "A semaphore displays a train signal’s state through a visible mechanical arm. Prepare four and mount them on poles above Train Signals. A semaphore itself neither divides track into occupied sections nor replaces basic Create signalling.",
+        "First test one pole: the underlying signal should control the visible arm as a section becomes occupied and clears. Pole materials may vary. For a brass signal with several exits, two semaphores convey different information: the lower closes when any path is blocked, the upper when all are.",
+        "Inspect indications from an approaching driver’s viewpoint and preserve visibility around curves. Above an ordinary non-brass signal, both semaphores close together, so duplication does not always add information. The item objective cannot verify placement: the system must clearly represent the section the train is about to enter."
+      ]
+    },
+    "more_rails/crossing": {
+      "text": [
+        "Переезд требует согласовать железную дорогу с проходом людей. Подготовьте восемь рельсов и два сигнала, выберите прямой обозримый участок и предусмотрите место ожидания вне габарита состава. Наличие сигналов не означает автоматическую защиту пешехода, который внезапно вышел перед поездом.",
+        "Разделите участок по правилам сигнализации и проверьте направление каждого устройства. Проведите состав через переезд, наблюдая занятость и освобождение пути. Затем остановите движение контролируемым способом и проверьте проход человека через остановленный участок, не устраивая испытание перед движущимся локомотивом.",
+        "Ручную цель подтверждайте после обеих проверок: проезда состава и прохода при остановленном движении. Поставьте понятные ориентиры ожидания и сохраните видимость. Если линия обслуживается расписанием, учитывайте возможный следующий поезд: завершение одного проезда не означает, что пересечение остаётся свободным навсегда или не нуждается в управлении."
+      ],
+      "text_en": [
+        "A crossing must reconcile railway movement with pedestrian access. Prepare eight track pieces and two signals, select a straight visible section and provide a waiting area outside train clearance. Signals do not automatically protect someone stepping in front of a train.",
+        "Divide the section according to signalling rules and inspect each signal’s direction. Run a train through while observing occupancy and clearance. Then halt traffic through controlled operation and test pedestrian passage across the stopped section, never in front of a moving locomotive.",
+        "Confirm after both trials: train passage and crossing with traffic stopped. Provide clear waiting markers and preserve sightlines. If schedules operate the line, account for the next train: one completed passage does not leave the crossing permanently clear or remove management needs."
+      ],
+      "task_notes": {
+        "2": {
+          "ru": "Вручную: проверены проезд состава и проход через остановленный участок",
+          "en": "Manually: test train passage and pedestrian access with the section stopped"
+        }
+      }
+    },
+    "more_rails/fuel": {
+      "text": [
+        "Топливные баки Steam ’n’ Rails участвуют в жидкостном снабжении собранного поезда. Подготовьте два бака и дизельную дымовую трубу для оформления. Труба сама не превращает поезд в генератор FE и не доказывает, что внутри уже имеется горючее.",
+        "Включите баки в конструкцию и заполните принимаемым топливом, проверив поддержку конкретной жидкости. В установленной записи обычные жидкие топлива выбираются по тегу c:fuel, а не по любому похожему названию «дизель». Для пополнения на маршруте используйте подходящий топливный интерфейс и согласованную остановку.",
+        "Проверьте фактический запас и его использование на коротком рейсе. Поведение поезда без горючего зависит от режима реалистичности, поэтому нельзя обещать одинаковую остановку или скорость для любых настроек мира. Предметная цель принимает пустые баки тоже; эксплуатационная готовность определяется заполнением, включением в состав и работающим маршрутом снабжения."
+      ],
+      "text_en": [
+        "Steam ’n’ Rails fuel tanks participate in an assembled train’s liquid-fuel supply. Prepare two tanks and a diesel smokestack for appearance. The stack does not turn the train into an FE generator or prove fuel is already aboard.",
+        "Include tanks in the train structure and fill them with accepted fuel, checking the particular fluid’s support. The installed conventional-fuel entry uses the c:fuel tag rather than every similarly named “diesel.” For route replenishment, use an appropriate fuel interface and aligned stop.",
+        "Check actual stock and usage on a short trip. Unfuelled train behaviour depends on realism settings, so identical stopping or speed cannot be promised across worlds. The item objective also accepts empty tanks; operational readiness depends on filling, inclusion in the train and a working resupply route."
+      ]
+    },
+    "more_rails/depot": {
+      "text": [
+        "Три расписания помогают организовать разные рейсы, а четыре синие фуражки входят в сдаваемый запас депо. Только фуражки помечены Consume и исчезнут при передаче; расписания остаются учтёнными предметами. Подготовьте отдельное оснащение действующих проводников, если оно уже используется на линии.",
+        "Для каждого расписания задайте существующие станции с понятными именами и условиями ожидания. Проверьте короткий маршрут до сложного кругового графика. Проводники Steam ’n’ Rails создаются с использованием андезитового корпуса и фуражки по сцене Ponder; сама стопка головных уборов не назначает машинистов.",
+        "Испытайте один рейс и возврат к обслуживанию, затем расширяйте графики. Следите, чтобы одинаковые имена станций не направляли состав неожиданным путём. Сдача принадлежностей завершает вклад в депо, но не проверяет все расписания: реальные задержки разгрузки, заправки и занятых путей нужно наблюдать на действующей железной дороге."
+      ],
+      "text_en": [
+        "Three schedules help organize different services, while four blue conductor caps form the depot contribution. Only caps are marked Consume and disappear; schedules remain recorded items. Keep separate equipment for conductors already serving the line.",
+        "Assign existing clearly named stations and waiting conditions to each schedule. Test a short route before complex loops. Steam ’n’ Rails conductors use an andesite casing and cap following their Ponder scene; a stack of hats alone assigns no drivers.",
+        "Test one trip and return for servicing, then expand schedules. Ensure duplicate station names do not send trains along unintended routes. Submitting accessories completes the contribution but does not validate every schedule: unloading delays, fuelling and track occupancy require observation on the operating railway."
+      ]
+    },
+    "more_munitions/powder": {
+      "text": [
+        "Пороховые заряды CBC служат метательным материалом для подходящих больших пушек. Подготовьте шестьдесят четыре штуки для сдачи с Consume; эта партия исчезнет и не окажется автоматически в артиллерийском складе. Рабочие заряды для стрельбы храните отдельно.",
+        "Установленный рецепт соединяет упакованный порох с пустой оболочкой заряда. Сначала изготовьте компоненты, затем соберите готовые powder_charge, не перепутав их с обычным порохом или пустыми мешками. Для партии проверьте запас каждой составляющей до массового запуска производства.",
+        "Перед передачей пересчитайте готовые заряды. Их количество в задании не является допустимым зарядом одного ствола: реальные ограничения определяются пушкой и её материалом. На полигоне применяйте только предусмотренную конфигурацию снаряда и метательного вещества, а поставку большого запаса рассматривайте как снабжение многих операций, не приглашение загрузить всё сразу."
+      ],
+      "text_en": [
+        "CBC powder charges provide propellant for compatible big cannons. Prepare sixty-four for a Consume contribution; this batch disappears instead of automatically entering an artillery warehouse. Keep firing charges separately.",
+        "The installed recipe combines packed gunpowder with an empty powder-charge casing. Make components first, then assemble finished powder_charge items without confusing them with ordinary gunpowder or empty bags. Check each ingredient reserve before mass production.",
+        "Count finished charges before submitting. The quest quantity is not an allowable load for one barrel: actual limits depend on cannon and material. At a range, use only supported projectile-and-propellant configurations, treating bulk stock as supplies for many operations rather than an invitation to load everything together."
+      ]
+    },
+    "more_munitions/fuzes": {
+      "text": [
+        "Взрыватели задают условие срабатывания снаряда: удар, время полёта или близость блока. Подготовьте по восемь ударных, временных и дистанционных, затем сдайте с Consume. Во всех трёх проверенных рецептах одна операция выдаёт четыре, поэтому количество крафтов отличается от количества предметов.",
+        "Временной взрыватель настраивается через собственный интерфейс до использования. Дистанционный реагирует на приближение к блоку в заданном радиусе, а не универсально ищет любого противника. Ударный имеет вероятность срабатывания и не обязан взрываться при касательном ударе или рикошете.",
+        "Сдаваемый запас не требует учебного взрыва. Для отдельного испытания учитывайте допустимую сторону монтажа: ударный и дистанционный должны стоять спереди и не работают как донные взрыватели. Сохраните подписанные настройки рабочих экземпляров, чтобы позже не перепутать задержку с дистанцией и не получить неожиданный эффект над собственной батареей."
+      ],
+      "text_en": [
+        "Fuzes define shell triggering by impact, flight time or proximity to a block. Prepare eight each of impact, timed and proximity fuzes for Consume submission. All three checked recipes yield four per craft, so craft counts differ from item counts.",
+        "Timed fuzes are configured through their interface before use. Proximity fuzes react to blocks within the selected range rather than universally detecting enemies. Impact fuzes have a triggering chance and need not detonate on grazes or ricochets.",
+        "Submission requires no test explosion. For separate trials, respect mounting positions: impact and proximity fuzes belong on the front and cannot serve as base fuzes. Label operational settings so delay and distance are not confused later, producing unexpected effects over your own battery."
+      ]
+    },
+    "more_munitions/shells": {
+      "text": [
+        "Арсенал принимает восемь шрапнельных, восемь дымовых и четыре жидкостных снаряда. Все три партии расходуются через Consume. Подготовьте материалы разных корпусов: шрапнельный и жидкостный варианты используют механический крафт Create, а дымовой имеет обычный форменный рецепт.",
+        "Изготавливайте по одному образцу каждого типа, проверяя название результата до расширения партии. Шрапнель рассчитана на свой поражающий эффект, дым — на завесу, жидкостный корпус — на доставку содержимого. Пустой жидкостный снаряд является предметом цели, но не уже заполненным полезным боеприпасом.",
+        "Для отдельного рабочего экземпляра сначала подайте жидкость через сторону установки взрывателя и только затем ставьте сам взрыватель: установленный блокирует заполнение. Поддерживаются, например, вода, лава и жидкие зелья, а неизвестная жидкость может не дать эффекта. Не испытывайте такую начинку рядом со своей техникой; сданная партия подтверждает снабжение, не готовность стрельбы."
+      ],
+      "text_en": [
+        "The arsenal accepts eight shrapnel, eight smoke and four fluid shells. All batches are consumed. Prepare different casing materials: shrapnel and fluid versions use Create mechanical crafting, while smoke shells have an ordinary shaped recipe.",
+        "Make one sample of each and verify output names before expanding production. Shrapnel provides its damaging effect, smoke creates concealment and fluid shells deliver contents. An empty fluid shell satisfies the item objective but is not an already filled useful round.",
+        "For a separate operational shell, fill through the fuze-mounting face before installing the fuze, which blocks filling. Supported examples include water, lava and liquid potions; an unknown fluid may have no effect. Avoid testing contents near your machinery: the submitted batch establishes supply rather than firing readiness."
+      ]
+    },
+    "more_munitions/belt": {
+      "text": [
+        "Автопушка использует собранные патроны и поддерживаемый контейнер подачи, а не пороховые мешки большой пушки. Подготовьте сто двадцать восемь autocannon_cartridge и два контейнера. Патроны сдаются с Consume; контейнеры отмечаются без расходования и могут остаться в оснащении.",
+        "Для изготовления следуйте цепочке готового патрона с подходящим снарядом и гильзой, проверяя результат сборки. Пустой промежуточный компонент не заменяет финальный предмет. Начните с небольшой серии и убедитесь, что рабочая автопушка принимает выбранный тип боеприпаса до выпуска большого эксплуатационного запаса.",
+        "Сдавайте отдельные сто двадцать восемь патронов, сохранив заряженный рабочий контейнер только если он нужен для дальнейших испытаний. Само наличие контейнера не означает, что он заполнен или подключён к оружию. На полигоне проверяйте ориентацию подачи и прекращение огня; продолжительная очередь быстро расходует запас и требует свободной зоны перед стволом."
+      ],
+      "text_en": [
+        "Autocannons use assembled cartridges and supported ammunition containers rather than big-cannon powder bags. Prepare one hundred twenty-eight autocannon_cartridge items and two containers. Cartridges are consumed on submission; containers are recorded without consumption and remain equipment.",
+        "Follow the finished-cartridge assembly chain using a suitable projectile and casing, verifying its result. An empty intermediate component is not the final item. Begin with a small series and confirm your operational autocannon accepts the chosen ammunition before manufacturing large service reserves.",
+        "Submit a separate batch of one hundred twenty-eight, preserving a loaded working container only when needed for further tests. Container possession does not prove filling or weapon connection. On the range, check feed orientation and cease-fire behaviour; sustained bursts consume stock quickly and require a clear area in front of the barrel."
+      ]
+    },
+    "more_munitions/mg": {
+      "text": [
+        "Пулемётный патрон CBC — более дешёвый вариант боеприпаса автопушки, ориентированный на существ. Задание принимает шестьдесят четыре готовых патрона с Consume, удаляя их из инвентаря. Не путайте это с требованием построить отдельное оружие другого мода под похожим названием.",
+        "В проверенном рецепте используются медный самородок, принимаемый порох и пустой пулемётный патрон. Соберите компоненты и изготовьте готовый результат, проверив именно machine_gun_round. Пустая оболочка имеет другое назначение и не выполняет численную цель готового боезапаса.",
+        "Перед сдачей отделите эксплуатационные патроны, если собираетесь испытывать совместимую автопушку. Большая партия не требует вести огонь по колонистам или домашним животным: проверка здесь предметная. Для дальнейшего полигонного опыта используйте безопасную игровую мишень, подходящую подачу и доступный выключатель, сохраняя контроль над всей очередью."
+      ],
+      "text_en": [
+        "CBC machine-gun rounds are cheaper autocannon ammunition oriented toward entities. This objective consumes sixty-four finished rounds. Do not confuse it with a requirement to build another mod’s similarly named weapon.",
+        "The checked recipe uses a copper nugget, accepted gunpowder and an empty machine-gun round. Assemble components and verify the finished machine_gun_round result. The empty casing serves another purpose and cannot satisfy the finished-ammunition count.",
+        "Before submission, separate operational rounds if testing a compatible autocannon. A bulk batch does not require firing at colonists or pets: this check is item-based. For subsequent range testing, use a safe in-game target, compatible feed and an accessible stop control while retaining control over the whole burst."
+      ]
+    },
+    "more_munitions/supply": {
+      "text": [
+        "Снабжение батареи соединяет заказы Create с физической доставкой боеприпасов. Подготовьте запрашиватель красного камня, два погрузчика пушек и два Frogport. Эти устройства решают разные задачи: запрос оформляет нужную партию, порт переносит посылку, погрузчик обслуживает подходящую пушечную механику.",
+        "Настройте сначала небольшой заказ обычного безопасного материала и правильный адрес посылки, чтобы проверить логистику. Согласуйте связь портов с действующей посылочной сетью, а погрузчик отдельно испытайте с понятной длиной и направлением перемещения. Наличие всех блоков не означает прямого подключения Frogport к казённику.",
+        "После проверки пути переходите к контролируемому запасу боеприпасов и понятному условию повторного заказа. Не заказывайте бесконечно при занятом приёмнике: переполнение осложняет обслуживание батареи. Отключение стрельбы и остановка снабжения должны быть доступны отдельно, чтобы можно было безопасно разобрать причину задержки без незапланированного выстрела."
+      ],
+      "text_en": [
+        "Battery supply links Create requests with physical ammunition delivery. Prepare a redstone requester, two cannon loaders and two Frogports. Their roles differ: requests specify batches, ports move packages and loaders operate compatible cannon mechanisms.",
+        "First configure a small order of an ordinary harmless material and a correct package address to test logistics. Connect ports to an operating package network, and test loader travel length and direction separately. Possessing every block does not imply a direct Frogport-to-breech connection.",
+        "Once the route works, introduce controlled ammunition stock and a clear reorder condition. Avoid endless requests into an occupied receiver: overflow complicates servicing. Firing and supply must have separately accessible stopping controls so delays can be investigated without an unintended shot."
+      ]
+    },
+    "more_et_side/raccoons": {
+      "text": [
+        "Обычного енота приручают печеньем, а действие поглаживания проверяется взаимодействием с енотом. Подготовьте запас угощения и безопасное место для питомцев. Для «всех разновидностей» недостаточно одного цвета: игра хранит сведения о приручённых вариантах и дополнительно проверяет две особые трансформации.",
+        "Приручайте найденные разновидности, сохраняя названия или внешний вид в заметках. В установленной проверке учитываются варианты от второго до седьмого и обычный либо белый базовый вариант. Дополнительно нужны достижения Alien Martian Raccoon и Peacoon: взаимодействия с кометной капустой и Dreadful Pea связаны с этими превращениями.",
+        "Проверяйте итоговую отметку после каждого нового вида, не собирая всех животных в одном тесном загоне ради инвентарной цели. Это история действий игрока, а не стопка предметов. Не применяйте случайные красители и особые растения к единственному любимому питомцу без отдельного понимания результата: превращение может заменить его форму."
+      ],
+      "text_en": [
+        "Ordinary raccoons are tamed with cookies, and petting is checked through interacting with a raccoon. Prepare treats and safe pet accommodation. “All types” requires more than one colour: the game remembers tamed variants and additionally checks two special transformations.",
+        "Tame encountered variants and record their names or appearances. The installed check includes variants two through seven plus either ordinary or white base form. Alien Martian Raccoon and Peacoon advancements are also required: Comets cabbage and Dreadful Pea interactions relate to those transformations.",
+        "Check overall progress after each new type instead of crowding every animal into one pen for an inventory objective. This records player actions rather than item stacks. Avoid experimenting with random dyes and special plants on your only favourite pet without understanding the result: transformations can replace its form."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Приручить требуемые разновидности енотов и получить превращения Alien Martian Raccoon и Peacoon",
+          "en": "Tame the required raccoon variants and obtain Alien Martian Raccoon and Peacoon transformations"
+        },
+        "1": {
+          "ru": "Взаимодействовать с енотом, чтобы погладить его",
+          "en": "Interact with a raccoon to pet it"
+        }
+      }
+    },
+    "more_et_side/tarkos": {
+      "text": [
+        "Тарко — крупные рептилии Раяны, которых приручают ферментированным глазом тарантула. Подготовьте запас приманки, безопасный путь в Раяну и место для питомцев. Достижение требует четыре разновидности: зелёную, багровую, голубую и альбиноса, а не четырёх одинаковых животных.",
+        "Зелёные встречаются наиболее обычно, багровые связаны с пустынными условиями, голубые приспособлены к снегу; альбинос является редкой разновидностью. Применяйте нужное угощение и проверяйте успешное приручение, поскольку одна попытка не гарантирует результат. Записывайте уже учтённые цвета, чтобы не расходовать запас на повторение.",
+        "Проверьте итоговое достижение после последней недостающей разновидности. Животных не требуется превращать в предметы или одновременно держать возле игрока: сохраняется история приручения. При перевозке обеспечьте достаточно места для крупного тела и не уводите нового питомца сразу через узкую опасную дорожку, которую сам персонаж проходит без труда."
+      ],
+      "text_en": [
+        "Tarkos are large Rayana reptiles tamed with fermented tarantula eyes. Prepare bait reserves, safe Rayana access and pet accommodation. The advancement needs four varieties—green, crimson, cyan and albino—rather than four identical animals.",
+        "Green tarkos are common, crimson ones relate to desert conditions and cyan ones favour snow; albinos are rare. Apply the appropriate treat and verify successful taming because one attempt is not guaranteed. Record counted colours to avoid wasting supplies on repetition.",
+        "Inspect completion after the last missing variety. Animals need neither become inventory items nor stand beside you together: the taming history persists. During transport, allow enough clearance for large bodies instead of immediately leading a new pet down a narrow dangerous route that the player alone traverses easily."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Приручить зелёного, багрового, голубого тарко и тарко-альбиноса ферментированными глазами тарантула",
+          "en": "Tame green, crimson, cyan and albino tarkos using fermented tarantula eyes"
+        }
+      }
+    },
+    "more_et_side/chests": {
+      "text": [
+        "Четыре сундука относятся к навыкам копания, рыбалки, выращивания и колдовства Eternal Tales. Каждый пункт проверяет получение соответствующего сундука в инвентарь. Не заменяйте их обычными деревянными сундуками, переименованными на наковальне: требуются отдельные предметы мода.",
+        "Развивайте связанные занятия и сохраняйте выпавшие наградные контейнеры до регистрации. Копание работает со своими пригодными блоками, рыбалка — с рыболовной системой, выращивание — с обслуживаемыми растениями, колдовство — с магическими действиями. Наличие четырёх рабочих станций рядом не создаёт эти награды автоматически.",
+        "Получайте контейнеры по очереди и проверяйте каждое достижение до открытия, если хотите использовать содержимое. Хранить все четыре одновременно не требуется, поскольку достижения независимы. Если отсутствует один тип, возвращайтесь к его навыку и условиям выдачи, вместо многократного открытия уже освоенного сундука другой профессии."
+      ],
+      "text_en": [
+        "These four chests belong to Eternal Tales digging, fishing, growing and sorcery skills. Each objective checks obtaining its corresponding chest in inventory. Ordinary wooden chests renamed at an anvil cannot substitute: distinct mod items are required.",
+        "Develop associated activities and preserve reward containers until registration. Digging uses eligible blocks, fishing its fishing system, growing maintained plants and sorcery magical activities. Placing four workstations together does not automatically create rewards.",
+        "Obtain containers sequentially and check each advancement before opening if you want their contents. All four need not be held simultaneously because the advancements are independent. For a missing type, return to its skill and reward conditions instead of repeatedly opening a chest belonging to another mastered profession."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Получить сундук копания",
+          "en": "Obtain a digging chest"
+        },
+        "1": {
+          "ru": "Получить рыболовный сундук",
+          "en": "Obtain a fishing chest"
+        },
+        "2": {
+          "ru": "Получить сундук выращивания",
+          "en": "Obtain a growing chest"
+        },
+        "3": {
+          "ru": "Получить сундук колдовства",
+          "en": "Obtain a sorcery chest"
+        }
+      }
+    },
+    "more_et_side/lamps": {
+      "text": [
+        "Коллекция включает девять ламп: лавовую, водяную, снежную, кровавую, с чёрной водой, кислотную, эфирную, с лавой душ и эндерную. Каждая имеет отдельный критерий получения, поэтому названия «все лавовые» недостаточно для понимания полного состава. Подготовьте место хранения и список недостающих вариантов.",
+        "Первую лавовую лампу можно собрать из кобальта, медовой бутылочки, стекла, лавового ведра, железа и красного камня. Дальнейшие рецепты преобразуют лампы с помощью соответствующего содержимого; проверяйте конкретный результат перед расходованием редкой жидкости. Одну форму можно зарегистрировать до преобразования в другую.",
+        "Отмечайте получение каждого варианта и сохраняйте любимые образцы отдельно для освещения комнаты. Достижение не требует поставить все лампы рядом или вылить опасные жидкости на пол. Если коллекция неполна, сверяйте девять критериев, а не число похожих блоков на полке: повторный цвет не заменяет недостающую форму."
+      ],
+      "text_en": [
+        "The collection includes nine lamps: lava, water, snow, blood, black water, acid, liquid aetherium, soul lava and ender. Each has its own acquisition criterion, so “all lava lamps” alone does not explain the set. Prepare storage and a missing-variant checklist.",
+        "The first lava lamp can be crafted from cobalt, a honey bottle, glass, a lava bucket, iron and redstone. Further recipes transform lamps using corresponding contents; inspect exact output before spending rare fluids. Register one form before converting it into another.",
+        "Track every acquisition and preserve favourite samples separately for room lighting. The advancement requires neither placing every lamp together nor pouring dangerous fluids onto the floor. If incomplete, compare the nine criteria rather than counting similar blocks on a shelf: duplicate colours do not replace missing forms."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Получить все 9 вариантов ламп: лава, вода, снег, кровь, чёрная вода, кислота, жидкий эфир, лава душ и эндер",
+          "en": "Obtain all 9 lamp variants: lava, water, snow, blood, black water, acid, liquid aetherium, soul lava and ender"
+        }
+      }
+    },
+    "more_et_side/music": {
+      "text": [
+        "Музыкальная коллекция установленной версии состоит из тридцати одной пластинки Eternal Tales. В неё входят записи миров и отдельные тематические композиции биомов; несколько ванильных дисков не заменяют набор. Подготовьте подписанное хранилище и проверяйте оставшиеся критерии самого достижения.",
+        "Собирайте записи по доступным источникам соответствующих веток: сохраняйте найденные пластинки среди трофеев и изучайте применения музыкальных материалов. После каждого нового диска возьмите его в инвентарь до установки в проигрыватель. Прослушивание не является требуемым триггером: игра отмечает получение конкретных предметов.",
+        "Не держите весь набор одновременно ради проверки, поскольку отдельные критерии сохраняются. Для выставки удобнее оставлять по одному образцу, а дубликаты отделять от редкостей. Если остаётся последний пробел, ищите точное название нужной композиции, включая вторые записи одного мира: один диск Раяны не заменяет все её биомные музыкальные варианты."
+      ],
+      "text_en": [
+        "The installed Eternal Tales music collection contains thirty-one discs. It includes world records and specific biome compositions; a few vanilla discs cannot replace the set. Prepare labelled storage and inspect the advancement’s remaining criteria.",
+        "Collect records through sources available in their respective branches, preserving found discs among trophies and studying musical-material uses. Hold every new disc in inventory before inserting it into a jukebox. Listening is not the required trigger: the game records particular item acquisitions.",
+        "The entire set need not be held together because separate criteria persist. For display, preserve one sample each and separate duplicates from rarities. When one gap remains, search the exact composition name, including additional records from the same world: one Rayana disc cannot replace all its biome-specific tracks."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Получить все 31 конкретную пластинку из критериев музыкальной коллекции Eternal Tales",
+          "en": "Obtain all 31 specific discs listed by the Eternal Tales music collection advancement"
+        }
+      }
+    },
+    "more_et_side/blue_moon": {
+      "text": [
+        "Синяя луна — событие Eternal Tales, а не просто необычный цвет обычного неба или посещение Лунной рощи Terralith. Подготовьте защищённую площадку, еду и лечение до ночного выхода. Следите за сообщением о начале события и оставайтесь в мире, где оно проходит.",
+        "Во время события встречаются связанные с ним угрозы и материалы. Исследуйте их только по готовности снаряжения, сохраняя путь в укрытие. Для этой цели не нужно обязательно призывать отдельного босса: достижение связано с обработкой окончания Синей луны, а не добычей любого синего предмета.",
+        "Дождитесь сообщения завершения и проверьте отметку в книге. Не уходите в другое измерение в последний момент, если рассчитываете на фиксацию окончания текущего события. После ночи восстановите расходники и осмотрите подходы к базе, затем решайте, нужна ли следующая экспедиция ради её особой добычи."
+      ],
+      "text_en": [
+        "Blue Moon is an Eternal Tales event rather than an unusual sky colour or a visit to Terralith’s Moonlight Grove. Prepare protected ground, food and healing before going out at night. Watch the start announcement and remain in the world where the event runs.",
+        "Related threats and materials appear during the event. Explore them only with suitable equipment and a retreat route. This objective does not require summoning a separate boss: its advancement relates to Blue Moon ending, not obtaining any blue item.",
+        "Await the ending announcement and inspect the book’s mark. Avoid leaving the dimension at the last moment if expecting the current event’s completion to register. Afterward replenish consumables and inspect base approaches before deciding whether another expedition is needed for special loot."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Дождаться окончания события Синей луны в участвующем мире и получить достижение",
+          "en": "Remain in the participating world until the Blue Moon event ends and its advancement is awarded"
+        }
+      }
+    },
+    "more_et_side/clown": {
+      "text": [
+        "Клоунская луна относится к отдельному событию Eternal Tales с собственным запуском и окончанием. Перед участием подготовьте полигон или защищённый участок вдали от мирных жителей. Клоунское снаряжение в инвентаре само по себе не доказывает, что событие вообще началось.",
+        "Следуйте уже открытой ветке вызова события и дождитесь объявления. Контролируйте появляющихся противников, держите лечение доступным и не переносите бой в тесный колониальный квартал. Не применяйте случайные трофеи как предполагаемый активатор: точный предмет запуска следует проверять по его назначению до расходования.",
+        "Для этой карточки дождитесь окончания Клоунской луны и отметки достижения, находясь в соответствующем мире. Это проверка события, а не требование надеть полный костюм клоуна или убить любого похожего моба. После завершения соберите безопасно оставшуюся добычу и восстановите территорию перед возвращением к обычному строительству."
+      ],
+      "text_en": [
+        "Clown Moon is a separate Eternal Tales event with its own activation and ending. Before participating, prepare a range or protected area away from civilians. Clown equipment in inventory does not prove the event has started.",
+        "Follow the unlocked event-activation branch and await its announcement. Control emerging enemies, keep healing accessible and avoid moving combat into cramped colony districts. Do not spend arbitrary trophies as assumed activators: verify an activation item’s purpose beforehand.",
+        "For this card, await Clown Moon ending and the advancement mark while in the corresponding world. This checks the event rather than requiring a full clown outfit or killing any similarly themed mob. Afterward safely collect remaining drops and restore the area before ordinary construction resumes."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Дождаться окончания события Клоунской луны в участвующем мире и получить достижение",
+          "en": "Remain in the participating world until Clown Moon ends and its advancement is awarded"
+        }
+      }
+    },
+    "more_et_side/crabs": {
+      "text": [
+        "Крабсапокалипсис отмечается достижением за получение его особого знамени. Даже если название говорит о прохождении события, автоматический критерий проверяет crabsapocalypse_banner в инвентаре. Обычный крабовый трофей или произвольное знамя, переименованное игроком, не заменяют нужный предмет.",
+        "Продвигайтесь по соответствующей боевой ветке Eternal Tales с запасом лечения, свободным местом для добычи и безопасной зоной отхода. Перед участием изучите доступный способ вызова события и условия встречи в его справке. Не рассчитывайте, что любое убийство краба автоматически выдаст итоговое знамя.",
+        "После успешного получения подберите трофей и дождитесь отметки, затем сохраните его для выставки. Устанавливать знамя на стену до регистрации неудобно, потому что требуется именно получение предмета игроком. Карточка не измеряет все этапы боя отдельно; завершённое достижение означает наличие нужного трофея, а дальнейшие повторные встречи остаются самостоятельным решением."
+      ],
+      "text_en": [
+        "Crabsapocalypse is recorded through obtaining its special banner. Although the name describes completing an event, the automatic criterion checks crabsapocalypse_banner in inventory. An ordinary crab trophy or player-renamed banner cannot substitute.",
+        "Progress through the associated Eternal Tales combat branch with healing, loot capacity and a safe retreat area. Before participation, study the available event-summoning method and encounter conditions in its guide. Do not expect killing any crab to automatically award the final banner.",
+        "Collect the trophy and await the mark, then preserve it for display. Placing it on a wall before registration is inconvenient because acquisition by the player is required. This card does not measure every combat stage separately; completion signifies the required trophy, while subsequent encounters are independent choices."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Получить знамя Крабсапокалипсиса",
+          "en": "Obtain the Crabsapocalypse banner"
+        }
+      }
+    },
+    "more_et_side/arky": {
+      "text": [
+        "Арки появляется через особое взаимодействие с енотом: установленная процедура использует белый краситель и заменяет форму существа. Подготовьте подходящего енота и безопасное место, где превращение не затронет путь ваших обычных питомцев. Один декоративный белый костюм не является вызовом персонажа.",
+        "Примените белый краситель к еноту и проверьте появление Арки вместе с достижением. Для второй цели нужен полный надетый комплект фурсьюта из поддерживаемого семейства: шлем, нагрудная часть, штаны и обувь. Проверка проходит на экипировке, поэтому простое получение одной детали не завершает её.",
+        "Изготовьте или получите доступный комплект через его настоящую ветку, затем наденьте все четыре части и дождитесь отметки. Перед переодеванием выйдите из опасной среды: декоративный костюм не следует считать эквивалентом специальной защитной брони. После опыта верните рабочее снаряжение и убедитесь, что питомцы остались в безопасном месте."
+      ],
+      "text_en": [
+        "Arky appears through a special raccoon interaction: the installed procedure uses white dye and replaces the creature’s form. Prepare an appropriate raccoon and a safe site away from normal pet routes. A decorative white outfit does not summon the character.",
+        "Use white dye on the raccoon and verify Arky’s appearance and advancement. The second objective needs a complete equipped fursuit from the supported family: head, chest, legs and feet. It checks worn equipment, so obtaining one piece cannot complete it.",
+        "Craft or obtain an available set through its actual branch, then wear all four pieces and await the mark. Leave dangerous environments before changing: a costume should not be assumed equivalent to specialized protective armour. Restore working equipment afterward and verify that pets remain safe."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Применить белый краситель к еноту и вызвать Арки",
+          "en": "Use white dye on a raccoon to summon Arky"
+        },
+        "1": {
+          "ru": "Надеть фурсьют во все четыре слота брони",
+          "en": "Equip fursuit items in all four armour slots"
+        }
+      }
+    },
+    "more_et_side/gravicycle": {
+      "text": [
+        "Аркемерский гравицикл даёт отдельный способ передвижения в Eternal Tales. Первое достижение проверяет получение его предмета, а «максимальный разгон» в установленной версии имеет конкретное условие оснащения. Подготовьте транспорт, доступные модификаторы ускорения и просторную безопасную площадку.",
+        "Поместите шестьдесят четыре Gravicycle Acceleration Modifier в нулевой слот его инвентаря и сядьте на машину. Проверка требует полную такую стопку, состояние транспорта с пассажиром и игрока рядом; фактическую рекордную скорость она не измеряет. Поэтому длительный опасный заезд без модификаторов не заменит оснащение.",
+        "Дождитесь отметки и лишь затем осваивайте управление короткими перемещениями. Следите за остановкой и рельефом перед поездкой с ценным багажом. Не проверяйте возможности улучшенного транспорта между плотными домами колонии: сначала убедитесь, что понимаете его ускорение и можете вернуться на исходную площадку без столкновения с инфраструктурой."
+      ],
+      "text_en": [
+        "The Arkemer gravicycle offers another Eternal Tales travel method. Its first advancement checks obtaining the vehicle item, while “maximum acceleration” has a specific equipment condition in this version. Prepare the vehicle, acceleration modifiers and a spacious safe test site.",
+        "Place sixty-four Gravicycle Acceleration Modifiers in inventory slot zero and mount the vehicle. The check requires this full stack, a vehicle carrying a passenger and a nearby player; it does not measure record speed. A long dangerous ride without modifiers cannot replace the equipment condition.",
+        "Await the mark before learning controls through short movements. Inspect stopping and terrain before carrying valuable luggage. Avoid testing an upgraded vehicle between densely packed colony buildings: first understand its acceleration and return to the starting area without colliding with infrastructure."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Получить предмет аркемерского гравицикла",
+          "en": "Obtain the Arkemer gravicycle item"
+        },
+        "1": {
+          "ru": "Установить 64 модификатора ускорения в слот 0 гравицикла и сесть на него",
+          "en": "Put 64 acceleration modifiers in gravicycle slot 0 and mount it"
+        }
+      }
+    },
+    "more_et_side/bomb": {
+      "text": [
+        "Атомная бомба Eternal Tales является разрушительным игровым блоком. Её обычный рецепт окружает серный TNT восемью шутовскими бомбами. Подготовьте устройство только для отдельного полигона, удалённого от построек, жителей, транспорта и любых запасов, которые хотите сохранить.",
+        "Заранее обеспечьте быстрый отход и безопасное место наблюдения. Установите бомбу и активируйте предусмотренным огниво либо огненным зарядом. Проверенная процедура выдаёт достижение при превращении блока в активированную бомбу, поэтому стоять рядом до взрыва ради отметки не требуется.",
+        "Немедленно покиньте опасный участок и дождитесь завершения эффекта на расстоянии. Полученное достижение не отменяет разрушение мира и не гарантирует сохранность ближайшей территории. После опыта не возвращайтесь к обломкам без осмотра; эта побочная цель предназначена для подготовленного эксперимента, а не для проверки нового предмета внутри собственной мастерской."
+      ],
+      "text_en": [
+        "The Eternal Tales atomic bomb is a destructive in-game block. Its ordinary recipe surrounds sulfur TNT with eight jester’s bombs. Prepare it only for an isolated range away from buildings, citizens, transport and reserves you intend to preserve.",
+        "Establish rapid retreat and a safe observation position beforehand. Place the bomb and activate it using flint and steel or a fire charge. The checked procedure awards the advancement when converting the block into an activated bomb, so remaining beside it until detonation is unnecessary.",
+        "Leave the danger area immediately and await the effect from a distance. Receiving an advancement does not cancel world destruction or protect nearby terrain. Inspect before returning to debris; this side objective belongs to a prepared experiment rather than testing an unfamiliar item inside your workshop."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Активировать атомную бомбу огнивом или огненным зарядом на отдельном полигоне и отойти",
+          "en": "Ignite an atomic bomb with flint and steel or a fire charge at an isolated range, then retreat"
+        }
+      }
+    },
+    "more_et_side/darwin": {
+      "text": [
+        "Название достижения объединяет три необычных игровых флага, но не следует буквально считать его требованием трёх одинаково устроенных смертей. В установленном коде это использование Эмблемы клеща, гибель от урона крапивы и употребление блинов Унахзаала. Подготовьте отдельный опыт без ценного багажа.",
+        "Эмблема требует как минимум второй уровень боевого навыка и отсутствие её перезарядки; использование записывает соответствующий флаг. Блины записывают свой флаг после употребления и накладывают опасный эффект. Только крапивный пункт проверяется процедурой смерти с конкретным типом nettle_damage, а не любой случайной гибелью рядом с растением.",
+        "Сохраните вещи, точку возрождения и доступ к месту опыта заранее, учитывая правила потери предметов вашего мира. После выполнения трёх разных условий дождитесь общей отметки. Не подменяйте их случайными смертями: это не ускоряет проверку и лишь создаёт дополнительную потерю опыта и необходимость возвращаться за снаряжением."
+      ],
+      "text_en": [
+        "The advancement name groups three unusual game flags but should not be read literally as three identically implemented deaths. Installed code checks using the Emblem of Mite, dying from nettle damage and eating Unahzaal pancakes. Prepare a separate trial without valuable luggage.",
+        "The emblem requires at least Slaying level two and no active emblem cooldown; using it records its flag. Pancakes record their flag after consumption and apply a dangerous effect. Only the nettle condition is checked by the death procedure with the specific nettle_damage type, not any accidental death beside the plant.",
+        "Store possessions, establish a respawn point and preserve access beforehand, accounting for your world’s item-loss rules. After the three distinct conditions, await the overall mark. Random deaths cannot substitute or accelerate checking and only add experience loss and equipment-recovery trips."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Использовать Эмблему клеща при Slaying 2+, погибнуть от крапивного урона и съесть блины Унахзаала",
+          "en": "Use the Emblem of Mite at Slaying 2+, die from nettle damage and eat Unahzaal pancakes"
+        }
+      }
+    },
+    "more_home/bed": {
+      "text": [
+        "Спальня и ванная начинаются с доступных предметов сборки: красной кровати, двух синих подушек Handcrafted и белой ванны Refurbished Furniture. Изготовьте их по установленным рецептам и зарегистрируйте разные виды по очереди. Дополнительный незагруженный мебельный datapack для этой комнаты не нужен.",
+        "Поставьте кровать с доступом к месту пробуждения и свободным проходом к двери. Подушки разместите как часть отдыхающей зоны, а ванну — так, чтобы её использование не перекрывало путь. Декоративное соседство не превращает ванну автоматически в водопроводный узел другой технической системы.",
+        "Проверьте обычный доступ и возможность пользоваться кроватью в подходящем измерении. В Нижнем мире и Краю кровать не является безопасным средством сна, поэтому такую спальню разумно сначала обустраивать дома. Предметная цель не измеряет красоту интерьера: её практический результат — понятная комната, где удобно восстановиться и собрать багаж."
+      ],
+      "text_en": [
+        "A bedroom and bathroom begin with available pack items: a red bed, two blue Handcrafted cushions and a white Refurbished Furniture bath. Craft them using installed recipes and register different types sequentially. No unloaded furniture datapack is required.",
+        "Place the bed with a clear waking position and doorway access. Arrange cushions in a resting area and the bath where use does not block movement. Decorative proximity does not automatically make the bath part of another mod’s plumbing system.",
+        "Verify access and safe bed use in the appropriate dimension. Beds are not safe sleeping devices in the Nether or End, so begin this bedroom at home. The item objective does not measure interior beauty; its practical outcome is a clear room for recovering and preparing luggage."
+      ]
+    },
+    "more_home/kitchen": {
+      "text": [
+        "Кухня Refurbished Furniture должна быть собрана из предметов именно этого установленного мода. Выберите рабочие поверхности, доступное хранение и нужный прибор, оставив место перед дверцами. Здесь ручная цель проверяет обустроенную кухню, а не наличие случайной стопки похожей мебели.",
+        "Начните с небольшого участка рядом с источниками ингредиентов. Если выбранному прибору требуется питание, используйте электрическую систему Refurbished Furniture и поддерживаемые соединения, проверяя его экран. Кабель FE из промышленной мастерской не следует считать автоматической заменой собственному генератору и правилам этой мебели.",
+        "Откройте контейнеры, проверьте проход и выполните доступное действие кухонного прибора, затем подтвердите сборку кухни. Декоративные шкафы не обязаны готовить пищу сами. Сохраняйте сухой запас ингредиентов отдельно от готовых блюд и не ставьте бытовые предметы так, чтобы каждый приём пищи требовал разбирать стену или отодвигать основной склад."
+      ],
+      "text_en": [
+        "Build this kitchen from the installed Refurbished Furniture mod’s own items. Choose counters, accessible storage and a useful appliance while leaving room in front of doors. The manual objective checks an arranged kitchen rather than a random pile of similar furniture.",
+        "Begin with a small area near ingredient supplies. If the selected appliance needs power, use Refurbished Furniture’s electricity system and supported connections, checking its screen. An industrial FE cable should not be assumed a substitute for this furniture’s generator and electrical rules.",
+        "Open containers, inspect passageways and perform an available appliance action before confirming the kitchen. Decorative cabinets need not cook meals themselves. Separate raw ingredient reserves from prepared dishes and arrange household items so eating does not require dismantling walls or moving primary storage."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Собрать доступную кухню из Refurbished Furniture и проверить использование её мебели",
+          "en": "Assemble an accessible Refurbished Furniture kitchen and test its furniture"
+        }
+      }
+    },
+    "more_home/workshop": {
+      "text": [
+        "Резак архитектора и стол схем Create обслуживают разные виды строительной подготовки. Первый создаёт декоративные блоки из выбранных материалов, второй работает со схемами Create. Изготовьте оба и поставьте рядом с понятным хранилищем образцов, бумаги и обычных стройматериалов.",
+        "Испытайте в резаке один небольшой декоративный элемент, сравнив состав с нужной палитрой. На столе схем подготовьте работу с сохранённой схемой Create, не путая её с файлом Structurize. Эти форматы принадлежат разным системам и не становятся взаимозаменяемыми от размещения столов рядом.",
+        "Сохраните подписанные образцы и проверьте свободный доступ к интерфейсам. Получение двух блоков подтверждает оснащение, но не автоматически построенный дом по чертежу. Для реального воспроизведения проекта подготовьте соответствующий инструмент или строительный механизм, стоимость материалов и площадку; рабочая мастерская помогает организовать эти этапы, а не отменяет их."
+      ],
+      "text_en": [
+        "The architect’s cutter and Create schematic table serve different construction-preparation systems. The cutter makes decorative blocks from selected materials; the table handles Create schematics. Craft both and place them beside organized samples, paper and ordinary building supplies.",
+        "Test a small decorative element in the cutter, comparing its composition with your palette. At the schematic table, prepare a saved Create schematic without confusing it with a Structurize file. These formats belong to different systems and do not become interchangeable merely through adjacent tables.",
+        "Keep labelled samples and clear interface access. Obtaining both blocks establishes equipment rather than an automatically blueprint-built house. Actual reproduction needs the appropriate tool or construction mechanism, material costs and a site; the workshop organizes these stages instead of removing them."
+      ]
+    },
+    "more_home/garden": {
+      "text": [
+        "Сад объединяет три независимых способа выращивания: богатую почву Farmer’s Delight, горшок садовника Eternal Tales и клош Immersive Engineering. Подготовьте шестнадцать блоков почвы и по одному устройству. Соседство не означает общую систему воды, удобрения и электричества.",
+        "Богатую почву получают через созревание органического компоста при подходящих условиях; сразу после крафта компост ещё не является rich_soil. Горшок Eternal Tales обслуживается собственной водой и удобрением с подходящими растениями. Клош требует FE, воду, допустимую почву и семена по конкретному рецепту.",
+        "Проверьте по отдельности рост или производство на каждом участке, сохраняя выход для урожая. Предметная цель знакомит с тремя подходами, но не доказывает работоспособность всех систем. Не тратьте редкие саженцы на случайную несовместимую машину: сначала проверьте один образец и подготовьте запас посадочного материала для восстановления сада."
+      ],
+      "text_en": [
+        "This garden combines three independent growing methods: Farmer’s Delight rich soil, Eternal Tales gardener’s pot and Immersive Engineering cloche. Prepare sixteen soil blocks and one of each device. Proximity does not imply shared water, fertilizer or electricity systems.",
+        "Rich soil forms when organic compost matures under suitable conditions; freshly crafted compost is not yet rich_soil. The Eternal Tales pot uses its own water and fertilizer with supported plants. The cloche requires FE, water, valid soil and seeds under a specific recipe.",
+        "Verify growth or production separately at each plot, retaining output room. Item objectives introduce three approaches without proving every system operates. Do not spend rare saplings on randomly incompatible machinery: test one sample first and keep planting reserves to restore the garden."
+      ]
+    },
+    "more_home/hall": {
+      "text": [
+        "Зал трофеев собирает пьедестал Сумеречного леса, медвежий трофей Handcrafted и трофей Наги. Эти предметы имеют разное происхождение: декоративная голова не заменяет настоящую награду босса. Подготовьте место с доступным освещённым проходом и не закрывайте экспонатами рабочие контейнеры.",
+        "Трофей Наги получите после соответствующего боя в Twilight Forest, подберите его и зарегистрируйте до установки. Пьедестал добывайте по доступному источнику этого мода, учитывая его особую роль в сумеречной прогрессии. Медвежий декор изготовьте или получите через действующий путь Handcrafted, проверив конкретное название.",
+        "Разместите экспонаты после фиксации целей и осмотрите их с обычной высоты прохода. Предметная отметка не требует повторно побеждать босса, если трофей уже был зарегистрирован. Для дальнейшей коллекции подпишите источник каждого образца: это помогает отличать декоративные изделия от ключевых трофеев, которые могут понадобиться другим приключенческим механикам."
+      ],
+      "text_en": [
+        "The trophy hall collects a Twilight Forest pedestal, Handcrafted bear trophy and Naga trophy. These have different origins: a decorative head cannot replace an actual boss reward. Prepare an accessible lit display without blocking functional containers.",
+        "Obtain the Naga trophy through its Twilight Forest encounter, collect it and register before display. Acquire the pedestal through the mod’s available source, accounting for its special progression role. Craft or obtain the bear decoration through Handcrafted’s actual route, checking its exact name.",
+        "Place exhibits after registration and inspect them from normal walking height. No repeat boss fight is needed if the trophy was already recorded. Label future specimens by source to distinguish decorative products from important trophies that may serve other adventure mechanics."
+      ]
+    },
+    "more_qol2/gadgets": {
+      "text": [
+        "Building Gadgets 2 предлагает отдельные устройства строительства, замены и копирования с вставкой. Менеджер шаблонов обслуживает сохранённые проекты. Изготовьте комплект, зарядите поддерживаемым способом и подготовьте материалы; копирование геометрии не создаёт бесплатный запас блоков для выживания.",
+        "Строительным устройством выберите простой блок и небольшой режим размещения. Заменяющим испытайте одну тестовую стенку, предварительно осмотрев выделение. Для копирования задайте малую область без ценных контейнеров, сохраните шаблон и проверьте ориентацию предпросмотра до вставки.",
+        "Освойте отмену на этом же примере и держите связанные чанки загруженными: установленный мод сообщает об ошибке отмены слишком далеко от операции. Предметная цель фиксирует инструменты, а не владение ими. Перед большим проектом отдельно проверьте доступные материалы, заряд и выбранный режим, чтобы случайная замена не затронула соседний цех."
+      ],
+      "text_en": [
+        "Building Gadgets 2 provides separate building, exchanging and copy-paste devices. The template manager handles saved projects. Craft the set, charge it through a supported method and prepare materials; copying geometry does not generate free survival blocks.",
+        "Select a simple block and small placement mode with the building gadget. Test the exchanger on one sample wall after inspecting selection. For copying, define a small area without valuable containers, save its template and inspect preview orientation before pasting.",
+        "Learn undo on the same example and keep affected chunks loaded: the installed mod reports undo failure when too far from the operation. The item objective records tools rather than proficiency. Before large projects, separately check materials, energy and selected mode so an accidental exchange does not affect a neighbouring workshop."
+      ]
+    },
+    "more_qol2/hammers": {
+      "text": [
+        "Железный молот Just Hammers ускоряет добычу сразу нескольких соседних блоков. Изготовьте его и выберите обычную каменную стену для первого испытания. Расширенная область полезна в тоннеле, но рядом со сложным механизмом способна убрать больше, чем вы планировали.",
+        "Осмотрите выделяемую область и ударьте по центральному блоку, сохраняя запас прочности и место для выпадений. Ориентация поверхности влияет на удобство проходки, поэтому проверьте стену и пол отдельно до большой выемки. Молот не заменяет требования материала инструмента для добычи более прочной руды.",
+        "Проверьте собранные блоки и форму отверстия, затем переходите к основной шахте. Не копайте вслепую прямо вниз: расширение области не показывает заранее лаву, пустоту или детали чужой постройки. Для аккуратных работ рядом с базой держите обычную кирку и используйте молот там, где размеры выемки уже осмотрены."
+      ],
+      "text_en": [
+        "The Just Hammers iron hammer mines several neighbouring blocks at once. Craft it and choose an ordinary stone wall for the first trial. Expanded mining helps tunnels but can remove more than intended beside complex machinery.",
+        "Inspect the affected area and strike its centre while preserving durability and drop capacity. Surface orientation affects tunnel convenience, so test walls and floors separately before a large excavation. The hammer does not bypass tool-material requirements for harder ores.",
+        "Check collected blocks and the opening’s shape before using it in the main mine. Avoid digging blindly downward: a larger area does not reveal lava, voids or another structure beforehand. Keep an ordinary pickaxe for precise base work and use the hammer where excavation dimensions have already been inspected."
+      ]
+    },
+    "more_qol2/trash": {
+      "text": [
+        "Предметная мусорная корзина удаляет принятые вещи, освобождая место в автоматической линии. Изготовьте её и сначала испытайте отдельно от основного склада. Достижение выдаётся за получение подходящей корзины; уничтожать редкую вещь или заполнять весь интерфейс для него не требуется.",
+        "Настройте фильтр на один ненужный материал и подайте несколько обычных блоков. Убедитесь, что удаляется только выбранное, а нужный образец не принимается. Не подключайте неограниченный вывод общего хранилища до этой проверки: удалённые предметы не возвращаются обычным открытием интерфейса.",
+        "После успешного опыта включайте корзину как обработку явно лишнего потока. Жидкостная и энергетическая версии решают другие задачи и имеют собственные условия. Предметная цель закрывается без такого расширения. Если линия стала терять полезные продукты, остановите подачу и проверьте режим фильтра, а не увеличивайте производство для компенсации случайного удаления."
+      ],
+      "text_en": [
+        "An item trash can deletes accepted items to free space in automation. Craft it and first test it away from primary storage. The advancement triggers on obtaining an eligible trash can; destroying rare items or filling its interface is unnecessary.",
+        "Filter for one unwanted material and feed a few ordinary blocks. Verify that only the selected material disappears and a valuable sample is rejected. Do not attach unrestricted shared-storage output before testing: deleted items cannot be recovered merely by reopening the interface.",
+        "After success, use the can for an explicitly surplus stream. Fluid and energy versions serve different purposes with their own conditions; this objective requires no expansion. If useful products disappear, stop input and inspect filter mode rather than increasing production to compensate for accidental deletion."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Получить предметную, жидкостную или энергетическую мусорную корзину; здесь подходит предметная",
+          "en": "Obtain an item, fluid or energy trash can; the item version here qualifies"
+        }
+      }
+    },
+    "more_qol2/lootr2": {
+      "text": [
+        "Lootr делает добычу поддерживаемых природных контейнеров отдельной для игроков. Первое достижение требует открыть сундук Lootr. Вторая цель Social не требует приглашать друга: в установленном JSON она объединяет открытия сундука, бочки и вагонетки с добычей этого мода.",
+        "Исследуйте подходящие структуры и проверяйте обозначение контейнера перед открытием. Заберите свою добычу, оставив сам объект другим исследователям. Обычный сундук, изготовленный и поставленный игроком, не становится автоматически контейнером Lootr только из-за похожей формы или содержимого.",
+        "После первого сундука найдите бочку и вагонетку нужного типа, открывая каждый вариант лично. Проверьте отдельные отметки, если общая цель ещё не закрылась. Не ломайте все найденные контейнеры ради проверки: смысл этой системы — сохранить доступ к независимой добыче, а достижение связано с открытием, не уничтожением или передачей предметов другому игроку."
+      ],
+      "text_en": [
+        "Lootr makes supported naturally generated container loot personal to each player. The first advancement requires opening a Lootr chest. Social does not require inviting a friend: its installed JSON combines opening a chest, barrel and loot minecart from the mod.",
+        "Explore appropriate structures and inspect container identification before opening. Take your loot while leaving the object for other explorers. A player-crafted and placed chest does not automatically become a Lootr container because of similar appearance or contents.",
+        "After the first chest, find the required barrel and minecart, opening each personally. Check individual marks if the combined objective remains incomplete. Avoid breaking every container for testing: the system preserves access to independent loot, and its advancement concerns opening rather than destruction or trading items with another player."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Открыть сундук Lootr",
+          "en": "Open a Lootr chest"
+        },
+        "1": {
+          "ru": "Открыть сундук, бочку и вагонетку с добычей Lootr",
+          "en": "Open a Lootr chest, barrel and loot minecart"
+        }
+      }
+    },
+    "more_qol2/compasses": {
+      "text": [
+        "Компас природы ищет биомы, компас исследователя — структуры. Изготовьте оба и выберите цель, которая действительно существует в текущем измерении. Поиск не переносит персонажа автоматически и не гарантирует безопасный путь к результату через горы, океан или подземные полости.",
+        "Откройте интерфейс нужного компаса, задайте точное название и запустите поиск. Прочитайте расстояние, направление и доступные сведения о координатах. Если результата нет, проверьте измерение и предел поиска: отсутствие находки поблизости не доказывает, что мод или весь тип структуры отсутствует в сборке.",
+        "Следуйте по маршруту с обычными припасами и отмечайте возвращение отдельно. У биомов учитывайте высоту, у структур — реальный вход, который может не совпадать с центральной координатой. Предметная цель отмечает инструменты, но успешная разведка требует лично дойти до нужного места и проверить его название или содержимое."
+      ],
+      "text_en": [
+        "Nature’s Compass searches biomes, while Explorer’s Compass searches structures. Craft both and choose a target actually belonging to the current dimension. Search does not teleport you or guarantee a safe route across mountains, oceans or underground cavities.",
+        "Open the appropriate interface, choose the exact name and start searching. Read distance, direction and available coordinates. If nothing appears, inspect dimension and search limits: no nearby result does not prove the mod or entire structure type is absent.",
+        "Follow the route with ordinary supplies and record your return separately. For biomes, account for height; for structures, find an actual entrance, which may differ from central coordinates. The item objective records tools, but successful reconnaissance requires personally reaching the destination and verifying its name or contents."
+      ]
+    },
+    "more_qol2/enchdesc": {
+      "text": [
+        "Описания зачарований помогают понять назначение чар до дорогого улучшения снаряжения. Возьмите зачарованный предмет или книгу, откройте инвентарь и наведите указатель на название зачарования. Удерживайте Shift согласно подсказке, чтобы прочитать дополнительное объяснение доступного эффекта.",
+        "Сравните описание с предметом, который собираетесь использовать. Чары для оружия, добычи и защиты решают разные задачи, а совместимость всё ещё определяется правилами игры и конкретного мода. Наличие текста не позволяет накладывать любое зачарование на любой инструмент без подходящего способа.",
+        "Ручная цель подтверждает, что вы прочитали описание через Shift. Не нужно тратить книгу на наковальне или платить уровни только ради этой проверки. После знакомства выберите полезное улучшение осознанно и проверьте цену применения отдельно; объясняющая подсказка помогает принять решение, но не отменяет расход опыта и ограничений сочетания чар."
+      ],
+      "text_en": [
+        "Enchantment descriptions explain effects before expensive equipment upgrades. Take an enchanted item or book, open inventory and hover its enchantment listing. Hold Shift as indicated to read the available effect explanation.",
+        "Compare the description with your intended equipment. Combat, mining and defensive enchantments solve different problems, while compatibility still follows game and mod rules. Displaying explanatory text does not allow every enchantment on every tool without a suitable application method.",
+        "The manual objective confirms reading the Shift description. No book must be spent at an anvil and no levels paid merely for this check. Afterward choose a useful upgrade deliberately and inspect application cost separately; explanatory tooltips inform decisions without removing experience costs or combination restrictions."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Навести курсор на зачарованный предмет и прочитать описание чары с Shift",
+          "en": "Hover an enchanted item and read its enchantment description while holding Shift"
+        }
+      }
+    },
+    "more_qol2/macaw": {
+      "text": [
+        "Серия Macaw’s добавляет строительные детали с собственными правилами размещения. Подготовьте дубовую кровлю, кровельный молоток и оконную основу. Начните с маленького фасадного макета: один образец крыши позволяет проверить уклон и соединения до расходования большой партии древесины.",
+        "Разместите кровлю на понятном скате и используйте молоток для поддерживаемой настройки формы. Осмотрите соседние блоки и край крыши, затем подготовьте оконный участок из выбранной основы по доступному рецепту. Обычное стекло рядом не обязательно меняет разновидность окна без нужного изготовления.",
+        "Проверьте внешний вид снаружи и проход изнутри, сохраняя свет и доступ к обслуживанию. Предметные цели не требуют покрыть целый дом. Сначала определите палитру и тип соединения, затем делайте полную партию: смешанные варианты наклона или материала легко создают щели и неудобный карниз над основной дверью."
+      ],
+      "text_en": [
+        "Macaw’s adds construction details with their own placement rules. Prepare oak roofing, a roofing hammer and a window base. Begin with a small facade model: one roof sample tests slope and joins before spending large amounts of timber.",
+        "Place roofing on a clear slope and use the hammer for supported shape adjustment. Inspect neighbours and roof edges, then prepare the window section from its chosen base through the available recipe. Nearby ordinary glass does not necessarily change window type without proper crafting.",
+        "Check appearance outside and circulation inside while preserving light and maintenance access. Item objectives do not require roofing an entire house. Determine palette and connections before manufacturing the full batch: mixed slopes or materials can create gaps and an awkward eave above the main entrance."
+      ]
+    },
+    "more_qol2/styles": {
+      "text": [
+        "Style Colonies расширяет набор строительных схем MineColonies. Для знакомства нужен инструмент строительства и доступ к выбору пакетов, а не отдельная машина или электричество. Возьмите хижину и откройте предпросмотр схем, чтобы сравнить новый стиль с уже используемым.",
+        "Выберите установленный дополнительный стиль и осмотрите подходящую постройку на свободной площадке. Проверьте размеры, входы и примерную палитру материалов на нескольких уровнях. Название пакета не гарантирует, что вся требуемая древесина или декор уже есть в ваших сундуках.",
+        "Подтвердите ручную цель после выбора нового стиля при подготовке колониального строительства. Мгновенно перестраивать все дома не нужно: один осмотренный проект позволяет оценить снабжение. Сохраните согласованный вариант для будущего квартала и сначала обеспечьте материалы, чтобы красивое расширение не остановило срочные заказы на жильё, кухню и оборону."
+      ],
+      "text_en": [
+        "Style Colonies expands MineColonies blueprint packs. Exploring it requires a build tool and access to pack selection rather than another machine or electricity. Hold a hut and open blueprint previews to compare an additional style with your current one.",
+        "Select an installed additional style and inspect a suitable building on clear terrain. Check dimensions, entrances and material palette across several levels. A pack name does not guarantee that all required wood and decoration already exist in storage.",
+        "Confirm after choosing a new style while preparing colony construction. Rebuilding every house immediately is unnecessary: one inspected project helps assess supplies. Preserve a coherent choice for a future district and obtain materials first so attractive expansion does not delay urgent housing, kitchen or defence orders."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Выбрать установленный дополнительный стиль при подготовке постройки колонии",
+          "en": "Choose an installed additional style while preparing a colony building"
+        }
+      }
+    },
+    "more_vanilla/guide_conduit": {
+      "text": [
+        "Кондуит — подводный родственник маяка: он даёт эффект Проводимости, с которым можно дышать, видеть и быстро копать под водой, а при полной рамке ещё и бьёт враждебных морских существ. Сердце моря лежит только в закопанном сокровище; карту к нему подсказывают сундуки кораблекрушений и подводных руин. Раковины наутилуса роняют утопленники с ними в руках, реже они приходят с рыбалки.",
+        "Соберите кондуит из сердца моря и восьми раковин, затем стройте рамку: не меньше шестнадцати блоков призмарина, призмариновых кирпичей, тёмного призмарина или морских фонарей, расставленных кольцами на расстоянии одного блока вокруг кондуита. Призмарин добывают в подводных крепостях, охраняемых стражами, поэтому запаситесь зельями подводного дыхания и ночного зрения.",
+        "Работающий кондуит открывает «глаз» и окружает себя частицами. Радиус эффекта растёт с числом блоков рамки вплоть до полной из сорока двух. Если эффекта нет, проверьте, что кондуит со всех сторон окружён водой и рамка стоит в пределах нужной формы. Ручную цель отмечайте только после того, как увидели значок Проводимости."
+      ],
+      "text_en": [
+        "A conduit is the beacon’s underwater relative: it grants Conduit Power, which lets you breathe, see and mine quickly under water, and with a full frame it also strikes hostile sea creatures. The heart of the sea lies only in buried treasure; treasure maps come from shipwreck and ocean ruin chests. Nautilus shells drop from drowned carrying them and occasionally come from fishing.",
+        "Craft the conduit from the heart of the sea and eight shells, then build the frame: at least sixteen blocks of prismarine, prismarine bricks, dark prismarine or sea lanterns arranged in rings one block away from the conduit. Prismarine is mined in ocean monuments guarded by guardians, so stock potions of water breathing and night vision.",
+        "A working conduit opens its “eye” and surrounds itself with particles. The effect radius grows with the number of frame blocks up to a full frame of forty-two. If there is no effect, check that the conduit is surrounded by water on all sides and the frame follows the required shape. Tick the manual objective only after you have seen the Conduit Power icon."
+      ],
+      "task_notes": {
+        "3": {
+          "ru": "Кондуит активирован под водой внутри рамки из призмарина и даёт эффект Проводимости",
+          "en": "The conduit is activated under water inside a prismarine frame and grants Conduit Power"
+        }
+      }
+    },
+    "more_vanilla/guide_pyramid": {
+      "text": [
+        "Первый слой маяка открывает только Скорость и Спешку. Второй слой из двадцати пяти блоков добавляет Сопротивление и Прыгучесть и расширяет область действия до тридцати блоков. Задание учитывает тридцать четыре железных блока за один раз — массу двух слоёв вместе; уже собранную пирамиду разбирать не нужно, достаточно один раз показать запас.",
+        "Подходят любые минеральные блоки: железо, золото, изумруд, алмаз, незерит, и их можно смешивать внутри слоя. Стройте пирамиду ровно: квадрат пять на пять, на нём квадрат три на три, маяк в центре верхнего. Над маяком до самого неба не должно быть непрозрачных блоков, иначе луч не выйдет и эффекты не включатся.",
+        "После постройки откройте интерфейс маяка: доступные эффекты подсветятся, а платёж принимается железным, золотым или незеритовым слитком, изумрудом либо алмазом. Выберите Сопротивление или Прыгучесть и проверьте значок эффекта рядом с маяком. Третий и четвёртый слои понадобятся для Силы и усиленных эффектов, но это уже следующая стройка."
+      ],
+      "text_en": [
+        "A beacon’s first layer unlocks only Speed and Haste. The second layer of twenty-five blocks adds Resistance and Jump Boost and extends the range to thirty blocks. The quest counts thirty-four iron blocks seen at once, the mass of both layers together; an already assembled pyramid need not be dismantled, showing the stock once is enough.",
+        "Any mineral block works: iron, gold, emerald, diamond or netherite, and they may be mixed within a layer. Build the pyramid squarely: a five-by-five square, a three-by-three square on top, the beacon centred on the upper one. Nothing opaque may stand above the beacon up to the sky, otherwise the beam will not emerge and no effect activates.",
+        "After building, open the beacon interface: available effects light up, and payment is accepted as an iron, gold or netherite ingot, an emerald or a diamond. Choose Resistance or Jump Boost and check the effect icon near the beacon. The third and fourth layers are needed for Strength and boosted effects, but that is the next construction."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Маяк стоит на пирамиде из двух слоёв (9 + 25 блоков), выбран эффект Сопротивление или Прыгучесть",
+          "en": "The beacon stands on a two-layer pyramid (9 + 25 blocks) with Resistance or Jump Boost selected"
+        }
+      }
+    },
+    "more_explore/guide_cartography": {
+      "text": [
+        "Стол картографа расширяет карты, копирует их и запирает от изменений. Соберите его из двух листов бумаги и четырёх досок, сделайте пустую карту из восьми листов бумаги и компаса и откройте её на местности, чтобы получить заполненную. Две разные заполненные карты в инвентаре закрывают предметную цель; вторая может быть копией или соседним участком.",
+        "Чтобы отметить место, дайте знамени имя на наковальне ещё до установки, поставьте его и щёлкните по нему с картой в руке. На карте появится значок цвета знамени с этой подписью. Если знамя убрать, метка пропадёт при следующем посещении района — карта помнит только то, что видела.",
+        "Расширяйте карту на столе, добавляя бумагу, пока масштаб не покроет нужный маршрут; копию делайте пустой картой в нижнем слоте. Карту, запертую стеклянной панелью, уже нельзя дорисовать — удобно для архива экспедиций. Ручную цель отмечайте, когда подпись знамени видна на самой карте, а не только в мире."
+      ],
+      "text_en": [
+        "A cartography table expands maps, copies them and locks them against changes. Craft it from two sheets of paper and four planks, make an empty map from eight sheets of paper and a compass and open it outdoors to get a filled map. Two different filled maps in the inventory satisfy the item objective; the second may be a copy or a neighbouring area.",
+        "To mark a place, name a banner on the anvil before placing it, set it down and click it with the map in hand. An icon in the banner’s colour with that label appears on the map. If the banner is removed, the marker disappears the next time you visit the area: the map remembers only what it has seen.",
+        "Expand the map on the table by adding paper until the scale covers your route; make a copy with an empty map in the lower slot. A map locked with a glass pane can no longer be drawn on, which is handy for an expedition archive. Tick the manual objective when the banner label is visible on the map itself, not only in the world."
+      ],
+      "task_notes": {
+        "3": {
+          "ru": "Названное знамя отмечено на карте и отображается с подписью",
+          "en": "A named banner is marked on the map and shown with its label"
+        }
+      }
+    },
+    "more_explore/guide_desert": {
+      "text": [
+        "Terralith перерисовывает пустыни: между привычными дюнами встречаются оазисы с водой и зеленью и пустынные шпили — высокие каменные столбы. Оба биома видны издалека, но найти их наугад долго. Возьмите компас природы из карты удобств или запас еды и воды на длинный дневной переход и уходите засветло.",
+        "Ищите в жарких сухих регионах: соседние биомы Terralith той же температуры подскажут направление. Спускаясь в оазис, проверьте название области на экране отладки или в компасе — цель засчитывает именно desert_oasis и desert_spires, а не любой живописный уголок пустыни. Ночью пустыня полна хасков, поэтому держите укрытие или возвращайтесь до заката.",
+        "Отметки приходят при первом входе в биом. Запишите координаты: оазис даёт воду, тростник и тень для фермы, а у шпилей удобно ставить наблюдательный пункт и путевой камень. Собранные образцы блоков пригодятся в строительстве, но их наличие не заменяет самого посещения."
+      ],
+      "text_en": [
+        "Terralith redraws deserts: among the familiar dunes you find oases with water and greenery and desert spires, tall stone pillars. Both biomes are visible from afar, yet finding them at random takes long. Take a Nature’s Compass from the conveniences map or food and water for a long day’s march and leave while it is light.",
+        "Search hot, dry regions: neighbouring Terralith biomes of the same temperature hint at the direction. Descending into an oasis, check the area name on the debug screen or in the compass: the objective counts precisely desert_oasis and desert_spires, not any picturesque corner of desert. At night the desert fills with husks, so keep a shelter or return before sunset.",
+        "The marks arrive on first entry to each biome. Record the coordinates: the oasis provides water, sugar cane and shade for a farm, while the spires suit an observation post and a waystone. Collected block samples help with building, but owning them does not replace the visit itself."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Побывать в биоме Пустынный оазис",
+          "en": "Visit the Desert Oasis biome"
+        },
+        "1": {
+          "ru": "Побывать в биоме Пустынные шпили",
+          "en": "Visit the Desert Spires biome"
+        }
+      }
+    },
+    "more_kitchen/guide_three_courses": {
+      "text": [
+        "Обед из салата, жареного риса и пасты с фрикадельками показывает три способа готовки Farmer’s Delight. Смешанный салат собирается прямо в верстаке: миска, любая зелень, томат и свёкла. Жареный рис и паста требуют котелок над источником тепла — печью, костром или плитой — и миски в его нижнем слоте.",
+        "Для жареного риса положите в котелок рис, яйцо, морковь и лук. Для пасты сначала подготовьте фарш, разрезав сырую говядину ножом на разделочной доске, сварите томатный соус из томатов и сделайте сырую пасту, затем соедините всё в котелке. Точные ингредиенты и число порций подскажет JEI по каждому блюду.",
+        "Каждое блюдо нужно хотя бы раз иметь в количестве двух порций сразу; собирать все три одновременно не обязательно, а съеденное после учёта уже не вычитается. Сытные блюда дают долгое насыщение и дополнительные эффекты — прочитайте подсказку предмета и берите такой обед в дальний поход вместо горы хлеба."
+      ],
+      "text_en": [
+        "A dinner of salad, fried rice and pasta with meatballs demonstrates three ways of cooking in Farmer’s Delight. Mixed salad is assembled directly in the crafting grid: a bowl, any leafy green, a tomato and a beetroot. Fried rice and pasta need a cooking pot above a heat source, a furnace, campfire or stove, with bowls in its lower slot.",
+        "For fried rice put rice, an egg, a carrot and an onion into the pot. For pasta first prepare minced beef by cutting raw beef with a knife on the cutting board, cook tomato sauce from tomatoes and make raw pasta, then combine everything in the pot. JEI shows exact ingredients and portion counts for each dish.",
+        "Each dish must be held at least once as two portions at a time; gathering all three together is not required, and eating them after they were counted subtracts nothing. Hearty meals give long saturation and extra effects: read the item tooltip and take such a dinner on a long trip instead of a pile of bread."
+      ]
+    },
+    "more_rails/guide_timetable": {
+      "text": [
+        "Расписание превращает поезд в автоматический маршрут между станциями. Поставьте две станции на прямых участках и дайте им понятные имена; каждая создаётся из железнодорожного корпуса и компаса, рецепт выдаёт сразу две. Собранный локомотив должен стоять у станции, чтобы принять расписание и отправиться.",
+        "Откройте расписание правым щелчком и добавьте инструкции: «Ехать до станции» с именем первой, условие ожидания, например задержку, затем поездку ко второй. Передайте лист кондуктору: горелке Blaze Burner на поезде или существу, посаженному на сиденье. Без кондуктора состав стоит, даже если расписание составлено верно.",
+        "Понаблюдайте полный цикл: отправление, остановку на станции по имени и возвращение. Если поезд не находит станцию, проверьте написание имени и путь без разрывов и встречных сигналов. Ручную цель отмечайте после самостоятельного рейса туда и обратно; расписания остаются в инвентаре и учитываются без сдачи."
+      ],
+      "text_en": [
+        "A schedule turns a train into an automatic route between stations. Place two stations on straight sections and give them clear names; each is crafted from a railway casing and a compass, and the recipe yields two. The assembled locomotive must stand at a station to accept the schedule and depart.",
+        "Open the schedule with a right click and add instructions: “Travel to” with the first station’s name, a wait condition such as a delay, then the trip to the second. Hand the sheet to a conductor: a Blaze Burner on the train or a creature seated on a seat. Without a conductor the train stays put even with a correct schedule.",
+        "Watch a full cycle: departure, the stop at the named station and the return. If the train cannot find a station, check the spelling and a track without gaps or opposing signals. Tick the manual objective after an unattended round trip; schedules stay in the inventory and count without being handed in."
+      ],
+      "task_notes": {
+        "2": {
+          "ru": "Состав по расписанию прошёл между двумя станциями и вернулся к исходной без ручного управления",
+          "en": "The scheduled train travelled between two stations and returned to the origin without manual control"
+        }
+      }
+    },
+    "more_munitions/guide_range": {
+      "text": [
+        "Полигон отделяет испытания пушек от жилой застройки. Лафет собирается из досок, вала и пары пушечных колёс и позволяет перевозить небольшую пушку, а мишень из четырёх снопов сена и красной пыли даёт сигнал при попадании и показывает, куда лёг снаряд. Четыре мишени расставьте на разной дальности.",
+        "Выберите направление стрельбы в сторону пустой местности: за мишенями не должно быть построек, жителей колонии и животных, а на линии огня — людей. Первые выстрелы делайте с малым числом пороховых зарядов и сплошным снарядом: фугасы и шрапнель на близком полигоне разрушают землю и повреждают всё вокруг.",
+        "Сделайте пробный выстрел и найдите место падения по мишени и следу. Ручную цель отмечайте, когда линия огня проверена и никто не задет. Повторяйте выстрелы, меняя угол и заряд, чтобы понять дальность конкретного ствола, и записывайте результаты — перед боевой стрельбой таблица пригодится больше догадок."
+      ],
+      "text_en": [
+        "A firing range separates cannon trials from residential buildings. The carriage is crafted from planks, a shaft and a pair of cannon wheels and lets you move a small cannon, while a target block made of four hay bales and redstone dust signals a hit and shows where the shot landed. Set four targets at different distances.",
+        "Choose a firing direction towards empty land: no buildings, colony citizens or animals behind the targets and no people on the firing line. Make the first shots with few powder charges and solid shot: high-explosive and shrapnel shells on a close range tear up the ground and damage everything nearby.",
+        "Fire a test shot and find the impact by the target and the crater. Tick the manual objective once the firing line is verified and nobody was hit. Repeat shots while changing angle and charge to learn the range of a specific barrel, and write the results down: before combat firing a table beats guesswork."
+      ],
+      "task_notes": {
+        "2": {
+          "ru": "Пробный выстрел по мишени с лафета сделан вдали от построек; за мишенью и на линии огня никого не было",
+          "en": "A test shot at a target was fired from the carriage away from buildings; nobody was behind the target or on the firing line"
+        }
+      }
+    },
+    "more_et_side/guide_road_kit": {
+      "text": [
+        "Eternal Tales добавляет мелочи, которые делают вылазки удобнее. Портативный сундук — переносное хранилище, которое открывается прямо из рук: сундук в центре, две цепи по бокам и четыре куска кожи по углам верстака. Это отдельный предмет со своим содержимым, обычный сундук вместо него не засчитывается.",
+        "Печенье из светящихся ягод делается в верстаке из двух печений и светящихся ягод — сразу две штуки. Ягоды растут на лианах в пышных пещерах, а дома их можно вырастить, посадив на нижнюю сторону блока. Оба достижения засчитываются в момент появления предметов в инвентаре, без дополнительных действий.",
+        "Соберите набор до дальней экспедиции: в портативный сундук — запас еды, факелов и блоков, печенье — как лёгкий перекус, который почти не занимает места. Не прячьте портативный сундук внутрь рюкзака: вложенные контейнеры удобны, но после гибели искать их дольше."
+      ],
+      "text_en": [
+        "Eternal Tales adds small things that make trips more comfortable. The portable chest is carried storage opened straight from your hands: a chest in the centre, two chains at the sides and four pieces of leather in the crafting grid’s corners. It is a separate item with its own contents; an ordinary chest does not count instead.",
+        "The glow berry cookie is crafted from two cookies and glow berries, two at once. The berries grow on vines in lush caves, and at home you can grow them by planting on the underside of a block. Both advancements are granted the moment the items appear in the inventory, with no further action.",
+        "Assemble the kit before a long expedition: food, torches and blocks in the portable chest, the cookie as a light snack that takes almost no space. Do not hide the portable chest inside a backpack: nested containers are convenient, but after a death they take longer to find."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Сделать портативный сундук",
+          "en": "Craft a portable chest"
+        },
+        "1": {
+          "ru": "Получить печенье из светящихся ягод",
+          "en": "Obtain a glow berry cookie"
+        }
+      }
+    },
+    "more_et_side/guide_skills": {
+      "text": [
+        "Доска объявлений — встроенный справочник Eternal Tales: она собирается из любой доски и листа бумаги, а внутри показывает поручения, кристаллы измерений, статистику боссов и навыки. Поставьте её дома и откройте: там же включаются наложения навыков и боеприпасов на экране.",
+        "Навык Выкапывание растёт от добычи руд; чем выше уровень, тем чаще выпадает дополнительный кусок руды. Первый уровень приходит сам после обычной работы киркой, и книга засчитает достижение «Юный шахтёр». Остальные навыки растут от своих занятий: ловля, выращивание, стрельба, колдовство, археология.",
+        "Каждое повышение навыка даёт очки уровня игрока, а новый уровень — очко навыка, которое можно вложить в любой навык прямо на доске. Сделайте это хотя бы раз: так засчитывается второе достижение. Не тратьте очки наугад — сначала прочитайте описание навыка во вкладке доски."
+      ],
+      "text_en": [
+        "The Notice Board is Eternal Tales’ built-in reference: it is crafted from any planks and a sheet of paper, and inside it shows quests, dimension crystals, boss statistics and skills. Place it at home and open it: the skill and ammunition overlays on screen are toggled there too.",
+        "The Digging skill grows by mining ores; the higher the level, the more often an extra ore chunk drops. The first level arrives by itself after ordinary pickaxe work, and the book credits the “Young Miner” advancement. The other skills grow from their own activities: catching, growing, archery, sorcery, archaeology.",
+        "Every skill increase grants player level points, and a new player level grants a skill point that can be invested in any skill right on the board. Do this at least once: that is how the second advancement is credited. Do not spend points at random; read the skill description on its board tab first."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Получить первый уровень навыка Выкапывание",
+          "en": "Reach the first level of the Digging skill"
+        },
+        "2": {
+          "ru": "Повысить любой навык очком навыка на Доске объявлений",
+          "en": "Raise any skill with a skill point on the Notice Board"
+        }
+      }
+    },
+    "more_home/guide_dining": {
+      "text": [
+        "Столовая продолжает кухню: стол, стулья, посуда и свет над ними. Handcrafted делает мебель из обычных досок: стол — три доски над двумя палками, стул — плита, две доски и две палки; каждый рецепт выдаёт по два предмета. Деревянная тарелка — три деревянные плиты в ряд, выходит три штуки.",
+        "Медная люстра из Macaw’s Lights собирается по рецепту в JEI и подвешивается под потолком. Расставьте стулья так, чтобы к каждому был подход, а стол стоял недалеко от кухни. Тарелки ставятся на стол как украшение, и на них можно положить еду, чтобы стол выглядел накрытым.",
+        "Предметные цели учитывают показанные количества: два стола, четыре стула, четыре тарелки и одна люстра. Держать их вместе не требуется, а поставленную мебель разбирать не нужно. Проверьте освещённость помещения: люстра красива, но тёмные углы столовой всё равно дают мобам место появиться."
+      ],
+      "text_en": [
+        "The dining room continues the kitchen: a table, chairs, tableware and light above them. Handcrafted makes furniture from ordinary planks: a table is three planks above two sticks, a chair is a slab, two planks and two sticks; each recipe yields two items. A wooden plate is three wooden slabs in a row, giving three.",
+        "The copper chandelier from Macaw’s Lights is crafted by the recipe in JEI and hung under the ceiling. Arrange the chairs so that each can be reached and keep the table close to the kitchen. Plates go on the table as decoration, and food can be placed on them so the table looks set.",
+        "The item objectives count the listed quantities: two tables, four chairs, four plates and one chandelier. Holding them together is not required, and placed furniture need not be taken apart. Check the room’s lighting: a chandelier is pretty, but dark corners of a dining room still give mobs a place to spawn."
+      ]
+    },
+    "more_home/guide_yard": {
+      "text": [
+        "Двор — первое, что видит гость, и первое место, где ночью появляются мобы. Классический уличный фонарь и садовый светильник из Macaw’s Lights собираются из железа и светящихся материалов: садовый — из железных самородков, слитка и светокаменной пыли, он низкий и годится вдоль дорожек; уличный фонарь высокий и освещает целый угол двора.",
+        "Почтовый ящик Refurbished Furniture делается в верстаке этого мода из восьми дубовых досок; через него другие игроки могут оставлять вам предметы. Поставьте ящик у калитки, уличные фонари — по углам двора и у двери, садовые светильники — вдоль тропинки к входу и к мастерской или колонии.",
+        "Пройдите двор ночью: мобы появляются там, где уровень света равен нулю, поэтому тёмных пятен между фонарями быть не должно. Проверьте, что светильники не перекрывают проход и не мешают дверям. Ручную цель отмечайте после спокойной ночи без единого моба внутри освещённого двора."
+      ],
+      "text_en": [
+        "The yard is the first thing a guest sees and the first place where mobs appear at night. The classic street lamp and garden light from Macaw’s Lights are crafted from iron and glowing materials: the garden light from iron nuggets, an ingot and glowstone dust, low and suited to paths; the street lamp is tall and lights a whole corner of the yard.",
+        "The Refurbished Furniture mail box is made on that mod’s workbench from eight oak planks; through it other players can leave you items. Put the box by the gate, street lamps at the yard’s corners and by the door, garden lights along the path to the entrance and towards the workshop or colony.",
+        "Walk the yard at night: mobs spawn where the light level is zero, so there must be no dark patches between lamps. Check that the lights do not block the passage or obstruct doors. Tick the manual objective after a quiet night without a single mob inside the lit yard."
+      ],
+      "task_notes": {
+        "3": {
+          "ru": "Двор и подход к двери освещены так, что за ночь у дома не появился ни один моб",
+          "en": "The yard and the path to the door are lit so that no mob spawned near the house overnight"
+        }
+      }
+    },
+    "more_qol2/guide_destruction": {
+      "text": [
+        "Гаджет разрушения из Building Gadgets 2 снимает целый объём блоков одним применением — противоположность строительному. Рецепт: железо по углам и в центре, красная пыль сверху, жемчуг Края по бокам, лазурит снизу. Перед применением откройте настройки: в них задаются размеры зоны сноса от точки прицеливания.",
+        "Задайте ширину, высоту и глубину зоны и наведите гаджет на поверхность — предпросмотр покажет, что именно исчезнет. Прежде чем нажимать, уберите из зоны сундуки, машины и ценные блоки: настройку проверяют на пустом участке, а не на стене собственного склада.",
+        "Начните с малого объёма на пустыре: снесите тестовую стену и убедитесь, что предпросмотр совпал с результатом. Ручную цель отмечайте после такой проверки. В городе применяйте гаджет с уменьшенной зоной и только после осмотра предпросмотра — один неверный щелчок стирает стену вместе с соседним домом."
+      ],
+      "text_en": [
+        "The Destruction Gadget from Building Gadgets 2 removes a whole volume of blocks in one use, the opposite of the building gadget. Recipe: iron in the corners and centre, redstone dust on top, ender pearls at the sides, lapis at the bottom. Before using it open the settings: they define the size of the removal area from the aimed point.",
+        "Set the width, height and depth of the area and aim the gadget at a surface: the preview shows exactly what will disappear. Before clicking, move chests, machines and valuable blocks out of the area: the setup is tested on an empty plot, not on the wall of your own warehouse.",
+        "Start with a small volume on waste ground: remove a test wall and make sure the preview matched the result. Tick the manual objective after that check. In town use the gadget with a reduced area and only after inspecting the preview; one wrong click erases a wall together with the neighbouring house."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Зона гаджета разрушения настроена и проверена сносом тестовой стены на пустом участке",
+          "en": "The destruction gadget’s area is configured and verified by removing a test wall on an empty plot"
+        }
+      }
+    }
+  },
+  "additions": [
+    {
+      "chapter": "more_vanilla",
+      "id": "guide_conduit",
+      "title": "Сердце моря",
+      "title_en": "Heart of the Sea",
+      "icon": "minecraft:conduit",
+      "deps": [
+        "diamonds"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "minecraft:heart_of_the_sea",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "minecraft:nautilus_shell",
+          "count": 8
+        },
+        {
+          "type": "item",
+          "id": "minecraft:conduit",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "conduit_frame",
+          "note": "Кондуит активирован под водой внутри рамки из призмарина и даёт эффект Проводимости",
+          "note_en": "The conduit is activated under water inside a prismarine frame and grants Conduit Power"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_vanilla",
+      "id": "guide_pyramid",
+      "title": "Вторая ступень",
+      "title_en": "Second Tier",
+      "icon": "minecraft:iron_block",
+      "deps": [
+        "beacon"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "minecraft:iron_block",
+          "count": 34
+        },
+        {
+          "type": "check",
+          "id": "beacon_second_tier",
+          "note": "Маяк стоит на пирамиде из двух слоёв (9 + 25 блоков), выбран эффект Сопротивление или Прыгучесть",
+          "note_en": "The beacon stands on a two-layer pyramid (9 + 25 blocks) with Resistance or Jump Boost selected"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 60,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_explore",
+      "id": "guide_cartography",
+      "title": "Стол картографа",
+      "title_en": "Cartography Table",
+      "icon": "minecraft:cartography_table",
+      "deps": [
+        "start_first_day/map"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "minecraft:cartography_table",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "minecraft:filled_map",
+          "count": 2
+        },
+        {
+          "type": "item",
+          "id": "minecraft:white_banner",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "map_banner_marker",
+          "note": "Названное знамя отмечено на карте и отображается с подписью",
+          "note_en": "A named banner is marked on the map and shown with its label"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 40,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_explore",
+      "id": "guide_desert",
+      "title": "Пустынный переход",
+      "title_en": "Desert Crossing",
+      "icon": "minecraft:cactus",
+      "deps": [
+        "start_first_day/map"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "id": "terralith:desert_oasis"
+        },
+        {
+          "type": "biome",
+          "id": "terralith:desert_spires"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_kitchen",
+      "id": "guide_three_courses",
+      "title": "Три перемены",
+      "title_en": "Three Courses",
+      "icon": "farmersdelight:fried_rice",
+      "deps": [
+        "stew"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "farmersdelight:mixed_salad",
+          "count": 2
+        },
+        {
+          "type": "item",
+          "id": "farmersdelight:fried_rice",
+          "count": 2
+        },
+        {
+          "type": "item",
+          "id": "farmersdelight:pasta_with_meatballs",
+          "count": 2
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_rails",
+      "id": "guide_timetable",
+      "title": "По расписанию",
+      "title_en": "On Schedule",
+      "icon": "create:track_station",
+      "deps": [
+        "locomotive"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "create:track_station",
+          "count": 2
+        },
+        {
+          "type": "item",
+          "id": "create:schedule",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "timetable_return",
+          "note": "Состав по расписанию прошёл между двумя станциями и вернулся к исходной без ручного управления",
+          "note_en": "The scheduled train travelled between two stations and returned to the origin without manual control"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_munitions",
+      "id": "guide_range",
+      "title": "Полигон",
+      "title_en": "Firing Range",
+      "icon": "minecraft:target",
+      "deps": [
+        "powder"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "createbigcannons:cannon_carriage",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "minecraft:target",
+          "count": 4
+        },
+        {
+          "type": "check",
+          "id": "range_clear_fire",
+          "note": "Пробный выстрел по мишени с лафета сделан вдали от построек; за мишенью и на линии огня никого не было",
+          "note_en": "A test shot at a target was fired from the carriage away from buildings; nobody was behind the target or on the firing line"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_et_side",
+      "id": "guide_road_kit",
+      "title": "Дорожный набор",
+      "title_en": "Travel Kit",
+      "icon": "eternal_tales:portable_chest",
+      "deps": [
+        "et_intro/journal"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "id": "eternal_tales:get_portable_chest"
+        },
+        {
+          "type": "advancement",
+          "id": "eternal_tales:get_glowberry_cookie"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 40,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_et_side",
+      "id": "guide_skills",
+      "title": "Доска объявлений",
+      "title_en": "Notice Board",
+      "icon": "eternal_tales:notice_board",
+      "deps": [
+        "et_intro/journal"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "eternal_tales:notice_board",
+          "count": 1
+        },
+        {
+          "type": "advancement",
+          "id": "eternal_tales:get_first_digging_skill_level"
+        },
+        {
+          "type": "advancement",
+          "id": "eternal_tales:upgrade_skill_with_notice_board"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_home",
+      "id": "guide_dining",
+      "title": "Столовая",
+      "title_en": "Dining Room",
+      "icon": "handcrafted:oak_table",
+      "deps": [
+        "kitchen"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "handcrafted:oak_table",
+          "count": 2
+        },
+        {
+          "type": "item",
+          "id": "handcrafted:oak_chair",
+          "count": 4
+        },
+        {
+          "type": "item",
+          "id": "handcrafted:wood_plate",
+          "count": 4
+        },
+        {
+          "type": "item",
+          "id": "mcwlights:copper_chandelier",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 40,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_home",
+      "id": "guide_yard",
+      "title": "Двор",
+      "title_en": "The Yard",
+      "icon": "mcwlights:classic_street_lamp",
+      "deps": [
+        "bed"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "mcwlights:classic_street_lamp",
+          "count": 2
+        },
+        {
+          "type": "item",
+          "id": "mcwlights:garden_light",
+          "count": 4
+        },
+        {
+          "type": "item",
+          "id": "refurbished_furniture:oak_mail_box",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "yard_lit",
+          "note": "Двор и подход к двери освещены так, что за ночь у дома не появился ни один моб",
+          "note_en": "The yard and the path to the door are lit so that no mob spawned near the house overnight"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 40,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "more_qol2",
+      "id": "guide_destruction",
+      "title": "Гаджет разрушения",
+      "title_en": "Destruction Gadget",
+      "icon": "buildinggadgets2:gadget_destruction",
+      "deps": [
+        "gadgets"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "buildinggadgets2:gadget_destruction",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "destruction_bounds",
+          "note": "Зона гаджета разрушения настроена и проверена сносом тестовой стены на пустом участке",
+          "note_en": "The destruction gadget’s area is configured and verified by removing a test wall on an empty plot"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    }
+  ]
+}

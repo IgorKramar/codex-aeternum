@@ -49,6 +49,8 @@ public final class Tracker {
     private static final SystemToast.SystemToastId TOAST_ID = new SystemToast.SystemToastId(5000L);
 
     private static boolean serverMode;
+    /** Первая синхронизация после входа переносит старый прогресс и не должна сыпать уведомлениями. */
+    private static boolean synced;
     private static Field advProgressField;
     private static boolean advProgressFieldMissing;
     private static int tick;
@@ -63,7 +65,7 @@ public final class Tracker {
     }
 
     public static Book book() {
-        return Book.CLIENT;
+        return serverMode ? Book.REMOTE : Book.CLIENT;
     }
 
     // ---------------------------------------------------------- жизненный цикл
@@ -72,13 +74,14 @@ public final class Tracker {
         serverMode = false;
         PROGRESS.bind(FMLPaths.GAMEDIR.get().resolve("codex").resolve(Progress.sanitize(worldKey()) + ".json"));
         tick = 0;
-        pondersStamp = -1;
+        resetPonders();
     }
 
     public static void onLeave() {
         if (!serverMode) PROGRESS.unbind();
         else PROGRESS.clear();
         serverMode = false;
+        resetPonders();
     }
 
     /** Сервер прислал книгу: переключаемся на серверный режим. */
@@ -88,14 +91,21 @@ public final class Tracker {
             PROGRESS.unbind();
         }
         serverMode = true;
+        synced = false;
+        resetPonders();
     }
 
     public static void applyServerProgress(JsonObject json) {
+        // Без принятой серверной книги локальное сохранение остаётся источником прогресса.
+        if (!serverMode) return;
         Set<String> before = new HashSet<>(PROGRESS.completed);
         Set<String> beforeClaimed = new HashSet<>(PROGRESS.claimed);
         PROGRESS.fromJson(json);
+        boolean announce = synced;
+        synced = true;
+        if (!announce) return;
         for (String gid : PROGRESS.completed) {
-            if (!before.contains(gid) && !beforeClaimed.contains(gid) && !before.isEmpty()) {
+            if (!before.contains(gid) && !beforeClaimed.contains(gid)) {
                 Quest q = book().quest(gid);
                 if (q != null) toast(q);
             }
@@ -119,12 +129,15 @@ public final class Tracker {
         scanInventory(player);
         scanAdvancements(mc);
         scanWorld(player);
-        List<Quest> fresh = Rules.recompute(book(), PROGRESS);
-        for (Quest q : fresh) {
+        processCompletions();
+        PROGRESS.tickSave(player.level().getGameTime());
+    }
+
+    private static void processCompletions() {
+        for (Quest q : Rules.recompute(book(), PROGRESS)) {
             PROGRESS.claimed.add(q.globalId());
             toast(q);
         }
-        PROGRESS.tickSave(player.level().getGameTime());
     }
 
     private static void scanInventory(LocalPlayer player) {
@@ -184,20 +197,25 @@ public final class Tracker {
     }
 
     /** Create ведёт список просмотренных сцен в ponders_watched.json. */
+    private static void resetPonders() {
+        pondersStamp = -1;
+        ponders.clear();
+    }
+
     private static void scanPonders() {
         Path file = FMLPaths.GAMEDIR.get().resolve("ponders_watched.json");
         try {
             if (!Files.isRegularFile(file)) return;
             long stamp = Files.getLastModifiedTime(file).toMillis();
             if (stamp == pondersStamp) return;
-            pondersStamp = stamp;
             try (BufferedReader r = Files.newBufferedReader(file, StandardCharsets.UTF_8)) {
                 JsonElement e = JsonParser.parseReader(r);
                 if (!e.isJsonArray()) return;
                 for (JsonElement x : (JsonArray) e) {
                     String key = "ponder|" + x.getAsString();
-                    if (ponders.add(key)) setFlag(key, true);
+                    if (Rules.validFlag(book(), key) && ponders.add(key)) setFlag(key, true);
                 }
+                pondersStamp = stamp;
             }
         } catch (Exception ignored) {
             // файл может писаться в этот момент — прочитаем в следующий раз
@@ -207,12 +225,13 @@ public final class Tracker {
     // ------------------------------------------------------- действия игрока
 
     public static void setFlag(String key, boolean value) {
+        if (!Rules.validFlag(book(), key)) return;
         if (serverMode) {
             PROGRESS.setManual(key, value);
             PacketDistributor.sendToServer(new Payloads.Flag(key, value));
         } else {
             PROGRESS.setManual(key, value);
-            Rules.recompute(book(), PROGRESS);
+            processCompletions();
         }
     }
 
@@ -221,6 +240,7 @@ public final class Tracker {
     }
 
     public static void togglePin(String gid) {
+        if (book().quest(gid) == null) return;
         PROGRESS.togglePin(gid);
         if (serverMode) PacketDistributor.sendToServer(new Payloads.Pin(gid));
     }
@@ -235,7 +255,7 @@ public final class Tracker {
         PROGRESS.completed.add(q.globalId());
         PROGRESS.claimed.add(q.globalId());
         PROGRESS.markDirty();
-        Rules.recompute(book(), PROGRESS);
+        processCompletions();
         toast(q);
     }
 

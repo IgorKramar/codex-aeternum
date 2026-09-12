@@ -22,7 +22,7 @@ final class ClientHandlers {
             for (String d : joined.split(java.util.regex.Pattern.quote(Payloads.DOC_SEPARATOR))) {
                 if (!d.isBlank()) docs.add(d);
             }
-            Book.CLIENT.loadFromDocuments(sections, docs);
+            Book.REMOTE.loadFromDocuments(sections, docs);
             Tracker.enterServerMode();
         });
     }

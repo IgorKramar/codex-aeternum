@@ -8,8 +8,7 @@
   "subtitle": "codex.chapter.space_ground.subtitle",
   "intro": [
    "codex.chapter.space_ground.intro.0",
-   "codex.chapter.space_ground.intro.1",
-   "codex.chapter.space_ground.intro.2"
+   "codex.chapter.space_ground.intro.1"
   ],
   "quests": [
    {
@@ -17,10 +16,11 @@
     "title": "codex.quest.space_ground.generator.title",
     "icon": "ad_astra:coal_generator",
     "x": 0,
-    "y": 0,
+    "y": 1,
     "text": [
      "codex.quest.space_ground.generator.text.0",
-     "codex.quest.space_ground.generator.text.1"
+     "codex.quest.space_ground.generator.text.1",
+     "codex.quest.space_ground.generator.text.2"
     ],
     "tasks": [
      {
@@ -30,7 +30,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:carbon_footprint"
+      "id": "ad_astra:carbon_footprint",
+      "note": "codex.quest.space_ground.generator.task.1"
      }
     ],
     "rewards": {
@@ -42,17 +43,21 @@
      ],
      "xp": 40,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "compressor",
     "title": "codex.quest.space_ground.compressor.title",
     "icon": "ad_astra:compressor",
-    "x": 0,
+    "x": 2,
     "y": 1,
     "text": [
      "codex.quest.space_ground.compressor.text.0",
-     "codex.quest.space_ground.compressor.text.1"
+     "codex.quest.space_ground.compressor.text.1",
+     "codex.quest.space_ground.compressor.text.2"
     ],
     "tasks": [
      {
@@ -62,7 +67,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:under_pressure"
+      "id": "ad_astra:under_pressure",
+      "note": "codex.quest.space_ground.compressor.task.1"
      },
      {
       "type": "item",
@@ -88,11 +94,12 @@
     "id": "furnace",
     "title": "codex.quest.space_ground.furnace.title",
     "icon": "ad_astra:etrionic_blast_furnace",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 1,
     "text": [
      "codex.quest.space_ground.furnace.text.0",
-     "codex.quest.space_ground.furnace.text.1"
+     "codex.quest.space_ground.furnace.text.1",
+     "codex.quest.space_ground.furnace.text.2"
     ],
     "tasks": [
      {
@@ -102,7 +109,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:smart_blasting"
+      "id": "ad_astra:smart_blasting",
+      "note": "codex.quest.space_ground.furnace.task.1"
      }
     ],
     "rewards": {
@@ -123,11 +131,12 @@
     "id": "steel",
     "title": "codex.quest.space_ground.steel.title",
     "icon": "ad_astra:steel_ingot",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 1,
     "text": [
      "codex.quest.space_ground.steel.text.0",
-     "codex.quest.space_ground.steel.text.1"
+     "codex.quest.space_ground.steel.text.1",
+     "codex.quest.space_ground.steel.text.2"
     ],
     "tasks": [
      {
@@ -159,10 +168,12 @@
     "id": "workbench",
     "title": "codex.quest.space_ground.workbench.title",
     "icon": "ad_astra:nasa_workbench",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 1,
     "text": [
-     "codex.quest.space_ground.workbench.text.0"
+     "codex.quest.space_ground.workbench.text.0",
+     "codex.quest.space_ground.workbench.text.1",
+     "codex.quest.space_ground.workbench.text.2"
     ],
     "tasks": [
      {
@@ -172,7 +183,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:rocket_science"
+      "id": "ad_astra:rocket_science",
+      "note": "codex.quest.space_ground.workbench.task.1"
      }
     ],
     "rewards": {
@@ -193,11 +205,12 @@
     "id": "oil",
     "title": "codex.quest.space_ground.oil.title",
     "icon": "ad_astra:oil_bucket",
-    "x": -1,
-    "y": 5,
+    "x": 10,
+    "y": 1,
     "text": [
      "codex.quest.space_ground.oil.text.0",
-     "codex.quest.space_ground.oil.text.1"
+     "codex.quest.space_ground.oil.text.1",
+     "codex.quest.space_ground.oil.text.2"
     ],
     "tasks": [
      {
@@ -207,7 +220,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:ocean_cleanup"
+      "id": "ad_astra:ocean_cleanup",
+      "note": "codex.quest.space_ground.oil.task.1"
      },
      {
       "type": "item",
@@ -238,11 +252,12 @@
     "id": "oxygen",
     "title": "codex.quest.space_ground.oxygen.title",
     "icon": "ad_astra:oxygen_loader",
-    "x": 1,
-    "y": 5,
+    "x": 12,
+    "y": 1,
     "text": [
      "codex.quest.space_ground.oxygen.text.0",
-     "codex.quest.space_ground.oxygen.text.1"
+     "codex.quest.space_ground.oxygen.text.1",
+     "codex.quest.space_ground.oxygen.text.2"
     ],
     "tasks": [
      {
@@ -279,14 +294,15 @@
     "id": "suit",
     "title": "codex.quest.space_ground.suit.title",
     "icon": "ad_astra:space_helmet",
-    "x": 0,
-    "y": 6,
+    "x": 14,
+    "y": 1,
     "deps": [
      "oxygen"
     ],
     "text": [
      "codex.quest.space_ground.suit.text.0",
-     "codex.quest.space_ground.suit.text.1"
+     "codex.quest.space_ground.suit.text.1",
+     "codex.quest.space_ground.suit.text.2"
     ],
     "tasks": [
      {
@@ -311,7 +327,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:astronaut"
+      "id": "ad_astra:astronaut",
+      "note": "codex.quest.space_ground.suit.task.4"
      }
     ],
     "rewards": {
@@ -329,8 +346,8 @@
     "id": "rocket",
     "title": "codex.quest.space_ground.rocket.title",
     "icon": "ad_astra:tier_1_rocket",
-    "x": 0,
-    "y": 7,
+    "x": 16,
+    "y": 1,
     "deps": [
      "workbench",
      "oil",
@@ -338,7 +355,8 @@
     ],
     "text": [
      "codex.quest.space_ground.rocket.text.0",
-     "codex.quest.space_ground.rocket.text.1"
+     "codex.quest.space_ground.rocket.text.1",
+     "codex.quest.space_ground.rocket.text.2"
     ],
     "tasks": [
      {
@@ -373,7 +391,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:tier_1_rocket"
+      "id": "ad_astra:tier_1_rocket",
+      "note": "codex.quest.space_ground.rocket.task.6"
      }
     ],
     "rewards": {
@@ -397,11 +416,12 @@
     "id": "checklist",
     "title": "codex.quest.space_ground.checklist.title",
     "icon": "ad_astra:gas_tank",
-    "x": 0,
-    "y": 8,
+    "x": 18,
+    "y": 1,
     "text": [
      "codex.quest.space_ground.checklist.text.0",
-     "codex.quest.space_ground.checklist.text.1"
+     "codex.quest.space_ground.checklist.text.1",
+     "codex.quest.space_ground.checklist.text.2"
     ],
     "tasks": [
      {
@@ -423,8 +443,155 @@
     "deps": [
      "rocket"
     ]
+   },
+   {
+    "id": "launch_service_setup",
+    "title": "codex.quest.space_ground.launch_service_setup.title",
+    "icon": "ad_astra:tier_1_rocket",
+    "x": 20,
+    "y": 1,
+    "deps": [
+     "checklist"
+    ],
+    "text": [
+     "codex.quest.space_ground.launch_service_setup.text.0",
+     "codex.quest.space_ground.launch_service_setup.text.1",
+     "codex.quest.space_ground.launch_service_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:tier_1_rocket",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "launch_service_batch",
+    "title": "codex.quest.space_ground.launch_service_batch.title",
+    "icon": "ad_astra:tier_1_rocket",
+    "x": 22,
+    "y": 1,
+    "deps": [
+     "launch_service_setup"
+    ],
+    "text": [
+     "codex.quest.space_ground.launch_service_batch.text.0",
+     "codex.quest.space_ground.launch_service_batch.text.1",
+     "codex.quest.space_ground.launch_service_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:iron_ingot",
+      "count": 32
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "launch_service_run",
+    "title": "codex.quest.space_ground.launch_service_run.title",
+    "icon": "ad_astra:tier_1_rocket",
+    "x": 24,
+    "y": 0,
+    "deps": [
+     "launch_service_batch"
+    ],
+    "text": [
+     "codex.quest.space_ground.launch_service_run.text.0",
+     "codex.quest.space_ground.launch_service_run.text.1",
+     "codex.quest.space_ground.launch_service_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.space_ground.launch_service_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_oxygen_reserve",
+    "title": "codex.quest.space_ground.guide_oxygen_reserve.title",
+    "icon": "ad_astra:gas_tank",
+    "deps": [
+     "oxygen"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:gas_tank",
+      "count": 2
+     },
+     {
+      "type": "check",
+      "id": "Два переносных бака заполнены кислородом; проверена дозаправка скафандра",
+      "note": "codex.quest.space_ground.guide_oxygen_reserve.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 2,
+    "text": [
+     "codex.quest.space_ground.guide_oxygen_reserve.text.0",
+     "codex.quest.space_ground.guide_oxygen_reserve.text.1",
+     "codex.quest.space_ground.guide_oxygen_reserve.text.2"
+    ]
+   },
+   {
+    "id": "guide_fuel_reserve",
+    "title": "codex.quest.space_ground.guide_fuel_reserve.title",
+    "icon": "ad_astra:fuel_bucket",
+    "deps": [
+     "oil"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:fuel_bucket",
+      "count": 6
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 2,
+    "text": [
+     "codex.quest.space_ground.guide_fuel_reserve.text.0",
+     "codex.quest.space_ground.guide_fuel_reserve.text.1",
+     "codex.quest.space_ground.guide_fuel_reserve.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "space"
  },
  {
   "id": "space_moon",
@@ -434,27 +601,31 @@
   "icon": "ad_astra:moon_globe",
   "subtitle": "codex.chapter.space_moon.subtitle",
   "intro": [
-   "codex.chapter.space_moon.intro.0"
+   "codex.chapter.space_moon.intro.0",
+   "codex.chapter.space_moon.intro.1"
   ],
   "quests": [
    {
     "id": "landing",
     "title": "codex.quest.space_moon.landing.title",
     "icon": "ad_astra:moon_globe",
-    "x": 0,
-    "y": 0,
+    "x": 20,
+    "y": 2,
     "text": [
      "codex.quest.space_moon.landing.text.0",
-     "codex.quest.space_moon.landing.text.1"
+     "codex.quest.space_moon.landing.text.1",
+     "codex.quest.space_moon.landing.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "ad_astra:moon"
+      "id": "ad_astra:moon",
+      "note": "codex.quest.space_moon.landing.task.0"
      },
      {
       "type": "advancement",
-      "id": "ad_astra:moon"
+      "id": "ad_astra:moon",
+      "note": "codex.quest.space_moon.landing.task.1"
      }
     ],
     "rewards": {
@@ -466,17 +637,21 @@
      ],
      "xp": 200,
      "text": []
-    }
+    },
+    "deps": [
+     "space_ground/checklist"
+    ]
    },
    {
     "id": "desh",
     "title": "codex.quest.space_moon.desh.title",
     "icon": "ad_astra:desh_ingot",
-    "x": 0,
-    "y": 1,
+    "x": 22,
+    "y": 2,
     "text": [
      "codex.quest.space_moon.desh.text.0",
-     "codex.quest.space_moon.desh.text.1"
+     "codex.quest.space_moon.desh.text.1",
+     "codex.quest.space_moon.desh.text.2"
     ],
     "tasks": [
      {
@@ -513,10 +688,12 @@
     "id": "cheese",
     "title": "codex.quest.space_moon.cheese.title",
     "icon": "ad_astra:cheese",
-    "x": 1,
+    "x": 24,
     "y": 1,
     "text": [
-     "codex.quest.space_moon.cheese.text.0"
+     "codex.quest.space_moon.cheese.text.0",
+     "codex.quest.space_moon.cheese.text.1",
+     "codex.quest.space_moon.cheese.text.2"
     ],
     "tasks": [
      {
@@ -526,7 +703,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:moon_cheese"
+      "id": "ad_astra:moon_cheese",
+      "note": "codex.quest.space_moon.cheese.task.1"
      }
     ],
     "rewards": {
@@ -548,11 +726,12 @@
     "id": "solar",
     "title": "codex.quest.space_moon.solar.title",
     "icon": "ad_astra:solar_panel",
-    "x": 0,
+    "x": 24,
     "y": 2,
     "text": [
      "codex.quest.space_moon.solar.text.0",
-     "codex.quest.space_moon.solar.text.1"
+     "codex.quest.space_moon.solar.text.1",
+     "codex.quest.space_moon.solar.text.2"
     ],
     "tasks": [
      {
@@ -562,7 +741,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:solar_panel"
+      "id": "ad_astra:solar_panel",
+      "note": "codex.quest.space_moon.solar.task.1"
      },
      {
       "type": "item",
@@ -586,15 +766,15 @@
      "text": []
     },
     "deps": [
-     "cheese"
+     "desh"
     ]
    },
    {
     "id": "distributor",
     "title": "codex.quest.space_moon.distributor.title",
     "icon": "ad_astra:oxygen_distributor",
-    "x": 0,
-    "y": 3,
+    "x": 26,
+    "y": 1,
     "text": [
      "codex.quest.space_moon.distributor.text.0",
      "codex.quest.space_moon.distributor.text.1",
@@ -618,7 +798,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:oxygen_distributor"
+      "id": "ad_astra:oxygen_distributor",
+      "note": "codex.quest.space_moon.distributor.task.3"
      }
     ],
     "rewards": {
@@ -639,13 +820,15 @@
     "id": "gravity",
     "title": "codex.quest.space_moon.gravity.title",
     "icon": "ad_astra:gravity_normalizer",
-    "x": 1,
-    "y": 3,
+    "x": 28,
+    "y": 0,
     "deps": [
      "distributor"
     ],
     "text": [
-     "codex.quest.space_moon.gravity.text.0"
+     "codex.quest.space_moon.gravity.text.0",
+     "codex.quest.space_moon.gravity.text.1",
+     "codex.quest.space_moon.gravity.text.2"
     ],
     "tasks": [
      {
@@ -655,7 +838,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:gravity_normalizer"
+      "id": "ad_astra:gravity_normalizer",
+      "note": "codex.quest.space_moon.gravity.task.1"
      }
     ],
     "rewards": {
@@ -673,14 +857,15 @@
     "id": "rover",
     "title": "codex.quest.space_moon.rover.title",
     "icon": "ad_astra:tier_1_rover",
-    "x": -1,
+    "x": 24,
     "y": 3,
     "deps": [
      "desh"
     ],
     "text": [
      "codex.quest.space_moon.rover.text.0",
-     "codex.quest.space_moon.rover.text.1"
+     "codex.quest.space_moon.rover.text.1",
+     "codex.quest.space_moon.rover.text.2"
     ],
     "tasks": [
      {
@@ -690,7 +875,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:dj"
+      "id": "ad_astra:dj",
+      "note": "codex.quest.space_moon.rover.task.1"
      },
      {
       "type": "item",
@@ -699,7 +885,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:rover"
+      "id": "ad_astra:rover",
+      "note": "codex.quest.space_moon.rover.task.3"
      }
     ],
     "rewards": {
@@ -717,13 +904,15 @@
     "id": "gadgets",
     "title": "codex.quest.space_moon.gadgets.title",
     "icon": "ad_astra:ti_69",
-    "x": -1,
-    "y": 4,
+    "x": 26,
+    "y": 2,
     "deps": [
      "rover"
     ],
     "text": [
-     "codex.quest.space_moon.gadgets.text.0"
+     "codex.quest.space_moon.gadgets.text.0",
+     "codex.quest.space_moon.gadgets.text.1",
+     "codex.quest.space_moon.gadgets.text.2"
     ],
     "tasks": [
      {
@@ -733,7 +922,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:ti_69"
+      "id": "ad_astra:ti_69",
+      "note": "codex.quest.space_moon.gadgets.task.1"
      },
      {
       "type": "item",
@@ -742,7 +932,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:zip_gun"
+      "id": "ad_astra:zip_gun",
+      "note": "codex.quest.space_moon.gadgets.task.3"
      }
     ],
     "rewards": {
@@ -761,19 +952,21 @@
     "id": "orbit",
     "title": "codex.quest.space_moon.orbit.title",
     "icon": "ad_astra:space_painting",
-    "x": 1,
-    "y": 4,
+    "x": 28,
+    "y": 1,
     "deps": [
      "distributor"
     ],
     "text": [
      "codex.quest.space_moon.orbit.text.0",
-     "codex.quest.space_moon.orbit.text.1"
+     "codex.quest.space_moon.orbit.text.1",
+     "codex.quest.space_moon.orbit.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "ad_astra:earth_orbit"
+      "id": "ad_astra:earth_orbit",
+      "note": "codex.quest.space_moon.orbit.task.0"
      }
     ],
     "rewards": {
@@ -792,15 +985,16 @@
     "id": "tier2",
     "title": "codex.quest.space_moon.tier2.title",
     "icon": "ad_astra:tier_2_rocket",
-    "x": 0,
-    "y": 5,
+    "x": 28,
+    "y": 3,
     "deps": [
      "desh",
      "distributor"
     ],
     "text": [
      "codex.quest.space_moon.tier2.text.0",
-     "codex.quest.space_moon.tier2.text.1"
+     "codex.quest.space_moon.tier2.text.1",
+     "codex.quest.space_moon.tier2.text.2"
     ],
     "tasks": [
      {
@@ -820,7 +1014,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:tier_2_rocket"
+      "id": "ad_astra:tier_2_rocket",
+      "note": "codex.quest.space_moon.tier2.task.3"
      }
     ],
     "rewards": {
@@ -833,8 +1028,115 @@
      "xp": 400,
      "text": []
     }
+   },
+   {
+    "id": "guide_airlock",
+    "title": "codex.quest.space_moon.guide_airlock.title",
+    "icon": "ad_astra:airlock",
+    "deps": [
+     "distributor"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:airlock",
+      "count": 2
+     },
+     {
+      "type": "check",
+      "id": "Шлюзовая камера испытана: двери открываются по очереди, жилой объём сохраняет кислород",
+      "note": "codex.quest.space_moon.guide_airlock.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 28,
+    "y": 2,
+    "text": [
+     "codex.quest.space_moon.guide_airlock.text.0",
+     "codex.quest.space_moon.guide_airlock.text.1",
+     "codex.quest.space_moon.guide_airlock.text.2"
+    ]
+   },
+   {
+    "id": "guide_sealed_services",
+    "title": "codex.quest.space_moon.guide_sealed_services.title",
+    "icon": "ad_astra:cable_duct",
+    "deps": [
+     "solar",
+     "guide_airlock"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:cable_duct",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "ad_astra:fluid_pipe_duct",
+      "count": 2
+     },
+     {
+      "type": "check",
+      "id": "Кабель и жидкостная линия проходят через герметичные вводы; комната сохраняет кислород",
+      "note": "codex.quest.space_moon.guide_sealed_services.task.2"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 30,
+    "y": 1,
+    "text": [
+     "codex.quest.space_moon.guide_sealed_services.text.0",
+     "codex.quest.space_moon.guide_sealed_services.text.1",
+     "codex.quest.space_moon.guide_sealed_services.text.2"
+    ]
+   },
+   {
+    "id": "guide_station_walk",
+    "title": "codex.quest.space_moon.guide_station_walk.title",
+    "icon": "minecraft:iron_bars",
+    "deps": [
+     "orbit",
+     "gadgets"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:iron_bars",
+      "count": 32
+     },
+     {
+      "type": "check",
+      "id": "На орбитальной станции проложен ограждённый путь от точки прибытия; испытаны короткие импульсы Zip Gun",
+      "note": "codex.quest.space_moon.guide_station_walk.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 30,
+    "y": 0,
+    "text": [
+     "codex.quest.space_moon.guide_station_walk.text.0",
+     "codex.quest.space_moon.guide_station_walk.text.1",
+     "codex.quest.space_moon.guide_station_walk.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "space"
  },
  {
   "id": "space_mars",
@@ -844,26 +1146,31 @@
   "icon": "ad_astra:ostrum_ingot",
   "subtitle": "codex.chapter.space_mars.subtitle",
   "intro": [
-   "codex.chapter.space_mars.intro.0"
+   "codex.chapter.space_mars.intro.0",
+   "codex.chapter.space_mars.intro.1"
   ],
   "quests": [
    {
     "id": "landing_mars",
     "title": "codex.quest.space_mars.landing_mars.title",
     "icon": "ad_astra:mars_globe",
-    "x": 0,
-    "y": 0,
+    "x": 30,
+    "y": 2,
     "text": [
-     "codex.quest.space_mars.landing_mars.text.0"
+     "codex.quest.space_mars.landing_mars.text.0",
+     "codex.quest.space_mars.landing_mars.text.1",
+     "codex.quest.space_mars.landing_mars.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "ad_astra:mars"
+      "id": "ad_astra:mars",
+      "note": "codex.quest.space_mars.landing_mars.task.0"
      },
      {
       "type": "advancement",
-      "id": "ad_astra:mars"
+      "id": "ad_astra:mars",
+      "note": "codex.quest.space_mars.landing_mars.task.1"
      }
     ],
     "rewards": {
@@ -875,16 +1182,21 @@
      ],
      "xp": 300,
      "text": []
-    }
+    },
+    "deps": [
+     "space_moon/tier2"
+    ]
    },
    {
     "id": "ostrum",
     "title": "codex.quest.space_mars.ostrum.title",
     "icon": "ad_astra:ostrum_ingot",
-    "x": 0,
+    "x": 32,
     "y": 1,
     "text": [
-     "codex.quest.space_mars.ostrum.text.0"
+     "codex.quest.space_mars.ostrum.text.0",
+     "codex.quest.space_mars.ostrum.text.1",
+     "codex.quest.space_mars.ostrum.text.2"
     ],
     "tasks": [
      {
@@ -921,11 +1233,12 @@
     "id": "cryo",
     "title": "codex.quest.space_mars.cryo.title",
     "icon": "ad_astra:cryo_fuel_bucket",
-    "x": 0,
-    "y": 2,
+    "x": 34,
+    "y": 1,
     "text": [
      "codex.quest.space_mars.cryo.text.0",
-     "codex.quest.space_mars.cryo.text.1"
+     "codex.quest.space_mars.cryo.text.1",
+     "codex.quest.space_mars.cryo.text.2"
     ],
     "tasks": [
      {
@@ -935,7 +1248,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:cryo_freezer"
+      "id": "ad_astra:cryo_freezer",
+      "note": "codex.quest.space_mars.cryo.task.1"
      },
      {
       "type": "item",
@@ -944,7 +1258,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:cryo_fuel"
+      "id": "ad_astra:cryo_fuel",
+      "note": "codex.quest.space_mars.cryo.task.3"
      }
     ],
     "rewards": {
@@ -965,10 +1280,12 @@
     "id": "energizer",
     "title": "codex.quest.space_mars.energizer.title",
     "icon": "ad_astra:energizer",
-    "x": 1,
-    "y": 2,
+    "x": 36,
+    "y": 0,
     "text": [
-     "codex.quest.space_mars.energizer.text.0"
+     "codex.quest.space_mars.energizer.text.0",
+     "codex.quest.space_mars.energizer.text.1",
+     "codex.quest.space_mars.energizer.text.2"
     ],
     "tasks": [
      {
@@ -978,7 +1295,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:energizer"
+      "id": "ad_astra:energizer",
+      "note": "codex.quest.space_mars.energizer.task.1"
      },
      {
       "type": "item",
@@ -1004,14 +1322,15 @@
     "id": "netherite_suit",
     "title": "codex.quest.space_mars.netherite_suit.title",
     "icon": "ad_astra:netherite_space_helmet",
-    "x": 0,
-    "y": 3,
+    "x": 34,
+    "y": 2,
     "deps": [
      "ostrum"
     ],
     "text": [
      "codex.quest.space_mars.netherite_suit.text.0",
-     "codex.quest.space_mars.netherite_suit.text.1"
+     "codex.quest.space_mars.netherite_suit.text.1",
+     "codex.quest.space_mars.netherite_suit.text.2"
     ],
     "tasks": [
      {
@@ -1036,7 +1355,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:doom_slayer"
+      "id": "ad_astra:doom_slayer",
+      "note": "codex.quest.space_mars.netherite_suit.task.4"
      }
     ],
     "rewards": {
@@ -1054,10 +1374,12 @@
     "id": "tier3",
     "title": "codex.quest.space_mars.tier3.title",
     "icon": "ad_astra:tier_3_rocket",
-    "x": 0,
-    "y": 4,
+    "x": 36,
+    "y": 2,
     "text": [
-     "codex.quest.space_mars.tier3.text.0"
+     "codex.quest.space_mars.tier3.text.0",
+     "codex.quest.space_mars.tier3.text.1",
+     "codex.quest.space_mars.tier3.text.2"
     ],
     "tasks": [
      {
@@ -1077,7 +1399,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:tier_3_rocket"
+      "id": "ad_astra:tier_3_rocket",
+      "note": "codex.quest.space_mars.tier3.task.3"
      }
     ],
     "rewards": {
@@ -1093,8 +1416,66 @@
     "deps": [
      "netherite_suit"
     ]
+   },
+   {
+    "id": "guide_cryo_stock",
+    "title": "codex.quest.space_mars.guide_cryo_stock.title",
+    "icon": "ad_astra:cryo_fuel_bucket",
+    "deps": [
+     "cryo",
+     "space_ground/guide_fuel_reserve"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ad_astra:cryo_fuel_bucket",
+      "count": 2
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 36,
+    "y": 1,
+    "text": [
+     "codex.quest.space_mars.guide_cryo_stock.text.0",
+     "codex.quest.space_mars.guide_cryo_stock.text.1",
+     "codex.quest.space_mars.guide_cryo_stock.text.2"
+    ]
+   },
+   {
+    "id": "guide_charge_stop",
+    "title": "codex.quest.space_mars.guide_charge_stop.title",
+    "icon": "ad_astra:energizer",
+    "deps": [
+     "energizer"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "На базе запитанный Energizer зарядил предмет; после зарядки восстановлен запас энергии базы",
+      "note": "codex.quest.space_mars.guide_charge_stop.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 38,
+    "y": 1,
+    "text": [
+     "codex.quest.space_mars.guide_charge_stop.text.0",
+     "codex.quest.space_mars.guide_charge_stop.text.1",
+     "codex.quest.space_mars.guide_charge_stop.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "space"
  },
  {
   "id": "space_hot",
@@ -1112,20 +1493,23 @@
     "id": "venus",
     "title": "codex.quest.space_hot.venus.title",
     "icon": "ad_astra:venus_globe",
-    "x": 0,
-    "y": 0,
+    "x": 38,
+    "y": 2,
     "text": [
      "codex.quest.space_hot.venus.text.0",
-     "codex.quest.space_hot.venus.text.1"
+     "codex.quest.space_hot.venus.text.1",
+     "codex.quest.space_hot.venus.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "ad_astra:venus"
+      "id": "ad_astra:venus",
+      "note": "codex.quest.space_hot.venus.task.0"
      },
      {
       "type": "advancement",
-      "id": "ad_astra:venus"
+      "id": "ad_astra:venus",
+      "note": "codex.quest.space_hot.venus.task.1"
      }
     ],
     "rewards": {
@@ -1137,16 +1521,21 @@
      ],
      "xp": 500,
      "text": []
-    }
+    },
+    "deps": [
+     "space_mars/tier3"
+    ]
    },
    {
     "id": "calorite",
     "title": "codex.quest.space_hot.calorite.title",
     "icon": "ad_astra:calorite_ingot",
-    "x": 0,
+    "x": 40,
     "y": 1,
     "text": [
-     "codex.quest.space_hot.calorite.text.0"
+     "codex.quest.space_hot.calorite.text.0",
+     "codex.quest.space_hot.calorite.text.1",
+     "codex.quest.space_hot.calorite.text.2"
     ],
     "tasks": [
      {
@@ -1183,19 +1572,23 @@
     "id": "mercury",
     "title": "codex.quest.space_hot.mercury.title",
     "icon": "ad_astra:mercury_globe",
-    "x": 1,
-    "y": 0,
+    "x": 42,
+    "y": 1,
     "text": [
-     "codex.quest.space_hot.mercury.text.0"
+     "codex.quest.space_hot.mercury.text.0",
+     "codex.quest.space_hot.mercury.text.1",
+     "codex.quest.space_hot.mercury.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "ad_astra:mercury"
+      "id": "ad_astra:mercury",
+      "note": "codex.quest.space_hot.mercury.task.0"
      },
      {
       "type": "advancement",
-      "id": "ad_astra:mercury"
+      "id": "ad_astra:mercury",
+      "note": "codex.quest.space_hot.mercury.task.1"
      }
     ],
     "rewards": {
@@ -1216,14 +1609,15 @@
     "id": "jet",
     "title": "codex.quest.space_hot.jet.title",
     "icon": "ad_astra:jet_suit",
-    "x": 0,
+    "x": 42,
     "y": 2,
     "deps": [
      "calorite"
     ],
     "text": [
      "codex.quest.space_hot.jet.text.0",
-     "codex.quest.space_hot.jet.text.1"
+     "codex.quest.space_hot.jet.text.1",
+     "codex.quest.space_hot.jet.text.2"
     ],
     "tasks": [
      {
@@ -1248,7 +1642,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:rocket_man"
+      "id": "ad_astra:rocket_man",
+      "note": "codex.quest.space_hot.jet.task.4"
      }
     ],
     "rewards": {
@@ -1266,10 +1661,12 @@
     "id": "tier4",
     "title": "codex.quest.space_hot.tier4.title",
     "icon": "ad_astra:tier_4_rocket",
-    "x": 0,
-    "y": 3,
+    "x": 44,
+    "y": 2,
     "text": [
-     "codex.quest.space_hot.tier4.text.0"
+     "codex.quest.space_hot.tier4.text.0",
+     "codex.quest.space_hot.tier4.text.1",
+     "codex.quest.space_hot.tier4.text.2"
     ],
     "tasks": [
      {
@@ -1289,7 +1686,8 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:tier_4_rocket"
+      "id": "ad_astra:tier_4_rocket",
+      "note": "codex.quest.space_hot.tier4.task.3"
      }
     ],
     "rewards": {
@@ -1305,8 +1703,38 @@
     "deps": [
      "jet"
     ]
+   },
+   {
+    "id": "guide_jet_trial",
+    "title": "codex.quest.space_hot.guide_jet_trial.title",
+    "icon": "ad_astra:jet_suit",
+    "deps": [
+     "jet",
+     "space_mars/guide_charge_stop"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Полный реактивный комплект заправлен кислородом и заряжен; оба режима полёта испытаны с безопасной посадкой",
+      "note": "codex.quest.space_hot.guide_jet_trial.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 44,
+    "y": 1,
+    "text": [
+     "codex.quest.space_hot.guide_jet_trial.text.0",
+     "codex.quest.space_hot.guide_jet_trial.text.1",
+     "codex.quest.space_hot.guide_jet_trial.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "space"
  },
  {
   "id": "space_glacio",
@@ -1324,19 +1752,23 @@
     "id": "interstellar",
     "title": "codex.quest.space_glacio.interstellar.title",
     "icon": "ad_astra:glacio_globe",
-    "x": 0,
-    "y": 0,
+    "x": 46,
+    "y": 1,
     "text": [
-     "codex.quest.space_glacio.interstellar.text.0"
+     "codex.quest.space_glacio.interstellar.text.0",
+     "codex.quest.space_glacio.interstellar.text.1",
+     "codex.quest.space_glacio.interstellar.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "ad_astra:glacio"
+      "id": "ad_astra:glacio",
+      "note": "codex.quest.space_glacio.interstellar.task.0"
      },
      {
       "type": "advancement",
-      "id": "ad_astra:interstellar"
+      "id": "ad_astra:interstellar",
+      "note": "codex.quest.space_glacio.interstellar.task.1"
      }
     ],
     "rewards": {
@@ -1348,16 +1780,21 @@
      ],
      "xp": 1000,
      "text": []
-    }
+    },
+    "deps": [
+     "space_hot/tier4"
+    ]
    },
    {
     "id": "glacio_life",
     "title": "codex.quest.space_glacio.glacio_life.title",
     "icon": "ad_astra:glacian_fur",
-    "x": 0,
+    "x": 48,
     "y": 1,
     "text": [
-     "codex.quest.space_glacio.glacio_life.text.0"
+     "codex.quest.space_glacio.glacio_life.text.0",
+     "codex.quest.space_glacio.glacio_life.text.1",
+     "codex.quest.space_glacio.glacio_life.text.2"
     ],
     "tasks": [
      {
@@ -1389,14 +1826,15 @@
     "id": "colony",
     "title": "codex.quest.space_glacio.colony.title",
     "icon": "ad_astra:oxygen_distributor",
-    "x": 0,
-    "y": 2,
+    "x": 50,
+    "y": 1,
     "deps": [
      "glacio_life"
     ],
     "text": [
      "codex.quest.space_glacio.colony.text.0",
-     "codex.quest.space_glacio.colony.text.1"
+     "codex.quest.space_glacio.colony.text.1",
+     "codex.quest.space_glacio.colony.text.2"
     ],
     "tasks": [
      {
@@ -1456,7 +1894,70 @@
       "codex.quest.space_glacio.colony.reward.0"
      ]
     }
+   },
+   {
+    "id": "guide_ram_shearing",
+    "title": "codex.quest.space_glacio.guide_ram_shearing.title",
+    "icon": "minecraft:shears",
+    "deps": [
+     "glacio_life"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:shears",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Живой Glacian Ram подстрижен ножницами; шерсть собрана, животное оставлено в безопасном загоне",
+      "note": "codex.quest.space_glacio.guide_ram_shearing.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 50,
+    "y": 2,
+    "text": [
+     "codex.quest.space_glacio.guide_ram_shearing.text.0",
+     "codex.quest.space_glacio.guide_ram_shearing.text.1",
+     "codex.quest.space_glacio.guide_ram_shearing.text.2"
+    ]
+   },
+   {
+    "id": "guide_glacio_air",
+    "title": "codex.quest.space_glacio.guide_glacio_air.title",
+    "icon": "ad_astra:ti_69",
+    "deps": [
+     "interstellar",
+     "space_moon/gadgets"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "На поверхности Глейсио Ti-69 проверены кислород, температура и гравитация; подготовлен отдельный кислородный запас для орбиты",
+      "note": "codex.quest.space_glacio.guide_glacio_air.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 48,
+    "y": 2,
+    "text": [
+     "codex.quest.space_glacio.guide_glacio_air.text.0",
+     "codex.quest.space_glacio.guide_glacio_air.text.1",
+     "codex.quest.space_glacio.guide_glacio_air.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "space"
  }
 ]

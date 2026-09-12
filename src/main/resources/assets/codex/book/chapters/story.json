@@ -16,9 +16,11 @@
     "title": "codex.quest.story_forge.hand.title",
     "icon": "create:hand_crank",
     "x": 0,
-    "y": 0,
+    "y": 3,
     "text": [
-     "codex.quest.story_forge.hand.text.0"
+     "codex.quest.story_forge.hand.text.0",
+     "codex.quest.story_forge.hand.text.1",
+     "codex.quest.story_forge.hand.text.2"
     ],
     "tasks": [
      {
@@ -46,19 +48,24 @@
      ],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "create_basics/andesite"
+    ]
    },
    {
     "id": "wind",
     "title": "codex.quest.story_forge.wind.title",
     "icon": "create:windmill_bearing",
-    "x": -1,
-    "y": 1,
+    "x": 2,
+    "y": 0,
     "deps": [
      "hand"
     ],
     "text": [
-     "codex.quest.story_forge.wind.text.0"
+     "codex.quest.story_forge.wind.text.0",
+     "codex.quest.story_forge.wind.text.1",
+     "codex.quest.story_forge.wind.text.2"
     ],
     "tasks": [
      {
@@ -87,13 +94,15 @@
     "id": "water",
     "title": "codex.quest.story_forge.water.title",
     "icon": "create:large_water_wheel",
-    "x": 1,
+    "x": 2,
     "y": 1,
     "deps": [
      "hand"
     ],
     "text": [
-     "codex.quest.story_forge.water.text.0"
+     "codex.quest.story_forge.water.text.0",
+     "codex.quest.story_forge.water.text.1",
+     "codex.quest.story_forge.water.text.2"
     ],
     "tasks": [
      {
@@ -121,13 +130,15 @@
     "id": "source",
     "title": "codex.quest.story_forge.source.title",
     "icon": "create:stressometer",
-    "x": -1,
-    "y": 2,
+    "x": 4,
+    "y": 0,
     "deps": [
      "wind"
     ],
     "text": [
-     "codex.quest.story_forge.source.text.0"
+     "codex.quest.story_forge.source.text.0",
+     "codex.quest.story_forge.source.text.1",
+     "codex.quest.story_forge.source.text.2"
     ],
     "tasks": [
      {
@@ -151,13 +162,15 @@
     "id": "source_w",
     "title": "codex.quest.story_forge.source_w.title",
     "icon": "create:stressometer",
-    "x": 1,
-    "y": 2,
+    "x": 4,
+    "y": 1,
     "deps": [
      "water"
     ],
     "text": [
-     "codex.quest.story_forge.source_w.text.0"
+     "codex.quest.story_forge.source_w.text.0",
+     "codex.quest.story_forge.source_w.text.1",
+     "codex.quest.story_forge.source_w.text.2"
     ],
     "tasks": [
      {
@@ -170,52 +183,55 @@
      "items": [],
      "xp": 10,
      "text": []
-    }
+    },
+    "optional": true
    },
    {
     "id": "mill",
     "title": "codex.quest.story_forge.mill.title",
     "icon": "create:millstone",
-    "x": -1,
-    "y": 3,
-    "deps": [
-     "source",
-     "source_w"
-    ],
+    "x": 6,
+    "y": 2,
+    "deps": [],
     "text": [
-     "codex.quest.story_forge.mill.text.0"
+     "codex.quest.story_forge.mill.text.0",
+     "codex.quest.story_forge.mill.text.1",
+     "codex.quest.story_forge.mill.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "create:crushed_raw_iron",
-      "count": 64,
+      "id": "create:wheat_flour",
+      "count": 32,
       "consume": true
      }
     ],
     "rewards": {
      "items": [
       {
-       "id": "minecraft:iron_ingot",
-       "count": 96
+       "id": "minecraft:bread",
+       "count": 16
       }
      ],
-     "xp": 60,
+     "xp": 40,
      "text": []
-    }
+    },
+    "any_deps": [
+     "source",
+     "source_w"
+    ]
    },
    {
     "id": "wheels",
     "title": "codex.quest.story_forge.wheels.title",
     "icon": "create:crushing_wheel",
-    "x": 1,
+    "x": 6,
     "y": 3,
-    "deps": [
-     "source",
-     "source_w"
-    ],
+    "deps": [],
     "text": [
-     "codex.quest.story_forge.wheels.text.0"
+     "codex.quest.story_forge.wheels.text.0",
+     "codex.quest.story_forge.wheels.text.1",
+     "codex.quest.story_forge.wheels.text.2"
     ],
     "tasks": [
      {
@@ -243,20 +259,23 @@
      ],
      "xp": 120,
      "text": []
-    }
+    },
+    "any_deps": [
+     "source",
+     "source_w"
+    ]
    },
    {
     "id": "smelt",
     "title": "codex.quest.story_forge.smelt.title",
     "icon": "create:encased_fan",
-    "x": 0,
-    "y": 4,
-    "deps": [
-     "mill",
-     "wheels"
-    ],
+    "x": 8,
+    "y": 1,
+    "deps": [],
     "text": [
-     "codex.quest.story_forge.smelt.text.0"
+     "codex.quest.story_forge.smelt.text.0",
+     "codex.quest.story_forge.smelt.text.1",
+     "codex.quest.story_forge.smelt.text.2"
     ],
     "tasks": [
      {
@@ -266,12 +285,13 @@
      },
      {
       "type": "item",
-      "id": "create:belt",
-      "count": 16
+      "id": "create:belt_connector",
+      "count": 8
      },
      {
       "type": "ponder",
-      "id": "create:encased_fan"
+      "id": "create:encased_fan",
+      "note": "codex.quest.story_forge.smelt.task.2"
      }
     ],
     "rewards": {
@@ -287,19 +307,25 @@
      ],
      "xp": 80,
      "text": []
-    }
+    },
+    "any_deps": [
+     "mill",
+     "wheels"
+    ]
    },
    {
     "id": "boiler",
     "title": "codex.quest.story_forge.boiler.title",
     "icon": "create:steam_engine",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 2,
     "deps": [
      "smelt"
     ],
     "text": [
-     "codex.quest.story_forge.boiler.text.0"
+     "codex.quest.story_forge.boiler.text.0",
+     "codex.quest.story_forge.boiler.text.1",
+     "codex.quest.story_forge.boiler.text.2"
     ],
     "tasks": [
      {
@@ -333,13 +359,15 @@
     "id": "precision",
     "title": "codex.quest.story_forge.precision.title",
     "icon": "create:precision_mechanism",
-    "x": -1,
-    "y": 6,
+    "x": 12,
+    "y": 2,
     "deps": [
      "boiler"
     ],
     "text": [
-     "codex.quest.story_forge.precision.text.0"
+     "codex.quest.story_forge.precision.text.0",
+     "codex.quest.story_forge.precision.text.1",
+     "codex.quest.story_forge.precision.text.2"
     ],
     "tasks": [
      {
@@ -368,13 +396,15 @@
     "id": "rails",
     "title": "codex.quest.story_forge.rails.title",
     "icon": "create:track",
-    "x": 1,
-    "y": 6,
+    "x": 12,
+    "y": 3,
     "deps": [
      "boiler"
     ],
     "text": [
-     "codex.quest.story_forge.rails.text.0"
+     "codex.quest.story_forge.rails.text.0",
+     "codex.quest.story_forge.rails.text.1",
+     "codex.quest.story_forge.rails.text.2"
     ],
     "tasks": [
      {
@@ -407,14 +437,16 @@
     "id": "train",
     "title": "codex.quest.story_forge.train.title",
     "icon": "create:schedule",
-    "x": 0,
-    "y": 7,
+    "x": 14,
+    "y": 3,
     "deps": [
      "precision",
      "rails"
     ],
     "text": [
-     "codex.quest.story_forge.train.text.0"
+     "codex.quest.story_forge.train.text.0",
+     "codex.quest.story_forge.train.text.1",
+     "codex.quest.story_forge.train.text.2"
     ],
     "tasks": [
      {
@@ -429,24 +461,25 @@
      },
      {
       "type": "item",
-      "id": "railways:conductor_cap",
+      "id": "railways:blue_conductor_cap",
       "count": 1
      },
      {
       "type": "item",
       "id": "create:portable_storage_interface",
       "count": 2
+     },
+     {
+      "type": "check",
+      "id": "freight_round_trip",
+      "note": "codex.quest.story_forge.train.task.4"
      }
     ],
     "rewards": {
      "items": [
       {
        "id": "create:railway_casing",
-       "count": 8
-      },
-      {
-       "id": "create:large_bogey",
-       "count": 2
+       "count": 10
       }
      ],
      "xp": 250,
@@ -454,8 +487,128 @@
       "codex.quest.story_forge.train.reward.0"
      ]
     }
+   },
+   {
+    "id": "guide_stress_audit",
+    "title": "codex.quest.story_forge.guide_stress_audit.title",
+    "icon": "create:speedometer",
+    "deps": [
+     "smelt"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:speedometer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:gearbox",
+      "count": 2
+     },
+     {
+      "type": "check",
+      "id": "forge_stress_headroom",
+      "note": "codex.quest.story_forge.guide_stress_audit.task.2"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 3,
+    "text": [
+     "codex.quest.story_forge.guide_stress_audit.text.0",
+     "codex.quest.story_forge.guide_stress_audit.text.1",
+     "codex.quest.story_forge.guide_stress_audit.text.2"
+    ]
+   },
+   {
+    "id": "guide_belt_sorting",
+    "title": "codex.quest.story_forge.guide_belt_sorting.title",
+    "icon": "create:brass_funnel",
+    "deps": [
+     "boiler"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:brass_funnel",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create:brass_tunnel",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create:filter",
+      "count": 2
+     },
+     {
+      "type": "check",
+      "id": "forge_belt_two_way_sort",
+      "note": "codex.quest.story_forge.guide_belt_sorting.task.3"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 4,
+    "text": [
+     "codex.quest.story_forge.guide_belt_sorting.text.0",
+     "codex.quest.story_forge.guide_belt_sorting.text.1",
+     "codex.quest.story_forge.guide_belt_sorting.text.2"
+    ]
+   },
+   {
+    "id": "guide_signal_block",
+    "title": "codex.quest.story_forge.guide_signal_block.title",
+    "icon": "create:track_signal",
+    "deps": [
+     "train"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:track_signal",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create:track_observer",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "forge_signal_stop",
+      "note": "codex.quest.story_forge.guide_signal_block.task.2"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 50,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 4,
+    "text": [
+     "codex.quest.story_forge.guide_signal_block.text.0",
+     "codex.quest.story_forge.guide_signal_block.text.1",
+     "codex.quest.story_forge.guide_signal_block.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "story"
  },
  {
   "id": "story_current",
@@ -465,7 +618,8 @@
   "icon": "immersiveengineering:wirecoil_steel",
   "subtitle": "codex.chapter.story_current.subtitle",
   "intro": [
-   "codex.chapter.story_current.intro.0"
+   "codex.chapter.story_current.intro.0",
+   "codex.chapter.story_current.intro.1"
   ],
   "quests": [
    {
@@ -473,9 +627,11 @@
     "title": "codex.quest.story_current.coke.title",
     "icon": "immersiveengineering:coke_oven",
     "x": 0,
-    "y": 0,
+    "y": 4,
     "text": [
-     "codex.quest.story_current.coke.text.0"
+     "codex.quest.story_current.coke.text.0",
+     "codex.quest.story_current.coke.text.1",
+     "codex.quest.story_current.coke.text.2"
     ],
     "tasks": [
      {
@@ -494,19 +650,24 @@
      ],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "ie_start/blast"
+    ]
    },
    {
     "id": "steel",
     "title": "codex.quest.story_current.steel.title",
     "icon": "immersiveengineering:ingot_steel",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 2,
     "deps": [
      "coke"
     ],
     "text": [
-     "codex.quest.story_current.steel.text.0"
+     "codex.quest.story_current.steel.text.0",
+     "codex.quest.story_current.steel.text.1",
+     "codex.quest.story_current.steel.text.2"
     ],
     "tasks": [
      {
@@ -541,13 +702,15 @@
     "id": "dynamo",
     "title": "codex.quest.story_current.dynamo.title",
     "icon": "immersiveengineering:dynamo",
-    "x": -1,
+    "x": 4,
     "y": 2,
     "deps": [
      "steel"
     ],
     "text": [
-     "codex.quest.story_current.dynamo.text.0"
+     "codex.quest.story_current.dynamo.text.0",
+     "codex.quest.story_current.dynamo.text.1",
+     "codex.quest.story_current.dynamo.text.2"
     ],
     "tasks": [
      {
@@ -581,13 +744,15 @@
     "id": "alternator",
     "title": "codex.quest.story_current.alternator.title",
     "icon": "createaddition:alternator",
-    "x": 1,
-    "y": 2,
+    "x": 4,
+    "y": 3,
     "deps": [
      "steel"
     ],
     "text": [
-     "codex.quest.story_current.alternator.text.0"
+     "codex.quest.story_current.alternator.text.0",
+     "codex.quest.story_current.alternator.text.1",
+     "codex.quest.story_current.alternator.text.2"
     ],
     "tasks": [
      {
@@ -620,14 +785,13 @@
     "id": "grid",
     "title": "codex.quest.story_current.grid.title",
     "icon": "immersiveengineering:transformer",
-    "x": 0,
-    "y": 3,
-    "deps": [
-     "dynamo",
-     "alternator"
-    ],
+    "x": 6,
+    "y": 4,
+    "deps": [],
     "text": [
-     "codex.quest.story_current.grid.text.0"
+     "codex.quest.story_current.grid.text.0",
+     "codex.quest.story_current.grid.text.1",
+     "codex.quest.story_current.grid.text.2"
     ],
     "tasks": [
      {
@@ -637,7 +801,7 @@
      },
      {
       "type": "item",
-      "id": "immersiveengineering:wirecoil_steel",
+      "id": "immersiveengineering:wirecoil_electrum",
       "count": 4
      },
      {
@@ -655,19 +819,25 @@
      ],
      "xp": 150,
      "text": []
-    }
+    },
+    "any_deps": [
+     "dynamo",
+     "alternator"
+    ]
    },
    {
     "id": "ore5",
     "title": "codex.quest.story_current.ore5.title",
     "icon": "mekanism:chemical_crystallizer",
-    "x": -1,
-    "y": 4,
+    "x": 8,
+    "y": 2,
     "deps": [
      "grid"
     ],
     "text": [
-     "codex.quest.story_current.ore5.text.0"
+     "codex.quest.story_current.ore5.text.0",
+     "codex.quest.story_current.ore5.text.1",
+     "codex.quest.story_current.ore5.text.2"
     ],
     "tasks": [
      {
@@ -706,18 +876,45 @@
     "id": "diesel",
     "title": "codex.quest.story_current.diesel.title",
     "icon": "immersiveengineering:diesel_generator",
-    "x": 1,
-    "y": 4,
+    "x": 8,
+    "y": 3,
     "deps": [
      "grid"
     ],
     "text": [
-     "codex.quest.story_current.diesel.text.0"
+     "codex.quest.story_current.diesel.text.0",
+     "codex.quest.story_current.diesel.text.1",
+     "codex.quest.story_current.diesel.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:diesel_generator",
+      "id": "immersiveengineering:heavy_engineering",
+      "count": 13
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:radiator",
+      "count": 9
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:steel_scaffolding_standard",
+      "count": 6
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:fluid_pipe",
+      "count": 5
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:generator",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:rs_engineering",
       "count": 1
      },
      {
@@ -725,6 +922,12 @@
       "id": "immersiveengineering:biodiesel_bucket",
       "count": 16,
       "consume": true
+     },
+     {
+      "type": "check",
+      "id": "diesel_running",
+      "note": "codex.quest.story_current.diesel.task.7",
+      "note_en": "Form the diesel generator and verify energy transfer into storage"
      }
     ],
     "rewards": {
@@ -742,14 +945,16 @@
     "id": "fission",
     "title": "codex.quest.story_current.fission.title",
     "icon": "mekanismgenerators:fission_reactor_casing",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 4,
     "deps": [
      "ore5",
      "diesel"
     ],
     "text": [
-     "codex.quest.story_current.fission.text.0"
+     "codex.quest.story_current.fission.text.0",
+     "codex.quest.story_current.fission.text.1",
+     "codex.quest.story_current.fission.text.2"
     ],
     "tasks": [
      {
@@ -785,8 +990,95 @@
       "codex.quest.story_current.fission.reward.0"
      ]
     }
+   },
+   {
+    "id": "guide_breaker",
+    "title": "codex.quest.story_current.guide_breaker.title",
+    "icon": "immersiveengineering:breaker_switch",
+    "deps": [
+     "grid"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:breaker_switch",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:current_transformer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:voltmeter",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "current_breaker_cutoff",
+      "note": "codex.quest.story_current.guide_breaker.task.3"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 4,
+    "text": [
+     "codex.quest.story_current.guide_breaker.text.0",
+     "codex.quest.story_current.guide_breaker.text.1",
+     "codex.quest.story_current.guide_breaker.text.2"
+    ]
+   },
+   {
+    "id": "guide_backup_heat",
+    "title": "codex.quest.story_current.guide_backup_heat.title",
+    "icon": "mekanismgenerators:heat_generator",
+    "deps": [
+     "grid"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mekanismgenerators:heat_generator",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:lava_bucket",
+      "count": 4
+     },
+     {
+      "type": "item",
+      "id": "mekanism:basic_universal_cable",
+      "count": 4
+     },
+     {
+      "type": "check",
+      "id": "current_backup_switchover",
+      "note": "codex.quest.story_current.guide_backup_heat.task.3"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 5,
+    "text": [
+     "codex.quest.story_current.guide_backup_heat.text.0",
+     "codex.quest.story_current.guide_backup_heat.text.1",
+     "codex.quest.story_current.guide_backup_heat.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "story"
  },
  {
   "id": "story_expedition",
@@ -796,7 +1088,8 @@
   "icon": "twilightforest:magic_map_focus",
   "subtitle": "codex.chapter.story_expedition.subtitle",
   "intro": [
-   "codex.chapter.story_expedition.intro.0"
+   "codex.chapter.story_expedition.intro.0",
+   "codex.chapter.story_expedition.intro.1"
   ],
   "quests": [
    {
@@ -804,9 +1097,11 @@
     "title": "codex.quest.story_expedition.kit.title",
     "icon": "waystones:return_scroll",
     "x": 0,
-    "y": 0,
+    "y": 5,
     "text": [
-     "codex.quest.story_expedition.kit.text.0"
+     "codex.quest.story_expedition.kit.text.0",
+     "codex.quest.story_expedition.kit.text.1",
+     "codex.quest.story_expedition.kit.text.2"
     ],
     "tasks": [
      {
@@ -834,24 +1129,30 @@
      ],
      "xp": 40,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "sky",
     "title": "codex.quest.story_expedition.sky.title",
     "icon": "aether:aether_portal_frame",
-    "x": -1,
-    "y": 1,
+    "x": 2,
+    "y": 3,
     "deps": [
      "kit"
     ],
     "text": [
-     "codex.quest.story_expedition.sky.text.0"
+     "codex.quest.story_expedition.sky.text.0",
+     "codex.quest.story_expedition.sky.text.1",
+     "codex.quest.story_expedition.sky.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "aether:the_aether"
+      "id": "aether:the_aether",
+      "note": "codex.quest.story_expedition.sky.task.0"
      },
      {
       "type": "item",
@@ -878,18 +1179,21 @@
     "id": "dusk",
     "title": "codex.quest.story_expedition.dusk.title",
     "icon": "twilightforest:naga_trophy",
-    "x": 1,
-    "y": 1,
+    "x": 2,
+    "y": 4,
     "deps": [
      "kit"
     ],
     "text": [
-     "codex.quest.story_expedition.dusk.text.0"
+     "codex.quest.story_expedition.dusk.text.0",
+     "codex.quest.story_expedition.dusk.text.1",
+     "codex.quest.story_expedition.dusk.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "twilightforest:twilight_forest"
+      "id": "twilightforest:twilight_forest",
+      "note": "codex.quest.story_expedition.dusk.task.0"
      },
      {
       "type": "item",
@@ -921,23 +1225,27 @@
     "id": "comets",
     "title": "codex.quest.story_expedition.comets.title",
     "icon": "eternal_tales:comets",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 4,
     "deps": [
      "sky",
      "dusk"
     ],
     "text": [
-     "codex.quest.story_expedition.comets.text.0"
+     "codex.quest.story_expedition.comets.text.0",
+     "codex.quest.story_expedition.comets.text.1",
+     "codex.quest.story_expedition.comets.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "eternal_tales:comets"
+      "id": "eternal_tales:comets",
+      "note": "codex.quest.story_expedition.comets.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_terrible_tree"
+      "id": "eternal_tales:kill_terrible_tree",
+      "note": "codex.quest.story_expedition.comets.task.1"
      }
     ],
     "rewards": {
@@ -959,22 +1267,26 @@
     "id": "purg",
     "title": "codex.quest.story_expedition.purg.title",
     "icon": "eternal_tales:purgatorium",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 5,
     "deps": [
      "comets"
     ],
     "text": [
-     "codex.quest.story_expedition.purg.text.0"
+     "codex.quest.story_expedition.purg.text.0",
+     "codex.quest.story_expedition.purg.text.1",
+     "codex.quest.story_expedition.purg.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "eternal_tales:purgatorium"
+      "id": "eternal_tales:purgatorium",
+      "note": "codex.quest.story_expedition.purg.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_nyetet"
+      "id": "eternal_tales:kill_nyetet",
+      "note": "codex.quest.story_expedition.purg.task.1"
      }
     ],
     "rewards": {
@@ -996,22 +1308,26 @@
     "id": "eden",
     "title": "codex.quest.story_expedition.eden.title",
     "icon": "eternal_tales:gardens_of_eden",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 6,
     "deps": [
      "purg"
     ],
     "text": [
-     "codex.quest.story_expedition.eden.text.0"
+     "codex.quest.story_expedition.eden.text.0",
+     "codex.quest.story_expedition.eden.text.1",
+     "codex.quest.story_expedition.eden.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "eternal_tales:gardens_of_eden"
+      "id": "eternal_tales:gardens_of_eden",
+      "note": "codex.quest.story_expedition.eden.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:eden_quest"
+      "id": "eternal_tales:eden_quest",
+      "note": "codex.quest.story_expedition.eden.task.1"
      }
     ],
     "rewards": {
@@ -1029,22 +1345,26 @@
     "id": "rayana",
     "title": "codex.quest.story_expedition.rayana.title",
     "icon": "eternal_tales:rayana",
-    "x": -1,
+    "x": 10,
     "y": 5,
     "deps": [
      "eden"
     ],
     "text": [
-     "codex.quest.story_expedition.rayana.text.0"
+     "codex.quest.story_expedition.rayana.text.0",
+     "codex.quest.story_expedition.rayana.text.1",
+     "codex.quest.story_expedition.rayana.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "eternal_tales:rayana"
+      "id": "eternal_tales:rayana",
+      "note": "codex.quest.story_expedition.rayana.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_pterion"
+      "id": "eternal_tales:kill_pterion",
+      "note": "codex.quest.story_expedition.rayana.task.1"
      }
     ],
     "rewards": {
@@ -1062,30 +1382,36 @@
     "id": "karvat",
     "title": "codex.quest.story_expedition.karvat.title",
     "icon": "eternal_tales:lands_of_karvat",
-    "x": 1,
-    "y": 5,
+    "x": 10,
+    "y": 6,
     "deps": [
      "eden"
     ],
     "text": [
-     "codex.quest.story_expedition.karvat.text.0"
+     "codex.quest.story_expedition.karvat.text.0",
+     "codex.quest.story_expedition.karvat.text.1",
+     "codex.quest.story_expedition.karvat.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "eternal_tales:lands_of_karvat"
+      "id": "eternal_tales:lands_of_karvat",
+      "note": "codex.quest.story_expedition.karvat.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_enicrih"
+      "id": "eternal_tales:kill_enicrih",
+      "note": "codex.quest.story_expedition.karvat.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_arla"
+      "id": "eternal_tales:kill_arla",
+      "note": "codex.quest.story_expedition.karvat.task.2"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_ikkorh"
+      "id": "eternal_tales:kill_ikkorh",
+      "note": "codex.quest.story_expedition.karvat.task.3"
      }
     ],
     "rewards": {
@@ -1107,23 +1433,27 @@
     "id": "volcanech",
     "title": "codex.quest.story_expedition.volcanech.title",
     "icon": "eternal_tales:volcanech",
-    "x": 0,
-    "y": 6,
+    "x": 12,
+    "y": 5,
     "deps": [
      "rayana",
      "karvat"
     ],
     "text": [
-     "codex.quest.story_expedition.volcanech.text.0"
+     "codex.quest.story_expedition.volcanech.text.0",
+     "codex.quest.story_expedition.volcanech.text.1",
+     "codex.quest.story_expedition.volcanech.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "eternal_tales:volcanech"
+      "id": "eternal_tales:volcanech",
+      "note": "codex.quest.story_expedition.volcanech.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_arahulum"
+      "id": "eternal_tales:kill_arahulum",
+      "note": "codex.quest.story_expedition.volcanech.task.1"
      }
     ],
     "rewards": {
@@ -1145,22 +1475,26 @@
     "id": "amber",
     "title": "codex.quest.story_expedition.amber.title",
     "icon": "eternal_tales:kingdom_of_amber",
-    "x": 0,
-    "y": 7,
+    "x": 14,
+    "y": 4,
     "deps": [
      "volcanech"
     ],
     "text": [
-     "codex.quest.story_expedition.amber.text.0"
+     "codex.quest.story_expedition.amber.text.0",
+     "codex.quest.story_expedition.amber.text.1",
+     "codex.quest.story_expedition.amber.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "eternal_tales:kingdom_of_amber"
+      "id": "eternal_tales:kingdom_of_amber",
+      "note": "codex.quest.story_expedition.amber.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_xaxxas_xix"
+      "id": "eternal_tales:kill_xaxxas_xix",
+      "note": "codex.quest.story_expedition.amber.task.1"
      }
     ],
     "rewards": {
@@ -1182,22 +1516,26 @@
     "id": "unahzaal",
     "title": "codex.quest.story_expedition.unahzaal.title",
     "icon": "eternal_tales:unahzaal_multiverse",
-    "x": 0,
-    "y": 8,
+    "x": 16,
+    "y": 5,
     "deps": [
      "amber"
     ],
     "text": [
-     "codex.quest.story_expedition.unahzaal.text.0"
+     "codex.quest.story_expedition.unahzaal.text.0",
+     "codex.quest.story_expedition.unahzaal.text.1",
+     "codex.quest.story_expedition.unahzaal.text.2"
     ],
     "tasks": [
      {
       "type": "dimension",
-      "id": "eternal_tales:unahzaal_multiverse"
+      "id": "eternal_tales:unahzaal_multiverse",
+      "note": "codex.quest.story_expedition.unahzaal.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_unahzaal"
+      "id": "eternal_tales:kill_unahzaal",
+      "note": "codex.quest.story_expedition.unahzaal.task.1"
      }
     ],
     "rewards": {
@@ -1216,8 +1554,85 @@
       "codex.quest.story_expedition.unahzaal.reward.0"
      ]
     }
+   },
+   {
+    "id": "guide_waystone_net",
+    "title": "codex.quest.story_expedition.guide_waystone_net.title",
+    "icon": "waystones:warp_scroll",
+    "deps": [
+     "kit"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "waystones:waystone",
+      "count": 3
+     },
+     {
+      "type": "item",
+      "id": "waystones:warp_scroll",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "expedition_three_waystones",
+      "note": "codex.quest.story_expedition.guide_waystone_net.task.2"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 5,
+    "text": [
+     "codex.quest.story_expedition.guide_waystone_net.text.0",
+     "codex.quest.story_expedition.guide_waystone_net.text.1",
+     "codex.quest.story_expedition.guide_waystone_net.text.2"
+    ]
+   },
+   {
+    "id": "guide_magic_map",
+    "title": "codex.quest.story_expedition.guide_magic_map.title",
+    "icon": "twilightforest:magic_map",
+    "deps": [
+     "dusk"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:magic_map_focus",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "twilightforest:magic_map",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "expedition_map_landmarks",
+      "note": "codex.quest.story_expedition.guide_magic_map.task.2"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 5,
+    "text": [
+     "codex.quest.story_expedition.guide_magic_map.text.0",
+     "codex.quest.story_expedition.guide_magic_map.text.1",
+     "codex.quest.story_expedition.guide_magic_map.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "story"
  },
  {
   "id": "story_colony",
@@ -1227,7 +1642,8 @@
   "icon": "minecolonies:blockhuttownhall",
   "subtitle": "codex.chapter.story_colony.subtitle",
   "intro": [
-   "codex.chapter.story_colony.intro.0"
+   "codex.chapter.story_colony.intro.0",
+   "codex.chapter.story_colony.intro.1"
   ],
   "quests": [
    {
@@ -1235,9 +1651,11 @@
     "title": "codex.quest.story_colony.found.title",
     "icon": "minecolonies:supplychestdeployer",
     "x": 0,
-    "y": 0,
+    "y": 6,
     "text": [
-     "codex.quest.story_colony.found.text.0"
+     "codex.quest.story_colony.found.text.0",
+     "codex.quest.story_colony.found.text.1",
+     "codex.quest.story_colony.found.text.2"
     ],
     "tasks": [
      {
@@ -1269,19 +1687,24 @@
      ],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "mc_found/townhall"
+    ]
    },
    {
     "id": "supply",
     "title": "codex.quest.story_colony.supply.title",
     "icon": "minecolonies:blockhutwarehouse",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 6,
     "deps": [
      "found"
     ],
     "text": [
-     "codex.quest.story_colony.supply.text.0"
+     "codex.quest.story_colony.supply.text.0",
+     "codex.quest.story_colony.supply.text.1",
+     "codex.quest.story_colony.supply.text.2"
     ],
     "tasks": [
      {
@@ -1321,13 +1744,15 @@
     "id": "wood",
     "title": "codex.quest.story_colony.wood.title",
     "icon": "minecolonies:blockhutlumberjack",
-    "x": -1,
-    "y": 2,
+    "x": 4,
+    "y": 6,
     "deps": [
      "supply"
     ],
     "text": [
-     "codex.quest.story_colony.wood.text.0"
+     "codex.quest.story_colony.wood.text.0",
+     "codex.quest.story_colony.wood.text.1",
+     "codex.quest.story_colony.wood.text.2"
     ],
     "tasks": [
      {
@@ -1366,13 +1791,15 @@
     "id": "guard",
     "title": "codex.quest.story_colony.guard.title",
     "icon": "minecolonies:blockhutguardtower",
-    "x": 1,
-    "y": 2,
+    "x": 4,
+    "y": 7,
     "deps": [
      "supply"
     ],
     "text": [
-     "codex.quest.story_colony.guard.text.0"
+     "codex.quest.story_colony.guard.text.0",
+     "codex.quest.story_colony.guard.text.1",
+     "codex.quest.story_colony.guard.text.2"
     ],
     "tasks": [
      {
@@ -1409,19 +1836,22 @@
     "id": "population",
     "title": "codex.quest.story_colony.population.title",
     "icon": "minecolonies:blockhuttavern",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 6,
     "deps": [
      "wood",
      "guard"
     ],
     "text": [
-     "codex.quest.story_colony.population.text.0"
+     "codex.quest.story_colony.population.text.0",
+     "codex.quest.story_colony.population.text.1",
+     "codex.quest.story_colony.population.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "minecolonies:minecolonies/colony_population_25"
+      "id": "minecolonies:minecolonies/colony_population_25",
+      "note": "codex.quest.story_colony.population.task.0"
      },
      {
       "type": "item",
@@ -1444,13 +1874,15 @@
     "id": "science",
     "title": "codex.quest.story_colony.science.title",
     "icon": "minecolonies:blockhutuniversity",
-    "x": -1,
-    "y": 4,
+    "x": 8,
+    "y": 7,
     "deps": [
      "population"
     ],
     "text": [
-     "codex.quest.story_colony.science.text.0"
+     "codex.quest.story_colony.science.text.0",
+     "codex.quest.story_colony.science.text.1",
+     "codex.quest.story_colony.science.text.2"
     ],
     "tasks": [
      {
@@ -1488,13 +1920,15 @@
     "id": "industry",
     "title": "codex.quest.story_colony.industry.title",
     "icon": "minecolonies:blockhutmechanic",
-    "x": 1,
-    "y": 4,
+    "x": 8,
+    "y": 8,
     "deps": [
      "population"
     ],
     "text": [
-     "codex.quest.story_colony.industry.text.0"
+     "codex.quest.story_colony.industry.text.0",
+     "codex.quest.story_colony.industry.text.1",
+     "codex.quest.story_colony.industry.text.2"
     ],
     "tasks": [
      {
@@ -1528,14 +1962,16 @@
     "id": "network",
     "title": "codex.quest.story_colony.network.title",
     "icon": "refinedstorage:external_storage",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 7,
     "deps": [
      "science",
      "industry"
     ],
     "text": [
-     "codex.quest.story_colony.network.text.0"
+     "codex.quest.story_colony.network.text.0",
+     "codex.quest.story_colony.network.text.1",
+     "codex.quest.story_colony.network.text.2"
     ],
     "tasks": [
      {
@@ -1564,13 +2000,15 @@
     "id": "garrison",
     "title": "codex.quest.story_colony.garrison.title",
     "icon": "minecolonies:blockhutbarracks",
-    "x": -1,
+    "x": 12,
     "y": 6,
     "deps": [
      "network"
     ],
     "text": [
-     "codex.quest.story_colony.garrison.text.0"
+     "codex.quest.story_colony.garrison.text.0",
+     "codex.quest.story_colony.garrison.text.1",
+     "codex.quest.story_colony.garrison.text.2"
     ],
     "tasks": [
      {
@@ -1580,7 +2018,8 @@
      },
      {
       "type": "advancement",
-      "id": "minecolonies:military/army_8"
+      "id": "minecolonies:military/army_8",
+      "note": "codex.quest.story_colony.garrison.task.1"
      }
     ],
     "rewards": {
@@ -1598,18 +2037,21 @@
     "id": "fifty",
     "title": "codex.quest.story_colony.fifty.title",
     "icon": "minecolonies:blockhutmysticalsite",
-    "x": 1,
-    "y": 6,
+    "x": 12,
+    "y": 7,
     "deps": [
      "network"
     ],
     "text": [
-     "codex.quest.story_colony.fifty.text.0"
+     "codex.quest.story_colony.fifty.text.0",
+     "codex.quest.story_colony.fifty.text.1",
+     "codex.quest.story_colony.fifty.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "minecolonies:minecolonies/colony_population_50"
+      "id": "minecolonies:minecolonies/colony_population_50",
+      "note": "codex.quest.story_colony.fifty.task.0"
      },
      {
       "type": "item",
@@ -1632,19 +2074,22 @@
     "id": "technopolis",
     "title": "codex.quest.story_colony.technopolis.title",
     "icon": "minecolonies:blockhuttownhall",
-    "x": 0,
-    "y": 7,
+    "x": 14,
+    "y": 6,
     "deps": [
      "garrison",
      "fifty"
     ],
     "text": [
-     "codex.quest.story_colony.technopolis.text.0"
+     "codex.quest.story_colony.technopolis.text.0",
+     "codex.quest.story_colony.technopolis.text.1",
+     "codex.quest.story_colony.technopolis.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "minecolonies:minecolonies/build_town_hall_5"
+      "id": "minecolonies:minecolonies/build_town_hall_5",
+      "note": "codex.quest.story_colony.technopolis.task.0"
      },
      {
       "type": "item",
@@ -1667,8 +2112,90 @@
      "xp": 800,
      "text": []
     }
+   },
+   {
+    "id": "guide_food_chain",
+    "title": "codex.quest.story_colony.guide_food_chain.title",
+    "icon": "minecolonies:blockhutfarmer",
+    "deps": [
+     "supply"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutfarmer",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutfisherman",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutbaker",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "colony_food_surplus",
+      "note": "codex.quest.story_colony.guide_food_chain.task.3"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 8,
+    "text": [
+     "codex.quest.story_colony.guide_food_chain.text.0",
+     "codex.quest.story_colony.guide_food_chain.text.1",
+     "codex.quest.story_colony.guide_food_chain.text.2"
+    ]
+   },
+   {
+    "id": "guide_training",
+    "title": "codex.quest.story_colony.guide_training.title",
+    "icon": "minecolonies:blockhutcombatacademy",
+    "deps": [
+     "garrison"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutarchery",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutcombatacademy",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "colony_guards_trained",
+      "note": "codex.quest.story_colony.guide_training.task.2"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 50,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 5,
+    "text": [
+     "codex.quest.story_colony.guide_training.text.0",
+     "codex.quest.story_colony.guide_training.text.1",
+     "codex.quest.story_colony.guide_training.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "story"
  },
  {
   "id": "story_sky",
@@ -1678,7 +2205,8 @@
   "icon": "aeronautics:white_envelope",
   "subtitle": "codex.chapter.story_sky.subtitle",
   "intro": [
-   "codex.chapter.story_sky.intro.0"
+   "codex.chapter.story_sky.intro.0",
+   "codex.chapter.story_sky.intro.1"
   ],
   "quests": [
    {
@@ -1686,9 +2214,11 @@
     "title": "codex.quest.story_sky.lift.title",
     "icon": "simulated:physics_assembler",
     "x": 0,
-    "y": 0,
+    "y": 7,
     "text": [
-     "codex.quest.story_sky.lift.text.0"
+     "codex.quest.story_sky.lift.text.0",
+     "codex.quest.story_sky.lift.text.1",
+     "codex.quest.story_sky.lift.text.2"
     ],
     "tasks": [
      {
@@ -1721,19 +2251,24 @@
      ],
      "xp": 150,
      "text": []
-    }
+    },
+    "deps": [
+     "aero_basics/assembler"
+    ]
    },
    {
     "id": "cast",
     "title": "codex.quest.story_sky.cast.title",
-    "icon": "createbigcannons:cannon_cast",
-    "x": -1,
-    "y": 1,
+    "icon": "createbigcannons:small_cast_mould",
+    "x": 2,
+    "y": 7,
     "deps": [
      "lift"
     ],
     "text": [
-     "codex.quest.story_sky.cast.text.0"
+     "codex.quest.story_sky.cast.text.0",
+     "codex.quest.story_sky.cast.text.1",
+     "codex.quest.story_sky.cast.text.2"
     ],
     "tasks": [
      {
@@ -1762,13 +2297,15 @@
     "id": "eyes",
     "title": "codex.quest.story_sky.eyes.title",
     "icon": "create_radar:plane_radar",
-    "x": 1,
-    "y": 1,
+    "x": 2,
+    "y": 8,
     "deps": [
      "lift"
     ],
     "text": [
-     "codex.quest.story_sky.eyes.text.0"
+     "codex.quest.story_sky.eyes.text.0",
+     "codex.quest.story_sky.eyes.text.1",
+     "codex.quest.story_sky.eyes.text.2"
     ],
     "tasks": [
      {
@@ -1802,14 +2339,16 @@
     "id": "mount",
     "title": "codex.quest.story_sky.mount.title",
     "icon": "create_radar:auto_yaw_controller",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 9,
     "deps": [
      "cast",
      "eyes"
     ],
     "text": [
-     "codex.quest.story_sky.mount.text.0"
+     "codex.quest.story_sky.mount.text.0",
+     "codex.quest.story_sky.mount.text.1",
+     "codex.quest.story_sky.mount.text.2"
     ],
     "tasks": [
      {
@@ -1848,13 +2387,15 @@
     "id": "flak",
     "title": "codex.quest.story_sky.flak.title",
     "icon": "createbigcannons:flak_autocannon_round",
-    "x": -1,
-    "y": 3,
+    "x": 6,
+    "y": 7,
     "deps": [
      "mount"
     ],
     "text": [
-     "codex.quest.story_sky.flak.text.0"
+     "codex.quest.story_sky.flak.text.0",
+     "codex.quest.story_sky.flak.text.1",
+     "codex.quest.story_sky.flak.text.2"
     ],
     "tasks": [
      {
@@ -1884,13 +2425,15 @@
     "id": "missile",
     "title": "codex.quest.story_sky.missile.title",
     "icon": "cbcaeronauticsmissiles:guidance_computer",
-    "x": 1,
-    "y": 3,
+    "x": 6,
+    "y": 8,
     "deps": [
      "mount"
     ],
     "text": [
-     "codex.quest.story_sky.missile.text.0"
+     "codex.quest.story_sky.missile.text.0",
+     "codex.quest.story_sky.missile.text.1",
+     "codex.quest.story_sky.missile.text.2"
     ],
     "tasks": [
      {
@@ -1933,14 +2476,16 @@
     "id": "fleet",
     "title": "codex.quest.story_sky.fleet.title",
     "icon": "simulated:navigation_table",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 9,
     "deps": [
      "flak",
      "missile"
     ],
     "text": [
-     "codex.quest.story_sky.fleet.text.0"
+     "codex.quest.story_sky.fleet.text.0",
+     "codex.quest.story_sky.fleet.text.1",
+     "codex.quest.story_sky.fleet.text.2"
     ],
     "tasks": [
      {
@@ -1976,7 +2521,89 @@
       "codex.quest.story_sky.fleet.reward.0"
      ]
     }
+   },
+   {
+    "id": "guide_instruments",
+    "title": "codex.quest.story_sky.guide_instruments.title",
+    "icon": "simulated:altitude_sensor",
+    "deps": [
+     "lift"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "simulated:altitude_sensor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "simulated:velocity_sensor",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "simulated:throttle_lever",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "sky_instrument_landing",
+      "note": "codex.quest.story_sky.guide_instruments.task.3"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 9,
+    "text": [
+     "codex.quest.story_sky.guide_instruments.text.0",
+     "codex.quest.story_sky.guide_instruments.text.1",
+     "codex.quest.story_sky.guide_instruments.text.2"
+    ]
+   },
+   {
+    "id": "guide_rwr",
+    "title": "codex.quest.story_sky.guide_rwr.title",
+    "icon": "create_radar:radar_warning_receiver",
+    "deps": [
+     "eyes"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create_radar:radar_warning_receiver",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create_radar:radar_safe_zone_designator",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "sky_rwr_alert",
+      "note": "codex.quest.story_sky.guide_rwr.task.2"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 10,
+    "text": [
+     "codex.quest.story_sky.guide_rwr.text.0",
+     "codex.quest.story_sky.guide_rwr.text.1",
+     "codex.quest.story_sky.guide_rwr.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "story"
  }
 ]

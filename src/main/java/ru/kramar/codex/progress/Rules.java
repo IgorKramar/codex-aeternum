@@ -16,12 +16,12 @@ public final class Rules {
 
     /** Задание доступно, если выполнены все его предпосылки. */
     public static boolean unlocked(Book book, Progress p, Quest q) {
-        if (q.deps.isEmpty()) return true;
         for (String dep : q.deps) {
             String gid = dep.contains("/") ? dep : q.chapterId + "/" + dep;
             if (!p.completed.contains(gid)) return false;
         }
-        return true;
+        return q.anyDeps.isEmpty() || q.anyDeps.stream()
+                .anyMatch(dep -> p.completed.contains(dep.contains("/") ? dep : q.chapterId + "/" + dep));
     }
 
     public static boolean completed(Progress p, Quest q) {
@@ -35,10 +35,32 @@ public final class Rules {
     /** Все цели выполнены прямо сейчас (для consume учитывается текущий инвентарь). */
     public static boolean tasksDone(Progress p, Quest q) {
         if (q.tasks.isEmpty()) return p.manual.contains(q.globalId());
+        if (!completed(p, q)) {
+            for (var need : consumedItems(q).entrySet())
+                if (p.now(need.getKey()) < need.getValue()) return false;
+        }
         for (Task t : q.tasks) {
             if (!taskDone(p, q, t)) return false;
         }
         return true;
+    }
+
+    public static java.util.Map<String, Integer> consumedItems(Quest q) {
+        java.util.Map<String, Integer> result = new java.util.LinkedHashMap<>();
+        for (Task t : q.tasks) if (t.kind == Task.Kind.ITEM && t.consume)
+            result.merge(t.id, t.count, Math::addExact);
+        return result;
+    }
+
+    public static boolean validFlag(Book book, String key) {
+        for (Chapter c : book.chapters()) for (Quest q : c.quests) {
+            if (q.isLore() && q.globalId().equals(key)) return true;
+            for (Task t : q.tasks) {
+                if (t.kind == Task.Kind.CHECK && (q.globalId() + "#" + t.progressKey()).equals(key)) return true;
+                if (t.kind == Task.Kind.PONDER && ("ponder|" + t.id).equals(key)) return true;
+            }
+        }
+        return false;
     }
 
     public static boolean taskDone(Progress p, Quest q, Task t) {
@@ -69,8 +91,7 @@ public final class Rules {
         List<Quest> fresh = new ArrayList<>();
         if (book.isEmpty()) return fresh;
         boolean changed = true;
-        int guard = 0;
-        while (changed && guard++ < 32) {
+        while (changed) {
             changed = false;
             for (Chapter c : book.chapters()) {
                 for (Quest q : c.quests) {

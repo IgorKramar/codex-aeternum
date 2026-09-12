@@ -21,13 +21,14 @@ public final class Quest {
     public final int y;
     public final Shape shape;
     public final List<String> deps;
+    public final List<String> anyDeps;
     public final List<String> text;
     public final List<Task> tasks;
     public final Reward reward;
     public final boolean optional;
 
     private Quest(String id, String chapterId, String title, String icon, int x, int y, Shape shape,
-                  List<String> deps, List<String> text, List<Task> tasks, Reward reward,
+                  List<String> deps, List<String> anyDeps, List<String> text, List<Task> tasks, Reward reward,
                   boolean optional) {
         this.id = id;
         this.chapterId = chapterId;
@@ -37,6 +38,7 @@ public final class Quest {
         this.y = y;
         this.shape = shape;
         this.deps = List.copyOf(deps);
+        this.anyDeps = List.copyOf(anyDeps);
         this.text = List.copyOf(text);
         this.tasks = List.copyOf(tasks);
         this.reward = reward;
@@ -84,7 +86,7 @@ public final class Quest {
             }
         }
         boolean optional = o.has("optional") && o.get("optional").getAsBoolean();
-        return new Quest(id, chapterId, title, icon, x, y, shape, deps, text, tasks, reward, optional);
+        return new Quest(id, chapterId, title, icon, x, y, shape, deps, strings(o.get("any_deps")), text, tasks, reward, optional);
     }
 
     private static List<String> strings(JsonElement e) {

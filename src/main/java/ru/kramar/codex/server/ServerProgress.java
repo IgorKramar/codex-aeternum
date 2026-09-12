@@ -90,22 +90,24 @@ public final class ServerProgress {
         scanInventory(player, p);
         scanAdvancements(player, p);
         scanWorld(player, p);
-        List<Quest> fresh = Rules.recompute(Book.SERVER, p);
-        for (Quest q : fresh) {
-            grantLoot(player, q.reward, false);
-            p.claimed.add(q.globalId());
-            announce(player, q, false);
-        }
+        processCompletions(player, p);
         if (p.isDirty()) DIRTY_SYNC.put(player.getUUID(), true);
         p.tickSave(player.level().getGameTime());
         if (Boolean.TRUE.equals(DIRTY_SYNC.remove(player.getUUID()))) sendProgress(player);
     }
 
+    private static List<ItemStack> inventoryStacks(ServerPlayer player) {
+        List<ItemStack> slots = new java.util.ArrayList<>();
+        var inventory = player.getInventory();
+        for (int i = 0; i < inventory.getContainerSize(); i++) slots.add(inventory.getItem(i));
+        slots.add(player.containerMenu.getCarried());
+        return slots;
+    }
+
     private static void scanInventory(ServerPlayer player, Progress p) {
         Map<String, Integer> counts = new HashMap<>();
-        var inv = player.getInventory();
-        for (int i = 0; i < inv.getContainerSize(); i++) add(counts, inv.getItem(i));
-        add(counts, player.containerMenu.getCarried());
+        inventoryStacks(player).forEach(stack -> add(counts, stack));
+        if (!p.itemsNow.equals(counts)) DIRTY_SYNC.put(player.getUUID(), true);
         p.itemsNow.clear();
         p.itemsNow.putAll(counts);
         counts.forEach(p::recordItem);
@@ -149,46 +151,62 @@ public final class ServerProgress {
         scanInventory(player, p);
         if (!Rules.claimable(Book.SERVER, p, q)) return;
 
-        for (Task t : q.tasks) {
-            if (t.kind == Task.Kind.ITEM && t.consume) {
-                if (!takeItems(player, t.id, t.count)) {
-                    player.sendSystemMessage(Component.translatable("codex.msg.not_enough").withStyle(ChatFormatting.RED));
-                    return;
-                }
-            }
+        if (!takeItems(player, Rules.consumedItems(q))) {
+            player.sendSystemMessage(Component.translatable("codex.msg.not_enough").withStyle(ChatFormatting.RED));
+            sendProgress(player);
+            return;
         }
         p.completed.add(gid);
         p.claimed.add(gid);
         p.markDirty();
         grantLoot(player, q.reward, true);
         announce(player, q, true);
-        Rules.recompute(Book.SERVER, p);
+        scanInventory(player, p);
+        processCompletions(player, p);
         sendProgress(player);
     }
 
     public static void flag(ServerPlayer player, String key, boolean value) {
         Progress p = PLAYERS.get(player.getUUID());
-        if (p == null) return;
+        if (p == null || !Rules.validFlag(Book.SERVER, key)) return;
         p.setManual(key, value);
         DIRTY_SYNC.put(player.getUUID(), true);
     }
 
     public static void pin(ServerPlayer player, String gid) {
         Progress p = PLAYERS.get(player.getUUID());
-        if (p == null) return;
+        if (p == null || Book.SERVER.quest(gid) == null) return;
         p.togglePin(gid);
         DIRTY_SYNC.put(player.getUUID(), true);
     }
 
-    private static boolean takeItems(ServerPlayer player, String itemId, int count) {
-        ResourceLocation loc = ResourceLocation.tryParse(itemId);
-        if (loc == null) return false;
-        Item item = BuiltInRegistries.ITEM.getOptional(loc).orElse(null);
-        if (item == null) return false;
-        var inv = player.getInventory();
-        int have = inv.clearOrCountMatchingItems(s -> s.is(item), 0, player.inventoryMenu.getCraftSlots());
-        if (have < count) return false;
-        inv.clearOrCountMatchingItems(s -> s.is(item), count, player.inventoryMenu.getCraftSlots());
+    private static void processCompletions(ServerPlayer player, Progress p) {
+        for (Quest q : Rules.recompute(Book.SERVER, p)) {
+            if (p.claimed.add(q.globalId())) grantLoot(player, q.reward, false);
+            announce(player, q, false);
+        }
+    }
+
+    /** Проверка всех требований до изменения стэков; те же слоты, что и у scanInventory. */
+    private static boolean takeItems(ServerPlayer player, Map<String, Integer> required) {
+        List<ItemStack> slots = inventoryStacks(player);
+        var inventory = player.getInventory();
+        Map<String, Integer> available = new HashMap<>();
+        slots.forEach(stack -> add(available, stack));
+        for (var need : required.entrySet())
+            if (available.getOrDefault(need.getKey(), 0) < need.getValue()) return false;
+        for (var need : required.entrySet()) {
+            int left = need.getValue();
+            for (ItemStack stack : slots) {
+                if (stack.isEmpty() || !BuiltInRegistries.ITEM.getKey(stack.getItem()).toString().equals(need.getKey())) continue;
+                int take = Math.min(left, stack.getCount());
+                stack.shrink(take);
+                left -= take;
+                if (left == 0) break;
+            }
+        }
+        inventory.setChanged();
+        player.containerMenu.broadcastChanges();
         return true;
     }
 
@@ -230,7 +248,7 @@ public final class ServerProgress {
     public static void sendProgress(ServerPlayer player) {
         Progress p = PLAYERS.get(player.getUUID());
         if (p == null) return;
-        PacketDistributor.sendToPlayer(player, new Payloads.ProgressSync(Payloads.gzip(p.toJsonString())));
+        PacketDistributor.sendToPlayer(player, new Payloads.ProgressSync(Payloads.gzip(p.snapshot().toString())));
     }
 
     public static void broadcastBook(MinecraftServer server) {

@@ -8,7 +8,8 @@
   "subtitle": "codex.chapter.start_first_day.subtitle",
   "intro": [
    "codex.chapter.start_first_day.intro.0",
-   "codex.chapter.start_first_day.intro.1"
+   "codex.chapter.start_first_day.intro.1",
+   "codex.chapter.start_first_day.intro.2"
   ],
   "quests": [
    {
@@ -19,14 +20,14 @@
     "y": 0,
     "text": [
      "codex.quest.start_first_day.wood.text.0",
-     "codex.quest.start_first_day.wood.text.1"
+     "codex.quest.start_first_day.wood.text.1",
+     "codex.quest.start_first_day.wood.text.2"
     ],
     "tasks": [
      {
       "type": "item",
       "id": "minecraft:oak_log",
-      "count": 16,
-      "note": "codex.quest.start_first_day.wood.task.0"
+      "count": 16
      }
     ],
     "rewards": {
@@ -38,17 +39,19 @@
      ],
      "xp": 10,
      "text": []
-    }
+    },
+    "deps": []
    },
    {
     "id": "crafting",
     "title": "codex.quest.start_first_day.crafting.title",
     "icon": "minecraft:crafting_table",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 6,
     "text": [
      "codex.quest.start_first_day.crafting.text.0",
-     "codex.quest.start_first_day.crafting.text.1"
+     "codex.quest.start_first_day.crafting.text.1",
+     "codex.quest.start_first_day.crafting.text.2"
     ],
     "tasks": [
      {
@@ -75,14 +78,15 @@
     "id": "carry",
     "title": "codex.quest.start_first_day.carry.title",
     "icon": "minecraft:chest",
-    "x": -1,
+    "x": 4,
     "y": 2,
     "deps": [
      "crafting"
     ],
     "text": [
      "codex.quest.start_first_day.carry.text.0",
-     "codex.quest.start_first_day.carry.text.1"
+     "codex.quest.start_first_day.carry.text.1",
+     "codex.quest.start_first_day.carry.text.2"
     ],
     "tasks": [
      {
@@ -101,13 +105,15 @@
     "id": "backpack",
     "title": "codex.quest.start_first_day.backpack.title",
     "icon": "sophisticatedbackpacks:backpack",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 3,
     "deps": [
      "crafting"
     ],
     "text": [
-     "codex.quest.start_first_day.backpack.text.0"
+     "codex.quest.start_first_day.backpack.text.0",
+     "codex.quest.start_first_day.backpack.text.1",
+     "codex.quest.start_first_day.backpack.text.2"
     ],
     "tasks": [
      {
@@ -131,14 +137,15 @@
     "id": "backpack_upgrades",
     "title": "codex.quest.start_first_day.backpack_upgrades.title",
     "icon": "sophisticatedbackpacks:pickup_upgrade",
-    "x": 1,
-    "y": 2,
+    "x": 6,
+    "y": 5,
     "deps": [
      "backpack"
     ],
     "text": [
      "codex.quest.start_first_day.backpack_upgrades.text.0",
-     "codex.quest.start_first_day.backpack_upgrades.text.1"
+     "codex.quest.start_first_day.backpack_upgrades.text.1",
+     "codex.quest.start_first_day.backpack_upgrades.text.2"
     ],
     "tasks": [
      {
@@ -162,14 +169,15 @@
     "id": "night",
     "title": "codex.quest.start_first_day.night.title",
     "icon": "comforts:sleeping_bag_red",
-    "x": 0,
-    "y": 3,
+    "x": 4,
+    "y": 4,
     "deps": [
-     "backpack"
+     "crafting"
     ],
     "text": [
      "codex.quest.start_first_day.night.text.0",
-     "codex.quest.start_first_day.night.text.1"
+     "codex.quest.start_first_day.night.text.1",
+     "codex.quest.start_first_day.night.text.2"
     ],
     "tasks": [
      {
@@ -189,14 +197,15 @@
     "id": "death",
     "title": "codex.quest.start_first_day.death.title",
     "icon": "minecraft:skeleton_skull",
-    "x": 1,
-    "y": 3,
+    "x": 4,
+    "y": 5,
     "deps": [
-     "night"
+     "crafting"
     ],
     "text": [
      "codex.quest.start_first_day.death.text.0",
-     "codex.quest.start_first_day.death.text.1"
+     "codex.quest.start_first_day.death.text.1",
+     "codex.quest.start_first_day.death.text.2"
     ],
     "tasks": [
      {
@@ -215,13 +224,15 @@
     "id": "jade",
     "title": "codex.quest.start_first_day.jade.title",
     "icon": "minecraft:spyglass",
-    "x": -1,
-    "y": 3,
+    "x": 4,
+    "y": 6,
     "deps": [
      "crafting"
     ],
     "text": [
-     "codex.quest.start_first_day.jade.text.0"
+     "codex.quest.start_first_day.jade.text.0",
+     "codex.quest.start_first_day.jade.text.1",
+     "codex.quest.start_first_day.jade.text.2"
     ],
     "tasks": [
      {
@@ -240,15 +251,15 @@
     "id": "iron",
     "title": "codex.quest.start_first_day.iron.title",
     "icon": "minecraft:iron_ingot",
-    "x": 0,
-    "y": 4,
+    "x": 4,
+    "y": 7,
     "deps": [
-     "night",
-     "death"
+     "crafting"
     ],
     "text": [
      "codex.quest.start_first_day.iron.text.0",
-     "codex.quest.start_first_day.iron.text.1"
+     "codex.quest.start_first_day.iron.text.1",
+     "codex.quest.start_first_day.iron.text.2"
     ],
     "tasks": [
      {
@@ -272,11 +283,12 @@
     "id": "waystone",
     "title": "codex.quest.start_first_day.waystone.title",
     "icon": "waystones:waystone",
-    "x": 0,
-    "y": 5,
+    "x": 6,
+    "y": 6,
     "text": [
      "codex.quest.start_first_day.waystone.text.0",
-     "codex.quest.start_first_day.waystone.text.1"
+     "codex.quest.start_first_day.waystone.text.1",
+     "codex.quest.start_first_day.waystone.text.2"
     ],
     "tasks": [
      {
@@ -303,13 +315,15 @@
     "id": "map",
     "title": "codex.quest.start_first_day.map.title",
     "icon": "minecraft:filled_map",
-    "x": 1,
-    "y": 5,
+    "x": 4,
+    "y": 8,
     "deps": [
-     "waystone"
+     "crafting"
     ],
     "text": [
-     "codex.quest.start_first_day.map.text.0"
+     "codex.quest.start_first_day.map.text.0",
+     "codex.quest.start_first_day.map.text.1",
+     "codex.quest.start_first_day.map.text.2"
     ],
     "tasks": [
      {
@@ -328,14 +342,15 @@
     "id": "base",
     "title": "codex.quest.start_first_day.base.title",
     "icon": "minecraft:bricks",
-    "x": 0,
-    "y": 6,
+    "x": 6,
+    "y": 7,
     "deps": [
-     "waystone"
+     "iron"
     ],
     "text": [
      "codex.quest.start_first_day.base.text.0",
-     "codex.quest.start_first_day.base.text.1"
+     "codex.quest.start_first_day.base.text.1",
+     "codex.quest.start_first_day.base.text.2"
     ],
     "tasks": [
      {
@@ -358,8 +373,208 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "guide_charcoal",
+    "title": "codex.quest.start_first_day.guide_charcoal.title",
+    "icon": "minecraft:charcoal",
+    "deps": [
+     "crafting"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:charcoal",
+      "count": 16
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 20,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 9,
+    "text": [
+     "codex.quest.start_first_day.guide_charcoal.text.0",
+     "codex.quest.start_first_day.guide_charcoal.text.1",
+     "codex.quest.start_first_day.guide_charcoal.text.2"
+    ]
+   },
+   {
+    "id": "guide_water",
+    "title": "codex.quest.start_first_day.guide_water.title",
+    "icon": "minecraft:water_bucket",
+    "deps": [
+     "iron"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:water_bucket",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 20,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 8,
+    "text": [
+     "codex.quest.start_first_day.guide_water.text.0",
+     "codex.quest.start_first_day.guide_water.text.1",
+     "codex.quest.start_first_day.guide_water.text.2"
+    ]
+   },
+   {
+    "id": "guide_wheat",
+    "title": "codex.quest.start_first_day.guide_wheat.title",
+    "icon": "minecraft:wheat",
+    "deps": [
+     "guide_water"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:wheat",
+      "count": 16
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 20,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 7,
+    "text": [
+     "codex.quest.start_first_day.guide_wheat.text.0",
+     "codex.quest.start_first_day.guide_wheat.text.1",
+     "codex.quest.start_first_day.guide_wheat.text.2"
+    ]
+   },
+   {
+    "id": "guide_labels",
+    "title": "codex.quest.start_first_day.guide_labels.title",
+    "icon": "minecraft:oak_sign",
+    "deps": [
+     "base"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "storage_labels",
+      "note": "codex.quest.start_first_day.guide_labels.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 20,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 6,
+    "text": [
+     "codex.quest.start_first_day.guide_labels.text.0",
+     "codex.quest.start_first_day.guide_labels.text.1",
+     "codex.quest.start_first_day.guide_labels.text.2"
+    ]
+   },
+   {
+    "id": "guide_reserve",
+    "title": "codex.quest.start_first_day.guide_reserve.title",
+    "icon": "minecraft:barrel",
+    "deps": [
+     "guide_labels",
+     "guide_charcoal",
+     "guide_wheat"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "reserve",
+      "note": "codex.quest.start_first_day.guide_reserve.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 20,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 6,
+    "text": [
+     "codex.quest.start_first_day.guide_reserve.text.0",
+     "codex.quest.start_first_day.guide_reserve.text.1",
+     "codex.quest.start_first_day.guide_reserve.text.2"
+    ]
+   },
+   {
+    "id": "guide_pack_filter",
+    "title": "codex.quest.start_first_day.guide_pack_filter.title",
+    "icon": "sophisticatedbackpacks:pickup_upgrade",
+    "deps": [
+     "backpack_upgrades"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "pack_filter",
+      "note": "codex.quest.start_first_day.guide_pack_filter.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 20,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 5,
+    "text": [
+     "codex.quest.start_first_day.guide_pack_filter.text.0",
+     "codex.quest.start_first_day.guide_pack_filter.text.1",
+     "codex.quest.start_first_day.guide_pack_filter.text.2"
+    ]
+   },
+   {
+    "id": "guide_workshop_check",
+    "title": "codex.quest.start_first_day.guide_workshop_check.title",
+    "icon": "minecraft:crafting_table",
+    "deps": [
+     "guide_reserve",
+     "start_qol/guide_recipe_batch"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "workshop_check",
+      "note": "codex.quest.start_first_day.guide_workshop_check.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 20,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 6,
+    "text": [
+     "codex.quest.start_first_day.guide_workshop_check.text.0",
+     "codex.quest.start_first_day.guide_workshop_check.text.1",
+     "codex.quest.start_first_day.guide_workshop_check.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "start"
  },
  {
   "id": "start_qol",
@@ -369,7 +584,9 @@
   "icon": "minecraft:clock",
   "subtitle": "codex.chapter.start_qol.subtitle",
   "intro": [
-   "codex.chapter.start_qol.intro.0"
+   "codex.chapter.start_qol.intro.0",
+   "codex.chapter.start_qol.intro.1",
+   "codex.chapter.start_qol.intro.2"
   ],
   "quests": [
    {
@@ -377,9 +594,11 @@
     "title": "codex.quest.start_qol.jei.title",
     "icon": "minecraft:bookshelf",
     "x": 0,
-    "y": 0,
+    "y": 1,
     "text": [
-     "codex.quest.start_qol.jei.text.0"
+     "codex.quest.start_qol.jei.text.0",
+     "codex.quest.start_qol.jei.text.1",
+     "codex.quest.start_qol.jei.text.2"
     ],
     "tasks": [
      {
@@ -398,10 +617,12 @@
     "id": "mousetweaks",
     "title": "codex.quest.start_qol.mousetweaks.title",
     "icon": "minecraft:hopper",
-    "x": 1,
-    "y": 0,
+    "x": 0,
+    "y": 2,
     "text": [
-     "codex.quest.start_qol.mousetweaks.text.0"
+     "codex.quest.start_qol.mousetweaks.text.0",
+     "codex.quest.start_qol.mousetweaks.text.1",
+     "codex.quest.start_qol.mousetweaks.text.2"
     ],
     "tasks": [
      {
@@ -420,10 +641,12 @@
     "id": "inventoryqol",
     "title": "codex.quest.start_qol.inventoryqol.title",
     "icon": "minecraft:barrel",
-    "x": 2,
-    "y": 0,
+    "x": 0,
+    "y": 3,
     "text": [
-     "codex.quest.start_qol.inventoryqol.text.0"
+     "codex.quest.start_qol.inventoryqol.text.0",
+     "codex.quest.start_qol.inventoryqol.text.1",
+     "codex.quest.start_qol.inventoryqol.text.2"
     ],
     "tasks": [
      {
@@ -442,10 +665,12 @@
     "id": "lootr",
     "title": "codex.quest.start_qol.lootr.title",
     "icon": "lootr:trophy",
-    "x": 3,
-    "y": 0,
+    "x": 0,
+    "y": 4,
     "text": [
-     "codex.quest.start_qol.lootr.text.0"
+     "codex.quest.start_qol.lootr.text.0",
+     "codex.quest.start_qol.lootr.text.1",
+     "codex.quest.start_qol.lootr.text.2"
     ],
     "tasks": [
      {
@@ -464,10 +689,12 @@
     "id": "keyconflict",
     "title": "codex.quest.start_qol.keyconflict.title",
     "icon": "minecraft:lever",
-    "x": 4,
-    "y": 0,
+    "x": 0,
+    "y": 5,
     "text": [
-     "codex.quest.start_qol.keyconflict.text.0"
+     "codex.quest.start_qol.keyconflict.text.0",
+     "codex.quest.start_qol.keyconflict.text.1",
+     "codex.quest.start_qol.keyconflict.text.2"
     ],
     "tasks": [
      {
@@ -487,10 +714,11 @@
     "title": "codex.quest.start_qol.gadgets.title",
     "icon": "buildinggadgets2:gadget_building",
     "x": 0,
-    "y": 1,
+    "y": 6,
     "text": [
      "codex.quest.start_qol.gadgets.text.0",
-     "codex.quest.start_qol.gadgets.text.1"
+     "codex.quest.start_qol.gadgets.text.1",
+     "codex.quest.start_qol.gadgets.text.2"
     ],
     "tasks": [
      {
@@ -508,11 +736,13 @@
    {
     "id": "treechop2",
     "title": "codex.quest.start_qol.treechop2.title",
-    "icon": "treechop:chopped_log",
-    "x": 1,
-    "y": 1,
+    "icon": "minecraft:iron_axe",
+    "x": 0,
+    "y": 7,
     "text": [
-     "codex.quest.start_qol.treechop2.text.0"
+     "codex.quest.start_qol.treechop2.text.0",
+     "codex.quest.start_qol.treechop2.text.1",
+     "codex.quest.start_qol.treechop2.text.2"
     ],
     "tasks": [
      {
@@ -531,10 +761,12 @@
     "id": "chunkloaders",
     "title": "codex.quest.start_qol.chunkloaders.title",
     "icon": "chunkloaders:basic_chunk_loader",
-    "x": 2,
-    "y": 1,
+    "x": 0,
+    "y": 8,
     "text": [
-     "codex.quest.start_qol.chunkloaders.text.0"
+     "codex.quest.start_qol.chunkloaders.text.0",
+     "codex.quest.start_qol.chunkloaders.text.1",
+     "codex.quest.start_qol.chunkloaders.text.2"
     ],
     "tasks": [
      {
@@ -553,10 +785,12 @@
     "id": "easyvillagers",
     "title": "codex.quest.start_qol.easyvillagers.title",
     "icon": "easy_villagers:trader",
-    "x": 3,
-    "y": 1,
+    "x": 0,
+    "y": 9,
     "text": [
-     "codex.quest.start_qol.easyvillagers.text.0"
+     "codex.quest.start_qol.easyvillagers.text.0",
+     "codex.quest.start_qol.easyvillagers.text.1",
+     "codex.quest.start_qol.easyvillagers.text.2"
     ],
     "tasks": [
      {
@@ -576,9 +810,11 @@
     "title": "codex.quest.start_qol.voicechat.title",
     "icon": "minecraft:note_block",
     "x": 0,
-    "y": 2,
+    "y": 10,
     "text": [
-     "codex.quest.start_qol.voicechat.text.0"
+     "codex.quest.start_qol.voicechat.text.0",
+     "codex.quest.start_qol.voicechat.text.1",
+     "codex.quest.start_qol.voicechat.text.2"
     ],
     "tasks": [
      {
@@ -597,11 +833,12 @@
     "id": "performance",
     "title": "codex.quest.start_qol.performance.title",
     "icon": "minecraft:redstone_torch",
-    "x": 1,
-    "y": 2,
+    "x": 0,
+    "y": 11,
     "text": [
      "codex.quest.start_qol.performance.text.0",
-     "codex.quest.start_qol.performance.text.1"
+     "codex.quest.start_qol.performance.text.1",
+     "codex.quest.start_qol.performance.text.2"
     ],
     "tasks": [
      {
@@ -620,10 +857,12 @@
     "id": "smartdeleter",
     "title": "codex.quest.start_qol.smartdeleter.title",
     "icon": "minecraft:lava_bucket",
-    "x": 2,
-    "y": 2,
+    "x": 0,
+    "y": 12,
     "text": [
-     "codex.quest.start_qol.smartdeleter.text.0"
+     "codex.quest.start_qol.smartdeleter.text.0",
+     "codex.quest.start_qol.smartdeleter.text.1",
+     "codex.quest.start_qol.smartdeleter.text.2"
     ],
     "tasks": [
      {
@@ -642,10 +881,12 @@
     "id": "almanac",
     "title": "codex.quest.start_qol.almanac.title",
     "icon": "minecraft:wheat_seeds",
-    "x": 3,
-    "y": 2,
+    "x": 0,
+    "y": 13,
     "text": [
-     "codex.quest.start_qol.almanac.text.0"
+     "codex.quest.start_qol.almanac.text.0",
+     "codex.quest.start_qol.almanac.text.1",
+     "codex.quest.start_qol.almanac.text.2"
     ],
     "tasks": [
      {
@@ -659,7 +900,64 @@
      "xp": 15,
      "text": []
     }
+   },
+   {
+    "id": "guide_recipe_chain",
+    "title": "codex.quest.start_qol.guide_recipe_chain.title",
+    "icon": "minecraft:book",
+    "deps": [
+     "jei"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "recipe_chain",
+      "note": "codex.quest.start_qol.guide_recipe_chain.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 20,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 7,
+    "text": [
+     "codex.quest.start_qol.guide_recipe_chain.text.0",
+     "codex.quest.start_qol.guide_recipe_chain.text.1",
+     "codex.quest.start_qol.guide_recipe_chain.text.2"
+    ]
+   },
+   {
+    "id": "guide_recipe_batch",
+    "title": "codex.quest.start_qol.guide_recipe_batch.title",
+    "icon": "minecraft:paper",
+    "deps": [
+     "guide_recipe_chain"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "recipe_batch",
+      "note": "codex.quest.start_qol.guide_recipe_batch.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 20,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 10,
+    "text": [
+     "codex.quest.start_qol.guide_recipe_batch.text.0",
+     "codex.quest.start_qol.guide_recipe_batch.text.1",
+     "codex.quest.start_qol.guide_recipe_batch.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "start"
  }
 ]

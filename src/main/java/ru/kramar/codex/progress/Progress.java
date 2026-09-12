@@ -52,7 +52,8 @@ public final class Progress {
     // ------------------------------------------------------------------ файл
 
     public void bind(Path path) {
-        this.file = path;
+        this.file = path.toAbsolutePath();
+        lastSave = 0;
         clear();
         load();
     }
@@ -98,23 +99,58 @@ public final class Progress {
 
     public void saveNow() {
         if (file == null || !dirty) return;
+        Path temporary = null;
         try {
             Files.createDirectories(file.getParent());
-            try (BufferedWriter w = Files.newBufferedWriter(file, StandardCharsets.UTF_8)) {
-                GSON.toJson(toJson(), w);
+            temporary = Files.createTempFile(file.getParent(), file.getFileName().toString(), ".tmp");
+            Files.writeString(temporary, GSON.toJson(toJson()), StandardCharsets.UTF_8);
+            if (Files.isRegularFile(file)) {
+                Path backupTemp = Files.createTempFile(file.getParent(), "codex-backup", ".tmp");
+                try {
+                    Files.copy(file, backupTemp, java.nio.file.StandardCopyOption.REPLACE_EXISTING);
+                    replace(backupTemp, backup());
+                } finally { Files.deleteIfExists(backupTemp); }
             }
+            replace(temporary, file);
             dirty = false;
         } catch (Exception ex) {
             LOG.error("Кодекс: не удалось сохранить прогресс в {}", file, ex);
+        } finally {
+            if (temporary != null) try { Files.deleteIfExists(temporary); } catch (java.io.IOException ignored) { }
+        }
+    }
+
+    private Path backup() { return file.resolveSibling(file.getFileName() + ".bak"); }
+
+    private static void replace(Path source, Path target) throws java.io.IOException {
+        try {
+            Files.move(source, target, java.nio.file.StandardCopyOption.ATOMIC_MOVE,
+                    java.nio.file.StandardCopyOption.REPLACE_EXISTING);
+        } catch (java.nio.file.AtomicMoveNotSupportedException ex) {
+            Files.move(source, target, java.nio.file.StandardCopyOption.REPLACE_EXISTING);
         }
     }
 
     private void load() {
-        if (file == null || !Files.isRegularFile(file)) return;
-        try (BufferedReader r = Files.newBufferedReader(file, StandardCharsets.UTF_8)) {
-            fromJson(JsonParser.parseReader(r).getAsJsonObject());
+        if (file == null) return;
+        if (Files.isRegularFile(file)) {
+            try {
+                fromJson(JsonParser.parseString(Files.readString(file, StandardCharsets.UTF_8)).getAsJsonObject());
+                return;
+            } catch (Exception ex) {
+                LOG.error("Кодекс: повреждён прогресс {}, пробуем резервную копию", file, ex);
+                try {
+                    Files.move(file, file.resolveSibling(file.getFileName() + ".corrupt-" + java.util.UUID.randomUUID()));
+                } catch (java.io.IOException preserveFailure) {
+                    throw new IllegalStateException("Не удалось сохранить повреждённый файл " + file, preserveFailure);
+                }
+            }
+        }
+        if (Files.isRegularFile(backup())) try {
+            fromJson(JsonParser.parseString(Files.readString(backup(), StandardCharsets.UTF_8)).getAsJsonObject());
+            dirty = true;
         } catch (Exception ex) {
-            LOG.error("Кодекс: не удалось прочитать прогресс из {}", file, ex);
+            LOG.error("Кодекс: резервная копия также не читается: {}", backup(), ex);
         }
     }
 
@@ -181,8 +217,33 @@ public final class Progress {
         return toJson().toString();
     }
 
+    public JsonObject snapshot() {
+        JsonObject o = toJson();
+        JsonObject current = new JsonObject();
+        itemsNow.forEach(current::addProperty);
+        o.add("itemsNow", current);
+        return o;
+    }
+
     public void fromJson(JsonObject o) {
+        Progress next = new Progress();
+        next.readJson(o);
         clear();
+        itemsSeen.putAll(next.itemsSeen);
+        itemsNow.putAll(next.itemsNow);
+        advancements.addAll(next.advancements);
+        dimensions.addAll(next.dimensions);
+        biomes.addAll(next.biomes);
+        manual.addAll(next.manual);
+        completed.addAll(next.completed);
+        claimed.addAll(next.claimed);
+        announced.addAll(next.announced);
+        pinned.addAll(next.pinned);
+    }
+
+    private void readJson(JsonObject o) {
+        if (o.has("itemsNow")) for (var e : o.getAsJsonObject("itemsNow").entrySet())
+            itemsNow.put(e.getKey(), e.getValue().getAsInt());
         if (o.has("items")) {
             for (Map.Entry<String, JsonElement> e : o.getAsJsonObject("items").entrySet()) {
                 itemsSeen.put(e.getKey(), e.getValue().getAsInt());

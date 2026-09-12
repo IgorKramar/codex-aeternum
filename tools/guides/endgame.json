@@ -1,0 +1,773 @@
+{
+  "section": "endgame",
+  "chapters": {
+    "end_monuments": {
+      "intro": [
+        "Монументы начинаются с производственного запаса: стальных балок, рельсов, корпусов и редких строительных материалов. Основные карточки принимают указанную партию в обмен на награду; они не распознают форму построенной башни, крепости или города.",
+        "Ресурсы с пометкой сдачи исчезнут при получении награды. Отделяйте эту партию от материалов самой постройки. Боковые задания предлагают применить освоенное производство в мире и подтверждаются вручную по конкретному результату."
+      ],
+      "intro_en": [
+        "Monuments begin with a production reserve: girders, tracks, casings and rare building materials. The main cards accept the specified batch in exchange for a reward; they do not recognize the shape of a finished tower, fortress or town.",
+        "Turn-in resources disappear when you claim the reward. Keep this batch separate from the building stock. Side quests put the resulting production to use in the world and use manual confirmation against a specific result."
+      ]
+    },
+    "end_marathon": {
+      "intro": [
+        "Марафон проверяет устойчивость производства большим заказом. Начните с небольшой партии, найдите самый медленный участок и убедитесь, что линия умеет останавливаться при заполненном выходе. Только после этого увеличивайте заказ.",
+        "Все основные задания этой главы расходуют сдаваемые предметы. До получения награды соберите всю партию в обычном инвентаре; предметы внутри сети или рюкзака не заменяют её. Сталь принимается блоками, чтобы весь объём действительно помещался у игрока."
+      ],
+      "intro_en": [
+        "The marathon tests reliable production with a large order. Begin with a small batch, find the slowest stage and ensure the line can stop when its output fills. Only then increase the order.",
+        "Every main quest in this chapter consumes its turn-in items. Gather the entire batch in your regular inventory before claiming; items inside a network or backpack do not replace it. Steel is accepted in blocks so the full amount actually fits."
+      ]
+    },
+    "end_apotheosis": {
+      "intro": [
+        "Последние испытания сводят вместе три самостоятельных пути: бои Вечной Тьмы, наследие Аркемеров и достижения нескольких крупных модов. Это поздняя глава; её условия опираются на подробные руководства предыдущих карт.",
+        "Завершение апофеоза закрывает эту финальную цепочку, но не отмечает автоматически остальные главы и дополнительные проекты. Общий счётчик книги по-прежнему показывает, сколько заданий осталось для полного прохождения."
+      ],
+      "intro_en": [
+        "The final trials bring together three independent paths: Eternal Darkness battles, Arkemer technology and milestones from several major mods. This is a late chapter whose requirements build on the detailed guides in earlier maps.",
+        "Finishing Apotheosis completes this final chain but does not automatically mark other chapters or side projects. The book's overall counter still shows how many quests remain for full completion."
+      ]
+    }
+  },
+  "quests": {
+    "end_monuments/spire": {
+      "text": [
+        "Металлические балки Create подходят для несущего каркаса, переходов и открытых промышленных башен. Здесь требуется изготовить и сдать 1024 балки: шестнадцать полных стопок. Это заказ на продукцию, а не автоматическая оценка высоты вашей постройки.",
+        "Откройте рецепт балки и обеспечьте отдельный запас его ингредиентов. Сначала проверьте выпуск небольшой партии, затем направьте готовые балки в выделенный ящик. Отдельный выход помогает увидеть, что тормозит производство, и не смешивает заказ с материалами действующего завода.",
+        "Перед наградой перенесите все шестнадцать стопок в обычный инвентарь. Они будут израсходованы; каркас будущего шпиля нужно собирать из другой партии. Полученные латунные корпуса и прочные листы пригодятся для оборудования верхних площадок."
+      ],
+      "text_en": [
+        "Create metal girders suit structural frames, walkways and open industrial towers. Produce and turn in 1,024 girders here: sixteen full stacks. This is a production order, not an automatic measurement of your building's height.",
+        "Open the girder recipe and reserve its ingredients separately. Check a small batch first, then route finished girders into a dedicated chest. A separate output reveals production bottlenecks and keeps the order apart from supplies for the working factory.",
+        "Move all sixteen stacks into your regular inventory before claiming. They will be consumed; the future spire needs another construction batch. The brass casings and sturdy sheets awarded here can support machinery on its upper platforms."
+      ],
+      "task_notes": {}
+    },
+    "end_monuments/bridge": {
+      "text": [
+        "Большая железная дорога начинается с запаса пути, а не с попытки протянуть последний рельс через ущелье. Подготовьте 2048 обычных железнодорожных путей Create: тридцать две стопки. Другие виды рельсов, даже совместимые с вашими поездами, не заменяют указанный предмет в этой поставке.",
+        "Проверьте рецепт пути в JEI и наладьте выпуск его основания и металлических деталей. Выделите накопитель только под заказ, затем выберите будущий маршрут между базой, колонией или местом добычи. Длина маршрута и количество мостовых опор этой целью не проверяются.",
+        "Вся партия должна находиться в обычном инвентаре при получении награды и будет сдана целиком. Освободите достаточно места заранее, а строительный запас оставьте отдельно. Реальную трассу с остановками и проверочным рейсом можно сделать следующим самостоятельным проектом."
+      ],
+      "text_en": [
+        "A large railway starts with a track reserve, rather than a desperate attempt to stretch the last rail across a ravine. Prepare 2,048 ordinary Create train tracks: thirty-two stacks. Other rail variants, even those compatible with your trains, do not replace the specified item in this delivery.",
+        "Check the track recipe in JEI and establish production for its base and metal parts. Dedicate a container to the order, then choose a future route between your base, colony or mine. This objective does not measure route length or bridge supports.",
+        "The entire batch must be in your regular inventory when claiming and will be consumed. Clear enough space beforehand and keep construction supplies separate. An actual line with stations and a trial journey makes a useful follow-up project."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "create_trains/train"
+      ]
+    },
+    "end_monuments/vault_city": {
+      "text": [
+        "Шестнадцать накопителей по 64 000 предметов дают суммарную ёмкость 1 024 000 предметов. Речь идёт о количестве хранимых вещей, а не о миллионе отдельных типов. Для этой поставки нужны шестнадцать компонентов хранения 64k и шестнадцать пустых корпусов Refined Storage.",
+        "Собирайте компоненты по цепочке меньших ёмкостей; продвинутые процессоры понадобятся на её верхней ступени. Каждый компонент вместе с корпусом мог бы стать готовым диском, но здесь их следует оставить раздельными. Диски из работающей сети извлекать и сдавать не требуется.",
+        "Перенесите обе партии в обычный инвентарь и получите награду. Компоненты и корпуса будут израсходованы, а данные вашего хранилища останутся на его дисках. Награда возвращает четыре компонента 64k, с которых можно начать отдельное расширение действующей сети."
+      ],
+      "text_en": [
+        "Sixteen drives holding 64,000 items each provide a combined capacity of 1,024,000 items. This counts stored objects, not a million distinct types. This delivery requires sixteen 64k storage parts and sixteen empty Refined Storage housings.",
+        "Build the parts through the chain of smaller capacities; advanced processors are needed at its upper tier. Each part and housing could become a finished disk, but keep them separate for this order. You do not need to remove or surrender disks from a working network.",
+        "Move both batches into your regular inventory and claim the reward. The parts and housings will be consumed, while your storage data stays on its disks. The reward returns four 64k parts to begin a separate expansion of the live network."
+      ],
+      "task_notes": {},
+      "title": "Хранилище на миллион",
+      "title_en": "Storage for a Million Items",
+      "deps_override": [
+        "rs_network/drive"
+      ],
+      "tasks_override": [
+        {
+          "type": "item",
+          "id": "refinedstorage:64k_storage_part",
+          "count": 16,
+          "consume": true
+        },
+        {
+          "type": "item",
+          "id": "refinedstorage:storage_housing",
+          "count": 16,
+          "consume": true
+        }
+      ],
+      "rewards_override": {
+        "xp": 1500,
+        "items": [
+          {
+            "id": "refinedstorage:64k_storage_part",
+            "count": 4
+          }
+        ],
+        "text": []
+      }
+    },
+    "end_monuments/matrix": {
+      "text": [
+        "Индукционная матрица Mekanism разделяет две задачи: ячейки определяют запас энергии, а поставщики — скорость её передачи. Этот заказ собирает производственную партию из 54 индукционных корпусов и восьми предельных индукционных ячеек. Он не является полной схемой готовой матрицы.",
+        "Проверьте цепочку улучшения ячеек и подготовьте промежуточные уровни до запуска большого заказа. Для настоящей установки дополнительно нужны поставщики и порты; оболочка должна соответствовать правилам многоблочной конструкции Mekanism. Не разбирайте действующую батарею ради этой сдачи.",
+        "Все корпуса и ячейки должны находиться у вас при получении награды и будут израсходованы. Четыре предельных поставщика из награды пригодятся для отдельной матрицы. Перед подключением будущего аккумулятора проверьте направления портов и способность кабелей передавать нужную мощность."
+      ],
+      "text_en": [
+        "A Mekanism induction matrix separates two jobs: cells determine energy capacity, while providers determine transfer speed. This order gathers a production batch of 54 induction casings and eight ultimate induction cells. It is not a complete blueprint for a finished matrix.",
+        "Check the cell upgrade chain and prepare intermediate tiers before starting the large order. A real installation also needs providers and ports, with a shell following Mekanism's multiblock rules. Do not dismantle your operating battery for this delivery.",
+        "All casings and cells must be in your inventory when claiming and will be consumed. The four ultimate providers awarded here can serve a separate matrix. Before connecting that battery, check port directions and whether the cables support the intended transfer rate."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "mek_power/induction"
+      ]
+    },
+    "end_monuments/shipyard": {
+      "text": [
+        "Верфь получает смысл, когда вы уже собрали небольшой летательный аппарат и понимаете работу его управления. Подготовьте 256 единиц перламутрового левитита и 64 умных пропеллера Aeronautics. Количество в заказе не обещает подъёмную силу, достаточную для любой постройки: масса и устройство корабля всё равно имеют значение.",
+        "Разделите производство подъёмного материала и пропеллеров, проверьте доступные рецепты и обеспечьте их общие компоненты. Прежде чем строить огромный корпус, испытайте выбранную схему на компактном аппарате: запуск, остановку, поворот и возвращение к причалу.",
+        "Материалы этой карточки сдаются и исчезают при награде. Для самого корабля оставьте отдельный запас. Навигационные столы и гироскопические механизмы из награды помогут оснастить верфь, но не заменяют проверку собранного судна и правильную настройку его органов управления."
+      ],
+      "text_en": [
+        "A shipyard becomes useful once you have built a small aircraft and understand its controls. Prepare 256 pearlescent levitite and 64 Aeronautics smart propellers. The order's quantity does not promise enough lift for every possible build: mass and vessel design still matter.",
+        "Separate lift-material production from propeller production, inspect the available recipes and supply their shared components. Before building a huge hull, test the intended arrangement on a compact craft: starting, stopping, turning and returning to its berth.",
+        "This card consumes its materials when you claim. Keep a separate reserve for the vessel itself. The navigation tables and gyroscopic mechanisms awarded here can equip the shipyard, but they do not replace testing the assembled craft and configuring its controls correctly."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "aero_basics/airship",
+        "aero_basics/propeller"
+      ]
+    },
+    "end_monuments/fortress": {
+      "text": [
+        "Бастион начинается с исправного орудия и безопасного сектора стрельбы. Для промышленной поставки изготовьте восемь винтовых затворов из незерской стали Create: Big Cannons и 128 фугасных снарядов. Незерская сталь этого мода — отдельный материал; название не означает обычный незеритовый слиток.",
+        "Сначала завершите один затвор по его производственной цепочке, проверьте совместимость с выбранным стволом и лишь затем расширяйте выпуск. Снаряды храните отдельно от места испытаний. Готовый корпус снаряда и правильно подготовленный боеприпас для конкретного выстрела — разные этапы работы.",
+        "При получении награды вся указанная партия будет израсходована. Стволы, крепления, заряды и оборудование реальной батареи готовьте отдельно. После строительства проверьте наведение и стрельбу на пустой площадке: соседние станки и жилые здания не должны попадать в сектор огня."
+      ],
+      "text_en": [
+        "A bastion begins with a working gun and a safe firing sector. Manufacture eight Create: Big Cannons nethersteel screw breeches and 128 HE shells for this industrial delivery. Nethersteel is this mod's separate material; the name does not mean an ordinary netherite ingot.",
+        "Complete one breech through its production chain, check compatibility with the chosen barrel and only then expand output. Store shells away from the test area. A finished shell body and ammunition correctly prepared for a particular shot are different stages of the process.",
+        "Claiming consumes the entire specified batch. Prepare barrels, mounts, charges and equipment for the actual battery separately. After construction, test aiming and firing on an empty range: nearby machinery and housing must remain outside the firing sector."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "cbc_advanced/breech",
+        "cbc_advanced/shells"
+      ]
+    },
+    "end_monuments/cathedral": {
+      "text": [
+        "Резак архитектора Domum Ornamentum позволяет выбрать форму детали и сочетание материалов. Для этой поставки нужны 1024 фахверковые панели одного указанного семейства блоков, а не произвольная тысяча декоративных элементов. Выбранная отделка влияет на внешний вид будущего здания, поэтому сначала изготовьте небольшой образец.",
+        "Поставьте рядом несколько панелей, проверьте направление рисунка и сочетание с опорами. Когда вариант устроит вас, подготовьте материалы для большой партии в резаке. Не смешивайте фахверк с похожими по виду стенами другого мода: книга считает конкретный тип предмета.",
+        "Все 1024 панели будут израсходованы при получении награды. Для стен собора нужна отдельная строительная партия; саму архитектуру книга не оценивает автоматически. Сначала наметьте проходы, высоту перекрытий и места освещения, чтобы красивый фасад не сделал внутреннее пространство неудобным."
+      ],
+      "text_en": [
+        "Domum Ornamentum's architect's cutter lets you choose a part's shape and material combination. This delivery needs 1,024 timber-frame panels from the specified block family, rather than an arbitrary thousand decorative pieces. Your finish determines the building's appearance, so make a small sample first.",
+        "Place several panels together and check the pattern direction and its relationship to the supports. Once satisfied, prepare the cutter's materials for the large batch. Do not mix timber frames with similar-looking walls from another mod: the book counts a specific item type.",
+        "All 1,024 panels are consumed when claiming. The cathedral walls need separate construction stock; the book does not automatically assess architecture. Lay out passages, floor heights and lighting first so an attractive facade does not leave an awkward interior."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "spire",
+        "life_furniture/domum"
+      ]
+    },
+    "end_monuments/eternal_town": {
+      "text": [
+        "Предельные кирпичи связывают эту стройку с поздним маршрутом Eternal Tales. Вы уже встречали их при подготовке перехода в Ultimate World; теперь потребуется сдать 512 блоков, восемь полных стопок. Обычные кирпичи и другие материалы межпространственных порталов для этой цели не подходят.",
+        "Проверьте доступные источники именно The Ultimate Bricks: они встречаются в структуре предельного портала и среди трофеев Крабзиллы. Не разбирайте единственный действующий переход, пока не подготовили замену и путь возвращения. Отложите запас для путешествий прежде, чем собирать строительный заказ.",
+        "При награде кирпичи будут израсходованы. Отдельную партию можно превратить в площадь или мастерскую, посвящённую последнему миру; восстановление целого города не проверяется этой карточкой. Сначала определите назначение постройки и доступ к ней, затем выбирайте её размеры и декоративные материалы."
+      ],
+      "text_en": [
+        "The Ultimate Bricks connect this building project to the late Eternal Tales route. You encountered them while preparing access to Ultimate World; now turn in 512 blocks, eight full stacks. Ordinary bricks and other interdimensional portal materials do not satisfy this objective.",
+        "Check sources for The Ultimate Bricks specifically: they occur in the Ultimate Portal structure and among Crabzilla's drops. Do not dismantle your only functioning transition before preparing a replacement and a return route. Reserve travel supplies before collecting the construction order.",
+        "Claiming consumes the bricks. A separate batch can become a square or workshop dedicated to the final world; this card does not verify restoration of an entire town. Decide the building's purpose and access first, then choose its scale and decorative materials."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "et_ultimate/crystal_ult"
+      ]
+    },
+    "end_marathon/mech1024": {
+      "text": [
+        "Прецизионные механизмы Create получаются последовательной сборкой, а не обычным рецептом механических крафтеров. Для марафона нужны 1024 готовых механизма. Незавершённые детали и побочные результаты в этот запас не входят, поэтому выход линии должен отделять их от успешной продукции.",
+        "Проверьте рецепт последовательной сборки: золотая пластина проходит операции деплоеров с малой шестерёнкой, большой шестернёй и железным самородком в нескольких циклах. Обеспечьте возврат незавершённой детали на следующий цикл и отдельный выход готового результата. До массового запуска проследите путь одной заготовки целиком.",
+        "Накопите шестнадцать стопок готовых механизмов и перенесите их в обычный инвентарь. При награде они будут сданы, поэтому оставьте рабочий резерв для ремонта линии и других машин. Если производство остановилось, проверяйте ингредиенты каждого деплоера, путь возврата и свободное место на выходе."
+      ],
+      "text_en": [
+        "Create precision mechanisms come from sequenced assembly, not a normal mechanical-crafter recipe. The marathon needs 1,024 finished mechanisms. Incomplete parts and secondary outputs do not count toward that stock, so the line must separate them from successful products.",
+        "Inspect the sequenced assembly recipe: a golden sheet passes deployer operations using a cogwheel, large cogwheel and iron nugget across repeated cycles. Return incomplete parts for another cycle and route finished results to their own output. Follow one blank through the entire process before mass production.",
+        "Accumulate sixteen stacks of finished mechanisms and move them into your regular inventory. Claiming consumes them, so keep a working reserve for repairs and other machines. If production stops, inspect each deployer's ingredients, the return route and available output space."
+      ],
+      "task_notes": {}
+    },
+    "end_marathon/steel4096": {
+      "text": [
+        "Партия в 4096 стальных слитков больше обычного инвентаря, поэтому книга принимает тот же объём в упакованном виде: 455 стальных блоков Immersive Engineering и один стальной слиток этого мода. Девять слитков в каждом блоке дают 4095, последний слиток завершает заказ.",
+        "Начните с уже освоенной выплавки стали и проверьте непрерывное снабжение железом и подходящим углеродным материалом. Большая партия не требует единственного обязательного генератора или конкретной скорости печи. Удобнее упаковывать готовую сталь постепенно, оставляя отдельный резерв для ремонта и расширения производства.",
+        "Проверьте название получаемого блока: нужен именно стальной блок Immersive Engineering. Перенесите 455 блоков и один слиток в обычный инвентарь одновременно. При получении награды они будут израсходованы; частичной сдачи из удалённого хранилища это задание не выполняет."
+      ],
+      "text_en": [
+        "A batch of 4,096 steel ingots exceeds a regular inventory, so the book accepts the same amount in compact form: 455 Immersive Engineering steel blocks and one steel ingot from that mod. Nine ingots per block give 4,095; the final ingot completes the order.",
+        "Start with the steelmaking process you already know and check continuous supplies of iron and the appropriate carbon material. A large order does not require one particular generator or furnace speed. Compact finished steel gradually while keeping a separate reserve for repairs and expansion.",
+        "Check the resulting block's name: it must be the Immersive Engineering steel block. Move all 455 blocks and the ingot into your regular inventory together. Claiming consumes them; this quest does not perform partial deliveries from remote storage."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "ie_start/blast"
+      ],
+      "tasks_override": [
+        {
+          "type": "item",
+          "id": "immersiveengineering:storage_steel",
+          "count": 455,
+          "consume": true
+        },
+        {
+          "type": "item",
+          "id": "immersiveengineering:ingot_steel",
+          "count": 1,
+          "consume": true
+        }
+      ]
+    },
+    "end_marathon/circuits256": {
+      "text": [
+        "Предельные управляющие схемы Mekanism завершают цепочку улучшения управляющих компонентов. Для этой поставки нужны 256 готовых схем, четыре стопки. Атомный сплав и более ранние уровни схем участвуют в изготовлении, но сами по себе не заменяют конечный предмет.",
+        "Откройте цепочку рецептов от предельной схемы назад и обеспечьте выпуск промежуточных уровней. Особое внимание уделите сплавам: их обработка требует разных материалов обогащения. Перед большим заказом изготовьте одну схему и убедитесь, что автоматизация возвращает все результаты в доступное хранилище.",
+        "Сдаваемые четыре стопки должны находиться в обычном инвентаре и исчезнут при награде. Пятикратная переработка руды может помочь со снабжением, но не является обязательным условием рецепта. Масштабируйте тот участок, который действительно ограничивает вашу линию, и сохраните несколько схем для следующих машин."
+      ],
+      "text_en": [
+        "Mekanism ultimate control circuits finish the control-component upgrade chain. This delivery requires 256 finished circuits, four stacks. Atomic alloy and earlier circuit tiers are manufacturing inputs, but they do not replace the final item.",
+        "Work backward through the ultimate circuit's recipes and provide production for each intermediate tier. Pay particular attention to alloys: their processing needs different infusion materials. Make one circuit before the large order and verify that automation returns all results to accessible storage.",
+        "The four turn-in stacks must be in your regular inventory and disappear when claiming. Fivefold ore processing can help supplies, but it is not a mandatory recipe requirement. Expand the stage that actually limits your line and retain several circuits for subsequent machines."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "mek_start/alloys"
+      ]
+    },
+    "end_marathon/antimatter64": {
+      "text": [
+        "Антивещество завершает длинную цепочку Mekanism: ядерные отходы, полоний, SPS и перевод полученного вещества в гранулы. Для марафона нужны 64 готовые гранулы. Само наличие корпуса SPS или небольшого количества вещества внутри машины не завершает предметную цель.",
+        "Вернитесь к главе ядерной энергетики и проверьте устойчивый выпуск полония и подачу энергии в собранный SPS. Производительность зависит от снабжения и доступной мощности, поэтому фиксированного срока вроде недели здесь нет. Радиоактивные участки обслуживайте с подходящей защитой и предусмотренным хранением отходов.",
+        "Сначала получите одну гранулу и проследите всю цепочку, затем накапливайте полную стопку. При награде она будет израсходована. Оставьте отдельный запас для собственных рецептов, а если выпуск замер, проверяйте входное вещество, энергию и извлечение продукта до расширения реактора."
+      ],
+      "text_en": [
+        "Antimatter completes a long Mekanism chain: nuclear waste, polonium, the SPS and conversion of the resulting substance into pellets. The marathon needs 64 finished pellets. Owning an SPS casing or holding a little substance inside a machine does not complete the item objective.",
+        "Return to the nuclear-energy chapter and check stable polonium production and power delivery to the assembled SPS. Throughput depends on supplies and available energy, so there is no fixed promise such as one week. Service radioactive sections with suitable protection and planned waste storage.",
+        "Obtain one pellet and trace the full chain before accumulating a stack. Claiming consumes that stack. Retain a separate reserve for your own recipes, and if output stalls, check input substance, power and product extraction before expanding the reactor."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "circuits256",
+        "mek_nuclear/sps"
+      ]
+    },
+    "end_marathon/processors1024": {
+      "text": [
+        "Продвинутые процессоры Refined Storage нужны старшим компонентам хранения и оборудованию сети. Для этого заказа требуется 1024 готовых процессора. Необработанный продвинутый процессор — лишь промежуточная заготовка и не учитывается вместо результата плавки.",
+        "Рецепт заготовки соединяет связующий материал процессора, алмаз, кремний и красную пыль. После сборки заготовку нужно переплавить. В автокрафте это два отдельных этапа: изготовление и обработка в печи с возвращением готового процессора в сеть. Испытайте их небольшим заказом и проверьте запас топлива или энергии печи.",
+        "Когда накопятся шестнадцать стопок, перенесите их в обычный инвентарь для сдачи. Вся партия исчезнет при получении награды. Оставьте процессоры для обслуживания собственной сети; диски и автокрафтеры из награды расширят её, но не исправят отсутствующий рецепт или заблокированный выход печи."
+      ],
+      "text_en": [
+        "Refined Storage advanced processors support higher storage parts and network equipment. This order requires 1,024 finished processors. A raw advanced processor is only an intermediate blank and does not replace the smelted result.",
+        "The blank combines processor binding, a diamond, silicon and redstone dust. It then needs smelting. Autocrafting therefore has two separate stages: crafting and furnace processing with the finished processor returned to the network. Test both with a small order and check the furnace's fuel or energy supply.",
+        "Once sixteen stacks have accumulated, move them into your regular inventory for delivery. Claiming consumes the full batch. Keep processors for maintaining your own network; the awarded disks and autocrafters expand it but cannot fix a missing recipe or blocked furnace output."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "rs_network/silicon"
+      ]
+    },
+    "end_marathon/crystals9": {
+      "text": [
+        "Девять кристаллов собирают в одном заказе основные дальние маршруты Eternal Tales: Кометы, Чистилище, Эдем, Раяну, Карват, Волканех, Янтарное королевство, Унахзаал и Ultimate World. Здесь нужны сами предметы переходов, по одному каждого вида; посещения миров не заменяют эту поставку.",
+        "Изготавливайте запасные кристаллы по уже освоенным рецептам межпространственного создателя. Начните с поздних кристаллов и проверьте их компоненты: некоторые требуют кристаллы предыдущих миров. Сначала завершите вложенные рецепты, а затем восстановите отдельный экземпляр каждого из девяти результатов для сдачи.",
+        "При награде все девять предметов исчезнут. До этого сохраните действующие порталы, материалы их восстановления и независимый путь домой. Возвратные билеты из награды помогают путешествовать, но не заменяют подготовленную сеть переходов и не превращают потерянные кристаллы в бесконечный запас."
+      ],
+      "text_en": [
+        "Nine crystals gather the main distant Eternal Tales routes into one order: Comets, Purgatorium, Eden, Rayana, Karvat, Volcanech, the Kingdom of Amber, Unahzaal and Ultimate World. The transition items themselves are required, one of each; visiting the worlds does not replace this delivery.",
+        "Craft spare crystals using the Interdimensional Creator recipes you have already learned. Start with later crystals and inspect their inputs: some consume crystals from earlier worlds. Complete these nested recipes first, then restore a separate copy of each of the nine results for delivery.",
+        "Claiming removes all nine items. Preserve functioning portals, rebuilding materials and an independent route home beforehand. Return Tickets awarded here help with travel but do not replace a prepared transition network or make the surrendered crystals an unlimited reserve."
+      ],
+      "task_notes": {},
+      "deps_override": [
+        "et_ultimate/enter_ult"
+      ]
+    },
+    "end_apotheosis/darkness_unahzaal": {
+      "text": [
+        "Эта вершина требует трёх побед в Eternal Tales: Ноксифера, Люцидена и последней фазы Унахзаала при специальных условиях. Предыдущие главы уже объясняют призыв и подготовку; здесь книга собирает достижения в одну итоговую отметку, не расходуя ваши трофеи.",
+        "Для Ноксифера нужна Вечная Тьма и человечность не выше −10000, для Люцидена — тот же режим и значение не ниже +10000. Подготовьте эти испытания последовательно: одна настройка человечности не подходит обоим. До каждого призыва проверяйте показатель и запас лечения на отдельной арене.",
+        "Для последней фазы Унахзаала нужны Вечная Тьма, надетое кольцо бедствия и человечность не выше −5000. Super Duper Darkness для этой победы не требуется. Проверяйте именно достижение особой победы: кольцо в инвентаре или обычная победа над боссом его не заменяют."
+      ],
+      "text_en": [
+        "This summit requires three Eternal Tales victories: Noxifer, Luciden and Unahzaal's final phase under special conditions. Earlier chapters explain summoning and preparation; here the book combines their advancements into a final milestone without consuming trophies.",
+        "Noxifer requires Eternal Darkness and Humanity no higher than −10000; Luciden requires the same mode and a value no lower than +10000. Prepare these trials sequentially: one Humanity setting cannot suit both. Check the value and healing supplies on a separate arena before each summon.",
+        "Unahzaal's final phase requires Eternal Darkness, an equipped Calamity Ring and Humanity no higher than −5000. Super Duper Darkness is not required for that victory. Check the special victory advancement itself: a ring in your inventory or an ordinary boss victory does not replace it."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Победить последнюю фазу Унахзаала во Вечной Тьме с надетым кольцом бедствия и человечностью ≤−5000",
+          "en": "Defeat Unahzaal’s final phase in Eternal Darkness with Calamity Ring equipped and Humanity ≤−5000"
+        },
+        "1": {
+          "ru": "Победить Ноксифера и подобрать его знамя",
+          "en": "Defeat Noxifer and collect his banner"
+        },
+        "2": {
+          "ru": "Победить Люцидена и подобрать его знамя",
+          "en": "Defeat Luciden and collect his banner"
+        }
+      },
+      "deps_override": [
+        "et_darkness/nox_luc",
+        "et_unahzaal/unahzaal"
+      ]
+    },
+    "end_apotheosis/arkemer": {
+      "text": [
+        "Наследие Аркемеров объединяет четыре поздних достижения: получение стабилизированной миниатюрной чёрной дыры, изучение Порядка Вселенной, получение Первой Призмы и предмета «Совершеннейший». Это итог технологической и исследовательской ветви Eternal Tales, а не требование собрать четыре случайных трофея одновременно.",
+        "Начните с рецептов эфириевой кузницы и проверьте доступ к их редким компонентам. Стабилизированная миниатюрная чёрная дыра — призывающее оружие; для применения нужен соответствующий уровень убийства. Её получение не означает, что можно без подготовки взаимодействовать с опасными чёрными дырами мира.",
+        "Порядок Вселенной требует отдельного действия: примените его страницу к доске объявлений. Остальные отметки связаны с получением указанных предметов. Просмотрите четыре цели по отдельности и завершите недостающий этап; сдавать артефакты ради награды здесь не нужно, а уже полученные достижения сохраняются."
+      ],
+      "text_en": [
+        "The Arkemer legacy combines four late advancements: obtaining a Stabilized Miniature Black Hole, learning Order of the Universe, obtaining The First Prism and obtaining The Ultimate Two. It concludes Eternal Tales technology and research rather than requiring four random trophies at the same moment.",
+        "Begin with Aetherium Forge recipes and check access to their rare inputs. The Stabilized Miniature Black Hole is a summoning weapon with a Slaying-level requirement for use. Obtaining it does not mean dangerous world black holes are safe to approach without preparation.",
+        "Order of the Universe needs a separate action: apply its page to a Notice Board. The remaining marks concern obtaining their named items. Review all four objectives individually and finish the missing stage; the artifacts are not surrendered for the reward, and existing advancements remain recorded."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Получить стабилизированную миниатюрную чёрную дыру",
+          "en": "Obtain a Stabilized Miniature Black Hole"
+        },
+        "1": {
+          "ru": "Изучить Порядок Вселенной через доску объявлений",
+          "en": "Learn Order of the Universe through a Notice Board"
+        },
+        "2": {
+          "ru": "Получить Первую Призму",
+          "en": "Obtain The First Prism"
+        },
+        "3": {
+          "ru": "Получить предмет «Совершеннейший»",
+          "en": "Obtain The Ultimate Two"
+        }
+      },
+      "deps_override": [
+        "et_ultimate/blackhole",
+        "et_ultimate/ultimate_items"
+      ]
+    },
+    "end_apotheosis/seven": {
+      "text": [
+        "Семь вершин соединяют результаты разных направлений: четыре фабричных указателя Create, работающий экскаватор Immersive Engineering, восемь гранул антивещества, шестнадцать дисков 64k, ратушу пятого уровня, Светоч углей и посещение Ultimate World. Ни один из этих ресурсов книга здесь не расходует.",
+        "Предметные цели запоминают уже замеченный запас каждого вида. Можно показать указатели, затем установить их; диски также разрешено вернуть в сеть после отметки. Шестнадцать дисков нужно хотя бы раз иметь вместе, но одновременно держать все разные предметы задания не требуется.",
+        "Экскаватор подтвердите вручную только после добычи руды из обследованного месторождения и её вывода в накопитель: отдельного доступного предмета «готовый экскаватор» нет. Ратуша проверяется достижением строительства пятого уровня, а последний мир — посещением. Если одна отметка не готова, вернитесь к соответствующей карте и проверьте именно её условие."
+      ],
+      "text_en": [
+        "Seven peaks join results from different paths: four Create factory gauges, a working Immersive Engineering excavator, eight antimatter pellets, sixteen 64k disks, a level-five Town Hall, the Lamp of Cinders and a visit to Ultimate World. The book consumes none of these resources here.",
+        "Item objectives remember previously observed stock of each type. You may show gauges and then install them; disks can likewise return to the network after registration. You must hold sixteen disks together at least once, but all the different item types need not be present simultaneously.",
+        "Confirm the excavator manually only after it extracts ore from a surveyed deposit into storage: there is no obtainable standalone finished-excavator item. The Town Hall uses its level-five construction advancement, and the final world uses a visit. If one mark is missing, return to that map and inspect its precise condition."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Запустить собранный экскаватор на обследованном месторождении и получить руду в накопитель",
+          "en": "Run an assembled excavator on a surveyed deposit and collect ore in storage"
+        },
+        "4": {
+          "ru": "Построить ратушу MineColonies пятого уровня",
+          "en": "Build a level-five MineColonies Town Hall"
+        },
+        "6": {
+          "ru": "Посетить Ultimate World",
+          "en": "Visit Ultimate World"
+        }
+      },
+      "tasks_override": [
+        {
+          "type": "item",
+          "id": "create:factory_gauge",
+          "count": 4
+        },
+        {
+          "type": "check"
+        },
+        {
+          "type": "item",
+          "id": "mekanism:pellet_antimatter",
+          "count": 8
+        },
+        {
+          "type": "item",
+          "id": "refinedstorage:64k_storage_disk",
+          "count": 16
+        },
+        {
+          "type": "advancement",
+          "id": "minecolonies:minecolonies/build_town_hall_5"
+        },
+        {
+          "type": "item",
+          "id": "twilightforest:lamp_of_cinders",
+          "count": 1
+        },
+        {
+          "type": "dimension",
+          "id": "eternal_tales:ultimate_world"
+        }
+      ],
+      "deps_override": [
+        "mek_nuclear/sps",
+        "rs_network/drive",
+        "ie_machines/excavator",
+        "et_ultimate/enter_ult"
+      ]
+    },
+    "end_apotheosis/codex": {
+      "text": [
+        "Последняя печать этой цепочки открывается после трёх испытаний: побед Вечной Тьмы, наследия Аркемеров и семи вершин сборки. Подготовьте одну звезду Нижнего мира. Это настоящий предмет, получаемый после победы над Иссушителем, а не декоративный звёздный осколок другого мода.",
+        "Перенесите звезду в обычный инвентарь и убедитесь, что все три предшествующие карточки завершены. При получении награды звезда будет израсходована. Уже выданная награда предыдущего задания тоже подходит, поэтому новый бой нужен только в том случае, если подходящего предмета у вас не осталось.",
+        "Эта отметка завершает апофеоз, но не закрывает пропущенные задания других карт. Посмотрите общий прогресс и выберите оставшийся проект: железную дорогу, поселение, экспедицию или собственную постройку. Книга сохраняет пройденный путь, а устройство мира после финала по-прежнему остаётся вашим решением."
+      ],
+      "text_en": [
+        "The final seal of this chain opens after three trials: Eternal Darkness victories, the Arkemer legacy and the pack's seven peaks. Prepare one Nether Star. This is the actual item obtained from defeating the Wither, not another mod's decorative star fragment.",
+        "Move the star into your regular inventory and confirm that all three preceding cards are complete. Claiming consumes the star. A reward from an earlier quest also qualifies, so another fight is needed only if you no longer have a suitable item.",
+        "This mark completes Apotheosis but does not finish skipped quests on other maps. Check overall progress and choose a remaining project: a railway, settlement, expedition or a building of your own. The book preserves your journey, while the world's future arrangement remains your decision."
+      ],
+      "task_notes": {},
+      "rewards_override": {
+        "items": [
+          {
+            "id": "minecraft:dragon_egg",
+            "count": 1
+          },
+          {
+            "id": "minecraft:elytra",
+            "count": 1
+          },
+          {
+            "id": "minecraft:nether_star",
+            "count": 16
+          }
+        ],
+        "xp": 20000,
+        "text": []
+      }
+    },
+    "end_monuments/guide_spire_access": {
+      "text": [
+        "Высокий каркас полезен только тогда, когда до его рабочих площадок можно добраться с инструментами и грузом. После балочной поставки выберите небольшую часть будущего шпиля и постройте две площадки на разных уровнях, соединённые безопасным проходом. Материалы для них потребуются отдельно от уже сданного заказа.",
+        "Разместите на верхнем уровне накопитель для расходников и предусмотрите ограждение открытых краёв. Пройдите снизу вверх и обратно в обычном режиме передвижения, без творческого полёта и временных столбов под ногами. Проверьте, что двери и повороты не перекрывают путь к рабочему месту.",
+        "Подтверждайте проект вручную после полного прохода с грузом и возвращения к выходу. Высота не является целью: важно получить обслуживаемую конструкцию. Этот небольшой участок станет проверенным образцом для остальных этажей, прежде чем башня вырастет настолько, что исправлять каждый проход будет неудобно."
+      ],
+      "text_en": [
+        "A tall frame is useful only if you can reach its work platforms with tools and cargo. After the girder delivery, choose a small section of the future spire and build two platforms at different levels connected by a safe passage. Their materials must be separate from the surrendered order.",
+        "Put a supply container upstairs and guard exposed edges. Travel from bottom to top and back using ordinary movement, without creative flight or temporary pillar jumping. Check that doors and turns leave access to the workstation clear.",
+        "Confirm manually after carrying cargo through the full route and returning to the exit. Height is not the objective: serviceable construction is. This small section becomes a tested pattern for the remaining floors before the tower grows too large for convenient passage repairs."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Построить две рабочие площадки с ограждением, пройти между ними с грузом и вернуться к выходу",
+          "en": "Build two guarded work platforms, carry cargo between them and return to the exit"
+        }
+      }
+    },
+    "end_monuments/guide_rail_connection": {
+      "text": [
+        "Железная дорога связывает производство, когда по ней действительно приходит нужный груз. Выберите два существующих района: например, склад и мастерскую или шахту и базу. Проложите между ними отдельный рабочий путь и подготовьте состав, способный пройти весь маршрут; рельсы из сданной партии для строительства уже недоступны.",
+        "Установите станции и дайте им различимые названия. Погрузите один выбранный материал в вагонный накопитель, выполните рейс к получателю и разгрузите его. На первом испытании допустимо управлять поездом и переносить груз вручную: сначала проверяется пригодность самой трассы.",
+        "Верните состав к исходной станции и подтвердите проект только после полного оборота. Проверьте проходы у платформ, запас свободного места для вагона и участки, где поезд может остановиться. Автоматическое расписание удобнее добавлять к уже испытанному маршруту, а не использовать его для поиска ошибок пути."
+      ],
+      "text_en": [
+        "A railway connects production when useful cargo actually arrives on it. Choose two existing districts, such as a store and workshop or a mine and base. Build a separate working line and prepare a train capable of traversing it; tracks from the surrendered batch are no longer available for construction.",
+        "Install stations with distinguishable names. Load one chosen material into onboard storage, travel to the destination and unload it. Manual driving and cargo transfer are acceptable for the first trial: this checks whether the route itself works.",
+        "Return the train to its starting station and confirm only after the complete round trip. Check platform access, wagon clearance and sections where the train might stop. Automatic schedules are easier to add to a proven route than to use as a way of discovering track faults."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Доставить материал поездом между двумя станциями, разгрузить его и вернуть состав",
+          "en": "Deliver material by train between two stations, unload it and return the train"
+        }
+      }
+    },
+    "end_monuments/guide_matrix_outage": {
+      "text": [
+        "Ёмкость аккумулятора важна только вместе с ответом на вопрос, какую нагрузку он способен поддерживать. Соберите отдельную рабочую индукционную матрицу и подключите к ней небольшую мастерскую, не связанную с охлаждением реактора или другими чувствительными системами. Для испытания достаточно обычных перерабатывающих машин.",
+        "Дождитесь заметного запаса энергии, затем отключите только внешний источник питания этой мастерской. Оставьте её кабели и выход матрицы подключёнными. Запустите короткий заказ и проследите, что машины продолжают работать, а запас энергии в матрице уменьшается: это показывает реальную передачу накопленной энергии.",
+        "Верните генерацию и убедитесь, что заряд снова растёт. Подтвердите проверку вручную после обоих наблюдений. Если энергия остаётся внутри, проверьте режим выходного порта, предел передачи поставщиков и соединение кабеля; увеличение числа ячеек само по себе не исправляет неправильное подключение."
+      ],
+      "text_en": [
+        "Battery capacity matters alongside the load it can support. Assemble a separate working induction matrix and connect a small workshop unrelated to reactor cooling or other sensitive systems. Ordinary processing machines are enough for the test.",
+        "Wait for a visible energy reserve, then disconnect only that workshop's external power source. Leave its cables and the matrix output connected. Start a short order and observe machines continuing to operate while stored energy decreases: this demonstrates actual delivery of the reserve.",
+        "Restore generation and confirm that charge rises again. Mark the check manually after both observations. If energy stays inside, inspect the output port mode, provider transfer limit and cable connection; adding cells alone does not repair incorrect wiring."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Питать небольшой заказ от матрицы без генератора, затем восстановить генерацию и проверить заряд",
+          "en": "Run a small order from the matrix without a generator, then restore generation and verify charging"
+        }
+      }
+    },
+    "end_marathon/guide_mechanism_sorting": {
+      "text": [
+        "После большого выпуска механизмов стоит проверить, не прячет ли линия ошибки в общем ящике. Подготовьте небольшую отдельную партию золотых пластин и проследите последовательную сборку без вмешательства в предметы между операциями. Производственную поставку повторять для этой проверки не требуется.",
+        "Настройте выход так, чтобы незавершённые механизмы возвращались на обработку, готовые уходили в свой накопитель, а побочные результаты не забивали возврат. Используйте фильтры доступных в вашей линии воронок или сортировки. Смотрите именно на тип предмета: внешне похожая промежуточная деталь ещё не является готовым механизмом.",
+        "Дождитесь окончания пробной партии и осмотрите все выходы. В накопителе готовой продукции должны лежать готовые механизмы, а на ленте не должно оставаться бесконечно циркулирующей завершённой детали. Подтверждайте вручную после проверки разделения; число успешных результатов партии не обязано совпасть с числом исходных пластин."
+      ],
+      "text_en": [
+        "After a large mechanism run, check whether the line hides mistakes in a shared chest. Prepare a small separate batch of golden sheets and follow sequenced assembly without moving items between operations by hand. You do not need to repeat the production delivery for this check.",
+        "Arrange outputs so incomplete mechanisms return for processing, finished ones reach dedicated storage and secondary results do not block the return. Use filters on funnels or sorting equipment available in your line. Inspect item type: a similar-looking intermediate part is not yet a finished mechanism.",
+        "Wait for the trial batch to finish and inspect all outputs. Finished-product storage should contain finished mechanisms, with no completed item circulating forever on the belt. Confirm separation manually; successful output count need not equal the number of initial sheets."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Проверить на пробной партии возврат заготовок и отдельные выходы готовых механизмов и побочных результатов",
+          "en": "Test blank recirculation and separate finished-mechanism and secondary outputs on a trial batch"
+        }
+      }
+    },
+    "end_marathon/guide_processor_queue": {
+      "text": [
+        "Процессорная линия становится полезной сетью автокрафта, когда заказ не теряется между изготовлением заготовки и плавкой. Для проверки подготовьте рецепты необработанного и готового продвинутого процессора. Последний должен быть оформлен как обработка с правильным входом и выходом, а не как обычная сборка в сетке.",
+        "Закажите восемь готовых процессоров при наличии исходных ингредиентов, но без запаса самих готовых процессоров в доступном хранилище. Следите за монитором автокрафта: заготовки должны попасть в печь, переплавиться и вернуться туда, где сеть распознает результат. На время опыта отделите уже имевшийся запас, не удаляя его.",
+        "Подтверждайте вручную, когда заказ завершился и восемь новых процессоров доступны в сетке. Если монитор продолжает ждать, проверьте фактический выход печи и указанный результат рецепта. Эта проверка оценивает весь путь заказа, поэтому простое ручное добавление восьми готовых предметов вместо обработки не подходит."
+      ],
+      "text_en": [
+        "A processor line becomes useful network automation when an order survives the gap between blank crafting and smelting. Prepare recipes for both raw and finished advanced processors. The latter must be a processing pattern with the correct input and output, rather than an ordinary grid recipe.",
+        "Request eight finished processors with raw ingredients available but no finished-processor stock in accessible storage. Watch the crafting monitor: blanks should enter the furnace, smelt and return where the network recognizes the result. Temporarily separate existing finished stock without deleting it.",
+        "Confirm manually when the order finishes and eight newly made processors are available in the grid. If the monitor keeps waiting, inspect the furnace's actual output and the pattern's declared result. This tests the entire order path, so manually inserting eight finished items instead of processing does not qualify."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Выполнить сетевой заказ восьми новых продвинутых процессоров через изготовление заготовок и плавку",
+          "en": "Complete a network order for eight new advanced processors through blank crafting and smelting"
+        }
+      }
+    },
+    "end_marathon/guide_crystal_reserve": {
+      "text": [
+        "Поставка девяти кристаллов не должна оставлять путешественника отрезанным от освоенных миров. Выберите один поздний маршрут, которым действительно пользуетесь, и проверьте его после сдачи. Не начинайте с разрушения портала: задача состоит в сохранении удобного сообщения, а не в повторной добыче потерянных компонентов.",
+        "Подготовьте средство возвращения, оставьте у домашнего входа небольшой запас еды и запишите местоположение перехода. Пройдите выбранным путём, найдите точку прибытия на другой стороне и убедитесь, что понимаете, как вернуться. При использовании билета заранее прочитайте его условия, а не рассчитывайте на название предмета.",
+        "Вернитесь на базу и подтвердите проверку вручную. Критерий — законченный путь туда и обратно после производственной поставки, без потери единственного доступа. Такой осмотр обнаруживает неудобный выход или забытые припасы раньше, чем следующая большая экспедиция унесёт вас далеко от знакомого маршрута."
+      ],
+      "text_en": [
+        "Delivering nine crystals should not cut a traveller off from explored worlds. Choose one late route you actually use and check it after the delivery. Do not begin by destroying a portal: the objective is to preserve convenient travel, not to reacquire lost components.",
+        "Prepare a return method, leave a small food reserve at the home entrance and record the transition's location. Follow the chosen route, identify the arrival point on the other side and make sure you understand the return. If using a ticket, read its conditions beforehand instead of relying on its name.",
+        "Return to base and confirm manually. The criterion is a completed outward and return trip after the production delivery without losing your only access. This inspection reveals an awkward exit or forgotten supplies before the next major expedition takes you far from familiar routes."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Пройти один поздний маршрут Eternal Tales туда и обратно после сдачи кристаллов, сохранив доступ",
+          "en": "Complete a late Eternal Tales round trip after the crystal delivery while preserving access"
+        }
+      }
+    },
+    "end_apotheosis/guide_arkemer_archive": {
+      "text": [
+        "Поздние рецепты Eternal Tales легко забыть, когда все редкие предметы уже лежат в одном сундуке. Сделайте небольшой игровой архив трёх освоенных результатов: стабилизированной миниатюрной чёрной дыры, Первой Призмы и изученного Порядка Вселенной. Для архива достаточно подписанных мест и книги с собственными заметками.",
+        "Запишите, где выполнялся каждый этап, какие ключевые компоненты было труднее получить и какое действие действительно завершало его достижение. Для Порядка Вселенной отметьте применение страницы к доске объявлений. Не расходуйте ценные артефакты ради оформления: записи и понятные подписи уже позволяют восстановить путь.",
+        "Подтвердите вручную, когда по вашим заметкам можно назвать мастерскую, подготовку и завершающее действие для всех трёх результатов. Это не дополнительная сдача предметов и не проверка красивого фасада. Архив пригодится после перерыва в игре или при знакомстве другого игрока с вашей базой."
+      ],
+      "text_en": [
+        "Late Eternal Tales recipes are easy to forget once every rare item sits in one chest. Make a small in-game archive of three completed results: the Stabilized Miniature Black Hole, The First Prism and learned Order of the Universe. Labelled locations and a book of your own notes are enough.",
+        "Record where each stage took place, which key inputs were hardest to obtain and which action actually completed its advancement. For Order of the Universe, note applying the page to a Notice Board. Do not consume valuable artifacts for decoration: records and clear labels already preserve the route.",
+        "Confirm manually when the notes identify the workshop, preparation and finishing action for all three results. This is neither another item delivery nor a check of an attractive facade. The archive helps after a break from playing or when introducing another player to your base."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Составить игровой архив с местом, подготовкой и завершающим действием для трёх аркемерских результатов",
+          "en": "Create an in-game archive recording location, preparation and finishing action for three Arkemer results"
+        }
+      }
+    },
+    "end_apotheosis/guide_world_tour": {
+      "text": [
+        "После финальной печати соберите короткий маршрут по собственному миру. Выберите три места, в которых виден результат разных ветвей: например, производственный цех, жилой район и выход к дальнему измерению. Это должен быть путь между реальными рабочими объектами, а не список будущих обещаний.",
+        "Пройдите маршрут от базы, проверьте доступ к каждому месту и оставьте понятные подписи на развилках. У производства посмотрите, куда приходит готовый продукт; в жилом районе найдите используемое помещение; у перехода убедитесь в возможности вернуться. Исправьте хотя бы одну обнаруженную неудобную мелочь, если она мешает проходу.",
+        "Завершите круг возвращением на базу и подтвердите проект вручную. Книга не считает расстояние и не оценивает красоту построек, поэтому важны три работающих объекта и связный маршрут. Такой обход показывает, как отдельные достижения сложились в пригодный для жизни и дальнейших проектов мир."
+      ],
+      "text_en": [
+        "After the final seal, assemble a short tour of your own world. Choose three places showing different branches' results, such as a production workshop, a residential district and access to a distant dimension. This should connect real working locations, not list future promises.",
+        "Walk the route from base, check access to every place and leave clear labels at junctions. At production, identify where finished products arrive; in the residential district, find a used room; at the transition, verify a return route. Fix any small obstacle that actually prevents passage.",
+        "Complete the circuit by returning to base and confirm manually. The book neither measures distance nor judges building beauty, so the criteria are three functioning locations and one connected route. This tour reveals how separate milestones became a usable world for everyday life and further projects."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Посетить три работающих объекта разных направлений по подписанному маршруту и вернуться на базу",
+          "en": "Visit three working locations from different branches along a labelled route and return to base"
+        }
+      }
+    }
+  },
+  "additions": [
+    {
+      "chapter": "end_monuments",
+      "id": "guide_spire_access",
+      "title": "Башня, в которой удобно работать",
+      "title_en": "A Tower That Works",
+      "icon": "create:metal_girder",
+      "deps": [
+        "spire"
+      ],
+      "tasks": [
+        {
+          "type": "check"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 80,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "end_monuments",
+      "id": "guide_rail_connection",
+      "title": "Грузовой рейс между районами",
+      "title_en": "A Freight Run Between Districts",
+      "icon": "create:track_station",
+      "deps": [
+        "bridge"
+      ],
+      "tasks": [
+        {
+          "type": "check"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 80,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "end_monuments",
+      "id": "guide_matrix_outage",
+      "title": "Запас на время остановки",
+      "title_en": "A Reserve for an Outage",
+      "icon": "mekanism:induction_port",
+      "deps": [
+        "matrix"
+      ],
+      "tasks": [
+        {
+          "type": "check"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 80,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "end_marathon",
+      "id": "guide_mechanism_sorting",
+      "title": "Отделить результат от заготовки",
+      "title_en": "Separate Results from Blanks",
+      "icon": "create:brass_funnel",
+      "deps": [
+        "mech1024"
+      ],
+      "tasks": [
+        {
+          "type": "check"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 80,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "end_marathon",
+      "id": "guide_processor_queue",
+      "title": "Заказ проходит через печь",
+      "title_en": "An Order Through the Furnace",
+      "icon": "refinedstorage:pattern",
+      "deps": [
+        "processors1024"
+      ],
+      "tasks": [
+        {
+          "type": "check"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 80,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "end_marathon",
+      "id": "guide_crystal_reserve",
+      "title": "Дорога после сдачи",
+      "title_en": "Travel After the Delivery",
+      "icon": "eternal_tales:return_ticket",
+      "deps": [
+        "crystals9"
+      ],
+      "tasks": [
+        {
+          "type": "check"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 80,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "end_apotheosis",
+      "id": "guide_arkemer_archive",
+      "title": "Архив последних открытий",
+      "title_en": "An Archive of Final Discoveries",
+      "icon": "minecraft:writable_book",
+      "deps": [
+        "arkemer"
+      ],
+      "tasks": [
+        {
+          "type": "check"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 80,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "end_apotheosis",
+      "id": "guide_world_tour",
+      "title": "Мир, который вы построили",
+      "title_en": "The World You Built",
+      "icon": "minecraft:compass",
+      "deps": [
+        "codex"
+      ],
+      "tasks": [
+        {
+          "type": "check"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 80,
+        "items": [],
+        "text": []
+      }
+    }
+  ]
+}

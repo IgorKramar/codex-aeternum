@@ -8,8 +8,7 @@
   "subtitle": "codex.chapter.magic_botania.subtitle",
   "intro": [
    "codex.chapter.magic_botania.intro.0",
-   "codex.chapter.magic_botania.intro.1",
-   "codex.chapter.magic_botania.intro.2"
+   "codex.chapter.magic_botania.intro.1"
   ],
   "quests": [
    {
@@ -17,10 +16,11 @@
     "title": "codex.quest.magic_botania.flowers.title",
     "icon": "botania:white_mystical_flower",
     "x": 0,
-    "y": 0,
+    "y": 1,
     "text": [
      "codex.quest.magic_botania.flowers.text.0",
-     "codex.quest.magic_botania.flowers.text.1"
+     "codex.quest.magic_botania.flowers.text.1",
+     "codex.quest.magic_botania.flowers.text.2"
     ],
     "tasks": [
      {
@@ -30,7 +30,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/flower_pickup"
+      "id": "botania:main/flower_pickup",
+      "note": "codex.quest.magic_botania.flowers.task.1"
      },
      {
       "type": "item",
@@ -47,17 +48,21 @@
      ],
      "xp": 40,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "lexicon",
     "title": "codex.quest.magic_botania.lexicon.title",
     "icon": "botania:lexicon",
-    "x": 0,
+    "x": 2,
     "y": 1,
     "text": [
      "codex.quest.magic_botania.lexicon.text.0",
-     "codex.quest.magic_botania.lexicon.text.1"
+     "codex.quest.magic_botania.lexicon.text.1",
+     "codex.quest.magic_botania.lexicon.text.2"
     ],
     "tasks": [
      {
@@ -67,7 +72,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/lexicon_use"
+      "id": "botania:main/lexicon_use",
+      "note": "codex.quest.magic_botania.lexicon.task.1"
      }
     ],
     "rewards": {
@@ -88,11 +94,12 @@
     "id": "apothecary",
     "title": "codex.quest.magic_botania.apothecary.title",
     "icon": "botania:apothecary_default",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 1,
     "text": [
      "codex.quest.magic_botania.apothecary.text.0",
-     "codex.quest.magic_botania.apothecary.text.1"
+     "codex.quest.magic_botania.apothecary.text.1",
+     "codex.quest.magic_botania.apothecary.text.2"
     ],
     "tasks": [
      {
@@ -119,11 +126,12 @@
     "id": "wand",
     "title": "codex.quest.magic_botania.wand.title",
     "icon": "botania:twig_wand",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 1,
     "text": [
      "codex.quest.magic_botania.wand.text.0",
-     "codex.quest.magic_botania.wand.text.1"
+     "codex.quest.magic_botania.wand.text.1",
+     "codex.quest.magic_botania.wand.text.2"
     ],
     "tasks": [
      {
@@ -150,11 +158,12 @@
     "id": "daisy",
     "title": "codex.quest.magic_botania.daisy.title",
     "icon": "botania:pure_daisy",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 0,
     "text": [
      "codex.quest.magic_botania.daisy.text.0",
-     "codex.quest.magic_botania.daisy.text.1"
+     "codex.quest.magic_botania.daisy.text.1",
+     "codex.quest.magic_botania.daisy.text.2"
     ],
     "tasks": [
      {
@@ -195,11 +204,12 @@
     "id": "pool",
     "title": "codex.quest.magic_botania.pool.title",
     "icon": "botania:mana_pool",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 0,
     "text": [
      "codex.quest.magic_botania.pool.text.0",
-     "codex.quest.magic_botania.pool.text.1"
+     "codex.quest.magic_botania.pool.text.1",
+     "codex.quest.magic_botania.pool.text.2"
     ],
     "tasks": [
      {
@@ -209,7 +219,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/mana_pool_pickup"
+      "id": "botania:main/mana_pool_pickup",
+      "note": "codex.quest.magic_botania.pool.task.1"
      }
     ],
     "rewards": {
@@ -230,11 +241,12 @@
     "id": "spreader",
     "title": "codex.quest.magic_botania.spreader.title",
     "icon": "botania:mana_spreader",
-    "x": 0,
-    "y": 6,
+    "x": 12,
+    "y": 1,
     "text": [
      "codex.quest.magic_botania.spreader.text.0",
-     "codex.quest.magic_botania.spreader.text.1"
+     "codex.quest.magic_botania.spreader.text.1",
+     "codex.quest.magic_botania.spreader.text.2"
     ],
     "tasks": [
      {
@@ -261,11 +273,12 @@
     "id": "endoflame",
     "title": "codex.quest.magic_botania.endoflame.title",
     "icon": "botania:endoflame",
-    "x": 0,
-    "y": 7,
+    "x": 14,
+    "y": 2,
     "text": [
      "codex.quest.magic_botania.endoflame.text.0",
-     "codex.quest.magic_botania.endoflame.text.1"
+     "codex.quest.magic_botania.endoflame.text.1",
+     "codex.quest.magic_botania.endoflame.text.2"
     ],
     "tasks": [
      {
@@ -275,7 +288,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/generating_flower"
+      "id": "botania:main/generating_flower",
+      "note": "codex.quest.magic_botania.endoflame.task.1"
      }
     ],
     "rewards": {
@@ -300,11 +314,12 @@
     "id": "manasteel",
     "title": "codex.quest.magic_botania.manasteel.title",
     "icon": "botania:manasteel_ingot",
-    "x": 0,
-    "y": 8,
+    "x": 16,
+    "y": 2,
     "text": [
      "codex.quest.magic_botania.manasteel.text.0",
-     "codex.quest.magic_botania.manasteel.text.1"
+     "codex.quest.magic_botania.manasteel.text.1",
+     "codex.quest.magic_botania.manasteel.text.2"
     ],
     "tasks": [
      {
@@ -341,11 +356,12 @@
     "id": "spark",
     "title": "codex.quest.magic_botania.spark.title",
     "icon": "botania:spark",
-    "x": 0,
-    "y": 9,
+    "x": 18,
+    "y": 1,
     "text": [
      "codex.quest.magic_botania.spark.text.0",
-     "codex.quest.magic_botania.spark.text.1"
+     "codex.quest.magic_botania.spark.text.1",
+     "codex.quest.magic_botania.spark.text.2"
     ],
     "tasks": [
      {
@@ -355,7 +371,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/spark_craft"
+      "id": "botania:main/spark_craft",
+      "note": "codex.quest.magic_botania.spark.task.1"
      }
     ],
     "rewards": {
@@ -376,14 +393,15 @@
     "id": "tablet",
     "title": "codex.quest.magic_botania.tablet.title",
     "icon": "botania:mana_tablet",
-    "x": 1,
-    "y": 9,
+    "x": 18,
+    "y": 2,
     "deps": [
      "manasteel"
     ],
     "text": [
      "codex.quest.magic_botania.tablet.text.0",
-     "codex.quest.magic_botania.tablet.text.1"
+     "codex.quest.magic_botania.tablet.text.1",
+     "codex.quest.magic_botania.tablet.text.2"
     ],
     "tasks": [
      {
@@ -412,13 +430,15 @@
     "id": "potato",
     "title": "codex.quest.magic_botania.potato.title",
     "icon": "botania:tiny_potato",
-    "x": -1,
-    "y": 9,
+    "x": 18,
+    "y": 3,
     "deps": [
      "manasteel"
     ],
     "text": [
-     "codex.quest.magic_botania.potato.text.0"
+     "codex.quest.magic_botania.potato.text.0",
+     "codex.quest.magic_botania.potato.text.1",
+     "codex.quest.magic_botania.potato.text.2"
     ],
     "tasks": [
      {
@@ -438,8 +458,127 @@
      "text": []
     },
     "optional": true
+   },
+   {
+    "id": "mana_service_setup",
+    "title": "codex.quest.magic_botania.mana_service_setup.title",
+    "icon": "botania:mana_pool",
+    "x": 18,
+    "y": 4,
+    "deps": [
+     "manasteel"
+    ],
+    "text": [
+     "codex.quest.magic_botania.mana_service_setup.text.0",
+     "codex.quest.magic_botania.mana_service_setup.text.1",
+     "codex.quest.magic_botania.mana_service_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:mana_pool",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "botania:mana_spreader",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "mana_service_batch",
+    "title": "codex.quest.magic_botania.mana_service_batch.title",
+    "icon": "botania:mana_pool",
+    "x": 20,
+    "y": 2,
+    "deps": [
+     "mana_service_setup"
+    ],
+    "text": [
+     "codex.quest.magic_botania.mana_service_batch.text.0",
+     "codex.quest.magic_botania.mana_service_batch.text.1",
+     "codex.quest.magic_botania.mana_service_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:manasteel_ingot",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "mana_service_run",
+    "title": "codex.quest.magic_botania.mana_service_run.title",
+    "icon": "botania:mana_pool",
+    "x": 22,
+    "y": 2,
+    "deps": [
+     "mana_service_batch"
+    ],
+    "text": [
+     "codex.quest.magic_botania.mana_service_run.text.0",
+     "codex.quest.magic_botania.mana_service_run.text.1",
+     "codex.quest.magic_botania.mana_service_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.magic_botania.mana_service_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_fuel_gate",
+    "title": "codex.quest.magic_botania.guide_fuel_gate.title",
+    "icon": "botania:open_crate",
+    "deps": [
+     "endoflame"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:open_crate",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 3,
+    "text": [
+     "codex.quest.magic_botania.guide_fuel_gate.text.0",
+     "codex.quest.magic_botania.guide_fuel_gate.text.1",
+     "codex.quest.magic_botania.guide_fuel_gate.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "magic"
  },
  {
   "id": "magic_botania_runes",
@@ -457,10 +596,12 @@
     "id": "altar",
     "title": "codex.quest.magic_botania_runes.altar.title",
     "icon": "botania:runic_altar",
-    "x": 0,
-    "y": 0,
+    "x": 18,
+    "y": 5,
     "text": [
-     "codex.quest.magic_botania_runes.altar.text.0"
+     "codex.quest.magic_botania_runes.altar.text.0",
+     "codex.quest.magic_botania_runes.altar.text.1",
+     "codex.quest.magic_botania_runes.altar.text.2"
     ],
     "tasks": [
      {
@@ -478,16 +619,21 @@
      ],
      "xp": 100,
      "text": []
-    }
+    },
+    "deps": [
+     "magic_botania/manasteel"
+    ]
    },
    {
     "id": "elements",
     "title": "codex.quest.magic_botania_runes.elements.title",
     "icon": "botania:rune_water",
-    "x": 0,
-    "y": 1,
+    "x": 20,
+    "y": 3,
     "text": [
-     "codex.quest.magic_botania_runes.elements.text.0"
+     "codex.quest.magic_botania_runes.elements.text.0",
+     "codex.quest.magic_botania_runes.elements.text.1",
+     "codex.quest.magic_botania_runes.elements.text.2"
     ],
     "tasks": [
      {
@@ -512,7 +658,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/rune_pickup"
+      "id": "botania:main/rune_pickup",
+      "note": "codex.quest.magic_botania_runes.elements.task.4"
      }
     ],
     "rewards": {
@@ -533,10 +680,12 @@
     "id": "mana_rune",
     "title": "codex.quest.magic_botania_runes.mana_rune.title",
     "icon": "botania:rune_mana",
-    "x": 0,
-    "y": 2,
+    "x": 22,
+    "y": 3,
     "text": [
-     "codex.quest.magic_botania_runes.mana_rune.text.0"
+     "codex.quest.magic_botania_runes.mana_rune.text.0",
+     "codex.quest.magic_botania_runes.mana_rune.text.1",
+     "codex.quest.magic_botania_runes.mana_rune.text.2"
     ],
     "tasks": [
      {
@@ -563,19 +712,21 @@
     "id": "flowers2",
     "title": "codex.quest.magic_botania_runes.flowers2.title",
     "icon": "botania:orechid",
-    "x": 1,
-    "y": 2,
+    "x": 22,
+    "y": 4,
     "deps": [
      "elements"
     ],
     "text": [
      "codex.quest.magic_botania_runes.flowers2.text.0",
-     "codex.quest.magic_botania_runes.flowers2.text.1"
+     "codex.quest.magic_botania_runes.flowers2.text.1",
+     "codex.quest.magic_botania_runes.flowers2.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "botania:main/functional_flower"
+      "id": "botania:main/functional_flower",
+      "note": "codex.quest.magic_botania_runes.flowers2.task.0"
      },
      {
       "type": "item",
@@ -602,13 +753,15 @@
     "id": "brewery",
     "title": "codex.quest.magic_botania_runes.brewery.title",
     "icon": "botania:brewery",
-    "x": -1,
-    "y": 2,
+    "x": 20,
+    "y": 4,
     "deps": [
      "altar"
     ],
     "text": [
-     "codex.quest.magic_botania_runes.brewery.text.0"
+     "codex.quest.magic_botania_runes.brewery.text.0",
+     "codex.quest.magic_botania_runes.brewery.text.1",
+     "codex.quest.magic_botania_runes.brewery.text.2"
     ],
     "tasks": [
      {
@@ -618,7 +771,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/brew_pickup"
+      "id": "botania:main/brew_pickup",
+      "note": "codex.quest.magic_botania_runes.brewery.task.1"
      }
     ],
     "rewards": {
@@ -637,14 +791,16 @@
     "id": "terra_plate",
     "title": "codex.quest.magic_botania_runes.terra_plate.title",
     "icon": "botania:terra_plate",
-    "x": 0,
+    "x": 24,
     "y": 3,
     "deps": [
      "mana_rune",
      "elements"
     ],
     "text": [
-     "codex.quest.magic_botania_runes.terra_plate.text.0"
+     "codex.quest.magic_botania_runes.terra_plate.text.0",
+     "codex.quest.magic_botania_runes.terra_plate.text.1",
+     "codex.quest.magic_botania_runes.terra_plate.text.2"
     ],
     "tasks": [
      {
@@ -668,11 +824,12 @@
     "id": "terrasteel",
     "title": "codex.quest.magic_botania_runes.terrasteel.title",
     "icon": "botania:terrasteel_ingot",
-    "x": 0,
-    "y": 4,
+    "x": 26,
+    "y": 3,
     "text": [
      "codex.quest.magic_botania_runes.terrasteel.text.0",
-     "codex.quest.magic_botania_runes.terrasteel.text.1"
+     "codex.quest.magic_botania_runes.terrasteel.text.1",
+     "codex.quest.magic_botania_runes.terrasteel.text.2"
     ],
     "tasks": [
      {
@@ -682,7 +839,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/terrasteel_pickup"
+      "id": "botania:main/terrasteel_pickup",
+      "note": "codex.quest.magic_botania_runes.terrasteel.task.1"
      }
     ],
     "rewards": {
@@ -703,11 +861,12 @@
     "id": "terra_gear",
     "title": "codex.quest.magic_botania_runes.terra_gear.title",
     "icon": "botania:terra_sword",
-    "x": 0,
-    "y": 5,
+    "x": 28,
+    "y": 2,
     "text": [
      "codex.quest.magic_botania_runes.terra_gear.text.0",
-     "codex.quest.magic_botania_runes.terra_gear.text.1"
+     "codex.quest.magic_botania_runes.terra_gear.text.1",
+     "codex.quest.magic_botania_runes.terra_gear.text.2"
     ],
     "tasks": [
      {
@@ -717,7 +876,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/terrasteel_weapon_craft"
+      "id": "botania:main/terrasteel_weapon_craft",
+      "note": "codex.quest.magic_botania_runes.terra_gear.task.1"
      },
      {
       "type": "item",
@@ -743,13 +903,15 @@
     "id": "belt",
     "title": "codex.quest.magic_botania_runes.belt.title",
     "icon": "botania:travel_belt",
-    "x": 1,
-    "y": 5,
+    "x": 28,
+    "y": 3,
     "deps": [
      "terrasteel"
     ],
     "text": [
-     "codex.quest.magic_botania_runes.belt.text.0"
+     "codex.quest.magic_botania_runes.belt.text.0",
+     "codex.quest.magic_botania_runes.belt.text.1",
+     "codex.quest.magic_botania_runes.belt.text.2"
     ],
     "tasks": [
      {
@@ -773,13 +935,15 @@
     "id": "halo",
     "title": "codex.quest.magic_botania_runes.halo.title",
     "icon": "botania:crafting_halo",
-    "x": -1,
-    "y": 5,
+    "x": 28,
+    "y": 4,
     "deps": [
      "terrasteel"
     ],
     "text": [
-     "codex.quest.magic_botania_runes.halo.text.0"
+     "codex.quest.magic_botania_runes.halo.text.0",
+     "codex.quest.magic_botania_runes.halo.text.1",
+     "codex.quest.magic_botania_runes.halo.text.2"
     ],
     "tasks": [
      {
@@ -789,7 +953,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/crafting_halo_craft"
+      "id": "botania:main/crafting_halo_craft",
+      "note": "codex.quest.magic_botania_runes.halo.task.1"
      }
     ],
     "rewards": {
@@ -803,8 +968,37 @@
      "text": []
     },
     "optional": true
+   },
+   {
+    "id": "guide_returned_runes",
+    "title": "codex.quest.magic_botania_runes.guide_returned_runes.title",
+    "icon": "botania:rune_spring",
+    "deps": [
+     "elements"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:rune_spring",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 22,
+    "y": 5,
+    "text": [
+     "codex.quest.magic_botania_runes.guide_returned_runes.text.0",
+     "codex.quest.magic_botania_runes.guide_returned_runes.text.1",
+     "codex.quest.magic_botania_runes.guide_returned_runes.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "magic"
  },
  {
   "id": "magic_botania_end",
@@ -814,18 +1008,20 @@
   "icon": "botania:gaia_ingot",
   "subtitle": "codex.chapter.magic_botania_end.subtitle",
   "intro": [
-   "codex.chapter.magic_botania_end.intro.0"
+   "codex.chapter.magic_botania_end.intro.0",
+   "codex.chapter.magic_botania_end.intro.1"
   ],
   "quests": [
    {
     "id": "portal",
     "title": "codex.quest.magic_botania_end.portal.title",
     "icon": "botania:alfheim_portal",
-    "x": 0,
-    "y": 0,
+    "x": 28,
+    "y": 5,
     "text": [
      "codex.quest.magic_botania_end.portal.text.0",
-     "codex.quest.magic_botania_end.portal.text.1"
+     "codex.quest.magic_botania_end.portal.text.1",
+     "codex.quest.magic_botania_end.portal.text.2"
     ],
     "tasks": [
      {
@@ -840,7 +1036,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/elf_portal_open"
+      "id": "botania:main/elf_portal_open",
+      "note": "codex.quest.magic_botania_end.portal.task.2"
      }
     ],
     "rewards": {
@@ -852,17 +1049,21 @@
      ],
      "xp": 400,
      "text": []
-    }
+    },
+    "deps": [
+     "magic_botania_runes/terrasteel"
+    ]
    },
    {
     "id": "trade",
     "title": "codex.quest.magic_botania_end.trade.title",
     "icon": "botania:elementium_ingot",
-    "x": 0,
-    "y": 1,
+    "x": 30,
+    "y": 3,
     "text": [
      "codex.quest.magic_botania_end.trade.text.0",
-     "codex.quest.magic_botania_end.trade.text.1"
+     "codex.quest.magic_botania_end.trade.text.1",
+     "codex.quest.magic_botania_end.trade.text.2"
     ],
     "tasks": [
      {
@@ -904,11 +1105,12 @@
     "id": "elven_gear",
     "title": "codex.quest.magic_botania_end.elven_gear.title",
     "icon": "botania:elementium_helmet",
-    "x": 0,
-    "y": 2,
+    "x": 32,
+    "y": 3,
     "text": [
      "codex.quest.magic_botania_end.elven_gear.text.0",
-     "codex.quest.magic_botania_end.elven_gear.text.1"
+     "codex.quest.magic_botania_end.elven_gear.text.1",
+     "codex.quest.magic_botania_end.elven_gear.text.2"
     ],
     "tasks": [
      {
@@ -940,14 +1142,15 @@
     "id": "corporea",
     "title": "codex.quest.magic_botania_end.corporea.title",
     "icon": "botania:corporea_spark",
-    "x": -1,
-    "y": 2,
+    "x": 32,
+    "y": 4,
     "deps": [
      "trade"
     ],
     "text": [
      "codex.quest.magic_botania_end.corporea.text.0",
-     "codex.quest.magic_botania_end.corporea.text.1"
+     "codex.quest.magic_botania_end.corporea.text.1",
+     "codex.quest.magic_botania_end.corporea.text.2"
     ],
     "tasks": [
      {
@@ -967,7 +1170,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/corporea_craft"
+      "id": "botania:main/corporea_craft",
+      "note": "codex.quest.magic_botania_end.corporea.task.3"
      }
     ],
     "rewards": {
@@ -985,7 +1189,7 @@
     "id": "gaia1",
     "title": "codex.quest.magic_botania_end.gaia1.title",
     "icon": "botania:gaia_pylon",
-    "x": 0,
+    "x": 34,
     "y": 3,
     "text": [
      "codex.quest.magic_botania_end.gaia1.text.0",
@@ -1000,7 +1204,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:main/gaia_guardian_kill"
+      "id": "botania:main/gaia_guardian_kill",
+      "note": "codex.quest.magic_botania_end.gaia1.task.1"
      },
      {
       "type": "item",
@@ -1026,11 +1231,12 @@
     "id": "gaia2",
     "title": "codex.quest.magic_botania_end.gaia2.title",
     "icon": "botania:gaia_ingot",
-    "x": 0,
-    "y": 4,
+    "x": 36,
+    "y": 3,
     "text": [
      "codex.quest.magic_botania_end.gaia2.text.0",
-     "codex.quest.magic_botania_end.gaia2.text.1"
+     "codex.quest.magic_botania_end.gaia2.text.1",
+     "codex.quest.magic_botania_end.gaia2.text.2"
     ],
     "tasks": [
      {
@@ -1040,7 +1246,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:challenge/gaia_guardian_hardmode"
+      "id": "botania:challenge/gaia_guardian_hardmode",
+      "note": "codex.quest.magic_botania_end.gaia2.task.1"
      }
     ],
     "rewards": {
@@ -1065,11 +1272,12 @@
     "id": "relics",
     "title": "codex.quest.magic_botania_end.relics.title",
     "icon": "botania:dice",
-    "x": 0,
-    "y": 5,
+    "x": 38,
+    "y": 3,
     "text": [
      "codex.quest.magic_botania_end.relics.text.0",
-     "codex.quest.magic_botania_end.relics.text.1"
+     "codex.quest.magic_botania_end.relics.text.1",
+     "codex.quest.magic_botania_end.relics.text.2"
     ],
     "tasks": [
      {
@@ -1079,7 +1287,8 @@
      },
      {
       "type": "advancement",
-      "id": "botania:challenge/odin_ring"
+      "id": "botania:challenge/odin_ring",
+      "note": "codex.quest.magic_botania_end.relics.task.1"
      }
     ],
     "rewards": {
@@ -1100,19 +1309,21 @@
     "id": "rank_ss",
     "title": "codex.quest.magic_botania_end.rank_ss.title",
     "icon": "botania:terra_pick",
-    "x": 1,
-    "y": 5,
+    "x": 38,
+    "y": 4,
     "deps": [
      "gaia2"
     ],
     "text": [
      "codex.quest.magic_botania_end.rank_ss.text.0",
-     "codex.quest.magic_botania_end.rank_ss.text.1"
+     "codex.quest.magic_botania_end.rank_ss.text.1",
+     "codex.quest.magic_botania_end.rank_ss.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "botania:challenge/rank_ss_pick"
+      "id": "botania:challenge/rank_ss_pick",
+      "note": "codex.quest.magic_botania_end.rank_ss.task.0"
      }
     ],
     "rewards": {
@@ -1126,8 +1337,37 @@
      "text": []
     },
     "optional": true
+   },
+   {
+    "id": "guide_visible_stock",
+    "title": "codex.quest.magic_botania_end.guide_visible_stock.title",
+    "icon": "botania:corporea_crystal_cube",
+    "deps": [
+     "corporea"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "botania:corporea_crystal_cube",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 34,
+    "y": 4,
+    "text": [
+     "codex.quest.magic_botania_end.guide_visible_stock.text.0",
+     "codex.quest.magic_botania_end.guide_visible_stock.text.1",
+     "codex.quest.magic_botania_end.guide_visible_stock.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "magic"
  },
  {
   "id": "magic_agriculture",
@@ -1138,8 +1378,7 @@
   "subtitle": "codex.chapter.magic_agriculture.subtitle",
   "intro": [
    "codex.chapter.magic_agriculture.intro.0",
-   "codex.chapter.magic_agriculture.intro.1",
-   "codex.chapter.magic_agriculture.intro.2"
+   "codex.chapter.magic_agriculture.intro.1"
   ],
   "quests": [
    {
@@ -1147,10 +1386,11 @@
     "title": "codex.quest.magic_agriculture.inferium.title",
     "icon": "mysticalagriculture:inferium_essence",
     "x": 0,
-    "y": 0,
+    "y": 5,
     "text": [
      "codex.quest.magic_agriculture.inferium.text.0",
-     "codex.quest.magic_agriculture.inferium.text.1"
+     "codex.quest.magic_agriculture.inferium.text.1",
+     "codex.quest.magic_agriculture.inferium.text.2"
     ],
     "tasks": [
      {
@@ -1173,17 +1413,21 @@
      ],
      "xp": 80,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "crystal",
     "title": "codex.quest.magic_agriculture.crystal.title",
     "icon": "mysticalagriculture:infusion_crystal",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 6,
     "text": [
      "codex.quest.magic_agriculture.crystal.text.0",
-     "codex.quest.magic_agriculture.crystal.text.1"
+     "codex.quest.magic_agriculture.crystal.text.1",
+     "codex.quest.magic_agriculture.crystal.text.2"
     ],
     "tasks": [
      {
@@ -1215,11 +1459,12 @@
     "id": "altar",
     "title": "codex.quest.magic_agriculture.altar.title",
     "icon": "mysticalagriculture:infusion_altar",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 5,
     "text": [
      "codex.quest.magic_agriculture.altar.text.0",
-     "codex.quest.magic_agriculture.altar.text.1"
+     "codex.quest.magic_agriculture.altar.text.1",
+     "codex.quest.magic_agriculture.altar.text.2"
     ],
     "tasks": [
      {
@@ -1256,11 +1501,12 @@
     "id": "first_seeds",
     "title": "codex.quest.magic_agriculture.first_seeds.title",
     "icon": "mysticalagriculture:iron_essence",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 4,
     "text": [
      "codex.quest.magic_agriculture.first_seeds.text.0",
-     "codex.quest.magic_agriculture.first_seeds.text.1"
+     "codex.quest.magic_agriculture.first_seeds.text.1",
+     "codex.quest.magic_agriculture.first_seeds.text.2"
     ],
     "tasks": [
      {
@@ -1287,11 +1533,12 @@
     "id": "farmland",
     "title": "codex.quest.magic_agriculture.farmland.title",
     "icon": "mysticalagriculture:inferium_farmland",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 3,
     "text": [
      "codex.quest.magic_agriculture.farmland.text.0",
-     "codex.quest.magic_agriculture.farmland.text.1"
+     "codex.quest.magic_agriculture.farmland.text.1",
+     "codex.quest.magic_agriculture.farmland.text.2"
     ],
     "tasks": [
      {
@@ -1323,11 +1570,12 @@
     "id": "machines",
     "title": "codex.quest.magic_agriculture.machines.title",
     "icon": "mysticalagriculture:harvester",
-    "x": 0,
+    "x": 10,
     "y": 5,
     "text": [
      "codex.quest.magic_agriculture.machines.text.0",
-     "codex.quest.magic_agriculture.machines.text.1"
+     "codex.quest.magic_agriculture.machines.text.1",
+     "codex.quest.magic_agriculture.machines.text.2"
     ],
     "tasks": [
      {
@@ -1364,14 +1612,15 @@
     "id": "souls",
     "title": "codex.quest.magic_agriculture.souls.title",
     "icon": "mysticalagriculture:soulium_dagger",
-    "x": -1,
+    "x": 6,
     "y": 5,
     "deps": [
      "altar"
     ],
     "text": [
      "codex.quest.magic_agriculture.souls.text.0",
-     "codex.quest.magic_agriculture.souls.text.1"
+     "codex.quest.magic_agriculture.souls.text.1",
+     "codex.quest.magic_agriculture.souls.text.2"
     ],
     "tasks": [
      {
@@ -1405,11 +1654,12 @@
     "id": "supremium",
     "title": "codex.quest.magic_agriculture.supremium.title",
     "icon": "mysticalagriculture:supremium_essence",
-    "x": 0,
-    "y": 6,
+    "x": 8,
+    "y": 5,
     "text": [
      "codex.quest.magic_agriculture.supremium.text.0",
-     "codex.quest.magic_agriculture.supremium.text.1"
+     "codex.quest.magic_agriculture.supremium.text.1",
+     "codex.quest.magic_agriculture.supremium.text.2"
     ],
     "tasks": [
      {
@@ -1446,14 +1696,15 @@
     "id": "augments",
     "title": "codex.quest.magic_agriculture.augments.title",
     "icon": "mysticalagriculture:unattuned_augment",
-    "x": 1,
-    "y": 6,
+    "x": 10,
+    "y": 7,
     "deps": [
      "supremium"
     ],
     "text": [
      "codex.quest.magic_agriculture.augments.text.0",
-     "codex.quest.magic_agriculture.augments.text.1"
+     "codex.quest.magic_agriculture.augments.text.1",
+     "codex.quest.magic_agriculture.augments.text.2"
     ],
     "tasks": [
      {
@@ -1482,11 +1733,12 @@
     "id": "awakening",
     "title": "codex.quest.magic_agriculture.awakening.title",
     "icon": "mysticalagriculture:awakening_altar",
-    "x": 0,
-    "y": 7,
+    "x": 12,
+    "y": 6,
     "text": [
      "codex.quest.magic_agriculture.awakening.text.0",
-     "codex.quest.magic_agriculture.awakening.text.1"
+     "codex.quest.magic_agriculture.awakening.text.1",
+     "codex.quest.magic_agriculture.awakening.text.2"
     ],
     "tasks": [
      {
@@ -1528,11 +1780,12 @@
     "id": "insanium",
     "title": "codex.quest.magic_agriculture.insanium.title",
     "icon": "mysticalagradditions:insanium_essence",
-    "x": 0,
-    "y": 8,
+    "x": 14,
+    "y": 5,
     "text": [
      "codex.quest.magic_agriculture.insanium.text.0",
-     "codex.quest.magic_agriculture.insanium.text.1"
+     "codex.quest.magic_agriculture.insanium.text.1",
+     "codex.quest.magic_agriculture.insanium.text.2"
     ],
     "tasks": [
      {
@@ -1564,8 +1817,150 @@
     "deps": [
      "awakening"
     ]
+   },
+   {
+    "id": "essence_service_setup",
+    "title": "codex.quest.magic_agriculture.essence_service_setup.title",
+    "icon": "mysticalagriculture:inferium_seeds",
+    "x": 8,
+    "y": 4,
+    "deps": [
+     "first_seeds"
+    ],
+    "text": [
+     "codex.quest.magic_agriculture.essence_service_setup.text.0",
+     "codex.quest.magic_agriculture.essence_service_setup.text.1",
+     "codex.quest.magic_agriculture.essence_service_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:inferium_seeds",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "essence_service_batch",
+    "title": "codex.quest.magic_agriculture.essence_service_batch.title",
+    "icon": "mysticalagriculture:inferium_seeds",
+    "x": 10,
+    "y": 6,
+    "deps": [
+     "essence_service_setup"
+    ],
+    "text": [
+     "codex.quest.magic_agriculture.essence_service_batch.text.0",
+     "codex.quest.magic_agriculture.essence_service_batch.text.1",
+     "codex.quest.magic_agriculture.essence_service_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:inferium_essence",
+      "count": 32
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "essence_service_run",
+    "title": "codex.quest.magic_agriculture.essence_service_run.title",
+    "icon": "mysticalagriculture:inferium_seeds",
+    "x": 12,
+    "y": 5,
+    "deps": [
+     "essence_service_batch"
+    ],
+    "text": [
+     "codex.quest.magic_agriculture.essence_service_run.text.0",
+     "codex.quest.magic_agriculture.essence_service_run.text.1",
+     "codex.quest.magic_agriculture.essence_service_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.magic_agriculture.essence_service_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_elemental_patch",
+    "title": "codex.quest.magic_agriculture.guide_elemental_patch.title",
+    "icon": "mysticalagriculture:air_seeds",
+    "deps": [
+     "altar"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:air_seeds",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 6,
+    "text": [
+     "codex.quest.magic_agriculture.guide_elemental_patch.text.0",
+     "codex.quest.magic_agriculture.guide_elemental_patch.text.1",
+     "codex.quest.magic_agriculture.guide_elemental_patch.text.2"
+    ]
+   },
+   {
+    "id": "guide_soul_account",
+    "title": "codex.quest.magic_agriculture.guide_soul_account.title",
+    "icon": "mysticalagriculture:soul_jar",
+    "deps": [
+     "souls"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "mysticalagriculture:soul_jar",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 6,
+    "text": [
+     "codex.quest.magic_agriculture.guide_soul_account.text.0",
+     "codex.quest.magic_agriculture.guide_soul_account.text.1",
+     "codex.quest.magic_agriculture.guide_soul_account.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "magic"
  },
  {
   "id": "magic_ars",
@@ -1576,8 +1971,7 @@
   "subtitle": "codex.chapter.magic_ars.subtitle",
   "intro": [
    "codex.chapter.magic_ars.intro.0",
-   "codex.chapter.magic_ars.intro.1",
-   "codex.chapter.magic_ars.intro.2"
+   "codex.chapter.magic_ars.intro.1"
   ],
   "quests": [
    {
@@ -1585,10 +1979,11 @@
     "title": "codex.quest.magic_ars.notebook.title",
     "icon": "ars_nouveau:worn_notebook",
     "x": 0,
-    "y": 0,
+    "y": 2,
     "text": [
      "codex.quest.magic_ars.notebook.text.0",
-     "codex.quest.magic_ars.notebook.text.1"
+     "codex.quest.magic_ars.notebook.text.1",
+     "codex.quest.magic_ars.notebook.text.2"
     ],
     "tasks": [
      {
@@ -1611,17 +2006,21 @@
      ],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "gems",
     "title": "codex.quest.magic_ars.gems.title",
     "icon": "ars_nouveau:source_gem",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 2,
     "text": [
      "codex.quest.magic_ars.gems.text.0",
-     "codex.quest.magic_ars.gems.text.1"
+     "codex.quest.magic_ars.gems.text.1",
+     "codex.quest.magic_ars.gems.text.2"
     ],
     "tasks": [
      {
@@ -1631,7 +2030,8 @@
      },
      {
       "type": "advancement",
-      "id": "ars_nouveau:imbuement_chamber"
+      "id": "ars_nouveau:imbuement_chamber",
+      "note": "codex.quest.magic_ars.gems.task.1"
      },
      {
       "type": "item",
@@ -1657,11 +2057,12 @@
     "id": "book",
     "title": "codex.quest.magic_ars.book.title",
     "icon": "ars_nouveau:novice_spell_book",
-    "x": 0,
+    "x": 4,
     "y": 2,
     "text": [
      "codex.quest.magic_ars.book.text.0",
-     "codex.quest.magic_ars.book.text.1"
+     "codex.quest.magic_ars.book.text.1",
+     "codex.quest.magic_ars.book.text.2"
     ],
     "tasks": [
      {
@@ -1676,7 +2077,8 @@
      },
      {
       "type": "advancement",
-      "id": "ars_nouveau:novice_spell_book"
+      "id": "ars_nouveau:novice_spell_book",
+      "note": "codex.quest.magic_ars.book.task.2"
      }
     ],
     "rewards": {
@@ -1696,18 +2098,19 @@
    {
     "id": "glyphs",
     "title": "codex.quest.magic_ars.glyphs.title",
-    "icon": "ars_nouveau:blank_glyph",
-    "x": 0,
-    "y": 3,
+    "icon": "ars_nouveau:glyph_light",
+    "x": 6,
+    "y": 2,
     "text": [
      "codex.quest.magic_ars.glyphs.text.0",
-     "codex.quest.magic_ars.glyphs.text.1"
+     "codex.quest.magic_ars.glyphs.text.1",
+     "codex.quest.magic_ars.glyphs.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "ars_nouveau:blank_glyph",
-      "count": 4
+      "id": "ars_nouveau:glyph_light",
+      "count": 1
      },
      {
       "type": "item",
@@ -1718,7 +2121,7 @@
     "rewards": {
      "items": [
       {
-       "id": "ars_nouveau:blank_glyph",
+       "id": "ars_nouveau:source_gem",
        "count": 8
       }
      ],
@@ -1733,11 +2136,12 @@
     "id": "source",
     "title": "codex.quest.magic_ars.source.title",
     "icon": "ars_nouveau:source_jar",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 1,
     "text": [
      "codex.quest.magic_ars.source.text.0",
-     "codex.quest.magic_ars.source.text.1"
+     "codex.quest.magic_ars.source.text.1",
+     "codex.quest.magic_ars.source.text.2"
     ],
     "tasks": [
      {
@@ -1778,11 +2182,12 @@
     "id": "apparatus",
     "title": "codex.quest.magic_ars.apparatus.title",
     "icon": "ars_nouveau:enchanting_apparatus",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 1,
     "text": [
      "codex.quest.magic_ars.apparatus.text.0",
-     "codex.quest.magic_ars.apparatus.text.1"
+     "codex.quest.magic_ars.apparatus.text.1",
+     "codex.quest.magic_ars.apparatus.text.2"
     ],
     "tasks": [
      {
@@ -1797,7 +2202,8 @@
      },
      {
       "type": "advancement",
-      "id": "ars_nouveau:enchanting_apparatus"
+      "id": "ars_nouveau:enchanting_apparatus",
+      "note": "codex.quest.magic_ars.apparatus.task.2"
      }
     ],
     "rewards": {
@@ -1818,11 +2224,12 @@
     "id": "familiars",
     "title": "codex.quest.magic_ars.familiars.title",
     "icon": "ars_nouveau:starbuncle_charm",
-    "x": 0,
-    "y": 6,
+    "x": 12,
+    "y": 2,
     "text": [
      "codex.quest.magic_ars.familiars.text.0",
-     "codex.quest.magic_ars.familiars.text.1"
+     "codex.quest.magic_ars.familiars.text.1",
+     "codex.quest.magic_ars.familiars.text.2"
     ],
     "tasks": [
      {
@@ -1837,7 +2244,8 @@
      },
      {
       "type": "advancement",
-      "id": "ars_nouveau:drygmy_charm"
+      "id": "ars_nouveau:drygmy_charm",
+      "note": "codex.quest.magic_ars.familiars.task.2"
      }
     ],
     "rewards": {
@@ -1858,11 +2266,12 @@
     "id": "rituals",
     "title": "codex.quest.magic_ars.rituals.title",
     "icon": "ars_nouveau:ritual_brazier",
-    "x": 0,
-    "y": 7,
+    "x": 14,
+    "y": 3,
     "text": [
      "codex.quest.magic_ars.rituals.text.0",
-     "codex.quest.magic_ars.rituals.text.1"
+     "codex.quest.magic_ars.rituals.text.1",
+     "codex.quest.magic_ars.rituals.text.2"
     ],
     "tasks": [
      {
@@ -1872,7 +2281,8 @@
      },
      {
       "type": "advancement",
-      "id": "ars_nouveau:create_portal"
+      "id": "ars_nouveau:create_portal",
+      "note": "codex.quest.magic_ars.rituals.task.1"
      }
     ],
     "rewards": {
@@ -1893,11 +2303,12 @@
     "id": "archmage",
     "title": "codex.quest.magic_ars.archmage.title",
     "icon": "ars_nouveau:archmage_spell_book",
-    "x": 0,
-    "y": 8,
+    "x": 16,
+    "y": 4,
     "text": [
      "codex.quest.magic_ars.archmage.text.0",
-     "codex.quest.magic_ars.archmage.text.1"
+     "codex.quest.magic_ars.archmage.text.1",
+     "codex.quest.magic_ars.archmage.text.2"
     ],
     "tasks": [
      {
@@ -1907,7 +2318,8 @@
      },
      {
       "type": "advancement",
-      "id": "ars_nouveau:archmage_spell_book"
+      "id": "ars_nouveau:archmage_spell_book",
+      "note": "codex.quest.magic_ars.archmage.task.1"
      }
     ],
     "rewards": {
@@ -1923,8 +2335,178 @@
     "deps": [
      "rituals"
     ]
+   },
+   {
+    "id": "source_service_setup",
+    "title": "codex.quest.magic_ars.source_service_setup.title",
+    "icon": "ars_nouveau:source_jar",
+    "x": 10,
+    "y": 2,
+    "deps": [
+     "source"
+    ],
+    "text": [
+     "codex.quest.magic_ars.source_service_setup.text.0",
+     "codex.quest.magic_ars.source_service_setup.text.1",
+     "codex.quest.magic_ars.source_service_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:source_jar",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "source_service_batch",
+    "title": "codex.quest.magic_ars.source_service_batch.title",
+    "icon": "ars_nouveau:source_jar",
+    "x": 12,
+    "y": 3,
+    "deps": [
+     "source_service_setup"
+    ],
+    "text": [
+     "codex.quest.magic_ars.source_service_batch.text.0",
+     "codex.quest.magic_ars.source_service_batch.text.1",
+     "codex.quest.magic_ars.source_service_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:source_gem",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "source_service_run",
+    "title": "codex.quest.magic_ars.source_service_run.title",
+    "icon": "ars_nouveau:source_jar",
+    "x": 14,
+    "y": 4,
+    "deps": [
+     "source_service_batch"
+    ],
+    "text": [
+     "codex.quest.magic_ars.source_service_run.text.0",
+     "codex.quest.magic_ars.source_service_run.text.1",
+     "codex.quest.magic_ars.source_service_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.magic_ars.source_service_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_growth_source",
+    "title": "codex.quest.magic_ars.guide_growth_source.title",
+    "icon": "ars_nouveau:agronomic_sourcelink",
+    "deps": [
+     "notebook"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:agronomic_sourcelink",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 3,
+    "text": [
+     "codex.quest.magic_ars.guide_growth_source.text.0",
+     "codex.quest.magic_ars.guide_growth_source.text.1",
+     "codex.quest.magic_ars.guide_growth_source.text.2"
+    ]
+   },
+   {
+    "id": "guide_directed_links",
+    "title": "codex.quest.magic_ars.guide_directed_links.title",
+    "icon": "ars_nouveau:dominion_wand",
+    "deps": [
+     "source"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:dominion_wand",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 3,
+    "text": [
+     "codex.quest.magic_ars.guide_directed_links.text.0",
+     "codex.quest.magic_ars.guide_directed_links.text.1",
+     "codex.quest.magic_ars.guide_directed_links.text.2"
+    ]
+   },
+   {
+    "id": "guide_wilden_trial",
+    "title": "codex.quest.magic_ars.guide_wilden_trial.title",
+    "icon": "ars_nouveau:wilden_tribute",
+    "deps": [
+     "rituals"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "ars_nouveau:wilden_tribute",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 5,
+    "text": [
+     "codex.quest.magic_ars.guide_wilden_trial.text.0",
+     "codex.quest.magic_ars.guide_wilden_trial.text.1",
+     "codex.quest.magic_ars.guide_wilden_trial.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "magic"
  },
  {
   "id": "magic_irons",
@@ -1943,10 +2525,11 @@
     "title": "codex.quest.magic_irons.scroll.title",
     "icon": "irons_spellbooks:scroll",
     "x": 0,
-    "y": 0,
+    "y": 3,
     "text": [
      "codex.quest.magic_irons.scroll.text.0",
-     "codex.quest.magic_irons.scroll.text.1"
+     "codex.quest.magic_irons.scroll.text.1",
+     "codex.quest.magic_irons.scroll.text.2"
     ],
     "tasks": [
      {
@@ -1969,16 +2552,21 @@
      ],
      "xp": 100,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "inscription",
     "title": "codex.quest.magic_irons.inscription.title",
     "icon": "irons_spellbooks:inscription_table",
     "x": 0,
-    "y": 1,
+    "y": 4,
     "text": [
-     "codex.quest.magic_irons.inscription.text.0"
+     "codex.quest.magic_irons.inscription.text.0",
+     "codex.quest.magic_irons.inscription.text.1",
+     "codex.quest.magic_irons.inscription.text.2"
     ],
     "tasks": [
      {
@@ -1988,7 +2576,8 @@
      },
      {
       "type": "advancement",
-      "id": "irons_spellbooks:irons_spellbooks/make_inscription_table"
+      "id": "irons_spellbooks:irons_spellbooks/make_inscription_table",
+      "note": "codex.quest.magic_irons.inscription.task.1"
      },
      {
       "type": "item",
@@ -2007,23 +2596,24 @@
      "text": []
     },
     "deps": [
-     "scroll"
+     "start_first_day/iron"
     ]
    },
    {
     "id": "arcane",
     "title": "codex.quest.magic_irons.arcane.title",
     "icon": "irons_spellbooks:arcane_ingot",
-    "x": 0,
-    "y": 2,
+    "x": 2,
+    "y": 4,
     "text": [
      "codex.quest.magic_irons.arcane.text.0",
-     "codex.quest.magic_irons.arcane.text.1"
+     "codex.quest.magic_irons.arcane.text.1",
+     "codex.quest.magic_irons.arcane.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "irons_spellbooks:arcane_debris",
+      "id": "irons_spellbooks:arcane_essence",
       "count": 1
      },
      {
@@ -2038,7 +2628,8 @@
      },
      {
       "type": "advancement",
-      "id": "irons_spellbooks:irons_spellbooks/make_arcane_anvil"
+      "id": "irons_spellbooks:irons_spellbooks/make_arcane_anvil",
+      "note": "codex.quest.magic_irons.arcane.task.3"
      }
     ],
     "rewards": {
@@ -2059,11 +2650,12 @@
     "id": "runes",
     "title": "codex.quest.magic_irons.runes.title",
     "icon": "irons_spellbooks:fire_rune",
-    "x": 0,
+    "x": 4,
     "y": 3,
     "text": [
      "codex.quest.magic_irons.runes.text.0",
-     "codex.quest.magic_irons.runes.text.1"
+     "codex.quest.magic_irons.runes.text.1",
+     "codex.quest.magic_irons.runes.text.2"
     ],
     "tasks": [
      {
@@ -2095,11 +2687,12 @@
     "id": "upgrade",
     "title": "codex.quest.magic_irons.upgrade.title",
     "icon": "irons_spellbooks:upgrade_orb",
-    "x": 0,
-    "y": 4,
+    "x": 6,
+    "y": 3,
     "text": [
      "codex.quest.magic_irons.upgrade.text.0",
-     "codex.quest.magic_irons.upgrade.text.1"
+     "codex.quest.magic_irons.upgrade.text.1",
+     "codex.quest.magic_irons.upgrade.text.2"
     ],
     "tasks": [
      {
@@ -2131,11 +2724,12 @@
     "id": "robes",
     "title": "codex.quest.magic_irons.robes.title",
     "icon": "irons_spellbooks:pyromancer_helmet",
-    "x": 0,
-    "y": 5,
+    "x": 8,
+    "y": 2,
     "text": [
      "codex.quest.magic_irons.robes.text.0",
-     "codex.quest.magic_irons.robes.text.1"
+     "codex.quest.magic_irons.robes.text.1",
+     "codex.quest.magic_irons.robes.text.2"
     ],
     "tasks": [
      {
@@ -2162,11 +2756,12 @@
     "id": "staff",
     "title": "codex.quest.magic_irons.staff.title",
     "icon": "irons_spellbooks:blood_staff",
-    "x": 0,
-    "y": 6,
+    "x": 10,
+    "y": 4,
     "text": [
      "codex.quest.magic_irons.staff.text.0",
-     "codex.quest.magic_irons.staff.text.1"
+     "codex.quest.magic_irons.staff.text.1",
+     "codex.quest.magic_irons.staff.text.2"
     ],
     "tasks": [
      {
@@ -2193,16 +2788,18 @@
     "id": "legendary",
     "title": "codex.quest.magic_irons.legendary.title",
     "icon": "irons_spellbooks:arcane_essence",
-    "x": 0,
-    "y": 7,
+    "x": 12,
+    "y": 4,
     "text": [
      "codex.quest.magic_irons.legendary.text.0",
-     "codex.quest.magic_irons.legendary.text.1"
+     "codex.quest.magic_irons.legendary.text.1",
+     "codex.quest.magic_irons.legendary.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "irons_spellbooks:irons_spellbooks/ink_legendary"
+      "id": "irons_spellbooks:irons_spellbooks/ink_legendary",
+      "note": "codex.quest.magic_irons.legendary.task.0"
      }
     ],
     "rewards": {
@@ -2218,7 +2815,64 @@
     "deps": [
      "staff"
     ]
+   },
+   {
+    "id": "guide_scroll_forge",
+    "title": "codex.quest.magic_irons.guide_scroll_forge.title",
+    "icon": "irons_spellbooks:scroll_forge",
+    "deps": [
+     "inscription"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "irons_spellbooks:scroll_forge",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 5,
+    "text": [
+     "codex.quest.magic_irons.guide_scroll_forge.text.0",
+     "codex.quest.magic_irons.guide_scroll_forge.text.1",
+     "codex.quest.magic_irons.guide_scroll_forge.text.2"
+    ]
+   },
+   {
+    "id": "guide_ink_ladder",
+    "title": "codex.quest.magic_irons.guide_ink_ladder.title",
+    "icon": "irons_spellbooks:alchemist_cauldron",
+    "deps": [
+     "arcane"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "irons_spellbooks:alchemist_cauldron",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 4,
+    "text": [
+     "codex.quest.magic_irons.guide_ink_ladder.text.0",
+     "codex.quest.magic_irons.guide_ink_ladder.text.1",
+     "codex.quest.magic_irons.guide_ink_ladder.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "magic"
  }
 ]

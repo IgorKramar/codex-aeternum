@@ -16,9 +16,11 @@
     "title": "codex.quest.et_intro.journal.title",
     "icon": "eternal_tales:journal",
     "x": 0,
-    "y": 0,
+    "y": 11,
     "text": [
-     "codex.quest.et_intro.journal.text.0"
+     "codex.quest.et_intro.journal.text.0",
+     "codex.quest.et_intro.journal.text.1",
+     "codex.quest.et_intro.journal.text.2"
     ],
     "tasks": [
      {
@@ -28,23 +30,29 @@
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_quest"
+      "id": "eternal_tales:get_any_quest",
+      "note": "codex.quest.et_intro.journal.task.1"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "town",
     "title": "codex.quest.et_intro.town.title",
     "icon": "eternal_tales:eternal_town_spawner",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 0,
     "text": [
-     "codex.quest.et_intro.town.text.0"
+     "codex.quest.et_intro.town.text.0",
+     "codex.quest.et_intro.town.text.1",
+     "codex.quest.et_intro.town.text.2"
     ],
     "tasks": [
      {
@@ -66,10 +74,12 @@
     "id": "notice",
     "title": "codex.quest.et_intro.notice.title",
     "icon": "eternal_tales:notice_board",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 6,
     "text": [
-     "codex.quest.et_intro.notice.text.0"
+     "codex.quest.et_intro.notice.text.0",
+     "codex.quest.et_intro.notice.text.1",
+     "codex.quest.et_intro.notice.text.2"
     ],
     "tasks": [
      {
@@ -79,7 +89,8 @@
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:upgrade_skill_with_notice_board"
+      "id": "eternal_tales:upgrade_skill_with_notice_board",
+      "note": "codex.quest.et_intro.notice.task.1"
      }
     ],
     "deps": [
@@ -95,10 +106,12 @@
     "id": "starter",
     "title": "codex.quest.et_intro.starter.title",
     "icon": "eternal_tales:starter_kit",
-    "x": 1,
-    "y": 2,
+    "x": 6,
+    "y": 7,
     "text": [
-     "codex.quest.et_intro.starter.text.0"
+     "codex.quest.et_intro.starter.text.0",
+     "codex.quest.et_intro.starter.text.1",
+     "codex.quest.et_intro.starter.text.2"
     ],
     "tasks": [
      {
@@ -121,19 +134,22 @@
     "id": "miguel",
     "title": "codex.quest.et_intro.miguel.title",
     "icon": "minecraft:egg",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 8,
     "text": [
-     "codex.quest.et_intro.miguel.text.0"
+     "codex.quest.et_intro.miguel.text.0",
+     "codex.quest.et_intro.miguel.text.1",
+     "codex.quest.et_intro.miguel.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:spawn_miguel"
+      "id": "eternal_tales:spawn_miguel",
+      "note": "codex.quest.et_intro.miguel.task.0"
      }
     ],
     "deps": [
-     "starter"
+     "notice"
     ],
     "rewards": {
      "items": [],
@@ -145,15 +161,18 @@
     "id": "bard",
     "title": "codex.quest.et_intro.bard.title",
     "icon": "minecraft:note_block",
-    "x": 1,
-    "y": 3,
+    "x": 8,
+    "y": 7,
     "text": [
-     "codex.quest.et_intro.bard.text.0"
+     "codex.quest.et_intro.bard.text.0",
+     "codex.quest.et_intro.bard.text.1",
+     "codex.quest.et_intro.bard.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:give_a_coin_to_the_bard"
+      "id": "eternal_tales:give_a_coin_to_the_bard",
+      "note": "codex.quest.et_intro.bard.task.0"
      },
      {
       "type": "item",
@@ -175,19 +194,23 @@
     "id": "coins",
     "title": "codex.quest.et_intro.coins.title",
     "icon": "eternal_tales:ancient_coin",
-    "x": 2,
-    "y": 3,
+    "x": 10,
+    "y": 6,
     "text": [
-     "codex.quest.et_intro.coins.text.0"
+     "codex.quest.et_intro.coins.text.0",
+     "codex.quest.et_intro.coins.text.1",
+     "codex.quest.et_intro.coins.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_ancient_coin"
+      "id": "eternal_tales:get_ancient_coin",
+      "note": "codex.quest.et_intro.coins.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_gold_coin"
+      "id": "eternal_tales:get_gold_coin",
+      "note": "codex.quest.et_intro.coins.task.1"
      }
     ],
     "optional": true,
@@ -204,18 +227,21 @@
     "id": "quests_all",
     "title": "codex.quest.et_intro.quests_all.title",
     "icon": "eternal_tales:let_us_tell_you_a_story_music_disc",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 8,
     "deps": [
      "miguel"
     ],
     "text": [
-     "codex.quest.et_intro.quests_all.text.0"
+     "codex.quest.et_intro.quests_all.text.0",
+     "codex.quest.et_intro.quests_all.text.1",
+     "codex.quest.et_intro.quests_all.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:pass_all_quests"
+      "id": "eternal_tales:pass_all_quests",
+      "note": "codex.quest.et_intro.quests_all.task.0"
      }
     ],
     "rewards": {
@@ -225,8 +251,37 @@
       "codex.quest.et_intro.quests_all.reward.0"
      ]
     }
+   },
+   {
+    "id": "guide_return_report",
+    "title": "codex.quest.et_intro.guide_return_report.title",
+    "icon": "eternal_tales:journal",
+    "deps": [
+     "town"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Открыть журнал после сдачи поручения Аэтер и проверить завершённую запись",
+      "note": "codex.quest.et_intro.guide_return_report.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 7,
+    "text": [
+     "codex.quest.et_intro.guide_return_report.text.0",
+     "codex.quest.et_intro.guide_return_report.text.1",
+     "codex.quest.et_intro.guide_return_report.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_skills",
@@ -236,43 +291,53 @@
   "icon": "eternal_tales:digging_skill_stone_active",
   "subtitle": "codex.chapter.et_skills.subtitle",
   "intro": [
-   "codex.chapter.et_skills.intro.0"
+   "codex.chapter.et_skills.intro.0",
+   "codex.chapter.et_skills.intro.1"
   ],
   "quests": [
    {
     "id": "level",
     "title": "codex.quest.et_skills.level.title",
     "icon": "minecraft:experience_bottle",
-    "x": 0,
-    "y": 0,
+    "x": 2,
+    "y": 1,
     "text": [
-     "codex.quest.et_skills.level.text.0"
+     "codex.quest.et_skills.level.text.0",
+     "codex.quest.et_skills.level.text.1",
+     "codex.quest.et_skills.level.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_skill_boost_effect"
+      "id": "eternal_tales:get_any_skill_boost_effect",
+      "note": "codex.quest.et_skills.level.task.0"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "digging",
     "title": "codex.quest.et_skills.digging.title",
     "icon": "minecraft:diamond_pickaxe",
-    "x": -1,
-    "y": 1,
+    "x": 2,
+    "y": 2,
     "text": [
-     "codex.quest.et_skills.digging.text.0"
+     "codex.quest.et_skills.digging.text.0",
+     "codex.quest.et_skills.digging.text.1",
+     "codex.quest.et_skills.digging.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_first_digging_skill_level"
+      "id": "eternal_tales:get_first_digging_skill_level",
+      "note": "codex.quest.et_skills.digging.task.0"
      },
      {
       "type": "item",
@@ -284,16 +349,21 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "slaying",
     "title": "codex.quest.et_skills.slaying.title",
     "icon": "minecraft:iron_sword",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 3,
     "text": [
-     "codex.quest.et_skills.slaying.text.0"
+     "codex.quest.et_skills.slaying.text.0",
+     "codex.quest.et_skills.slaying.text.1",
+     "codex.quest.et_skills.slaying.text.2"
     ],
     "tasks": [
      {
@@ -306,42 +376,54 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "archery",
     "title": "codex.quest.et_skills.archery.title",
     "icon": "minecraft:bow",
-    "x": 1,
-    "y": 1,
+    "x": 2,
+    "y": 4,
     "text": [
-     "codex.quest.et_skills.archery.text.0"
+     "codex.quest.et_skills.archery.text.0",
+     "codex.quest.et_skills.archery.text.1",
+     "codex.quest.et_skills.archery.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_archery_armor"
+      "id": "eternal_tales:get_any_archery_armor",
+      "note": "codex.quest.et_skills.archery.task.0"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "growing",
     "title": "codex.quest.et_skills.growing.title",
     "icon": "eternal_tales:gardeners_pot",
-    "x": -1,
-    "y": 2,
+    "x": 2,
+    "y": 5,
     "text": [
-     "codex.quest.et_skills.growing.text.0"
+     "codex.quest.et_skills.growing.text.0",
+     "codex.quest.et_skills.growing.text.1",
+     "codex.quest.et_skills.growing.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_gardeners_pot"
+      "id": "eternal_tales:get_gardeners_pot",
+      "note": "codex.quest.et_skills.growing.task.0"
      },
      {
       "type": "item",
@@ -353,21 +435,27 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "fishing",
     "title": "codex.quest.et_skills.fishing.title",
     "icon": "eternal_tales:fish_web",
-    "x": 0,
-    "y": 2,
+    "x": 2,
+    "y": 6,
     "text": [
-     "codex.quest.et_skills.fishing.text.0"
+     "codex.quest.et_skills.fishing.text.0",
+     "codex.quest.et_skills.fishing.text.1",
+     "codex.quest.et_skills.fishing.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_fishing_web"
+      "id": "eternal_tales:get_fishing_web",
+      "note": "codex.quest.et_skills.fishing.task.0"
      },
      {
       "type": "item",
@@ -384,37 +472,48 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "archaeology_skill",
     "title": "codex.quest.et_skills.archaeology_skill.title",
     "icon": "eternal_tales:venetium_brush",
-    "x": 1,
-    "y": 2,
+    "x": 2,
+    "y": 7,
     "text": [
-     "codex.quest.et_skills.archaeology_skill.text.0"
+     "codex.quest.et_skills.archaeology_skill.text.0",
+     "codex.quest.et_skills.archaeology_skill.text.1",
+     "codex.quest.et_skills.archaeology_skill.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:excavate_suspicious_block_by_venetium_or_truadamantite_brush"
+      "id": "eternal_tales:excavate_suspicious_block_by_venetium_or_truadamantite_brush",
+      "note": "codex.quest.et_skills.archaeology_skill.task.0"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "speech",
     "title": "codex.quest.et_skills.speech.title",
     "icon": "minecraft:emerald",
-    "x": -1,
-    "y": 3,
+    "x": 2,
+    "y": 8,
     "text": [
-     "codex.quest.et_skills.speech.text.0"
+     "codex.quest.et_skills.speech.text.0",
+     "codex.quest.et_skills.speech.text.1",
+     "codex.quest.et_skills.speech.text.2"
     ],
     "tasks": [
      {
@@ -427,21 +526,27 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "sorcery_skill",
     "title": "codex.quest.et_skills.sorcery_skill.title",
     "icon": "eternal_tales:sorcery_skill_stone_active",
-    "x": 0,
-    "y": 3,
+    "x": 2,
+    "y": 9,
     "text": [
-     "codex.quest.et_skills.sorcery_skill.text.0"
+     "codex.quest.et_skills.sorcery_skill.text.0",
+     "codex.quest.et_skills.sorcery_skill.text.1",
+     "codex.quest.et_skills.sorcery_skill.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_rune"
+      "id": "eternal_tales:get_rune",
+      "note": "codex.quest.et_skills.sorcery_skill.task.0"
      },
      {
       "type": "item",
@@ -453,21 +558,27 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "fear",
     "title": "codex.quest.et_skills.fear.title",
     "icon": "eternal_tales:totem_of_eternal_darkness",
-    "x": 1,
-    "y": 3,
+    "x": 2,
+    "y": 10,
     "text": [
-     "codex.quest.et_skills.fear.text.0"
+     "codex.quest.et_skills.fear.text.0",
+     "codex.quest.et_skills.fear.text.1",
+     "codex.quest.et_skills.fear.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:activate_eternal_darkness_mode"
+      "id": "eternal_tales:activate_eternal_darkness_mode",
+      "note": "codex.quest.et_skills.fear.task.0"
      }
     ],
     "optional": true,
@@ -475,9 +586,13 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_sorcery",
@@ -487,22 +602,26 @@
   "icon": "eternal_tales:rune_tab_all",
   "subtitle": "codex.chapter.et_sorcery.subtitle",
   "intro": [
-   "codex.chapter.et_sorcery.intro.0"
+   "codex.chapter.et_sorcery.intro.0",
+   "codex.chapter.et_sorcery.intro.1"
   ],
   "quests": [
    {
     "id": "runes",
     "title": "codex.quest.et_sorcery.runes.title",
     "icon": "eternal_tales:rune_tab_all",
-    "x": 0,
-    "y": 0,
+    "x": 2,
+    "y": 11,
     "text": [
-     "codex.quest.et_sorcery.runes.text.0"
+     "codex.quest.et_sorcery.runes.text.0",
+     "codex.quest.et_sorcery.runes.text.1",
+     "codex.quest.et_sorcery.runes.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_rune"
+      "id": "eternal_tales:get_rune",
+      "note": "codex.quest.et_sorcery.runes.task.0"
      },
      {
       "type": "item",
@@ -514,25 +633,32 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "cauldron",
     "title": "codex.quest.et_sorcery.cauldron.title",
     "icon": "eternal_tales:extraction_cauldron",
-    "x": 0,
-    "y": 1,
+    "x": 4,
+    "y": 8,
     "text": [
-     "codex.quest.et_sorcery.cauldron.text.0"
+     "codex.quest.et_sorcery.cauldron.text.0",
+     "codex.quest.et_sorcery.cauldron.text.1",
+     "codex.quest.et_sorcery.cauldron.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_extraction_cauldron"
+      "id": "eternal_tales:get_extraction_cauldron",
+      "note": "codex.quest.et_sorcery.cauldron.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_essence_gem"
+      "id": "eternal_tales:get_essence_gem",
+      "note": "codex.quest.et_sorcery.cauldron.task.1"
      }
     ],
     "deps": [
@@ -548,19 +674,23 @@
     "id": "matrix",
     "title": "codex.quest.et_sorcery.matrix.title",
     "icon": "eternal_tales:runic_armor_helmet",
-    "x": 0,
-    "y": 2,
+    "x": 6,
+    "y": 9,
     "text": [
-     "codex.quest.et_sorcery.matrix.text.0"
+     "codex.quest.et_sorcery.matrix.text.0",
+     "codex.quest.et_sorcery.matrix.text.1",
+     "codex.quest.et_sorcery.matrix.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_runic_matrix_enchantment"
+      "id": "eternal_tales:get_runic_matrix_enchantment",
+      "note": "codex.quest.et_sorcery.matrix.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_runic_armor"
+      "id": "eternal_tales:get_runic_armor",
+      "note": "codex.quest.et_sorcery.matrix.task.1"
      }
     ],
     "deps": [
@@ -576,15 +706,18 @@
     "id": "books",
     "title": "codex.quest.et_sorcery.books.title",
     "icon": "eternal_tales:sorcery_book_achievement_item",
-    "x": 0,
-    "y": 3,
+    "x": 8,
+    "y": 9,
     "text": [
-     "codex.quest.et_sorcery.books.text.0"
+     "codex.quest.et_sorcery.books.text.0",
+     "codex.quest.et_sorcery.books.text.1",
+     "codex.quest.et_sorcery.books.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_sorcery_book"
+      "id": "eternal_tales:get_any_sorcery_book",
+      "note": "codex.quest.et_sorcery.books.task.0"
      }
     ],
     "deps": [
@@ -600,15 +733,18 @@
     "id": "astral",
     "title": "codex.quest.et_sorcery.astral.title",
     "icon": "eternal_tales:astral_enchancer",
-    "x": 0,
-    "y": 4,
+    "x": 10,
+    "y": 7,
     "text": [
-     "codex.quest.et_sorcery.astral.text.0"
+     "codex.quest.et_sorcery.astral.text.0",
+     "codex.quest.et_sorcery.astral.text.1",
+     "codex.quest.et_sorcery.astral.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:enchant_something_on_astral_enchancer"
+      "id": "eternal_tales:enchant_something_on_astral_enchancer",
+      "note": "codex.quest.et_sorcery.astral.task.0"
      }
     ],
     "deps": [
@@ -624,19 +760,23 @@
     "id": "rituals",
     "title": "codex.quest.et_sorcery.rituals.title",
     "icon": "eternal_tales:ritual_activator_luck_blueprint",
-    "x": 0,
-    "y": 5,
+    "x": 12,
+    "y": 8,
     "text": [
-     "codex.quest.et_sorcery.rituals.text.0"
+     "codex.quest.et_sorcery.rituals.text.0",
+     "codex.quest.et_sorcery.rituals.text.1",
+     "codex.quest.et_sorcery.rituals.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_blueprint"
+      "id": "eternal_tales:get_any_blueprint",
+      "note": "codex.quest.et_sorcery.rituals.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:duplicate_blueprint_on_printer"
+      "id": "eternal_tales:duplicate_blueprint_on_printer",
+      "note": "codex.quest.et_sorcery.rituals.task.1"
      }
     ],
     "deps": [
@@ -652,10 +792,12 @@
     "id": "altars",
     "title": "codex.quest.et_sorcery.altars.title",
     "icon": "eternal_tales:arei_altar",
-    "x": 1,
-    "y": 5,
+    "x": 14,
+    "y": 7,
     "text": [
-     "codex.quest.et_sorcery.altars.text.0"
+     "codex.quest.et_sorcery.altars.text.0",
+     "codex.quest.et_sorcery.altars.text.1",
+     "codex.quest.et_sorcery.altars.text.2"
     ],
     "tasks": [
      {
@@ -674,7 +816,8 @@
      "text": []
     }
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_archaeology",
@@ -683,16 +826,21 @@
   "title": "codex.chapter.et_archaeology.title",
   "icon": "eternal_tales:venetium_brush",
   "subtitle": "codex.chapter.et_archaeology.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.et_archaeology.intro.0",
+   "codex.chapter.et_archaeology.intro.1"
+  ],
   "quests": [
    {
     "id": "brush",
     "title": "codex.quest.et_archaeology.brush.title",
     "icon": "eternal_tales:venetium_brush",
-    "x": 0,
-    "y": 0,
+    "x": 2,
+    "y": 12,
     "text": [
-     "codex.quest.et_archaeology.brush.text.0"
+     "codex.quest.et_archaeology.brush.text.0",
+     "codex.quest.et_archaeology.brush.text.1",
+     "codex.quest.et_archaeology.brush.text.2"
     ],
     "tasks": [
      {
@@ -702,32 +850,40 @@
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:excavate_suspicious_block_by_venetium_or_truadamantite_brush"
+      "id": "eternal_tales:excavate_suspicious_block_by_venetium_or_truadamantite_brush",
+      "note": "codex.quest.et_archaeology.brush.task.1"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "sherds",
     "title": "codex.quest.et_archaeology.sherds.title",
     "icon": "eternal_tales:brilliant_neodymium_vase",
-    "x": 0,
-    "y": 1,
+    "x": 4,
+    "y": 9,
     "text": [
-     "codex.quest.et_archaeology.sherds.text.0"
+     "codex.quest.et_archaeology.sherds.text.0",
+     "codex.quest.et_archaeology.sherds.text.1",
+     "codex.quest.et_archaeology.sherds.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_of_neodymium_pottery_sherds"
+      "id": "eternal_tales:get_any_of_neodymium_pottery_sherds",
+      "note": "codex.quest.et_archaeology.sherds.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_of_neodymium_vases"
+      "id": "eternal_tales:get_any_of_neodymium_vases",
+      "note": "codex.quest.et_archaeology.sherds.task.1"
      }
     ],
     "deps": [
@@ -743,15 +899,18 @@
     "id": "blueprints",
     "title": "codex.quest.et_archaeology.blueprints.title",
     "icon": "eternal_tales:blueprint",
-    "x": 0,
-    "y": 2,
+    "x": 6,
+    "y": 10,
     "text": [
-     "codex.quest.et_archaeology.blueprints.text.0"
+     "codex.quest.et_archaeology.blueprints.text.0",
+     "codex.quest.et_archaeology.blueprints.text.1",
+     "codex.quest.et_archaeology.blueprints.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_blueprint"
+      "id": "eternal_tales:get_any_blueprint",
+      "note": "codex.quest.et_archaeology.blueprints.task.0"
      }
     ],
     "deps": [
@@ -767,15 +926,18 @@
     "id": "shredder",
     "title": "codex.quest.et_archaeology.shredder.title",
     "icon": "eternal_tales:shredder",
-    "x": 0,
-    "y": 3,
+    "x": 8,
+    "y": 10,
     "text": [
-     "codex.quest.et_archaeology.shredder.text.0"
+     "codex.quest.et_archaeology.shredder.text.0",
+     "codex.quest.et_archaeology.shredder.text.1",
+     "codex.quest.et_archaeology.shredder.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:remove_the_blueprint_in_shredder_to_increase_archaeology_skill_level"
+      "id": "eternal_tales:remove_the_blueprint_in_shredder_to_increase_archaeology_skill_level",
+      "note": "codex.quest.et_archaeology.shredder.task.0"
      }
     ],
     "deps": [
@@ -791,15 +953,18 @@
     "id": "totems",
     "title": "codex.quest.et_archaeology.totems.title",
     "icon": "eternal_tales:ceramic_totem",
-    "x": 0,
-    "y": 4,
+    "x": 10,
+    "y": 8,
     "text": [
-     "codex.quest.et_archaeology.totems.text.0"
+     "codex.quest.et_archaeology.totems.text.0",
+     "codex.quest.et_archaeology.totems.text.1",
+     "codex.quest.et_archaeology.totems.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_archaeology_totem"
+      "id": "eternal_tales:get_any_archaeology_totem",
+      "note": "codex.quest.et_archaeology.totems.task.0"
      }
     ],
     "deps": [
@@ -815,13 +980,15 @@
     "id": "jewelry",
     "title": "codex.quest.et_archaeology.jewelry.title",
     "icon": "eternal_tales:jewelry_table",
-    "x": 1,
-    "y": 2,
+    "x": 4,
+    "y": 10,
     "deps": [
      "brush"
     ],
     "text": [
-     "codex.quest.et_archaeology.jewelry.text.0"
+     "codex.quest.et_archaeology.jewelry.text.0",
+     "codex.quest.et_archaeology.jewelry.text.1",
+     "codex.quest.et_archaeology.jewelry.text.2"
     ],
     "tasks": [
      {
@@ -850,18 +1017,21 @@
     "id": "rings",
     "title": "codex.quest.et_archaeology.rings.title",
     "icon": "eternal_tales:gold_ring",
-    "x": 2,
-    "y": 2,
+    "x": 6,
+    "y": 11,
     "deps": [
      "jewelry"
     ],
     "text": [
-     "codex.quest.et_archaeology.rings.text.0"
+     "codex.quest.et_archaeology.rings.text.0",
+     "codex.quest.et_archaeology.rings.text.1",
+     "codex.quest.et_archaeology.rings.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_gold_ring"
+      "id": "eternal_tales:get_gold_ring",
+      "note": "codex.quest.et_archaeology.rings.task.0"
      }
     ],
     "optional": true,
@@ -870,8 +1040,70 @@
      "xp": 60,
      "text": []
     }
+   },
+   {
+    "id": "guide_archive",
+    "title": "codex.quest.et_archaeology.guide_archive.title",
+    "icon": "minecraft:chest",
+    "deps": [
+     "blueprints"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:chest",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Отложить один нужный оригинал чертежа отдельно от копий для шреддера",
+      "note": "codex.quest.et_archaeology.guide_archive.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 11,
+    "text": [
+     "codex.quest.et_archaeology.guide_archive.text.0",
+     "codex.quest.et_archaeology.guide_archive.text.1",
+     "codex.quest.et_archaeology.guide_archive.text.2"
+    ]
+   },
+   {
+    "id": "guide_copy_recycle",
+    "title": "codex.quest.et_archaeology.guide_copy_recycle.title",
+    "icon": "minecraft:paper",
+    "deps": [
+     "guide_archive"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Скопировать сохранённый чертёж в принтере, переработать одну копию в шреддере и проверить наличие оригинала",
+      "note": "codex.quest.et_archaeology.guide_copy_recycle.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 9,
+    "text": [
+     "codex.quest.et_archaeology.guide_copy_recycle.text.0",
+     "codex.quest.et_archaeology.guide_copy_recycle.text.1",
+     "codex.quest.et_archaeology.guide_copy_recycle.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_farming",
@@ -880,54 +1112,69 @@
   "title": "codex.chapter.et_farming.title",
   "icon": "eternal_tales:gardeners_pot",
   "subtitle": "codex.chapter.et_farming.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.et_farming.intro.0",
+   "codex.chapter.et_farming.intro.1"
+  ],
   "quests": [
    {
     "id": "pot",
     "title": "codex.quest.et_farming.pot.title",
     "icon": "eternal_tales:gardeners_pot",
-    "x": 0,
-    "y": 0,
+    "x": 2,
+    "y": 13,
     "text": [
-     "codex.quest.et_farming.pot.text.0"
+     "codex.quest.et_farming.pot.text.0",
+     "codex.quest.et_farming.pot.text.1",
+     "codex.quest.et_farming.pot.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_gardeners_pot"
+      "id": "eternal_tales:get_gardeners_pot",
+      "note": "codex.quest.et_farming.pot.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_nether_gardeners_pot"
+      "id": "eternal_tales:get_nether_gardeners_pot",
+      "note": "codex.quest.et_farming.pot.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_ectraterrestrial_gardeners_pot"
+      "id": "eternal_tales:get_ectraterrestrial_gardeners_pot",
+      "note": "codex.quest.et_farming.pot.task.2"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "machines",
     "title": "codex.quest.et_farming.machines.title",
     "icon": "eternal_tales:irrigating_machine",
-    "x": 0,
-    "y": 1,
+    "x": 4,
+    "y": 11,
     "text": [
-     "codex.quest.et_farming.machines.text.0"
+     "codex.quest.et_farming.machines.text.0",
+     "codex.quest.et_farming.machines.text.1",
+     "codex.quest.et_farming.machines.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_irrigating_machine"
+      "id": "eternal_tales:get_irrigating_machine",
+      "note": "codex.quest.et_farming.machines.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_fertilizing_machine"
+      "id": "eternal_tales:get_fertilizing_machine",
+      "note": "codex.quest.et_farming.machines.task.1"
      }
     ],
     "deps": [
@@ -943,19 +1190,23 @@
     "id": "fishing_nets",
     "title": "codex.quest.et_farming.fishing_nets.title",
     "icon": "eternal_tales:fish_web",
-    "x": 0,
-    "y": 2,
+    "x": 6,
+    "y": 12,
     "text": [
-     "codex.quest.et_farming.fishing_nets.text.0"
+     "codex.quest.et_farming.fishing_nets.text.0",
+     "codex.quest.et_farming.fishing_nets.text.1",
+     "codex.quest.et_farming.fishing_nets.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_fishing_web"
+      "id": "eternal_tales:get_fishing_web",
+      "note": "codex.quest.et_farming.fishing_nets.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_nether_fishing_web"
+      "id": "eternal_tales:get_nether_fishing_web",
+      "note": "codex.quest.et_farming.fishing_nets.task.1"
      }
     ],
     "deps": [
@@ -971,10 +1222,12 @@
     "id": "bugs",
     "title": "codex.quest.et_farming.bugs.title",
     "icon": "eternal_tales:bug_net",
-    "x": 0,
-    "y": 3,
+    "x": 8,
+    "y": 12,
     "text": [
-     "codex.quest.et_farming.bugs.text.0"
+     "codex.quest.et_farming.bugs.text.0",
+     "codex.quest.et_farming.bugs.text.1",
+     "codex.quest.et_farming.bugs.text.2"
     ],
     "tasks": [
      {
@@ -996,19 +1249,23 @@
     "id": "pets",
     "title": "codex.quest.et_farming.pets.title",
     "icon": "eternal_tales:raccoon_flag",
-    "x": 0,
-    "y": 4,
+    "x": 10,
+    "y": 10,
     "text": [
-     "codex.quest.et_farming.pets.text.0"
+     "codex.quest.et_farming.pets.text.0",
+     "codex.quest.et_farming.pets.text.1",
+     "codex.quest.et_farming.pets.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:pet_the_raccoon"
+      "id": "eternal_tales:pet_the_raccoon",
+      "note": "codex.quest.et_farming.pets.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:tame_all_types_of_gultravs"
+      "id": "eternal_tales:tame_all_types_of_gultravs",
+      "note": "codex.quest.et_farming.pets.task.1"
      }
     ],
     "optional": true,
@@ -1020,8 +1277,94 @@
      "xp": 60,
      "text": []
     }
+   },
+   {
+    "id": "guide_first_harvest",
+    "title": "codex.quest.et_farming.guide_first_harvest.title",
+    "icon": "eternal_tales:gardeners_pot",
+    "deps": [
+     "pot"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Вырастить и собрать растение в горшке, поддерживая воду и удобрение выше пяти",
+      "note": "codex.quest.et_farming.guide_first_harvest.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 12,
+    "text": [
+     "codex.quest.et_farming.guide_first_harvest.text.0",
+     "codex.quest.et_farming.guide_first_harvest.text.1",
+     "codex.quest.et_farming.guide_first_harvest.text.2"
+    ]
+   },
+   {
+    "id": "guide_serviced_harvest",
+    "title": "codex.quest.et_farming.guide_serviced_harvest.title",
+    "icon": "eternal_tales:irrigating_machine",
+    "deps": [
+     "guide_first_harvest",
+     "machines"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Получить следующий урожай при обслуживании машинами, не доливая воду и удобрение вручную в горшок",
+      "note": "codex.quest.et_farming.guide_serviced_harvest.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 13,
+    "text": [
+     "codex.quest.et_farming.guide_serviced_harvest.text.0",
+     "codex.quest.et_farming.guide_serviced_harvest.text.1",
+     "codex.quest.et_farming.guide_serviced_harvest.text.2"
+    ]
+   },
+   {
+    "id": "guide_bait_log",
+    "title": "codex.quest.et_farming.guide_bait_log.title",
+    "icon": "eternal_tales:bug_net",
+    "deps": [
+     "bugs"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Поймать два разных вида насекомых, сравнить их Fishing Luck и выполнить по одной ловле с каждым",
+      "note": "codex.quest.et_farming.guide_bait_log.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 11,
+    "text": [
+     "codex.quest.et_farming.guide_bait_log.text.0",
+     "codex.quest.et_farming.guide_bait_log.text.1",
+     "codex.quest.et_farming.guide_bait_log.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_overworld",
@@ -1031,67 +1374,83 @@
   "icon": "eternal_tales:cobaltingot",
   "subtitle": "codex.chapter.et_overworld.subtitle",
   "intro": [
-   "codex.chapter.et_overworld.intro.0"
+   "codex.chapter.et_overworld.intro.0",
+   "codex.chapter.et_overworld.intro.1"
   ],
   "quests": [
    {
     "id": "ores",
     "title": "codex.quest.et_overworld.ores.title",
     "icon": "eternal_tales:cobaltingot",
-    "x": 0,
-    "y": 0,
+    "x": 2,
+    "y": 14,
     "text": [
-     "codex.quest.et_overworld.ores.text.0"
+     "codex.quest.et_overworld.ores.text.0",
+     "codex.quest.et_overworld.ores.text.1",
+     "codex.quest.et_overworld.ores.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_cobalt"
+      "id": "eternal_tales:get_cobalt",
+      "note": "codex.quest.et_overworld.ores.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_cobalt_pickaxe"
+      "id": "eternal_tales:get_cobalt_pickaxe",
+      "note": "codex.quest.et_overworld.ores.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_ruby_pickaxe"
+      "id": "eternal_tales:get_ruby_pickaxe",
+      "note": "codex.quest.et_overworld.ores.task.2"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_uranium_without_an_protection"
+      "id": "eternal_tales:get_uranium_without_an_protection",
+      "note": "codex.quest.et_overworld.ores.task.3"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "moons",
     "title": "codex.quest.et_overworld.moons.title",
     "icon": "eternal_tales:bloody_totem",
-    "x": 0,
-    "y": 1,
+    "x": 4,
+    "y": 13,
     "text": [
-     "codex.quest.et_overworld.moons.text.0"
+     "codex.quest.et_overworld.moons.text.0",
+     "codex.quest.et_overworld.moons.text.1",
+     "codex.quest.et_overworld.moons.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:make_the_blood_moon_rise"
+      "id": "eternal_tales:make_the_blood_moon_rise",
+      "note": "codex.quest.et_overworld.moons.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:stay_alive_during_blood_moon"
+      "id": "eternal_tales:stay_alive_during_blood_moon",
+      "note": "codex.quest.et_overworld.moons.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:make_the_blue_moon_rise"
+      "id": "eternal_tales:make_the_blue_moon_rise",
+      "note": "codex.quest.et_overworld.moons.task.2"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:make_the_clown_moon_rise"
+      "id": "eternal_tales:make_the_clown_moon_rise",
+      "note": "codex.quest.et_overworld.moons.task.3"
      }
     ],
     "deps": [
@@ -1107,23 +1466,28 @@
     "id": "bosses_ow",
     "title": "codex.quest.et_overworld.bosses_ow.title",
     "icon": "eternal_tales:ravrite_queen_banner",
-    "x": 0,
-    "y": 2,
+    "x": 6,
+    "y": 14,
     "text": [
-     "codex.quest.et_overworld.bosses_ow.text.0"
+     "codex.quest.et_overworld.bosses_ow.text.0",
+     "codex.quest.et_overworld.bosses_ow.text.1",
+     "codex.quest.et_overworld.bosses_ow.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_ravrite_queen"
+      "id": "eternal_tales:kill_ravrite_queen",
+      "note": "codex.quest.et_overworld.bosses_ow.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_dreadful_sapling"
+      "id": "eternal_tales:kill_dreadful_sapling",
+      "note": "codex.quest.et_overworld.bosses_ow.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_grotesterk"
+      "id": "eternal_tales:kill_grotesterk",
+      "note": "codex.quest.et_overworld.bosses_ow.task.2"
      }
     ],
     "deps": [
@@ -1139,19 +1503,23 @@
     "id": "seasonal",
     "title": "codex.quest.et_overworld.seasonal.title",
     "icon": "eternal_tales:ekatebrina_banner",
-    "x": 1,
-    "y": 2,
+    "x": 8,
+    "y": 13,
     "text": [
-     "codex.quest.et_overworld.seasonal.text.0"
+     "codex.quest.et_overworld.seasonal.text.0",
+     "codex.quest.et_overworld.seasonal.text.1",
+     "codex.quest.et_overworld.seasonal.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_ekatebrina"
+      "id": "eternal_tales:kill_ekatebrina",
+      "note": "codex.quest.et_overworld.seasonal.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_halloween_spirit"
+      "id": "eternal_tales:kill_halloween_spirit",
+      "note": "codex.quest.et_overworld.seasonal.task.1"
      }
     ],
     "optional": true,
@@ -1168,23 +1536,27 @@
     "id": "vivid",
     "title": "codex.quest.et_overworld.vivid.title",
     "icon": "eternal_tales:livetreebanner",
-    "x": 0,
-    "y": 3,
+    "x": 4,
+    "y": 14,
     "text": [
-     "codex.quest.et_overworld.vivid.text.0"
+     "codex.quest.et_overworld.vivid.text.0",
+     "codex.quest.et_overworld.vivid.text.1",
+     "codex.quest.et_overworld.vivid.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_vivid"
+      "id": "eternal_tales:kill_vivid",
+      "note": "codex.quest.et_overworld.vivid.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_vivids_oathsword"
+      "id": "eternal_tales:get_vivids_oathsword",
+      "note": "codex.quest.et_overworld.vivid.task.1"
      }
     ],
     "deps": [
-     "seasonal"
+     "ores"
     ],
     "rewards": {
      "items": [],
@@ -1196,10 +1568,12 @@
     "id": "interdim",
     "title": "codex.quest.et_overworld.interdim.title",
     "icon": "eternal_tales:interdimensional_creator",
-    "x": 0,
-    "y": 4,
+    "x": 6,
+    "y": 15,
     "text": [
-     "codex.quest.et_overworld.interdim.text.0"
+     "codex.quest.et_overworld.interdim.text.0",
+     "codex.quest.et_overworld.interdim.text.1",
+     "codex.quest.et_overworld.interdim.text.2"
     ],
     "tasks": [
      {
@@ -1214,7 +1588,8 @@
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:use_return_ticket"
+      "id": "eternal_tales:use_return_ticket",
+      "note": "codex.quest.et_overworld.interdim.task.2"
      }
     ],
     "rewards": {
@@ -1231,7 +1606,8 @@
      "vivid"
     ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_nether_end",
@@ -1240,21 +1616,27 @@
   "title": "codex.chapter.et_nether_end.title",
   "icon": "eternal_tales:hellish_clock",
   "subtitle": "codex.chapter.et_nether_end.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.et_nether_end.intro.0",
+   "codex.chapter.et_nether_end.intro.1"
+  ],
   "quests": [
    {
     "id": "nether_tower",
     "title": "codex.quest.et_nether_end.nether_tower.title",
     "icon": "eternal_tales:hellish_clock",
-    "x": 0,
-    "y": 0,
+    "x": 2,
+    "y": 15,
     "text": [
-     "codex.quest.et_nether_end.nether_tower.text.0"
+     "codex.quest.et_nether_end.nether_tower.text.0",
+     "codex.quest.et_nether_end.nether_tower.text.1",
+     "codex.quest.et_nether_end.nether_tower.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:nether_quest"
+      "id": "eternal_tales:nether_quest",
+      "note": "codex.quest.et_nether_end.nether_tower.task.0"
      },
      {
       "type": "item",
@@ -1266,25 +1648,33 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal",
+     "dim_nether/portal"
+    ]
    },
    {
     "id": "tsar",
     "title": "codex.quest.et_nether_end.tsar.title",
     "icon": "eternal_tales:tsar_of_piglins_banner",
-    "x": 0,
-    "y": 1,
+    "x": 4,
+    "y": 15,
     "text": [
-     "codex.quest.et_nether_end.tsar.text.0"
+     "codex.quest.et_nether_end.tsar.text.0",
+     "codex.quest.et_nether_end.tsar.text.1",
+     "codex.quest.et_nether_end.tsar.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_tsar_of_piglins"
+      "id": "eternal_tales:kill_tsar_of_piglins",
+      "note": "codex.quest.et_nether_end.tsar.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_piglin_warlock"
+      "id": "eternal_tales:kill_piglin_warlock",
+      "note": "codex.quest.et_nether_end.tsar.task.1"
      }
     ],
     "deps": [
@@ -1300,15 +1690,18 @@
     "id": "nether_res",
     "title": "codex.quest.et_nether_end.nether_res.title",
     "icon": "eternal_tales:bonespur",
-    "x": 1,
-    "y": 1,
+    "x": 6,
+    "y": 16,
     "text": [
-     "codex.quest.et_nether_end.nether_res.text.0"
+     "codex.quest.et_nether_end.nether_res.text.0",
+     "codex.quest.et_nether_end.nether_res.text.1",
+     "codex.quest.et_nether_end.nether_res.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_bonespur"
+      "id": "eternal_tales:get_bonespur",
+      "note": "codex.quest.et_nether_end.nether_res.task.0"
      },
      {
       "type": "item",
@@ -1334,15 +1727,18 @@
     "id": "end_quest",
     "title": "codex.quest.et_nether_end.end_quest.title",
     "icon": "eternal_tales:ancient_chorus_fruit",
-    "x": 0,
-    "y": 2,
+    "x": 8,
+    "y": 16,
     "text": [
-     "codex.quest.et_nether_end.end_quest.text.0"
+     "codex.quest.et_nether_end.end_quest.text.0",
+     "codex.quest.et_nether_end.end_quest.text.1",
+     "codex.quest.et_nether_end.end_quest.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:end_quest"
+      "id": "eternal_tales:end_quest",
+      "note": "codex.quest.et_nether_end.end_quest.task.0"
      },
      {
       "type": "item",
@@ -1363,15 +1759,18 @@
     "id": "endacea",
     "title": "codex.quest.et_nether_end.endacea.title",
     "icon": "eternal_tales:end_glowstone",
-    "x": 1,
-    "y": 2,
+    "x": 10,
+    "y": 15,
     "text": [
-     "codex.quest.et_nether_end.endacea.text.0"
+     "codex.quest.et_nether_end.endacea.text.0",
+     "codex.quest.et_nether_end.endacea.text.1",
+     "codex.quest.et_nether_end.endacea.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:ride_endacea"
+      "id": "eternal_tales:ride_endacea",
+      "note": "codex.quest.et_nether_end.endacea.task.0"
      }
     ],
     "optional": true,
@@ -1383,8 +1782,52 @@
      "xp": 60,
      "text": []
     }
+   },
+   {
+    "id": "guide_warlock_column",
+    "title": "codex.quest.et_nether_end.guide_warlock_column.title",
+    "icon": "minecraft:gilded_blackstone",
+    "deps": [
+     "nether_tower"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:polished_blackstone",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:polished_blackstone_bricks",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:gilded_blackstone",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Подготовить вертикаль снизу вверх: полированный чернит, полированные чернитные кирпичи, золочёный чернит; оставить свободную арену",
+      "note": "codex.quest.et_nether_end.guide_warlock_column.task.3"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 16,
+    "text": [
+     "codex.quest.et_nether_end.guide_warlock_column.text.0",
+     "codex.quest.et_nether_end.guide_warlock_column.text.1",
+     "codex.quest.et_nether_end.guide_warlock_column.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_comets",
@@ -1402,10 +1845,12 @@
     "id": "crystal",
     "title": "codex.quest.et_comets.crystal.title",
     "icon": "eternal_tales:comets",
-    "x": 0,
-    "y": 0,
+    "x": 8,
+    "y": 14,
     "text": [
-     "codex.quest.et_comets.crystal.text.0"
+     "codex.quest.et_comets.crystal.text.0",
+     "codex.quest.et_comets.crystal.text.1",
+     "codex.quest.et_comets.crystal.text.2"
     ],
     "tasks": [
      {
@@ -1418,25 +1863,32 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_overworld/interdim"
+    ]
    },
    {
     "id": "enter",
     "title": "codex.quest.et_comets.enter.title",
     "icon": "eternal_tales:blue_comets_grass_block",
-    "x": 0,
-    "y": 1,
+    "x": 10,
+    "y": 12,
     "text": [
-     "codex.quest.et_comets.enter.text.0"
+     "codex.quest.et_comets.enter.text.0",
+     "codex.quest.et_comets.enter.text.1",
+     "codex.quest.et_comets.enter.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:into_comets"
+      "id": "eternal_tales:into_comets",
+      "note": "codex.quest.et_comets.enter.task.0"
      },
      {
       "type": "dimension",
-      "id": "eternal_tales:comets"
+      "id": "eternal_tales:comets",
+      "note": "codex.quest.et_comets.enter.task.1"
      }
     ],
     "deps": [
@@ -1452,10 +1904,12 @@
     "id": "skylite",
     "title": "codex.quest.et_comets.skylite.title",
     "icon": "eternal_tales:skylite_ingot",
-    "x": 0,
-    "y": 2,
+    "x": 12,
+    "y": 9,
     "text": [
-     "codex.quest.et_comets.skylite.text.0"
+     "codex.quest.et_comets.skylite.text.0",
+     "codex.quest.et_comets.skylite.text.1",
+     "codex.quest.et_comets.skylite.text.2"
     ],
     "tasks": [
      {
@@ -1465,7 +1919,8 @@
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_aerolite_nugget"
+      "id": "eternal_tales:get_aerolite_nugget",
+      "note": "codex.quest.et_comets.skylite.task.1"
      }
     ],
     "deps": [
@@ -1481,15 +1936,18 @@
     "id": "tree",
     "title": "codex.quest.et_comets.tree.title",
     "icon": "eternal_tales:comet_banner",
-    "x": 0,
-    "y": 3,
+    "x": 14,
+    "y": 8,
     "text": [
-     "codex.quest.et_comets.tree.text.0"
+     "codex.quest.et_comets.tree.text.0",
+     "codex.quest.et_comets.tree.text.1",
+     "codex.quest.et_comets.tree.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_terrible_tree"
+      "id": "eternal_tales:kill_terrible_tree",
+      "note": "codex.quest.et_comets.tree.task.0"
      }
     ],
     "rewards": {
@@ -1510,15 +1968,18 @@
     "id": "quest_comets",
     "title": "codex.quest.et_comets.quest_comets.title",
     "icon": "eternal_tales:comet_flea_egg",
-    "x": 1,
-    "y": 3,
+    "x": 16,
+    "y": 8,
     "text": [
-     "codex.quest.et_comets.quest_comets.text.0"
+     "codex.quest.et_comets.quest_comets.text.0",
+     "codex.quest.et_comets.quest_comets.text.1",
+     "codex.quest.et_comets.quest_comets.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:comets_quest"
+      "id": "eternal_tales:comets_quest",
+      "note": "codex.quest.et_comets.quest_comets.task.0"
      }
     ],
     "deps": [
@@ -1534,18 +1995,21 @@
     "id": "ice",
     "title": "codex.quest.et_comets.ice.title",
     "icon": "eternal_tales:cryothermic_ice",
-    "x": 1,
-    "y": 2,
+    "x": 12,
+    "y": 10,
     "deps": [
      "enter"
     ],
     "text": [
-     "codex.quest.et_comets.ice.text.0"
+     "codex.quest.et_comets.ice.text.0",
+     "codex.quest.et_comets.ice.text.1",
+     "codex.quest.et_comets.ice.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:enter_into_comets_icelands_biome"
+      "id": "eternal_tales:enter_into_comets_icelands_biome",
+      "note": "codex.quest.et_comets.ice.task.0"
      }
     ],
     "optional": true,
@@ -1559,18 +2023,21 @@
     "id": "comethorn",
     "title": "codex.quest.et_comets.comethorn.title",
     "icon": "eternal_tales:geobstractsite_tubes",
-    "x": 2,
-    "y": 2,
+    "x": 12,
+    "y": 11,
     "deps": [
      "enter"
     ],
     "text": [
-     "codex.quest.et_comets.comethorn.text.0"
+     "codex.quest.et_comets.comethorn.text.0",
+     "codex.quest.et_comets.comethorn.text.1",
+     "codex.quest.et_comets.comethorn.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:tame_comethorn"
+      "id": "eternal_tales:tame_comethorn",
+      "note": "codex.quest.et_comets.comethorn.task.0"
      }
     ],
     "optional": true,
@@ -1579,8 +2046,75 @@
      "xp": 60,
      "text": []
     }
+   },
+   {
+    "id": "guide_island_route",
+    "title": "codex.quest.et_comets.guide_island_route.title",
+    "icon": "minecraft:cobblestone",
+    "deps": [
+     "enter"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:cobblestone",
+      "count": 64
+     },
+     {
+      "type": "check",
+      "id": "Проложить безопасный путь от портала к соседнему острову и пройти по нему туда и обратно без прыжков через пустоту",
+      "note": "codex.quest.et_comets.guide_island_route.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 12,
+    "text": [
+     "codex.quest.et_comets.guide_island_route.text.0",
+     "codex.quest.et_comets.guide_island_route.text.1",
+     "codex.quest.et_comets.guide_island_route.text.2"
+    ]
+   },
+   {
+    "id": "guide_tragedy_tools",
+    "title": "codex.quest.et_comets.guide_tragedy_tools.title",
+    "icon": "eternal_tales:axe_of_evil",
+    "deps": [
+     "skylite"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "eternal_tales:axe_of_evil",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:asteroid_stone",
+      "count": 16
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 9,
+    "text": [
+     "codex.quest.et_comets.guide_tragedy_tools.text.0",
+     "codex.quest.et_comets.guide_tragedy_tools.text.1",
+     "codex.quest.et_comets.guide_tragedy_tools.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_purgatorium",
@@ -1598,10 +2132,12 @@
     "id": "hellrock",
     "title": "codex.quest.et_purgatorium.hellrock.title",
     "icon": "eternal_tales:hellrock",
-    "x": 0,
-    "y": 0,
+    "x": 8,
+    "y": 15,
     "text": [
-     "codex.quest.et_purgatorium.hellrock.text.0"
+     "codex.quest.et_purgatorium.hellrock.text.0",
+     "codex.quest.et_purgatorium.hellrock.text.1",
+     "codex.quest.et_purgatorium.hellrock.text.2"
     ],
     "tasks": [
      {
@@ -1614,21 +2150,28 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_overworld/interdim"
+    ]
    },
    {
     "id": "rock_blaze",
     "title": "codex.quest.et_purgatorium.rock_blaze.title",
     "icon": "eternal_tales:hellish_banner",
-    "x": 0,
-    "y": 1,
+    "x": 10,
+    "y": 13,
     "text": [
-     "codex.quest.et_purgatorium.rock_blaze.text.0"
+     "codex.quest.et_purgatorium.rock_blaze.text.0",
+     "codex.quest.et_purgatorium.rock_blaze.text.1",
+     "codex.quest.et_purgatorium.rock_blaze.text.2",
+     "codex.quest.et_purgatorium.rock_blaze.text.3"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_rock_blaze"
+      "id": "eternal_tales:kill_rock_blaze",
+      "note": "codex.quest.et_purgatorium.rock_blaze.task.0"
      }
     ],
     "deps": [
@@ -1644,10 +2187,12 @@
     "id": "crystal_purg",
     "title": "codex.quest.et_purgatorium.crystal_purg.title",
     "icon": "eternal_tales:purgatorium",
-    "x": 0,
-    "y": 2,
+    "x": 12,
+    "y": 13,
     "text": [
-     "codex.quest.et_purgatorium.crystal_purg.text.0"
+     "codex.quest.et_purgatorium.crystal_purg.text.0",
+     "codex.quest.et_purgatorium.crystal_purg.text.1",
+     "codex.quest.et_purgatorium.crystal_purg.text.2"
     ],
     "tasks": [
      {
@@ -1657,11 +2202,13 @@
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:into_purgatorium"
+      "id": "eternal_tales:into_purgatorium",
+      "note": "codex.quest.et_purgatorium.crystal_purg.task.1"
      },
      {
       "type": "dimension",
-      "id": "eternal_tales:purgatorium"
+      "id": "eternal_tales:purgatorium",
+      "note": "codex.quest.et_purgatorium.crystal_purg.task.2"
      }
     ],
     "deps": [
@@ -1677,10 +2224,12 @@
     "id": "rune",
     "title": "codex.quest.et_purgatorium.rune.title",
     "icon": "eternal_tales:fallen_rune",
-    "x": 0,
-    "y": 3,
+    "x": 14,
+    "y": 10,
     "text": [
-     "codex.quest.et_purgatorium.rune.text.0"
+     "codex.quest.et_purgatorium.rune.text.0",
+     "codex.quest.et_purgatorium.rune.text.1",
+     "codex.quest.et_purgatorium.rune.text.2"
     ],
     "tasks": [
      {
@@ -1702,15 +2251,18 @@
     "id": "nyetet",
     "title": "codex.quest.et_purgatorium.nyetet.title",
     "icon": "eternal_tales:purgatory_banner",
-    "x": 0,
-    "y": 4,
+    "x": 16,
+    "y": 9,
     "text": [
-     "codex.quest.et_purgatorium.nyetet.text.0"
+     "codex.quest.et_purgatorium.nyetet.text.0",
+     "codex.quest.et_purgatorium.nyetet.text.1",
+     "codex.quest.et_purgatorium.nyetet.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_nyetet"
+      "id": "eternal_tales:kill_nyetet",
+      "note": "codex.quest.et_purgatorium.nyetet.task.0"
      }
     ],
     "rewards": {
@@ -1731,15 +2283,18 @@
     "id": "quest_purg",
     "title": "codex.quest.et_purgatorium.quest_purg.title",
     "icon": "eternal_tales:leviathan_blossom",
-    "x": 1,
-    "y": 3,
+    "x": 18,
+    "y": 9,
     "text": [
-     "codex.quest.et_purgatorium.quest_purg.text.0"
+     "codex.quest.et_purgatorium.quest_purg.text.0",
+     "codex.quest.et_purgatorium.quest_purg.text.1",
+     "codex.quest.et_purgatorium.quest_purg.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:purgatorium_quest"
+      "id": "eternal_tales:purgatorium_quest",
+      "note": "codex.quest.et_purgatorium.quest_purg.task.0"
      }
     ],
     "deps": [
@@ -1755,13 +2310,15 @@
     "id": "lapsidian",
     "title": "codex.quest.et_purgatorium.lapsidian.title",
     "icon": "eternal_tales:lapsidian_ingot",
-    "x": 1,
-    "y": 2,
+    "x": 14,
+    "y": 11,
     "deps": [
      "crystal_purg"
     ],
     "text": [
-     "codex.quest.et_purgatorium.lapsidian.text.0"
+     "codex.quest.et_purgatorium.lapsidian.text.0",
+     "codex.quest.et_purgatorium.lapsidian.text.1",
+     "codex.quest.et_purgatorium.lapsidian.text.2"
     ],
     "tasks": [
      {
@@ -1780,8 +2337,75 @@
      "xp": 60,
      "text": []
     }
+   },
+   {
+    "id": "guide_hellrock_batch",
+    "title": "codex.quest.et_purgatorium.guide_hellrock_batch.title",
+    "icon": "eternal_tales:hellrock",
+    "deps": [
+     "hellrock"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "eternal_tales:hellrock",
+      "count": 9
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 14,
+    "text": [
+     "codex.quest.et_purgatorium.guide_hellrock_batch.text.0",
+     "codex.quest.et_purgatorium.guide_hellrock_batch.text.1",
+     "codex.quest.et_purgatorium.guide_hellrock_batch.text.2"
+    ]
+   },
+   {
+    "id": "guide_rune_parts",
+    "title": "codex.quest.et_purgatorium.guide_rune_parts.title",
+    "icon": "eternal_tales:fallen_rune_part",
+    "deps": [
+     "crystal_purg"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "eternal_tales:fallen_rune_part",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:fallen_rune_part_2",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "eternal_tales:fallen_rune_3",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 12,
+    "text": [
+     "codex.quest.et_purgatorium.guide_rune_parts.text.0",
+     "codex.quest.et_purgatorium.guide_rune_parts.text.1",
+     "codex.quest.et_purgatorium.guide_rune_parts.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_eden",
@@ -1799,10 +2423,12 @@
     "id": "sunstone",
     "title": "codex.quest.et_eden.sunstone.title",
     "icon": "eternal_tales:sun_stone_nugget",
-    "x": 0,
-    "y": 0,
+    "x": 10,
+    "y": 16,
     "text": [
-     "codex.quest.et_eden.sunstone.text.0"
+     "codex.quest.et_eden.sunstone.text.0",
+     "codex.quest.et_eden.sunstone.text.1",
+     "codex.quest.et_eden.sunstone.text.2"
     ],
     "tasks": [
      {
@@ -1815,29 +2441,36 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_nether_end/end_quest"
+    ]
    },
    {
     "id": "enter_eden",
     "title": "codex.quest.et_eden.enter_eden.title",
     "icon": "eternal_tales:edem_grass_block",
-    "x": 0,
-    "y": 1,
+    "x": 14,
+    "y": 13,
     "text": [
-     "codex.quest.et_eden.enter_eden.text.0"
+     "codex.quest.et_eden.enter_eden.text.0",
+     "codex.quest.et_eden.enter_eden.text.1",
+     "codex.quest.et_eden.enter_eden.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:into_eden"
+      "id": "eternal_tales:into_eden",
+      "note": "codex.quest.et_eden.enter_eden.task.0"
      },
      {
       "type": "dimension",
-      "id": "eternal_tales:gardens_of_eden"
+      "id": "eternal_tales:gardens_of_eden",
+      "note": "codex.quest.et_eden.enter_eden.task.1"
      }
     ],
     "deps": [
-     "sunstone"
+     "crystal_eden"
     ],
     "rewards": {
      "items": [],
@@ -1849,8 +2482,8 @@
     "id": "crystal_eden",
     "title": "codex.quest.et_eden.crystal_eden.title",
     "icon": "eternal_tales:gardens_of_eden",
-    "x": 0,
-    "y": 2,
+    "x": 12,
+    "y": 14,
     "tasks": [
      {
       "type": "item",
@@ -1859,31 +2492,40 @@
      }
     ],
     "deps": [
-     "enter_eden"
+     "sunstone"
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "text": [
+     "codex.quest.et_eden.crystal_eden.text.0",
+     "codex.quest.et_eden.crystal_eden.text.1",
+     "codex.quest.et_eden.crystal_eden.text.2"
+    ]
    },
    {
     "id": "sunfurry",
     "title": "codex.quest.et_eden.sunfurry.title",
     "icon": "eternal_tales:sunfurry_warrior_armor_helmet",
-    "x": 0,
-    "y": 3,
+    "x": 14,
+    "y": 14,
     "text": [
-     "codex.quest.et_eden.sunfurry.text.0"
+     "codex.quest.et_eden.sunfurry.text.0",
+     "codex.quest.et_eden.sunfurry.text.1",
+     "codex.quest.et_eden.sunfurry.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:eden_warrior"
+      "id": "eternal_tales:eden_warrior",
+      "note": "codex.quest.et_eden.sunfurry.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:eden_quest"
+      "id": "eternal_tales:eden_quest",
+      "note": "codex.quest.et_eden.sunfurry.task.1"
      },
      {
       "type": "item",
@@ -1904,15 +2546,18 @@
     "id": "jaghax",
     "title": "codex.quest.et_eden.jaghax.title",
     "icon": "eternal_tales:eden_banner",
-    "x": 0,
-    "y": 4,
+    "x": 16,
+    "y": 12,
     "text": [
-     "codex.quest.et_eden.jaghax.text.0"
+     "codex.quest.et_eden.jaghax.text.0",
+     "codex.quest.et_eden.jaghax.text.1",
+     "codex.quest.et_eden.jaghax.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_jaghax"
+      "id": "eternal_tales:kill_jaghax",
+      "note": "codex.quest.et_eden.jaghax.task.0"
      }
     ],
     "deps": [
@@ -1933,19 +2578,23 @@
     "id": "adam_eve",
     "title": "codex.quest.et_eden.adam_eve.title",
     "icon": "eternal_tales:eve_banner",
-    "x": 1,
-    "y": 4,
+    "x": 18,
+    "y": 10,
     "text": [
-     "codex.quest.et_eden.adam_eve.text.0"
+     "codex.quest.et_eden.adam_eve.text.0",
+     "codex.quest.et_eden.adam_eve.text.1",
+     "codex.quest.et_eden.adam_eve.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_adam"
+      "id": "eternal_tales:kill_adam",
+      "note": "codex.quest.et_eden.adam_eve.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_eve"
+      "id": "eternal_tales:kill_eve",
+      "note": "codex.quest.et_eden.adam_eve.task.1"
      }
     ],
     "optional": true,
@@ -1962,18 +2611,21 @@
     "id": "scorched",
     "title": "codex.quest.et_eden.scorched.title",
     "icon": "eternal_tales:old_days_heart",
-    "x": 1,
-    "y": 3,
+    "x": 16,
+    "y": 10,
     "deps": [
      "enter_eden"
     ],
     "text": [
-     "codex.quest.et_eden.scorched.text.0"
+     "codex.quest.et_eden.scorched.text.0",
+     "codex.quest.et_eden.scorched.text.1",
+     "codex.quest.et_eden.scorched.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:find_scorched_lands_of_eden_biome"
+      "id": "eternal_tales:find_scorched_lands_of_eden_biome",
+      "note": "codex.quest.et_eden.scorched.task.0"
      }
     ],
     "rewards": {
@@ -1986,18 +2638,21 @@
     "id": "aragotium",
     "title": "codex.quest.et_eden.aragotium.title",
     "icon": "eternal_tales:aragotium_ingot",
-    "x": 2,
-    "y": 3,
+    "x": 16,
+    "y": 11,
     "deps": [
      "enter_eden"
     ],
     "text": [
-     "codex.quest.et_eden.aragotium.text.0"
+     "codex.quest.et_eden.aragotium.text.0",
+     "codex.quest.et_eden.aragotium.text.1",
+     "codex.quest.et_eden.aragotium.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_aragotium_ingot"
+      "id": "eternal_tales:get_aragotium_ingot",
+      "note": "codex.quest.et_eden.aragotium.task.0"
      }
     ],
     "rewards": {
@@ -2006,7 +2661,8 @@
      "text": []
     }
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_rayana",
@@ -2024,8 +2680,8 @@
     "id": "crystal_ray",
     "title": "codex.quest.et_rayana.crystal_ray.title",
     "icon": "eternal_tales:rayana",
-    "x": 0,
-    "y": 0,
+    "x": 14,
+    "y": 15,
     "tasks": [
      {
       "type": "item",
@@ -2034,32 +2690,45 @@
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_destroyers_eye"
+      "id": "eternal_tales:get_destroyers_eye",
+      "note": "codex.quest.et_rayana.crystal_ray.task.1"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_eden/crystal_eden"
+    ],
+    "text": [
+     "codex.quest.et_rayana.crystal_ray.text.0",
+     "codex.quest.et_rayana.crystal_ray.text.1",
+     "codex.quest.et_rayana.crystal_ray.text.2"
+    ]
    },
    {
     "id": "enter_ray",
     "title": "codex.quest.et_rayana.enter_ray.title",
     "icon": "eternal_tales:rayana_grass_block",
-    "x": 0,
-    "y": 1,
+    "x": 16,
+    "y": 13,
     "text": [
-     "codex.quest.et_rayana.enter_ray.text.0"
+     "codex.quest.et_rayana.enter_ray.text.0",
+     "codex.quest.et_rayana.enter_ray.text.1",
+     "codex.quest.et_rayana.enter_ray.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:into_rayana"
+      "id": "eternal_tales:into_rayana",
+      "note": "codex.quest.et_rayana.enter_ray.task.0"
      },
      {
       "type": "dimension",
-      "id": "eternal_tales:rayana"
+      "id": "eternal_tales:rayana",
+      "note": "codex.quest.et_rayana.enter_ray.task.1"
      }
     ],
     "deps": [
@@ -2075,10 +2744,12 @@
     "id": "vampirism",
     "title": "codex.quest.et_rayana.vampirism.title",
     "icon": "eternal_tales:bloody_eye",
-    "x": 0,
-    "y": 2,
+    "x": 18,
+    "y": 11,
     "text": [
-     "codex.quest.et_rayana.vampirism.text.0"
+     "codex.quest.et_rayana.vampirism.text.0",
+     "codex.quest.et_rayana.vampirism.text.1",
+     "codex.quest.et_rayana.vampirism.text.2"
     ],
     "tasks": [
      {
@@ -2100,19 +2771,23 @@
     "id": "pterion",
     "title": "codex.quest.et_rayana.pterion.title",
     "icon": "eternal_tales:rayana_banner",
-    "x": 0,
-    "y": 3,
+    "x": 20,
+    "y": 8,
     "text": [
-     "codex.quest.et_rayana.pterion.text.0"
+     "codex.quest.et_rayana.pterion.text.0",
+     "codex.quest.et_rayana.pterion.text.1",
+     "codex.quest.et_rayana.pterion.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_pterion"
+      "id": "eternal_tales:kill_pterion",
+      "note": "codex.quest.et_rayana.pterion.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:rayana_quest"
+      "id": "eternal_tales:rayana_quest",
+      "note": "codex.quest.et_rayana.pterion.task.1"
      }
     ],
     "rewards": {
@@ -2133,18 +2808,21 @@
     "id": "volkihar",
     "title": "codex.quest.et_rayana.volkihar.title",
     "icon": "eternal_tales:volkihar",
-    "x": 1,
-    "y": 3,
+    "x": 20,
+    "y": 9,
     "deps": [
      "vampirism"
     ],
     "text": [
-     "codex.quest.et_rayana.volkihar.text.0"
+     "codex.quest.et_rayana.volkihar.text.0",
+     "codex.quest.et_rayana.volkihar.text.1",
+     "codex.quest.et_rayana.volkihar.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_volkihar"
+      "id": "eternal_tales:get_volkihar",
+      "note": "codex.quest.et_rayana.volkihar.task.0"
      }
     ],
     "optional": true,
@@ -2158,22 +2836,26 @@
     "id": "kraken",
     "title": "codex.quest.et_rayana.kraken.title",
     "icon": "eternal_tales:mucunfectio_banner",
-    "x": 1,
-    "y": 2,
+    "x": 18,
+    "y": 12,
     "deps": [
      "enter_ray"
     ],
     "text": [
-     "codex.quest.et_rayana.kraken.text.0"
+     "codex.quest.et_rayana.kraken.text.0",
+     "codex.quest.et_rayana.kraken.text.1",
+     "codex.quest.et_rayana.kraken.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_infected_kracken"
+      "id": "eternal_tales:kill_infected_kracken",
+      "note": "codex.quest.et_rayana.kraken.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:find_mucunfectio_biome"
+      "id": "eternal_tales:find_mucunfectio_biome",
+      "note": "codex.quest.et_rayana.kraken.task.1"
      }
     ],
     "optional": true,
@@ -2183,7 +2865,8 @@
      "text": []
     }
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_karvat",
@@ -2193,15 +2876,16 @@
   "icon": "eternal_tales:enicrih_power",
   "subtitle": "codex.chapter.et_karvat.subtitle",
   "intro": [
-   "codex.chapter.et_karvat.intro.0"
+   "codex.chapter.et_karvat.intro.0",
+   "codex.chapter.et_karvat.intro.1"
   ],
   "quests": [
    {
     "id": "crystal_kar",
     "title": "codex.quest.et_karvat.crystal_kar.title",
     "icon": "eternal_tales:lands_of_karvat",
-    "x": 0,
-    "y": 0,
+    "x": 16,
+    "y": 14,
     "tasks": [
      {
       "type": "item",
@@ -2213,22 +2897,32 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_rayana/crystal_ray"
+    ],
+    "text": [
+     "codex.quest.et_karvat.crystal_kar.text.0",
+     "codex.quest.et_karvat.crystal_kar.text.1",
+     "codex.quest.et_karvat.crystal_kar.text.2"
+    ]
    },
    {
     "id": "enter_kar",
     "title": "codex.quest.et_karvat.enter_kar.title",
     "icon": "eternal_tales:karvat_grass_block",
-    "x": 0,
-    "y": 1,
+    "x": 18,
+    "y": 13,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:into_karvat"
+      "id": "eternal_tales:into_karvat",
+      "note": "codex.quest.et_karvat.enter_kar.task.0"
      },
      {
       "type": "dimension",
-      "id": "eternal_tales:lands_of_karvat"
+      "id": "eternal_tales:lands_of_karvat",
+      "note": "codex.quest.et_karvat.enter_kar.task.1"
      }
     ],
     "deps": [
@@ -2238,37 +2932,49 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "text": [
+     "codex.quest.et_karvat.enter_kar.text.0",
+     "codex.quest.et_karvat.enter_kar.text.1",
+     "codex.quest.et_karvat.enter_kar.text.2"
+    ]
    },
    {
     "id": "gods",
     "title": "codex.quest.et_karvat.gods.title",
     "icon": "eternal_tales:enicrih_banner",
-    "x": 0,
-    "y": 2,
+    "x": 20,
+    "y": 10,
     "text": [
-     "codex.quest.et_karvat.gods.text.0"
+     "codex.quest.et_karvat.gods.text.0",
+     "codex.quest.et_karvat.gods.text.1",
+     "codex.quest.et_karvat.gods.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_enicrih"
+      "id": "eternal_tales:kill_enicrih",
+      "note": "codex.quest.et_karvat.gods.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_haciru"
+      "id": "eternal_tales:kill_haciru",
+      "note": "codex.quest.et_karvat.gods.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_hirots"
+      "id": "eternal_tales:kill_hirots",
+      "note": "codex.quest.et_karvat.gods.task.2"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_ikkorh"
+      "id": "eternal_tales:kill_ikkorh",
+      "note": "codex.quest.et_karvat.gods.task.3"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_arla"
+      "id": "eternal_tales:kill_arla",
+      "note": "codex.quest.et_karvat.gods.task.4"
      }
     ],
     "deps": [
@@ -2289,19 +2995,23 @@
     "id": "karvat_quest",
     "title": "codex.quest.et_karvat.karvat_quest.title",
     "icon": "eternal_tales:enicrih_power",
-    "x": 0,
-    "y": 3,
+    "x": 22,
+    "y": 9,
     "text": [
-     "codex.quest.et_karvat.karvat_quest.text.0"
+     "codex.quest.et_karvat.karvat_quest.text.0",
+     "codex.quest.et_karvat.karvat_quest.text.1",
+     "codex.quest.et_karvat.karvat_quest.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:karvat_quest"
+      "id": "eternal_tales:karvat_quest",
+      "note": "codex.quest.et_karvat.karvat_quest.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_piece_of_gulibegs_powers"
+      "id": "eternal_tales:get_piece_of_gulibegs_powers",
+      "note": "codex.quest.et_karvat.karvat_quest.task.1"
      }
     ],
     "deps": [
@@ -2317,18 +3027,21 @@
     "id": "khogachi",
     "title": "codex.quest.et_karvat.khogachi.title",
     "icon": "eternal_tales:khogachi_banner",
-    "x": 1,
-    "y": 2,
+    "x": 20,
+    "y": 11,
     "deps": [
      "enter_kar"
     ],
     "text": [
-     "codex.quest.et_karvat.khogachi.text.0"
+     "codex.quest.et_karvat.khogachi.text.0",
+     "codex.quest.et_karvat.khogachi.text.1",
+     "codex.quest.et_karvat.khogachi.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_khogachi"
+      "id": "eternal_tales:kill_khogachi",
+      "note": "codex.quest.et_karvat.khogachi.task.0"
      }
     ],
     "optional": true,
@@ -2342,22 +3055,26 @@
     "id": "quetzal",
     "title": "codex.quest.et_karvat.quetzal.title",
     "icon": "eternal_tales:quetzalcoatl_banner",
-    "x": 2,
-    "y": 2,
+    "x": 20,
+    "y": 12,
     "deps": [
      "enter_kar"
     ],
     "text": [
-     "codex.quest.et_karvat.quetzal.text.0"
+     "codex.quest.et_karvat.quetzal.text.0",
+     "codex.quest.et_karvat.quetzal.text.1",
+     "codex.quest.et_karvat.quetzal.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_quetzalcoatl"
+      "id": "eternal_tales:kill_quetzalcoatl",
+      "note": "codex.quest.et_karvat.quetzal.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_chac_mool"
+      "id": "eternal_tales:kill_chac_mool",
+      "note": "codex.quest.et_karvat.quetzal.task.1"
      }
     ],
     "optional": true,
@@ -2366,8 +3083,37 @@
      "xp": 60,
      "text": []
     }
+   },
+   {
+    "id": "guide_temple_map",
+    "title": "codex.quest.et_karvat.guide_temple_map.title",
+    "icon": "minecraft:map",
+    "deps": [
+     "enter_kar"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Принять поручение Гулибега и записать координаты четырёх храмов, сопоставив каждый с нужной частью силы",
+      "note": "codex.quest.et_karvat.guide_temple_map.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 20,
+    "y": 13,
+    "text": [
+     "codex.quest.et_karvat.guide_temple_map.text.0",
+     "codex.quest.et_karvat.guide_temple_map.text.1",
+     "codex.quest.et_karvat.guide_temple_map.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_volcanech",
@@ -2377,15 +3123,16 @@
   "icon": "eternal_tales:volcanic_banner",
   "subtitle": "codex.chapter.et_volcanech.subtitle",
   "intro": [
-   "codex.chapter.et_volcanech.intro.0"
+   "codex.chapter.et_volcanech.intro.0",
+   "codex.chapter.et_volcanech.intro.1"
   ],
   "quests": [
    {
     "id": "crystal_vol",
     "title": "codex.quest.et_volcanech.crystal_vol.title",
     "icon": "eternal_tales:volcanech",
-    "x": 0,
-    "y": 0,
+    "x": 18,
+    "y": 14,
     "tasks": [
      {
       "type": "item",
@@ -2397,22 +3144,32 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_karvat/crystal_kar"
+    ],
+    "text": [
+     "codex.quest.et_volcanech.crystal_vol.text.0",
+     "codex.quest.et_volcanech.crystal_vol.text.1",
+     "codex.quest.et_volcanech.crystal_vol.text.2"
+    ]
    },
    {
     "id": "enter_vol",
     "title": "codex.quest.et_volcanech.enter_vol.title",
     "icon": "eternal_tales:volcanite",
-    "x": 0,
-    "y": 1,
+    "x": 20,
+    "y": 14,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:into_volcanech"
+      "id": "eternal_tales:into_volcanech",
+      "note": "codex.quest.et_volcanech.enter_vol.task.0"
      },
      {
       "type": "dimension",
-      "id": "eternal_tales:volcanech"
+      "id": "eternal_tales:volcanech",
+      "note": "codex.quest.et_volcanech.enter_vol.task.1"
      }
     ],
     "deps": [
@@ -2422,21 +3179,29 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "text": [
+     "codex.quest.et_volcanech.enter_vol.text.0",
+     "codex.quest.et_volcanech.enter_vol.text.1",
+     "codex.quest.et_volcanech.enter_vol.text.2"
+    ]
    },
    {
     "id": "golem",
     "title": "codex.quest.et_volcanech.golem.title",
     "icon": "eternal_tales:volcanic_banner",
-    "x": 0,
-    "y": 2,
+    "x": 22,
+    "y": 10,
     "text": [
-     "codex.quest.et_volcanech.golem.text.0"
+     "codex.quest.et_volcanech.golem.text.0",
+     "codex.quest.et_volcanech.golem.text.1",
+     "codex.quest.et_volcanech.golem.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_volcanic_golem"
+      "id": "eternal_tales:kill_volcanic_golem",
+      "note": "codex.quest.et_volcanech.golem.task.0"
      }
     ],
     "deps": [
@@ -2452,18 +3217,21 @@
     "id": "sulfur",
     "title": "codex.quest.et_volcanech.sulfur.title",
     "icon": "eternal_tales:sulfur_tnt",
-    "x": 1,
-    "y": 2,
+    "x": 22,
+    "y": 11,
     "deps": [
      "enter_vol"
     ],
     "text": [
-     "codex.quest.et_volcanech.sulfur.text.0"
+     "codex.quest.et_volcanech.sulfur.text.0",
+     "codex.quest.et_volcanech.sulfur.text.1",
+     "codex.quest.et_volcanech.sulfur.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:blow_up_sulfur_tnt"
+      "id": "eternal_tales:blow_up_sulfur_tnt",
+      "note": "codex.quest.et_volcanech.sulfur.task.0"
      }
     ],
     "rewards": {
@@ -2476,15 +3244,18 @@
     "id": "vol_quest",
     "title": "codex.quest.et_volcanech.vol_quest.title",
     "icon": "eternal_tales:blueprint",
-    "x": 0,
-    "y": 3,
+    "x": 24,
+    "y": 11,
     "text": [
-     "codex.quest.et_volcanech.vol_quest.text.0"
+     "codex.quest.et_volcanech.vol_quest.text.0",
+     "codex.quest.et_volcanech.vol_quest.text.1",
+     "codex.quest.et_volcanech.vol_quest.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:volcanech_quest"
+      "id": "eternal_tales:volcanech_quest",
+      "note": "codex.quest.et_volcanech.vol_quest.task.0"
      }
     ],
     "deps": [
@@ -2500,19 +3271,23 @@
     "id": "arahulum",
     "title": "codex.quest.et_volcanech.arahulum.title",
     "icon": "eternal_tales:arahulum_banner",
-    "x": 0,
-    "y": 4,
+    "x": 26,
+    "y": 10,
     "text": [
-     "codex.quest.et_volcanech.arahulum.text.0"
+     "codex.quest.et_volcanech.arahulum.text.0",
+     "codex.quest.et_volcanech.arahulum.text.1",
+     "codex.quest.et_volcanech.arahulum.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_arahulum"
+      "id": "eternal_tales:kill_arahulum",
+      "note": "codex.quest.et_volcanech.arahulum.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_eye_of_arahulum"
+      "id": "eternal_tales:get_eye_of_arahulum",
+      "note": "codex.quest.et_volcanech.arahulum.task.1"
      }
     ],
     "deps": [
@@ -2533,18 +3308,21 @@
     "id": "brimstone",
     "title": "codex.quest.et_volcanech.brimstone.title",
     "icon": "eternal_tales:brimstone_banner",
-    "x": 1,
-    "y": 4,
+    "x": 22,
+    "y": 12,
     "deps": [
      "enter_vol"
     ],
     "text": [
-     "codex.quest.et_volcanech.brimstone.text.0"
+     "codex.quest.et_volcanech.brimstone.text.0",
+     "codex.quest.et_volcanech.brimstone.text.1",
+     "codex.quest.et_volcanech.brimstone.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_brimstone_agaric"
+      "id": "eternal_tales:kill_brimstone_agaric",
+      "note": "codex.quest.et_volcanech.brimstone.task.0"
      }
     ],
     "optional": true,
@@ -2554,7 +3332,8 @@
      "text": []
     }
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_amber",
@@ -2564,42 +3343,52 @@
   "icon": "eternal_tales:royal_banner",
   "subtitle": "codex.chapter.et_amber.subtitle",
   "intro": [
-   "codex.chapter.et_amber.intro.0"
+   "codex.chapter.et_amber.intro.0",
+   "codex.chapter.et_amber.intro.1"
   ],
   "quests": [
    {
     "id": "truadamantite",
     "title": "codex.quest.et_amber.truadamantite.title",
     "icon": "eternal_tales:truadamantite_ingot",
-    "x": 0,
-    "y": 0,
+    "x": 20,
+    "y": 15,
     "text": [
-     "codex.quest.et_amber.truadamantite.text.0"
+     "codex.quest.et_amber.truadamantite.text.0",
+     "codex.quest.et_amber.truadamantite.text.1",
+     "codex.quest.et_amber.truadamantite.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_truadamantite_ingot"
+      "id": "eternal_tales:get_truadamantite_ingot",
+      "note": "codex.quest.et_amber.truadamantite.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_truadamantite_armor"
+      "id": "eternal_tales:get_truadamantite_armor",
+      "note": "codex.quest.et_amber.truadamantite.task.1"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_volcanech/crystal_vol"
+    ]
    },
    {
     "id": "greatness",
     "title": "codex.quest.et_amber.greatness.title",
     "icon": "eternal_tales:crystal_of_greatness",
-    "x": 0,
-    "y": 1,
+    "x": 22,
+    "y": 13,
     "text": [
-     "codex.quest.et_amber.greatness.text.0"
+     "codex.quest.et_amber.greatness.text.0",
+     "codex.quest.et_amber.greatness.text.1",
+     "codex.quest.et_amber.greatness.text.2"
     ],
     "tasks": [
      {
@@ -2626,8 +3415,8 @@
     "id": "crystal_amb",
     "title": "codex.quest.et_amber.crystal_amb.title",
     "icon": "eternal_tales:kingdom_of_amber",
-    "x": 0,
-    "y": 2,
+    "x": 24,
+    "y": 12,
     "tasks": [
      {
       "type": "item",
@@ -2642,25 +3431,34 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "text": [
+     "codex.quest.et_amber.crystal_amb.text.0",
+     "codex.quest.et_amber.crystal_amb.text.1",
+     "codex.quest.et_amber.crystal_amb.text.2"
+    ]
    },
    {
     "id": "enter_amb",
     "title": "codex.quest.et_amber.enter_amb.title",
     "icon": "eternal_tales:amber_grass_block",
-    "x": 0,
-    "y": 3,
+    "x": 26,
+    "y": 11,
     "text": [
-     "codex.quest.et_amber.enter_amb.text.0"
+     "codex.quest.et_amber.enter_amb.text.0",
+     "codex.quest.et_amber.enter_amb.text.1",
+     "codex.quest.et_amber.enter_amb.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:into_amber"
+      "id": "eternal_tales:into_amber",
+      "note": "codex.quest.et_amber.enter_amb.task.0"
      },
      {
       "type": "dimension",
-      "id": "eternal_tales:kingdom_of_amber"
+      "id": "eternal_tales:kingdom_of_amber",
+      "note": "codex.quest.et_amber.enter_amb.task.1"
      }
     ],
     "deps": [
@@ -2676,19 +3474,23 @@
     "id": "maze",
     "title": "codex.quest.et_amber.maze.title",
     "icon": "eternal_tales:maze_lock_on",
-    "x": 0,
-    "y": 4,
+    "x": 28,
+    "y": 10,
     "text": [
-     "codex.quest.et_amber.maze.text.0"
+     "codex.quest.et_amber.maze.text.0",
+     "codex.quest.et_amber.maze.text.1",
+     "codex.quest.et_amber.maze.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:explain_amber_maze"
+      "id": "eternal_tales:explain_amber_maze",
+      "note": "codex.quest.et_amber.maze.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:amber_quest"
+      "id": "eternal_tales:amber_quest",
+      "note": "codex.quest.et_amber.maze.task.1"
      }
     ],
     "deps": [
@@ -2704,15 +3506,18 @@
     "id": "xaxxas",
     "title": "codex.quest.et_amber.xaxxas.title",
     "icon": "eternal_tales:royal_banner",
-    "x": 0,
-    "y": 5,
+    "x": 30,
+    "y": 10,
     "text": [
-     "codex.quest.et_amber.xaxxas.text.0"
+     "codex.quest.et_amber.xaxxas.text.0",
+     "codex.quest.et_amber.xaxxas.text.1",
+     "codex.quest.et_amber.xaxxas.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_xaxxas_xix"
+      "id": "eternal_tales:kill_xaxxas_xix",
+      "note": "codex.quest.et_amber.xaxxas.task.0"
      }
     ],
     "rewards": {
@@ -2733,13 +3538,15 @@
     "id": "keybekium",
     "title": "codex.quest.et_amber.keybekium.title",
     "icon": "eternal_tales:keybekium_ingot",
-    "x": 1,
-    "y": 4,
+    "x": 28,
+    "y": 11,
     "deps": [
      "enter_amb"
     ],
     "text": [
-     "codex.quest.et_amber.keybekium.text.0"
+     "codex.quest.et_amber.keybekium.text.0",
+     "codex.quest.et_amber.keybekium.text.1",
+     "codex.quest.et_amber.keybekium.text.2"
     ],
     "tasks": [
      {
@@ -2758,18 +3565,21 @@
     "id": "smuciel",
     "title": "codex.quest.et_amber.smuciel.title",
     "icon": "eternal_tales:smuciel_banner",
-    "x": 1,
-    "y": 5,
+    "x": 28,
+    "y": 12,
     "deps": [
      "enter_amb"
     ],
     "text": [
-     "codex.quest.et_amber.smuciel.text.0"
+     "codex.quest.et_amber.smuciel.text.0",
+     "codex.quest.et_amber.smuciel.text.1",
+     "codex.quest.et_amber.smuciel.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_smuciel"
+      "id": "eternal_tales:kill_smuciel",
+      "note": "codex.quest.et_amber.smuciel.task.0"
      }
     ],
     "optional": true,
@@ -2779,7 +3589,8 @@
      "text": []
     }
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_unahzaal",
@@ -2797,10 +3608,12 @@
     "id": "astral",
     "title": "codex.quest.et_unahzaal.astral.title",
     "icon": "eternal_tales:damaged_astral",
-    "x": 0,
-    "y": 0,
+    "x": 26,
+    "y": 12,
     "text": [
-     "codex.quest.et_unahzaal.astral.text.0"
+     "codex.quest.et_unahzaal.astral.text.0",
+     "codex.quest.et_unahzaal.astral.text.1",
+     "codex.quest.et_unahzaal.astral.text.2"
     ],
     "tasks": [
      {
@@ -2813,16 +3626,21 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_amber/crystal_amb"
+    ]
    },
    {
     "id": "crystal_un",
     "title": "codex.quest.et_unahzaal.crystal_un.title",
     "icon": "eternal_tales:unahzaal_multiverse",
-    "x": 0,
-    "y": 1,
+    "x": 28,
+    "y": 13,
     "text": [
-     "codex.quest.et_unahzaal.crystal_un.text.0"
+     "codex.quest.et_unahzaal.crystal_un.text.0",
+     "codex.quest.et_unahzaal.crystal_un.text.1",
+     "codex.quest.et_unahzaal.crystal_un.text.2"
     ],
     "tasks": [
      {
@@ -2844,16 +3662,18 @@
     "id": "enter_un",
     "title": "codex.quest.et_unahzaal.enter_un.title",
     "icon": "eternal_tales:unahzaal_bricks",
-    "x": 0,
-    "y": 2,
+    "x": 30,
+    "y": 11,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:into_unahzaal"
+      "id": "eternal_tales:into_unahzaal",
+      "note": "codex.quest.et_unahzaal.enter_un.task.0"
      },
      {
       "type": "dimension",
-      "id": "eternal_tales:unahzaal_multiverse"
+      "id": "eternal_tales:unahzaal_multiverse",
+      "note": "codex.quest.et_unahzaal.enter_un.task.1"
      }
     ],
     "deps": [
@@ -2863,18 +3683,24 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "text": [
+     "codex.quest.et_unahzaal.enter_un.text.0",
+     "codex.quest.et_unahzaal.enter_un.text.1",
+     "codex.quest.et_unahzaal.enter_un.text.2"
+    ]
    },
    {
     "id": "eye",
     "title": "codex.quest.et_unahzaal.eye.title",
     "icon": "eternal_tales:eye_of_unahzaal_banner",
-    "x": 0,
-    "y": 3,
+    "x": 32,
+    "y": 10,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_eye_of_unahzaal"
+      "id": "eternal_tales:kill_eye_of_unahzaal",
+      "note": "codex.quest.et_unahzaal.eye.task.0"
      }
     ],
     "deps": [
@@ -2884,29 +3710,39 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "text": [
+     "codex.quest.et_unahzaal.eye.text.0",
+     "codex.quest.et_unahzaal.eye.text.1",
+     "codex.quest.et_unahzaal.eye.text.2"
+    ]
    },
    {
     "id": "armor_un",
     "title": "codex.quest.et_unahzaal.armor_un.title",
     "icon": "eternal_tales:grand_unahzaal_armor_helmet",
-    "x": 0,
-    "y": 4,
+    "x": 34,
+    "y": 11,
     "text": [
-     "codex.quest.et_unahzaal.armor_un.text.0"
+     "codex.quest.et_unahzaal.armor_un.text.0",
+     "codex.quest.et_unahzaal.armor_un.text.1",
+     "codex.quest.et_unahzaal.armor_un.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_chthonic_armor"
+      "id": "eternal_tales:get_chthonic_armor",
+      "note": "codex.quest.et_unahzaal.armor_un.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_orichalcum_chthonic_armor"
+      "id": "eternal_tales:get_orichalcum_chthonic_armor",
+      "note": "codex.quest.et_unahzaal.armor_un.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_grand_unahzaal_armor"
+      "id": "eternal_tales:get_grand_unahzaal_armor",
+      "note": "codex.quest.et_unahzaal.armor_un.task.2"
      }
     ],
     "deps": [
@@ -2922,15 +3758,18 @@
     "id": "unahzaal",
     "title": "codex.quest.et_unahzaal.unahzaal.title",
     "icon": "eternal_tales:unahzaal_bricks_dimension",
-    "x": 0,
-    "y": 5,
+    "x": 36,
+    "y": 11,
     "text": [
-     "codex.quest.et_unahzaal.unahzaal.text.0"
+     "codex.quest.et_unahzaal.unahzaal.text.0",
+     "codex.quest.et_unahzaal.unahzaal.text.1",
+     "codex.quest.et_unahzaal.unahzaal.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_unahzaal"
+      "id": "eternal_tales:kill_unahzaal",
+      "note": "codex.quest.et_unahzaal.unahzaal.task.0"
      }
     ],
     "rewards": {
@@ -2951,18 +3790,21 @@
     "id": "gifts",
     "title": "codex.quest.et_unahzaal.gifts.title",
     "icon": "eternal_tales:extradimensional_sting",
-    "x": 1,
-    "y": 5,
+    "x": 38,
+    "y": 10,
     "deps": [
      "unahzaal"
     ],
     "text": [
-     "codex.quest.et_unahzaal.gifts.text.0"
+     "codex.quest.et_unahzaal.gifts.text.0",
+     "codex.quest.et_unahzaal.gifts.text.1",
+     "codex.quest.et_unahzaal.gifts.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_one_of_five_unahzaal_gifts"
+      "id": "eternal_tales:get_one_of_five_unahzaal_gifts",
+      "note": "codex.quest.et_unahzaal.gifts.task.0"
      }
     ],
     "rewards": {
@@ -2975,22 +3817,26 @@
     "id": "tetra",
     "title": "codex.quest.et_unahzaal.tetra.title",
     "icon": "eternal_tales:tetragrammaton_banner",
-    "x": 1,
-    "y": 4,
+    "x": 32,
+    "y": 11,
     "deps": [
      "enter_un"
     ],
     "text": [
-     "codex.quest.et_unahzaal.tetra.text.0"
+     "codex.quest.et_unahzaal.tetra.text.0",
+     "codex.quest.et_unahzaal.tetra.text.1",
+     "codex.quest.et_unahzaal.tetra.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_tetragrammaton"
+      "id": "eternal_tales:kill_tetragrammaton",
+      "note": "codex.quest.et_unahzaal.tetra.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_seraphim"
+      "id": "eternal_tales:get_seraphim",
+      "note": "codex.quest.et_unahzaal.tetra.task.1"
      }
     ],
     "optional": true,
@@ -3000,7 +3846,8 @@
      "text": []
     }
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_ultimate",
@@ -3010,15 +3857,16 @@
   "icon": "eternal_tales:ultimate_world",
   "subtitle": "codex.chapter.et_ultimate.subtitle",
   "intro": [
-   "codex.chapter.et_ultimate.intro.0"
+   "codex.chapter.et_ultimate.intro.0",
+   "codex.chapter.et_ultimate.intro.1"
   ],
   "quests": [
    {
     "id": "crystal_ult",
     "title": "codex.quest.et_ultimate.crystal_ult.title",
     "icon": "eternal_tales:ultimate_world",
-    "x": 0,
-    "y": 0,
+    "x": 38,
+    "y": 11,
     "tasks": [
      {
       "type": "item",
@@ -3035,22 +3883,32 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_unahzaal/unahzaal"
+    ],
+    "text": [
+     "codex.quest.et_ultimate.crystal_ult.text.0",
+     "codex.quest.et_ultimate.crystal_ult.text.1",
+     "codex.quest.et_ultimate.crystal_ult.text.2"
+    ]
    },
    {
     "id": "enter_ult",
     "title": "codex.quest.et_ultimate.enter_ult.title",
     "icon": "eternal_tales:ultimate_world",
-    "x": 0,
-    "y": 1,
+    "x": 40,
+    "y": 11,
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:enter_in_the_ultimate_world"
+      "id": "eternal_tales:enter_in_the_ultimate_world",
+      "note": "codex.quest.et_ultimate.enter_ult.task.0"
      },
      {
       "type": "dimension",
-      "id": "eternal_tales:ultimate_world"
+      "id": "eternal_tales:ultimate_world",
+      "note": "codex.quest.et_ultimate.enter_ult.task.1"
      }
     ],
     "deps": [
@@ -3060,25 +3918,34 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "text": [
+     "codex.quest.et_ultimate.enter_ult.text.0",
+     "codex.quest.et_ultimate.enter_ult.text.1",
+     "codex.quest.et_ultimate.enter_ult.text.2"
+    ]
    },
    {
     "id": "aetherium",
     "title": "codex.quest.et_ultimate.aetherium.title",
     "icon": "eternal_tales:aetherium",
-    "x": 0,
-    "y": 2,
+    "x": 42,
+    "y": 11,
     "text": [
-     "codex.quest.et_ultimate.aetherium.text.0"
+     "codex.quest.et_ultimate.aetherium.text.0",
+     "codex.quest.et_ultimate.aetherium.text.1",
+     "codex.quest.et_ultimate.aetherium.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_aetherium"
+      "id": "eternal_tales:get_aetherium",
+      "note": "codex.quest.et_ultimate.aetherium.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_arkemer_aetherium_imbued_armor"
+      "id": "eternal_tales:get_arkemer_aetherium_imbued_armor",
+      "note": "codex.quest.et_ultimate.aetherium.task.1"
      }
     ],
     "deps": [
@@ -3094,27 +3961,33 @@
     "id": "arkemer_tech",
     "title": "codex.quest.et_ultimate.arkemer_tech.title",
     "icon": "eternal_tales:arkemer_quarry",
-    "x": 0,
-    "y": 3,
+    "x": 44,
+    "y": 11,
     "text": [
-     "codex.quest.et_ultimate.arkemer_tech.text.0"
+     "codex.quest.et_ultimate.arkemer_tech.text.0",
+     "codex.quest.et_ultimate.arkemer_tech.text.1",
+     "codex.quest.et_ultimate.arkemer_tech.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_arkemer_quarry"
+      "id": "eternal_tales:get_arkemer_quarry",
+      "note": "codex.quest.et_ultimate.arkemer_tech.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:make_arkemer_gravicycle"
+      "id": "eternal_tales:make_arkemer_gravicycle",
+      "note": "codex.quest.et_ultimate.arkemer_tech.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_arkemer_aleph_railgun"
+      "id": "eternal_tales:get_arkemer_aleph_railgun",
+      "note": "codex.quest.et_ultimate.arkemer_tech.task.2"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:make_arkemer_rift_heavenbreaker"
+      "id": "eternal_tales:make_arkemer_rift_heavenbreaker",
+      "note": "codex.quest.et_ultimate.arkemer_tech.task.3"
      }
     ],
     "deps": [
@@ -3130,19 +4003,23 @@
     "id": "blackhole",
     "title": "codex.quest.et_ultimate.blackhole.title",
     "icon": "eternal_tales:stabilized_miniature_black_hole",
-    "x": 0,
-    "y": 4,
+    "x": 46,
+    "y": 11,
     "text": [
-     "codex.quest.et_ultimate.blackhole.text.0"
+     "codex.quest.et_ultimate.blackhole.text.0",
+     "codex.quest.et_ultimate.blackhole.text.1",
+     "codex.quest.et_ultimate.blackhole.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_stabilized_miniature_black_hole"
+      "id": "eternal_tales:get_stabilized_miniature_black_hole",
+      "note": "codex.quest.et_ultimate.blackhole.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_ergosphere_forged_armor"
+      "id": "eternal_tales:get_ergosphere_forged_armor",
+      "note": "codex.quest.et_ultimate.blackhole.task.1"
      }
     ],
     "deps": [
@@ -3158,23 +4035,28 @@
     "id": "emblems",
     "title": "codex.quest.et_ultimate.emblems.title",
     "icon": "eternal_tales:grand_emblem",
-    "x": 0,
-    "y": 5,
+    "x": 48,
+    "y": 11,
     "text": [
-     "codex.quest.et_ultimate.emblems.text.0"
+     "codex.quest.et_ultimate.emblems.text.0",
+     "codex.quest.et_ultimate.emblems.text.1",
+     "codex.quest.et_ultimate.emblems.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_the_grand_emblem"
+      "id": "eternal_tales:get_the_grand_emblem",
+      "note": "codex.quest.et_ultimate.emblems.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_singularity_emblem"
+      "id": "eternal_tales:get_singularity_emblem",
+      "note": "codex.quest.et_ultimate.emblems.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_arkemer_emblem"
+      "id": "eternal_tales:get_arkemer_emblem",
+      "note": "codex.quest.et_ultimate.emblems.task.2"
      }
     ],
     "deps": [
@@ -3190,35 +4072,43 @@
     "id": "ultimate_items",
     "title": "codex.quest.et_ultimate.ultimate_items.title",
     "icon": "eternal_tales:the_ultimate_two",
-    "x": 0,
-    "y": 6,
+    "x": 50,
+    "y": 11,
     "text": [
-     "codex.quest.et_ultimate.ultimate_items.text.0"
+     "codex.quest.et_ultimate.ultimate_items.text.0",
+     "codex.quest.et_ultimate.ultimate_items.text.1",
+     "codex.quest.et_ultimate.ultimate_items.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_the_ultimate_one"
+      "id": "eternal_tales:get_the_ultimate_one",
+      "note": "codex.quest.et_ultimate.ultimate_items.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_the_ultimate_two"
+      "id": "eternal_tales:get_the_ultimate_two",
+      "note": "codex.quest.et_ultimate.ultimate_items.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_gauntlet_of_the_destinies"
+      "id": "eternal_tales:get_gauntlet_of_the_destinies",
+      "note": "codex.quest.et_ultimate.ultimate_items.task.2"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_heart_of_the_elements"
+      "id": "eternal_tales:get_heart_of_the_elements",
+      "note": "codex.quest.et_ultimate.ultimate_items.task.3"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_the_first_prism"
+      "id": "eternal_tales:get_the_first_prism",
+      "note": "codex.quest.et_ultimate.ultimate_items.task.4"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:learn_order_of_the_universe"
+      "id": "eternal_tales:learn_order_of_the_universe",
+      "note": "codex.quest.et_ultimate.ultimate_items.task.5"
      }
     ],
     "rewards": {
@@ -3236,26 +4126,31 @@
     "id": "hammer",
     "title": "codex.quest.et_ultimate.hammer.title",
     "icon": "eternal_tales:hammer_of_eternity",
-    "x": 1,
-    "y": 5,
+    "x": 46,
+    "y": 12,
     "deps": [
      "arkemer_tech"
     ],
     "text": [
-     "codex.quest.et_ultimate.hammer.text.0"
+     "codex.quest.et_ultimate.hammer.text.0",
+     "codex.quest.et_ultimate.hammer.text.1",
+     "codex.quest.et_ultimate.hammer.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_hammer_of_eternity"
+      "id": "eternal_tales:get_hammer_of_eternity",
+      "note": "codex.quest.et_ultimate.hammer.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_divine_pickaxe"
+      "id": "eternal_tales:get_divine_pickaxe",
+      "note": "codex.quest.et_ultimate.hammer.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_divine_hoe"
+      "id": "eternal_tales:get_divine_hoe",
+      "note": "codex.quest.et_ultimate.hammer.task.2"
      }
     ],
     "rewards": {
@@ -3268,19 +4163,23 @@
     "id": "aftermath",
     "title": "codex.quest.et_ultimate.aftermath.title",
     "icon": "eternal_tales:ageagoria_anthem",
-    "x": 0,
-    "y": 7,
+    "x": 48,
+    "y": 12,
     "text": [
-     "codex.quest.et_ultimate.aftermath.text.0"
+     "codex.quest.et_ultimate.aftermath.text.0",
+     "codex.quest.et_ultimate.aftermath.text.1",
+     "codex.quest.et_ultimate.aftermath.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:aftermath_quest"
+      "id": "eternal_tales:aftermath_quest",
+      "note": "codex.quest.et_ultimate.aftermath.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:pass_flecheresha_stone_trial"
+      "id": "eternal_tales:pass_flecheresha_stone_trial",
+      "note": "codex.quest.et_ultimate.aftermath.task.1"
      }
     ],
     "rewards": {
@@ -3293,8 +4192,42 @@
     "deps": [
      "hammer"
     ]
+   },
+   {
+    "id": "guide_smartphone_config",
+    "title": "codex.quest.et_ultimate.guide_smartphone_config.title",
+    "icon": "eternal_tales:smartphone",
+    "deps": [
+     "aetherium"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "eternal_tales:smartphone",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Открыть настройки надетой аркемерской или эргосферной брони, проверить полёт и отключить поджог земли возле базы",
+      "note": "codex.quest.et_ultimate.guide_smartphone_config.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 44,
+    "y": 12,
+    "text": [
+     "codex.quest.et_ultimate.guide_smartphone_config.text.0",
+     "codex.quest.et_ultimate.guide_smartphone_config.text.1",
+     "codex.quest.et_ultimate.guide_smartphone_config.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_darkness",
@@ -3303,42 +4236,54 @@
   "title": "codex.chapter.et_darkness.title",
   "icon": "eternal_tales:totem_of_eternal_darkness",
   "subtitle": "codex.chapter.et_darkness.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.et_darkness.intro.0",
+   "codex.chapter.et_darkness.intro.1"
+  ],
   "quests": [
    {
     "id": "activate",
     "title": "codex.quest.et_darkness.activate.title",
     "icon": "eternal_tales:totem_of_eternal_darkness",
-    "x": 0,
-    "y": 0,
+    "x": 30,
+    "y": 12,
     "text": [
-     "codex.quest.et_darkness.activate.text.0"
+     "codex.quest.et_darkness.activate.text.0",
+     "codex.quest.et_darkness.activate.text.1",
+     "codex.quest.et_darkness.activate.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:activate_eternal_darkness_mode"
+      "id": "eternal_tales:activate_eternal_darkness_mode",
+      "note": "codex.quest.et_darkness.activate.task.0"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_unahzaal/crystal_un"
+    ]
    },
    {
     "id": "humanity",
     "title": "codex.quest.et_darkness.humanity.title",
     "icon": "eternal_tales:forge_of_the_light",
-    "x": 0,
-    "y": 1,
+    "x": 32,
+    "y": 12,
     "text": [
-     "codex.quest.et_darkness.humanity.text.0"
+     "codex.quest.et_darkness.humanity.text.0",
+     "codex.quest.et_darkness.humanity.text.1",
+     "codex.quest.et_darkness.humanity.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_100_humanity"
+      "id": "eternal_tales:get_100_humanity",
+      "note": "codex.quest.et_darkness.humanity.task.0"
      }
     ],
     "deps": [
@@ -3354,19 +4299,23 @@
     "id": "nox_luc",
     "title": "codex.quest.et_darkness.nox_luc.title",
     "icon": "eternal_tales:noxifer_banner",
-    "x": 0,
-    "y": 2,
+    "x": 34,
+    "y": 12,
     "text": [
-     "codex.quest.et_darkness.nox_luc.text.0"
+     "codex.quest.et_darkness.nox_luc.text.0",
+     "codex.quest.et_darkness.nox_luc.text.1",
+     "codex.quest.et_darkness.nox_luc.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_noxifer"
+      "id": "eternal_tales:kill_noxifer",
+      "note": "codex.quest.et_darkness.nox_luc.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_luciden"
+      "id": "eternal_tales:kill_luciden",
+      "note": "codex.quest.et_darkness.nox_luc.task.1"
      }
     ],
     "deps": [
@@ -3382,23 +4331,28 @@
     "id": "rings_dark",
     "title": "codex.quest.et_darkness.rings_dark.title",
     "icon": "eternal_tales:calamity_ring",
-    "x": 0,
-    "y": 3,
+    "x": 36,
+    "y": 12,
     "text": [
-     "codex.quest.et_darkness.rings_dark.text.0"
+     "codex.quest.et_darkness.rings_dark.text.0",
+     "codex.quest.et_darkness.rings_dark.text.1",
+     "codex.quest.et_darkness.rings_dark.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_calamity_ring"
+      "id": "eternal_tales:get_calamity_ring",
+      "note": "codex.quest.et_darkness.rings_dark.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_harpy_ring"
+      "id": "eternal_tales:get_harpy_ring",
+      "note": "codex.quest.et_darkness.rings_dark.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_ring_of_crimson_tears"
+      "id": "eternal_tales:get_ring_of_crimson_tears",
+      "note": "codex.quest.et_darkness.rings_dark.task.2"
      }
     ],
     "deps": [
@@ -3414,19 +4368,23 @@
     "id": "super",
     "title": "codex.quest.et_darkness.super.title",
     "icon": "eternal_tales:totem_of_death",
-    "x": 0,
-    "y": 4,
+    "x": 38,
+    "y": 12,
     "text": [
-     "codex.quest.et_darkness.super.text.0"
+     "codex.quest.et_darkness.super.text.0",
+     "codex.quest.et_darkness.super.text.1",
+     "codex.quest.et_darkness.super.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:activate_super_duper_darkness_mode"
+      "id": "eternal_tales:activate_super_duper_darkness_mode",
+      "note": "codex.quest.et_darkness.super.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_unahzaal_with_hard_mode"
+      "id": "eternal_tales:kill_unahzaal_with_hard_mode",
+      "note": "codex.quest.et_darkness.super.task.1"
      }
     ],
     "optional": true,
@@ -3438,8 +4396,42 @@
      "xp": 60,
      "text": []
     }
+   },
+   {
+    "id": "guide_mode_reversal",
+    "title": "codex.quest.et_darkness.guide_mode_reversal.title",
+    "icon": "eternal_tales:totem_of_eternity",
+    "deps": [
+     "activate"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "eternal_tales:totem_of_eternity",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Применить Тотем Вечности после активации Тьмы и проверить на доске, что режим выключен",
+      "note": "codex.quest.et_darkness.guide_mode_reversal.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 32,
+    "y": 13,
+    "text": [
+     "codex.quest.et_darkness.guide_mode_reversal.text.0",
+     "codex.quest.et_darkness.guide_mode_reversal.text.1",
+     "codex.quest.et_darkness.guide_mode_reversal.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  },
  {
   "id": "et_gear",
@@ -3448,199 +4440,254 @@
   "title": "codex.chapter.et_gear.title",
   "icon": "eternal_tales:truadamantite_armor_chestplate",
   "subtitle": "codex.chapter.et_gear.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.et_gear.intro.0",
+   "codex.chapter.et_gear.intro.1"
+  ],
   "quests": [
    {
     "id": "armors_early",
     "title": "codex.quest.et_gear.armors_early.title",
     "icon": "eternal_tales:charged_copper_armor_chestplate",
-    "x": 0,
-    "y": 0,
+    "x": 2,
+    "y": 16,
     "text": [
-     "codex.quest.et_gear.armors_early.text.0"
+     "codex.quest.et_gear.armors_early.text.0",
+     "codex.quest.et_gear.armors_early.text.1",
+     "codex.quest.et_gear.armors_early.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_charged_copper_armor"
+      "id": "eternal_tales:get_charged_copper_armor",
+      "note": "codex.quest.et_gear.armors_early.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_forest_ranger_armor"
+      "id": "eternal_tales:get_forest_ranger_armor",
+      "note": "codex.quest.et_gear.armors_early.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_treasure_hunter_armor"
+      "id": "eternal_tales:get_treasure_hunter_armor",
+      "note": "codex.quest.et_gear.armors_early.task.2"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "armors_mid",
     "title": "codex.quest.et_gear.armors_mid.title",
     "icon": "eternal_tales:dark_mage_armor_chestplate",
-    "x": 1,
-    "y": 0,
+    "x": 2,
+    "y": 17,
     "text": [
-     "codex.quest.et_gear.armors_mid.text.0"
+     "codex.quest.et_gear.armors_mid.text.0",
+     "codex.quest.et_gear.armors_mid.text.1",
+     "codex.quest.et_gear.armors_mid.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_dark_mage_armor"
+      "id": "eternal_tales:get_dark_mage_armor",
+      "note": "codex.quest.et_gear.armors_mid.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_walock_armor"
+      "id": "eternal_tales:get_walock_armor",
+      "note": "codex.quest.et_gear.armors_mid.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_whaler_armor"
+      "id": "eternal_tales:get_whaler_armor",
+      "note": "codex.quest.et_gear.armors_mid.task.2"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_runic_armor"
+      "id": "eternal_tales:get_runic_armor",
+      "note": "codex.quest.et_gear.armors_mid.task.3"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "armors_late",
     "title": "codex.quest.et_gear.armors_late.title",
     "icon": "eternal_tales:truadamantite_armor_chestplate",
     "x": 2,
-    "y": 0,
+    "y": 18,
     "text": [
-     "codex.quest.et_gear.armors_late.text.0"
+     "codex.quest.et_gear.armors_late.text.0",
+     "codex.quest.et_gear.armors_late.text.1",
+     "codex.quest.et_gear.armors_late.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_truadamantite_armor"
+      "id": "eternal_tales:get_truadamantite_armor",
+      "note": "codex.quest.et_gear.armors_late.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_ergosphere_forged_armor"
+      "id": "eternal_tales:get_ergosphere_forged_armor",
+      "note": "codex.quest.et_gear.armors_late.task.1"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "weapons",
     "title": "codex.quest.et_gear.weapons.title",
     "icon": "eternal_tales:ammit_staff",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 19,
     "text": [
-     "codex.quest.et_gear.weapons.text.0"
+     "codex.quest.et_gear.weapons.text.0",
+     "codex.quest.et_gear.weapons.text.1",
+     "codex.quest.et_gear.weapons.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_ammit_staff"
+      "id": "eternal_tales:get_ammit_staff",
+      "note": "codex.quest.et_gear.weapons.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_khonshu_staff"
+      "id": "eternal_tales:get_khonshu_staff",
+      "note": "codex.quest.et_gear.weapons.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_bloody_anchor"
+      "id": "eternal_tales:get_bloody_anchor",
+      "note": "codex.quest.et_gear.weapons.task.2"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_hoz_de_muerte"
+      "id": "eternal_tales:get_hoz_de_muerte",
+      "note": "codex.quest.et_gear.weapons.task.3"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "ranged",
     "title": "codex.quest.et_gear.ranged.title",
     "icon": "eternal_tales:atimites_crossbow",
-    "x": 1,
-    "y": 1,
+    "x": 2,
+    "y": 20,
     "text": [
-     "codex.quest.et_gear.ranged.text.0"
+     "codex.quest.et_gear.ranged.text.0",
+     "codex.quest.et_gear.ranged.text.1",
+     "codex.quest.et_gear.ranged.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_atimites_crossbow"
+      "id": "eternal_tales:get_atimites_crossbow",
+      "note": "codex.quest.et_gear.ranged.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_rockets_gun"
+      "id": "eternal_tales:get_rockets_gun",
+      "note": "codex.quest.et_gear.ranged.task.1"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "accessories",
     "title": "codex.quest.et_gear.accessories.title",
     "icon": "eternal_tales:celestial_sphere",
     "x": 2,
-    "y": 1,
+    "y": 21,
     "text": [
-     "codex.quest.et_gear.accessories.text.0"
+     "codex.quest.et_gear.accessories.text.0",
+     "codex.quest.et_gear.accessories.text.1",
+     "codex.quest.et_gear.accessories.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_celestial_sphere"
+      "id": "eternal_tales:get_celestial_sphere",
+      "note": "codex.quest.et_gear.accessories.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_thinking_stone"
+      "id": "eternal_tales:get_thinking_stone",
+      "note": "codex.quest.et_gear.accessories.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_any_of_immunity_accessories"
+      "id": "eternal_tales:get_any_of_immunity_accessories",
+      "note": "codex.quest.et_gear.accessories.task.2"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "storage_et",
     "title": "codex.quest.et_gear.storage_et.title",
     "icon": "eternal_tales:portable_chest",
-    "x": 0,
-    "y": 2,
+    "x": 2,
+    "y": 22,
     "text": [
-     "codex.quest.et_gear.storage_et.text.0"
+     "codex.quest.et_gear.storage_et.text.0",
+     "codex.quest.et_gear.storage_et.text.1",
+     "codex.quest.et_gear.storage_et.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:get_portable_chest"
+      "id": "eternal_tales:get_portable_chest",
+      "note": "codex.quest.et_gear.storage_et.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_big_portable_chest"
+      "id": "eternal_tales:get_big_portable_chest",
+      "note": "codex.quest.et_gear.storage_et.task.1"
      }
     ],
     "optional": true,
@@ -3648,29 +4695,37 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
    },
    {
     "id": "fun",
     "title": "codex.quest.et_gear.fun.title",
     "icon": "eternal_tales:smartphone",
-    "x": 1,
-    "y": 2,
+    "x": 2,
+    "y": 23,
     "text": [
-     "codex.quest.et_gear.fun.text.0"
+     "codex.quest.et_gear.fun.text.0",
+     "codex.quest.et_gear.fun.text.1",
+     "codex.quest.et_gear.fun.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:make_smartphone"
+      "id": "eternal_tales:make_smartphone",
+      "note": "codex.quest.et_gear.fun.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_all_of_the_lava_lamps"
+      "id": "eternal_tales:get_all_of_the_lava_lamps",
+      "note": "codex.quest.et_gear.fun.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:use_energy_drink"
+      "id": "eternal_tales:use_energy_drink",
+      "note": "codex.quest.et_gear.fun.task.2"
      }
     ],
     "optional": true,
@@ -3678,8 +4733,40 @@
      "items": [],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "et_intro/journal"
+    ]
+   },
+   {
+    "id": "guide_spare_chest",
+    "title": "codex.quest.et_gear.guide_spare_chest.title",
+    "icon": "eternal_tales:portable_chest",
+    "deps": [
+     "storage_et"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Оставить у точки возрождения запасное оружие, броню, еду и материалы обратного пути; проверить доступ без основного переносного сундука",
+      "note": "codex.quest.et_gear.guide_spare_chest.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 17,
+    "text": [
+     "codex.quest.et_gear.guide_spare_chest.text.0",
+     "codex.quest.et_gear.guide_spare_chest.text.1",
+     "codex.quest.et_gear.guide_spare_chest.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "eternal"
  }
 ]

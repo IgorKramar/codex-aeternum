@@ -7,7 +7,8 @@
   "icon": "minecolonies:blockhuttownhall",
   "subtitle": "codex.chapter.mc_found.subtitle",
   "intro": [
-   "codex.chapter.mc_found.intro.0"
+   "codex.chapter.mc_found.intro.0",
+   "codex.chapter.mc_found.intro.1"
   ],
   "quests": [
    {
@@ -15,9 +16,11 @@
     "title": "codex.quest.mc_found.supply.title",
     "icon": "minecolonies:supplychestdeployer",
     "x": 0,
-    "y": 0,
+    "y": 3,
     "text": [
-     "codex.quest.mc_found.supply.text.0"
+     "codex.quest.mc_found.supply.text.0",
+     "codex.quest.mc_found.supply.text.1",
+     "codex.quest.mc_found.supply.text.2"
     ],
     "tasks": [
      {
@@ -30,16 +33,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "townhall",
     "title": "codex.quest.mc_found.townhall.title",
     "icon": "minecolonies:blockhuttownhall",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 3,
     "text": [
-     "codex.quest.mc_found.townhall.text.0"
+     "codex.quest.mc_found.townhall.text.0",
+     "codex.quest.mc_found.townhall.text.1",
+     "codex.quest.mc_found.townhall.text.2"
     ],
     "tasks": [
      {
@@ -69,16 +77,18 @@
    {
     "id": "buildtool",
     "title": "codex.quest.mc_found.buildtool.title",
-    "icon": "minecolonies:sceptergold",
-    "x": 0,
-    "y": 2,
+    "icon": "structurize:sceptergold",
+    "x": 4,
+    "y": 3,
     "text": [
-     "codex.quest.mc_found.buildtool.text.0"
+     "codex.quest.mc_found.buildtool.text.0",
+     "codex.quest.mc_found.buildtool.text.1",
+     "codex.quest.mc_found.buildtool.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "minecolonies:sceptergold",
+      "id": "structurize:sceptergold",
       "count": 1
      },
      {
@@ -100,10 +110,12 @@
     "id": "builder",
     "title": "codex.quest.mc_found.builder.title",
     "icon": "minecolonies:blockhutbuilder",
-    "x": 0,
+    "x": 6,
     "y": 3,
     "text": [
-     "codex.quest.mc_found.builder.text.0"
+     "codex.quest.mc_found.builder.text.0",
+     "codex.quest.mc_found.builder.text.1",
+     "codex.quest.mc_found.builder.text.2"
     ],
     "tasks": [
      {
@@ -130,10 +142,12 @@
     "id": "citizen",
     "title": "codex.quest.mc_found.citizen.title",
     "icon": "minecolonies:blockhutcitizen",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 1,
     "text": [
-     "codex.quest.mc_found.citizen.text.0"
+     "codex.quest.mc_found.citizen.text.0",
+     "codex.quest.mc_found.citizen.text.1",
+     "codex.quest.mc_found.citizen.text.2"
     ],
     "tasks": [
      {
@@ -160,10 +174,12 @@
     "id": "warehouse",
     "title": "codex.quest.mc_found.warehouse.title",
     "icon": "minecolonies:blockhutwarehouse",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 1,
     "text": [
-     "codex.quest.mc_found.warehouse.text.0"
+     "codex.quest.mc_found.warehouse.text.0",
+     "codex.quest.mc_found.warehouse.text.1",
+     "codex.quest.mc_found.warehouse.text.2"
     ],
     "tasks": [
      {
@@ -200,10 +216,12 @@
     "id": "food",
     "title": "codex.quest.mc_found.food.title",
     "icon": "minecolonies:blockhutcook",
-    "x": 0,
-    "y": 6,
+    "x": 12,
+    "y": 0,
     "text": [
-     "codex.quest.mc_found.food.text.0"
+     "codex.quest.mc_found.food.text.0",
+     "codex.quest.mc_found.food.text.1",
+     "codex.quest.mc_found.food.text.2"
     ],
     "tasks": [
      {
@@ -235,10 +253,12 @@
     "id": "postbox",
     "title": "codex.quest.mc_found.postbox.title",
     "icon": "minecolonies:blockpostbox",
-    "x": 1,
-    "y": 6,
+    "x": 14,
+    "y": 0,
     "text": [
-     "codex.quest.mc_found.postbox.text.0"
+     "codex.quest.mc_found.postbox.text.0",
+     "codex.quest.mc_found.postbox.text.1",
+     "codex.quest.mc_found.postbox.text.2"
     ],
     "tasks": [
      {
@@ -260,10 +280,12 @@
     "id": "hospital",
     "title": "codex.quest.mc_found.hospital.title",
     "icon": "minecolonies:blockhuthospital",
-    "x": 0,
-    "y": 7,
+    "x": 16,
+    "y": 0,
     "text": [
-     "codex.quest.mc_found.hospital.text.0"
+     "codex.quest.mc_found.hospital.text.0",
+     "codex.quest.mc_found.hospital.text.1",
+     "codex.quest.mc_found.hospital.text.2"
     ],
     "tasks": [
      {
@@ -290,10 +312,12 @@
     "id": "mystical",
     "title": "codex.quest.mc_found.mystical.title",
     "icon": "minecolonies:blockhutmysticalsite",
-    "x": 1,
-    "y": 7,
+    "x": 18,
+    "y": 1,
     "text": [
-     "codex.quest.mc_found.mystical.text.0"
+     "codex.quest.mc_found.mystical.text.0",
+     "codex.quest.mc_found.mystical.text.1",
+     "codex.quest.mc_found.mystical.text.2"
     ],
     "tasks": [
      {
@@ -311,8 +335,95 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "guide_housing_audit",
+    "title": "codex.quest.mc_found.guide_housing_audit.title",
+    "icon": "minecolonies:blockhutcitizen",
+    "deps": [
+     "citizen"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "В ратуше проверены свободное жильё и занятые профессии; для следующего жителя выбраны дом и работа",
+      "note": "codex.quest.mc_found.guide_housing_audit.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 2,
+    "text": [
+     "codex.quest.mc_found.guide_housing_audit.text.0",
+     "codex.quest.mc_found.guide_housing_audit.text.1",
+     "codex.quest.mc_found.guide_housing_audit.text.2"
+    ]
+   },
+   {
+    "id": "guide_request_tools",
+    "title": "codex.quest.mc_found.guide_request_tools.title",
+    "icon": "minecraft:stone_axe",
+    "deps": [
+     "warehouse",
+     "builder"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Запрос инструмента действующего работника выполнен через колониальную систему; работник возобновил дело",
+      "note": "codex.quest.mc_found.guide_request_tools.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 2,
+    "text": [
+     "codex.quest.mc_found.guide_request_tools.text.0",
+     "codex.quest.mc_found.guide_request_tools.text.1",
+     "codex.quest.mc_found.guide_request_tools.text.2"
+    ]
+   },
+   {
+    "id": "guide_menu_trial",
+    "title": "codex.quest.mc_found.guide_menu_trial.title",
+    "icon": "minecraft:baked_potato",
+    "deps": [
+     "food",
+     "warehouse"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "В столовой выбрано доступное меню, доставлена подходящая еда и наблюдалась выдача гражданину",
+      "note": "codex.quest.mc_found.guide_menu_trial.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 1,
+    "text": [
+     "codex.quest.mc_found.guide_menu_trial.text.0",
+     "codex.quest.mc_found.guide_menu_trial.text.1",
+     "codex.quest.mc_found.guide_menu_trial.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "colony"
  },
  {
   "id": "mc_production",
@@ -322,17 +433,20 @@
   "icon": "minecolonies:blockhutsawmill",
   "subtitle": "codex.chapter.mc_production.subtitle",
   "intro": [
-   "codex.chapter.mc_production.intro.0"
+   "codex.chapter.mc_production.intro.0",
+   "codex.chapter.mc_production.intro.1"
   ],
   "quests": [
    {
     "id": "lumberjack",
     "title": "codex.quest.mc_production.lumberjack.title",
     "icon": "minecolonies:blockhutlumberjack",
-    "x": 0,
-    "y": 0,
+    "x": 8,
+    "y": 2,
     "text": [
-     "codex.quest.mc_production.lumberjack.text.0"
+     "codex.quest.mc_production.lumberjack.text.0",
+     "codex.quest.mc_production.lumberjack.text.1",
+     "codex.quest.mc_production.lumberjack.text.2"
     ],
     "tasks": [
      {
@@ -345,16 +459,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "mc_found/builder"
+    ]
    },
    {
     "id": "sawmill",
     "title": "codex.quest.mc_production.sawmill.title",
     "icon": "minecolonies:blockhutsawmill",
-    "x": 0,
-    "y": 1,
+    "x": 10,
+    "y": 3,
     "text": [
-     "codex.quest.mc_production.sawmill.text.0"
+     "codex.quest.mc_production.sawmill.text.0",
+     "codex.quest.mc_production.sawmill.text.1",
+     "codex.quest.mc_production.sawmill.text.2"
     ],
     "tasks": [
      {
@@ -376,10 +495,12 @@
     "id": "miner",
     "title": "codex.quest.mc_production.miner.title",
     "icon": "minecolonies:blockhutminer",
-    "x": -1,
-    "y": 1,
+    "x": 12,
+    "y": 3,
     "text": [
-     "codex.quest.mc_production.miner.text.0"
+     "codex.quest.mc_production.miner.text.0",
+     "codex.quest.mc_production.miner.text.1",
+     "codex.quest.mc_production.miner.text.2"
     ],
     "tasks": [
      {
@@ -416,10 +537,12 @@
     "id": "smeltery",
     "title": "codex.quest.mc_production.smeltery.title",
     "icon": "minecolonies:blockhutsmeltery",
-    "x": 0,
-    "y": 2,
+    "x": 14,
+    "y": 3,
     "text": [
-     "codex.quest.mc_production.smeltery.text.0"
+     "codex.quest.mc_production.smeltery.text.0",
+     "codex.quest.mc_production.smeltery.text.1",
+     "codex.quest.mc_production.smeltery.text.2"
     ],
     "tasks": [
      {
@@ -446,10 +569,12 @@
     "id": "blacksmith",
     "title": "codex.quest.mc_production.blacksmith.title",
     "icon": "minecolonies:blockhutblacksmith",
-    "x": 0,
+    "x": 16,
     "y": 3,
     "text": [
-     "codex.quest.mc_production.blacksmith.text.0"
+     "codex.quest.mc_production.blacksmith.text.0",
+     "codex.quest.mc_production.blacksmith.text.1",
+     "codex.quest.mc_production.blacksmith.text.2"
     ],
     "tasks": [
      {
@@ -481,10 +606,12 @@
     "id": "animals",
     "title": "codex.quest.mc_production.animals.title",
     "icon": "minecolonies:blockhutshepherd",
-    "x": 0,
+    "x": 18,
     "y": 4,
     "text": [
-     "codex.quest.mc_production.animals.text.0"
+     "codex.quest.mc_production.animals.text.0",
+     "codex.quest.mc_production.animals.text.1",
+     "codex.quest.mc_production.animals.text.2"
     ],
     "tasks": [
      {
@@ -516,10 +643,12 @@
     "id": "plants",
     "title": "codex.quest.mc_production.plants.title",
     "icon": "minecolonies:blockhutplantation",
-    "x": 0,
-    "y": 5,
+    "x": 20,
+    "y": 4,
     "text": [
-     "codex.quest.mc_production.plants.text.0"
+     "codex.quest.mc_production.plants.text.0",
+     "codex.quest.mc_production.plants.text.1",
+     "codex.quest.mc_production.plants.text.2"
     ],
     "tasks": [
      {
@@ -556,10 +685,12 @@
     "id": "fisherman",
     "title": "codex.quest.mc_production.fisherman.title",
     "icon": "minecolonies:blockhutfisherman",
-    "x": 1,
-    "y": 5,
+    "x": 22,
+    "y": 3,
     "text": [
-     "codex.quest.mc_production.fisherman.text.0"
+     "codex.quest.mc_production.fisherman.text.0",
+     "codex.quest.mc_production.fisherman.text.1",
+     "codex.quest.mc_production.fisherman.text.2"
     ],
     "tasks": [
      {
@@ -581,10 +712,12 @@
     "id": "nether",
     "title": "codex.quest.mc_production.nether.title",
     "icon": "minecolonies:blockhutnetherworker",
-    "x": 0,
-    "y": 6,
+    "x": 24,
+    "y": 3,
     "text": [
-     "codex.quest.mc_production.nether.text.0"
+     "codex.quest.mc_production.nether.text.0",
+     "codex.quest.mc_production.nether.text.1",
+     "codex.quest.mc_production.nether.text.2"
     ],
     "tasks": [
      {
@@ -606,10 +739,12 @@
     "id": "quarry",
     "title": "codex.quest.mc_production.quarry.title",
     "icon": "minecolonies:mediumquarry",
-    "x": 1,
-    "y": 6,
+    "x": 26,
+    "y": 3,
     "text": [
-     "codex.quest.mc_production.quarry.text.0"
+     "codex.quest.mc_production.quarry.text.0",
+     "codex.quest.mc_production.quarry.text.1",
+     "codex.quest.mc_production.quarry.text.2"
     ],
     "tasks": [
      {
@@ -632,10 +767,12 @@
     "id": "concrete",
     "title": "codex.quest.mc_production.concrete.title",
     "icon": "minecolonies:blockhutconcretemixer",
-    "x": 2,
-    "y": 6,
+    "x": 28,
+    "y": 3,
     "text": [
-     "codex.quest.mc_production.concrete.text.0"
+     "codex.quest.mc_production.concrete.text.0",
+     "codex.quest.mc_production.concrete.text.1",
+     "codex.quest.mc_production.concrete.text.2"
     ],
     "tasks": [
      {
@@ -658,8 +795,194 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "timber_service_setup",
+    "title": "codex.quest.mc_production.timber_service_setup.title",
+    "icon": "minecolonies:blockhutlumberjack",
+    "x": 10,
+    "y": 4,
+    "deps": [
+     "lumberjack"
+    ],
+    "text": [
+     "codex.quest.mc_production.timber_service_setup.text.0",
+     "codex.quest.mc_production.timber_service_setup.text.1",
+     "codex.quest.mc_production.timber_service_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutlumberjack",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutwarehouse",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "timber_service_batch",
+    "title": "codex.quest.mc_production.timber_service_batch.title",
+    "icon": "minecolonies:blockhutlumberjack",
+    "x": 12,
+    "y": 4,
+    "deps": [
+     "timber_service_setup"
+    ],
+    "text": [
+     "codex.quest.mc_production.timber_service_batch.text.0",
+     "codex.quest.mc_production.timber_service_batch.text.1",
+     "codex.quest.mc_production.timber_service_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:oak_log",
+      "count": 32
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "timber_service_run",
+    "title": "codex.quest.mc_production.timber_service_run.title",
+    "icon": "minecolonies:blockhutlumberjack",
+    "x": 14,
+    "y": 4,
+    "deps": [
+     "timber_service_batch"
+    ],
+    "text": [
+     "codex.quest.mc_production.timber_service_run.text.0",
+     "codex.quest.mc_production.timber_service_run.text.1",
+     "codex.quest.mc_production.timber_service_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.mc_production.timber_service_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_chef_kitchen",
+    "title": "codex.quest.mc_production.guide_chef_kitchen.title",
+    "icon": "minecolonies:blockhutkitchen",
+    "deps": [
+     "mc_found/guide_menu_trial"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecolonies:blockhutkitchen",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Кухня шефа построена, повар назначен и выполнен один доступный рецепт",
+      "note": "codex.quest.mc_production.guide_chef_kitchen.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 1,
+    "text": [
+     "codex.quest.mc_production.guide_chef_kitchen.text.0",
+     "codex.quest.mc_production.guide_chef_kitchen.text.1",
+     "codex.quest.mc_production.guide_chef_kitchen.text.2"
+    ]
+   },
+   {
+    "id": "guide_sawmill_order",
+    "title": "codex.quest.mc_production.guide_sawmill_order.title",
+    "icon": "minecraft:oak_stairs",
+    "deps": [
+     "sawmill",
+     "timber_service_run"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:oak_stairs",
+      "count": 16
+     },
+     {
+      "type": "check",
+      "id": "Лесопилка изготовила дубовые ступени по обученному рецепту для запроса",
+      "note": "codex.quest.mc_production.guide_sawmill_order.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 4,
+    "text": [
+     "codex.quest.mc_production.guide_sawmill_order.text.0",
+     "codex.quest.mc_production.guide_sawmill_order.text.1",
+     "codex.quest.mc_production.guide_sawmill_order.text.2"
+    ]
+   },
+   {
+    "id": "guide_compost_reserve",
+    "title": "codex.quest.mc_production.guide_compost_reserve.title",
+    "icon": "minecraft:chest",
+    "deps": [
+     "plants"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "У компостера настроены разрешённые отходы, племенной запас семян сохранён отдельно и получена первая переработка",
+      "note": "codex.quest.mc_production.guide_compost_reserve.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 22,
+    "y": 4,
+    "text": [
+     "codex.quest.mc_production.guide_compost_reserve.text.0",
+     "codex.quest.mc_production.guide_compost_reserve.text.1",
+     "codex.quest.mc_production.guide_compost_reserve.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "colony"
  },
  {
   "id": "mc_research",
@@ -668,16 +991,21 @@
   "title": "codex.chapter.mc_research.title",
   "icon": "minecolonies:blockhutuniversity",
   "subtitle": "codex.chapter.mc_research.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.mc_research.intro.0",
+   "codex.chapter.mc_research.intro.1"
+  ],
   "quests": [
    {
     "id": "library",
     "title": "codex.quest.mc_research.library.title",
     "icon": "minecolonies:blockhutlibrary",
-    "x": 0,
-    "y": 0,
+    "x": 12,
+    "y": 1,
     "text": [
-     "codex.quest.mc_research.library.text.0"
+     "codex.quest.mc_research.library.text.0",
+     "codex.quest.mc_research.library.text.1",
+     "codex.quest.mc_research.library.text.2"
     ],
     "tasks": [
      {
@@ -690,16 +1018,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "mc_found/warehouse"
+    ]
    },
    {
     "id": "school",
     "title": "codex.quest.mc_research.school.title",
     "icon": "minecolonies:blockhutschool",
-    "x": 1,
-    "y": 0,
+    "x": 14,
+    "y": 2,
     "text": [
-     "codex.quest.mc_research.school.text.0"
+     "codex.quest.mc_research.school.text.0",
+     "codex.quest.mc_research.school.text.1",
+     "codex.quest.mc_research.school.text.2"
     ],
     "tasks": [
      {
@@ -721,10 +1054,12 @@
     "id": "university",
     "title": "codex.quest.mc_research.university.title",
     "icon": "minecolonies:blockhutuniversity",
-    "x": 0,
-    "y": 1,
+    "x": 16,
+    "y": 2,
     "text": [
-     "codex.quest.mc_research.university.text.0"
+     "codex.quest.mc_research.university.text.0",
+     "codex.quest.mc_research.university.text.1",
+     "codex.quest.mc_research.university.text.2"
     ],
     "tasks": [
      {
@@ -751,10 +1086,12 @@
     "id": "tome",
     "title": "codex.quest.mc_research.tome.title",
     "icon": "minecolonies:ancienttome",
-    "x": 1,
-    "y": 1,
+    "x": 18,
+    "y": 2,
     "text": [
-     "codex.quest.mc_research.tome.text.0"
+     "codex.quest.mc_research.tome.text.0",
+     "codex.quest.mc_research.tome.text.1",
+     "codex.quest.mc_research.tome.text.2"
     ],
     "tasks": [
      {
@@ -776,10 +1113,12 @@
     "id": "enchanter",
     "title": "codex.quest.mc_research.enchanter.title",
     "icon": "minecolonies:blockhutenchanter",
-    "x": 0,
-    "y": 2,
+    "x": 20,
+    "y": 3,
     "text": [
-     "codex.quest.mc_research.enchanter.text.0"
+     "codex.quest.mc_research.enchanter.text.0",
+     "codex.quest.mc_research.enchanter.text.1",
+     "codex.quest.mc_research.enchanter.text.2"
     ],
     "tasks": [
      {
@@ -806,10 +1145,12 @@
     "id": "quests",
     "title": "codex.quest.mc_research.quests.title",
     "icon": "minecolonies:questlog",
-    "x": 1,
+    "x": 22,
     "y": 2,
     "text": [
-     "codex.quest.mc_research.quests.text.0"
+     "codex.quest.mc_research.quests.text.0",
+     "codex.quest.mc_research.quests.text.1",
+     "codex.quest.mc_research.quests.text.2"
     ],
     "tasks": [
      {
@@ -818,9 +1159,9 @@
       "count": 1
      },
      {
-      "type": "item",
-      "id": "minecolonies:adventure_token",
-      "count": 1
+      "type": "check",
+      "id": "Завершено одно поручение жителя; результат виден в журнале заданий",
+      "note": "codex.quest.mc_research.quests.task.1"
      }
     ],
     "deps": [
@@ -831,8 +1172,37 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "guide_first_research",
+    "title": "codex.quest.mc_research.guide_first_research.title",
+    "icon": "minecolonies:blockhutuniversity",
+    "deps": [
+     "university"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Выбрано доступное исследование, оплачено и завершено; его эффект проверен в соответствующем учреждении",
+      "note": "codex.quest.mc_research.guide_first_research.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 18,
+    "y": 3,
+    "text": [
+     "codex.quest.mc_research.guide_first_research.text.0",
+     "codex.quest.mc_research.guide_first_research.text.1",
+     "codex.quest.mc_research.guide_first_research.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "colony"
  },
  {
   "id": "mc_military",
@@ -842,17 +1212,20 @@
   "icon": "minecolonies:blockhutbarracks",
   "subtitle": "codex.chapter.mc_military.subtitle",
   "intro": [
-   "codex.chapter.mc_military.intro.0"
+   "codex.chapter.mc_military.intro.0",
+   "codex.chapter.mc_military.intro.1"
   ],
   "quests": [
    {
     "id": "guardtower",
     "title": "codex.quest.mc_military.guardtower.title",
     "icon": "minecolonies:blockhutguardtower",
-    "x": 0,
-    "y": 0,
+    "x": 8,
+    "y": 3,
     "text": [
-     "codex.quest.mc_military.guardtower.text.0"
+     "codex.quest.mc_military.guardtower.text.0",
+     "codex.quest.mc_military.guardtower.text.1",
+     "codex.quest.mc_military.guardtower.text.2"
     ],
     "tasks": [
      {
@@ -865,16 +1238,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "mc_found/builder"
+    ]
    },
    {
     "id": "barracks",
     "title": "codex.quest.mc_military.barracks.title",
     "icon": "minecolonies:blockhutbarracks",
-    "x": 0,
-    "y": 1,
+    "x": 10,
+    "y": 5,
     "text": [
-     "codex.quest.mc_military.barracks.text.0"
+     "codex.quest.mc_military.barracks.text.0",
+     "codex.quest.mc_military.barracks.text.1",
+     "codex.quest.mc_military.barracks.text.2"
     ],
     "tasks": [
      {
@@ -901,10 +1279,12 @@
     "id": "training",
     "title": "codex.quest.mc_military.training.title",
     "icon": "minecolonies:blockhutcombatacademy",
-    "x": 0,
-    "y": 2,
+    "x": 12,
+    "y": 5,
     "text": [
-     "codex.quest.mc_military.training.text.0"
+     "codex.quest.mc_military.training.text.0",
+     "codex.quest.mc_military.training.text.1",
+     "codex.quest.mc_military.training.text.2"
     ],
     "tasks": [
      {
@@ -931,10 +1311,12 @@
     "id": "walls",
     "title": "codex.quest.mc_military.walls.title",
     "icon": "minecolonies:gate_wood",
-    "x": 0,
-    "y": 3,
+    "x": 14,
+    "y": 5,
     "text": [
-     "codex.quest.mc_military.walls.text.0"
+     "codex.quest.mc_military.walls.text.0",
+     "codex.quest.mc_military.walls.text.1",
+     "codex.quest.mc_military.walls.text.2"
     ],
     "tasks": [
      {
@@ -961,10 +1343,12 @@
     "id": "banner",
     "title": "codex.quest.mc_military.banner.title",
     "icon": "minecolonies:banner_rally_guards",
-    "x": 1,
-    "y": 3,
+    "x": 16,
+    "y": 6,
     "text": [
-     "codex.quest.mc_military.banner.text.0"
+     "codex.quest.mc_military.banner.text.0",
+     "codex.quest.mc_military.banner.text.1",
+     "codex.quest.mc_military.banner.text.2"
     ],
     "tasks": [
      {
@@ -986,10 +1370,12 @@
     "id": "raid",
     "title": "codex.quest.mc_military.raid.title",
     "icon": "minecolonies:chiefsword",
-    "x": 0,
-    "y": 4,
+    "x": 18,
+    "y": 5,
     "text": [
-     "codex.quest.mc_military.raid.text.0"
+     "codex.quest.mc_military.raid.text.0",
+     "codex.quest.mc_military.raid.text.1",
+     "codex.quest.mc_military.raid.text.2"
     ],
     "tasks": [
      {
@@ -1011,8 +1397,38 @@
     "deps": [
      "banner"
     ]
+   },
+   {
+    "id": "guide_patrol_route",
+    "title": "codex.quest.mc_military.guide_patrol_route.title",
+    "icon": "minecraft:lantern",
+    "deps": [
+     "guardtower",
+     "walls"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Назначенный стражник прошёл весь маршрут, ворота доступны, опасные перепады ограждены",
+      "note": "codex.quest.mc_military.guide_patrol_route.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 5,
+    "text": [
+     "codex.quest.mc_military.guide_patrol_route.text.0",
+     "codex.quest.mc_military.guide_patrol_route.text.1",
+     "codex.quest.mc_military.guide_patrol_route.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "colony"
  },
  {
   "id": "mc_build",
@@ -1021,16 +1437,21 @@
   "title": "codex.chapter.mc_build.title",
   "icon": "structurize:sceptersteel",
   "subtitle": "codex.chapter.mc_build.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.mc_build.intro.0",
+   "codex.chapter.mc_build.intro.1"
+  ],
   "quests": [
    {
     "id": "scepter",
     "title": "codex.quest.mc_build.scepter.title",
     "icon": "structurize:sceptersteel",
-    "x": 0,
-    "y": 0,
+    "x": 6,
+    "y": 4,
     "text": [
-     "codex.quest.mc_build.scepter.text.0"
+     "codex.quest.mc_build.scepter.text.0",
+     "codex.quest.mc_build.scepter.text.1",
+     "codex.quest.mc_build.scepter.text.2"
     ],
     "tasks": [
      {
@@ -1053,16 +1474,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "mc_found/buildtool"
+    ]
    },
    {
     "id": "substitution",
     "title": "codex.quest.mc_build.substitution.title",
     "icon": "structurize:blocksubstitution",
-    "x": 0,
-    "y": 1,
+    "x": 8,
+    "y": 5,
     "text": [
-     "codex.quest.mc_build.substitution.text.0"
+     "codex.quest.mc_build.substitution.text.0",
+     "codex.quest.mc_build.substitution.text.1",
+     "codex.quest.mc_build.substitution.text.2"
     ],
     "tasks": [
      {
@@ -1089,10 +1515,12 @@
     "id": "cutter",
     "title": "codex.quest.mc_build.cutter.title",
     "icon": "domum_ornamentum:architectscutter",
-    "x": 0,
-    "y": 2,
+    "x": 10,
+    "y": 6,
     "text": [
-     "codex.quest.mc_build.cutter.text.0"
+     "codex.quest.mc_build.cutter.text.0",
+     "codex.quest.mc_build.cutter.text.1",
+     "codex.quest.mc_build.cutter.text.2"
     ],
     "tasks": [
      {
@@ -1116,10 +1544,12 @@
     "id": "timberframe",
     "title": "codex.quest.mc_build.timberframe.title",
     "icon": "domum_ornamentum:dynamic_timberframe",
-    "x": 1,
-    "y": 2,
+    "x": 12,
+    "y": 6,
     "text": [
-     "codex.quest.mc_build.timberframe.text.0"
+     "codex.quest.mc_build.timberframe.text.0",
+     "codex.quest.mc_build.timberframe.text.1",
+     "codex.quest.mc_build.timberframe.text.2"
     ],
     "tasks": [
      {
@@ -1141,10 +1571,12 @@
     "id": "multipiston",
     "title": "codex.quest.mc_build.multipiston.title",
     "icon": "multipiston:multipistonblock",
-    "x": 0,
-    "y": 3,
+    "x": 14,
+    "y": 6,
     "text": [
-     "codex.quest.mc_build.multipiston.text.0"
+     "codex.quest.mc_build.multipiston.text.0",
+     "codex.quest.mc_build.multipiston.text.1",
+     "codex.quest.mc_build.multipiston.text.2"
     ],
     "tasks": [
      {
@@ -1167,16 +1599,23 @@
     "id": "decoration",
     "title": "codex.quest.mc_build.decoration.title",
     "icon": "minecolonies:decorationcontroller",
-    "x": 1,
-    "y": 3,
+    "x": 16,
+    "y": 7,
     "text": [
-     "codex.quest.mc_build.decoration.text.0"
+     "codex.quest.mc_build.decoration.text.0",
+     "codex.quest.mc_build.decoration.text.1",
+     "codex.quest.mc_build.decoration.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "minecolonies:decorationcontroller",
+      "id": "structurize:sceptergold",
       "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Декорация построена по схеме; её управление проверено",
+      "note": "codex.quest.mc_build.decoration.task.1"
      }
     ],
     "optional": true,
@@ -1188,7 +1627,66 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "guide_palette_sample",
+    "title": "codex.quest.mc_build.guide_palette_sample.title",
+    "icon": "domum_ornamentum:architectscutter",
+    "deps": [
+     "cutter",
+     "timberframe"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "По реальному запросу изготовлен образец Domum Ornamentum; строитель принял его точный материал и форму",
+      "note": "codex.quest.mc_build.guide_palette_sample.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 7,
+    "text": [
+     "codex.quest.mc_build.guide_palette_sample.text.0",
+     "codex.quest.mc_build.guide_palette_sample.text.1",
+     "codex.quest.mc_build.guide_palette_sample.text.2"
+    ]
+   },
+   {
+    "id": "guide_upgrade_clearance",
+    "title": "codex.quest.mc_build.guide_upgrade_clearance.title",
+    "icon": "structurize:caliper",
+    "deps": [
+     "scepter",
+     "mc_found/builder"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Предпросмотр следующего уровня здания осмотрен; отмечены границы и сохранены входы соседей и дорога",
+      "note": "codex.quest.mc_build.guide_upgrade_clearance.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 4,
+    "text": [
+     "codex.quest.mc_build.guide_upgrade_clearance.text.0",
+     "codex.quest.mc_build.guide_upgrade_clearance.text.1",
+     "codex.quest.mc_build.guide_upgrade_clearance.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "colony"
  }
 ]

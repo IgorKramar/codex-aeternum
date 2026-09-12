@@ -1,0 +1,1287 @@
+{
+  "section": "hunt",
+  "chapters": {
+    "hunt_cataclysm": {
+      "intro": [
+        "Cataclysm ведёт через восемь крупных боссов и дополнительные схватки в их сооружениях. Для поиска используйте специальные глаза: каждый указывает определённый тип структуры и работает в соответствующем измерении. Найденная арена не равна готовности к бою.",
+        "Некоторые противники пробуждаются расходуемым подношением. Подготовьте его заранее, проверьте броню, лечение и маршрут возвращения, затем начинайте схватку. Итоговое достижение требует личных побед над конкретными боссами; просто получить чужое оружие недостаточно."
+      ],
+      "intro_en": [
+        "Cataclysm leads through eight major bosses and additional encounters in their structures. Use the special locating eyes, each associated with a structure and dimension. Discovering an arena is not the same as being ready to fight.",
+        "Some enemies awaken through consumed offerings. Prepare the offering, armour, healing, and return route before starting. The final advancement requires personal victories against specific bosses; obtaining another player’s weapons is insufficient."
+      ]
+    },
+    "hunt_beasts": {
+      "intro": [
+        "Здесь охота означает разные занятия: наблюдение за животными, приручение, испытания и бои с мутантами. Перед вылазкой прочитайте страницу существа в Animal Dictionary: корм, среда обитания и полезное взаимодействие зачастую важнее силы оружия.",
+        "У Mowzie’s Mobs условия победы привязаны к поведению противника. Некоторые награды получают торговлей или прохождением испытания; начатая слишком рано драка может закрыть мирный способ в конкретном поселении."
+      ],
+      "intro_en": [
+        "Hunting here includes observation, taming, trials, and mutant battles. Read the creature’s Animal Dictionary entry before travelling: food, habitat, and useful interactions often matter more than weapon strength.",
+        "Mowzie’s Mobs encounters depend on enemy behaviour. Some rewards come from trade or a challenge, and attacking too early can remove the peaceful option at that settlement."
+      ]
+    },
+    "hunt_apotheosis": {
+      "intro": [
+        "Apotheosis соединяет добычу с аффиксами, камни и личные уровни мира. Найденный предмет сначала сравните с текущим комплектом; ненужное снаряжение превращается в материал для улучшений. Редкость аффиксов и обычные зачарования — разные свойства.",
+        "Apothic Enchanting использует Eterna, Quanta и Arcana, а доступную Eterna дополнительно ограничивает активный World Tier. Новая ступень не включается сама: откройте выбор уровня мира и активируйте её перед настройкой более сильного стола."
+      ],
+      "intro_en": [
+        "Apotheosis connects affix loot, gems, and personal World Tiers. Compare found equipment with your current set before salvaging unwanted pieces into upgrade materials. Affix rarity and ordinary enchantments are separate properties.",
+        "Apothic Enchanting uses Eterna, Quanta, and Arcana, while the active World Tier also limits available Eterna. Unlocking a tier does not activate it: use the tier selection screen before configuring a stronger enchanting table."
+      ]
+    }
+  },
+  "quests": {
+    "hunt_cataclysm/root": {
+      "text": [
+        "Для первых материалов Cataclysm исследуйте обычный мир, а не ищите одноимённую руду повсюду. Чёрная сталь встречается в заброшенных снежных постройках и у драугров; древний металл — в пустынных сооружениях и добыче коболетонов. Подготовьте щит, оружие и место для нескольких отдельных партий.",
+        "Соберите по четыре слитка каждого металла одним запасом соответствующего вида. Их не обязательно держать одновременно: после отметки материал можно использовать. Пояс новичка создаётся отдельно из кожи и железного слитка и служит доступным началом снаряжения мода.",
+        "Сначала разведайте небольшое сооружение и верните добычу домой, затем планируйте крупного босса. Название первой карточки не означает, что любой противник Cataclysm рассчитан на раннее железо. Следующая вылазка в Кузницу душ потребует значительно более серьёзной защиты, лечения и огнестойкости."
+      ],
+      "text_en": [
+        "For early Cataclysm materials, explore the Overworld rather than searching everywhere for matching ores. Black Steel comes from abandoned snowy structures and Draugr, while Ancient Metal appears in desert structures and Koboleton loot. Prepare a shield, weapon, and room for separate batches.",
+        "Collect four ingots of each metal together by type. Both types need not remain present simultaneously after detection. Craft the Belt of the Beginner separately from leather and an iron ingot for accessible starter equipment.",
+        "Scout a smaller structure and bring its loot home before planning a major boss. The first card does not imply every Cataclysm enemy suits early iron gear. The Soul Blacksmith expedition requires substantially stronger protection, healing, and Fire Resistance."
+      ],
+      "task_notes": {}
+    },
+    "hunt_cataclysm/soulforge": {
+      "text": [
+        "Кузница душ генерируется в Нижнем мире. Сделайте Monstrous Eye и используйте его для поиска соответствующей структуры, затем запишите координаты и организуйте безопасный подход. Возьмите огнестойкость, зачарованную броню, лечение и оружие для продолжительной ближней схватки.",
+        "Внутри найдите Незеритового монстра и расчистите путь от мелких противников до начала основного боя. Избегайте ударов по площади, лавовых атак и прямой линии разгона; атакуйте в промежутках, не оставаясь возле босса после собственной серии ударов.",
+        "После личной победы заберите Infernal Forge и проверьте два достижения отдельно: посещение структуры и убийство монстра. Кузница в названии предмета — оружие, а не готовый промышленный станок. Сохраните добычу: позднее её можно объединить с Void Core, полученным в разрушенной цитадели, через механическую наковальню слияния."
+      ],
+      "text_en": [
+        "The Soul Blacksmith generates in the Nether. Craft a Monstrous Eye to locate it, record coordinates, and secure the approach. Bring Fire Resistance, enchanted armour, healing, and a weapon suited to a prolonged close fight.",
+        "Find the Netherite Monstrosity and clear smaller enemies from your route before the main battle. Avoid area strikes, lava attacks, and straight charges. Attack during openings and move away after your own sequence.",
+        "Collect the Infernal Forge after personally defeating the boss, checking structure discovery and victory separately. Despite its name, the forge item is a weapon rather than an industrial machine. Save it for later fusion with the Ruined Citadel’s Void Core at the Mechanical Fusion Anvil."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти Кузницу душ в Нижнем мире",
+          "en": "Find the Soul Forge in the Nether"
+        },
+        "1": {
+          "ru": "Лично победить Незеритового монстра",
+          "en": "Personally defeat the Netherite Monstrosity"
+        }
+      }
+    },
+    "hunt_cataclysm/citadel": {
+      "text": [
+        "Разрушенную цитадель ищите на внешних островах Края с помощью Void Eye. Подготовьте защиту от падения, хорошую броню, лечение и надёжный путь обратно к вратам. Большая каменная структура не отменяет опасности пустоты по краям острова.",
+        "Исследуйте цитадель и победите Эндер-голема, затем доберитесь до Эндер-стража. Следите за ударами по площади и участками с возникающими рунами: во время опасной серии лучше менять положение, чем продолжать неподвижную атаку. Разделяйте схватки восстановлением здоровья и прочности.",
+        "Карточка требует обе личные победы и посещение цитадели. Gauntlet of Guard и Void Core заберите из соответствующей добычи после боёв; наличие одного не закрывает другую цель. Ядро сохраните для слияния с Infernal Forge, а перчатку сначала испытайте на безопасном участке перед использованием возле домашних построек."
+      ],
+      "text_en": [
+        "Locate a Ruined Citadel on the outer End islands with a Void Eye. Prepare fall protection, strong armour, healing, and a reliable route back to the gateway. A large stone structure does not eliminate void hazards around the island.",
+        "Explore the citadel, defeat the Ender Golem, and then reach the Ender Guardian. Watch area attacks and emerging rune hazards, repositioning instead of standing still through dangerous sequences. Recover health and durability between encounters.",
+        "This card requires both personal victories and structure discovery. Collect the Gauntlet of Guard and Void Core from the relevant battle loot; one does not complete the other objective. Reserve the core for Infernal Forge fusion and test the gauntlet safely away from home."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти Разрушенную цитадель в Крае",
+          "en": "Find the Ruined Citadel in the End"
+        },
+        "1": {
+          "ru": "Победить Эндер-голема",
+          "en": "Kill an Ender Golem"
+        },
+        "2": {
+          "ru": "Лично победить Эндер-стража",
+          "en": "Personally defeat the Ender Guardian"
+        }
+      }
+    },
+    "hunt_cataclysm/factory": {
+      "text": [
+        "Древняя фабрика находится под землёй обычного мира; Mech Eye помогает найти направление. Спускайтесь к ней безопасным тоннелем и оставьте запас снаружи. До встречи с Предвестником подготовьте незерскую звезду: она служит расходуемым средством пробуждения, а не просто украшением арены.",
+        "Примените звезду к неактивному Harbinger, когда готовы к бою. Уходите от ракет, лазерных линий и разгонов, используя промежутки между сериями для атаки. Не рассчитывайте, что узкий вход позволит безнаказанно наносить урон из любой дальности: сражайтесь в предназначенной зоне.",
+        "После победы заберите визерит и накопите четыре слитка для цели. Изготовьте Mechanical Fusion Anvil для следующего этапа объединения оружия. Открытие структуры, убийство босса, материал и станок отмечаются отдельно, поэтому проверьте каждый результат до расходования всей добычи на стороннее снаряжение."
+      ],
+      "text_en": [
+        "The Ancient Factory lies underground in the Overworld, and a Mech Eye locates it. Descend safely and leave supplies outside. Prepare a Nether Star before meeting the Harbinger; it is a consumed awakening item, not arena decoration.",
+        "Use the star on the inactive Harbinger when ready. Avoid rockets, laser lines, and charges, attacking between sequences. Do not assume a narrow entrance enables unlimited damage from any distance; fight within the intended area.",
+        "Collect Witherite after victory and accumulate four ingots for detection. Craft the Mechanical Fusion Anvil for weapon combination. Discovery, boss victory, material, and workstation are separate objectives, so verify each before spending all the loot elsewhere."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти Древнюю фабрику под землёй",
+          "en": "Find the Ancient Factory underground"
+        },
+        "1": {
+          "ru": "Пробудить и лично победить Предвестника",
+          "en": "Wake and personally defeat the Harbinger"
+        }
+      }
+    },
+    "hunt_cataclysm/fusion": {
+      "text": [
+        "Void Forge получается объединением двух трофеев, добытых в разных измерениях. Подготовьте Infernal Forge после Незеритового монстра и Void Core из разрушенной цитадели. Для операции нужна Mechanical Fusion Anvil, изготовленная на ветке Древней фабрики.",
+        "Поместите Infernal Forge как основу, Void Core как добавление и заберите результат слияния. Проверьте предмет в выходном слоте до подтверждения: обычная ванильная наковальня и случайный пустотный материал не заменяют указанный рецепт. Оба исходных компонента расходуются в новом оружии.",
+        "Полученную Void Forge испытайте вдали от животных и базы. При применении к блоку она вызывает веер пустотных рун, поэтому пространство перед персонажем должно быть свободно от союзников. Эта цель проверяет предмет, а самостоятельный короткий опыт показывает дальность и область действия перед следующей сложной охотой."
+      ],
+      "text_en": [
+        "The Void Forge combines trophies from different dimensions. Prepare an Infernal Forge from the Netherite Monstrosity and a Void Core from the Ruined Citadel. The operation requires the Mechanical Fusion Anvil from Ancient Factory progression.",
+        "Use the Infernal Forge as the base and Void Core as the addition, then collect the fusion result. Inspect the output before confirming; a vanilla anvil and arbitrary void material cannot substitute. Both inputs become part of the new weapon.",
+        "Test the Void Forge away from animals and buildings. Using it on a block summons a fan of Void Runes, so keep allies out of the area ahead. The quest detects the item; a short practical test establishes its reach before your next difficult hunt."
+      ],
+      "task_notes": {}
+    },
+    "hunt_cataclysm/pyramid": {
+      "text": [
+        "Проклятая пирамида находится в пустыне обычного мира и ищется Desert Eye. Возьмите кисть, хорошее оружие, защиту и запас еды. При исследовании сохраняйте подозрительный песок: разрушение киркой лишит археологической добычи, необходимой для пробуждения босса.",
+        "Вычищайте песок кистью, пока не получите Necklace of the Desert. Дождитесь его предметной отметки, затем примените ожерелье к неактивному Ancient Remnant. Это расходуемый ключ пробуждения; одного обнаружения большой статуи недостаточно для выполнения победы.",
+        "Во время боя избегайте разгонов, ударов ногами и опасных песчаных участков, атакуя после завершения серии. После личной победы соберите добычу, включая материал для Sandstorm in a Bottle, и завершите её рецепт. Ожерелье не нужно искать повторно ради уже сохранённой отметки, но новую попытку призыва планируйте с необходимым подношением."
+      ],
+      "text_en": [
+        "The Cursed Pyramid generates in Overworld deserts and is located with a Desert Eye. Bring a brush, strong weapons, protection, and food. Preserve suspicious sand while exploring; mining it destroys archaeological loot needed to awaken the boss.",
+        "Brush the sand until you obtain the Necklace of the Desert. Let it register, then use it on the inactive Ancient Remnant. It is a consumed awakening key; merely finding the large statue does not complete victory.",
+        "Avoid charges, stomps, and hazardous sand areas, striking after attack sequences. Collect personal victory loot, including material for Sandstorm in a Bottle, and complete that recipe. You need no replacement necklace for its saved mark, though another summon requires its offering."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти Проклятую пирамиду в пустыне",
+          "en": "Find the Cursed Pyramid in the desert"
+        },
+        "1": {
+          "ru": "Пробудить Древний остаток раскопкой подозрительного песка и лично победить его",
+          "en": "Wake the Ancient Remnant by brushing the suspicious sand, then personally defeat it"
+        }
+      }
+    },
+    "hunt_cataclysm/sunken": {
+      "text": [
+        "Затопленный город ищите в глубоких океанах обычного мира с помощью Abyss Eye. Подготовьте длительное подводное дыхание, удобное движение под водой, освещение и защищённый запас воздуха. Сначала разведайте вход и местных врагов, сохранив отдельный маршрут возвращения к поверхности.",
+        "Для Левиафана изготовьте Abyssal Sacrifice: рецепт использует морское сердце, раковину наутилуса, Athame, коралловый компонент и блоки ценных материалов. Покажите подношение книге и положите на Altar of Abyss, когда готовы; алтарь расходует его при призыве.",
+        "В бою следите за перемещениями Левиафана и крупными атаками, не теряя контроля над дыханием. После победы заберите добычу и изготовьте Tidal Claws по её рецепту. Посещение города, подношение, личная победа и готовые когти — четыре разных результата; завершайте их по порядку, проверяя отметки после каждого."
+      ],
+      "text_en": [
+        "Locate the Sunken City in deep Overworld oceans with an Abyss Eye. Prepare sustained Water Breathing, underwater mobility, lighting, and protected air reserves. Scout the entrance and local enemies while preserving a separate route to the surface.",
+        "Craft an Abyssal Sacrifice for Leviathan using a Heart of the Sea, Nautilus Shell, Athame, coral component, and valuable material blocks. Let it register, then place it on the Altar of Abyss when ready; summoning consumes the offering.",
+        "Track Leviathan’s movement and major attacks without neglecting air. Collect victory loot and craft Tidal Claws. Visiting the city, obtaining the sacrifice, personally winning, and crafting claws are distinct results; complete and check them in sequence."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти Затопленный город в глубоком океане",
+          "en": "Find the Sunken City in a deep ocean"
+        },
+        "2": {
+          "ru": "Призвать и лично победить Левиафана",
+          "en": "Summon and personally defeat the Leviathan"
+        }
+      }
+    },
+    "hunt_cataclysm/acropolis": {
+      "text": [
+        "Акрополь Cataclysm генерируется в тёплом океане; Storm Eye указывает путь к этой структуре. Подготовьте транспорт, защиту от падения, броню и лечение. У входа отметьте безопасное место, прежде чем исследовать открытые площадки и переходы между частями сооружения.",
+        "Победите Клавдиана, затем найдите Сциллу и восстановите запасы перед новой схваткой. Взаимодействие с неактивной Сциллой начинает её бой, поэтому не нажимайте случайно во время разведки. Уходите от молний, бросков оружия и опасных участков, сохраняя место для движения.",
+        "Заберите четыре Lacrima и две Essence of the Storm, накопив каждый вид одним запасом. Карточка также требует две отдельные личные победы и факт посещения акрополя. После зачёта распределите материалы между оружием и дальнейшими рецептами, не теряя сохранённые отметки при последующем расходовании добычи."
+      ],
+      "text_en": [
+        "Cataclysm’s Acropolis generates in warm oceans, and the Storm Eye locates it. Prepare transport, fall protection, armour, and healing. Mark a safe arrival point before exploring exposed platforms and connecting passages.",
+        "Defeat Clawdian, then find Scylla and replenish supplies before another encounter. Interacting with inactive Scylla starts her fight, so avoid accidental clicks during scouting. Dodge lightning, thrown weapons, and hazardous areas while retaining movement space.",
+        "Collect four Lacrima and two Essence of the Storm, accumulating each type together. The card also requires both personal victories and Acropolis discovery. Once detected, allocate materials to weapons and later recipes; spending loot does not remove the guide’s saved marks."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти Акрополь над тёплым океаном",
+          "en": "Find the Acropolis above a warm ocean"
+        },
+        "1": {
+          "ru": "Победить Клавдиана",
+          "en": "Kill a Clawdian"
+        },
+        "2": {
+          "ru": "Лично победить Сциллу, Императрицу бурь",
+          "en": "Personally defeat Scylla, the Storm Empress"
+        }
+      }
+    },
+    "hunt_cataclysm/frosted": {
+      "text": [
+        "Ледяная тюрьма расположена в снежных равнинах обычного мира, а Cursed Eye помогает её найти. Возьмите серьёзную защиту, лечение и запас прочности, затем исследуйте сооружение постепенно, отмечая выход и промежуточные безопасные комнаты. Это большая боевая экспедиция, а не только поиск красивого здания.",
+        "Странный ключ добывается с Aptrgangr и открывает Door of Seal. Дождитесь отметки ключа в инвентаре до использования на двери. За открытым проходом продолжайте путь к Маледиктусу и восстановитесь перед основным залом: предыдущая победа не гарантирует готовность к следующему противнику.",
+        "В бою избегайте захватов, ударов и дальнобойных серий, используя паузы для ответной атаки. После личной победы подберите три слитка курсиума одним запасом. Проверьте достижение босса отдельно от ключа и найденной структуры, затем вынесите ценный металл к подготовленному складу."
+      ],
+      "text_en": [
+        "The Frosted Prison stands in snowy Overworld plains, located with a Cursed Eye. Bring substantial protection, healing, and durability reserves. Explore gradually, marking exits and safe intermediate rooms; this is a large combat expedition rather than sightseeing.",
+        "The Strange Key drops from Aptrgangr and opens the Door of Seal. Let it register before use. Continue toward Maledictus beyond the opened passage and recover before entering the main chamber; winning the earlier encounter does not guarantee readiness.",
+        "Avoid grabs, strikes, and ranged sequences, retaliating during pauses. After personally defeating the boss, collect three Cursium Ingots together. Check the boss advancement separately from the key and structure discovery, then bring the metal back to your prepared cache."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти Ледяную тюрьму в снежной равнине",
+          "en": "Find the Frosted Prison in snowy plains"
+        },
+        "2": {
+          "ru": "Призвать и лично победить Маледиктуса",
+          "en": "Summon and personally defeat Maledictus"
+        }
+      }
+    },
+    "hunt_cataclysm/burning": {
+      "text": [
+        "Горящая арена находится в пустошах Нижнего мира и ищется Flame Eye. Подготовьте огнестойкость, сильную броню, лечение и оружие, которым уверенно пользуетесь. Перед основным призывом победите Ignited Revenant и подберите Burning Ashes, не расходуя их на случайные эксперименты.",
+        "Положите пепел на Altar of Fire внутри арены, чтобы призвать Игниса. Подношение расходуется. Начинайте только после осмотра площадки и пополнения запасов: Игнис проводит длинные опасные серии, а некоторые атаки требуют ухода в сторону, а не простого удержания щита.",
+        "После личной победы соберите игнитиум и материалы для The Incinerator. Накопите три слитка для отметки, затем распределяйте их по рецептам оружия и брони. Достижения Revenant и Игниса проверяются независимо; одна дорогая вещь из чужого сундука не заменяет ваши требуемые победы."
+      ],
+      "text_en": [
+        "The Burning Arena generates in Nether Wastes and is located with a Flame Eye. Prepare Fire Resistance, strong armour, healing, and a familiar weapon. Defeat the Ignited Revenant first and collect Burning Ashes without spending them on random experiments.",
+        "Place the ashes on the arena’s Altar of Fire to summon Ignis. The offering is consumed. Inspect the arena and refill supplies beforehand: Ignis uses long dangerous sequences, and some attacks require sidestepping instead of merely holding a shield.",
+        "Collect Ignitium and materials for The Incinerator after personal victory. Let three ingots register before allocating them to weapons and armour. Revenant and Ignis victories are separate advancements; expensive gear from someone else’s chest cannot replace them."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти Горящую арену в Нижнем мире",
+          "en": "Find the Burning Arena in the Nether"
+        },
+        "1": {
+          "ru": "Победить Пылающего ревенанта",
+          "en": "Kill an Ignited Revenant"
+        },
+        "2": {
+          "ru": "Призвать и лично победить Игниса",
+          "en": "Summon and personally defeat Ignis"
+        }
+      }
+    },
+    "hunt_cataclysm/ignitium": {
+      "text": [
+        "Игнитиумная броня улучшает незеритовое снаряжение через кузнечный шаблон. Сам шаблон создаётся из незеритового шаблона улучшения, адских кирпичей и огненного порошка. Сначала покажите его книге, затем подготовьте незеритовые шлем и нагрудник вместе со слитками игнитиума.",
+        "На кузнечном столе улучшите нужные части, проверив сохранённые свойства результата. Для нагрудника с элитрами потребуется ещё обычная пара элитр и Mechanical Fusion Anvil: совместите уже игнитиумный нагрудник с крыльями. Это отдельная операция после кузнечного улучшения, а не установка элитр на пустой шаблон.",
+        "Заберите шлем и объединённый нагрудник, затем испытайте полёт и защиту на безопасной площадке. Наличие двух предметов не подтверждает полный набор брони. Сохраните запас ремонта и ракет, чтобы редкое снаряжение действительно служило следующим экспедициям, а не оставалось разовой коллекционной находкой."
+      ],
+      "text_en": [
+        "Ignitium armour upgrades Netherite equipment with a smithing template. Craft the template from a Netherite Upgrade Template, Nether Bricks, and Blaze Powder. Let it register, then prepare Netherite helmet and chestplate plus Ignitium Ingots.",
+        "Upgrade the pieces at a Smithing Table and inspect retained properties. The Elytra Chestplate additionally needs ordinary Elytra and a Mechanical Fusion Anvil: combine the completed Ignitium Chestplate with the wings. This follows smithing rather than attaching wings to an empty template.",
+        "Collect the helmet and combined chestplate, then test flight and protection safely. Two items do not demonstrate a complete armour set. Maintain repairs and rockets so the rare equipment supports future expeditions rather than remaining a one-time collection trophy."
+      ],
+      "task_notes": {}
+    },
+    "hunt_cataclysm/pets": {
+      "text": [
+        "Две цели этой ветки связаны с меньшими существами Cataclysm и расходуемыми предметами взаимодействия. Netherite Effigy изготавливается из незеритового слитка, тотема бессмертия, редстоуна, золота и незерских кирпичей. Подготовьте её дома и дождитесь предметной отметки до применения.",
+        "Remnant Skull встречается в добыче Ancient Remnant и Modern Remnant. После предметных отметок примените фигурку или череп к свободной поверхности: они расходуются и создают Netherite Ministrosity или Modern Remnant соответственно. Оставьте достаточно места, иначе размещение существа не состоится.",
+        "Для приручения мини-монстра нужен Lava Power Cell, а современного остатка кормят яйцом нюхача. Подготовьте эти дорогие предметы заранее, затем проверьте поведение и управление питомцем. Разместите его в защищённом месте возле базы; создание существа и приручение являются разными этапами, хотя карточка требует только исходные предметы."
+      ],
+      "text_en": [
+        "These two objectives concern smaller Cataclysm creatures and interaction items. Craft a Netherite Effigy from a Netherite Ingot, Totem of Undying, redstone, gold, and Nether Bricks. Prepare it at home and let it register before use.",
+        "Remnant Skulls occur in Ancient Remnant and Modern Remnant loot. After item detection, use the effigy or skull on a clear surface: the item is consumed and creates a Netherite Ministrosity or Modern Remnant respectively. Leave enough room or creature placement fails.",
+        "Tame the Ministrosity with a Lava Power Cell and the Modern Remnant with a Sniffer Egg. Prepare these expensive items in advance, then check behaviour and pet commands. Keep the creature protected near home; spawning and taming are distinct steps even though this card only requests the original items."
+      ],
+      "task_notes": {}
+    },
+    "hunt_cataclysm/all_bosses": {
+      "text": [
+        "Итоговое достижение Cataclysm требует восемь личных побед: Незеритовый монстр, Эндер-страж, Предвестник, Древний остаток, Левиафан, Сцилла, Маледиктус и Игнис. Дополнительные противники вроде Эндер-голема и Клавдиана имеют свои карточки, но не входят в этот конкретный список.",
+        "Откройте достижение и сравните выполненные критерии с журналом экспедиций. Для недостающего босса подготовьте правильное измерение, глаз поиска, средство пробуждения и новый запас лечения. Чужое оружие или переданный трофей не выполняют условие player_killed_entity, поэтому ориентируйтесь на зарегистрированный результат боя.",
+        "Проходите оставшиеся арены по одной, возвращая добычу домой между попытками. После последней победы дождитесь общего достижения и сохраните заметки о маршрутах. Эта цель завершает охотничью линию мода; повторные бои дальше нужны для материалов, новых сборок оружия или личных испытаний."
+      ],
+      "text_en": [
+        "Cataclysm’s final advancement requires eight personal victories: Netherite Monstrosity, Ender Guardian, Harbinger, Ancient Remnant, Leviathan, Scylla, Maledictus, and Ignis. Additional foes such as the Ender Golem and Clawdian have their own cards but are outside this particular list.",
+        "Open the advancement and compare its criteria with your expedition log. For each missing boss, prepare the correct dimension, locator eye, awakening item, and fresh healing. Transferred weapons or trophies do not satisfy player-killed-entity conditions; check registered battle results.",
+        "Finish remaining arenas one at a time and bring loot home between attempts. Wait for the combined advancement after the last victory and retain your route notes. Further repeats then serve materials, new weapon builds, or personal challenges."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Лично победить всех восьмерых боссов Cataclysm",
+          "en": "Personally defeat all eight Cataclysm bosses"
+        }
+      }
+    },
+    "hunt_beasts/dictionary": {
+      "text": [
+        "Animal Dictionary — рабочий справочник Alex’s Mobs, который стоит сделать до поисков редких существ. Соедините книгу, зелёный краситель и подходящий животный материал: например, перо дорожного бегунка, мех медведя или сброшенный рог лося. Не всякая ванильная кость подходит этому рецепту.",
+        "Откройте страницу ближайшего животного и найдите его среду обитания, корм и способ получения полезной добычи. Многие ресурсы появляются при линьке, кормлении или спасении; убийство первого встреченного зверя может дать меньше пользы, чем наблюдение.",
+        "Возьмите книгу в инвентарь для отметки, затем используйте её как полевой журнал. Начните с знакомого биома и запишите координаты устойчивой популяции. Для дальнейшей ветки приручения понадобятся разные продукты, поэтому ферма еды возле дома экономит больше времени, чем случайные поиски очередного зверя."
+      ],
+      "text_en": [
+        "Craft the Animal Dictionary before searching for rare Alex’s Mobs creatures. Combine a book, green dye, and a suitable animal material, such as a Roadrunner Feather, Bear Fur, or shed Moose Antler. An arbitrary vanilla bone is not sufficient.",
+        "Open the entry for a nearby animal and identify its habitat, food, and useful interactions. Many resources come from shedding, feeding, or rescue; killing the first specimen may be less useful than observing it.",
+        "Let the book register in inventory, then use it as a field journal. Start in a familiar biome and record a reliable population. Later taming needs several foods, so establishing a food supply at home saves repeated searching."
+      ],
+      "task_notes": {}
+    },
+    "hunt_beasts/tame": {
+      "text": [
+        "Для гризли подготовьте мёд и лосося. Медведь становится безопаснее после медового кормления: дайте ему насытиться мёдом из пчелиного улья, затем предлагайте лосося для приручения. Не подходите к голодному хищнику с одним лишь оружием и не начинайте бой рядом с детёнышами.",
+        "Горилл ищите группами в джунглях. Бананы выпадают из листвы джунглей; запасите несколько и кормите выбранную гориллу до приручения. Проверьте оба достижения отдельно: дружба с одним видом не закрывает второй критерий.",
+        "Falconry Glove относится к другой птице: белоголовому орлану из лесистых гор. Его приручают рыбьим жиром, после чего перчатка позволяет посадить птицу на руку и отправить к цели. Сама перчатка не подтверждает приручённого орлана. Возвращайте новых питомцев в защищённое место и проверяйте команды до дальней экспедиции."
+      ],
+      "text_en": [
+        "Prepare honey and salmon for a Grizzly Bear. Let it become honey-sated through a beehive, then offer salmon to tame it. A hungry predator is dangerous, especially near cubs.",
+        "Find Gorilla groups in jungles. Bananas drop from Jungle Leaves; gather several and feed your chosen gorilla until tamed. Check both advancements separately because friendship with one species does not complete the other.",
+        "The Falconry Glove belongs to a different animal: the Bald Eagle of wooded mountains. Tame it with Fish Oil, then use the glove to hold and launch it at a target. Owning the glove does not prove an eagle is tamed. Bring companions to a protected enclosure and practise commands before travelling."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Приручить гризли мёдом и лососем",
+          "en": "Tame a grizzly bear with honey and salmon"
+        },
+        "1": {
+          "ru": "Приручить гориллу",
+          "en": "Tame a gorilla"
+        }
+      }
+    },
+    "hunt_beasts/locators": {
+      "text": [
+        "Амбра получается при спасении кашалота, выброшенного на берег во время грозы. Ищите побережье подходящего океана и аккуратно столкните животное обратно в воду, не причиняя вреда. Убийство кита не заменяет этот способ награды; заранее подготовьте свободный проход к морю.",
+        "Из амбры сделайте Echolocator: он помогает обнаруживать близлежащие пещеры и имеет ограниченное число применений. Используйте его там, где уже планируете подземную разведку, отмечая отклик и безопасный спуск. Это не универсальный указатель на любую структуру карты.",
+        "После предметной отметки улучшите локатор четырьмя жемчужинами Края до Endolocator. Он обнаруживает портал Края поблизости от крепости, а не ведёт через весь мир к далёкой крепости. Сначала доберитесь до района обычными глазами Края, затем применяйте точный поиск внутри. Разные ступени можно показывать последовательно."
+      ],
+      "text_en": [
+        "Ambergris rewards rescuing a Cachalot Whale stranded during a thunderstorm. Search suitable ocean coasts and gently push the animal into water without hurting it. Killing a whale does not replace this rescue reward; clear its route to the sea.",
+        "Craft an Echolocator from Ambergris to reveal nearby caves. It has limited uses, so use it where you already intend to explore underground and plan a safe descent. It is not a universal structure finder.",
+        "After detection, upgrade it with four Ender Pearls into an Endolocator. This reveals a nearby End Portal around a stronghold rather than locating distant strongholds across the world. Reach the area with ordinary Eyes of Ender first. Register the two locator stages sequentially."
+      ],
+      "task_notes": {}
+    },
+    "hunt_beasts/beast_gear": {
+      "text": [
+        "Три предмета здесь требуют разных животных. Tarantula Hawk Elytra собираются из обычных элитр и двух крыльев тарантулового ястреба; каждое целое крыло состоит из девяти оборванных. Насекомых ищите в пустыне, а редкие фрагменты складывайте дома до полного набора.",
+        "Глубоко в пещерах встречаются ядовитые многоножки. Из семи выпавших ног создаются Centipede Leggings, позволяющие карабкаться по стенам. Возьмите молоко и освещение, не позволяйте длинному существу отрезать единственный выход из тесного тоннеля.",
+        "Для Vine Lasso нужны лианы, поводок и две сброшенные кожи анаконды. Анаконда сбрасывает кожу после нескольких проглоченных порций пищи; кормление курятиной полезнее случайного убийства. Испытайте бросок лассо на безопасной цели: оно удерживает в том числе враждебных существ, но не работает как привязка к забору."
+      ],
+      "text_en": [
+        "These three items involve different animals. Tarantula Hawk Elytra combine ordinary Elytra with two Tarantula Hawk Wings, each made from nine Tattered Wings. Search deserts and store fragments until the set is complete.",
+        "Poisonous Cave Centipedes live deep underground. Seven dropped legs make Centipede Leggings for wall climbing. Bring milk and lighting, keeping an escape route through narrow tunnels.",
+        "A Vine Lasso needs vines, a lead, and two Shed Snake Skins. Anacondas shed after swallowing several meals, making chicken feeding more useful than random killing. Test the thrown lasso safely: it can restrain hostile creatures but cannot tether them to a fence. Register each finished piece before using it."
+      ],
+      "task_notes": {}
+    },
+    "hunt_beasts/voidworm": {
+      "text": [
+        "Пустотного червя вызывают в Крае, бросая Mysterious Worm непосредственно в пустоту. Исходную личинку комара сделайте из Maggot и Mosquito Proboscis, затем поместите в Capsid, добытый у эндериофага. Дождитесь превращения и предметной отметки, прежде чем расходовать результат.",
+        "Выберите большой остров с открытым обзором и подготовьте защиту от падения, лечение и оружие дальнего боя. Атакуйте голову червя: повреждение сегментов тела разделяет противника и усложняет бой. Не преследуйте каждую часть над краем острова, сохраняйте место для уклонения.",
+        "Личная победа закрывает достижение; заберите глаз и мандибулы для Dimensional Carver с незеритовым компонентом. Резак создаёт проход к точке возрождения, а обратный портал существует около минуты. Это средство эвакуации с ограниченными применениями, поэтому испытайте его возле базы до следующего опасного вызова."
+      ],
+      "text_en": [
+        "Summon the Void Worm in the End by throwing a Mysterious Worm directly into the void. Craft a Mosquito Larva from a Maggot and Mosquito Proboscis, then transform it inside an Enderiophage’s Capsid. Let the resulting worm register before consuming it.",
+        "Choose a large island with clear sightlines, fall protection, healing, and ranged equipment. Attack the head: damaging body segments splits the worm and complicates the encounter. Avoid chasing every segment beyond the island.",
+        "A personal victory completes the advancement. Collect the eye and mandibles for a Dimensional Carver with its Netherite component. The carver opens a route to spawn with a return portal lasting about a minute. Test this limited-use evacuation tool near home before relying on it."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Убить Пустотного червя",
+          "en": "Kill the Void Worm"
+        }
+      }
+    },
+    "hunt_beasts/transmute": {
+      "text": [
+        "Transmutation Table требует двух рук Farseer, звезды Незера и обсидиана. Farseer встречается около границы мира, поэтому победа над Пустотным червём лишь открывает транспортную подготовку. Превратите Dimensional Carver в Shattered Dimensional Carver внутри Capsid и подготовьте способ возвращения.",
+        "Разбитый резак переносит на огромные расстояния в выбранном направлении; повторные переходы позволяют приблизиться к границе. У Farseer опасный луч, обходящий привычную защиту, поэтому используйте укрытия и не рассчитывайте пережить его неподвижно. Заберите две руки и вернитесь с добычей.",
+        "Установите стол на постоянном месте: он меняет целую входную стопку на один из трёх предложенных результатов за опыт и постепенно учится на принесённых предметах. Начните с дешёвой маленькой партии. Разрушение стирает накопленные знания и вызывает сильный взрыв, возвращая лишь звезду; это не переносимый сундук."
+      ],
+      "text_en": [
+        "The Transmutation Table requires two Farseer Arms, a Nether Star, and Obsidian. Farseers appear near the world border, so defeating the Void Worm only begins transport preparation. Transform a Dimensional Carver into its Shattered version inside a Capsid and prepare your return route.",
+        "The shattered carver travels enormous distances in the chosen direction; repeated trips approach the border. Farseer beams bypass familiar defences, so use cover instead of standing still. Collect both arms and bring them home.",
+        "Place the table permanently. It exchanges the entire input stack for one of three offers at an experience cost and learns from supplied items. Test a small cheap stack first. Breaking it erases its knowledge and causes a powerful explosion, returning only the Nether Star."
+      ],
+      "task_notes": {}
+    },
+    "hunt_beasts/wroughtnaut": {
+      "text": [
+        "Железного Вроутнота ищите в его подземной каменной палате. Подготовьте сильное оружие ближнего боя, еду и свободное место для обхода противника. Не закладывайте всю арену блоками: вам потребуется перемещаться вокруг широкой дуги топора, а не стоять перед шлемом.",
+        "Обычные удары по защищённому телу почти бесполезны. Выманите тяжёлый удар, после которого топор застревает и противник открывает спину; обойдите его и атакуйте уязвимое место. После короткого окна снова отступите и повторите цикл, наблюдая за подготовкой разных движений.",
+        "Дождитесь личной победы и заберите Wrought Axe вместе с Wrought Helmet. Эти предметы проверяются отдельно от достижения. Испытайте размах полученного топора вдали от питомцев и жителей: сильное оружие с широкой атакой требует свободной площадки. Затем восстановите запас лечения перед снежной экспедицией к Фростмо."
+      ],
+      "text_en": [
+        "Find the Ferrous Wroughtnaut in its underground stone chamber. Bring a strong melee weapon, food, and enough room to circle its wide axe swings. Blocking the entire arena with obstacles removes your manoeuvring space.",
+        "Ordinary hits against its protected body accomplish little. Bait the heavy attack that leaves the axe stuck and exposes its back, circle behind, and strike the vulnerable area. Retreat after the short opening and repeat while watching attack preparation.",
+        "Register a personal victory and collect both Wrought Axe and Wrought Helmet. These item checks are separate from the advancement. Practise the axe’s broad attacks away from pets and villagers, then replenish healing before the Frostmaw expedition."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Лично победить Железного Вроутнота",
+          "en": "Personally kill a Ferrous Wroughtnaut"
+        }
+      }
+    },
+    "hunt_beasts/frostmaw": {
+      "text": [
+        "Фростмо встречается спящим в снежных областях. Сначала осмотрите подходы и выберите открытое место без глубоких провалов, куда сможете отступать. Возьмите надёжную броню, лечение и оружие, которым удобно наносить короткую серию ударов после уклонения.",
+        "После пробуждения следите за ледяным дыханием и широкими ударами. Не стойте долго перед мордой: заморозка делает следующий удар особенно опасным. Перемещайтесь вокруг противника, восстанавливайтесь в безопасный момент и не путайте временное затишье с завершением боя.",
+        "Карточка требует именно убийство Фростмо и отдельный Ice Crystal. Получение кристалла хитростью без победы не закроет боевое достижение. Заберите трофей и испытайте ледяное дыхание кристалла на обычных противниках, наблюдая расход прочности. Оставьте место для восстановления снаряжения, прежде чем отправляться к солнечным обитателям саванны."
+      ],
+      "text_en": [
+        "Frostmaws sleep in snowy regions. Scout the approach and choose clear retreat space without deep drops. Bring dependable armour, healing, and a weapon suited to short attacks after dodging.",
+        "Once it awakens, watch its freezing breath and broad strikes. Avoid standing in front of its face: freezing makes the next hit especially dangerous. Move around the creature and heal during safe openings rather than treating a pause as victory.",
+        "This card requires killing Frostmaw and separately obtaining an Ice Crystal. Acquiring the crystal through stealth alone does not complete the combat advancement. Collect the trophy and test its freezing breath on ordinary enemies while watching durability, then repair before visiting the savanna."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Лично победить Фростмо",
+          "en": "Personally kill a Frostmaw"
+        }
+      }
+    },
+    "hunt_beasts/umvuthi": {
+      "text": [
+        "До нападения на Умвути получите Благословение солнца мирным путём. Найдите поселение в саванне, добудьте маску Umvuthana и наденьте её вместо шлема. Подойдите к спокойному вождю: маска открывает торговое взаимодействие, пока он не занят боем.",
+        "В этой сборке первый обмен требует семь золотых блоков. Откройте торговлю, внесите подношение и дождитесь эффекта Sun’s Blessing и соответствующего достижения. Только после регистрации мирного этапа планируйте бой: убитый вождь уже не сможет благословить вас в этом поселении.",
+        "Для схватки подготовьте полноценную защиту, лечение и пространство для ухода от солнечного луча и призываемых воинов. После личной победы заберите Sol Visage. Проверяются благословение, убийство и маска по отдельности; трофей нельзя использовать как доказательство ранее пропущенного мирного взаимодействия."
+      ],
+      "text_en": [
+        "Obtain Sun’s Blessing peacefully before attacking Umvuthi. Find a savanna settlement, obtain an Umvuthana Mask, and wear it in the helmet slot. Approach the calm leader: the mask enables trading while he is not fighting.",
+        "This pack’s first trade costs seven Gold Blocks. Open the trade, pay, and wait for the Sun’s Blessing effect and advancement. Register this peaceful stage before planning combat; a dead leader cannot bless you at that settlement.",
+        "For the fight, bring full protection, healing, and room to avoid solar beams and summoned warriors. Collect Sol Visage after a personal victory. Blessing, victory, and the mask are separate checks, so the trophy cannot prove a skipped peaceful interaction."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Получить эффект Благословения солнца",
+          "en": "Receive the Sun’s Blessing effect"
+        },
+        "1": {
+          "ru": "Лично победить Умвути",
+          "en": "Personally kill Umvuthi"
+        }
+      }
+    },
+    "hunt_beasts/sculptor": {
+      "text": [
+        "Испытание Скульптора начинается с Bluff Rod: добудьте жезл у каменных существ Bluff и найдите самого Скульптора. Подготовьте еду и безопасный путь к месту испытания. Жезл сначала покажите для предметной отметки, затем предложите Скульптору; установленная цена — один жезл.",
+        "После начала поднимайтесь по созданным платформам до вершины. Нельзя ставить или ломать блоки, летать и телепортироваться: испытание проверяет прохождение маршрута, поэтому привычные способы обхода высоты приводят к провалу. Следите за расстоянием прыжка и не торопитесь с переходом на следующую опору.",
+        "На вершине нажмите правой кнопкой по Скульптору, чтобы завершить испытание. Простое достижение высоты без взаимодействия не является финишем. Дождитесь достижения и получите Earthrend Gauntlet, затем испытайте её способности вдали от построек. Убийство Скульптора не заменяет требуемый успешный маршрут."
+      ],
+      "text_en": [
+        "The Sculptor’s challenge begins with a Bluff Rod, obtained from stone Bluff creatures. Find the Sculptor and bring food plus a safe approach route. Register the rod before offering it; the configured entry price is one rod.",
+        "Climb the generated platforms to the top. Placing or breaking blocks, flying, and teleporting are forbidden: this challenge checks the route, so ordinary shortcuts cause failure. Judge jump distances and choose each platform carefully.",
+        "At the summit, right-click the Sculptor to finish. Reaching the height without interacting is insufficient. Wait for the advancement and obtain the Earthrend Gauntlet, then practise its abilities away from buildings. Killing the Sculptor does not replace successfully completing his challenge."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Пройти испытание Скульптора до конца",
+          "en": "Complete the Sculptor’s challenge"
+        }
+      }
+    },
+    "hunt_beasts/chemx": {
+      "text": [
+        "Chemical X в установленной версии варится из густого зелья и одного трофея мутанта: Hulk Hammer, Creeper Shard, Endersoul Hand либо черепа мутанта-скелета. Густое зелье получается из воды и светокаменной пыли. Поэтому начните с естественно появившегося мутанта, а не с несуществующего раннего рецепта из обсидиана.",
+        "Для мутанта-зомби возьмите огниво или огненный заряд. Сначала повалите противника в бою, затем примените средство огня прямо к лежащему телу, чтобы помешать возрождению. Простое ожидание рядом или костёр под обычным зомби не объясняют требуемое взаимодействие.",
+        "Заберите Hulk Hammer и дождитесь предметной отметки. После этого часть трофейной добычи можно потратить на варку Chemical X; достижение с зельем требует получить его в инвентарь. Эксперименты с превращением проводите на отдельной арене с запасным выходом, поскольку появление более сильного существа должно быть ожидаемым событием."
+      ],
+      "text_en": [
+        "In this version, brew Chemical X from a Thick Potion and one mutant trophy: a Hulk Hammer, Creeper Shard, Endersoul Hand, or Mutant Skeleton Skull. Water plus Glowstone Dust makes the Thick Potion. Start with a naturally encountered mutant instead of looking for an early Obsidian recipe.",
+        "Bring Flint and Steel or a Fire Charge for the Mutant Zombie. Knock it down in combat, then use the fire item directly on the fallen body to prevent revival. Waiting nearby or placing a campfire beneath an ordinary zombie does not explain the required interaction.",
+        "Collect and register the Hulk Hammer before spending trophy loot on Chemical X. Its advancement checks the potion in inventory. Conduct transformation experiments in a separate arena with an escape route."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Получить зелье Химиката Икс",
+          "en": "Obtain a Potion of Chemical X"
+        },
+        "1": {
+          "ru": "Поджечь поверженного мутантного зомби огнивом или огненным зарядом",
+          "en": "Set a downed Mutant Zombie on fire with flint and steel or a fire charge"
+        }
+      }
+    },
+    "hunt_beasts/mutant_gear": {
+      "text": [
+        "Нагрудник мутанта-скелета собирается из отдельных костей. Из двух плечевых пластин и четырёх костей конечностей сделайте руки, из шести рёбер — грудную клетку, затем соедините руки над клеткой. После боя подберите разлетевшиеся части, прежде чем покидать арену.",
+        "После смерти мутанта-эндермена остаются Endersoul Fragments. Нажмите по ним правой кнопкой, чтобы сделать своими, затем, стоя рядом, выбросьте око Края: собственные фрагменты в радиусе восьми блоков превращают его в Endersoul Hand. Больше фрагментов даёт больше начальной прочности; атаковать их опасно.",
+        "Creeper Shard связан с победой над мутантом-крипером. Отойдите от его финального взрыва и возвращайтесь за добычей после завершения опасной анимации. Три предмета можно показать последовательно. Испытывайте телекинез руки и взрывные способности осколка на отдельной площадке, поскольку редкий трофей способен повредить собственную базу."
+      ],
+      "text_en": [
+        "Build the Mutant Skeleton Chestplate from separate bones. Two Shoulder Pads and four Limbs make Arms; six Ribs make a Rib Cage. Combine the Arms above the cage, collecting scattered pieces after battle.",
+        "Mutant Endermen leave Endersoul Fragments when defeated. Right-click fragments to claim them, then toss an Eye of Ender while nearby: owned fragments within eight blocks transform it into an Endersoul Hand. More fragments provide more initial durability. Attacking them is dangerous.",
+        "Obtain a Creeper Shard after defeating a Mutant Creeper. Retreat from its final explosion and return only after the dangerous animation ends. Register the three items sequentially, and practise telekinesis and explosive abilities away from your base."
+      ],
+      "task_notes": {}
+    },
+    "hunt_beasts/combat": {
+      "text": [
+        "Перед охотой проверьте движения выбранного оружия на обычных противниках. Better Combat меняет анимацию и последовательность ударов в зависимости от оружия; длинное древко, быстрый клинок и тяжёлый топор требуют разной дистанции. Начните на открытой площадке без питомцев и жителей.",
+        "Сделайте один удар, оцените задержку и длину выпада, затем попробуйте короткую серию. Следите за положением цели и моментом, когда можно безопасно отступить. Широкая дуга полезна против группы, но возле союзников требует осторожного выбора направления. Цифра урона в подсказке не показывает удобство всего движения.",
+        "После практики вручную подтвердите прочтение условия о дуге и дальности оружия. Эта отметка не обещает автоматическую победу над боссом: она завершает подготовку управления. Возьмите на сложную арену уже испытанное оружие, а новые трофеи сначала проверяйте дома, чтобы не изучать их ритм во время смертельной атаки."
+      ],
+      "text_en": [
+        "Practise your weapon’s movements against ordinary enemies before hunting. Better Combat changes animations and attack sequences by weapon type; a polearm, quick blade, and heavy axe need different spacing. Start in an open area without pets or villagers.",
+        "Make one attack, observe its delay and reach, then try a short sequence. Watch target positioning and safe retreat timing. Broad swings help against groups but need careful aim near allies. The damage number alone does not describe how the whole movement handles.",
+        "After practising, manually confirm the statement about attack arcs and reach. This marks control preparation, not guaranteed boss success. Bring a familiar weapon into difficult arenas and test new trophies at home before depending on their rhythm."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/affixes": {
+      "text": [
+        "Предметы с аффиксами узнаются по дополнительным свойствам и редкости в подсказке. Они встречаются в добыче сооружений и у усиленных противников. Сначала найдите доступный сундук или одиночного врага, затем сравните прибавки к характеристикам с текущим оружием и бронёй.",
+        "Для Gem Dust нужны именно камни Apotheosis. Ненужный камень можно раздавить падающей наковальней в мире: положите его на землю и сбросьте наковальню сверху, сами отойдите. После появления Salvaging Table обработку удобнее выполнять в его интерфейсе. Соберите четыре единицы пыли одним запасом.",
+        "Корневое достижение открывается автоматически при входе в игру; оно не доказывает наличие хорошего комплекта. Пыль сохраните для столов, пластин и обработки камней. Не уничтожайте первый полезный камень только ради проверки, если он уже даёт нужное улучшение: следующая вылазка может принести менее ценный экземпляр для переработки."
+      ],
+      "text_en": [
+        "Affix items show additional properties and rarity in their tooltips. Find them in structure loot or on empowered enemies, starting with accessible chests and isolated targets. Compare the actual bonuses with your current equipment.",
+        "Gem Dust comes from Apotheosis gems. Crush an unwanted gem beneath a falling anvil in the world, standing clear of the impact. Once available, the Salvaging Table provides a more convenient interface. Collect four dust together.",
+        "The root advancement opens automatically when you enter the game; it does not demonstrate a strong equipment set. Save dust for stations, slate, and gem upgrades. Keep genuinely useful gems and crush weaker duplicates from later expeditions instead."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Открыть экран уровней мира (Ctrl+T); достижение выдаётся автоматически",
+          "en": "Open the World Tier screen (Ctrl+T); this advancement is granted automatically"
+        }
+      }
+    },
+    "hunt_apotheosis/gems": {
+      "text": [
+        "Gem-Fused Slate производится из восьми блоков глубинного сланца вокруг одной Gem Dust и даёт восемь пластин. Заберите минимум четыре для отметки, затем используйте запас на Gem Cutting Table и Gem Case. Наличие камня в сундуке не равно его установленному бонусу на оружии.",
+        "За столом огранки выберите камень и подготовьте пыль, материал редкости и второй подходящий камень требуемой чистоты. Цена растёт с качеством; сверяйте входные ячейки до операции. Сравните новую чистоту и бонус именно для того типа снаряжения, в который собираетесь вставлять результат.",
+        "Gem Case сортирует камни по названию, применимости и чистоте, а при наличии материалов поддерживает улучшение прямо внутри. Перенесите коллекцию, найдите один подходящий вариант фильтром и проверьте свободное гнездо на снаряжении. Вставка выполняется через кузнечный стол, поэтому стол огранки сам по себе не усиливает надетую броню."
+      ],
+      "text_en": [
+        "Eight Deepslate around one Gem Dust produces eight Gem-Fused Slate. Register at least four, then use the stock for a Gem Cutting Table and Gem Case. A gem in storage does not provide a socketed equipment bonus.",
+        "At the cutting table, prepare dust, rarity material, and the required second gem for your chosen purity upgrade. Costs increase with quality; inspect the input slots before committing. Compare the new bonus for the equipment type you intend to use.",
+        "The Gem Case sorts by name, compatibility, and purity, and can upgrade gems directly when supplied with materials. Organise the collection and select a compatible gem. Socketing uses a Smithing Table; the cutting station alone does not improve worn armour."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/sigils": {
+      "text": [
+        "Три сигила обслуживают разные операции со снаряжением. Sigil of Socketing добавляет гнездо при допустимом количестве гнёзд у предмета; совместите его с выбранной вещью через кузнечный стол и проверьте предварительный результат. Сначала используйте вещь, которую точно собираетесь носить.",
+        "Sigil of Withdrawal извлекает установленные камни через кузнечный стол, возвращая и предмет, и камни. Это безопасный способ перенести удачную вставку в новую броню. Не путайте его с переработкой снаряжения на Salvaging Table, где исходная вещь уничтожается.",
+        "Sigil of Rebirth служит расходником перековки, а не извлечения. Подготовьте по одному виду для предметных отметок, затем направляйте их в соответствующие рабочие места. Перед большим улучшением запишите свойства вещи: полезно видеть, что сохранилось после добавления гнезда и что полностью изменилось после настоящей перековки."
+      ],
+      "text_en": [
+        "The three sigils serve different equipment operations. A Sigil of Socketing adds a socket within the item’s allowed limit. Combine it with your chosen equipment at a Smithing Table and inspect the preview before using a valued piece.",
+        "A Sigil of Withdrawal removes socketed gems at a Smithing Table, returning both equipment and gems. This transfers useful gems into new armour. Salvaging instead destroys the original equipment, so it is a different operation.",
+        "A Sigil of Rebirth fuels reforging rather than extraction. Register one of each, then use the proper station. Record the item’s original properties so you can distinguish what socketing preserves from what a complete reforge replaces."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/reforge": {
+      "text": [
+        "Salvaging Table разбирает ненужные предметы с аффиксами в материалы их редкости. Отделите запасной шлем или оружие от рабочего комплекта и сначала переработайте дешёвый экземпляр. Полученный материал определяет доступную редкость будущей перековки, поэтому смешанная куча обычного железа его не заменяет.",
+        "Ранний Simple Reforging Table работает до Rare включительно; для Epic и Mythic нужен полноценный Reforging Table, указанный в цели. В интерфейсе положите снаряжение, материал выбранной редкости и Sigils of Rebirth, затем проверьте стоимость опыта и расходников для трёх вариантов.",
+        "Перековка создаёт новый набор аффиксов и может применяться также к подходящей вещи без них. Не выбирайте самый дорогой вариант автоматически: он не гарантирует лучший для вашей сборки эффект. После операции прочитайте все свойства, верните полезную вещь в комплект, а неудачные результаты оцените как будущий материал."
+      ],
+      "text_en": [
+        "The Salvaging Table destroys unwanted affix equipment to recover materials matching its rarity. Separate spare gear from your working set and test a cheap piece first. Ordinary iron cannot replace these rarity materials.",
+        "A Simple Reforging Table supports up to Rare; Epic and Mythic require the full Reforging Table requested here. Supply equipment, the desired rarity material, and Sigils of Rebirth, then compare the experience and material costs of its three choices.",
+        "Reforging creates a new affix set and can also enhance valid unaffixed equipment. The most expensive choice does not guarantee the best effects for your build. Read every resulting property, equip useful pieces, and evaluate unwanted results as potential salvage."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/enchanting": {
+      "text": [
+        "Поставьте Apothic Enchanting Table и окружите его работающими полками с обычным зазором. Восемь Basic Bookshelves — стартовый набор карточки, а не гарантия максимальных характеристик. Откройте интерфейс и проверяйте реальные Eterna, Quanta и Arcana после каждого изменения окружения.",
+        "Geode-Encased Bookshelf of Stability убирает отрицательную сторону случайного влияния Quanta. Для её компонентов нужен растущий аметист, который можно получить инфузией. Sightshelf добавляет сведения о будущих зачарованиях: она улучшает предпросмотр, а не напрямую урон оружия. Эти дополнительные полки требуют развивать исходное окружение дальше.",
+        "Если Eterna упирается в ограничение уровня мира, откройте выбор World Tier и активируйте уже доступную ступень. Больше одинаковых полок сверх их предела не решает такую проблему. Сделайте пробное зачарование на книге, сравните предварительные подсказки с результатом и лишь затем тратьте опыт на основной комплект."
+      ],
+      "text_en": [
+        "Place an Apothic Enchanting Table with functioning shelves and the usual clear gap. Eight Basic Bookshelves are this card’s starter stock, not a guarantee of maximum stats. Check actual Eterna, Quanta, and Arcana after each change.",
+        "The Geode-Encased Bookshelf of Stability removes negative Quanta variation. Its components involve Budding Amethyst, obtainable by infusion. A Sightshelf adds enchantment preview information rather than weapon damage. Both utility shelves require developing the initial setup further.",
+        "If Eterna is capped by World Tier, activate an unlocked higher tier in its selection screen. More identical shelves beyond their limit will not fix that cap. Test a book before spending experience on your main equipment."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/infusion": {
+      "text": [
+        "Инфузия выполняется в третьей строке стола зачарования, когда входной предмет и характеристики соответствуют рецепту. Для Hellshelf нужны Eterna 45 и Quanta не ниже 30%; для Seashelf — Eterna 45, Quanta 15% и Arcana 10%. Подготовьте полки Нижнего мира и океанические полки, затем пропитайте по две каждого вида.",
+        "Поставьте полученные полки и развивайте окружение до Eterna 60. Для этого уровня необходима также подходящая активная ступень мира; одного накопленного опыта недостаточно. Подбирайте дополнительные полки по их вкладу, наблюдая за показателями, вместо случайного наращивания одного вида.",
+        "Extraction Tome получается инфузией Improved Scrap Tome при Eterna 60, Quanta 25–75% и Arcana от 45%; операция даёт четыре тома. Он снимает все зачарования без уничтожения вещи. Обычный Scrap Tome уничтожает предмет, поэтому внимательно проверьте название расходника перед извлечением дорогих чар."
+      ],
+      "text_en": [
+        "Infusion uses the enchanting table’s third option when the input and stats match. A Hellshelf requires Eterna 45 and at least 30% Quanta; a Seashelf needs Eterna 45, 15% Quanta, and 10% Arcana. Infuse two of each.",
+        "Install the resulting shelves and develop the setup to Eterna 60. The active World Tier must also permit that value; stored experience alone is insufficient. Adjust shelves according to their contributions while watching the displayed stats.",
+        "Infuse an Improved Scrap Tome at Eterna 60, Quanta 25–75%, and at least 45% Arcana to obtain four Extraction Tomes. These remove every enchantment without destroying equipment. Ordinary Scrap Tomes destroy the item, so inspect the exact consumable before recovering valuable enchantments."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/deepshelf": {
+      "text": [
+        "Сделайте Dormant Deepshelf из потрескавшихся плиток глубинного сланца и книг. Пропитайте её на столе при Eterna 60, Quanta 40% и Arcana 40%, повторив до двух Deepshelves. Они расширяют дальнейшие возможности окружения, но более высокий показатель требует снятого ограничения World Tier.",
+        "Следующая ступень связана с Тёмными глубинами. Осколки эха ищите в сундуках древнего города, скалк добывайте Шёлковым касанием, а Warden Tendril требует победы над Варденом. Подготовьте отдельный маршрут отступления и серьёзное боевое снаряжение: городской обход с шерстью сам по себе такого трофея не даёт.",
+        "После отметки усика используйте его на Sculkshelf и соберите Echoing Sculkshelf. Разные ступени не нужно хранить одновременно. Проверьте, что новая полка действительно меняет параметры стола, и перенастройте Quanta перед следующим рецептом: достижение более высокой Eterna ещё не означает подходящий диапазон остальных характеристик."
+      ],
+      "text_en": [
+        "Craft a Dormant Deepshelf from Cracked Deepslate Tiles and books. Infuse it at Eterna 60, 40% Quanta, and 40% Arcana, repeating for two Deepshelves. Further increases also require a World Tier that permits the value.",
+        "The next stage uses Deep Dark materials. Search Ancient City chests for Echo Shards, mine Sculk with Silk Touch, and defeat a Warden for its Tendril. Prepare a retreat route and serious combat equipment; quietly exploring with wool does not produce that trophy.",
+        "Register the Tendril before using it for a Sculkshelf and then an Echoing Sculkshelf. Stages can be shown sequentially. Check the new shelf’s actual contribution and readjust Quanta: higher Eterna alone does not satisfy every infusion recipe."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/hundred": {
+      "text": [
+        "Для Infused Dragon’s Breath соберите дыхание дракона в бутылку и настройте стол на Eterna от 80, Quanta 15–30% и Arcana от 60%. Такой уровень требует Pinnacle: более ранний World Tier ограничивает доступную Eterna. Инфузия одной бутылки даёт три порции компонента для полок Края.",
+        "Развивайте Endshelves до окружения уровня 90 и добудьте голову дракона на корабле внешних островов Края. Draconic Endshelf поднимает предел до 100, но не добавляет нужные значения Quanta и Arcana сама по себе. Сохраните вспомогательные полки для точной настройки.",
+        "Library of Alexandria получается инфузией обычной Enchantment Library при Eterna ровно 100, Quanta 45–50% и Arcana ровно 100%. Это рецепт с узким диапазоном, поэтому лишняя хаотичность мешает. После улучшения проверьте сохранённые книги и доступный вывод зачарований; существовавшие записи библиотеки сохраняются рецептом."
+      ],
+      "text_en": [
+        "Collect Dragon’s Breath in a bottle and infuse it at Eterna at least 80, Quanta 15–30%, and Arcana at least 60%. This needs Pinnacle because earlier World Tiers cap Eterna. One bottle produces three infused components for Endshelves.",
+        "Develop the setup to level 90 and obtain a Dragon Head from an outer-End ship. A Draconic Endshelf raises the ceiling to 100 but does not supply the required Quanta or Arcana by itself. Keep supporting shelves for precise tuning.",
+        "Infuse an Enchantment Library into the Library of Alexandria at exactly Eterna 100, Quanta 45–50%, and exactly Arcana 100%. Excess randomness blocks this narrow recipe. Its upgrade preserves stored data; verify enchantment records and extraction afterwards."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/tomes": {
+      "text": [
+        "Bow Tome и Chestplate Tome ограничивают набор возможных зачарований соответствующим снаряжением. Создайте их и дождитесь отметок, затем зачаруйте один на подготовленном столе: результат станет зачарованной книгой. Такой подход помогает искать подходящие чары, но не обещает конкретный редкий эффект за одну попытку.",
+        "Prismatic Cobweb применяется вместе с вещью на наковальне и снимает все проклятия. Сначала посмотрите предварительный результат и стоимость опыта, особенно если вещь уже содержит полезные чары. Не используйте для этой задачи стол переработки аффиксов: он уничтожает исходное снаряжение.",
+        "Enchantment Library хранит чары из внесённых книг как очки, запоминая максимальный внесённый уровень каждого зачарования. Соберите небольшую коллекцию и попробуйте вывести одну книгу. Библиотека не позволяет сразу получить уровень, которого вы никогда не вносили; предметы сверх её вместимости теряются, поэтому проверяйте предел перед крупной загрузкой."
+      ],
+      "text_en": [
+        "Bow and Chestplate Tomes restrict possible enchantments to their corresponding equipment types. Register both, then enchant one at your prepared table; it becomes an enchanted book. This focuses the search without guaranteeing a specific rare result.",
+        "Combine a Prismatic Cobweb with equipment in an anvil to remove all curses. Inspect the preview and experience cost first. The affix Salvaging Table is unsuitable because it destroys the equipment.",
+        "An Enchantment Library stores enchantments from inserted books as points and remembers each enchantment’s highest inserted level. Build a small collection and extract a test book. It cannot output a level never previously inserted, and excess beyond its capacity is lost, so inspect limits before loading valuable books."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/leads": {
+      "text": [
+        "Flimsy Ender Lead изготавливается из поводка, жемчужины Края и золотого слитка. Он переносит животных: нажмите правой кнопкой по подходящему существу, затем по свободной поверхности в месте назначения. Сначала испытайте перенос обычной коровы между двумя огороженными площадками.",
+        "После предметной отметки пропитайте поводок при Eterna 45, Quanta 25% и Arcana 40%. Полученный Ender Lead подходит большинству существ, но исключения остаются. Если конкретный моб не принимается, не считайте это доказательством поломки всей системы и не выпускайте опасного пленника возле жителей.",
+        "Проверьте название захваченного существа в подсказке и свободное место для выпуска. Устройство хранит одно существо, а не создаёт копию, поэтому заранее подготовьте новый вольер. Карточка требует обе ступени предмета; тот же слабый поводок после отметки можно потратить на улучшение без изготовления запасного экземпляра."
+      ],
+      "text_en": [
+        "Craft a Flimsy Ender Lead from a lead, Ender Pearl, and Gold Ingot. Right-click a suitable animal to capture it, then a clear surface to release it. Test an ordinary cow between two enclosures first.",
+        "After detection, infuse the lead at Eterna 45, 25% Quanta, and 40% Arcana. The resulting Ender Lead works on most entities, with exceptions. Rejection of one creature does not prove the entire system is broken, and dangerous captives should not be released near villagers.",
+        "Check the stored creature’s name and release space. The lead moves one existing creature rather than duplicating it. Register both stages sequentially, using the same flimsy lead for the upgrade."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/spawners": {
+      "text": [
+        "Найдите обычный спавнер в подземелье и сначала обезопасьте подход: поставьте свет, уберите уже появившихся противников и подготовьте отступление. Сохраните сам блок на месте. Установленная сборка не содержит Apothic Spawners, поэтому руны и цепи из отдельного модуля не являются рабочей целью этой ветки.",
+        "Осмотрите пространство вокруг клетки и определите, где появляются существа. У обычного спавнера игрок должен находиться поблизости, а скопление однотипных мобов прекращает новые появления. Организуйте отвод существ из зоны клетки и отдельное безопасное место для ручной атаки и сбора добычи.",
+        "Проверьте работу из выбранной точки ожидания: после освобождения комнаты появляются новые мобы, а возвращённое освещение позволяет остановить опасные появления обычного тёмного подземелья. Вручную отметьте проверенный цикл. Взрыв спавнера здесь уничтожит полезную структуру; обещания переноса Шёлковым касанием без соответствующего модуля применять нельзя."
+      ],
+      "text_en": [
+        "Find an ordinary dungeon spawner and secure the approach with lighting, clearing existing enemies and preparing retreat space. Preserve the block in place. This installed pack lacks Apothic Spawners, so its separate-module chains and runes are not working objectives here.",
+        "Inspect spawn positions around the cage. An ordinary spawner requires a nearby player, and too many matching mobs prevent further spawns. Move creatures away from the cage and provide a protected place for manual attacks and collection.",
+        "Test from your waiting position: clearing the room permits new spawns, while restored lighting suppresses ordinary dark-dungeon spawning. Confirm the cycle manually. Exploding the spawner destroys a useful structure; Silk Touch transport should not be assumed without its supporting module."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Проверены освещение, отвод мобов и безопасная точка ожидания",
+          "en": "Lighting, mob funnelling and a safe waiting point have been checked"
+        }
+      },
+      "tasks_override": [
+        {
+          "type": "item",
+          "id": "minecraft:torch",
+          "count": 32
+        },
+        {
+          "type": "check",
+          "id": "spawner_cycle_review",
+          "note": "Проверены освещение, отвод мобов и безопасная точка ожидания"
+        }
+      ],
+      "title": "Спавнер: безопасная ферма",
+      "title_en": "Spawner: a safe farm",
+      "icon": "minecraft:spawner"
+    },
+    "hunt_apotheosis/invaders": {
+      "text": [
+        "Apothic Invader — усиленный именной противник с зачарованным снаряжением и собственным предметом с аффиксами. Найдите его во время исследования, оцените редкость и расчистите путь отступления. Уничтожение обычной толпы не гарантирует такую же добычу, поэтому не принимайте яркое имя за безопасную декоративную особенность.",
+        "После победы заберите персональный предмет. Дополнительная добыча может включать камень или Sigil of Malice, но нужный сигил не гарантирован каждым боем. Продолжайте охоту на подходящей ступени мира и сохраняйте найденные экземпляры для проверки карточки.",
+        "Sigil of Malice не призывает захватчика. Его действие перегружает один аффикс и сбрасывает другой, так что это рискованная перенастройка уже существующего снаряжения. До применения сравните все свойства выбранной вещи и оставьте рабочий комплект дома. Получение сигила и камня завершает предметные цели даже без такого эксперимента."
+      ],
+      "text_en": [
+        "An Apothic Invader is an empowered named enemy wearing enchanted equipment and carrying an affix item. Assess its rarity and clear a retreat route before engaging. Ordinary crowds do not guarantee equivalent loot.",
+        "After victory, collect the invader’s named equipment. Additional drops may include a gem or Sigil of Malice, but the sigil is not guaranteed every fight. Continue hunting at a suitable World Tier and save the requested drops.",
+        "The Sigil of Malice does not summon an invader. It overcharges one affix while resetting another, making it a risky modification to existing equipment. Compare the selected item’s properties and protect your working set before experimenting. Obtaining the sigil and gem completes this card without requiring that experiment."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/augment": {
+      "text": [
+        "Augmenting Table настраивает отдельные аффиксы, сохраняя остальные свойства вещи. Для создания нужны стол зачарования, звезда Незера и две Godforged Pearls. Жемчужины получают переработкой Mythic-предметов, поэтому сначала найдите подходящую ненужную добычу, а не разбирайте единственную сильную броню.",
+        "Покажите жемчужину для отметки перед расходованием на стол. В верхний слот положите предмет с аффиксами, в нижний — Sigils of Enhancement, затем выберите конкретное свойство в списке. Два сигила позволяют усилить его внутреннее значение на 25%; итоговая прибавка к характеристике зависит от самого аффикса.",
+        "Один сигил вместо этого меняет выбранный аффикс на другой того же типа, варианты показаны в интерфейсе. Сравните ожидаемое действие и результат на одной вещи. Эта станция полезна для доводки хорошего набора: полная перековка ради одного слабого свойства могла бы потерять уже удачные остальные бонусы."
+      ],
+      "text_en": [
+        "The Augmenting Table changes individual affixes while preserving the others. Craft it with an Enchanting Table, Nether Star, and two Godforged Pearls. Obtain pearls by salvaging unwanted Mythic items rather than destroying your only strong armour.",
+        "Register a pearl before spending it on the station. Put an affix item in the upper slot, Sigils of Enhancement below, and select a property. Two sigils increase its internal strength by 25%; the actual stat improvement depends on the affix.",
+        "Alternatively, one sigil rerolls the selected affix into another of the same type, with options shown in the interface. Compare the result carefully. This station refines a promising item without risking its other useful bonuses through a complete reforge."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/tier_haven": {
+      "text": [
+        "Haven — начальная личная ступень мира Apotheosis. Она действует по умолчанию, но одноимённое достижение требует подобрать предмет с аффиксами. Найдите такую вещь в добыче и прочитайте дополнительные свойства; обычная зачарованная железная броня без аффиксов не выполняет этот критерий.",
+        "Откройте экран Open World Tier Select, по умолчанию Ctrl+T. Выберите Haven и посмотрите подробности: ступень определяет распределение редкости добычи, чистоты камней и дополнительные ограничения. При нескольких игроках уровень относится к конкретному игроку, а не обязательно ко всему серверу одновременно.",
+        "Проверьте отметку достижения после получения вещи. На Haven доступная Eterna ограничена ранним значением, поэтому подготовку продвинутого зачарования ведите вместе с обновлением комплекта. Следующая цель требует экипировать аффиксную броню во все четыре слота и держать подходящий предмет в руке; начните сохранять недостающие части заранее."
+      ],
+      "text_en": [
+        "Haven is Apotheosis’s default personal World Tier, but its advancement requires picking up an affix item. Inspect the extra properties of found loot; ordinary enchanted iron armour without affixes does not satisfy it.",
+        "Open World Tier Select, normally Ctrl+T, and inspect Haven’s detailed information. Tiers affect rarity and gem-purity distributions along with other modifiers. Multiplayer characters can use different personal tiers.",
+        "Check the advancement after obtaining the item. Haven limits available Eterna, so stronger enchanting progresses alongside equipment upgrades. The next goal needs affix armour equipped in all four slots and an affix item held in a hand. Start saving missing pieces now."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Подобрать предмет с аффиксом",
+          "en": "Pick up an affix item"
+        }
+      }
+    },
+    "hunt_apotheosis/tier_frontier": {
+      "text": [
+        "Для Frontier нужны аффиксные предметы в слотах головы, груди, ног, ступней и руки. Минимальная редкость — Common; более высокие тоже подходят. Соберите броню по слотам и возьмите аффиксное оружие в руку, чтобы зарегистрировать именно экипировку, а не простое хранение в сундуке.",
+        "Откройте достижение и проверьте пять отдельных критериев. Если один не выполнен, прочитайте свойства соответствующей вещи: цвет обычного названия или ванильные чары не являются редкостью Apotheosis. Перековка подходящего базового снаряжения помогает заполнить слот, для которого долго не находится добыча.",
+        "После открытия Frontier включите его кнопкой Activate в меню уровня мира. Это снимает следующий предел Eterna и меняет доступную добычу, но не повышает вашу защиту автоматически. Проверьте новую опасность на обычной вылазке и готовьте Uncommon-комплект для следующей ступени, сохраняя сильные старые вещи до подтверждённой замены."
+      ],
+      "text_en": [
+        "Frontier requires affix equipment in head, chest, legs, feet, and hand slots. Common is sufficient, and higher rarities also count. Equip the armour and hold an affix weapon; storing items in a chest does not register equipped-slot criteria.",
+        "Check the five advancement criteria separately. If one is missing, inspect that item’s Apotheosis rarity rather than its ordinary name colour or vanilla enchantments. Reforging valid base equipment can fill a stubborn missing slot.",
+        "Once unlocked, press Activate in the tier menu. Frontier raises the Eterna allowance and changes loot without automatically improving your protection. Test its difficulty on a routine expedition and prepare Uncommon replacements for the next step."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Надеть аффиксные шлем, нагрудник, поножи и ботинки и взять аффиксное оружие (Common или выше)",
+          "en": "Equip an affix helmet, chestplate, leggings and boots and hold an affix weapon (Common or better)"
+        }
+      }
+    },
+    "hunt_apotheosis/tier_ascent": {
+      "text": [
+        "Ascent требует аффиксную броню во всех четырёх слотах и предмет в руке редкости Uncommon или выше, а также личную победу над Apothic Invader. Обычный моб с бронёй не обязательно является захватчиком, поэтому ориентируйтесь на его особое усиление и регистрацию достижения после боя.",
+        "Сначала заполните слабые слоты добычей или перековкой. Затем выберите доступного захватчика, расчистите путь отступления и возьмите дополнительное лечение. Проверка экипировки и убийства состоит из отдельных критериев: не нужно угадывать, какая часть общего условия ещё не завершена.",
+        "Активируйте Ascent после открытия, чтобы пользоваться новой ступенью. Доступная Eterna поднимается до уровня, нужного для ранних глубинных инфузий, но Quanta и Arcana всё ещё задаются окружением стола. На охоте сравнивайте свойства новых Rare-предметов и сохраняйте подходящие части для Summit вместо немедленной переработки всей синей добычи."
+      ],
+      "text_en": [
+        "Ascent needs Uncommon-or-better affix equipment in all four armour slots and a hand, plus a personal Apothic Invader kill. An ordinary armoured mob is not necessarily an invader; check the actual advancement after combat.",
+        "Fill weak equipment slots through loot or reforging, then choose an accessible invader with retreat space and extra healing. Equipment and victory are separate criteria, making missing progress visible.",
+        "Activate Ascent once unlocked. Its Eterna allowance supports early deep-shelf infusions, but Quanta and Arcana still depend on the table’s surroundings. Save useful Rare pieces for Summit instead of immediately salvaging every blue drop."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Надеть полный комплект Uncommon-аффиксов с оружием и лично победить Апотического захватчика",
+          "en": "Equip a full Uncommon affix set with a weapon and personally slay an Apothic Invader"
+        }
+      }
+    },
+    "hunt_apotheosis/tier_summit": {
+      "text": [
+        "Summit открывается после экипировки Rare-предметов или лучше в четырёх слотах брони и руке, а также личного убийства Иссушителя. Подготовьте нужные черепа и песок душ отдельно от охоты за бронёй. Не вызывайте босса возле хранилища или механических линий: бой разрушает окружение.",
+        "Перед призывом проверьте защиту, лечение, дальний и ближний вариант атаки. Переждите начальный взрыв, затем меняйте дистанцию по фазе противника. После победы заберите звезду и проверьте критерий убийства; переданная другим игроком звезда его не заменяет.",
+        "Когда все слоты подтверждены, включите Summit в меню. Его предел Eterna ещё не достигает значения для Infused Dragon’s Breath, поэтому для финального стола понадобится Pinnacle. Используйте доступную ступень для добычи Epic-комплекта, подготовки Края и накопления материалов, сохраняя план последнего перехода понятным."
+      ],
+      "text_en": [
+        "Summit requires Rare-or-better affix gear equipped in all four armour slots and a hand, plus a personal Wither kill. Gather skulls and Soul Sand separately from armour hunting, and keep the destructive encounter away from storage and machinery.",
+        "Prepare protection, healing, and both ranged and melee attacks. Wait out the opening explosion and adjust distance for the boss’s phases. Collect the Nether Star after victory and check the kill criterion; a transferred star cannot replace it.",
+        "Activate Summit once all criteria are met. Its Eterna limit is still below Infused Dragon’s Breath requirements, so the final table needs Pinnacle. Use this stage to gather Epic equipment and prepare the End expedition."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Надеть полный комплект Rare-аффиксов с оружием и лично победить Иссушителя",
+          "en": "Equip a full Rare affix set with a weapon and personally slay the Wither"
+        }
+      }
+    },
+    "hunt_apotheosis/tier_pinnacle": {
+      "text": [
+        "Pinnacle требует экипировать Epic или Mythic в четырёх слотах брони и руке, а также лично победить дракона Края. Проверьте комплект до входа в портал: подходящий цвет редкости должен относиться к аффиксам Apotheosis. Возьмите блоки, защиту от падения, лечение и оружие для кристаллов и посадок дракона.",
+        "В Крае сначала уничтожьте лечащие кристаллы, затем атакуйте дракона в доступные окна. После победы дождитесь регистрации достижения и отдельно проверьте недостающие слоты экипировки. Само посещение Края или полученное яйцо дракона не заменяет критерий личного убийства.",
+        "Активируйте Pinnacle через меню, чтобы получить доступ к полной Eterna и следующему распределению добычи. Затем возвращайтесь к рецептам дыхания и библиотеки: одних сильных полок без активной ступени было недостаточно. Не считайте открытый уровень обязательством постоянно охотиться на нём; выбирайте сложность под текущую подготовку и проверяйте результат каждой новой сборки."
+      ],
+      "text_en": [
+        "Pinnacle requires Epic or Mythic affix equipment in all four armour slots and a hand, plus a personal Ender Dragon victory. Inspect rarity before entering the portal, and bring blocks, fall protection, healing, and weapons for crystals and dragon landings.",
+        "Destroy healing crystals first, then attack during suitable openings. After victory, verify the kill criterion and any missing equipped slots separately. Visiting the End or obtaining a Dragon Egg does not replace personally killing the dragon.",
+        "Activate Pinnacle to access full Eterna and its loot distribution, then return to breath and library infusions. Strong shelves alone were insufficient without the active tier. You can later choose a lower difficulty when appropriate to your preparation."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Надеть полный комплект Epic-аффиксов с оружием и лично победить дракона Края",
+          "en": "Equip a full Epic affix set with a weapon and personally slay the Ender Dragon"
+        }
+      }
+    },
+    "hunt_cataclysm/guide_eyes": {
+      "text": [
+        "Восемь «очей» Cataclysm — единственный надёжный способ найти нужное сооружение. Каждое собирается вокруг ока Края из материалов, которые подсказывают его назначение: Око Монстра требует два ведра лавы, два незеритовых лома и чёрный камень, Око Пустыни — золото, изумруд, резной песчаник, кактус, сухой куст, кость и гнилую плоть. Точные схемы показывает JEI.",
+        "Используйте око в том измерении, где стоит его сооружение: Око Монстра работает в Нижнем мире, Око Пустыни — в пустынях обычного. После броска око летит в сторону цели, как око Края к крепости, а затем исчезает; сам предмет при этом остаётся в руке, поэтому повторяйте бросок каждые несколько сотен блоков, пока направление не станет очевидным.",
+        "Для отметки достаточно один раз иметь оба предмета: книга их не расходует. Сделайте их до охоты за Незеритовым монстром и Древним остатком, чтобы не блуждать наугад. Найденную структуру сразу отметьте координатами: достижение «найти» засчитывается при входе в её границы, а сам бой можно отложить до полной подготовки."
+      ],
+      "text_en": [
+        "The eight Cataclysm eyes are the only reliable way to find a specific structure. Each is crafted around an Eye of Ender from materials hinting at its purpose: the Eye of Monstrous needs two lava buckets, two netherite scrap and blackstone, while the Eye of Desert uses gold, an emerald, chiseled sandstone, cactus, a dead bush, bone and rotten flesh. JEI shows the exact layouts.",
+        "Use an eye in the dimension where its structure generates: the Eye of Monstrous works in the Nether, the Eye of Desert in Overworld deserts. Once thrown, the eye flies toward the target like an Eye of Ender heading for a stronghold and then vanishes; the item itself stays in your hand, so throw again every few hundred blocks until the direction is obvious.",
+        "Having both items once is enough for the mark; the book does not consume them. Craft them before hunting the Netherite Monstrosity and the Ancient Remnant so you never wander at random. Record coordinates as soon as you find a structure: the “find” advancement triggers on entering its bounds, and the fight itself can wait until you are fully prepared."
+      ],
+      "task_notes": {}
+    },
+    "hunt_cataclysm/guide_black_steel_kit": {
+      "text": [
+        "Чёрная сталь — первый металл Cataclysm, который превращается в инструменты на обычном верстаке. Меч требует два слитка и палку, кирка — три слитка и две палки, по знакомым формам железных инструментов. Тарч, небольшой щит, собирается иначе: слиток в центре, четыре доски по сторонам и четыре самородка по углам; самородки получают из слитка на том же верстаке.",
+        "Соберите запас из заброшенных снежных построек и добычи драугров, затем изготовьте предметы по очереди. Учёт исторический: после отметки инструменты можно использовать, а не хранить нетронутыми. Ненужные изделия из чёрной стали переплавляются в печи или плавильне обратно в самородок, так что часть материала возвращается.",
+        "Тарч держат во второй руке и поднимают правой кнопкой, как обычный щит. Испытайте его блок на простых мобах, прежде чем полагаться на него в бою с боссом. Эта ветка не заменяет незеритовое снаряжение, но даёт понятный промежуточный набор для походов в первые сооружения мода, где чёрная сталь встречается чаще всего."
+      ],
+      "text_en": [
+        "Black steel is the first Cataclysm metal that turns into tools at an ordinary crafting table. The sword takes two ingots and a stick, the pickaxe three ingots and two sticks, in the familiar iron-tool shapes. The targe, a small shield, is built differently: an ingot in the centre, four planks on the sides and four nuggets in the corners; nuggets come from an ingot at the same table.",
+        "Gather your stock from abandoned snowy structures and draugr drops, then craft the items one by one. Tracking is historical: after the mark you may use the tools rather than keep them untouched. Unwanted black steel gear smelts back into a nugget in a furnace or blast furnace, so part of the material returns.",
+        "Hold the targe in the off hand and raise it with the right button like a normal shield. Test its block on simple mobs before relying on it against a boss. This branch does not replace netherite gear, but it gives a clear intermediate kit for trips into the mod’s first structures, where black steel is found most often."
+      ],
+      "task_notes": {}
+    },
+    "hunt_cataclysm/guide_wither_assault": {
+      "text": [
+        "Плечевое орудие Иссушения — стрелковое оружие из виферита, добытого на Древней фабрике. Рецепт: два слитка виферита по противоположным углам, четыре пороха и редстоуновый блок в центре. Виферит нужен и для карточки фабрики, и для Mechanical Fusion Anvil, поэтому заранее посчитайте, сколько слитков вы готовы отдать оружию.",
+        "Правой кнопкой орудие выпускает ракеты Иссушения, а при нажатии с приседанием — тяжёлые гаубичные снаряды. Оба режима бьют по площади, поэтому первое испытание проводите на открытой площадке вдали от базы, животных и колонии. Проверьте дальность, разлёт и то, ломают ли снаряды блоки, чтобы понимать, где оружие полезно, а где опасно для самого стрелка.",
+        "Подтвердите ручную цель только после испытания обоих режимов. Орудие хорошо против плотных групп на аренах Cataclysm, но не заменяет ближний бой в тесных коридорах, где взрыв заденет вас самих. Держите его в отдельной ячейке для открытых пространств и не стреляйте рядом с сундуками с добычей."
+      ],
+      "text_en": [
+        "The Wither Assault Shoulder Weapon is a ranged weapon made of witherite from the Ancient Factory. The recipe places two witherite ingots in opposite corners, four gunpowder and a block of redstone in the centre. Witherite is also needed for the factory card and the Mechanical Fusion Anvil, so decide in advance how many ingots the weapon may take.",
+        "The right button fires Wither Missiles; sneaking while firing launches heavy howitzer shells. Both modes hit an area, so run the first test on open ground far from your base, animals and colony. Check the range, the spread and whether the shells break blocks, so you know where the weapon helps and where it endangers the shooter.",
+        "Confirm the manual objective only after trying both modes. The cannon works well against dense groups on Cataclysm arenas but does not replace melee in tight corridors where the blast catches you too. Keep it in a separate slot for open spaces and never fire near loot chests."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Испытать оба режима стрельбы на открытом полигоне вдали от построек",
+          "en": "Test both firing modes at an open range away from any buildings"
+        }
+      }
+    },
+    "hunt_cataclysm/guide_cursium_gear": {
+      "text": [
+        "Курсиум выпадает только с Маледиктуса: три или четыре слитка за победу. Карточка Ледяной тюрьмы лишь проверяет их наличие, поэтому те же слитки можно пустить в дело. Шаблон улучшения курсиума собирают на верстаке из незеритового шаблона улучшения в центре, двух слитков чёрной стали по бокам и шести золотых слитков сверху и снизу.",
+        "Затем на кузнечном столе соедините шаблон, незеритовый шлем и один слиток курсиума. По той же схеме улучшаются остальные части незеритовой брони; на полный комплект уйдёт четыре слитка, то есть, возможно, больше одного боя с Маледиктусом. Из курсиума и чёрной стали делают и оружие: Soul Render с рывком и Проклятый лук, стреляющий тремя фантомными стрелами.",
+        "Начните со шлема: одна деталь покажет, стоит ли тратить остальной металл на броню или на оружие. Не переплавляйте незеритовые части ради эксперимента и не сдавайте слитки другим карточкам с расходованием, пока не решили, что важнее. Готовый комплект — заметный шаг перед Горящей ареной и Игнисом."
+      ],
+      "text_en": [
+        "Cursium drops only from Maledictus: three or four ingots per victory. The Frosted Prison card merely checks that you have them, so the same ingots can be put to use. The cursium upgrade template is crafted with a netherite upgrade template in the centre, two black steel ingots at the sides and six gold ingots above and below.",
+        "At a smithing table combine the template, a netherite helmet and one cursium ingot. The other netherite armour pieces upgrade the same way; a full set costs four ingots, which may mean more than one fight with Maledictus. Cursium and black steel also make weapons: the Soul Render with its rush attack and the Cursed Bow that fires three phantom arrows.",
+        "Start with the helmet: one piece shows whether the remaining metal should go into armour or weapons. Do not melt netherite pieces for experiments and do not hand the ingots to consuming cards elsewhere until you have decided what matters more. The finished set is a real step up before the Burning Arena and Ignis."
+      ],
+      "task_notes": {}
+    },
+    "hunt_beasts/guide_blowgun": {
+      "text": [
+        "Наги Mowzie’s Mobs живут на скалистых берегах: там, где пляж встречается с горами или холмами, и на каменистых побережьях. Они нападают с воздуха, плюются и таранят, поэтому подготовьте лук или арбалет, щит и укрытие с навесом, куда можно отступить. Победа засчитывается лично, а с наги выпадают клыки.",
+        "Из бамбука и двух нитей соберите духовое ружьё; дротики получаются из клыка наги, палки и пера — восемь штук за один рецепт. Дротик отравляет цель, поэтому оружие годится для охоты и для ослабления опасных существ на расстоянии, но не для быстрого убийства крепких боссов.",
+        "Для отметки покажите книге ружьё и восемь дротиков одновременно, затем используйте их по назначению. Проверьте дальность и падение дротика на неподвижной мишени, прежде чем полагаться на него в бою. Оставшиеся клыки пригодятся для кинжала из клыка наги — быстрого клинка той же охотничьей ветки."
+      ],
+      "text_en": [
+        "Nagas from Mowzie’s Mobs live on rocky shores: where beaches meet mountains or hills, and on stony coasts. They attack from the air, spit and dive, so prepare a bow or crossbow, a shield and a roofed spot to retreat to. The kill counts personally, and a naga drops fangs.",
+        "Craft a blowgun from bamboo and two strings; darts come from a naga fang, a stick and a feather, eight per recipe. A dart poisons its target, so the weapon suits hunting and weakening dangerous creatures at range, not finishing sturdy bosses quickly.",
+        "For the mark, show the book the blowgun and eight darts at the same time, then use them as intended. Check the dart’s range and drop on a stationary target before trusting it in combat. Leftover fangs go into the naga fang dagger, a fast blade from the same hunting branch."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Лично победить нагу",
+          "en": "Personally kill a Naga"
+        }
+      }
+    },
+    "hunt_beasts/guide_grottol": {
+      "text": [
+        "Гроттол — маленькое бронированное существо глубоких пещер, которое убегает и зарывается в камень, едва заметив игрока. Обычный удар даёт лишь достижение за убийство; ценность в другом: кирка с Шёлковым касанием оставляет пойманного гроттола, а кирка с Удачей разыгрывает выпадение алмаза по принципу «всё или ничего». Подготовьте нужную кирку заранее.",
+        "Ищите гроттолов в глубоких пещерах любых биомов, кроме грибных; они любят тёмные каменные полости и заметны по блестящему панцирю. Перекройте пути отступления блоками и бейте быстро: существо уходит в камень за несколько секунд. Не используйте взрывчатку — она уничтожит и добычу.",
+        "Пойманного гроттола переплавляют в печи или плавильне в один алмаз; для отметки достаточно показать его книге, а плавить можно после. Это не ферма алмазов, а редкая находка, но она учит подбирать инструмент под существо: в Mowzie’s Mobs почти каждый зверь требует своего подхода."
+      ],
+      "text_en": [
+        "The Grottol is a small armoured creature of deep caves that flees and burrows into stone the moment it notices a player. A plain kill only earns the kill advancement; the value lies elsewhere: a Silk Touch pickaxe leaves a captured grottol, and a Fortune pickaxe rolls the diamond drop double-or-nothing. Prepare the right pickaxe in advance.",
+        "Look for grottols in deep caves of any biome except mushroom fields; they favour dark stone hollows and are easy to spot by their glittering shell. Block the escape routes and strike quickly: the creature vanishes into rock within seconds. Do not use explosives, which destroy the prize as well.",
+        "A captured grottol smelts into one diamond in a furnace or blast furnace; showing it to the book is enough for the mark, and you can smelt it afterwards. This is not a diamond farm but a rare find, and it teaches matching the tool to the creature: almost every Mowzie’s Mobs beast wants its own approach."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Убить гроттола киркой с Шёлковым касанием",
+          "en": "Kill a Grottol with a Silk Touch pickaxe"
+        }
+      }
+    },
+    "hunt_beasts/guide_ice_theft": {
+      "text": [
+        "Ледяной кристалл можно не отбивать в бою, а украсть у спящего Фростмо. Зверь дремлет рядом со своим кристаллом в снежных равнинах и просыпается, заметив игрока. Мод отдаёт кристалл тому, кто подошёл к нему вплотную, оставаясь невидимым: сварите зелье невидимости и рассчитайте его длительность на подход и отход.",
+        "Кристалл лежит у передних лап, и расстояние до него должно быть меньше двух блоков. Подходите приседанием со стороны кристалла, дождитесь, пока он сам перейдёт в ваш инвентарь, и сразу отступайте. Проснувшийся Фростмо по-прежнему опасен, хотя по описанию мода без кристалла он лишается ледяного дыхания.",
+        "Достижение выдаётся в момент кражи; отдельного предмета книга не требует, но сам кристалл остаётся у вас и годится для карточки Фростмо. Кража включена в настройках этой сборки. Это самый безопасный путь к кристаллу для игрока без тяжёлой брони, но он не заменяет личную победу, которую требует соседняя карточка."
+      ],
+      "text_en": [
+        "The ice crystal need not be won in battle: it can be stolen from a sleeping Frostmaw. The beast dozes beside its crystal in snowy plains and wakes when it notices a player. The mod hands the crystal to whoever comes right up to it while invisible, so brew a potion of invisibility and budget its duration for the approach and the retreat.",
+        "The crystal rests by the front paws, and you must be closer than two blocks. Sneak in from the crystal’s side, wait for it to jump into your inventory, then withdraw at once. A woken Frostmaw remains dangerous, although by the mod’s description it loses its ice breath without the crystal.",
+        "The advancement is granted at the moment of theft; the book requires no separate item, but the crystal stays with you and counts for the Frostmaw card. Stealing is enabled in this pack’s settings. It is the safest route to a crystal for a player without heavy armour, yet it does not replace the personal kill the neighbouring card demands."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Украсть ледяной кристалл у спящего Фростмо, будучи невидимым",
+          "en": "Steal the ice crystal from a sleeping Frostmaw while invisible"
+        }
+      }
+    },
+    "hunt_beasts/guide_creeper_minion": {
+      "text": [
+        "После гибели Мутантного крипера на месте боя остаётся яйцо миньона. В инвентарь оно не помещается: подойдите, присядьте и нажмите правой кнопкой — яйцо сядет вам на голову, и вы понесёте его домой. Пока оно не вылупилось, берегите его от взрывов и падений и не лезьте с ним в новую драку.",
+        "Спустя время яйцо вылупляется, и появившийся крипер-миньон уже приручён тому, кто победил его родителя. Ручной крипер ходит следом, может ездить на плече, а его взрыв, радиус и разрешение ломать блоки настраиваются. Достижение выдаётся именно в момент вылупления, а не при подборе яйца.",
+        "Трекер миньона собирают из осколка крипера и четырёх железных слитков. Используйте его на питомце: откроется панель с именем, здоровьем, радиусом и режимом взрыва. Отключите разрушение блоков возле построек. Осколок выпадает с того же Мутантного крипера, так что оба предмета ветки приходят из одной охоты."
+      ],
+      "text_en": [
+        "When a Mutant Creeper dies, a minion egg remains at the battle site. It does not fit in the inventory: walk up, sneak and right-click, and the egg settles on your head to be carried home. Until it hatches, keep it away from explosions and falls and stay out of new fights.",
+        "After a while the egg hatches, and the Creeper Minion is already tamed to whoever defeated its parent. The pet follows you, can ride on your shoulder, and its explosion, blast radius and block destruction are configurable. The advancement is granted at hatching, not when the egg is picked up.",
+        "The Creeper Minion Tracker is crafted from a creeper shard and four iron ingots. Use it on the pet to open a panel with its name, health, blast radius and explosion mode. Disable block destruction near buildings. The shard drops from the same Mutant Creeper, so both items of this branch come from a single hunt."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вырастить крипера-миньона из яйца",
+          "en": "Hatch a Creeper Minion from its egg"
+        }
+      }
+    },
+    "hunt_apotheosis/guide_gem_cutting": {
+      "text": [
+        "Стол огранки повышает чистоту самоцвета: от треснувшего к сколотому, дефектному, обычному, безупречному и совершенному. Каждая ступень требует самоцветную пыль и один из материалов редкости; например, сколотый камень поднимается за три пыли и девять Mysterious Scrap Metal, либо три Timeworn Fabric, либо один Luminous Crystal Shard. Наборы для остальных ступеней показывает JEI.",
+        "Первую пыль получают, уронив наковальню на выброшенный самоцвет; дальше её даёт Salvaging Table из ненужных камней. Материалы редкости выходят там же из аффиксных вещей: обычные предметы дают лом, необычные — ткань, редкие — кристаллы. Соберите три пыли и девять единиц лома одним запасом, чтобы книга отметила подготовку.",
+        "Затем положите самоцвет в стол, добавьте пыль и материал и подтвердите операцию; ручную цель отмечайте только после реального повышения чистоты. Чем выше чистота, тем сильнее бонус камня в гнезде, поэтому огранка выгоднее для самоцветов, которые уже стоят в вашей броне или оружии, а не для случайных находок."
+      ],
+      "text_en": [
+        "The Gem Cutting Table raises a gem’s purity: from cracked to chipped, flawed, normal, flawless and perfect. Each step needs gem dust and one of the rarity materials; a chipped gem, for example, rises for three dust and nine Mysterious Scrap Metal, or three Timeworn Fabric, or one Luminous Crystal Shard. JEI lists the sets for the other steps.",
+        "Your first dust comes from dropping an anvil onto a discarded gem; afterwards the Salvaging Table produces it from unwanted gems. Rarity materials come from the same table by salvaging affix items: common gear yields scrap, uncommon gear fabric, rare gear crystals. Gather three dust and nine scrap in one stock so the book marks the preparation.",
+        "Then place the gem in the table, add dust and material and confirm; mark the manual objective only after the purity really increased. Higher purity means a stronger bonus in a socket, so cutting pays off for gems already set in your armour or weapon rather than for random finds."
+      ],
+      "task_notes": {
+        "2": {
+          "ru": "Повысить чистоту одного самоцвета на столе огранки",
+          "en": "Raise the purity of one gem at the Gem Cutting Table"
+        }
+      }
+    },
+    "hunt_apotheosis/guide_potion_charm": {
+      "text": [
+        "Оберег зелья хранит эффект и применяет его, пока лежит в инвентаре и включён. Рецепт на верстаке: три одинаковых зелья в средней строке и шесть огненного порошка в верхней и нижней. Готовый оберег получает имя эффекта, например «Charm of Fire Resistance», а его состояние и источник видны в подсказке.",
+        "Сварите три зелья одного вида: сопротивление огню для Нижнего мира, ночное зрение для затопленных городов или регенерацию для арен. Оберег имеет запас прочности и постепенно расходуется, пока эффект активен; правая кнопка включает и выключает его, поэтому берегите заряд для действительно опасных участков.",
+        "В этой сборке оберег работает прямо из инвентаря, без слота Curios. Для отметки достаточно одного оберега любого эффекта; выберите тот, который закрывает вашу ближайшую охоту. Не делайте оберег из зелий с коротким или вредным действием: ресурс уйдёт впустую, а выключить его посреди боя можно не успеть."
+      ],
+      "text_en": [
+        "A potion charm stores an effect and applies it while it sits in your inventory and is switched on. Craft it with three identical potions in the middle row and six blaze powder in the top and bottom rows. The finished charm takes the effect’s name, such as “Charm of Fire Resistance”, and its state and source appear in the tooltip.",
+        "Brew three potions of one kind: fire resistance for the Nether, night vision for sunken cities or regeneration for arenas. The charm has durability and wears down while the effect is active; the right button toggles it, so save the charge for genuinely dangerous stretches.",
+        "In this pack the charm works straight from the inventory, without a Curios slot. One charm of any effect is enough for the mark; choose the one that covers your next hunt. Do not make charms from potions with short or harmful effects: the resource is wasted, and you may not manage to switch it off mid-fight."
+      ],
+      "task_notes": {}
+    },
+    "hunt_apotheosis/guide_salvage_cycle": {
+      "text": [
+        "Перековка меняет аффиксы предмета, сохраняя саму вещь: стол перековки требует Sigil of Rebirth и материалы редкости того же уровня, что и предмет. Материалы даёт Salvaging Table: обычные аффиксные вещи распадаются на Mysterious Scrap Metal, необычные — на Timeworn Fabric, редкие — на Luminous Crystal Shard, эпические — на Arcane Sands, мифические — на Godforged Pearl.",
+        "Соберите три единицы Timeworn Fabric, разобрав лишние необычные находки, и покажите их книге. Затем выберите предмет, который жалко выбросить, но не жалко изменить: запасное оружие или броню с одним хорошим и одним бесполезным аффиксом. Запишите его свойства, перекуйте один раз и сравните результат — так видно, что перековка сохраняет, а что перебрасывает.",
+        "Подтвердите ручную цель после сравнения. Перековка — игра на удачу, и материалы расходуются каждый раз, поэтому копите их из добычи, а не из рабочего комплекта; простой стол перековки к тому же ограничен по редкости. Для точечной настройки одного аффикса без потери остальных дальше по ветке есть Augmenting Table."
+      ],
+      "text_en": [
+        "Reforging rerolls an item’s affixes while keeping the item itself: the Reforging Table needs a Sigil of Rebirth and rarity materials matching the item’s tier. The Salvaging Table supplies them: common affix gear breaks into Mysterious Scrap Metal, uncommon into Timeworn Fabric, rare into Luminous Crystal Shards, epic into Arcane Sands, mythic into Godforged Pearls.",
+        "Collect three Timeworn Fabric by salvaging surplus uncommon finds and show them to the book. Then pick an item you would hate to discard but not to change: a spare weapon or armour piece with one good and one useless affix. Note its properties, reforge it once and compare, which shows what reforging preserves and what it rerolls.",
+        "Confirm the manual objective after the comparison. Reforging is a gamble and consumes materials every time, so stockpile them from loot rather than from your working kit; the Simple Reforging Table is also capped by rarity. For tuning a single affix without losing the rest, the Augmenting Table waits further along the branch."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Перековать ненужный аффиксный предмет и сравнить его свойства до и после",
+          "en": "Reforge an unwanted affix item and compare its properties before and after"
+        }
+      }
+    }
+  },
+  "additions": [
+    {
+      "chapter": "hunt_cataclysm",
+      "id": "guide_eyes",
+      "title": "Глаза-проводники",
+      "title_en": "Guiding Eyes",
+      "icon": "cataclysm:monstrous_eye",
+      "deps": [
+        "root"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "cataclysm:monstrous_eye",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "cataclysm:desert_eye",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 45,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_cataclysm",
+      "id": "guide_black_steel_kit",
+      "title": "Чёрная сталь в деле",
+      "title_en": "Black Steel at Work",
+      "icon": "cataclysm:black_steel_sword",
+      "deps": [
+        "root"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "cataclysm:black_steel_sword",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "cataclysm:black_steel_pickaxe",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "cataclysm:black_steel_targe",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 40,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_cataclysm",
+      "id": "guide_wither_assault",
+      "title": "Плечевое орудие",
+      "title_en": "Shoulder Cannon",
+      "icon": "cataclysm:wither_assault_shoulder_weapon",
+      "deps": [
+        "factory"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "cataclysm:wither_assault_shoulder_weapon",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "wither_assault_range",
+          "note": "Испытать оба режима стрельбы на открытом полигоне вдали от построек",
+          "note_en": "Test both firing modes at an open range away from any buildings"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_cataclysm",
+      "id": "guide_cursium_gear",
+      "title": "Проклятый металл",
+      "title_en": "Cursed Metal",
+      "icon": "cataclysm:cursium_helmet",
+      "deps": [
+        "frosted"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "cataclysm:cursium_upgrade_smithing_template",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "cataclysm:cursium_helmet",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 55,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_beasts",
+      "id": "guide_blowgun",
+      "title": "Духовое ружьё",
+      "title_en": "Blowgun and Darts",
+      "icon": "mowziesmobs:blowgun",
+      "deps": [
+        "combat"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "id": "mowziesmobs:kill_naga"
+        },
+        {
+          "type": "item",
+          "id": "mowziesmobs:blowgun",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "mowziesmobs:dart",
+          "count": 8
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 45,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_beasts",
+      "id": "guide_grottol",
+      "title": "Живой алмаз",
+      "title_en": "A Living Diamond",
+      "icon": "mowziesmobs:captured_grottol",
+      "deps": [
+        "wroughtnaut"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "id": "mowziesmobs:kill_grottol_silk_touch"
+        },
+        {
+          "type": "item",
+          "id": "mowziesmobs:captured_grottol",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 45,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_beasts",
+      "id": "guide_ice_theft",
+      "title": "Кража кристалла",
+      "title_en": "Crystal Theft",
+      "icon": "mowziesmobs:ice_crystal",
+      "deps": [
+        "wroughtnaut"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "id": "mowziesmobs:steal_ice_crystal"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 60,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_beasts",
+      "id": "guide_creeper_minion",
+      "title": "Ручной крипер",
+      "title_en": "Pet Creeper",
+      "icon": "mutantmonsters:creeper_minion_tracker",
+      "deps": [
+        "chemx"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "id": "mutantmonsters:you_da_bomby"
+        },
+        {
+          "type": "item",
+          "id": "mutantmonsters:creeper_minion_tracker",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_apotheosis",
+      "id": "guide_gem_cutting",
+      "title": "Огранка",
+      "title_en": "Lapidary Work",
+      "icon": "apotheosis:gem_cutting_table",
+      "deps": [
+        "gems"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "apotheosis:gem_dust",
+          "count": 3
+        },
+        {
+          "type": "item",
+          "id": "apotheosis:mysterious_scrap_metal",
+          "count": 9
+        },
+        {
+          "type": "check",
+          "id": "gem_purity_upgrade",
+          "note": "Повысить чистоту одного самоцвета на столе огранки",
+          "note_en": "Raise the purity of one gem at the Gem Cutting Table"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 45,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_apotheosis",
+      "id": "guide_potion_charm",
+      "title": "Оберег зелья",
+      "title_en": "Potion Charm",
+      "icon": "apotheosis:potion_charm",
+      "deps": [
+        "affixes"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "apotheosis:potion_charm",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 40,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "hunt_apotheosis",
+      "id": "guide_salvage_cycle",
+      "title": "Круговорот аффиксов",
+      "title_en": "The Salvage Cycle",
+      "icon": "apotheosis:salvaging_table",
+      "deps": [
+        "reforge"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "apotheosis:timeworn_fabric",
+          "count": 3
+        },
+        {
+          "type": "check",
+          "id": "reforge_review",
+          "note": "Перековать ненужный аффиксный предмет и сравнить его свойства до и после",
+          "note_en": "Reforge an unwanted affix item and compare its properties before and after"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 50,
+        "items": [],
+        "text": []
+      }
+    }
+  ]
+}

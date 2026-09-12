@@ -1,0 +1,1074 @@
+{
+  "section": "tech2",
+  "chapters": {
+    "tech2_newage": {
+      "intro": [
+        "Create: New Age связывает механическое вращение, электричество и тепло. Катушка превращает подведённое вращение в энергию, мотор выполняет обратную задачу, а тепловой двигатель получает вращение из тепла. Каждый переход имеет собственные затраты и ограничения.",
+        "Начинайте с небольшого генератора и проверенной нагрузки. Реакторная ветка требует полной оболочки и постоянного отвода тепла; её механики отличаются от Mekanism, поэтому нельзя переносить сюда чужую схему охлаждения только из-за одинакового слова «реактор»."
+      ],
+      "intro_en": [
+        "Create: New Age connects mechanical rotation, electricity and heat. A coil turns supplied rotation into energy, a motor performs the reverse task, and a heat engine produces rotation from heat. Each conversion has its own costs and limits.",
+        "Begin with a small generator and a tested load. The reactor branch needs a complete enclosure and continuous heat removal; its mechanics differ from Mekanism, so another reactor’s cooling design cannot be copied merely because both share a name."
+      ]
+    },
+    "tech2_mektools": {
+      "intro": [
+        "Mekanism Tools добавляет обычные инструменты и броню из альтернативных материалов. Они изнашиваются как снаряжение, а не требуют зарядки, как атомный дизассемблер. Выбор материала должен соответствовать доступным ресурсам и вашей задаче.",
+        "Паксель объединяет несколько инструментов, щиты дают отдельную защиту, очищенные материалы требуют машин Mekanism. Достижения этой главы в основном реагируют на получение предметов; они не требуют опасного испытания в бою."
+      ],
+      "intro_en": [
+        "Mekanism Tools adds ordinary tools and armour made from alternative materials. They wear down as equipment rather than requiring charging like the atomic disassembler. Choose materials that fit available resources and the intended job.",
+        "A paxel combines several tools, shields provide separate protection, and refined materials require Mekanism machinery. This chapter’s advancements mostly detect obtained items rather than requiring dangerous combat trials."
+      ]
+    },
+    "tech2_pneumatic": {
+      "intro": [
+        "PneumaticCraft использует сжатый воздух, а не обычную электрическую сеть. Компрессор наполняет объём системы, машины расходуют воздух, давление выравнивается между соединёнными блоками. Открытые концы труб вызывают утечку, превышение допустимого давления — разрушение.",
+        "Первую линию делайте короткой, с манометром и управляемым отключением. Тепло требуется отдельным химическим процессам и не заменяет давление; пластиковые материалы, платы и дроны постепенно добавляют новые способы производства."
+      ],
+      "intro_en": [
+        "PneumaticCraft uses compressed air rather than an ordinary electrical grid. Compressors fill system volume, machines consume air, and pressure equalises between connected blocks. Open pipe ends leak; exceeding permitted pressure causes destruction.",
+        "Keep the first line short, with a manometer and controlled shutdown. Some chemical processes require heat separately from pressure; plastics, circuit boards and drones gradually add new production methods."
+      ]
+    },
+    "tech2_foregoing": {
+      "intro": [
+        "Industrial Foregoing автоматизирует добычу ресурсов и обслуживание ферм через машины с настраиваемой рабочей областью. Перед каждым запуском показывайте эту область и проверяйте, куда направлена лицевая сторона: соседство с полем само по себе не означает правильную установку.",
+        "Пластик открывает первые корпуса, дальнейшие ступени требуют камеры растворения и специальных жидкостей. Побочные продукты фермерских и мясных процессов нуждаются в отдельных выходах, иначе исправная машина остановится с полным внутренним резервуаром."
+      ],
+      "intro_en": [
+        "Industrial Foregoing automates resource production and farming through machines with configurable working areas. Display that area before each startup and check facing: simply placing a machine beside a field does not establish correct coverage.",
+        "Plastic unlocks initial frames, while later tiers require the dissolution chamber and special fluids. Farming and meat-processing byproducts need separate outputs or otherwise sound machines can stop with full internal tanks."
+      ]
+    },
+    "tech2_powah": {
+      "intro": [
+        "Powah предлагает источники FE, аккумуляторы и беспроводную передачу с последовательными уровнями материалов. Начните с одного генератора и понятной нагрузки; высокоуровневый кабель не создаёт энергию, а большая ячейка лишь хранит уже произведённую.",
+        "Особая обработка материалов выполняется в энергетическом шаре через отдельные стержни. Реактор собирается из большого комплекта одноуровневых блоков и использует уранинит; один блок реактора не равен работающей электростанции."
+      ],
+      "intro_en": [
+        "Powah provides FE generators, storage and wireless transfer through successive material tiers. Begin with one generator and a clear load; a higher-tier cable does not create energy, and a larger cell only stores existing production.",
+        "Special material processing takes place in an energizing orb through separate rods. The reactor is assembled from a sizeable set of same-tier blocks and uses uraninite; one reactor block is not an operating power station."
+      ]
+    },
+    "tech2_petroleum": {
+      "intro": [
+        "Immersive Petroleum добавляет подземные жидкостные резервуары и отдельную систему бурения. Сейсмическая разведка показывает залежи, вышка вскрывает скважину, а качалка работает с подготовленным устьем после снижения пластового давления. Просто поставить насос над случайным чанком недостаточно.",
+        "Перегонка выдаёт несколько жидкостей и битум, которым нужны отдельные приёмники. В установленной версии прямой дизельный продукт башни содержит серу; чистое дизельное топливо получается дополнительной обработкой, поэтому следите за точными названиями жидкостей."
+      ],
+      "intro_en": [
+        "Immersive Petroleum adds underground fluid reservoirs and a separate drilling system. Seismic surveys locate deposits, a derrick opens the well, and a pumpjack uses the completed wellhead after reservoir pressure falls. Placing a pump above an arbitrary chunk is insufficient.",
+        "Distillation produces several fluids and bitumen that need separate receivers. In this version the tower’s direct diesel product contains sulfur; clean diesel requires further processing, so inspect exact fluid names."
+      ]
+    }
+  },
+  "quests": {
+    "tech2_newage/coil": {
+      "text": [
+        "Генераторная катушка превращает вращение Create в электричество только при наличии магнитов вокруг неё. Подготовьте катушку, угольные щётки и четыре магнититовых блока, а также отдельный механический источник. Катушка сама не создаёт вращение и не запускает замкнутую цепь без внешней энергии.",
+        "Разместите магниты вокруг катушки по сцене Ponder, подведите вращение и установите щётки для съёма электричества. Подключите простой потребитель либо накопитель. Следите одновременно за нагрузкой механической сети и электрическим выходом: видимое вращение ещё не подтверждает правильную сборку магнитной части.",
+        "Более сильное магнитное окружение повышает преобразование и механическую нагрузку. Если сеть остановилась от перегрузки, уменьшите нагрузку или усилите исходный привод. Получение деталей завершает предметную цель, а успешную генерацию покажет только рост энергии в принимающем устройстве."
+      ],
+      "text_en": [
+        "A generator coil converts Create rotation into electricity only with magnets around it. Prepare the coil, carbon brushes and four magnetite blocks, plus a separate mechanical source. The coil does not generate rotation itself or start a closed loop without outside energy.",
+        "Arrange magnets around the coil as shown in Ponder, supply rotation and fit carbon brushes to collect electricity. Connect a simple consumer or storage. Watch both mechanical stress and electrical output: visible rotation alone does not prove correct magnetic assembly.",
+        "Stronger surrounding magnets improve conversion and increase mechanical load. If the network stalls from overstress, reduce demand or strengthen the original drive. Obtaining parts completes the item objective; successful generation is demonstrated by rising energy in the receiving device."
+      ]
+    },
+    "tech2_newage/energiser": {
+      "text": [
+        "Энергайзер обрабатывает предметы электричеством, одновременно используя вращение Create. Для первой партии поставьте базовое устройство над депо или лентой и обеспечьте оба подключения. Обычная механическая рука либо источник FE без вращения не заменяют полный набор условий.",
+        "Положите железный слиток под рабочую часть и дождитесь обработки. Установленный рецепт перегруженного железа требует тысячу единиц энергии на слиток. Повторите процесс для восьми слитков, проверяя, что лента не уносит сырьё раньше выполнения операции.",
+        "Если прибор стоит, сравните положение предмета, подведённое вращение и электрический запас. Скорость движения ленты и обработка должны согласовываться; для первого теста депо проще наблюдать. Перегруженное железо используется в дальнейших электрических компонентах, поэтому сохраните часть партии до сборки новых механизмов и фиксации предметной цели."
+      ],
+      "text_en": [
+        "The energizer processes items with electricity while also using Create rotation. For the first batch, place a basic unit above a depot or belt and provide both connections. A mechanical hand or FE supply without rotation cannot replace the complete requirements.",
+        "Place an iron ingot beneath the working head and wait for processing. The installed overcharged-iron recipe needs one thousand energy per ingot. Repeat for eight ingots, checking that a belt does not move material away before the operation finishes.",
+        "If the device is idle, compare item position, supplied rotation and stored electricity. Belt movement and processing must agree; a depot is easier to observe for the first trial. Overcharged iron feeds later electrical components, so retain part of the batch until the item objective registers and further machines are planned."
+      ]
+    },
+    "tech2_newage/wires": {
+      "text": [
+        "Провода New Age переносят электричество между коннекторами. Подготовьте два разъёма и медную проволоку, затем выберите короткое соединение от проверенного генератора к потребителю. Механические валы передают вращение отдельно и не заменяют электрическую линию энергайзера.",
+        "Установите коннекторы на нужные устройства и соедините их проводом по управлению мода. Если блок сам выталкивает энергию, достаточно правильного принимающего подключения. Для совместимости с пассивным источником другого мода у коннектора есть режим Pull, переключаемый ключом.",
+        "Проверьте рост заряда у получателя под небольшой нагрузкой. Ponder отдельно предупреждает, что Pull не предназначен для выкачивания внутреннего запаса мотора или энергайзера: не стройте на этом обратное питание сети. При отказе передачи сначала осмотрите режимы и конечные блоки, затем длину и целостность соединения."
+      ],
+      "text_en": [
+        "New Age wires transfer electricity between connectors. Prepare two fittings and copper wire, then choose a short link from a tested generator to a consumer. Mechanical shafts carry rotation separately and do not replace the energizer’s electrical connection.",
+        "Place connectors on the intended devices and join them with wire using the mod’s controls. If a block automatically pushes energy, a correct receiving connection is sufficient. For a passive source from another mod, the connector has a wrench-selectable Pull mode.",
+        "Check that the destination gains energy under a small load. Ponder specifically warns that Pull is not intended to drain motor or energizer internal storage; do not build reverse network supply around that assumption. If transfer fails, inspect modes and endpoint blocks first, then connection length and continuity."
+      ]
+    },
+    "tech2_newage/motor": {
+      "text": [
+        "Электрический мотор превращает полученную энергию в вращение Create. Он полезен для удалённого станка без длинного механического вала. Подготовьте базовый мотор, его расширение и устойчивое электрическое питание; генераторная катушка, питаемая этим же мотором, не является бесплатным источником.",
+        "Настройте скорость мотора ключом и подключите одну небольшую машину. Изменение скорости не увеличивает само по себе доступный запас нагрузки SU. Расширение позволяет менять множитель мощности нагрузки, но расход энергии растёт вместе с выбранной возможностью.",
+        "Проверьте поведение при остановке потребителя и управлении красным камнем. По умолчанию сигнал может отключать мотор; режим допускает инверсию, поэтому испытайте конкретную настройку. Если появляется перегрузка, уменьшите механическую нагрузку либо настройте расширение с учётом питания, а не просто выкручивайте скорость до максимума."
+      ],
+      "text_en": [
+        "An electric motor turns supplied energy into Create rotation. It is useful for a remote machine without a long mechanical shaft. Prepare a basic motor, its extension and dependable electrical supply; a generator coil driven by that same motor is not a free source.",
+        "Set motor speed with a wrench and connect one small machine. Changing speed does not itself increase available SU capacity. The extension allows a stress-capacity multiplier, but energy consumption rises with the chosen capacity.",
+        "Check behaviour when the consumer stops and when redstone control changes. A signal can disable the motor by default; the behaviour can be inverted, so test the actual setting. If overstress occurs, reduce mechanical load or configure the extension within your power budget instead of simply setting maximum speed."
+      ]
+    },
+    "tech2_newage/heat": {
+      "text": [
+        "Тепловые трубы New Age переносят тепло между поддерживаемыми устройствами. Двигатель Стирлинга получает вращение от нагрева снизу, а нагреватель котла передаёт тепло в паровую систему Create. Ни один из этих блоков не является универсальным кабелем FE или газовой трубой.",
+        "Для первого опыта используйте контролируемый источник тепла, например солнечную нагревательную плиту, и короткую трассу к двигателю. Наблюдайте температуру и вращение без подключения большого механического цеха. Затем отдельно изучите размещение нагревателя под котлом в Ponder.",
+        "Слишком высокий нагрев опасен: перегретый тепловой блок способен превратиться в лаву. Обеспечьте постоянного потребителя тепла и не запирайте горячий источник в тупик после остановки двигателя. Трубы, двигатель и нагреватель в инвентаре подтверждают только оборудование; тепловой баланс проверяют на реально собранной системе."
+      ],
+      "text_en": [
+        "New Age heat pipes transfer heat between supported devices. A Stirling engine gains rotation from heating below, while a boiler heater supplies heat to Create’s steam system. None is a universal FE cable or gas pipe.",
+        "For the first experiment, use a controlled heat source such as a solar heating plate and a short route to the engine. Observe temperature and rotation before attaching a large workshop. Then separately inspect boiler-heater placement under a boiler in Ponder.",
+        "Excess heat is dangerous: an overheated thermal block can turn into lava. Provide continuous heat consumption and avoid trapping a hot source in a dead-end line when an engine stops. Pipes, engine and heater in an inventory confirm equipment only; thermal balance must be checked on the actual system."
+      ]
+    },
+    "tech2_newage/thorium": {
+      "text": [
+        "Торий New Age — исходный материал для собственного ядерного топлива мода. Радиоактивный торий получают дроблением обычного: установленный рецепт даёт его с вероятностью десять процентов, поэтому восемь исходных единиц не гарантируют успешную партию. Подготовьте запас и место для дополнительных результатов дробления.",
+        "Для топлива используется последовательная сборка Create: радиоактивную заготовку прессуют, добавляют железную пластину развёртывателем и прессуют снова. Порядок операций важен; обычная плавка тория в печи не заменяет эту цепочку. Проверяйте актуальный рецепт последовательной сборки перед запуском линии.",
+        "Сохраните восемь единиц обычного тория и готовое топливо до регистрации целей. Полученное топливо пока не загружайте в реактор: полная защитная оболочка и отвод тепла должны быть готовы раньше. Вероятностная добыча радиоактивной части требует учёта запаса, а не обещания точного выхода из каждой стопки."
+      ],
+      "text_en": [
+        "New Age thorium is the starting material for the mod’s own nuclear fuel. Crushing ordinary thorium can produce radioactive thorium with a ten-percent chance in the installed recipe, so eight starting items do not guarantee a successful batch. Prepare extra material and space for crushing byproducts.",
+        "Fuel uses Create sequenced assembly: press the radioactive intermediate, apply an iron plate with a deployer and press again. Operation order matters; ordinary furnace smelting is not a substitute. Inspect the current sequenced recipe before starting the line.",
+        "Keep eight ordinary thorium and completed fuel until the objectives register. Do not load the fuel into a reactor yet: a complete protective enclosure and heat removal must be ready first. Random production of the radioactive ingredient requires reserves rather than a promised exact yield from every stack."
+      ]
+    },
+    "tech2_newage/reactor": {
+      "text": [
+        "Реактор New Age выделяет тепло через топливные стержни и тепловые отводы. Это другая конструкция, чем реактор Mekanism. Соберите стержни, загрузчик топлива и отводы по Ponder, затем полностью закройте реактор предусмотренными корпусами или реакторным стеклом до подачи топлива.",
+        "От тепловых отводов проведите трубы к постоянным потребителям, рассчитанным на выделяемое тепло. Перед запуском проверьте весь маршрут и доступ к отключению подачи. Шестнадцать корпусов из задания — начальный запас, а не доказательство полной защитной оболочки выбранной формы.",
+        "Ponder предупреждает об опасной радиации открытого реактора и расплавлении при отсутствии расхода тепла. Не оставляйте работающую установку без наблюдения во время первого испытания и не открывайте оболочку ради ремонта. Начинайте с минимального контролируемого снабжения, наблюдая температуры; готовые детали подтверждают оснащение, но не безопасный тепловой режим."
+      ],
+      "text_en": [
+        "The New Age reactor releases heat through reactor rods and heat vents. It is a different structure from a Mekanism reactor. Arrange rods, fuel insertion and vents according to Ponder, then fully enclose it with the intended casings or reactor glass before adding fuel.",
+        "Run pipes from the vents to continuous consumers capable of using the released heat. Check the complete route and access to stopping fuel supply before startup. Sixteen requested casings are an initial stock, not proof of a complete enclosure for the chosen shape.",
+        "Ponder warns about dangerous radiation from an exposed reactor and meltdown without heat consumption. Keep the first trial under observation and do not open the enclosure for repairs while operating. Begin with minimal controlled supply and watch temperatures; crafted parts establish equipment, not a safe thermal operating state."
+      ]
+    },
+    "tech2_mektools/lapis": {
+      "text": [
+        "Лазуритовая кирка даёт применение лазуриту помимо зачарования и окраски. Подготовьте материал по её рецепту и сравните характеристики с текущей киркой, прежде чем расходовать запас, отложенный для стола зачарований. Это обычный инструмент Mekanism Tools, а не электрическая машина.",
+        "Изготовьте кирку на верстаке и испытайте её на простом камне рядом с базой. Проверьте, что выбранная руда допускает добычу этим инструментом: неподходящий уровень добычи может оставить без полезного выпадения. Название материала само по себе не гарантирует доступ ко всем рудам.",
+        "Следите за прочностью и сохраняйте резервный инструмент в шахте. Для долгой службы доступны обычные подходящие зачарования и ремонт по правилам предмета. Эта ветка необязательна для машин Mekanism и позволяет выбрать удобный ранний инструмент без траты осмия на электрическое снаряжение."
+      ],
+      "text_en": [
+        "The lapis lazuli pickaxe gives lapis a use beyond enchanting and dyes. Prepare its recipe materials and compare statistics with your current pickaxe before spending an enchanting reserve. This is an ordinary Mekanism Tools item, not electric machinery.",
+        "Craft the pickaxe and test it on simple stone near the base. Check whether its mining level supports the intended ore: an unsuitable tool may prevent the useful drop. A material name alone does not guarantee access to every ore.",
+        "Watch durability and carry a backup underground. Suitable ordinary enchantments and the item’s repair rules can extend its service. This branch is optional for Mekanism machinery and offers a useful early tool without spending osmium on electric equipment."
+      ]
+    },
+    "tech2_mektools/glowstone": {
+      "text": [
+        "Инструмент из очищенного светокамня требует соответствующего слитка Mekanism, а не обычной светокаменной пыли вместо металла. Подготовьте осмиевый компрессор, запас осмия и светокамень, затем выполните рецепт очищенного материала. Сам компрессор также нуждается в электричестве.",
+        "Из полученных слитков изготовьте кирку на верстаке. Сверьте её параметры и допустимые материалы добычи перед походом, затем испытайте обычную работу на камне. Кирка не требует зарядки, хотя её исходный металл произведён электрической машиной.",
+        "Оставьте часть светокамня для других рецептов и следите за прочностью инструмента. Не приписывайте кирке свойства всех других предметов из того же материала: особенности брони проверяются отдельно. Эта ступень полезна, когда компрессор уже работает, а вы хотите улучшить обычное снаряжение до перехода на дорогой Meka-Tool."
+      ],
+      "text_en": [
+        "A refined-glowstone tool requires Mekanism’s corresponding ingot, not ordinary glowstone dust substituted for metal. Prepare an osmium compressor, osmium supply and glowstone, then run the refined-material recipe. The compressor also needs electricity.",
+        "Craft a pickaxe from the resulting ingots. Check its statistics and supported mining materials before travelling, then test ordinary stone mining. The pickaxe needs no charge even though an electric machine produced its starting metal.",
+        "Reserve some glowstone for other recipes and watch tool durability. Do not assume the pickaxe shares every property of other equipment made from the same material; armour features must be checked separately. This step is useful when the compressor already works and you want better ordinary equipment before an expensive Meka-Tool."
+      ]
+    },
+    "tech2_mektools/osmium": {
+      "text": [
+        "Паксель объединяет работу кирки, топора и лопаты, освобождая места на панели. Для осмиевого варианта подготовьте инструменты и остальные ингредиенты его конкретного рецепта. Не используйте дорогие зачарованные заготовки, пока не проверили, что рецепт сохраняет нужные свойства.",
+        "Изготовьте осмиевый паксель и держите его в инвентаре для предметной цели. Достижение «Паксель» срабатывает при получении любого поддерживаемого пакселя, поэтому отдельной добычи специальных блоков для него не требуется. Осмиевый вариант из этого задания уже подходит.",
+        "Испытайте камень, землю и дерево на безопасном участке и проверьте действие альтернативного применения. Это обычный изнашиваемый инструмент, поэтому зарядная площадка его не восстановит. Следите за прочностью и храните запасную кирку: потеря одного универсального инструмента сразу лишает нескольких рабочих функций."
+      ],
+      "text_en": [
+        "A paxel combines pickaxe, axe and shovel jobs to free hotbar space. Prepare the tools and other ingredients specified by the osmium variant’s recipe. Avoid expensive enchanted ingredients until you have checked whether the recipe preserves the properties you need.",
+        "Craft the osmium paxel and hold it in your inventory for detection. The Paxel advancement triggers on obtaining any supported paxel, so it does not require mining special blocks. The osmium variant requested here qualifies.",
+        "Test stone, dirt and wood in a safe area and inspect its secondary-use action. This is an ordinary tool that wears down, so a chargepad will not restore it. Watch durability and keep a spare pickaxe: losing one combined tool removes several working functions at once."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Получить паксель любого поддерживаемого материала; осмиевый паксель подходит.",
+          "en": "Obtain a paxel of any supported material; an osmium paxel qualifies."
+        }
+      }
+    },
+    "tech2_mektools/obsidian": {
+      "text": [
+        "Очищенный обсидиан — поздний материал обычного снаряжения Mekanism Tools. Его производство использует подготовку обсидиановой пыли с алмазным веществом и дальнейшую обработку осмием. Проверьте всю цепочку в машинах Mekanism; обычный блок обсидиана не заменяет слиток в рецепте брони.",
+        "Изготовьте шлем и кирку, сохранив оба предмета до регистрации целей. Достижение с названием «Лучше незерита» здесь проверяет получение любой поддерживаемой части брони из очищенного обсидиана, а не полный комплект; шлем уже выполняет этот критерий.",
+        "Сравните защиту и прочность со своим текущим снаряжением и испытайте кирку на безопасном материале. Эта броня не получает радиационную защиту только из-за происхождения из Mekanism. Для реакторного участка по-прежнему требуется подходящий защитный комплект; хорошая обычная броня решает другие игровые опасности."
+      ],
+      "text_en": [
+        "Refined obsidian is a late material for ordinary Mekanism Tools equipment. Production uses obsidian dust treated with diamond infusion material and then processed with osmium. Check the complete Mekanism machine chain; an ordinary obsidian block does not replace the ingot in armour recipes.",
+        "Craft the helmet and pickaxe and keep both until detection. The advancement named Better than Netherite checks obtaining any supported refined-obsidian armour piece rather than a full set; the helmet already meets that condition.",
+        "Compare protection and durability with your existing equipment and test the pickaxe on a safe material. This armour does not gain radiation shielding merely because it comes from Mekanism. Reactor work still requires suitable protective equipment; strong ordinary armour addresses other game hazards."
+      ],
+      "task_notes": {
+        "2": {
+          "ru": "Получить любую часть брони из очищенного обсидиана; шлем выполняет критерий.",
+          "en": "Obtain any refined-obsidian armour piece; the helmet meets the criterion."
+        }
+      }
+    },
+    "tech2_mektools/shield": {
+      "text": [
+        "Осмиевый щит — вариант защитного снаряжения Mekanism Tools. Подготовьте осмий и остальные ингредиенты по рецепту, затем изготовьте щит и проверьте его характеристики. Для задания нужен именно осмиевый предмет, хотя достижение допускает несколько материалов этого мода.",
+        "Достижение выдаётся за получение поддерживаемого щита в инвентарь. Блокировать им особый удар или специально провоцировать опасного противника не требуется. После регистрации поместите щит в удобную руку и проверьте обычное поднятие в безопасном месте.",
+        "Щит изнашивается и защищает только в пределах своей механики блокирования. Он не заменяет радиационное экранирование, кислородный запас или защиту от всех электрических устройств. Держите прочность под контролем и учитывайте занятый слот руки, когда работаете с инструментами, едой и ведром во время экспедиции."
+      ],
+      "text_en": [
+        "The osmium shield is a Mekanism Tools defensive equipment variant. Prepare osmium and the other recipe ingredients, craft the shield and inspect its statistics. This objective requires the osmium item specifically, although the advancement accepts several materials from the mod.",
+        "The advancement is awarded for obtaining a supported shield in your inventory. You do not need to block a special attack or provoke a dangerous enemy. After detection, equip it in a convenient hand and practise raising it somewhere safe.",
+        "The shield wears down and protects only within its blocking mechanics. It does not replace radiation shielding, oxygen reserves or protection against every electrical device. Watch durability and account for the occupied hand slot while managing tools, food and a bucket during an expedition."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Получить щит Mekanism Tools; осмиевый щит подходит для достижения.",
+          "en": "Obtain a Mekanism Tools shield; an osmium shield qualifies for the advancement."
+        }
+      }
+    },
+    "tech2_pneumatic/compressed": {
+      "text": [
+        "Первое сжатое железо получают воздействием взрыва на обычные железные слитки, лежащие предметами в мире. Это стартовая операция PneumaticCraft, необходимая до постройки камеры давления. Подготовьте небольшую партию железа и отдельную площадку вдали от базы, животных и полезных вещей.",
+        "Бросьте только предназначенные слитки рядом с контролируемым источником взрыва и отойдите в защищённое место до срабатывания. После окончания подберите уцелевшее сжатое железо. Руководство предупреждает о потере примерно двадцати процентов исходного материала, поэтому ровно шестнадцать железных слитков не гарантируют цель.",
+        "Не пытайтесь возместить случайный неуспех слишком большой кучей ценных предметов у взрывчатки. Получив шестнадцать сжатых слитков, переходите к компрессору и камере. Позднее камера делает сжатое железо без стартовых взрывных потерь и становится обычным безопасно управляемым способом снабжения."
+      ],
+      "text_en": [
+        "The first compressed iron comes from exposing ordinary iron ingot item entities to an explosion. This PneumaticCraft startup operation is needed before building a pressure chamber. Prepare a small iron batch and a separate site away from the base, animals and useful belongings.",
+        "Drop only the intended ingots near a controlled explosion source and move to shelter before it triggers. Afterwards collect surviving compressed iron. The manual warns of roughly twenty-percent material loss, so exactly sixteen iron ingots do not guarantee completion.",
+        "Do not answer an unlucky result by placing a huge pile of valuables beside explosives. Once you have sixteen compressed ingots, move on to the compressor and chamber. The chamber later produces compressed iron without the initial explosive losses and becomes the normal controllable supply method."
+      ]
+    },
+    "tech2_pneumatic/compressor": {
+      "text": [
+        "Воздушный компрессор сжигает обычное твёрдое печное топливо и производит сжатый воздух. Подготовьте компрессор, четыре трубы и манометр, оставив место для удобного наблюдения. Ведро лавы этот компрессор не принимает: жидкое топливо относится к другому устройству.",
+        "Соедините компрессор короткой трубой с потребителем, закройте неиспользуемые открытые стороны и загрузите небольшое количество топлива. Посмотрите давление манометром и в интерфейсе. Шипение и частицы у открытого конца означают утечку, которую нужно устранить до увеличения производства.",
+        "Обычная ранняя система рассчитана на номинальный предел пять бар; красная зона шкалы предупреждает об опасности, а не задаёт безопасную рабочую цель. Настройте отключение компрессора раньше этого предела и проверьте остановку без расхода. Не оставляйте топливный компрессор бесконтрольно накачивать замкнутую сеть."
+      ],
+      "text_en": [
+        "The air compressor burns ordinary solid furnace fuel to produce compressed air. Prepare the compressor, four tubes and a manometer, leaving convenient observation access. It does not accept lava buckets; liquid fuels belong to a different device.",
+        "Connect a consumer with a short tube, close unused open faces and load a small amount of fuel. Inspect pressure with the manometer and interface. Hissing and particles at an open end indicate a leak to fix before expanding production.",
+        "An ordinary early system has a nominal five-bar limit; the red gauge zone warns of danger rather than marking a safe operating target. Configure compressor shutdown before that limit and test it without consumption. Do not leave a fuelled compressor pumping a closed network without control."
+      ]
+    },
+    "tech2_pneumatic/chamber": {
+      "text": [
+        "Камера давления — полая конструкция внешним размером три, четыре или пять блоков по каждой стороне. Рёбра и углы собираются из стенок либо стекла камеры, на гранях размещаются клапаны и интерфейсы. Восьми стенок задания недостаточно для полной минимальной оболочки.",
+        "Постройте начальную камеру и подключите воздух хотя бы к одному клапану. Для удобной подачи нужны два интерфейса: входной с обозначением I наружу и выходной с O наружу. Предметы подаются через внешнюю воронку или транспорт, а не простым открытием корпуса.",
+        "Начните с рецепта сжатого железа и наблюдайте давление. Перемещение предметов интерфейсами тоже расходует воздух, поэтому остановившийся выход может ждать восстановления давления. Не разбирайте заполненную камеру для извлечения результата; настройте выход и компрессор. Для массового железа блоки уменьшают число отдельных переносов."
+      ],
+      "text_en": [
+        "The pressure chamber is hollow with an external side length of three, four or five blocks. Edges and corners use chamber walls or glass; valves and interfaces occupy faces. The eight requested walls are insufficient for a complete minimum shell.",
+        "Build a starter chamber and supply air through at least one valve. Convenient item handling needs two interfaces: an input with I facing outward and an output with O outward. Items enter through an external hopper or transporter rather than by simply opening the casing.",
+        "Begin with compressed iron and watch pressure. Interfaces also consume air to move items, so a stalled output may be waiting for pressure recovery. Do not dismantle a pressurised chamber to retrieve products; configure output and compressor instead. For bulk iron, blocks reduce the number of individual transfers."
+      ]
+    },
+    "tech2_pneumatic/plastic": {
+      "text": [
+        "Пластик PneumaticCraft сначала производится жидким. Нефтеперегонная установка разделяет нефть с помощью нагрева: к контроллеру нужны дополнительные выходные блоки, обычно от двух до четырёх. Один изготовленный контроллер из задания ещё не является работающей колонной.",
+        "Получите LPG и подайте его с углём в термопневматическую установку. Согласно руководству, сто единиц LPG и один уголь дают тысячу единиц расплавленного пластика; этому рецепту нужно тепло, но не давление. Другие рецепты той же машины могут требовать оба условия.",
+        "Застудите расплав поддерживаемым способом, например аккуратным размещением в подготовленном месте, и соберите шестнадцать листов. Отведите все продукты перегонки: полный бак тяжёлого топлива остановит нужный LPG. Перед сменой рецепта проверяйте температуру и остатки жидкостей, не смешивая пластик с топливными резервуарами."
+      ],
+      "text_en": [
+        "PneumaticCraft plastic is initially produced as a fluid. The refinery separates oil using heat; its controller needs additional output blocks, normally two to four. A single crafted controller is not a working column.",
+        "Obtain LPG and feed it with coal into the thermopneumatic processing plant. The manual states that one hundred units of LPG and one coal produce one thousand molten plastic; this recipe needs heat but not pressure. Other recipes in the same machine may require both.",
+        "Solidify the melt using a supported method, such as carefully placing it in a prepared area, and collect sixteen sheets. Remove every refinery product: a full heavy-fuel tank stops the desired LPG output too. Before changing recipes, check temperature and residual fluids rather than mixing plastic with fuel storage."
+      ]
+    },
+    "tech2_pneumatic/pcb": {
+      "text": [
+        "Печатная плата проходит несколько отдельных стадий. В камере давления изготовьте пустую плату, затем подготовьте чертёж для ультрафиолетовой установки. Планшет Amadron позволяет заказать нужные недоступные обычному крафту компоненты: привяжите отдельный сундук оплаты и приёма, проверив цену до заказа.",
+        "Облучите пустую плату до полного показателя экспозиции, затем поместите в травильный бак с травильной кислотой. Неполное облучение оставляет вероятность брака; безопаснее сначала освоить полный цикл. Бак удобнее и безопаснее открытой лужи кислоты с брошенными предметами.",
+        "После травления получается несобранная плата, которой ещё нужны транзисторы и конденсаторы для готового изделия. Получите четыре готовые платы, не перепутав их с промежуточными. Позже сборочная линия с лазерной программой предлагает альтернативный путь, но она не отменяет необходимость правильных электронных компонентов."
+      ],
+      "text_en": [
+        "A printed circuit board passes through several separate stages. Make an empty PCB in the pressure chamber, then prepare the blueprint for the UV light box. The Amadron tablet orders required items unavailable through ordinary crafting: bind a separate payment-and-delivery chest and check the price before ordering.",
+        "Expose the empty PCB fully, then place it in an etching tank containing etching acid. Partial exposure leaves a failure chance; learn the complete cycle first. A tank is more convenient and safer than an open acid pool containing dropped boards.",
+        "Etching produces an unassembled PCB, which still needs transistors and capacitors to become a finished board. Obtain four finished boards without confusing intermediates. An assembly line with a laser program later provides an alternative route, but does not remove the need for the correct electronic components."
+      ]
+    },
+    "tech2_pneumatic/assembly": {
+      "text": [
+        "Пневматическая сборочная линия выполняет операции сверления и лазерной обработки по программе. Контроллер, платформа, дрель и лазер из задания — не весь комплект: нужны два блока ввода-вывода и подходящая сборочная программа, приобретаемая через Amadron или механика-жителя.",
+        "Поставьте платформу в центре доступной области. Дрель и лазер должны стоять непосредственно рядом, не по диагонали; манипуляторы ввода-вывода должны доставать и платформу, и свои сундуки. Настройте один на импорт, другой на экспорт. Воздух достаточно подавать контроллеру связанной системы.",
+        "Вставьте программу и выполните один известный рецепт, наблюдая диагностику контроллера. Программа «дрель и лазер» означает последовательную двухэтапную обработку, а не все отдельные рецепты двух инструментов сразу. При остановке проверяйте выбранную программу, достижимость платформы, воздух и материал в правильном сундуке."
+      ],
+      "text_en": [
+        "The pneumatic assembly line performs drilling and laser operations according to a program. The requested controller, platform, drill and laser are not the entire set: two assembly IO units and an appropriate program purchased through Amadron or a mechanic villager are also needed.",
+        "Place the platform centrally. Drill and laser must be directly adjacent rather than diagonal; IO arms must reach both the platform and their chests. Configure one for import and the other for export. Supplying air to the connected system’s controller is sufficient.",
+        "Insert the program and run one known recipe while watching controller diagnostics. The Drill & Laser program means sequential two-stage processing, not every independent recipe from both tools. If it stops, inspect program choice, platform reach, air and material in the correct chest."
+      ]
+    },
+    "tech2_pneumatic/drone": {
+      "text": [
+        "Дрон выполняет записанную программу и расходует сжатый воздух. Программатор нужен для составления действий, GPS-инструмент помогает переносить координаты. Сам программатор не требует давления, но для программы могут понадобиться соответствующие элементы-пазлы, а дрона нужно предварительно зарядить на станции.",
+        "Начните с простой доставки одного вида предмета между двумя сундуками. Укажите точные области ввода и вывода, запишите программу в установленного дрона и испытайте её рядом с базой. Не начинайте с добычи большой области или команды без ограничений по предметам.",
+        "Предусмотрите зарядную станцию с нужным улучшением раздатчика и доступным воздухом, чтобы дрон мог обслуживаться. Полностью разряженный дрон теряет полёт и может пострадать от падения. При переносе программы в другое место обновляйте координаты; корректные действия с чужими координатами всё равно отправят помощника не туда."
+      ],
+      "text_en": [
+        "A drone follows its recorded program and consumes compressed air. The programmer builds actions, while a GPS tool helps transfer coordinates. The programmer itself needs no pressure, but the program may require puzzle pieces and the drone needs charging at a station first.",
+        "Begin with simple delivery of one item type between two chests. Specify exact input and output areas, write the program into the inserted drone and test near the base. Avoid starting with large-area mining or unrestricted item handling.",
+        "Provide an accessible charging station with the required dispenser upgrade and air supply so the drone can recharge. A completely empty drone loses flight and can suffer falling damage. Update coordinates when moving a program elsewhere; correct actions with somebody else’s coordinates still send the assistant to the wrong place."
+      ]
+    },
+    "tech2_pneumatic/armor": {
+      "text": [
+        "Пневматическая броня использует запас сжатого воздуха и устанавливаемые улучшения. Шлем и нагрудник из задания дают начало комплекту, а зарядная станция наполняет поддерживаемые предметы воздухом. Подготовьте станцию и безопасно управляемую сеть до изготовления большого количества модулей.",
+        "Поместите часть брони на станцию и наблюдайте выравнивание давления между ними. Маленький запас воздуха станции не полностью зарядит пустой большой предмет без помощи компрессора. Через интерфейс станции также устанавливают совместимые улучшения; список зависит от выбранного снаряжения.",
+        "Наденьте заряженные части и изучите управление в безопасном месте. Для полного комплекта и специальных возможностей потребуются остальные части и нужные модули. Не повышайте давление всей ранней сети до предела предмета: обычные трубы выдерживают меньше, чем некоторые заряжаемые инструменты, и безопасность определяется самым слабым подключённым блоком."
+      ],
+      "text_en": [
+        "Pneumatic armour uses stored compressed air and installed upgrades. The requested helmet and chestplate begin the set, while a charging station fills supported items with air. Prepare the station and a safely controlled network before crafting many modules.",
+        "Place an armour piece in the station and observe pressure equalising between them. A small station air reserve cannot fully charge a large empty item without compressor support. The station interface also installs compatible upgrades, with options depending on the equipment.",
+        "Equip charged pieces and learn controls in a safe area. A complete set and special abilities require the remaining pieces and suitable modules. Do not raise an entire early network to an item’s pressure limit: ordinary tubes withstand less than some charged tools, so the weakest connected block determines safety."
+      ]
+    },
+    "tech2_pneumatic/elevator": {
+      "text": [
+        "Пневматический лифт перемещает платформу между уровнями постройки. База и рамки формируют основу маршрута, но рабочему лифту также нужны воздух и управление этажами. Перед установкой выберите вертикальную шахту без выступающих машин, проводов и мест, где игрок может застрять.",
+        "Соберите базу и предусмотренные рамки по руководству, подключите короткую безопасную пневмолинию. Настройте доступные высоты и элементы управления, затем выполните короткий подъём без груза. Проверяйте весь путь платформы, а не только свободный блок непосредственно над базой.",
+        "Обеспечьте запасной обычный выход с этажей на случай остановки компрессора. При неподвижном лифте сравните давление, выбранную высоту и препятствия в шахте. Четыре рамки из задания не обещают любой высоты подъёма; окончательное устройство зависит от собранной конструкции и её настройки, которые нужно испытать до повседневного использования."
+      ],
+      "text_en": [
+        "The pneumatic elevator moves a platform between building levels. Its base and frames establish the route, but an operating lift also needs air and floor controls. Choose a vertical shaft without protruding machines, wires or places where a player could become trapped.",
+        "Build the base and required frames from the manual, then connect a short safe pneumatic line. Configure available heights and controls and make a short unloaded ascent. Check the platform’s entire path rather than only the block directly above the base.",
+        "Provide an ordinary alternative exit from each floor in case the compressor stops. If the elevator remains still, compare pressure, requested height and shaft obstructions. Four requested frames do not promise arbitrary travel height; the final device depends on the complete structure and settings, which need testing before daily use."
+      ]
+    },
+    "tech2_pneumatic/pressure_service_setup": {
+      "text": [
+        "Восемь труб позволяют собрать небольшой наблюдаемый участок контроля давления. Используйте уже изготовленные компрессор и камеру, добавьте манометр и управляемое отключение. Новые трубы нужны для понятной разводки, а не для бесцельного увеличения объёма системы: большой объём дольше наполняется.",
+        "Соедините устройства, закройте неиспользуемые выходы и проверьте отсутствие шипения. Все ранние участки должны оставаться ниже опасной красной зоны своих шкал. Настройте компрессор так, чтобы он прекращал накачку при достижении выбранного безопасного уровня, даже когда машина не расходует воздух.",
+        "Наличие труб завершает только подготовку оборудования. До следующей партии проверьте реакцию отключения на небольшой заправке, не доводя давление до разрушения. Если после добавления труб показание упало, сначала учтите новый общий объём: выравнивание давления не всегда означает утечку."
+      ],
+      "text_en": [
+        "Eight tubes let you build a small observable pressure-control section. Use the existing compressor and chamber, adding a manometer and controlled shutdown. The tubes should make routing clear rather than increase volume pointlessly: a larger volume takes longer to fill.",
+        "Connect the devices, close unused outputs and check for hissing. Every early section must stay below its gauge’s dangerous red zone. Configure the compressor to stop at a chosen safe level even when no machine consumes air.",
+        "Owning the tubes completes equipment preparation only. Before the next batch, test shutdown with a small fuel load without approaching destructive pressure. If readings fall after adding tubes, account for the increased total volume first: pressure equalisation does not always mean a leak."
+      ]
+    },
+    "tech2_pneumatic/pressure_service_batch": {
+      "text": [
+        "Получите шестнадцать сжатых железных слитков в камере давления, используя уже подготовленную безопасную сеть. Отделите обычное железо от первой взрывной партии и освободите входной и выходной интерфейсы. Перед подачей проверьте минимальное давление выбранного рецепта в JEI.",
+        "Пропустите небольшую партию и наблюдайте падение давления во время обработки и переносов. Интерфейсы тоже расходуют воздух, поэтому мгновенное окончание компрессии не гарантирует мгновенную выдачу всей стопки. Дайте компрессору восстановить запас в пределах установленного безопасного диапазона.",
+        "Соберите шестнадцать готовых слитков в инвентарь; цель не расходует их и не определяет происхождение автоматически. Для полноценного испытания используйте результат именно камеры, а не старые предметы из сундука. Следующий узел отдельно проверит восстановление давления и отключение компрессора при отсутствии потребления."
+      ],
+      "text_en": [
+        "Produce sixteen compressed iron ingots in the pressure chamber using the prepared safe network. Separate ordinary iron from the initial explosive batch and clear the input and output interfaces. Check the chosen recipe’s minimum pressure in JEI before feeding it.",
+        "Process a small batch and watch pressure fall during processing and transfers. Interfaces also consume air, so finishing compression does not guarantee immediate delivery of the whole stack. Let the compressor restore reserves within the configured safe range.",
+        "Collect sixteen finished ingots in your inventory; the objective neither consumes them nor automatically identifies their origin. For a meaningful trial, use chamber output rather than old chest stock. The next node separately checks pressure recovery and compressor shutdown with no consumption."
+      ]
+    },
+    "tech2_pneumatic/pressure_service_run": {
+      "text": [
+        "Проверка давления должна показать два разных режима: работающий потребитель и закрытая сеть без расхода. Подготовьте один известный рецепт камеры, посмотрите исходное показание и убедитесь, что манометр читается с безопасного места. Не снимайте блоки под давлением ради наблюдения.",
+        "Запустите рецепт и проследите, как давление падает и затем восстанавливается компрессором. После завершения остановите расход воздуха и проверьте, что компрессор действительно отключается на выбранном безопасном уровне. Не доводите систему до красной зоны или разрушения, чтобы доказать работу ограничения.",
+        "Отметьте цель вручную только после обоих наблюдений. Кодекс не измеряет компрессор автоматически. Если накачка продолжается без расхода, прекратите опыт доступным управлением и исправьте логику отключения; пока она не проверена повторно, установка не готова к работе без наблюдения."
+      ],
+      "text_en": [
+        "The pressure trial must show two different conditions: an operating consumer and a closed network with no consumption. Prepare one known chamber recipe, read initial pressure and ensure the manometer is visible from safety. Do not remove pressurised blocks to improve observation.",
+        "Run the recipe and watch pressure fall and then recover through compressor operation. Once it finishes, stop air consumption and verify that the compressor actually shuts off at the chosen safe level. Do not enter the red zone or cause destruction to prove the limit works.",
+        "Mark the objective manually only after both observations. Codex does not measure compressor behaviour automatically. If pumping continues without consumption, stop the trial through available controls and fix shutdown logic; the installation is not ready for unattended operation until the repeated check passes."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: выполнить рецепт, проследить восстановление давления и проверить отключение компрессора без расхода, не доводя систему до разрушения.",
+          "en": "Manual: run a recipe, observe pressure recovery and verify compressor shutdown without consumption, without approaching destruction."
+        }
+      }
+    },
+    "tech2_foregoing/latex": {
+      "text": [
+        "Пластик Industrial Foregoing начинается с латекса, добываемого жидкостным экстрактором из бревна перед рабочей стороной. Экстрактор отсутствует в списке целей, поэтому изготовьте его отдельно. Древесина постепенно обрабатывается и исчезает; бесконечного латекса из одного навсегда поставленного бревна нет.",
+        "Направьте латекс в переработчик вместе с водой и подайте энергию. Полученный сухой каучук затем переплавляется в пластик по доступному рецепту. Проверяйте конкретную форму каучука: мелкий промежуточный материал и целый сухой каучук могут требовать дополнительной сборки.",
+        "Сначала зарегистрируйте восемь сухих каучуков одной партией, затем перерабатывайте сырьё и соберите шестнадцать пластиков. Разные предметные цели сохраняются по очереди. При остановке проверьте бревно, воду, латекс и свободный выход, затем электричество. Разделите запас древесины фермы и строительные стены: экстрактор должен расходовать предназначенное сырьё, а не часть базы."
+      ],
+      "text_en": [
+        "Industrial Foregoing plastic starts with latex extracted from a log in front of a fluid extractor’s working face. The extractor is not listed among the objectives, so craft it separately. Wood is gradually processed and disappears; one permanently placed log does not provide unlimited latex.",
+        "Send latex and water to the processing unit and supply energy. The resulting dry rubber is then smelted into plastic through the available recipe. Check the rubber form carefully: small intermediates and full dry rubber may require an additional crafting step.",
+        "First register eight dry rubber in one batch, then process material and collect sixteen plastic. Different item objectives retain progress sequentially. If production stops, check the log, water, latex and output space, then electricity. Separate farm timber from structural walls: the extractor should consume designated material, not part of the base."
+      ]
+    },
+    "tech2_foregoing/frames": {
+      "text": [
+        "Рамки машин Industrial Foregoing имеют разные ступени и входят в конкретные рецепты. Простая ранняя рамка изготавливается на верстаке, следующая требует дополнительного производственного процесса. Подготовьте пластик и металлы, сохранив запас ранних рамок для самой инфраструктуры улучшения.",
+        "Изготовьте две рамки начального уровня Pity и подготовьте камеру растворения для Simple. В её рецепте предметные ингредиенты сочетаются с требуемой жидкостью, а не просто окружают старую рамку на обычном верстаке. Посмотрите фактический рецепт до расходования редких материалов.",
+        "Подайте полный набор, жидкость и FE, дождитесь новой рамки и извлеките результат. Камера блокирует предметные слоты на время подходящего рецепта; это защищает партию от случайного смешивания. Наличие более высокой рамки не обновляет уже поставленные машины автоматически: каждый аппарат по-прежнему собирается своим рецептом."
+      ],
+      "text_en": [
+        "Industrial Foregoing machine frames have different tiers and belong to specific recipes. The early Pity frame is crafted at a table, while the next step requires an additional production process. Prepare plastic and metals while retaining early frames for the upgrading infrastructure itself.",
+        "Craft two Pity frames and prepare a dissolution chamber for a Simple frame. Its recipe combines item ingredients with a required fluid rather than merely surrounding the old frame at a crafting table. Inspect the actual recipe before spending rare materials.",
+        "Supply the complete ingredients, fluid and FE, wait for the new frame and collect it. The chamber locks item slots during a valid recipe to prevent accidental mixing. Owning a higher frame does not automatically upgrade placed machines; each device still has its own crafting recipe."
+      ]
+    },
+    "tech2_foregoing/farm": {
+      "text": [
+        "Сеятель и сборщик растений выполняют разные части работы поля. Сеятель сажает материалы из цветных слотов в соответствующие участки области над собой. Сборщик снимает урожай перед рабочей стороной и может захватывать связанные части дерева, поэтому сначала выберите отдельное небольшое поле.",
+        "Разместите машины, покажите рабочие области и подготовьте почву, воду, семена и FE. Включите одну знакомую культуру и проверьте полный цикл посадки и сбора. Обычный сборщик ломает растения при сборе; автоматический пересев нельзя подразумевать без работающего сеятеля или специальных условий улучшенного процесса.",
+        "Отведите урожай и побочную жижу, сохраните часть семян для следующего посева. Удобрение из задания имеет отдельное применение и не подаётся в любой слот автоматически. Если поле пустеет, проверяйте наличие посадочного материала и совпадение областей, а не только скорость сбора урожая."
+      ],
+      "text_en": [
+        "The plant sower and gatherer perform different field tasks. The sower plants materials from colour-coded slots into matching sections above it. The gatherer harvests in front of its working face and can follow connected tree parts, so begin with a separate small field.",
+        "Place the machines, display their areas and prepare soil, water, seeds and FE. Start one familiar crop and verify a complete planting-and-harvest cycle. An ordinary gatherer breaks plants when harvesting; do not assume replanting without a working sower or the special conditions of an enhanced process.",
+        "Remove harvest and sludge and reserve seeds for the next planting. The requested fertilizer has its own use and is not automatically accepted in every slot. If the field becomes empty, inspect seed supply and matching areas instead of focusing solely on harvest speed."
+      ]
+    },
+    "tech2_foregoing/animals": {
+      "text": [
+        "Животноводство здесь разделено на кормление, получение продуктов и уничтожение мобов. Animal Feeder размножает животных подходящим кормом, Rancher стрижёт овец и получает молоко, а Mob Crusher убивает существ в своей рабочей области. Не ставьте все три устройства лицом в один племенной загон.",
+        "Начните с кормушки и обслуживающей машины в безопасно огороженной области, подайте FE и нужный корм. Покажите границы работы и проверьте один цикл продукции. Для уничтожителя выделите отдельную закрытую область без питомцев, жителей и случайного прохода игроков.",
+        "Отведите предметные выпадения и эссенцию, проверьте режим уничтожителя до включения. Наличие трёх блоков в инвентаре не доказывает работающую ферму и не требует жертвовать племенным поголовьем. Сохраняйте исходную пару животных отдельно, чтобы ошибка фильтра или направления машины не уничтожила единственный источник восстановления хозяйства."
+      ],
+      "text_en": [
+        "Animal husbandry here separates feeding, product collection and mob killing. The animal feeder breeds animals with suitable food, the rancher shears sheep and milks cows, and the mob crusher kills entities within its working area. Do not point all three at one breeding pen.",
+        "Begin with feeding and ranching in a safely enclosed area, supplying FE and the correct food. Display working boundaries and verify one product cycle. Give the crusher a separate closed area without pets, villagers or passing players.",
+        "Remove item drops and essence and inspect crusher mode before enabling it. Owning the three blocks does not prove a working farm or require sacrificing breeding stock. Keep an original animal pair separate so a filter or facing mistake cannot destroy the only way to restore the operation."
+      ]
+    },
+    "tech2_foregoing/ore_meat": {
+      "text": [
+        "Мясная металлургия использует особые жидкости Industrial Foregoing для переработки руды. Подготовьте источник жидкого мяса и отдельный запас руды. Washing Factory соединяет руду с мясом и получает сырой рудный мясной раствор; обычная вода не заменяет этот вход.",
+        "Передайте раствор в Fermentation Station, установите нужный режим и уровень заполнения, после которого камера запечатывает партию. Дождитесь ферментации, затем направьте полученную жидкость вместе с песком в Fluid Sieving Machine. На выходе получается металлическая пыль соответствующего исходного материала.",
+        "Подключите FE каждой машине и разведите жидкости по стадиям, не смешивая разные металлы в незавершённом объёме. Итоговую пыль ещё нужно переплавить в слитки. Если ферментёр ожидает, проверьте порог запечатывания партии: частично заполненный резервуар может быть нормальным ожиданием, а не признаком неисправного рецепта."
+      ],
+      "text_en": [
+        "Ore meat processing uses special Industrial Foregoing fluids to process ore. Prepare liquid meat supply and a separate ore batch. The washing factory combines ore with meat to produce raw ore meat; ordinary water cannot replace that input.",
+        "Transfer the fluid to a fermentation station and set the intended production mode and fill level at which the batch seals. Wait for fermentation, then feed the resulting fluid with sand into the fluid sieving machine. It outputs dust of the original metal.",
+        "Power every machine and keep each processing fluid on its own route without mixing metals in unfinished batches. The dust still needs smelting into ingots. If the fermenter waits, check the batch-sealing threshold: a partly filled tank may be normal waiting rather than a broken recipe."
+      ]
+    },
+    "tech2_foregoing/laser": {
+      "text": [
+        "Лазерная дрель заряжает подходящую лазерную базу, а результат добычи создаёт именно база. В задании указана жидкостная база, поэтому не ожидайте от неё сундук руды. Для рудного производства существует отдельный Ore Laser Base, который нужно изготовить дополнительно.",
+        "Поставьте дрель так, чтобы её рабочая область охватывала базу, и подайте FE. Для жидкостного рецепта проверьте биом, выбранную глубину и нужный катализатор; некоторым рецептам требуется определённое существо под установкой. Цветная линза не является универсальным пропуском к любой жидкости.",
+        "Выберите один конкретный рецепт и обеспечьте место для результата, прежде чем добавлять дополнительные дрели. Чёрная и синяя линзы имеют смысл только в соответствующих условиях рецепта. При заполненной энергией базе без добычи проверяйте требования мира и катализатор, а не повышайте мощность вслепую: энергия не заменяет отсутствующее условие."
+      ],
+      "text_en": [
+        "The laser drill charges a suitable laser base; the base itself creates mining output. This objective lists a fluid laser base, so do not expect it to fill a chest with ore. Ore production uses a separate ore laser base that must be crafted additionally.",
+        "Place the drill so its working area covers the base and supply FE. For a fluid recipe, check biome, configured depth and required catalyst; some recipes also need a particular entity beneath the installation. A coloured lens is not a universal permit for every fluid.",
+        "Choose one specific recipe and provide output capacity before adding drills. Black and blue lenses matter only under their corresponding recipe conditions. If a charged base produces nothing, inspect world requirements and catalyst instead of blindly increasing power; energy cannot replace a missing condition."
+      ]
+    },
+    "tech2_foregoing/stonework": {
+      "text": [
+        "Каменный завод объединяет создание и дальнейшую обработку обычных минеральных материалов. Подготовьте энергию, воду и лаву в предназначенных для машины входах, затем выберите последовательность операций в интерфейсе. Стоящая рядом открытая лава не обязательно равна заполненному внутреннему резервуару.",
+        "Начните с простого выхода булыжника, обеспечив отдельный сундук. После устойчивого запуска включайте нужную дальнейшую обработку, например измельчение или плавку, по доступным режимам. Несколько операций меняют конечный продукт; не направляйте результат в уже настроенный склад, пока не проверили выбранную цепочку.",
+        "Следите за FE и свободным выходом. Эта машина полезна для песка, стекла и строительного запаса, но не заменяет лазерную добычу редких руд. Получение самого блока завершает предметную цель; работающий завод подтверждается конкретным продуктом и восстановлением производства после освобождения заполненного приёмника."
+      ],
+      "text_en": [
+        "The material stonework factory combines creation and further processing of ordinary mineral materials. Prepare energy, water and lava in the machine’s designated inputs, then select an operation sequence in its interface. Exposed lava beside the block does not necessarily equal a filled internal tank.",
+        "Begin with simple cobblestone output into a separate chest. Once operation is stable, enable desired subsequent processing such as grinding or smelting using the available modes. Several operations change the final product; do not route it into an established warehouse until the chosen chain is verified.",
+        "Watch FE and output space. This machine is useful for sand, glass and construction stock but does not replace laser extraction of rare ores. Obtaining the block completes the item objective; actual operation is demonstrated by a product and recovery after a full destination is cleared."
+      ]
+    },
+    "tech2_powah/dielectric": {
+      "text": [
+        "Диэлектрическая паста и корпуса лежат в основе устройств Powah. Подготовьте ингредиенты по текущему рецепту, особенно повторяющиеся металлы и угольные материалы. Паста — строительный компонент, а не жидкое топливо или замена изолированного кабеля другого мода.",
+        "Изготовьте восемь паст и четыре корпуса, дайте предметным целям зарегистрировать оба запаса. Для последующих машин также понадобятся конденсаторы нужного уровня; один корпус не превращается в генератор после размещения рядом с огнём. Посмотрите рецепт первого выбранного устройства до расходования всей партии.",
+        "Разделите материалы генерации и передачи, чтобы после сборки источника осталось чем его подключить. Небольшой стартовый запас пасты полезен для кабелей и новых компонентов. Увеличивайте производство после выбора работающей линии, поскольку разные уровни Powah используют предыдущие детали и специальные энергетически обработанные материалы."
+      ],
+      "text_en": [
+        "Dielectric paste and casings underpin Powah devices. Prepare current recipe ingredients, especially recurring metals and coal-based materials. Paste is a crafting component, not fluid fuel or a replacement for another mod’s insulated wire.",
+        "Craft eight paste and four casings and let both inventory stocks register. Later machines also require capacitors of the appropriate tier; a casing does not become a generator when placed beside fire. Inspect the first chosen device’s recipe before spending the entire batch.",
+        "Reserve separate materials for generation and transfer so you can connect the source after crafting it. A small paste stock supports cables and further components. Expand production after choosing a working line, since different Powah tiers use preceding parts and special energized materials."
+      ]
+    },
+    "tech2_powah/generators": {
+      "text": [
+        "Три стартовых генератора используют разные источники. Furnator сжигает твёрдое топливо, Magmator принимает лаву как расходуемую жидкость, Thermo Generator работает над горячим блоком или жидкостью и требует охлаждающую жидкость, например воду. Эти условия нельзя заменять друг другом по похожему названию.",
+        "Испытайте устройства по одному, подключая к одной свободной энергетической ячейке. Для термогенератора проверьте источник под блоком и заполнение охлаждения; для магматора — внутренний запас лавы; для печного генератора — подходящее топливо. Наблюдайте фактический рост энергии.",
+        "Выберите основной вариант по устойчивости снабжения базы. Если генератор заполнен энергией и не расходует топливо, сначала проверьте, может ли сеть принять выход. Показатели мощности зависят от уровня и настроек, поэтому сравнивайте интерфейсы в FE, а не обещанную цифру из руководства другой версии."
+      ],
+      "text_en": [
+        "The three starter generators use different sources. A furnator burns solid fuel, a magmator consumes lava as a fluid, and a thermo generator works above a hot block or fluid while requiring coolant such as water. Their similar names do not make these conditions interchangeable.",
+        "Test them individually against the same available energy cell. For the thermo generator, inspect the source beneath it and coolant supply; for the magmator, check internal lava; for the furnator, check accepted fuel. Observe actual energy growth.",
+        "Choose the main option according to dependable base supplies. If a generator is full of energy and stops burning fuel, first check whether the network can accept output. Generation values depend on tier and configuration, so compare FE interfaces rather than a promised figure from another version’s guide."
+      ]
+    },
+    "tech2_powah/cells": {
+      "text": [
+        "Обычная энергетическая ячейка хранит FE локально, кабель передаёт их между блоками, Ender Cell связывает запас с каналом беспроводной сети владельца. Подготовьте все три компонента и сначала проверьте простую цепочку генератор–ячейка–машина до включения дальнего доступа.",
+        "У ячейки настройте стороны ввода и вывода, соедините их кабелем и дождитесь заряда. Затем откройте Ender Cell, выберите канал и обеспечьте ему действительную ёмкость через поддерживаемое добавление накопителя. Пустой канал без ёмкости не становится батареей от одного выбранного номера.",
+        "Для второго конца беспроводной передачи согласуйте владельца и канал. Если удалённая машина не получает FE, проверяйте запас канала и ограничения портов обеих сторон. Наличие одного Ender Cell в инвентаре подтверждает изготовление, но не пару работающих устройств и не загрузку удалённого участка."
+      ],
+      "text_en": [
+        "An ordinary energy cell stores FE locally, cable transfers it between blocks, and an ender cell links storage to a channel in its owner’s wireless network. Prepare all three components and verify a simple generator–cell–machine route before enabling remote access.",
+        "Configure the cell’s input and output sides, connect cables and wait for charging. Then open the ender cell, select a channel and give it valid capacity through its supported storage-adding mechanism. Choosing a number does not turn a channel without capacity into a battery.",
+        "Match owner and channel at the wireless destination. If a remote machine receives no FE, check channel reserves and port limits at both ends. One ender cell in an inventory confirms crafting, not a working pair or a loaded remote site."
+      ]
+    },
+    "tech2_powah/energizing": {
+      "text": [
+        "Энергетический шар хранит ингредиенты рецепта, а электроэнергию в обработку подают находящиеся рядом стержни. Самому шару прямой кабель FE не нужен. Поставьте четыре стартовых стержня близко к шару и подключите их к кабелям либо подходящим энергетическим блокам.",
+        "Для энергетической стали положите один железный и один золотой слиток. Установленный рецепт расходует десять тысяч FE и выдаёт два слитка; четыре таких операции дадут восемь для задания. Не загружайте лишнюю стопку разных ресурсов, если хотите проверить именно этот состав.",
+        "Дождитесь завершения и заберите результат перед новой партией. Скорость зависит от числа и уровня стержней, а также доступной передачи энергии. Если шар не работает, проверяйте полный рецепт, расстояние до стержней и их заряд; большая батарея у самого шара не заменяет правильно подключённые стержни."
+      ],
+      "text_en": [
+        "The energizing orb holds recipe ingredients, while nearby rods supply processing energy. The orb itself needs no direct FE cable. Place four starter rods close to it and connect them to cables or suitable energy blocks.",
+        "For energized steel, insert one iron ingot and one gold ingot. The installed recipe consumes ten thousand FE and produces two ingots; four operations make the eight requested here. Avoid loading unrelated stacks when testing this specific combination.",
+        "Wait for completion and remove output before the next batch. Speed depends on rod count and tier as well as available energy transfer. If the orb does not operate, inspect the complete recipe, rod distance and rod charge; a large battery attached to the orb cannot replace correctly powered rods."
+      ]
+    },
+    "tech2_powah/crystals": {
+      "text": [
+        "Кристаллы Powah подготавливают материалы следующих уровней генераторов и передачи. Blazing Crystal получают энергетической обработкой огненного стержня либо четырёх огненных порошков; Niotic Crystal — алмаза. Обычная переплавка этих ресурсов не заменяет энергетический шар.",
+        "Подготовьте запас энергии и подайте только одну нужную комбинацию за раз. Установленные рецепты требуют сто двадцать тысяч FE для одного Blazing и триста тысяч для одного Niotic. Получите четыре первых кристалла и два вторых, сохраняя их до регистрации целей.",
+        "При медленном выполнении проверьте стержни и подвод энергии, а не добавляйте второй алмаз в незавершённую партию. Для постоянной работы выгодно повышать уровень стержней вместе с генерацией. Кристалл — ингредиент улучшенного устройства; он не повышает характеристики старого блока, просто лежа рядом в сундуке."
+      ],
+      "text_en": [
+        "Powah crystals prepare materials for higher generation and transfer tiers. Energizing a blaze rod or four blaze powder makes a Blazing Crystal; a diamond makes a Niotic Crystal. Ordinary smelting does not replace the energizing orb.",
+        "Prepare energy reserves and feed one intended combination at a time. Installed recipes require one hundred twenty thousand FE for one Blazing and three hundred thousand for one Niotic. Produce four of the first and two of the second, keeping them until detection.",
+        "If processing is slow, inspect rods and energy delivery rather than adding another diamond to an unfinished batch. For sustained production, upgrade rods alongside generation. A crystal is an ingredient for improved equipment; it does not strengthen an old block simply by sitting in a nearby chest."
+      ]
+    },
+    "tech2_powah/reactor": {
+      "text": [
+        "Реактор Powah использует уранинит как основное топливо и собирается из тридцати шести блоков одного уровня. Предметная цель просит лишь один стартовый блок, поэтому для настоящей установки подготовьте полный комплект. Сырой уранинит сначала перерабатывается подходящим рецептом в готовое топливо.",
+        "Освободите место под конструкцию и начните размещение с полным комплектом в руке: поддерживаемая автоматическая сборка достроит реактор. Проверьте интерфейс, вход топлива, охлаждение и дополнительные материалы, влияющие на работу, по руководству и подсказкам текущей версии.",
+        "Подключите принимающий накопитель и наблюдайте расход топлива вместе с выходом FE. Не переносите сюда требования радиоактивных отходов Mekanism: это отдельная система, но ей всё равно нужно устойчивое снабжение. Восемь сырых и четыре готовых уранинита сохраните до фиксации целей, а работоспособность оценивайте только после завершённой сборки."
+      ],
+      "text_en": [
+        "The Powah reactor uses uraninite as its main fuel and is built from thirty-six blocks of one tier. The item objective requests only one starter block, so prepare the complete set for an actual installation. Process raw uraninite into fuel through a supported recipe first.",
+        "Clear construction space and begin placement with the full set in hand; supported automatic assembly completes the reactor. Inspect its interface, fuel input, coolant and performance additives using the current manual and tooltips.",
+        "Connect accepting storage and observe fuel use alongside FE output. Do not import Mekanism radioactive-waste requirements into this separate system, although it still needs dependable supplies. Keep eight raw and four processed uraninite until detection, and judge operation only after the structure is complete."
+      ]
+    },
+    "tech2_petroleum/survey": {
+      "text": [
+        "Сейсмический прибор Petroleum ищет жидкостные залежи под коренной породой. Для исследования ему нужны картечные патроны IE: загрузите подходящий боеприпас и примените прибор в подготовленном месте. Полученная карта показывает отражённые сигналы, а несколько разнесённых измерений помогают уточнить расположение резервуара.",
+        "Сравните результаты и запишите координаты предполагаемой скважины. Не считайте любую отметку нефтью: встречаются разные виды жидкостных залежей, а начальный сигнал может ещё не определить тип. До строительства дорогой вышки проверьте сведения, доступные в результатах разведки.",
+        "Керн IE из второй цели относится к минеральной разведке и не заменяет сейсмический результат Petroleum. Его можно получить обычным керновым буром, но наличие керна не доказывает нефтяную залежь. В дальнейшем пригодятся отдельное хранилище добытой жидкости и свободная площадка под конструкцию вышки."
+      ],
+      "text_en": [
+        "Petroleum’s seismic survey tool searches for fluid deposits beneath bedrock. It needs IE buckshot cartridges: load suitable ammunition and operate the tool at a prepared location. The resulting map shows reflected signals, while several separated readings help locate the reservoir.",
+        "Compare results and record the proposed well coordinates. Do not assume every marker is oil: several fluid reservoir types exist, and an initial signal may not yet identify the type. Check available survey information before building an expensive derrick.",
+        "The IE core sample in the second objective concerns mineral surveying and does not replace a Petroleum seismic result. Obtain it with an ordinary core drill, but possessing a core proves no oil deposit. Later you will need separate fluid storage and a clear construction site for the derrick."
+      ]
+    },
+    "tech2_petroleum/derrick": {
+      "text": [
+        "Буровая вышка создаёт устье скважины к разведанному жидкостному резервуару. Соберите многоблок по руководству и сформируйте молотом на единственном лёгком инженерном блоке. Подготовьте энергию, буровые трубы и материалы двух стадий бурения; под водой такая работа не выполняется правильно.",
+        "Первая стадия укрепляет скважину выше бедрока жидким бетоном, вторая использует воду для бурения через коренную породу к выбранным целям. Трубы загружаются вручную. Проверьте координаты цели в интерфейсе и наличие нужной жидкости, не смешивая бетон с водой в одной незаконченной подаче.",
+        "Когда скважина открыта, пластовое давление выталкивает жидкость вверх. Обеспечьте свободный отвод до завершения бурения: переполненная вышка сбрасывает нефть наружу через предохранительный механизм. Ручную цель отмечайте после созданного устья и контролируемого приёма жидкости; обычная стопка деталей не подтверждает работающую скважину."
+      ],
+      "text_en": [
+        "A derrick creates a wellhead reaching a surveyed fluid reservoir. Build the multiblock from the manual and form it by hammering its single light engineering block. Prepare energy, drilling pipes and supplies for both drilling stages; this process cannot operate correctly below water level.",
+        "The first stage reinforces the well above bedrock with liquid concrete; the second uses water to drill through bedrock towards selected targets. Pipes are loaded manually. Check target coordinates and the required fluid without mixing concrete and water in unfinished supply lines.",
+        "Once the well opens, reservoir pressure pushes fluid upwards. Ensure free output before drilling completes: a full derrick releases oil outside through its pressure-relief mechanism. Mark the manual objective after creating the wellhead and controlling collected fluid; a stack of parts does not establish a working well."
+      ],
+      "tasks_override": [
+        {
+          "type": "item",
+          "id": "immersiveengineering:fluid_pipe",
+          "count": 16
+        },
+        {
+          "type": "check",
+          "id": "Вышка создала устье и контролируемо отдаёт жидкость"
+        }
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Вручную: сформировать вышку, завершить бурение с бетоном и водой, получить устье и вывести жидкость в свободное хранилище.",
+          "en": "Manual: form the derrick, finish concrete-and-water drilling, create the wellhead and direct fluid into available storage."
+        }
+      }
+    },
+    "tech2_petroleum/pumpjack": {
+      "text": [
+        "Качалка извлекает жидкость из устья, уже созданного буровой вышкой. Она нужна после снижения естественного давления резервуара. Не заменяйте вышку слишком рано: скважина под давлением способна выбрасывать жидкость через насосный узел, и обычный запас в баке этого условия не отменяет.",
+        "Соберите конструкцию по руководству, совместите головное трубное соединение с устьем и активируйте молотом тяжёлый инженерный блок второго слоя. Подведите FE и соедините оранжевые боковые выходы с хранилищем. Убедитесь, что выбран именно подготовленный ствол скважины.",
+        "Запустите добычу и проследите поступление жидкости, затем отметьте ручную цель. Расход энергии и скорость определяются настройками, а запас залежи ограничен; некоторые резервуары допускают медленное восполнение. Если добыча закончилась, проверьте состояние резервуара и свободный выход, не предполагая, что перестановка качалки создаёт новую нефть."
+      ],
+      "text_en": [
+        "A pumpjack extracts fluid from a wellhead already created by a derrick. It is needed after natural reservoir pressure falls. Do not replace the derrick prematurely: a pressurised well can force fluid through the pump assembly, regardless of spare tank capacity.",
+        "Build the structure from the manual, align the headpipe connection with the wellhead and hammer the second-layer heavy engineering block to form it. Supply FE and connect orange side outputs to storage. Confirm that this is the prepared well bore.",
+        "Start extraction, observe incoming fluid and mark the manual objective. Power use and rate depend on configuration, while reservoir stock is finite; some deposits replenish slowly. If production ends, check reservoir state and output space rather than assuming moving the pumpjack creates new oil."
+      ],
+      "tasks_override": [
+        {
+          "type": "item",
+          "id": "immersiveengineering:heavy_engineering",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "Качалка добывает через подготовленное устье"
+        }
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Вручную: сформировать качалку над готовым устьем после падения пластового давления, подать FE и получить жидкость через боковой выход.",
+          "en": "Manual: form a pumpjack over a completed wellhead after reservoir pressure falls, supply FE and collect fluid through a side output."
+        }
+      }
+    },
+    "tech2_petroleum/tower": {
+      "text": [
+        "Дистилляционная башня разделяет нефть на нафту, керосин, сернистое дизельное топливо и смазку, дополнительно выдавая битум. Постройте её по руководству, сформируйте молотом на редстоуновом инженерном блоке и подготовьте приём всех продуктов. Заблокированная ненужная фракция останавливает полезную переработку.",
+        "Энергия подводится сверху нагревательной части, нефть — снизу, жидкости выходят через оранжевый боковой люк, битум — спереди. Для четырёх вёдер чистого дизеля из задания нужна ещё установка высокого давления: тысяча сернистого дизеля и пятьсот воды дают тысячу чистого дизеля и серную пыль.",
+        "Факельная труба уничтожает разрешённые горючие излишки, а не хранит их; её верх опасен даже при обслуживании. Сначала организуйте полезные приёмники, затем управляемый сброс. Ручную проверку отмечайте после работающей перегонки с доступными выходами; чистый дизель получите и зарегистрируйте отдельно после обессеривания."
+      ],
+      "text_en": [
+        "The distillation tower separates oil into naphtha, kerosene, sulfurized diesel and lubricant, with bitumen as an additional output. Build it from the manual, form it by hammering the redstone engineering block and prepare reception for every product. A blocked unwanted fraction stops useful refining.",
+        "Power enters above the heating unit, oil below, fluids leave the orange side hatch and bitumen the front. The four requested buckets of clean diesel also require a hydrotreater: one thousand sulfurized diesel and five hundred water produce one thousand clean diesel and sulfur dust.",
+        "A flarestack destroys accepted combustible surplus rather than storing it; its top is hazardous even during servicing. Establish useful receivers before controlled disposal. Mark the manual check after running distillation with clear outputs; obtain and register clean diesel separately after desulfurization."
+      ],
+      "tasks_override": [
+        {
+          "type": "item",
+          "id": "immersiveengineering:sheetmetal_iron",
+          "count": 32
+        },
+        {
+          "type": "item",
+          "id": "immersivepetroleum:flarestack",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "immersivepetroleum:diesel_bucket",
+          "count": 4
+        },
+        {
+          "type": "check",
+          "id": "Башня разделяет нефть и выводит все продукты"
+        }
+      ],
+      "task_notes": {
+        "3": {
+          "ru": "Вручную: сформировать и запитать дистилляционную башню, переработать нефть, обеспечить приём всех жидкостных фракций и битума.",
+          "en": "Manual: form and power a distillation tower, process crude oil and provide reception for every fluid fraction and bitumen."
+        }
+      }
+    },
+    "tech2_petroleum/products": {
+      "text": [
+        "Битум из перегонки используется для асфальта, а смазка — для обслуживания подходящих тяжёлых механизмов. Подготовьте шестнадцать асфальтовых блоков по рецепту и автоматический смазчик. Асфальт полезен для дороги по промышленной площадке, но не заменяет материал многоблочной конструкции.",
+        "Возьмите смазчик в руку рядом с поддерживаемой машиной: подсветка показывает правильное место подключения. Установите его туда и подайте разрешённую смазку. Руководство указывает поддержку, например, качалки, экскаватора и дробилки; произвольная машина другого мода не обязательно совместима.",
+        "Проверьте расход жидкости и признаки смазки при работающем механизме. Растительное масло также может использоваться, но расходуется менее эффективно, чем нефтяная смазка. Ускорение не устраняет пустой вход или забитый выход, поэтому сначала восстановите нормальную работу машины и только затем оценивайте пользу обслуживания."
+      ],
+      "text_en": [
+        "Distillation bitumen is used for asphalt, while lubricant services suitable heavy machinery. Prepare sixteen asphalt blocks through their recipe and an automatic lubricator. Asphalt is useful for industrial-site roads but does not replace multiblock construction materials.",
+        "Hold the lubricator near a supported machine: highlighting shows the correct attachment point. Place it there and supply an accepted lubricant. The manual lists machines such as the pumpjack, excavator and crusher; an arbitrary machine from another mod may not be compatible.",
+        "Check fluid consumption and signs of lubrication while the machine operates. Plant oil can also work but is consumed less efficiently than petroleum lubricant. Acceleration does not fix empty inputs or blocked outputs, so restore normal operation before judging the benefit of servicing."
+      ]
+    },
+    "tech2_newage/guide_conversion": {
+      "text": [
+        "Проверьте границу между вращением и электричеством на одной небольшой установке. Выберите механический привод, катушку с магнитами, щётки и отдельный электрический потребитель. Разорвите возможные обратные связи, чтобы источник вращения не зависел от проверяемого генератора и результат был понятен.",
+        "Запустите привод без электрической нагрузки и посмотрите состояние механической сети. Затем подключите потребитель и убедитесь, что энергия действительно поступает в него, а сеть не перегружена. Остановите исходное вращение и наблюдайте прекращение новой генерации с учётом уже накопленного заряда.",
+        "Ручную цель отмечайте после успешного питания и контролируемой остановки источника. Кодекс не измеряет преобразование автоматически. Если устройство продолжает работать некоторое время, это может быть внутренний аккумулятор, а не бесконечная энергия. Такой опыт помогает правильно планировать удалённые моторы и оценивать запас исходной механической мощности."
+      ],
+      "text_en": [
+        "Test the boundary between rotation and electricity on one small installation. Choose a mechanical drive, magnet-surrounded coil, brushes and a separate electrical consumer. Remove feedback paths so rotation does not depend on the generator being tested and the result stays clear.",
+        "Start the drive without electrical load and inspect the mechanical network. Then connect the consumer and confirm actual energy delivery without overstress. Stop the original rotation and observe new generation cease, allowing for charge already stored.",
+        "Mark the manual objective after successful supply and controlled source shutdown. Codex does not automatically measure conversion. A consumer running briefly afterwards may be using its internal buffer rather than unlimited energy. This trial helps plan remote motors and assess available mechanical capacity."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: запитать отдельный потребитель от катушки и проверить прекращение генерации при остановке исходного вращения.",
+          "en": "Manual: power a separate consumer from the coil and verify generation stops when the original rotation stops."
+        }
+      }
+    },
+    "tech2_newage/guide_heat_route": {
+      "text": [
+        "Тепловую сеть стоит проверить до подключения ядерного источника. Подготовьте слабый управляемый нагрев, несколько труб и двигатель Стирлинга либо другой подходящий потребитель. Оставьте тепловые показатели доступными и отделите установку от горючего пола и прохода игроков.",
+        "Подайте тепло и проследите его путь до потребителя. Убедитесь, что подключена нужная сторона двигателя и возникает ожидаемое вращение. Прекратите нагрев и наблюдайте дальнейшее использование накопленного тепла, не разбирая ещё горячую линию на части.",
+        "Ручное подтверждение ставится после проверки подачи, потребления и остывания без ядерного топлива. Не доводите блоки до превращения в лаву ради опыта. Успешный малый тест проверяет правильность маршрута, но не доказывает, что он выдержит полный реактор: мощный источник требует отдельного расчёта и постоянного отвода."
+      ],
+      "text_en": [
+        "Test the heat network before attaching a nuclear source. Prepare weak controllable heating, a few pipes and a Stirling engine or another suitable consumer. Keep thermal readings accessible and separate the installation from combustible flooring and player routes.",
+        "Supply heat and follow its path to the consumer. Confirm the correct engine face is connected and the expected rotation appears. Stop heating and watch stored heat continue being used without dismantling the still-hot line.",
+        "Manually confirm after testing supply, consumption and cooling without nuclear fuel. Do not drive blocks into becoming lava for the experiment. A successful small trial verifies routing but does not prove capacity for a full reactor; a powerful source requires separate sizing and continuous removal."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: без ядерного топлива проверить передачу тепла потребителю и остывание после остановки нагрева.",
+          "en": "Manual: without nuclear fuel, verify heat delivery to a consumer and cooling after heat input stops."
+        }
+      }
+    },
+    "tech2_pneumatic/guide_pressure_control": {
+      "text": [
+        "Манометрический модуль позволяет использовать давление как управляющий сигнал, а предохранительный модуль добавляет отдельный способ ограничения сети. Подготовьте оба устройства и карту расширения. До монтажа остановите компрессор и следуйте безопасному порядку обслуживания пневматической линии.",
+        "Установите манометрический модуль на трубу. Карта расширения открывает настройку порога: выберите уровень ниже опасной зоны самого слабого подключённого блока и свяжите сигнал с режимом компрессора. Предохранительный модуль настройте по его странице руководства, не полагаясь на название как на автоматическую защиту.",
+        "Запустите небольшую накачку без потребителя и проверьте прекращение подачи заранее. Не поднимайте давление до разрушения ради проверки предохранения. После подключения камеры общий объём изменится, но допустимый предел слабых труб останется прежним; повторно проверьте восстановление давления после одного рецепта и реакцию управления."
+      ],
+      "text_en": [
+        "A pressure gauge module turns pressure into a control signal, while a safety module adds a separate limiting mechanism. Prepare both and an expansion card. Stop the compressor and follow a safe pneumatic servicing procedure before installation.",
+        "Fit the gauge module to a tube. The expansion card opens threshold configuration: choose a value below the weakest connected block’s dangerous range and connect the signal to compressor control. Configure the safety module from its manual page rather than assuming its name provides automatic protection.",
+        "Run a small no-load charging test and verify supply stops early. Do not raise pressure to destruction to test protection. Connecting a chamber changes total volume but not weak tubes’ limits; check recovery and control response again after one recipe."
+      ]
+    },
+    "tech2_pneumatic/guide_interfaces": {
+      "text": [
+        "Два интерфейса позволяют обслуживать камеру без разборки стенки и потери воздуха. Подготовьте пару блоков, внешний подающий инвентарь и приёмник результата. При изменении оболочки сначала остановите и безопасно освободите систему; не выламывайте стенку работающей камеры ради установки входа.",
+        "Поставьте интерфейсы на гранях, разрешённых правилами структуры. У входного I смотрит наружу, у выходного наружу смотрит O. Подайте ингредиент воронкой или транспортом и настройте извлечение готового продукта, оставив лишние материалы вне тестового сундука.",
+        "Проверьте один рецепт и возврат результата без открытия камеры. Интерфейс расходует воздух на каждый перенос, поэтому крупные партии могут выходить с паузами. Для железа удобно обрабатывать блоки, уменьшая количество переносов; это экономия транспортного воздуха, а не увеличение выхода самого рецепта сжатия."
+      ],
+      "text_en": [
+        "Two interfaces let you service a chamber without dismantling its wall and losing air. Prepare the pair, an external input inventory and an output receiver. Before changing the shell, stop and safely depressurise the system; do not break a working chamber wall to add an input.",
+        "Place interfaces on faces allowed by the structure rules. The input shows I outward and the output shows O outward. Feed ingredients with a hopper or transporter and configure finished-product removal, keeping unrelated materials out of the test chest.",
+        "Verify one recipe and product retrieval without opening the chamber. Each transfer consumes air, so large batches may exit in pauses. Processing iron blocks reduces transfer count; this saves transport air rather than increasing the compression recipe’s yield."
+      ]
+    },
+    "tech2_pneumatic/guide_assembly_arms": {
+      "text": [
+        "Дрель и лазер не забирают автоматически предметы из любого соседнего сундука. Сборочной системе нужны отдельные манипуляторы импорта и экспорта. Подготовьте по одному каждого типа и разместите сундуки так, чтобы руки доставали одновременно до своего инвентаря и платформы.",
+        "Проверьте цвет и режим каждого блока: вход должен подавать заготовку, выход — забирать результат. Манипуляторы допускают диагональный доступ, но это не переносится на дрель и лазер. Все элементы системы должны оставаться корректно связанными с контроллером.",
+        "Загрузите одну партию рецепта выбранной программы и проследите полный путь от сундука до готового изделия. Если платформа пустая, ищите проблему импорта; если результат лежит на ней, проверяйте экспорт. Освоенная диагностика предотвращает ненужную замену исправной программы, когда настоящая ошибка находится в пределах досягаемости руки."
+      ],
+      "text_en": [
+        "The drill and laser do not automatically take items from any nearby chest. The assembly system needs separate import and export IO arms. Prepare one of each and position chests so every arm reaches both its own inventory and the platform.",
+        "Check each block’s colour and mode: input supplies the workpiece and output removes the product. IO arms can reach diagonally, unlike the drill and laser. Every system element must remain correctly connected to the controller.",
+        "Load one recipe batch for the selected program and follow its complete path from chest to finished item. An empty platform points to import trouble; a finished item sitting on it points to export trouble. This diagnosis avoids replacing a valid program when the real fault is arm reach."
+      ]
+    },
+    "tech2_foregoing/guide_log_supply": {
+      "text": [
+        "Жидкостный экстрактор постепенно расходует древесину перед собой, поэтому латексная линия требует пополнения бревна. Подготовьте отдельный рабочий блок дерева и запас одинаковых брёвен. Убедитесь, что рабочая сторона обращена к расходнику, а не к деревянной стене мастерской.",
+        "Дождитесь обработки древесины, наблюдая получение латекса и изменение бревна. Когда ресурс исчерпан, поставьте следующий блок в то же место и проверьте возобновление добычи. Электричество ускоряет экстрактор, но не создаёт новое дерево и не устраняет заполненный жидкостный выход.",
+        "Ручную цель отмечайте после успешной замены и повторного получения латекса. Для дальнейшей автоматизации потребуется поддерживаемое размещение блоков, но сначала полезно подтвердить простой ручной цикл. Разные брёвна имеют разные показатели добычи; сравнивайте реальный рецепт, если хотите заменить исходную древесину более доступной породой."
+      ],
+      "text_en": [
+        "The fluid extractor gradually consumes wood in front of it, so latex production needs log replacement. Prepare a dedicated working log and spare logs of the same type. Ensure its working face targets feedstock rather than the workshop’s wooden wall.",
+        "Wait for processing while observing latex and the changing log. Once it is exhausted, place another in the same position and verify extraction resumes. Electricity accelerates the extractor but creates no replacement tree and cannot clear a full fluid output.",
+        "Mark the manual objective after successful replacement and renewed latex production. Later automation needs supported block placement, but first prove the simple manual cycle. Different logs have different extraction rates; compare the actual recipe before substituting a more available wood type."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Вручную: получить латекс, заменить израсходованное бревно и проверить возобновление добычи.",
+          "en": "Manual: obtain latex, replace an exhausted log and verify extraction resumes."
+        }
+      }
+    },
+    "tech2_foregoing/guide_dissolution": {
+      "text": [
+        "Камера растворения производит материалы из набора предметов и одной подходящей жидкости. Для отдельного испытания выберите уже знакомый рецепт простой рамки и отложите точные ингредиенты. Избыток похожих пластин или другой латексный продукт не заменяет требуемый состав.",
+        "Подайте жидкость в правильный вход, подключите FE и загрузите полный набор предметов. Рецепты камеры бесформенные: положение предметов по сетке не важно, но тип и количество важны. После распознавания рецепта слоты блокируются, предотвращая добавление случайной следующей партии.",
+        "Дождитесь результата, извлеките его и проверьте разблокирование для повторного запуска, затем отметьте цель. Если машина ждёт, осмотрите жидкость и энергозапас до перестановки всех предметов. Эта проверка готовит предсказуемое изготовление рамок, которые затем открывают более сложные фермы и добывающие устройства."
+      ],
+      "text_en": [
+        "The dissolution chamber produces materials from item ingredients and one suitable fluid. Choose the familiar Simple frame recipe for a separate trial and set aside exact ingredients. Extra similar plates or another latex-related product cannot replace the required composition.",
+        "Supply fluid through the correct input, connect FE and insert the complete item set. Chamber recipes are shapeless: slot arrangement does not matter, but item type and quantity do. Once a recipe is recognised, slots lock to prevent accidentally adding the next batch.",
+        "Wait for output, remove it and verify the chamber unlocks for another operation, then mark the objective. If it waits, inspect fluid and energy before rearranging every item. This establishes predictable frame production for more advanced farming and extraction devices."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Вручную: выполнить рецепт простой рамки в камере растворения, извлечь результат и проверить готовность к следующей партии.",
+          "en": "Manual: run the Simple frame recipe in a dissolution chamber, remove output and verify readiness for another batch."
+        }
+      }
+    },
+    "tech2_powah/guide_orb_batches": {
+      "text": [
+        "Автоматическая подача в энергетический шар должна сохранять состав одного рецепта. Подготовьте две отдельные пары железного и золотого слитка и пустой приёмник. Не начинайте с сундука всех металлов: лишний ингредиент способен изменить распознавание рецепта и остановить обработку.",
+        "Подайте первую пару, дождитесь двух энергетических слитков и извлеките их. Только после освобождения шара разрешите следующую пару. Если используете транспорт, проверьте его ограничение партии и извлечение результата; постоянный открытый поток сам по себе не задаёт такой порядок.",
+        "Ручную цель отмечайте после двух последовательных успешных операций без смешивания входов. При медленном накоплении энергии не считайте незавершённую партию пустым местом для новых слитков. Позже эту же последовательность можно применять к кристаллам, изменив фильтры и количество по их фактическому рецепту."
+      ],
+      "text_en": [
+        "Automatic orb input must preserve a single recipe’s composition. Prepare two separate iron-and-gold pairs and an empty receiver. Do not begin with a chest of every metal: an extra ingredient can change recipe recognition and stall processing.",
+        "Feed the first pair, wait for two energized ingots and remove them. Allow the second pair only once the orb is clear. With transport automation, check batch limits and product extraction; a permanently open input stream does not establish that order by itself.",
+        "Mark the manual objective after two consecutive successful operations without mixed inputs. When energy accumulates slowly, do not mistake an unfinished batch for spare space for more ingots. The same sequence later works for crystals after adjusting filters and quantities to their actual recipes."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: выполнить две отдельные партии железо+золото, извлекая результат до подачи следующей пары.",
+          "en": "Manual: process two separate iron-and-gold batches, removing the output before feeding the next pair."
+        }
+      }
+    },
+    "tech2_petroleum/guide_survey_record": {
+      "text": [
+        "Сейсмический результат сохраняет сведения о жидкостных резервуарах, необходимые для планирования скважины. Подготовьте сейсмический прибор и подходящий картечный патрон IE. Выберите отдельную точку исследования с доступом для последующего строительства, не ориентируясь только на красивое место для вышки.",
+        "Выполните исследование и получите предмет результата. Откройте его, посмотрите координаты измерения и обозначения возможных залежей. Повторные разнесённые исследования помогают сопоставить направления и уточнить цель; начальная неопределённая отметка ещё не обещает конкретный вид жидкости.",
+        "Сохраните карту рядом с материалами проекта, записав выбранные координаты. Она не заменяет саму скважину и не выдаёт нефть автоматически. Перед бурением проверьте расстояние до хранения и возможность отвода жидкости под давлением: правильное место определяется не только наличием залежи, но и обслуживаемостью будущей установки."
+      ],
+      "text_en": [
+        "A seismic survey result records fluid-reservoir information needed to plan a well. Prepare the seismic tool and a suitable IE buckshot cartridge. Choose a survey point with practical construction access rather than merely an attractive derrick location.",
+        "Perform the survey and obtain its result item. Open it and inspect measurement coordinates and possible reservoir markers. Repeated separated surveys help compare directions and refine the target; an initial unknown marker does not promise a particular fluid.",
+        "Keep the map with project supplies and record chosen coordinates. It neither replaces a well nor grants oil automatically. Before drilling, check storage distance and the ability to remove pressurised fluid: a useful site depends on future service access as well as deposit presence."
+      ]
+    },
+    "tech2_petroleum/guide_desulfurize": {
+      "text": [
+        "Чистый дизель Petroleum получается из сернистой фракции дополнительной обработкой. Подготовьте многоблочную установку высокого давления по инженерному руководству и сформируйте её молотом. Название не означает подключение PneumaticCraft: здесь используются собственный процесс Petroleum, жидкости и FE.",
+        "Подайте тысячу единиц сернистого дизеля и пятьсот воды. Установленный рецепт выдаёт тысячу чистого дизеля и пять серных пылей, поэтому приготовьте жидкостный и предметный выходы. Энергия подводится к нагревательной части, вода — к своему верхнему порту рядом с панелью.",
+        "Получите оба продукта и отметьте ручную цель после реально выполненного рецепта. Не заменяйте сернистую фракцию обычным биодизелем IE из-за похожего названия. Свободный выход серы нужен для продолжения обработки; полезный порошок можно сохранить для дальнейшей химии вместо блокировки всей нефтяной линии."
+      ],
+      "text_en": [
+        "Clean Petroleum diesel requires additional processing of the sulfurized fraction. Prepare the multiblock hydrotreater from the engineer’s manual and form it with the hammer. Its high-pressure name does not imply a PneumaticCraft connection: this is Petroleum’s own fluid-and-FE process.",
+        "Supply one thousand units of sulfurized diesel and five hundred water. The installed recipe produces one thousand clean diesel and five sulfur dust, so prepare fluid and item outputs. Power connects to the heating unit and water to its own upper port beside the panel.",
+        "Collect both products and mark the manual objective after the actual recipe runs. Do not substitute ordinary IE biodiesel for sulfurized diesel because of a similar name. The sulfur output needs space for processing to continue; keep the useful powder for later chemistry rather than blocking the entire oil line."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Вручную: сформировать установку высокого давления, обработать сернистый дизель с водой и получить чистый дизель вместе с серной пылью.",
+          "en": "Manual: form the hydrotreater, process sulfurized diesel with water and collect clean diesel together with sulfur dust."
+        }
+      }
+    }
+  },
+  "additions": [
+    {
+      "chapter": "tech2_newage",
+      "id": "guide_conversion",
+      "title": "От вращения к нагрузке",
+      "title_en": "From rotation to load",
+      "icon": "create_new_age:carbon_brushes",
+      "deps": [
+        "coil",
+        "wires"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "Генератор питает отдельный потребитель"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "tech2_newage",
+      "id": "guide_heat_route",
+      "title": "Проверенный отвод тепла",
+      "title_en": "Verified heat route",
+      "icon": "create_new_age:heat_pipe",
+      "deps": [
+        "heat",
+        "guide_conversion"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "Тепловой маршрут проверен без реакторного топлива"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "tech2_pneumatic",
+      "id": "guide_pressure_control",
+      "title": "Управление до красной зоны",
+      "title_en": "Control before the red zone",
+      "icon": "pneumaticcraft:pressure_gauge_module",
+      "deps": [
+        "compressor"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "pneumaticcraft:pressure_gauge_module",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "pneumaticcraft:module_expansion_card",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "pneumaticcraft:safety_tube_module",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "tech2_pneumatic",
+      "id": "guide_interfaces",
+      "title": "Вход и выход под давлением",
+      "title_en": "Pressure-chamber input and output",
+      "icon": "pneumaticcraft:pressure_chamber_interface",
+      "deps": [
+        "chamber",
+        "guide_pressure_control"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "pneumaticcraft:pressure_chamber_interface",
+          "count": 2
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "tech2_pneumatic",
+      "id": "guide_assembly_arms",
+      "title": "Манипуляторы сборочной линии",
+      "title_en": "Assembly-line handling arms",
+      "icon": "pneumaticcraft:assembly_io_unit_import",
+      "deps": [
+        "assembly",
+        "guide_interfaces"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "pneumaticcraft:assembly_io_unit_import",
+          "count": 1
+        },
+        {
+          "type": "item",
+          "id": "pneumaticcraft:assembly_io_unit_export",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "tech2_foregoing",
+      "id": "guide_log_supply",
+      "title": "Древесина для латекса",
+      "title_en": "Logs for latex",
+      "icon": "industrialforegoing:fluid_extractor",
+      "deps": [
+        "latex"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "industrialforegoing:fluid_extractor",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "Латекс получен после замены бревна"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "tech2_foregoing",
+      "id": "guide_dissolution",
+      "title": "Одна партия растворения",
+      "title_en": "One dissolution batch",
+      "icon": "industrialforegoing:dissolution_chamber",
+      "deps": [
+        "frames",
+        "guide_log_supply"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "industrialforegoing:dissolution_chamber",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "Рецепт камеры растворения выполнен"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "tech2_powah",
+      "id": "guide_orb_batches",
+      "title": "Шар без смешивания партий",
+      "title_en": "Separate orb batches",
+      "icon": "powah:energizing_orb",
+      "deps": [
+        "energizing"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "Две партии энергетической стали выполнены последовательно"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "tech2_petroleum",
+      "id": "guide_survey_record",
+      "title": "Карта жидкостной залежи",
+      "title_en": "Fluid-reservoir survey map",
+      "icon": "immersivepetroleum:survey_result",
+      "deps": [
+        "survey"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "immersivepetroleum:survey_result",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "tech2_petroleum",
+      "id": "guide_desulfurize",
+      "title": "Дизель без серы",
+      "title_en": "Desulfurized diesel",
+      "icon": "immersivepetroleum:diesel_bucket",
+      "deps": [
+        "tower",
+        "guide_survey_record"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "immersivepetroleum:diesel_bucket",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "Обессеривание выполнено в установке высокого давления"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    }
+  ]
+}

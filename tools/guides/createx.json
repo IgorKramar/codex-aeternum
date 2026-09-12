@@ -1,0 +1,1235 @@
+{
+  "section": "createx",
+  "chapters": {
+    "cbc_foundry": {
+      "intro": [
+        "Big Cannons добавляет изготовление крупных орудий через плавку, литьё и рассверливание. Для мастерской нужны нагрев, водоснабжение и вращение Create; для испытаний — отдельная площадка с безопасным направлением огня. Не начинайте со стрельбы рядом со складом.",
+        "Производственные детали, собранное орудие и правильно заряженное орудие — разные этапы. Проверяйте соединения и допустимый заряд по характеристикам установленного материала. Слишком слабый заряд тоже опасен: снаряд может застрять в длинном канале."
+      ],
+      "intro_en": [
+        "Big Cannons adds large guns manufactured through melting, casting and boring. The workshop needs Create heat, water supply and rotation; testing needs a separate range with a safe firing direction. Do not begin firing beside storage.",
+        "Manufactured parts, an assembled gun and a correctly loaded gun are different stages. Check connections and permitted propellant against the installed material properties. An insufficient charge is dangerous too: a projectile can jam in a long bore."
+      ]
+    },
+    "cbc_advanced": {
+      "intro": [
+        "Следующие орудия требуют новых материалов, обработки слоёв и понимания затворов. Более прочный ствол расширяет возможности, но не отменяет ограничений боеприпаса, длины, соединений и способа закрытия казны. Сохраняйте журнал проверенных загрузок.",
+        "Сначала изготовьте и осмотрите детали, затем проверьте механику пустого орудия. Взрыватели, автопушки и мортирные снаряды испытывайте по отдельности на уже подготовленном полигоне."
+      ],
+      "intro_en": [
+        "Later guns require new materials, layered processing and an understanding of breeches. A stronger barrel expands possibilities without removing limits imposed by ammunition, length, joints and breech closure. Keep records of verified loads.",
+        "Manufacture and inspect components first, then test the empty mechanism. Test fuzes, autocannons and mortar shells separately on the prepared range."
+      ]
+    },
+    "radar": {
+      "intro": [
+        "Радарная сеть состоит из обнаружения, передачи данных, выбора цели и управления оружием. Начинайте с монитора и пустого станка: сначала нужно убедиться, что отметки и направления понимаются правильно, и лишь затем подключать огонь.",
+        "Опознавание работает через настроенные коды и фильтры. Сам транспондер или предупреждающий приёмник не делают машину автоматически защищённой от любой батареи."
+      ],
+      "intro_en": [
+        "A radar network combines detection, data transfer, target selection and weapon control. Begin with a monitor and an unloaded mount: verify tracks and aiming directions before connecting fire control.",
+        "Identification works through configured codes and filters. A transponder or warning receiver alone does not automatically protect a vehicle from every battery."
+      ]
+    },
+    "missiles": {
+      "intro": [
+        "Ракетное дополнение собирает управляемый физический аппарат из двигателя, рулей, вычислителя и крепления. Детали должны принадлежать правильной конструкции и быть связаны между собой; рецепт одного блока не описывает готовую ракету.",
+        "Сначала проверяйте привязки и удержание без боевого наполнения. Испытания тяги и взрывателя проводите на отдельном полигоне после изучения физической сборки Aeronautics."
+      ],
+      "intro_en": [
+        "The missile add-on builds a guided physical vehicle from a motor, fins, computer and mount. Components must belong to the correct construct and be linked; a single block recipe is not a complete missile design.",
+        "Verify links and attachment without explosive payloads first. Test thrust and proximity fuzes on a separate range after learning Aeronautics physical assembly."
+      ]
+    },
+    "ca_electric": {
+      "intro": [
+        "Create Addition связывает вращение с электричеством FE. Генератор потребляет механическую мощность, мотор получает электричество, а провода и аккумуляторы передают и хранят его. Между двумя видами энергии нет бесплатного бесконечного цикла.",
+        "Сначала соберите короткую линию с одним потребителем и прочитайте реальные показания. Затем добавляйте запас энергии, жидкое топливо и интерфейсы подвижных конструкций."
+      ],
+      "intro_en": [
+        "Create Addition connects rotation with FE electricity. An alternator consumes mechanical capacity, a motor receives electricity, and wires and accumulators transfer and store it. There is no free infinite cycle between these energy forms.",
+        "Build a short line with one consumer and read its actual values first. Add energy storage, liquid fuel and moving-contraption interfaces afterward."
+      ]
+    },
+    "aero_basics": {
+      "intro": [
+        "Aeronautics и Simulated превращают собранные блоки в физические конструкции с массой, инерцией и взаимодействием с воздухом. Для полёта нужны управляемая подъёмная сила, движение, устойчивость и возможность посадки; один необычный материал не заменяет остальные части.",
+        "Начинайте с маленького аппарата у земли. Изучите сборку, проверяйте каждое изменение без ценного груза и оставляйте способ вернуться на площадку до дальнего перелёта."
+      ],
+      "intro_en": [
+        "Aeronautics and Simulated turn assembled blocks into physical constructs with mass, inertia and interaction with air. Flight requires controllable lift, propulsion, stability and landing capability; one unusual material does not replace the other parts.",
+        "Begin with a small craft near the ground. Learn assembly, test each change without valuable cargo and retain a way back to the pad before attempting a long journey."
+      ]
+    },
+    "offroad": {
+      "intro": [
+        "Offroad добавляет колёса и буровые узлы для физических наземных машин. Ступицы крепят шины, вращение приводит их в движение, а красные сигналы управляют поворотом и торможением. Корпус собирается средствами Simulated.",
+        "Испытайте маленькую машину на ровной площадке до работы на склонах и в тоннелях. Для бурения нужны не только режущие колёса, но и место для добычи и удобный путь разгрузки."
+      ],
+      "intro_en": [
+        "Offroad adds wheels and drilling components for physical ground vehicles. Mounts hold tires, rotation drives them, and redstone controls steering and braking. Simulated tools assemble the hull.",
+        "Test a small vehicle on level ground before slopes or tunnels. Excavation needs storage and convenient unloading as well as cutting wheels."
+      ]
+    }
+  },
+  "quests": {
+    "cbc_foundry/melting": {
+      "text": [
+        "Литейная крышка превращает чашу Create в установку для расплавления металлов. Для чугуна сначала подготовьте железный слиток и уголь: нагретый рецепт уплотнения прессом в чаше даёт чугунный слиток. Это отдельная операция перед плавкой, а не случайная смесь под крышкой.",
+        "Установите крышку над чашей с подходящим нагревом и загрузите чугун. Рецепт плавления слитка выдаёт 90 mB расплава. Для ведра потребуется накопить не менее 1000 mB, поэтому одного слитка недостаточно. Отведите жидкость трубами в отдельный резервуар.",
+        "Проверьте нагрев и свободный жидкий выход, если процесс остановился. Не смешивайте разные расплавы в одном баке и оградите литейную зону. Крышка и ведро в инвентаре подтверждают подготовку; следующая задача использует расплав для настоящей формы в мире."
+      ],
+      "text_en": [
+        "A basin foundry lid turns a Create basin into metal-melting equipment. For cast iron, first prepare an iron ingot and coal: heated basin compacting with a press produces a cast iron ingot. This is a separate step before melting, not an arbitrary mixture beneath the lid.",
+        "Install the lid over a suitably heated basin and insert cast iron. Melting one ingot yields 90 mB of molten metal. A bucket needs at least 1000 mB, so one ingot is insufficient. Route fluid into a separate reservoir.",
+        "If processing stops, inspect heat and available fluid output. Keep different molten metals in separate tanks and enclose the foundry area. The lid and bucket confirm preparation; later quests use the metal in an actual world-placed cast."
+      ]
+    },
+    "cbc_foundry/sand": {
+      "text": [
+        "Формовочный песок нужен для оболочки литейной формы, которая удерживает расплав до застывания. Для одной порции установленный рецепт использует два обычных песка, землю и комок глины. Подготовьте материалы на шестнадцать порций, заранее собрав глину у воды.",
+        "Смешайте ингредиенты на верстаке и отделите полученный литейный песок от обычного строительного. Держите его рядом с моделями форм и свободной площадкой, где можно собирать вертикальные слои.",
+        "Не заменяйте рецепт только песком с глиной: земля тоже обязательна. Размер и высота будущей формы определят расход, поэтому запас из цели не гарантирует любое большое орудие. Прежде чем тратить весь материал, сделайте один учебный слой. Такой порядок позволяет проверить форму и подачу расплава, не переделывая сразу высокую литейную колонну."
+      ],
+      "text_en": [
+        "Casting sand forms the shell that holds molten metal until it solidifies. The installed recipe for one portion uses two ordinary sand blocks, dirt and a clay ball. Gather enough for sixteen portions, collecting clay near water beforehand.",
+        "Combine the ingredients in a crafting grid and separate casting sand from ordinary construction sand. Keep it beside moulds and a clear area where vertical layers can be built.",
+        "Do not substitute only sand and clay: dirt is required too. Future cast width and height determine consumption, so the objective’s stock does not guarantee any large gun. Make one training layer before spending everything. This lets you check cast construction and molten-metal delivery without rebuilding a tall casting column."
+      ]
+    },
+    "cbc_foundry/cast": {
+      "text": [
+        "Модель формы задаёт сечение отливаемой детали. Малую модель получают механической резкой подходящего бревна; выберите результат пилы по рецепту, чтобы не сделать обычные доски. Подготовьте модель, литейный песок и небольшой запас расплава чугуна.",
+        "Примените модель для создания слоя формы на площадке, сверив ориентацию с Ponder. Соедините слои при необходимости, затем наполните форму расплавом через подходящую жидкостную подачу. Застывание начинается после достаточного заполнения и занимает время.",
+        "Компаратор может отличать наполнение от завершения: готовая форма выдаёт уровень 15. После застывания снимите оболочку предусмотренным взаимодействием. Внутри получится ещё не готовый канал ствола; заготовку предстоит рассверлить. Не разбивайте ценный литой блок обычной киркой без проверки правил добычи: некоторые детали превращаются в лом."
+      ],
+      "text_en": [
+        "A cast mould defines the cross-section of the cast component. A small mould is made by mechanically cutting a suitable log; select the saw result so you do not make ordinary planks. Prepare the mould, casting sand and a modest supply of molten cast iron.",
+        "Use the mould to form a layer on the worksite, checking orientation against Ponder. Join layers as needed, then fill through suitable fluid delivery. Solidification begins after sufficient filling and takes time.",
+        "A comparator distinguishes filling from completion: a finished cast outputs level 15. Remove the outer shell with the supported interaction afterward. The resulting bore is not finished and must be drilled. Avoid breaking valuable cast blocks with an ordinary pickaxe without checking harvesting rules; some become scrap."
+      ]
+    },
+    "cbc_foundry/drill": {
+      "text": [
+        "Литая заготовка требует рассверливания, прежде чем через неё сможет пройти снаряд. Подготовьте сверлильный станок, две удлинительные штанги, стабильную воду и вращающуюся установку для заготовки. Буровая головка входит в установленный механизм; искать отдельный предмет этой головки не требуется.",
+        "Совместите оси станка и заготовки, закреплённой на вращающемся основании по Ponder. Подведите воду к станку и начните медленную подачу. Скорость сверла должна быть не ниже скорости вращения заготовки; более быстрый режим также увеличивает потребность в воде.",
+        "При остановке прочитайте причину в подсказке: сухое сверление и недостаточная скорость исправляются по-разному. Соберите полученный лом отдельно и получите готовый чугунный ствол без разрушения блока неподходящим инструментом. Успешный одинарный опыт важнее длинной очереди ещё не проверенных отливок."
+      ],
+      "text_en": [
+        "A cast workpiece must be bored before a projectile can pass through it. Prepare a cannon drill, two extension poles, steady water and a rotating setup for the workpiece. The boring head is part of the installed mechanism; no separate head item is needed.",
+        "Align drill and workpiece axes, mounting the casting on a rotating base as shown in Ponder. Supply water and begin a slow feed. Drill speed must be at least the workpiece’s rotational speed; faster operation also increases water demand.",
+        "Read the failure tooltip if work stops: dry boring and insufficient speed need different corrections. Collect scrap separately and obtain the finished cast iron barrel without breaking it with an unsuitable tool. One successful trial matters more than a long queue of untested castings."
+      ]
+    },
+    "cbc_foundry/barrel": {
+      "text": [
+        "Большое орудие состоит из совместимых секций одного материала и типа. Цель просит три чугунных ствола, камору и закрытый конец. Конец здесь относится к закрытию казённой части, а не к заглушке дула: перед снарядом должен оставаться открытый путь выхода.",
+        "Разложите детали на общей оси и проверьте направление каждой. Камора предназначена для заряда, стволовые секции задают путь снаряда. Запас трёх секций не обязывает ставить их все на первую испытательную пушку.",
+        "Сверьте длину и минимальную скорость снаряда с прочностью материала. У чугуна длинный канал может потребовать заряд, который уже превышает допустимый предел, поэтому первое орудие делайте коротким. До стрельбы понадобятся правильные соединения и крепление. Наличие секций в инвентаре не подтверждает ни целый канал, ни безопасную загрузку."
+      ],
+      "text_en": [
+        "A big cannon consists of compatible sections of one material and type. The objective requests three cast iron barrels, a chamber and a closed end. That end closes the breech side rather than plugging the muzzle: the projectile needs an open exit ahead.",
+        "Lay components along one axis and inspect each orientation. The chamber holds propellant, while barrel sections define projectile travel. Owning three sections does not require using all of them in the first test gun.",
+        "Compare length and minimum projectile speed with material strength. A long cast iron bore can require propellant exceeding its permitted limit, so keep the first gun short. Correct connections and mounting are still needed before firing. Inventory parts prove neither a continuous bore nor safe loading."
+      ]
+    },
+    "cbc_foundry/welder": {
+      "text": [
+        "Отдельно размещённые пушечные блоки в выживании не всегда соединяются сами. Сварщик позволяет связывать соседние совместимые секции, но имеет ограничения по материалам и типам орудий. Подготовьте инструмент и уже выровненную пару чугунных деталей.",
+        "Взаимодействуйте сварщиком последовательно с двумя соседними секциями. Они должны лежать на общей оси, иметь совместимые соединяемые стороны, одинаковый материал и тип. Проверьте результат на каждом стыке, не пытаясь сварить случайную смесь автопушки и большого ствола.",
+        "Для некоторых деталей сварка недоступна или ослабляет соединение; цельный изготовленный и перенесённый узел может быть предпочтительнее. Не воспринимайте сварщик как устранение любых ограничений прочности. Перед монтажом на лафет ещё раз проверьте непрерывность собранной части и удалите посторонние блоки из канала. Сам инструмент не гарантирует, что каждый стык уже обработан."
+      ],
+      "text_en": [
+        "Separately placed cannon blocks in Survival do not necessarily connect automatically. A cannon welder joins adjacent compatible sections but has restrictions on materials and cannon types. Prepare the tool and an aligned pair of cast iron components.",
+        "Interact with the welder on two neighboring sections in sequence. They must share an axis, compatible connecting faces, material and cannon type. Check every joint instead of attempting to weld an arbitrary mixture of autocannon and big-cannon parts.",
+        "Some components cannot be welded or are weakened by welding; manufacturing and moving a complete section may be preferable. The welder does not remove material-strength limits. Before mounting, inspect continuity again and remove foreign blocks from the bore. Owning the tool does not mean every joint has been processed."
+      ]
+    },
+    "cbc_foundry/mount": {
+      "text": [
+        "Станок Cannon Mount собирает орудие и управляет наведением, а колёсный Cannon Carriage предназначен для ручной перевозки и управления. Это разные основания. Подготовьте оба предмета, но первый опыт проведите на одном стационарно размещённом станке без боеприпасов.",
+        "Расположите орудие относительно станка по Ponder. Сигнал на сторону с молотом отвечает за сборку, а кинетические входы — за изменение углов. Отдельная сторона команды огня не должна случайно получать сигнал от монтажного рычага.",
+        "Проверьте наведение пустого ствола и возвращение к исходному положению при разборке. Для колёсного лафета изучите его управление отдельно: он не автоматизируется так же, как станок. Оставьте вокруг достаточно места и не заходите в область резкого возврата длинного орудия. Только после проверенного основания переходите к зарядке."
+      ],
+      "text_en": [
+        "A Cannon Mount assembles a gun and controls aiming, while a wheeled Cannon Carriage serves manual transport and operation. They are different bases. Prepare both items, but test one stationary mount without ammunition first.",
+        "Position the gun relative to the mount as shown in Ponder. A signal to the hammer-marked face controls assembly, while kinetic inputs change aiming angles. The separate firing face must not accidentally receive power from the assembly lever.",
+        "Test empty-gun aiming and its return to assembly position during disassembly. Learn the wheeled carriage controls separately: it cannot be automated like the mount. Leave ample clearance and stay outside a long cannon’s abrupt return path. Proceed to loading only after its base is verified."
+      ]
+    },
+    "cbc_foundry/powder": {
+      "text": [
+        "Пороховой заряд сообщает снаряду начальную скорость, но одновременно нагружает орудие. Сначала покажите учёту четыре уплотнённых пороха, затем используйте их для четырёх зарядов: обе цели можно пройти по очереди без лишнего запаса. Это не обязательная разовая загрузка орудия. Уплотнение трёх подходящих порохов выполняется прессом в чаше; готовый заряд соединяет уплотнённый порох с пустой оболочкой.",
+        "Храните боеприпасы отдельно от рычагов испытательного станка. Перед загрузкой сравните суммарную нагрузку выбранного заряда с прочностью каморы и затвора, а скорость — с длиной канала. Характеристики видны в подсказках с очками.",
+        "Избыточный заряд способен разрушить пушку; недостаточный может оставить снаряд в стволе. Поэтому совет «всегда возьми один» тоже ненадёжен. Для первого выстрела подберите короткое орудие и допустимый заряд вместе. Не меняйте одновременно материал, длину и боеприпас, иначе причину неудачи будет трудно установить."
+      ],
+      "text_en": [
+        "Propellant gives a projectile initial speed while stressing the gun. Register four packed gunpowder first, then use them to craft four charges: both objectives can be completed sequentially without duplicate supplies. This is not a mandatory single gun load. Compact three suitable gunpowder items with a basin press; combine packed gunpowder with an empty casing to make a charge.",
+        "Store ammunition away from test-mount controls. Before loading, compare total propellant stress with chamber and breech strength, and velocity with bore length. Goggles-enhanced tooltips show these properties.",
+        "Excess propellant can destroy the cannon; insufficient propellant can leave a projectile inside. Therefore “always use one” is unreliable too. Match a short first gun with a permissible charge. Avoid changing material, length and ammunition simultaneously, which makes failure difficult to diagnose."
+      ]
+    },
+    "cbc_foundry/shot": {
+      "text": [
+        "Сплошное ядро и картечь позволяют сравнить разные результаты выстрела. Ядро пробивает цель, а картечь разделяется при выстреле; это не одинаковые снаряды с разным видом. Подготовьте оба предмета, но испытайте сначала один на отдельном полигоне.",
+        "Для дульной загрузки разместите заряд у закрытой казённой части, снаряд перед ним ближе к открытому дулу и обеспечьте правильную досылку. Перед сборкой проверьте отсутствие лишних предметов в канале. На станке команда огня подаётся на предназначенную для неё сторону после сборки и наведения.",
+        "Не стреляйте простым поджиганием случайной секции по советам для другого механизма. Проверьте допустимую комбинацию длины, снаряда и заряда, затем выполните один выстрел. Предметная цель не измеряет стрельбу; повторяемость и возврат заряжающего механизма проверяются отдельно дальше по ветке."
+      ],
+      "text_en": [
+        "Solid shot and grapeshot let you compare different firing results. Solid shot penetrates targets, while grapeshot separates on firing; these are not identical rounds with different appearances. Prepare both but test one first on a separate range.",
+        "For muzzle loading, put propellant near the closed breech, with the projectile ahead toward the open muzzle, and ram it correctly. Before assembly, inspect the bore for extra objects. A mount receives its firing command on the designated face after loading, assembly and aiming.",
+        "Do not ignite an arbitrary section based on advice for another mechanism. Verify the allowed combination of length, projectile and charge, then fire once. The item objective does not measure shooting; later trials check repeatability and loader return."
+      ]
+    },
+    "cbc_foundry/loader": {
+      "text": [
+        "Механический заряжающий перемещает боеприпасы вдоль оси как специальный поршень. Ручные ram rod и worm из целей — отдельные инструменты досылки и извлечения, а не обязательные головки самого блока. Для автоматического стенда дополнительно нужны удлинительные штанги и подходящая установленная головка.",
+        "Совместите заряжающий, боеприпасы и канал орудия на одной оси. Используйте досылающую головку для загрузки, извлекающую — для устранения застревания. Обычная схема механического заряжания требует вернуть пушку из собранного состояния в блоки перед работой.",
+        "Сначала выполните холостой ход и убедитесь, что механизм полностью уходит перед сборкой и огнём. Автозаряжание не означает непрерывную безопасную стрельбу без управления стадиями. Ручной инструмент сохраните для обслуживания: после неудачного выстрела нельзя добавлять новый снаряд поверх оставшегося в канале."
+      ],
+      "text_en": [
+        "A cannon loader moves ammunition along an axis like a specialized piston. The requested ram rod and worm are separate manual loading and extraction tools, not necessarily the loader block’s installed heads. An automatic rig also needs extension poles and a suitable fitted head.",
+        "Align loader, ammunition and bore on one axis. Use a ram head for loading and a worm head to clear a jam. Ordinary mechanical loading requires returning the gun from its assembled state to blocks first.",
+        "Begin with an empty stroke and verify complete withdrawal before gun assembly and firing. Automatic loading does not mean safe continuous fire without stage control. Keep a hand tool for maintenance: after a failed shot, never add another projectile on top of one left in the bore."
+      ]
+    },
+    "cbc_foundry/range_service_setup": {
+      "text": [
+        "Отдельный полигон позволяет испытывать пушку без риска для рабочей базы. Блок мишени из цели служит видимой отметкой направления, а не броневой преградой, способной остановить любой снаряд. Выберите удалённую площадку и осмотрите пространство за точкой попадания.",
+        "Разместите мишень перед подходящим безопасным фоном, обозначьте место оператора и исключите проход жителей, животных и игроков через направление огня. Проверьте заряд, снаряд, затвор и последовательность загрузки именно вашего орудия.",
+        "Сначала испытайте сборку и наведение без боеприпасов. Убедитесь, что команды сборки и огня разделены, а при разборке ствол никого не задевает. Предметная проверка показывает подготовленную мишень; настоящую готовность полигона определяет осмотр. Следующая цель подготовит запись условий, чтобы результат повторного выстрела можно было сравнить."
+      ],
+      "text_en": [
+        "A separate range lets you test a cannon without endangering the working base. The target block is a visible aiming marker, not armor capable of stopping any projectile. Choose a remote site and inspect the area beyond the impact point.",
+        "Place the marker against a suitable safe background, designate the operator’s position and keep villagers, animals and players out of the firing direction. Check charge, projectile, breech and loading sequence for your specific gun.",
+        "Test assembly and aiming without ammunition first. Keep assembly and firing commands separate, and ensure disassembly does not sweep the barrel through anyone. The item objective confirms a prepared target; inspection establishes actual range readiness. The next objective prepares a record so repeated firing conditions can be compared."
+      ]
+    },
+    "cbc_foundry/range_service_batch": {
+      "text": [
+        "Бумага в этой цели напоминает о журнале испытания, а не подтверждает изготовление или выстрел. Подготовьте лист и выберите удобный способ записи рядом с полигоном: книгу, табличку либо собственную заметку. Важно сохранить данные, а не просто носить бумагу.",
+        "До первого выстрела укажите материал орудия, длину пути снаряда, тип боеприпаса и количество заряда. Запишите выбранную точку прицеливания и положение станка. После опыта добавьте результат и найденные неисправности.",
+        "Не меняйте несколько параметров между двумя контрольными выстрелами. Если снаряд не вышел, сначала разрядите и осмотрите орудие; новая запись не заменяет удаление застрявшего предмета. Бумага не расходуется целью и не проверяется на содержимое. Настоящий повторяемый цикл подтвердите вручную в следующем задании после безопасного осмотра."
+      ],
+      "text_en": [
+        "The paper objective serves as a reminder to keep a test log; it does not prove manufacturing or firing. Prepare a sheet and choose a recording method beside the range, such as a book, sign or personal note. Preserving data matters more than carrying paper.",
+        "Before firing, record gun material, projectile travel length, ammunition type and propellant quantity. Note the aiming point and mount position. Add the outcome and any faults afterward.",
+        "Avoid changing several parameters between control shots. If a projectile fails to leave, unload and inspect the gun first; a new entry does not replace clearing a jam. The objective neither consumes paper nor reads its contents. Confirm an actual repeatable cycle manually in the next quest after safe inspection."
+      ]
+    },
+    "cbc_foundry/range_service_run": {
+      "text": [
+        "Приёмка завершается проверкой повторяемого цикла, а не одним случайным попаданием. Подготовьте проверенный полигон, запись выбранного заряда и две одинаковые загрузки, совместимые с вашим орудием. Все наблюдатели должны оставаться вне линии огня.",
+        "Выполните контрольный выстрел, затем повторите цикл заряжания. Запишите выбранный заряд и проверьте, что механизм возвращается в исходное положение. Между выстрелами убедитесь, что канал освобождён и заряжающий полностью отведён; при подозрении на застревание сначала извлеките остаток.",
+        "Отметьте цель вручную после успешной проверки в мире. Кодекс не измеряет стрельбу автоматически и не подтверждает безопасность одной галочкой. Если второй цикл отличается, разберите последовательно состояние затвора, сборки и подачи. Не компенсируйте неисправную загрузку более сильным зарядом: это может повредить установку и окружение."
+      ],
+      "text_en": [
+        "Acceptance ends with a repeatable-cycle trial, not one lucky hit. Prepare the checked range, a record of the chosen charge and two identical loads compatible with the gun. All observers must remain outside the firing line.",
+        "Fire a control shot, then repeat the loading cycle. Record the chosen charge and verify that the mechanism returns to its starting position. Between shots, confirm a clear bore and fully withdrawn loader; if a jam is suspected, extract the remaining object first.",
+        "Confirm manually after a successful in-world trial. The Codex does not automatically measure firing or establish safety with a checkbox. If the second cycle differs, examine breech, assembly and feeding states in order. Do not compensate for faulty loading with stronger propellant, which can damage the installation and surroundings."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: выполнить контрольный выстрел, повторить заряжание, записать заряд и проверить возврат механизма в исходное положение",
+          "en": "Manually fire a control shot, repeat loading, record the charge and verify the mechanism returns to its starting position"
+        }
+      }
+    },
+    "cbc_advanced/bronze": {
+      "text": [
+        "Бронзовые секции предлагают другой набор характеристик, чем чугунные. В установленном рецепте бронзу можно смешать из меди, цинка и пепельной муки при обычном нагреве; вариант с оловом зависит от доступных материалов сборки. Медь с цинком без добавки дают латунь, поэтому состав важен.",
+        "Изготовьте бронзу, расплавьте её под литейной крышкой и отлейте нужные секции. После застывания рассверлите заготовки с водой и вращением, как в учебной литейной. Получите три готовых бронзовых ствола.",
+        "Не соединяйте их случайно с чугунной каморой, считая всю пушку бронзовой. Характеристики слабого участка и затвора остаются существенными. Перед первым выстрелом новой установки снова сопоставьте длину и заряд. Предметная цель подтверждает секции, а увеличение дальности или надёжности проверяется только на собранном орудии."
+      ],
+      "text_en": [
+        "Bronze sections provide a different property set from cast iron. An installed recipe mixes copper, zinc and cinder flour under ordinary heat; a tin-based alternative depends on available pack materials. Copper and zinc without the addition make brass, so ingredients matter.",
+        "Produce bronze, melt it under a foundry lid and cast the required sections. Bore the cooled workpieces with water and rotation as in the training foundry. Obtain three finished bronze barrels.",
+        "Do not attach them casually to a cast iron chamber and regard the whole gun as bronze. Weak sections and breech properties still matter. Compare length and charge again before the new installation’s first shot. The objective confirms sections; range or reliability improvements require testing the assembled gun."
+      ]
+    },
+    "cbc_advanced/steel": {
+      "text": [
+        "Стальные орудия используют изготовление обычных и составных секций. Подготовьте сталь из доступной металлургической линии и проверьте рецепты нужных отливок. Для цели нужны три обычных ствола и один усиленный составной, поэтому простой запас слитков её не завершит.",
+        "Обычные заготовки проходят литьё и рассверливание. Для составной секции изготовьте требуемые слои, совместите их пушечным сборщиком и выполните завершающий нагрев потоком вентилятора через лаву. Превращение происходит только при правильном наборе слоёв и требует времени.",
+        "Не считайте любую стопку вложенных оболочек готовым built-up блоком. Сверьте результат по имени предмета и осмотрите соединения. Усиленная секция не делает слабую камору или затвор неуязвимыми. После переноса сохраните доступ для проверки канала и испытайте допустимый заряд на отдельной мишени."
+      ],
+      "text_en": [
+        "Steel guns involve ordinary and built-up sections. Prepare steel from an available metalworking line and check recipes for the required castings. The objective needs three ordinary barrels and one built-up barrel, so a stock of ingots alone will not complete it.",
+        "Ordinary workpieces undergo casting and boring. For a built-up section, manufacture the required layers, combine them with a cannon builder and finish by heating with fan airflow through lava. Transformation requires the correct layer set and takes time.",
+        "A stack of nested layers is not necessarily a finished built-up block. Check the resulting item name and inspect connections. A reinforced section does not make a weak chamber or breech invulnerable. Preserve inspection access after moving it and test a permissible charge on a separate target."
+      ]
+    },
+    "cbc_advanced/nethersteel": {
+      "text": [
+        "Незеритовая сталь — дорогой пушечный материал с собственной производственной цепочкой. Установленный рецепт смешивания использует незеритовый обломок и четыре стальных слитка либо восемь чугунных, требует перегрева и выдаёт восемь слитков незеритовой стали. Обычного угольного нагрева здесь недостаточно.",
+        "Подготовьте сильный нагрев, изготовьте сплав, затем выполните нужные операции литья, обработки и завершения деталей по рецептам. Для цели нужны три готовых ствола и винтовой затвор, а не только металлическая заготовка.",
+        "Винтовой затвор сначала разблокируется вращением, затем отводится механизмом для заряжания. Перед огнём его нужно вернуть и закрыть. Дорогой материал не даёт обещания выстрела без риска: препятствие в канале, неверная сборка и неподходящая загрузка остаются опасными. Испытайте пустой ход затвора и только потом проверенную комбинацию боеприпасов."
+      ],
+      "text_en": [
+        "Nethersteel is an expensive cannon material with its own production chain. The installed mixing recipe combines a netherite scrap with four steel ingots or eight cast iron ingots, requires superheating and produces eight nethersteel ingots. Ordinary coal heating is insufficient.",
+        "Prepare superheating, make the alloy and perform the required casting, processing and component-finishing recipes. The objective needs three completed barrels and a screw breech, not merely alloy stock.",
+        "A screw breech is unlocked by rotation, then moved aside by machinery for loading. Return and close it before firing. Expensive material does not promise risk-free shooting: bore obstructions, incorrect assembly and unsuitable loads remain dangerous. Test the empty breech movement before using a verified ammunition combination."
+      ]
+    },
+    "cbc_advanced/breech": {
+      "text": [
+        "Затвор позволяет заряжать орудие со стороны казны и должен полностью закрываться перед огнём. Подготовьте стальной клиновой затвор и быстрозарядный вариант. Последний получают применением quick-firing механизма к подходящему клиновому затвору; сначала завершите саму базовую деталь.",
+        "Клиновой затвор открывается вращением, после чего через освободившийся канал подаются боеприпасы. Для быстрозарядного взаимодействуйте с боковой стороной: сначала загрузите снаряд, затем метательный заряд и закройте. Его последовательность отличается от досылания с дула.",
+        "Перед выстрелом уберите заряжающий из проёма. Клиновой затвор влияет на допустимую прочность пушки, поэтому сохранённый заряд от другого закрытия может уже не подходить. Автоматическую руку для быстрозарядного варианта настраивайте после ручного опыта, предусмотрев приём пустых гильз и проверку закрытого состояния."
+      ],
+      "text_en": [
+        "A breech permits loading from the rear and must close completely before firing. Prepare a steel sliding breech and a quick-firing version. The latter is made by applying a quick-firing mechanism to a suitable sliding breech; finish the base component first.",
+        "Rotation opens a sliding breech so ammunition can enter the exposed bore. For the quick-firing version, interact with its side: load the projectile first, then propellant, and close it. This differs from muzzle ramming.",
+        "Remove the loader from the opening before firing. A sliding breech affects permitted gun strength, so a charge used with another closure may no longer be suitable. Configure an automatic arm only after manual testing, providing spent-case output and checking closed state."
+      ]
+    },
+    "cbc_advanced/shells": {
+      "text": [
+        "Фугасный и бронебойный снаряды имеют взрывное действие, которое зависит от совместимого взрывателя. Не путайте бронебойный снаряд AP Shell с невзрывающимся AP Shot. Подготовьте оба снаряда и ударный с временным взрыватели, сохраняя их раздельно до настройки.",
+        "Откройте рецепты и подсказки конкретного боеприпаса, затем установите взрыватель на предусмотренную сторону. Для временного задайте задержку до загрузки, а ударный проверьте на подходящей отдельной мишени. Снаряд без выбранного механизма подрыва не обязан вести себя как готовый фугас.",
+        "Первый опыт проводите вдали от построек с запасом пространства за целью и вокруг неё. Не добавляйте одновременно новый заряд и новый взрыватель. Предметные цели проверяют наличие компонентов, а не сборку боеприпаса. Запишите конфигурацию и результат, чтобы повторная загрузка не зависела от памяти."
+      ],
+      "text_en": [
+        "HE and AP shells have explosive behavior governed by a compatible fuze. Do not confuse an AP Shell with the non-explosive AP Shot. Prepare both shells and impact and timed fuzes, keeping them separate until configuration.",
+        "Read the specific ammunition recipe and hints, then fit its fuze on the intended face. Configure timed delay before loading and test an impact fuze against a suitable isolated target. A shell without its intended detonation mechanism need not behave like a finished explosive round.",
+        "Conduct the first trial away from structures with clearance behind and around the target. Avoid changing propellant and fuze simultaneously. Item objectives check components rather than assembled ammunition. Record configuration and outcome so repeated loading does not rely on memory."
+      ]
+    },
+    "cbc_advanced/autocannon": {
+      "text": [
+        "Автопушка использует готовые предметные патроны и отличается от большого орудия с отдельными зарядами. Подготовьте стальной ствол, завершённый затвор и контейнер боепитания. Дополнительные детали, включая нужные элементы затвора и соединений, сверяйте по рецептам установленного типа.",
+        "Соберите совместимые секции и установите на подходящее основание. Подготовьте контейнер с небольшим количеством патронов и место для выходящих гильз. Сначала проверьте наведение пустой установки, затем подайте короткую команду огня.",
+        "Сила сигнала на стреляющей стороне станка влияет на темп, поэтому не начинайте с максимального режима. Возвратная пружина добавляет движение ствола и относится к настройке автопушки; наличие одной детали не подтверждает весь механизм. Ограничьте сектор и следите за остатком боеприпасов, чтобы короткая проба не превратилась в незапланированную длинную очередь."
+      ],
+      "text_en": [
+        "An autocannon uses completed ammunition items, unlike a big cannon with separate propellant loads. Prepare a steel barrel, a finished breech and an ammunition container. Check required breech internals and connections against the installed type’s recipes.",
+        "Assemble compatible sections and place them on a suitable base. Load only a small amount of ammunition and provide space for ejected cases. Test aiming while empty, then issue a brief firing command.",
+        "Signal strength on the mount’s firing face affects rate, so do not begin at maximum. A recoil spring adds barrel movement as part of customization; one component does not establish a complete mechanism. Limit the firing sector and watch remaining ammunition so a short trial does not become an unintended long burst."
+      ]
+    },
+    "cbc_advanced/autoammo": {
+      "text": [
+        "Патроны автопушки объединяют снаряд, гильзу и метательный состав в готовое предметное боепитание. Подготовьте бронебойный и зенитный варианты по их собственным рецептам, а также трассирующую насадку. Отдельная болванка снаряда не всегда равна готовому заряженному патрону.",
+        "Проследите в JEI переходы от гильзы к готовому боеприпасу и примените дополнительные детали там, где рецепт их требует. Загрузите небольшую одинаковую партию в контейнер. Трассеры помогают видеть траекторию; их размещение и интервалы настраивайте отдельно от основных патронов.",
+        "Испытайте типы по очереди на полигоне, не смешивая их в первой ленте. Зенитное действие и пробитие решают разные задачи, поэтому одинаковое попадание не означает одинаковый результат. Проверяйте расход и выход гильз после короткой очереди. Получение предметов подтверждает снабжение, а подбор боеприпаса для вашей установки требует наблюдения."
+      ],
+      "text_en": [
+        "Autocannon ammunition combines a projectile, case and propellant into a completed feeding item. Prepare armor-piercing and flak variants using their own recipes, plus a tracer tip. A separate projectile component is not always a finished loaded round.",
+        "Trace JEI steps from casing to completed ammunition and apply extra parts where required. Load a small uniform batch into the container. Tracers make trajectories visible; configure their placement and spacing separately from ordinary rounds.",
+        "Test types individually on the range rather than mixing the first load. Flak effects and penetration serve different purposes, so identical impacts need not produce identical outcomes. Check consumption and case ejection after a short burst. Obtaining items confirms supplies; selecting ammunition for the installation requires observation."
+      ]
+    },
+    "cbc_advanced/mortar": {
+      "text": [
+        "Мортирный сбрасываемый снаряд рассчитан на специальное орудие, которое стреляет при опускании подходящего боеприпаса в канал. Сам предмет из цели не превращает любой вертикальный ствол в мортиру. Подготовьте снаряд и проверьте допустимую конструкцию через его документацию и Ponder.",
+        "Сначала установите и осмотрите пустое орудие на отдельной площадке. Уточните способ загрузки именно мортирного режима и направление будущей траектории. Не подставляйте голову над каналом во время подачи боеприпаса.",
+        "Навесная стрельба может отправить снаряд за видимый ближний фон, поэтому обследуйте район приземления и ограничьте испытание одним выстрелом. Этот взрывной снаряд отличается от каменного mortar stone и обычной картечи. Предметная цель показывает подготовку боеприпаса; проверку совместимости установки выполните до загрузки, а результат запишите в журнал полигона."
+      ],
+      "text_en": [
+        "A drop mortar shell is intended for a special gun that fires when suitable ammunition is dropped into its bore. The requested item does not turn any upright barrel into a mortar. Prepare the shell and check a permitted configuration through its documentation and Ponder.",
+        "Install and inspect the empty gun on a separate site first. Confirm the specific mortar-mode loading method and intended trajectory. Keep your head away from the bore during ammunition feeding.",
+        "A high-arcing shot may land beyond the nearby visible backdrop, so inspect the landing area and limit the trial to one shot. This explosive shell differs from a mortar stone and ordinary grapeshot. The item objective confirms ammunition preparation; verify installation compatibility before loading and record the result in the range log."
+      ]
+    },
+    "cbc_advanced/armor": {
+      "text": [
+        "Инструмент осмотра брони показывает свойства блоков в системе повреждений Big Cannons. Он помогает выбирать защиту по данным, а не только по внешнему виду материала. Подготовьте инструмент и несколько разных строительных образцов на полигоне.",
+        "Осмотрите каждый блок и сравните показанные характеристики. Они не являются универсальным обещанием выдержать любой заряд: результат зависит также от снаряда, скорости и конструкции преграды. Сделайте небольшой испытательный образец вместо проверки стены действующей базы.",
+        "Противогаз относится к защите от соответствующих газовых воздействий и не заменяет броню, укрытие или безопасное расстояние от взрыва. Наденьте его в поддерживаемый слот и изучите подсказку перед опасным опытом. Оба предмета помогают подготовке, но конечную защиту оценивайте в условиях выбранного игрового боеприпаса, не считая один удачный выстрел гарантией для всех остальных."
+      ],
+      "text_en": [
+        "The block armor inspection tool displays block properties in Big Cannons’ damage system. It helps select protection using data rather than appearance alone. Prepare the tool and several different building samples on the range.",
+        "Inspect each block and compare its displayed properties. They are not a universal promise to withstand every charge: results also depend on projectile, speed and barrier construction. Test a small sample instead of the working base’s wall.",
+        "A gas mask protects against relevant gas effects and does not replace armor, cover or distance from explosions. Equip it in a supported slot and read its hints before hazardous testing. Both items aid preparation, but assess protection under the selected in-game ammunition conditions rather than treating one successful test as a guarantee."
+      ]
+    },
+    "radar/plate": {
+      "text": [
+        "Радарные пластины входят в антенную конструкцию и расширяют возможности обнаружения. Подготовьте восемь пластин и свободную площадку над крышей либо рядом с мастерской. Количество предметов в сундуке не влияет на радар: пластины должны войти в его собранную антенну.",
+        "Разместите их на связанном каркасе, который позднее установите на радарный подшипник с приёмником. Тарелки и пластины допускают взаимозаменяемое использование в антенне; выбранную геометрию сверяйте с Ponder. Оставьте пространство для вращения.",
+        "Не обещайте себе фиксированную дальность только по числу восемь: конфигурация и параметры сети определяют фактический результат. После запуска сравните обнаружение известного объекта с добавленными пластинами и без них. Так вы расширите обзор осмысленно, сохраняя доступ к механизму и не закрывая антенну случайной стеной."
+      ],
+      "text_en": [
+        "Radar plates form part of an antenna structure and expand detection capability. Prepare eight plates and a clear area above a roof or beside the workshop. Plates in a chest have no effect; they must belong to the assembled antenna.",
+        "Arrange them on a connected frame that will later mount on a radar bearing with its receiver. Dishes and plates can substitute for each other in the antenna; check the chosen geometry against Ponder. Leave rotational clearance.",
+        "Do not expect a fixed range solely from the number eight: configuration and network parameters determine actual results. After startup, compare detection of a known object with and without added plates. This expands coverage deliberately while retaining maintenance access and avoiding an obstructing wall."
+      ]
+    },
+    "radar/radar": {
+      "text": [
+        "Радарный приёмник на специальном подшипнике собирает обнаружение в работающий узел. Подготовьте оба устройства из целей, антенну и источник вращения. Это не обычный ветряной подшипник, поэтому заменять его похожей деталью нельзя.",
+        "Поставьте радарный подшипник, затем приёмник и связанные пластины или тарелки по сцене Ponder. Подведите вращение и проверьте сборку. Следующий шаг подключит монитор, на котором результат обнаружения станет видимым.",
+        "Начните наблюдение без подключённого оружия и выберите известный объект для проверки. Отсутствие отметки может зависеть от типа цели, положения, настройки или связи, а не только площади антенны. Не считайте любой движущийся блок гарантированно поддерживаемой целью. Зафиксируйте рабочую конфигурацию одного радара прежде, чем добавлять несколько станций в общую сеть."
+      ],
+      "text_en": [
+        "A radar receiver on its dedicated bearing forms an operating detection node. Prepare both requested devices, an antenna and rotational power. This is not an ordinary windmill bearing, so a similar-looking component cannot replace it.",
+        "Place the radar bearing, receiver and connected plates or dishes as shown in Ponder. Supply rotation and verify assembly. The next step adds a monitor where detection results become visible.",
+        "Begin observation without connected weapons and choose a known object for testing. A missing track can depend on target type, position, configuration or linkage, not merely antenna area. Do not assume every moving block is a supported target. Record one working radar configuration before adding several stations to a shared network."
+      ]
+    },
+    "radar/datalink": {
+      "text": [
+        "Линия данных соединяет радарные компоненты и монитор. Она отличается от силового кабеля и от беспроводной связи красного камня Create. Подготовьте устройство связи, монитор и уже собранный радар, оставив оружие отключённым.",
+        "Разместите монитор в удобном месте и создайте связь с радаром по подсказкам Data Link. Откройте настройки установленной связи и проверьте выбранные узлы. Для более широкой сети используется отдельный Network Controller, в который устанавливаются фильтры и добавляются другие компоненты.",
+        "На мониторе найдите известную отметку и сравните её с положением объекта в мире. Если экран пуст, проверяйте сборку, связь и фильтры последовательно. Красные связи оружейной сети и синие радарной имеют разные роли. Наличие обоих предметов в инвентаре ещё не подтверждает правильный обмен данными или выбор безопасной цели."
+      ],
+      "text_en": [
+        "A data link connects radar components and a monitor. It differs from power cable and Create wireless redstone links. Prepare the link device, monitor and assembled radar while keeping weapons disconnected.",
+        "Place the monitor conveniently and link it to the radar according to Data Link hints. Open the installed link’s settings and check selected endpoints. A broader network uses a separate Network Controller for filters and additional components.",
+        "Find a known track on the monitor and compare it with the object’s world position. If the screen is empty, inspect assembly, linkage and filters in sequence. Red weapon-network links and blue radar-network links have different roles. Owning both items does not confirm correct data exchange or safe target selection."
+      ]
+    },
+    "radar/iff": {
+      "text": [
+        "Транспондер опознавания позволяет назначить физической конструкции имя и код. Исключение из автоматического наведения возникает только при совпадении кода с настроенным фильтром идентификации в контроллере сети. Подготовьте транспондер и предупреждающий приёмник, сохранив боеприпасы отдельно.",
+        "Установите транспондер на подвижную конструкцию Sable: на обычном блоке машины он не действует. Задайте код и внесите его в фильтр своей радарной сети. Затем проверьте отметку объекта и отсутствие выбора в автоприцеливании. Одинаковое название без правильного кода не заменяет настройку.",
+        "Приёмник предупреждает звуком о нахождении в зоне радара и захвате цели, но не препятствует этому захвату. Испытайте оба сигнала с дружественным наблюдателем без огня. Не полагайтесь на защиту от чужой сети, где ваш код не внесён в исключения. Только проверенная фильтрация пригодна перед подключением автоматического оружия."
+      ],
+      "text_en": [
+        "An identification transponder assigns a physical construct a name and code. Exclusion from automatic targeting occurs only when the code matches a configured identification filter in the network controller. Prepare the transponder and warning receiver while keeping ammunition separate.",
+        "Install the transponder on a Sable physics construct: it does nothing on an ordinary machine block. Set its code and enter that code in your radar network’s filter. Check the object’s track and exclusion from automatic selection. A matching name without the correct code is insufficient.",
+        "The warning receiver sounds when within radar coverage and when locked onto, but does not prevent lock-on. Test both sounds with a friendly observer and no firing. Do not assume protection from another network that has not excluded your code. Verify filtering before connecting automatic weapons."
+      ]
+    },
+    "radar/controllers": {
+      "text": [
+        "Контроллеры курса и тангажа поворачивают орудие к выбранной сетевой цели. Контроллер огня выдаёт красный сигнал при правильном положении связанного станка; он не заменяет проверку заряда и исправности пушки. Подготовьте три устройства и полностью разряженное орудие.",
+        "Поставьте контроллер курса под станком и подключите его линиями данных, затем настройте контроллер тангажа по Ponder. Выберите известную безопасную точку на мониторе. Выход контроллера огня сначала направьте на лампу, чтобы наблюдать разрешение без выстрела.",
+        "Проверьте повороты в обе стороны и возврат после смены цели. Если ось движется противоположно ожиданию, исправьте ориентацию и настройки до подачи боеприпасов. Сигнал готовности означает наведение, а не свободный полигон. Оставьте независимый ручной запрет огня, который не зависит от работающей сети данных."
+      ],
+      "text_en": [
+        "Yaw and pitch controllers rotate a gun toward a selected network target. A fire controller emits redstone when the linked mount is aligned; it does not check propellant or gun integrity for you. Prepare all three devices and a completely unloaded gun.",
+        "Place the yaw controller under the mount and connect data links, then configure pitch control according to Ponder. Select a known safe point on the monitor. Route fire-controller output to a lamp first, observing readiness without firing.",
+        "Test both directions and response to a target change. Correct reversed motion through orientation and settings before loading ammunition. Readiness indicates alignment rather than an empty range. Keep an independent manual firing inhibit that does not depend on the data network."
+      ]
+    },
+    "radar/guidance": {
+      "text": [
+        "Управляемый взрыватель относится к специальному боеприпасу с наведением и требует совместимости с вашей радарной системой. Подготовьте его вместе с приёмником предупреждения и транспондером. Наличие этих трёх предметов само по себе не собирает управляемый снаряд.",
+        "Сначала обеспечьте устойчивую отметку цели и проверьте опознавание на разряженном стенде. В рецепте и подсказке выбранного боеприпаса уточните допустимое крепление взрывателя и нужную сетевую связь. Обычный снаряд нельзя считать управляемым только потому, что радар стоит поблизости.",
+        "Первый опыт проводите одиночным выстрелом на удалённую учебную цель с обследованным районом полёта. Наблюдайте потерю отметки и поведение системы до повторения. Приёмник предупреждения лишь сообщает об обнаружении, а транспондер действует через фильтры; ни один из них не гарантирует защиту от ошибочно настроенного оружия."
+      ],
+      "text_en": [
+        "A guided fuze belongs to specialized guided ammunition and requires compatibility with your radar system. Prepare it along with the warning receiver and identification transponder. These three inventory items do not assemble a guided shell by themselves.",
+        "Establish a stable target track and verify identification on an unloaded rig first. Check the selected ammunition’s recipe and hints for permitted fuze mounting and required network linkage. A normal projectile is not guided merely because a radar stands nearby.",
+        "Use one shot at a remote training target with an inspected flight area for the first trial. Observe track loss and system behavior before repeating. A warning receiver only reports detection, and a transponder relies on filters; neither guarantees protection from incorrectly configured weapons."
+      ]
+    },
+    "radar/misc_radar": {
+      "text": [
+        "Бинокль позволяет вручную указать точку связанным с контроллером сети орудиям. Он полезен для проверки наведения без автоматического выбора отметок. Подготовьте бинокль, действующий Network Controller и полностью разряженный станок.",
+        "Присядьте и взаимодействуйте биноклем с контроллером, чтобы выполнить привязку. Затем приблизьте изображение и удерживайте левую кнопку, указывая безопасную точку. Подключённые орудия должны следовать выбранному направлению согласно настройкам сети.",
+        "Проверьте несколько точек на полигоне и отпускание управления. Не наводите учебную систему на проход базы даже без предполагаемого огня: кто-то мог оставить боеприпасы в подключённом орудии. Сначала убедитесь в разрядке всех связанных станков. Если пушка не реагирует, проверьте именно привязанный контроллер, оружейные связи и работу осей, а не дальность приближения бинокля."
+      ],
+      "text_en": [
+        "Binoculars let you manually designate a point for guns linked to a network controller. They are useful for aiming tests without automatic track selection. Prepare binoculars, an operating Network Controller and a completely unloaded mount.",
+        "Sneak-interact with the controller using the binoculars to pair them. Zoom in and hold the left button while pointing at a safe location. Connected guns should follow the selected direction according to network settings.",
+        "Test several range points and releasing control. Avoid pointing the training network through base walkways even when firing is not intended: another connected gun might still contain ammunition. Verify every linked gun is unloaded first. If a gun does not respond, inspect the paired controller, weapon links and axis operation rather than binocular magnification."
+      ]
+    },
+    "missiles/motor_rocket": {
+      "text": [
+        "Ракетный двигатель создаёт тягу физической конструкции и использует собственный запас зарядов. Подготовьте двигатель и учебный корпус после знакомства с физическим сборщиком. Стационарный блок на полу ещё не является летящим аппаратом.",
+        "Откройте интерфейс двигателя и проверьте совместимые слоты метательных зарядов. Сначала установите его без топлива, сверив направление сопла и крепление к будущей ракете. Масса, расположение тяги и состав корпуса влияют на движение всей конструкции.",
+        "Не утверждайте себе, что добавление двигателя автоматически сокращает время работы по простой формуле: оно зависит от его загрузки и конфигурации. Перед заправкой подготовьте свободный испытательный коридор и способ удержания на пусковом креплении. Первый опыт проводите без взрывной нагрузки и оценивайте ориентацию и фактическое горение до сборки полноценного управляемого аппарата."
+      ],
+      "text_en": [
+        "A rocket motor produces thrust for a physical construct and uses its own supply of charges. Prepare the motor and a training body after learning the physics assembler. A stationary block on the floor is not yet a flying vehicle.",
+        "Open the motor interface and inspect its compatible propellant slots. Install it unfueled first, checking nozzle direction and attachment to the future missile. Mass, thrust position and body composition affect the whole construct’s motion.",
+        "Do not assume adding a motor shortens runtime through a simple universal formula; loading and configuration determine behavior. Before fueling, prepare a clear test corridor and secure mounting arrangement. Conduct the first trial without explosive payload and observe orientation and actual burning before building a complete guided vehicle."
+      ]
+    },
+    "missiles/fins": {
+      "text": [
+        "Подвижные рули дают вычислителю способ менять направление физической ракеты. Четыре предмета цели — запас компонентов, а не гарантированно правильная аэродинамическая схема. Подготовьте лёгкий корпус без боевой нагрузки и отметьте его продольную ось.",
+        "Разместите рули согласованно с направлением будущего движения и проверьте, что они входят в нужную физическую конструкцию. При настройке вычислителя соответствующий привод выбирается взаимодействием с рулями до размещения компьютера. Сохраните доступ к каждому узлу для исправления привязки.",
+        "Не оставляйте случайно противоположные направления управляющих поверхностей. Сначала проверьте реакцию управления без запуска заправленного двигателя, затем делайте короткий отдельный полёт. Если аппарат крутится, сравните ориентацию, центр массы и выбранный привод; увеличение числа рулей без понимания ошибки может только усилить неверное управление."
+      ],
+      "text_en": [
+        "Actuator fins give the computer a way to steer a physical missile. The four requested items are a component supply, not a guaranteed aerodynamic layout. Prepare a light body without explosive payload and mark its longitudinal axis.",
+        "Place fins consistently with the intended travel direction and confirm they belong to the correct physical construct. When configuring the computer, select the relevant actuator by interacting with the fins before placing the computer. Keep each node accessible for correcting linkage.",
+        "Avoid accidentally opposing control-surface directions. Check control response without starting a fueled motor first, then make a separate short flight. If the vehicle spins, compare orientation, center of mass and selected actuator; adding more fins without understanding the fault may amplify incorrect steering."
+      ]
+    },
+    "missiles/computer": {
+      "text": [
+        "Вычислитель связывает цель с исполнительными рулями ракеты. Интерфейс наведения обслуживает выбор цели и может связываться с радарной сетью. Подготовьте оба предмета, настроенные рули и доступный сетевой контроллер; оружейную часть пока держите без боевой нагрузки.",
+        "Предметом вычислителя выберите Actuator Fins, затем разместите компьютер в указанной допустимой области. Интерфейс наведения устанавливается взаимодействием с сиденьем Create и привязывается к Network Controller предусмотренным действием. Проверьте сообщения о выбранном приводе и выполненной привязке.",
+        "Цель в радаре, установленное сиденье и компьютер не образуют связь автоматически. Сначала убедитесь, что выбран именно нужный объект и команда поступает правильным рулям. При переносе узлов проверьте привязки заново. Только после этой проверки переходите к пусковому креплению и испытанию полёта без взрывного наполнения."
+      ],
+      "text_en": [
+        "A guidance computer connects a target to the missile’s actuator fins. The targeting interface handles target selection and can pair with a radar network. Prepare both items, configured fins and an accessible network controller; keep the weapon without explosive payload.",
+        "Select Actuator Fins with the computer item, then place the computer within the indicated allowed area. Install the targeting interface by interacting with a Create seat and pair it with a Network Controller using its intended action. Check selection and pairing messages.",
+        "A radar target, seat and computer do not become linked automatically. Confirm that the intended object is selected and commands reach the correct actuator. Recheck links after moving components. Only afterward proceed to mounting and a flight trial without explosive contents."
+      ]
+    },
+    "missiles/fuze_prox": {
+      "text": [
+        "Неконтактный взрыватель реагирует на сближение после пуска и требует отдельной настройки чувствительности. Это часть опасного игрового устройства, поэтому сначала изготовьте предмет и изучите его состояние на разряженной учебной конструкции. Не проверяйте детонацию на стоящей у базы ракете.",
+        "Разместите взрыватель в предусмотренном направлении и настройте расстояние обнаружения через доступную панель. Его работа связана с состоянием выпущенного аппарата; наличие блока не означает постоянный безопасный датчик для любого окружения. Проверьте конфигурацию до установки боевого наполнения.",
+        "Для реального опыта выберите отдельную удалённую цель и свободный район полёта. Не считайте слово «авиационный» обещанием игнорировать любые стены или дружественные конструкции. Наблюдайте результат одного пуска и сохраните настройки. Если нужен только тест наведения, оставьте взрыватель и боевую нагрузку снятыми до завершения проверки маршрута."
+      ],
+      "text_en": [
+        "A proximity fuze responds to approach after launch and needs its own sensitivity configuration. It is part of a dangerous in-game device, so craft it and inspect its state on an unloaded training construct first. Do not test detonation on a missile parked at the base.",
+        "Mount the fuze in the intended direction and configure detection distance through its available panel. Operation relates to the released vehicle state; owning the block does not make it a permanently safe generic sensor. Check configuration before adding explosive payload.",
+        "Choose a separate remote target and clear flight area for an actual test. “Aircraft” does not promise that every wall or friendly structure will be ignored. Observe one launch and record settings. For guidance-only testing, leave the fuze and explosive payload removed until routing is verified."
+      ]
+    },
+    "missiles/mount_missile": {
+      "text": [
+        "Пусковое крепление удерживает ракету и связывает её с системой управления пуском. Подготовьте крепление, учебную физическую конструкцию и сетевую связь. В подсказке указан двусторонний узел: ракеты могут крепиться с соответствующих сторон, но положение нужно проверить в мире.",
+        "Совместите аппарат с рабочей стороной крепления и проверьте фиксацию без топлива и боевой нагрузки. Для оружейной сети установите красную Weapon Link у крепления согласно подсказке. Проследите, что выбранный интерфейс наведения относится к этой установке.",
+        "Перед настоящим пуском убедитесь в свободном выходе ракеты и правильной привязке рулей. Команда выпуска не должна одновременно снимать другой припаркованный аппарат. Начинайте с одного учебного корпуса и наблюдайте отделение. Наличие предмета крепления не подтверждает стыковку, удержание или безопасный автоматический комплекс."
+      ],
+      "text_en": [
+        "A missile mount holds a missile and connects it to launch control. Prepare the mount, a training physical construct and network linkage. Its hint describes a twin hardpoint accepting missiles on corresponding sides, but actual alignment needs checking in the world.",
+        "Align the vehicle with the working side and verify attachment without fuel or explosive payload. Install a red Weapon Link against the mount for the weapon network as instructed. Confirm that the chosen targeting interface serves this installation.",
+        "Before launching, inspect the clear exit path and actuator linkage. A release command must not unintentionally detach another parked vehicle. Begin with one training body and observe separation. Owning the mount does not verify docking, retention or a safe automatic weapon complex."
+      ]
+    },
+    "ca_electric/rolling": {
+      "text": [
+        "Прокатный стан превращает подходящие металлы в стержни и проволоку. Важна форма входа: слитки обычно идут в стержни, а листы — в проволоку. Старый совет последовательно прокатывать стержень не заменяет рецепт конкретного материала.",
+        "Подготовьте стан, вращение и небольшие запасы медных слитков с листами. Положите выбранный вход сверху и дождитесь завершения, затем извлеките результат взаимодействием. Для первой пробы используйте только один материал и проверьте полученный предмет в JEI.",
+        "При остановке проверьте привод, рецепт и свободный выход. Автоматизацию можно сделать лентой и двумя воронками, но сначала стоит увидеть ручной цикл. Полученные стержни и проволока потребуются электрическим деталям и катушкам; держите их отдельно, чтобы похожие металлические заготовки не мешали сборке следующего оборудования."
+      ],
+      "text_en": [
+        "A rolling mill turns suitable metals into rods and wires. Input form matters: ingots generally become rods, while sheets become wires. Older advice to roll a rod again does not replace the specific material’s recipe.",
+        "Prepare the mill, rotation and small stocks of copper ingots and sheets. Drop the chosen input on top, wait for processing and interact to retrieve output. Use one material for the first trial and compare the resulting item with JEI.",
+        "If work stops, check power, recipe and free output. A belt and two funnels can automate the mill, but observe a manual cycle first. Rods and wire feed electrical components and spools; store them separately so similar metal intermediates do not complicate the next crafting steps."
+      ]
+    },
+    "ca_electric/wire": {
+      "text": [
+        "Медная проволока нужна для катушек и электрических деталей, а заполненная катушка прокладывает соединение между коннекторами. Подготовьте восемь проволок прокаткой медных листов и изготовьте медную катушку. Пустую основу катушки сохраните после прокладки.",
+        "Сначала поставьте два совместимых коннектора, затем взаимодействуйте заполненной катушкой с первым и вторым. Медный вариант предназначен для соответствующей сети малого тока. Более дорогая катушка не делает произвольную пару коннекторов совместимой.",
+        "Осмотрите линию и проверьте фактическую передачу энергии после появления источника. Если связь не создаётся, уточните тип коннектора и допустимое расстояние. Не путайте восемь проволок как крафтовые материалы с восемью уже установленными линиями. Для демонтажа используйте предусмотренное действие пустой катушкой, а не разбирайте все машины ради переноса одного провода."
+      ],
+      "text_en": [
+        "Copper wire is used for spools and electrical components, while a filled spool creates a link between connectors. Prepare eight wires by rolling copper sheets and craft a copper spool. Retain its empty spool after wiring.",
+        "Place two compatible connectors, then interact with the first and second using the filled spool. Copper serves the corresponding low-current network. A more expensive spool does not make arbitrary connector types compatible.",
+        "Inspect the line and verify actual energy transfer once a source exists. If a link cannot be created, check connector type and permitted distance. Eight crafting wires do not mean eight installed connections. Use the intended empty-spool interaction for removal rather than dismantling every machine to move one wire."
+      ]
+    },
+    "ca_electric/electrum": {
+      "text": [
+        "Электрум используется в электрических компонентах и более мощных проводных соединениях. Установленный рецепт Create Addition смешивает золотой и серебряный слитки в нагретой чаше и выдаёт два слитка сплава. Золото с цинком не заменяют этот рецепт.",
+        "Подготовьте серебро из доступной металлургии сборки, золото и действующий смеситель с горелкой. Сначала проверьте одну пару слитков, затем изготовьте восемь электрумовых. Если рецепт недоступен, убедитесь, что выбранные серебряные слитки принимаются указанным тегом в JEI.",
+        "Часть сплава позже прокатывается и прессуется для деталей, поэтому сохраните запас в отдельном месте. Электрумовая катушка относится к соединениям подходящего типа, а не просто к любой более быстрой меди. Амулет дополнения связан с зарядкой предметов; считать его хранилищем опыта по старому описанию не следует."
+      ],
+      "text_en": [
+        "Electrum is used in electrical components and higher-current wire links. The installed Create Addition recipe mixes one gold and one silver ingot in a heated basin to produce two alloy ingots. Gold and zinc do not replace this recipe.",
+        "Prepare silver from available pack metalworking, gold and an operating heated mixer. Test one pair of ingots, then make eight electrum ingots. If the recipe is unavailable, check whether JEI accepts the chosen silver ingot under its required tag.",
+        "Some alloy is later rolled and pressed for components, so keep a separate reserve. Electrum spools serve compatible connector types rather than simply acting as faster copper everywhere. The add-on’s amulet concerns item charging; do not treat it as experience storage based on an older description."
+      ]
+    },
+    "ca_electric/alternator": {
+      "text": [
+        "Генератор преобразует вращение Create в электричество FE для подключённых устройств. Подготовьте генератор и источник с запасом мощности. В установленной версии ему нужно не менее 32 оборотов в минуту, поэтому медленное прямое водяное колесо может потребовать повышающую передачу.",
+        "Подведите вал, проверьте скорость и подключите подходящий электрический приёмник. Следите за выработкой и общим стрессом: ускорение генератора повышает потребность в механической мощности. Сначала используйте одну нагрузку или небольшой аккумулятор.",
+        "Если энергии нет, проверьте обороты, направление электрического соединения и свободный приём. Вращение внешней модели не гарантирует выдачу при любых условиях. Не замыкайте генератор на мотор, ожидая вечной электростанции: преобразование не создаёт дополнительную энергию. Стабильный источник понадобится будущей сети хранения и электрооборудованию."
+      ],
+      "text_en": [
+        "An alternator converts Create rotation into FE electricity for connected devices. Prepare it and a mechanical source with spare capacity. This version requires at least 32 RPM, so a slow directly connected water wheel may need speed-increasing gearing.",
+        "Supply a shaft, check speed and connect a suitable electrical receiver. Watch generation and total stress: increasing alternator speed demands more mechanical capacity. Begin with one load or a small accumulator.",
+        "If no energy arrives, check RPM, electrical connection direction and receiving space. A rotating model does not guarantee output under every condition. Do not loop an alternator into a motor expecting perpetual generation; conversion creates no extra energy. A steady source supports later storage networks and electrical equipment."
+      ]
+    },
+    "ca_electric/motor": {
+      "text": [
+        "Электромотор превращает FE в вращение и позволяет удобно питать отдельную машину. Подготовьте мотор и электрическую сеть с достаточной выработкой или запасом в аккумуляторе. Он полезен удалённому потребителю, куда неудобно вести длинный вал.",
+        "Подключите питание и задайте скорость на задней панели. Начните с небольших оборотов, выведите вал к одному механизму и посмотрите расход энергии. Изменение настройки скорости влияет на потребление; увеличивайте её только после устойчивой работы.",
+        "Мотор не является обязательным двигателем обычного поезда Create: тот движется по своим правилам. Здесь проверяется именно получение вращения из электричества. Если машина стоит, раздельно проверьте запас FE, подключение, выбранную скорость и стресс выходной сети. Не пытайтесь исправить полностью разряженный аккумулятор новой шестернёй."
+      ],
+      "text_en": [
+        "An electric motor converts FE into rotation and conveniently powers an individual machine. Prepare the motor and a network with enough generation or stored energy. It suits a remote consumer where a long shaft is awkward.",
+        "Connect electricity and set speed on the rear panel. Begin at modest RPM, run a shaft to one machine and observe energy use. Speed settings affect consumption; increase them only after stable operation.",
+        "A motor is not a required engine for an ordinary Create train, which moves under its own rules. This objective concerns obtaining rotation from electricity. If the machine stops, separately check FE supply, connection, chosen speed and output-network stress. Another cogwheel cannot repair a fully discharged accumulator."
+      ]
+    },
+    "ca_electric/connector": {
+      "text": [
+        "Коннекторы передают FE между проводами и совместимыми блоками. Подготовьте четыре обычных коннектора, подходящие катушки и красное реле. Сначала соберите короткое соединение генератора с мотором или аккумулятором, не прокладывая сразу всю базу.",
+        "Установите коннекторы на устройства и настройте режимы ключом: сторона источника должна забирать энергию, сторона потребителя — отдавать в него. Соедините совместимой проволокой. Большие коннекторы и высокотоковые катушки используются согласно их собственным ограничениям.",
+        "Реле разрешает передачу при красном сигнале, поэтому его отсутствие может объяснить пустой приёмник. Проверьте линию с включённым и выключенным рычагом. Если генерация есть, а потребитель стоит, осмотрите режим каждого конца и состояние реле. Проводная линия на экране сама по себе не подтверждает правильное направление энергии."
+      ],
+      "text_en": [
+        "Connectors transfer FE between wires and compatible blocks. Prepare four ordinary connectors, suitable spools and a redstone relay. Start with a short alternator-to-motor or accumulator connection instead of wiring the whole base.",
+        "Mount connectors on devices and set their modes with a wrench: the source side must extract energy and the consumer side deliver it. Join them with compatible wire. Large connectors and high-current spools follow their own restrictions.",
+        "The relay permits transfer while receiving redstone, so missing signal can explain an empty receiver. Test with the lever on and off. If generation exists but the consumer is stopped, inspect endpoint modes and relay state. A visible wire alone does not verify correct energy direction."
+      ]
+    },
+    "ca_electric/accumulator": {
+      "text": [
+        "Модульный аккумулятор хранит FE между генератором и потребителями. Его рецепт использует латунный корпус, конденсаторы, медный стержень и электрумовую проволоку. Подготовьте один модуль и отдельные входное с выходным соединения, чтобы видеть обе стороны работы.",
+        "Подключите генератор к входу, затем наблюдайте рост заряда. После небольшого накопления остановите генератор и включите мотор: запас должен уменьшаться, поддерживая его работу. Модули объединяются только в допустимой форме, поэтому расширение проверяйте по Ponder.",
+        "Аккумулятор сглаживает перебои, но не компенсирует постоянный дефицит выработки. Если за каждым циклом заряд падает ниже, уменьшайте потребление или добавляйте источник. Не путайте современный модуль с устаревшим отдельным accumulator. Предметная цель подтверждает блок, а работающая зарядка и выдача устанавливаются наблюдением реальных показаний."
+      ],
+      "text_en": [
+        "A modular accumulator stores FE between generation and consumers. Its recipe uses a brass casing, capacitors, a copper rod and electrum wire. Prepare one module and separate input and output connections so both behaviors are visible.",
+        "Connect the alternator to input and watch charge rise. After storing a little energy, stop generation and run a motor: the reserve should fall while supporting operation. Modules combine only in valid arrangements, so check expansion against Ponder.",
+        "Storage smooths interruptions but cannot compensate for a persistent generation deficit. If charge falls with every cycle, reduce demand or add supply. Do not confuse the modern module with the deprecated standalone accumulator. The item objective confirms a block; observe actual readings to verify charging and discharge."
+      ]
+    },
+    "ca_electric/burner": {
+      "text": [
+        "Трубочка превращает обычную горелку с ифритом в приёмник подходящего жидкого топлива. Её получают прокаткой бумаги или бамбука. Подготовьте заполненную горелку, трубочку и ведро биоэтанола; отдельного предмета «жидкой горелки» для крафта не требуется.",
+        "Примените трубочку к установленной горелке, затем подайте биоэтанол из ведра или труб. Само топливо получают смешиванием сахара, пепельной муки и двух биомасс, выдающим 125 mB за цикл. Для ведра нужен запас нескольких циклов.",
+        "Проверьте нагрев чаши над горелкой и фактический приём жидкости. Предметы в инвентаре не доказывают доработку блока. Ручную цель отмечайте только когда горелка с трубочкой принимает биоэтанол и нагревает чашу. Если работы нет, раздельно проверьте установку трубочки, топливо и жидкостную подачу."
+      ],
+      "text_en": [
+        "A straw lets an ordinary filled blaze burner accept suitable liquid fuel. Rolling paper or bamboo produces the straw. Prepare a filled burner, straw and bioethanol bucket; no separate liquid-burner crafting item is required.",
+        "Apply the straw to the installed burner, then supply bioethanol by bucket or pipes. The fuel itself comes from mixing sugar, cinder flour and two biomass, yielding 125 mB per cycle. A bucket requires several cycles.",
+        "Check heat in the basin above and actual fluid acceptance. Inventory items do not prove that the block was modified. Confirm the manual objective only when the straw-equipped burner accepts bioethanol and heats its basin. If it does not work, inspect straw application, fuel and fluid delivery separately."
+      ],
+      "task_notes": {
+        "3": {
+          "ru": "Вручную: горелка с трубочкой принимает биоэтанол и нагревает чашу",
+          "en": "Manually: the burner with a straw accepts bioethanol and heats the basin"
+        }
+      }
+    },
+    "ca_electric/tesla": {
+      "text": [
+        "Катушка Теслы заряжает совместимые энергетические предметы под собой. У неё также есть опасный режим повреждения ближайших существ, включаемый красным сигналом. Подготовьте катушку, FE и выделенное место вне входа в мастерскую.",
+        "Подключите питание и положите поддерживаемый разряженный предмет под рабочей частью согласно Ponder. Сначала проверьте именно рост его заряда без сигнала опасного режима. Держите выход и место извлечения доступными.",
+        "Не обещайте катушке обработку песка в стекло без установленного рецепта: её основная проверенная задача здесь — зарядка. Если планируется режим воздействия на существ, оградите область и исключите случайное питание от соседнего рычага. Предметная цель показывает наличие устройства; реальную совместимость конкретного инструмента определяйте по его энергии до и после опыта."
+      ],
+      "text_en": [
+        "A Tesla coil charges compatible energy items beneath it. It also has a dangerous mode that damages nearby entities when activated by redstone. Prepare the coil, FE supply and a dedicated place away from the workshop entrance.",
+        "Connect power and place a supported discharged item beneath the working area according to Ponder. First verify that its charge increases without enabling the harmful mode. Keep retrieval access clear.",
+        "Do not assume the coil processes sand into glass without an installed recipe; its verified role here is charging. If using entity-damage mode, enclose the area and prevent accidental signals from nearby levers. The item objective confirms the device; determine compatibility of an actual tool by comparing its energy before and after testing."
+      ]
+    },
+    "ca_electric/digital": {
+      "text": [
+        "Цифровой адаптер предназначен для взаимодействия ComputerCraft с поддерживаемыми устройствами Create. Он не является самостоятельным универсальным дисплеем, который покажет любые цифры сразу после установки. Подготовьте адаптер и выберите реальный измеряемый блок, например спидометр или стрессометр.",
+        "Проверьте наличие совместимого компьютера и подключите адаптер как периферию согласно документации установленной интеграции. Поддерживаются определённые приборы, подшипники, поршень, шкивы и регулятор скорости; произвольный соседний сундук в этот список автоматически не входит.",
+        "Начните с чтения одного значения, прежде чем отдавать команды движущейся машине. Сравните результат с обычной подсказкой очков. Если компьютерной линии у вас пока нет, сохраните предмет для будущей работы и используйте штатный дисплей Create. Цель проверяет адаптер, а не существование программы или автоматическое управление всей фабрикой."
+      ],
+      "text_en": [
+        "A digital adapter lets ComputerCraft interact with supported Create devices. It is not a standalone universal display that shows arbitrary numbers immediately after placement. Prepare the adapter and choose an actual measurable block such as a speedometer or stressometer.",
+        "Check for a compatible computer and connect the adapter as a peripheral according to the installed integration documentation. Supported devices include specific instruments, bearings, piston, pulleys and speed controller; an arbitrary nearby chest is not automatically supported.",
+        "Begin by reading one value before commanding a moving machine. Compare it with the ordinary goggles tooltip. If no computer setup exists yet, retain the item and use a native Create display for now. The objective checks the adapter, not a program or automatic control of the entire factory."
+      ]
+    },
+    "ca_electric/pei": {
+      "text": [
+        "Переносной энергетический интерфейс передаёт FE между аккумуляторами контрапции и стационарной сетью. Прямой провод к движущемуся аккумулятору не заменяет этот контакт. Цель просит один интерфейс, но для работы нужна пара: на машине и на базе.",
+        "Разместите рабочие стороны друг напротив друга с допустимым промежутком в один или два блока и подведите контрапцию к точке связи. Настройте направление энергии режимами коннектора на стационарной стороне. Стыковка представляет подключённые аккумуляторы движущейся конструкции.",
+        "Проверьте изменение заряда на небольшой передаче, затем разъединение и продолжение движения. Красный сигнал на стационарном интерфейсе запрещает стыковку, поэтому учитывайте соседнюю проводку. Это удобно для зарядки бортовых потребителей; не следует считать аккумулятор обязательным топливом обычного Create-поезда. Наличие устройства не подтверждает совмещение или реальную зарядку."
+      ],
+      "text_en": [
+        "A portable energy interface transfers FE between contraption accumulators and a stationary network. A direct wire to a moving accumulator does not replace the contact. The objective requests one interface, but operation needs a pair, moving and stationary.",
+        "Place working faces opposite each other with a valid one- or two-block gap and bring the contraption to the connection point. Set energy direction using stationary connector modes. Docking exposes the accumulators belonging to the moving construct.",
+        "Check charge changes during a small transfer, then separation and continued movement. Redstone on the stationary interface prevents engagement, so account for nearby wiring. It suits onboard consumers; do not regard a battery as mandatory fuel for an ordinary Create train. Owning the device proves neither alignment nor charging."
+      ]
+    },
+    "aero_basics/assembler": {
+      "text": [
+        "Физический сборщик создаёт конструкцию, которая существует по правилам массы и движения, сохраняя взаимодействие со своими блоками. Подготовьте его и несколько дешёвых блоков на ровной площадке. Первый опыт проводите без двигателя и баллона, чтобы отделить сборку от полёта.",
+        "Суперклеем или медовым клеем выделите нужную группу, затем удерживайте взаимодействие и потяните рычаг сборщика по Ponder. Осмотрите границы: могут учитываться и блоки вдоль диагональных краёв. Не включайте землю, соседний склад или опору всей площадки.",
+        "После сборки проверьте состав и устойчивость небольшого корпуса. Любой подходящий физический сборщик позволяет выполнить разборку; исходный блок не требуется носить внутри каждой машины. Отсоединённые части могут отделяться в самостоятельные объекты, поэтому перед дальнейшей стройкой убедитесь в связности корпуса. Навык понадобится дирижаблю, колёсной машине и ракетному стенду."
+      ],
+      "text_en": [
+        "A physics assembler creates a construct governed by mass and motion while its blocks remain interactable. Prepare it and a few inexpensive blocks on level ground. Test without an engine or balloon first to separate assembly from flight.",
+        "Select the intended group with super glue or honey glue, then hold interaction and pull the assembler lever as shown in Ponder. Inspect boundaries, since blocks along diagonal edges may be included. Keep ground, neighboring storage and the platform’s supports outside the selection.",
+        "Check membership and stability after assembly. Any suitable physics assembler can disassemble it; the original need not remain inside every vehicle. Disconnected sections can split into separate objects, so confirm hull continuity before expanding. This skill supports airships, wheeled vehicles and missile rigs."
+      ]
+    },
+    "aero_basics/levitite": {
+      "text": [
+        "Левитит помогает удерживать физическую конструкцию в воздухе, но сам не заставляет её набирать высоту. Смесь получают в нагретой чаше из четырёх порошков камня Края, двух цинковых самородков и 500 mB воды; выход составляет 500 mB. Подготовьте ведро смеси и площадку для кристаллизации.",
+        "Перелейте смесь в выбранную форму и начните кристаллизацию нагревом по Ponder. Реакция распространяется по связанному объёму; некоторые блоки формы при этом разрушаются. После запуска обратно собрать катализированную жидкость нельзя.",
+        "Получите восемь блоков и испытайте небольшую конструкцию. Для подъёма нужна дополнительная сила, а при медленном движении левитит заметно сопротивляется перемещению. Не стройте ожидание «отрицательной массы» вместо проверки: баланс груза и реальная тяга определяют поведение. Храните смесь вдали от случайных источников нагрева."
+      ],
+      "text_en": [
+        "Levitite helps keep a physical construct afloat but does not make it gain altitude by itself. Its heated mixing recipe uses four end stone powders, two zinc nuggets and 500 mB of water, producing 500 mB of blend. Prepare a bucket and a crystallization area.",
+        "Pour the blend into a chosen mould and initiate heat-driven crystallization as shown in Ponder. The reaction spreads through connected fluid, destroying certain mould blocks. Once catalyzed, the fluid cannot be recollected.",
+        "Obtain eight blocks and test a small construct. Gaining height requires additional force, and levitite strongly resists low-speed movement. Do not substitute an expectation of “negative mass” for testing: cargo balance and actual thrust determine behavior. Store blend away from accidental heat sources."
+      ]
+    },
+    "aero_basics/envelope": {
+      "text": [
+        "Оболочка заключает объём, который создаёт подъёмную силу при заполнении горячим воздухом или паром. Шестнадцать белых блоков из цели — стартовый запас, а не гарантированный баллон для любого груза. Подготовьте лёгкую гондолу и разметьте замкнутую оболочку над ней.",
+        "Соберите герметичные стенки, оставляя полезное внутреннее пространство. Источник наполняет баллон сверху вниз; обычная дырка или неподходящий проход вала нарушат удержание воздуха. Валы можно заключать в блоки оболочки соответствующим способом.",
+        "Внутренние твёрдые блоки уменьшают доступный объём, поэтому заполненный древесиной шар не равен пустому. Проверьте герметичность до увеличения нагрева и груза. Цвет меняется красителем и не заменяет размер баллона. После сборки оболочка станет частью системы подъёма вместе с горелкой или паровым источником."
+      ],
+      "text_en": [
+        "Envelope blocks enclose a volume that creates lift when filled with hot air or steam. The sixteen white blocks requested are starting supplies, not a guaranteed balloon for any payload. Prepare a light gondola and mark a closed envelope above it.",
+        "Build airtight walls while preserving useful interior space. Sources fill balloons from the top downward; a hole or unsuitable shaft passage prevents retention. Shafts can be encased with envelope blocks through the supported method.",
+        "Solid blocks inside reduce available volume, so a timber-filled balloon is not equivalent to an empty one. Check airtightness before increasing heating or cargo. Dye changes color rather than balloon capacity. Once assembled, the envelope becomes part of a lift system with a hot-air burner or steam source."
+      ]
+    },
+    "aero_basics/burner_aero": {
+      "text": [
+        "Регулируемая горелка наполняет баллон горячим воздухом и создаёт подъёмную силу. Это специальный авиационный блок со своей настройкой, а не обычная горелка ифрита под чашей. Подготовьте его и уже проверенную герметичную оболочку над лёгкой конструкцией.",
+        "Разместите источник так, чтобы он обслуживал баллон сверху от своего положения. На панели выберите максимальную подачу, затем управляйте долей выхода силой красного сигнала. Начните с небольшого значения и наблюдайте постепенное заполнение, не ожидая мгновенного взлёта.",
+        "Подъём ограничен объёмом оболочки и ослабевает с высотой из-за давления воздуха. Если аппарат не поднимается, проверьте массу, герметичность и настройку, а не добавляйте бесконечно сигнал. Испытайте уменьшение подъёма возле земли до первого полёта. Несколько источников можно объединять только после понимания поведения одного."
+      ],
+      "text_en": [
+        "An adjustable burner fills a balloon with hot air and produces lift. It is a specialized aviation block with its own configuration, not an ordinary blaze burner under a basin. Prepare it and a verified airtight envelope above a light construct.",
+        "Position the source to serve the balloon above it. Select maximum output on the panel, then scale the output with redstone strength. Begin with a low setting and observe gradual filling instead of expecting immediate takeoff.",
+        "Lift is limited by envelope volume and weakens with altitude as air pressure falls. If the craft will not rise, inspect mass, airtightness and settings rather than endlessly adding signal. Test reducing lift near the ground before flying. Combine multiple sources only after understanding one."
+      ]
+    },
+    "aero_basics/airship": {
+      "text": [
+        "Steam Vent подаёт пар в баллон для подъёма и не является простым клапаном сброса. Для него нужны достаточные тепло, вода и объём котла, как для парового двигателя. Подготовьте предмет из цели и небольшой дирижабль с герметичной оболочкой.",
+        "Если используете паровую схему, расположите выпуск у котла так, чтобы он наполнял баллон над собой. Настройте максимальную подачу и красный сигнал. Для первой воздушной конструкции можно сначала испытать уже изученную горелку, а паровую систему подключать как отдельный вариант подъёма.",
+        "Проверьте баланс и возможность снизить подъём на низкой высоте. Наличие Steam Vent в инвентаре не доказывает готовый летательный аппарат. Не рассчитывайте, что команда выключения тяги мгновенно остановит инерцию. Перед полётом предусмотрите площадку возвращения, доступное управление и запас необходимых расходников."
+      ],
+      "text_en": [
+        "A Steam Vent supplies steam to a balloon for lift; it is not simply a release valve. Like a steam engine, it needs sufficient heat, water and boiler size. Prepare the requested item and a small airship with an airtight envelope.",
+        "For steam lift, position the vent on its boiler to fill the balloon above. Configure maximum output and redstone input. A first aircraft can initially use the hot-air burner already learned, with steam treated as a separate lifting option.",
+        "Check balance and the ability to reduce lift at low altitude. A Steam Vent in inventory does not establish a flight-ready craft. Do not expect disabling thrust to stop inertia instantly. Prepare a return pad, accessible controls and necessary supply reserves before flying."
+      ]
+    },
+    "aero_basics/propeller": {
+      "text": [
+        "Пропеллер создаёт тягу при вращении и перемещает физическую конструкцию. Готовый деревянный пропеллер и подшипник для составного винта — разные способы построить движитель. Подготовьте оба предмета и проверьте их отдельные сцены, не предполагая одинаковую установку.",
+        "Для составного варианта прикрепите перед подшипником связанную конструкцию с минимум двумя подходящими парусными блоками. Подведите вращение и наблюдайте направление тяги. Его можно изменить разворотом вращения либо предусмотренной настройкой ключом.",
+        "Проверьте крепление двигателя и свободный путь винта, прежде чем пробовать движение корпуса. С увеличением высоты и при движении через воздух фактическая тяга меняется, поэтому наземный опыт не обещает ту же скорость везде. Начните с короткого разгона и остановки рядом с площадкой. Подъём и горизонтальное движение регулируйте раздельно."
+      ],
+      "text_en": [
+        "A propeller produces thrust when rotated and moves a physical construct. A complete wooden propeller and a bearing for a built-up propeller are different propulsion arrangements. Prepare both and review their separate scenes rather than assuming identical mounting.",
+        "For a constructed propeller, attach a connected structure with at least two suitable sail blocks in front of the bearing. Supply rotation and observe thrust direction. Reverse it through rotation direction or the supported wrench setting.",
+        "Check drive attachments and propeller clearance before moving the hull. Actual thrust changes with altitude and motion through air, so a ground test does not promise identical speed everywhere. Begin with brief acceleration and stopping near the pad. Control lift and horizontal movement separately."
+      ]
+    },
+    "aero_basics/gyro": {
+      "text": [
+        "Гироскопический подшипник помогает удерживать направление винта и подходит некоторым схемам устойчивого летательного аппарата. Он не фиксирует любой тяжёлый корабль неподвижно одним предметом. Подготовьте подшипник и гироскопический механизм, затем выберите небольшую проверенную конструкцию.",
+        "Замените или дополните обычный винтовой узел согласно Ponder. Установленный подшипник стремится держать винт вертикально; ориентация блока и размещение массы по-прежнему важны. Красный сигнал может сбросить наклон, поэтому не подключайте его без понимания нужного режима.",
+        "Сначала наблюдайте слабый крен без груза, затем добавьте небольшую одинаковую нагрузку по сторонам. Если аппарат раскачивается, проверьте размещение и силу тяги вместо обещания полной стабилизации. Эффективность меняется с высотой. После удачного опыта сохраните возможность ручной коррекции и безопасного снижения, прежде чем доверять устойчивости длительный перелёт."
+      ],
+      "text_en": [
+        "A gyroscopic propeller bearing helps maintain propeller orientation and suits some stable aircraft designs. One item does not lock every heavy ship motionless. Prepare the bearing and gyroscopic mechanism, then choose a small verified construct.",
+        "Replace or supplement the ordinary propeller assembly according to Ponder. The bearing attempts to keep its propeller upright; block orientation and mass placement still matter. Redstone can reset tilt, so do not connect it without understanding the intended mode.",
+        "Observe a slight roll without cargo first, then add small balanced loads. If the craft oscillates, inspect placement and thrust rather than expecting complete stabilization. Effectiveness changes with altitude. Retain manual correction and safe descent after a successful trial before relying on stability during a long flight."
+      ]
+    },
+    "aero_basics/goggles_aero": {
+      "text": [
+        "Очки авиатора помогают читать информацию о полёте, которую трудно оценивать только по горизонту. Изготовьте их и наденьте в поддерживаемый слот снаряжения. Первый опыт проведите на знакомом аппарате рядом с площадкой, а не во время опасного дальнего перелёта.",
+        "Осмотрите доступные показания при стоянке и небольшом движении. Сравните высоту и изменение положения с ориентирами в мире. Какие именно сведения появляются, зависит от поддерживаемой конструкции и интерфейса установленной версии.",
+        "Не воспринимайте очки как автопилот или защиту от падения: они только помогают наблюдению. Если ожидаемый показатель не виден, проверьте экипировку и состояние физической сборки. Запомните удобное расположение информации до первого полёта с грузом. Сохраните также обычные координаты точки возвращения, поскольку приборы не заменяют заранее выбранную площадку посадки."
+      ],
+      "text_en": [
+        "Aviator’s goggles help read flight information that is difficult to estimate from the horizon alone. Craft and equip them in a supported slot. Test on a familiar craft beside the pad rather than during a dangerous long journey.",
+        "Inspect available readings while parked and during a small movement. Compare height and position changes with world landmarks. Exactly which information appears depends on the supported construct and installed interface.",
+        "Goggles are neither an autopilot nor fall protection; they support observation. If an expected value is absent, check equipment and physical assembly state. Learn the information layout before the first loaded flight. Also retain ordinary return coordinates, since instruments do not replace a planned landing site."
+      ]
+    },
+    "aero_basics/sensors": {
+      "text": [
+        "Сенсоры выдают сигналы для вашей логики, но не собирают автопилот автоматически. Высотный датчик реагирует на высоту, карданный — на ориентацию, а лазерный — на подходящий видимый луч. Подготовьте три устройства и сначала отдельный наземный стенд с лампами.",
+        "У высотного задайте нижнюю и верхнюю границы и проверьте направление изменения сигнала. У карданного настройте угол и проверьте каждую ось. Лазерному нужен отдельный источник луча; блоки могут перекрывать его, а фильтр ограничивать цвет.",
+        "Сравните выходы с реальными положениями до подключения к горелке или рулению. Перепутанная обратная связь может усиливать крен вместо исправления. Сохраняйте ручное управление и ограничьте первые корректировки возле земли. После проверки датчики пригодятся удержанию высоты и подходу к доку, но их сигналы нужно связать с правильными исполнительными механизмами."
+      ],
+      "text_en": [
+        "Sensors provide signals for your logic rather than assembling an autopilot automatically. An altitude sensor responds to elevation, a gimbal sensor to orientation, and a laser sensor to a suitable visible beam. Prepare all three and begin with a separate ground rig and lamps.",
+        "Set altitude boundaries and check signal direction. Configure the gimbal angle and test each axis. A laser sensor needs a separate beam source; blocks can obstruct it and a filter can restrict color.",
+        "Compare outputs with actual positions before connecting burners or steering. Reversed feedback may amplify roll instead of correcting it. Retain manual control and limit initial corrections near the ground. After verification, sensors can support altitude control and docking, but their signals still need the correct actuators."
+      ]
+    },
+    "aero_basics/engine": {
+      "text": [
+        "Портативный двигатель создаёт бортовое вращение, сжигая топливо. Деталь engine assembly получают последовательной обработкой железного листа: резка и прессование повторяются восемь раз, причём готовый результат вероятностный. Подготовьте запас заготовок и отдельный выход побочных продуктов.",
+        "Соберите чёрный двигатель по рецепту и сначала испытайте его на земле с одной машиной. Загрузите подходящее топливо, выберите направление вращения и проверьте выход. Пирог ифрита допускает усиленный режим, но для первой проверки не обязателен.",
+        "После установки на аппарат убедитесь, что источник, передача и запас топлива относятся к нужной физической конструкции. Бортовой двигатель не отменяет расход или стресс механизмов. Проверьте остановку и возобновление до взлёта; исчерпание топлива вдали от площадки может лишить вас именно тех винтов, которыми обеспечивалось управление."
+      ],
+      "text_en": [
+        "A portable engine generates onboard rotation by burning fuel. Its engine assembly comes from sequenced iron-sheet processing: cutting and pressing repeat eight times, with a probabilistic final result. Prepare spare workpieces and a separate byproduct output.",
+        "Craft the black engine and test it on the ground with one machine first. Insert suitable fuel, choose rotational direction and inspect output. A blaze cake permits enhanced operation but is unnecessary for the initial trial.",
+        "Once installed aboard, confirm that source, transmission and fuel supply belong to the intended physical construct. An onboard engine does not remove fuel use or mechanical stress. Check stopping and restarting before takeoff; running out far from the pad may disable the propellers used for control."
+      ]
+    },
+    "aero_basics/docking": {
+      "text": [
+        "Стыковочные разъёмы соединяются попарно и жёстко удерживают две стороны, оставляя их независимыми конструкциями. Один разъём из цели не создаёт док. Подготовьте ответную часть, а для верёвочной связи — совместимые коннекторы или лебёдку с нужным соединителем.",
+        "Выдвиньте стыковочные узлы и осторожно совместите их. После достаточного выравнивания они фиксируются; прогресс можно читать компаратором. Для передачи предметов или жидкости нужны подача и извлечение с обеих сторон, а не только сам замок.",
+        "Отсоединение выполняется втягиванием одного разъёма. Перед ним проверьте, что аппарат способен удерживать положение самостоятельно. Верёвки крепятся отдельным способом, две лебёдки между собой не образуют допустимую пару. Испытайте швартовку без груза и резкой тяги, затем добавляйте снабжение и посадочную площадку вокруг реально работающего соединения."
+      ],
+      "text_en": [
+        "Docking connectors work in pairs to make a rigid link while keeping both sides independent constructs. The single requested connector does not create a dock. Prepare its counterpart, and use compatible connectors or a winch with the required coupling for rope connections.",
+        "Extend docking nodes and align them carefully. They lock once sufficiently aligned, and a comparator can read progress. Item or fluid transfer needs insertion and extraction on both sides rather than merely the lock.",
+        "Retracting either connector undocks. First check that the vehicle can hold position independently. Ropes use a separate connection method, and two winches do not form a valid pair. Test mooring without cargo or abrupt thrust, then add supplies and a landing platform around the verified connection."
+      ]
+    },
+    "aero_basics/navigation": {
+      "text": [
+        "Навигационный стол выдаёт красный сигнал в сторону цели, заданной поддерживаемым навигационным предметом. Он не является готовым расписанием самолёта и сам не управляет всеми винтами. Подготовьте стол и сначала испытайте его на неподвижной площадке.",
+        "Поместите подходящий навигационный предмет и сравните выходы на разных сторонах. Сигнал слабее, когда сторона не смотрит точно к цели; разные поддерживаемые предметы задают разные назначения. Сверьте выбранное место с реальными координатами перед подключением руления.",
+        "Для автоматического движения ещё нужны обработка сигналов, тяга, устойчивость, ограничения высоты и способ остановки. Начните с индикации направления лампами, затем короткого управляемого поворота. Не отправляйте первый аппарат вдаль без наблюдения, считая стол полноценным автопилотом. Надёжная навигация строится поверх уже испытанного ручного полёта и возвращения на площадку."
+      ],
+      "text_en": [
+        "A navigation table outputs redstone toward a destination provided by a supported navigation item. It is not a complete aircraft schedule and does not control every propeller itself. Prepare the table and test it on a stationary platform first.",
+        "Insert a suitable navigation item and compare outputs on different sides. The signal weakens when a side is not facing directly toward the target; different supported items supply different destinations. Compare the selected location with actual coordinates before connecting steering.",
+        "Automatic travel still needs signal processing, thrust, stability, altitude limits and stopping. Begin with directional lamps, then a short controlled turn. Do not send the first craft far away unattended under the assumption that the table is a complete autopilot. Reliable navigation builds on tested manual flight and return."
+      ]
+    },
+    "aero_basics/flight_service_setup": {
+      "text": [
+        "Испытательная площадка нужна ещё до первой попытки поднять аппарат с ценным грузом. Два поводка из цели являются подготовительным запасом, но обычный поводок не следует считать универсальным креплением физического корабля. Для швартовки используйте совместимую верёвочную или стыковочную систему.",
+        "Выберите свободное место возле базы, отметьте исходную позицию и подготовьте широкую область посадки. Проверьте лёгкий корпус, доступ к управлению и возможность снизить подъём. Оставьте запасной безопасный путь к площадке, если аппарат сядет рядом.",
+        "Сначала включайте системы по отдельности: подъём, горизонтальную тягу, затем коррекцию направления. Предметная цель не наблюдает эти действия. Перед следующим шагом убедитесь, что старт не цепляет деревья и провода. Груз добавляют после проверки управления, а не используют как балласт для ещё непонятной неустойчивой конструкции."
+      ],
+      "text_en": [
+        "A test pad is needed before lifting valuable cargo. The two leads requested are preparatory supplies, but ordinary leads are not universal physical-ship mooring devices. Use compatible rope or docking systems for that purpose.",
+        "Choose a clear site near the base, mark the starting position and prepare a broad landing area. Check the light hull, control access and ability to reduce lift. Retain a safe alternative approach if the craft lands nearby.",
+        "Enable systems separately at first: lift, horizontal thrust, then directional correction. The item objective does not observe these actions. Check tree and wire clearance before continuing. Add cargo after control is verified rather than using it as improvised ballast for an unexplained unstable craft."
+      ]
+    },
+    "aero_basics/flight_service_batch": {
+      "text": [
+        "Компас помогает ориентированию, но обычный вариант указывает на точку появления мира, а не автоматически на ваш новый аэродром. Подготовьте предмет из цели и отдельно запишите координаты площадки. Для нужного назначения можно использовать подходящую привязку, если она уже доступна.",
+        "Отметьте хорошо видимый ориентир возле посадочной зоны и выберите короткий маршрут, с которого площадка ещё различима. Проверьте направление компаса на земле, чтобы не обнаружить его настоящий смысл только после взлёта.",
+        "Предметная цель не расходует компас и не доказывает выполненную поездку. Название о партии здесь относится к подготовке навигационного предмета, а не к изготовлению дирижаблей. Перед реальным рейсом проверьте остаток топлива, управление подъёмом и путь возврата. Следующее задание требует взлёта, разворота, посадки и проверки изменения поведения с грузом."
+      ],
+      "text_en": [
+        "A compass aids orientation, but an ordinary one points toward world spawn rather than automatically toward your new airfield. Prepare the requested item and separately record pad coordinates. Use a suitable binding for the desired destination if that option is already available.",
+        "Mark a visible landmark beside the landing area and choose a short route from which the pad remains recognizable. Check the compass direction on the ground instead of discovering its actual meaning only after takeoff.",
+        "The objective neither consumes the compass nor proves travel. Its batch wording concerns a navigation item, not airship manufacturing. Before flying, inspect fuel, lift control and return route. The next quest requires takeoff, turning, landing and checking changed behavior with cargo."
+      ]
+    },
+    "aero_basics/flight_service_run": {
+      "text": [
+        "Финальное испытание проверяет управление аппаратом в полном коротком цикле. Выберите спокойную площадку, удалите ценный груз и приготовьте небольшую известную нагрузку для второй части проверки. Перед стартом осмотрите крепления и запас топлива.",
+        "Взлетите, выполните разворот и вернитесь на исходную площадку. Проверьте поведение с грузом и остановку тяги перед дальним перелётом. Следите за инерцией: снятие команды движения не означает мгновенную остановку корпуса.",
+        "Отмечайте цель вручную только после испытания в мире. Кодекс не измеряет полёт автоматически. Если груз вызывает крен или снижает доступную высоту, исправьте размещение и подъём, затем повторите короткий опыт. До успешного возвращения не увеличивайте одновременно расстояние и массу. Проверенный результат даёт основание строить дальние маршруты, но сохраняйте запас ресурсов для обратного пути."
+      ],
+      "text_en": [
+        "The final trial checks a complete short flight-control cycle. Choose a clear pad, remove valuable cargo and prepare a small known load for the second part. Inspect attachments and fuel before startup.",
+        "Take off, turn and return to the original pad. Check behavior with cargo and disabling thrust before a longer journey. Watch inertia: removing a movement command does not stop the hull instantly.",
+        "Confirm manually only after the in-world trial; the Codex does not automatically measure flight. If cargo causes roll or lowers reachable height, correct its placement and lift, then repeat briefly. Avoid increasing distance and mass simultaneously before a successful return. A verified result supports longer routes, but retain resources for the trip back."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: взлететь, развернуться, вернуться на исходную площадку; проверить груз и остановку тяги",
+          "en": "Manually take off, turn, return to the original pad, and check loaded behavior and thrust shutdown"
+        }
+      }
+    },
+    "offroad/wheel_mount": {
+      "text": [
+        "Ступица крепит колесо к наземной физической машине и принимает управление торможением и поворотом. Четыре ступицы из цели позволяют начать четырёхколёсную раму, но без шин, привода и физической сборки это ещё не автомобиль. Подготовьте лёгкую прямоугольную платформу.",
+        "Разместите ступицы согласованно по сторонам корпуса и оставьте пространство для колёс. Сигнал сверху включает торможение, боковой направляет поворот к стороне сигнала. Испытайте эти реакции на одном узле, прежде чем разводить управление ко всем четырём.",
+        "Не подключайте одинаковую случайную проводку к верхним и боковым входам. Поворот и тормоз выполняют разные действия, а неподвижность может объясняться постоянно включённым торможением. Проверьте доступ к каждому креплению и только затем устанавливайте шины. На первом стенде безопаснее использовать малую скорость и ровное основание."
+      ],
+      "text_en": [
+        "A wheel mount attaches a wheel to a physical ground vehicle and accepts braking and steering control. Four mounts begin a four-wheel frame, but without tires, drive and physical assembly it is not a car. Prepare a light rectangular platform.",
+        "Place mounts consistently on both sides and leave tire clearance. Power from above applies braking; power from a side steers toward that side. Test these responses on one mount before wiring all four.",
+        "Avoid sending arbitrary shared wiring into top and side inputs. Steering and braking are different actions, and a stationary vehicle may simply have its brakes continuously powered. Check access to every mount before installing tires. Low speed and level ground are safest for the first rig."
+      ]
+    },
+    "offroad/tires": {
+      "text": [
+        "Шина устанавливается взаимодействием с подходящей ступицей, а её размер влияет на геометрию машины. Подготовьте четыре обычные и четыре липкие шины. Липкий вариант установленного дополнения получают из обычной шины и четырёх бутылочек мёда; это отдельный рецепт.",
+        "Сначала оборудуйте раму одним одинаковым комплектом и проверьте зазоры при повороте. После короткого опыта замените его другим комплектом, сохраняя массу, скорость и поверхность одинаковыми. Так изменение поведения можно связать именно с шинами.",
+        "Не воспринимайте липкие колёса как разрешение ехать по любому склону без тормозов. Сцепление зависит от контакта и всей конструкции. Цель требует предметы в инвентаре, поэтому покажите обычный комплект до его переработки в липкий. Запас для двух вариантов пригодится ремонту и проверке разных маршрутов."
+      ],
+      "text_en": [
+        "A tire is installed by interacting with a suitable wheel mount, and its size affects vehicle geometry. Prepare four ordinary and four sticky tires. The installed add-on makes a sticky tire from an ordinary one and four honey bottles.",
+        "Equip the frame with one matching set first and inspect steering clearance. After a short trial, switch to the other set while keeping mass, speed and surface unchanged. This makes behavior changes attributable to the tires.",
+        "Sticky wheels are not permission to drive any slope without brakes. Grip depends on contact and the whole vehicle. The objective checks inventory items, so register the ordinary set before converting it into sticky tires. Supplies for both variants help repairs and route comparisons."
+      ]
+    },
+    "offroad/borehead": {
+      "text": [
+        "Породорежущие колёса на специальном подшипнике разрушают блоки в области вокруг себя и собирают добычу в прикреплённое хранилище. Подготовьте подшипник, колесо и контейнер; один режущий предмет без места для добычи не образует работающую буровую.",
+        "Соберите головку перед подшипником согласно Ponder и подведите вращение. Колёса имеют собственные правила соединения, а подшипник меняет направление и передаёт четверть входной скорости. Начните с маленького участка обычного камня вдали от базы.",
+        "Чем больше блоков обрабатывается одновременно, тем медленнее работа. Полное хранилище останавливает добычу; предметы можно извлекать через подшипник, поэтому предусмотрите выход заранее. Оградите рабочую область и оставьте безопасное отступление из тоннеля. Проверка предметов не подтверждает глубину проходки или свободное место в корпусе будущей машины."
+      ],
+      "text_en": [
+        "Rock cutting wheels on a borehead bearing break blocks around themselves and collect drops in attached storage. Prepare the bearing, a cutting wheel and a container; one cutting item without storage is not an operating drill.",
+        "Assemble the head in front of the bearing according to Ponder and supply rotation. Wheels follow their own attachment rules; the bearing reverses direction and runs at one quarter of input speed. Begin with a small patch of ordinary stone away from the base.",
+        "Breaking more blocks simultaneously slows operation. Full storage stops excavation; items can be extracted through the bearing, so provide output beforehand. Fence the working area and retain a safe tunnel retreat. Item checks prove neither excavation depth nor available vehicle storage."
+      ]
+    },
+    "offroad/vehicle": {
+      "text": [
+        "Первая колёсная машина объединяет физическую раму, ступицы с шинами, источник вращения и понятное управление. Направленный переключатель из цели помогает выбирать направление привода, но не заменяет весь автомобиль. Подготовьте все узлы на ровной свободной площадке.",
+        "У переключателя отдельные стороны команд: одна передаёт вращение, другая разворачивает; без сигнала или с обоими сигналами выход остановлен. Проверьте это на валу до подключения колёс. Руление и торможение ступиц настройте отдельно, затем соберите корпус физическим сборщиком.",
+        "Сделайте короткий разгон, поворот и остановку без груза. Если машина не едет, проверьте двигатель, команды переключателя и тормоз ступиц по очереди. Не отправляйтесь сразу в горы: инерция, зазоры колёс и распределение массы требуют проверки на простом маршруте с возможностью безопасно сойти."
+      ],
+      "text_en": [
+        "A first wheeled vehicle combines a physical frame, mounted tires, rotation source and understandable controls. The directional gearshift requested selects drive direction but does not replace the whole car. Prepare all components on clear level ground.",
+        "Its command sides are separate: one transmits rotation and the other reverses it; no signals or both signals stop output. Test this on a shaft before connecting wheels. Configure mount steering and braking separately, then assemble the hull with the physics assembler.",
+        "Make a brief acceleration, turn and stop without cargo. If the vehicle will not move, inspect engine, gearshift commands and wheel brakes in sequence. Avoid heading straight into mountains: inertia, wheel clearance and mass distribution need a simple route with safe dismounting."
+      ]
+    },
+    "cbc_foundry/guide_cast_signal": {
+      "text": [
+        "Литейная форма умеет сообщать о наполнении и готовности красным сигналом. Подготовьте компаратор и небольшую форму с известным расходом металла. Установите наблюдение так, чтобы не заходить к расплаву ради каждого осмотра.",
+        "Подключите компаратор к форме и сравните сигнал при пустом состоянии, частичном наполнении и завершённой отливке. Значения от нуля до четырнадцати показывают наполнение, а пятнадцать означает готовность после застывания. Поэтому полный объём и законченная деталь не одно и то же мгновение.",
+        "Сохраните понятную индикацию у прохода и дождитесь завершения перед снятием оболочки. Предметная цель проверяет только компаратор; наблюдение трёх состояний объясняет его полезность. Такая схема поможет автоматизировать удаление форм позже, когда уже известен безопасный способ извлечения пушечной детали без превращения в лом."
+      ],
+      "text_en": [
+        "A cannon cast can report filling and completion through redstone. Prepare a comparator and a small cast with a known metal requirement. Position observation so you do not approach molten metal for every inspection.",
+        "Connect the comparator and compare empty, partly filled and completed states. Values zero through fourteen indicate filling; fifteen means completion after solidification. Full volume and a finished component are therefore not the same moment.",
+        "Keep a clear indicator beside the walkway and wait for completion before removing the shell. The item objective only checks a comparator; observing three states explains its value. This arrangement supports later automatic cast removal once safe component extraction without turning it into scrap is understood."
+      ]
+    },
+    "cbc_foundry/guide_cast_move": {
+      "text": [
+        "Готовую литую секцию легко потерять неправильной добычей. Для многих таких блоков обычная кирка возвращает лом; подходящая кирка с шёлковым касанием или перенос контрапцией сохраняют деталь по правилам мода. Выберите один небольшой уже рассверленный учебный блок.",
+        "Перед снятием прочитайте Ponder о переносе пушек и приготовьте место назначения. Если используете инструмент, проверьте требуемое зачарование; при переносе механизмом убедитесь, что секция действительно включена в сборку и путь свободен.",
+        "Подтвердите вручную, когда на новом месте стоит та же готовая секция, а не заново изготовленный заменитель. Осмотрите ориентацию и будущие стыки. Этот опыт полезен до дорогих стальных отливок: место литейной и место стрельбы обычно различаются, и сохранный перенос должен быть частью производства, а не случайной удачей."
+      ],
+      "text_en": [
+        "A finished cast section can be lost through incorrect harvesting. Many such blocks return scrap to an ordinary pickaxe; a suitable Silk Touch pickaxe or contraption movement preserves them according to mod rules. Choose one small already bored training component.",
+        "Read the cannon-moving Ponder scene and prepare its destination before removal. With a tool, verify the required enchantment; with machinery, confirm that the section belongs to the assembly and has a clear route.",
+        "Confirm manually when the same finished section stands at the destination rather than a newly crafted replacement. Inspect orientation and future joints. This trial matters before expensive steel casts: foundry and range are usually separate, and intact transport should be part of production rather than luck."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: перенести готовую литую секцию на новое место без превращения в лом и проверить её ориентацию",
+          "en": "Manually move a finished cast section intact to a new location and check its orientation"
+        }
+      }
+    },
+    "cbc_foundry/guide_load_limits": {
+      "text": [
+        "Безопасный заряд выбирают одновременно по максимальной прочности и минимальной скорости для длины ствола. Это особенно заметно на чугуне: избыточно длинное первое орудие может не иметь удобной допустимой загрузки. Подготовьте очки и пустую короткую пушку на полигоне.",
+        "Прочитайте свойства материала, затвора и пропеллента. Запишите длину пути снаряда и сравните требуемую начальную скорость с доступной нагрузкой. Учитывайте секцию, где уже находится снаряд, если она входит в его путь согласно правилам мода.",
+        "Подтвердите вручную только после выбора согласованной комбинации, а не после случайного выстрела. Если минимально нужный заряд превышает прочность, уменьшите длину или измените конструкцию; не пробуйте «авось выдержит». Запись станет образцом для новых материалов и позволит не путать число заготовленных зарядов с количеством, разрешённым в одном выстреле."
+      ],
+      "text_en": [
+        "A safe load is chosen from both maximum strength and minimum velocity for bore length. Cast iron makes this particularly apparent: an overly long first gun may lack a convenient permissible load. Prepare goggles and an empty short cannon on the range.",
+        "Read material, breech and propellant properties. Record projectile travel length and compare required initial speed with allowed stress. Include the projectile’s starting section when mod rules count it as part of the traveled bore.",
+        "Confirm manually only after selecting a compatible combination, not after a lucky shot. If required propellant exceeds strength, shorten or redesign the gun instead of hoping it survives. The record becomes a reference for new materials and distinguishes stored charges from the quantity permitted in one shot."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: записать материал, затвор, длину пути снаряда и заряд, совместимый с минимальной скоростью и предельной прочностью",
+          "en": "Manually record material, breech, projectile travel length and a load meeting minimum velocity without exceeding strength"
+        }
+      }
+    },
+    "radar/guide_network_filters": {
+      "text": [
+        "Наличие транспондера не мешает сети выбрать свою машину, если код не включён в исключения. Подготовьте дружественную физическую конструкцию и отдельный учебный объект. Все связанные орудия оставьте разряженными, а выход огня временно направьте на лампу.",
+        "Назначьте транспондеру известный код и настройте соответствующий фильтр идентификации в Network Controller. Проверьте, что собственный объект исключён из автоматического выбора, а разрешённая учебная цель остаётся доступной. Не смешивайте исключение категории существ с конкретным кодом опознавания.",
+        "Подтвердите вручную после наблюдения обоих результатов. Затем измените код учебной копии и убедитесь, что понимаете причину изменения поведения, вернув безопасную конфигурацию. Этот опыт нужен до автоматического сектора огня: случайно невидимый объект и правильно опознанный свой объект могут выглядеть одинаково при поверхностной проверке."
+      ],
+      "text_en": [
+        "A transponder does not prevent friendly selection unless its code is excluded. Prepare a friendly physical construct and a separate training object. Keep every linked gun unloaded and temporarily route firing output to a lamp.",
+        "Assign a known transponder code and configure its identification filter in the Network Controller. Verify that your own object is excluded from automatic selection while the permitted training target remains available. Do not confuse category exclusion with a specific identification code.",
+        "Confirm manually after observing both results. Change a training copy’s code to understand the resulting behavior, then restore the safe configuration. This experiment belongs before automatic fire: an accidentally invisible object and a correctly identified friendly object can look identical during a superficial check."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: исключить собственный код из автоприцеливания и одновременно подтвердить выбор разрешённой учебной цели без боеприпасов",
+          "en": "Manually exclude your own code from automatic targeting while confirming selection of a permitted training target without ammunition"
+        }
+      }
+    },
+    "radar/guide_fire_inhibit": {
+      "text": [
+        "Автоматическое наведение удобно обслуживать, когда команду огня можно запретить независимо от выбора цели. Подготовьте отдельный выключатель и лампу вместо стреляющего входа станка. Не начинайте проверку с заряженной пушки.",
+        "Разделите путь наведения и окончательное разрешение огня. При выключенном разрешении меняйте учебную цель: оси должны продолжать следить, а сигнал к стреляющему входу оставаться запрещённым. При включении проверяйте готовность только на лампе.",
+        "Подтвердите вручную, когда можете остановить огонь, не разбирая сеть и не теряя наблюдение. Подпишите выключатель и расположите его в доступном месте вне сектора орудия. После ремонта проводки повторяйте короткую проверку, поскольку случайный обход запрета соседним сигналом делает привычный рычаг бесполезным, хотя он выглядит исправным."
+      ],
+      "text_en": [
+        "Automatic aiming is easier to service when firing can be inhibited independently of target selection. Prepare a separate switch and a lamp in place of the mount’s firing input. Do not begin with a loaded gun.",
+        "Separate aiming from the final firing permission. With permission disabled, change the training target: axes should keep tracking while the firing-input signal remains blocked. Test readiness with permission enabled using only the lamp.",
+        "Confirm manually once firing can be stopped without dismantling the network or losing observation. Label the switch and place it outside the gun’s sector. Repeat a brief trial after wiring repairs, since an accidental bypass signal can make the familiar lever ineffective even when it looks operational."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: выключатель блокирует окончательный сигнал огня, пока наведение продолжает работать; проверять на лампе без боеприпасов",
+          "en": "Manually verify the switch blocks the final firing signal while aiming continues, using a lamp and no ammunition"
+        }
+      }
+    },
+    "ca_electric/guide_conversion": {
+      "text": [
+        "Перевод энергии между Create и FE проще понять по двум устойчивым режимам. Подготовьте генератор с достаточной скоростью, небольшой аккумулятор и мотор с одним потребителем. Оставьте доступ к показаниям стресса и электрической энергии.",
+        "Запишите входные обороты генератора и его выработку, затем расход мотора при небольшой скорости. Измените только одну настройку и сравните результат после установления режима. Следите, растёт ли запас аккумулятора или постепенно исчерпывается.",
+        "Подтвердите вручную после сравнения двух режимов и выбора того, который источник способен поддерживать. Если потребление превышает выработку, аккумулятор лишь откладывает остановку. Не соединяйте мотор обратно с генератором в надежде получить прибавку. Такой опыт помогает выбрать передачу для удалённой машины и не покупать лишнюю инфраструктуру вместо исправления баланса."
+      ],
+      "text_en": [
+        "Two steady operating modes make conversion between Create and FE easier to understand. Prepare an alternator at sufficient speed, a small accumulator and a motor driving one consumer. Keep stress and electrical readings accessible.",
+        "Record alternator input RPM and generation, then motor demand at a modest speed. Change only one setting and compare after the system settles. Watch whether stored energy rises or gradually disappears.",
+        "Confirm manually after comparing two modes and selecting one the source can sustain. If demand exceeds generation, storage only delays shutdown. Do not drive the alternator from the motor expecting a surplus. This trial helps choose a remote machine’s transmission without adding unnecessary infrastructure instead of fixing the energy balance."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: сравнить два режима по оборотам, выработке, расходу и изменению заряда; выбрать устойчивый режим",
+          "en": "Manually compare two modes by RPM, generation, demand and charge change, then select a sustainable mode"
+        }
+      }
+    },
+    "ca_electric/guide_reserve": {
+      "text": [
+        "Аккумулятор полезен, если его запас действительно перекрывает обычную паузу источника. Подготовьте работающий генератор переменного тока на валу, частично заряженный аккумуляторный модуль и один контролируемый потребитель. Не начинайте опыт на единственном питании важной фабрики.",
+        "Остановите вал генератора переменного тока на короткий известный промежуток и наблюдайте уменьшение заряда при продолжающейся работе машины. Затем верните генерацию и проверьте восстановление запаса. Если заряд не растёт, посмотрите направление соединений и баланс выработки.",
+        "Подтвердите вручную после обоих наблюдений. Зафиксируйте продолжительность проверенной паузы: слово «аккумулятор» не означает запас на всю ночь. При расширении потребителей повторяйте оценку, потому что прежняя вместимость уже может оказаться недостаточной. Для подвижной машины отдельно учитывайте время между стыковками и энергию на безопасное возвращение."
+      ],
+      "text_en": [
+        "An accumulator is useful when its reserve actually covers an ordinary source interruption. Prepare a working alternator on a shaft, a partly charged accumulator module and one controlled consumer. Do not test on an important factory’s only supply.",
+        "Stop the alternator’s shaft for a brief known interval and observe falling charge while the machine continues operating. Restore generation and check that the reserve recovers. If charge does not rise, inspect connection directions and generation balance.",
+        "Confirm manually after both observations. Record the tested interruption length: “accumulator” does not mean enough energy for an entire night. Reassess when adding consumers, since previous capacity may no longer suffice. For a moving craft, also account for time between docking and energy required for safe return."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: при остановке генератора машина работает от аккумулятора; после восстановления генерации запас снова растёт",
+          "en": "Manually verify a machine runs from storage during generator shutdown and charge rises again after generation resumes"
+        }
+      }
+    },
+    "aero_basics/guide_sensor_sign": {
+      "text": [
+        "Датчик может усиливать ошибку, если его сигнал подключён к исполнительному механизму в противоположном смысле. Подготовьте высотный и карданный сенсоры, лампы или видимые индикаторы и небольшую наземную физическую конструкцию. Тягу пока не включайте.",
+        "Измените высоту или наклон на малую величину и сравните выход с желаемой коррекцией. У высотного проверьте границы и инверсию, у карданного — каждую ось. Запишите, какой сигнал должен уменьшать подъём или возвращать наклон.",
+        "Подтвердите вручную, когда обе реакции понятны и направление команды согласовано с исполнителем. Только затем подключайте ограниченную коррекцию возле земли. Если колебания растут, отключите автоматику и вернитесь к проверке знака, вместо увеличения силы. Правильный датчик в неправильной схеме не становится надёжным автопилотом."
+      ],
+      "text_en": [
+        "A sensor can amplify an error if its signal controls an actuator in the wrong sense. Prepare altitude and gimbal sensors, lamps or visible indicators, and a small ground-based physical construct. Keep thrust disabled.",
+        "Change height or tilt slightly and compare output with the desired correction. Check altitude limits and inversion, and each gimbal axis. Record which signal should reduce lift or restore orientation.",
+        "Confirm manually once both responses are understood and command direction matches the actuator. Only then enable limited correction near the ground. If oscillations increase, disable automation and recheck feedback direction instead of increasing force. A correct sensor in the wrong circuit does not become a reliable autopilot."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: на наземном стенде проверить направление сигналов высоты и обеих осей наклона до подключения тяги",
+          "en": "Manually verify altitude and both tilt-axis signal directions on a ground rig before connecting thrust"
+        }
+      }
+    },
+    "aero_basics/guide_loaded_dock": {
+      "text": [
+        "Грузовой воздушный рейс заканчивается надёжной швартовкой и выгрузкой, а не пролётом над базой. Подготовьте небольшой известный груз, проверенный док и свободное стационарное хранилище. Массу добавляйте равномерно, сохраняя доступ к управлению.",
+        "Выполните короткий вылет, вернитесь и аккуратно совместите разъёмы. Дождитесь фиксации и передайте груз через настроенные вход и выход обеих сторон. Проверьте количество в конечном сундуке и сохранность связи, пока аппарат разгружается.",
+        "Подтвердите вручную после полного цикла без разборки корабля и ручного переноса груза между инвентарями. Освобождённый от массы аппарат может иначе реагировать на прежнюю подъёмную силу, поэтому проверьте режим перед отстыковкой. Этот опыт связывает авиацию с реальным снабжением и показывает, где нужны запас топлива и удобный рабочий проход."
+      ],
+      "text_en": [
+        "An air-freight journey ends with reliable docking and unloading, not merely flying over the base. Prepare a small known load, a tested dock and free stationary storage. Distribute mass evenly while retaining control access.",
+        "Make a short flight, return and align connectors gently. Wait for locking, then transfer cargo through configured insertion and extraction on both sides. Check the final chest quantity and connection stability during unloading.",
+        "Confirm manually after the whole cycle without disassembling the craft or carrying cargo between inventories. Removing mass can change how the craft responds to the previous lift setting, so inspect its mode before undocking. This trial links aviation to actual supply and reveals where fuel reserves and maintenance access are needed."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: выполнить короткий грузовой рейс, пристыковаться и передать всю партию в стационарный склад без разборки и ручного переноса",
+          "en": "Manually complete a short freight flight, dock, and transfer the full batch into stationary storage without disassembly or hand-carrying"
+        }
+      }
+    }
+  },
+  "additions": [
+    {
+      "chapter": "cbc_foundry",
+      "id": "guide_cast_signal",
+      "title": "Сигнал готовой отливки",
+      "title_en": "A Finished-Cast Signal",
+      "icon": "minecraft:comparator",
+      "deps": [
+        "cast"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "minecraft:comparator",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "cbc_foundry",
+      "id": "guide_cast_move",
+      "title": "Перенести готовую секцию целиком",
+      "title_en": "Move a Finished Section Intact",
+      "icon": "createbigcannons:cast_iron_cannon_barrel",
+      "deps": [
+        "guide_cast_signal",
+        "drill"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_cast_move",
+          "note": "Вручную: перенести литую секцию без превращения в лом подходящим инструментом или контрапцией"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "cbc_foundry",
+      "id": "guide_load_limits",
+      "title": "Сверить длину и заряд",
+      "title_en": "Match Bore Length and Propellant",
+      "icon": "createbigcannons:powder_charge",
+      "deps": [
+        "guide_cast_move",
+        "powder"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_load_limits",
+          "note": "Вручную: записать прочность, длину и допустимую загрузку короткого учебного орудия"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "radar",
+      "id": "guide_network_filters",
+      "title": "Фильтры собственной сети",
+      "title_en": "Filters for Your Network",
+      "icon": "create_radar:identification_transponder",
+      "deps": [
+        "iff"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_network_filters",
+          "note": "Вручную: собственный транспондер исключён фильтром из автоматического выбора при видимой учебной цели"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "radar",
+      "id": "guide_fire_inhibit",
+      "title": "Ручной запрет огня",
+      "title_en": "A Manual Firing Inhibit",
+      "icon": "minecraft:lever",
+      "deps": [
+        "guide_network_filters",
+        "controllers"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_fire_inhibit",
+          "note": "Вручную: отдельный выключатель запрещает сигнал огня при сохраняющемся наведении"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "ca_electric",
+      "id": "guide_conversion",
+      "title": "Измерить перевод вращения в FE",
+      "title_en": "Measure Rotation-to-FE Conversion",
+      "icon": "createaddition:alternator",
+      "deps": [
+        "alternator",
+        "motor"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_conversion",
+          "note": "Вручную: сравнить скорость, выработку и потребление при двух настройках"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "ca_electric",
+      "id": "guide_reserve",
+      "title": "Запас на короткую остановку",
+      "title_en": "A Reserve for a Brief Outage",
+      "icon": "createaddition:modular_accumulator",
+      "deps": [
+        "guide_conversion",
+        "accumulator"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_reserve",
+          "note": "Вручную: потребитель работает от запаса при остановленном генераторе, затем заряд восстанавливается"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "aero_basics",
+      "id": "guide_sensor_sign",
+      "title": "Проверить знак обратной связи",
+      "title_en": "Check Feedback Direction",
+      "icon": "simulated:altitude_sensor",
+      "deps": [
+        "sensors"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_sensor_sign",
+          "note": "Вручную: сверить сигнал высоты и наклона с нужным направлением коррекции на наземном стенде"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "aero_basics",
+      "id": "guide_loaded_dock",
+      "title": "Возвращение с грузом к доку",
+      "title_en": "Return to the Dock with Cargo",
+      "icon": "simulated:docking_connector",
+      "deps": [
+        "guide_sensor_sign",
+        "docking",
+        "flight_service_run"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_loaded_dock",
+          "note": "Вручную: небольшой груз доставлен, аппарат пристыкован, предметы переданы без разборки"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    }
+  ]
+}

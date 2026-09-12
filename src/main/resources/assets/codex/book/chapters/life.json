@@ -7,7 +7,9 @@
   "icon": "farmersdelight:cooking_pot",
   "subtitle": "codex.chapter.fd_kitchen.subtitle",
   "intro": [
-   "codex.chapter.fd_kitchen.intro.0"
+   "codex.chapter.fd_kitchen.intro.0",
+   "codex.chapter.fd_kitchen.intro.1",
+   "codex.chapter.fd_kitchen.intro.2"
   ],
   "quests": [
    {
@@ -17,7 +19,9 @@
     "x": 0,
     "y": 0,
     "text": [
-     "codex.quest.fd_kitchen.knife.text.0"
+     "codex.quest.fd_kitchen.knife.text.0",
+     "codex.quest.fd_kitchen.knife.text.1",
+     "codex.quest.fd_kitchen.knife.text.2"
     ],
     "tasks": [
      {
@@ -35,17 +39,21 @@
      "items": [],
      "xp": 20,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "board",
     "title": "codex.quest.fd_kitchen.board.title",
     "icon": "farmersdelight:cutting_board",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 3,
     "text": [
      "codex.quest.fd_kitchen.board.text.0",
-     "codex.quest.fd_kitchen.board.text.1"
+     "codex.quest.fd_kitchen.board.text.1",
+     "codex.quest.fd_kitchen.board.text.2"
     ],
     "tasks": [
      {
@@ -67,11 +75,12 @@
     "id": "pot",
     "title": "codex.quest.fd_kitchen.pot.title",
     "icon": "farmersdelight:cooking_pot",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 3,
     "text": [
      "codex.quest.fd_kitchen.pot.text.0",
-     "codex.quest.fd_kitchen.pot.text.1"
+     "codex.quest.fd_kitchen.pot.text.1",
+     "codex.quest.fd_kitchen.pot.text.2"
     ],
     "tasks": [
      {
@@ -98,10 +107,12 @@
     "id": "skillet",
     "title": "codex.quest.fd_kitchen.skillet.title",
     "icon": "farmersdelight:skillet",
-    "x": 1,
-    "y": 2,
+    "x": 6,
+    "y": 3,
     "text": [
-     "codex.quest.fd_kitchen.skillet.text.0"
+     "codex.quest.fd_kitchen.skillet.text.0",
+     "codex.quest.fd_kitchen.skillet.text.1",
+     "codex.quest.fd_kitchen.skillet.text.2"
     ],
     "tasks": [
      {
@@ -123,10 +134,12 @@
     "id": "stove",
     "title": "codex.quest.fd_kitchen.stove.title",
     "icon": "farmersdelight:stove",
-    "x": 0,
+    "x": 8,
     "y": 3,
     "text": [
-     "codex.quest.fd_kitchen.stove.text.0"
+     "codex.quest.fd_kitchen.stove.text.0",
+     "codex.quest.fd_kitchen.stove.text.1",
+     "codex.quest.fd_kitchen.stove.text.2"
     ],
     "tasks": [
      {
@@ -148,11 +161,12 @@
     "id": "crops",
     "title": "codex.quest.fd_kitchen.crops.title",
     "icon": "farmersdelight:tomato",
-    "x": 0,
-    "y": 4,
+    "x": 10,
+    "y": 3,
     "text": [
      "codex.quest.fd_kitchen.crops.text.0",
-     "codex.quest.fd_kitchen.crops.text.1"
+     "codex.quest.fd_kitchen.crops.text.1",
+     "codex.quest.fd_kitchen.crops.text.2"
     ],
     "tasks": [
      {
@@ -189,10 +203,12 @@
     "id": "soil",
     "title": "codex.quest.fd_kitchen.soil.title",
     "icon": "farmersdelight:rich_soil",
-    "x": 0,
-    "y": 5,
+    "x": 12,
+    "y": 2,
     "text": [
-     "codex.quest.fd_kitchen.soil.text.0"
+     "codex.quest.fd_kitchen.soil.text.0",
+     "codex.quest.fd_kitchen.soil.text.1",
+     "codex.quest.fd_kitchen.soil.text.2"
     ],
     "tasks": [
      {
@@ -219,10 +235,12 @@
     "id": "feast",
     "title": "codex.quest.fd_kitchen.feast.title",
     "icon": "farmersdelight:roast_chicken_block",
-    "x": 0,
-    "y": 6,
+    "x": 14,
+    "y": 2,
     "text": [
-     "codex.quest.fd_kitchen.feast.text.0"
+     "codex.quest.fd_kitchen.feast.text.0",
+     "codex.quest.fd_kitchen.feast.text.1",
+     "codex.quest.fd_kitchen.feast.text.2"
     ],
     "tasks": [
      {
@@ -254,13 +272,15 @@
     "id": "storage_fd",
     "title": "codex.quest.fd_kitchen.storage_fd.title",
     "icon": "farmersdelight:oak_cabinet",
-    "x": 1,
-    "y": 5,
+    "x": 12,
+    "y": 3,
     "deps": [
      "crops"
     ],
     "text": [
-     "codex.quest.fd_kitchen.storage_fd.text.0"
+     "codex.quest.fd_kitchen.storage_fd.text.0",
+     "codex.quest.fd_kitchen.storage_fd.text.1",
+     "codex.quest.fd_kitchen.storage_fd.text.2"
     ],
     "tasks": [
      {
@@ -280,13 +300,15 @@
     "id": "rope",
     "title": "codex.quest.fd_kitchen.rope.title",
     "icon": "farmersdelight:rope",
-    "x": 2,
-    "y": 5,
+    "x": 12,
+    "y": 4,
     "deps": [
      "crops"
     ],
     "text": [
-     "codex.quest.fd_kitchen.rope.text.0"
+     "codex.quest.fd_kitchen.rope.text.0",
+     "codex.quest.fd_kitchen.rope.text.1",
+     "codex.quest.fd_kitchen.rope.text.2"
     ],
     "tasks": [
      {
@@ -301,8 +323,271 @@
      "xp": 20,
      "text": []
     }
+   },
+   {
+    "id": "food_service_setup",
+    "title": "codex.quest.fd_kitchen.food_service_setup.title",
+    "icon": "farmersdelight:cooking_pot",
+    "x": 6,
+    "y": 4,
+    "deps": [
+     "pot"
+    ],
+    "text": [
+     "codex.quest.fd_kitchen.food_service_setup.text.0",
+     "codex.quest.fd_kitchen.food_service_setup.text.1",
+     "codex.quest.fd_kitchen.food_service_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:cooking_pot",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:bowl",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "food_service_batch",
+    "title": "codex.quest.fd_kitchen.food_service_batch.title",
+    "icon": "farmersdelight:beef_stew",
+    "x": 8,
+    "y": 4,
+    "deps": [
+     "food_service_setup"
+    ],
+    "text": [
+     "codex.quest.fd_kitchen.food_service_batch.text.0",
+     "codex.quest.fd_kitchen.food_service_batch.text.1",
+     "codex.quest.fd_kitchen.food_service_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:beef_stew",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "food_service_run",
+    "title": "codex.quest.fd_kitchen.food_service_run.title",
+    "icon": "farmersdelight:cooking_pot",
+    "x": 10,
+    "y": 4,
+    "deps": [
+     "food_service_batch"
+    ],
+    "text": [
+     "codex.quest.fd_kitchen.food_service_run.text.0",
+     "codex.quest.fd_kitchen.food_service_run.text.1",
+     "codex.quest.fd_kitchen.food_service_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.fd_kitchen.food_service_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_straw",
+    "title": "codex.quest.fd_kitchen.guide_straw.title",
+    "icon": "farmersdelight:straw",
+    "deps": [
+     "knife"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:straw",
+      "count": 16
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 4,
+    "text": [
+     "codex.quest.fd_kitchen.guide_straw.text.0",
+     "codex.quest.fd_kitchen.guide_straw.text.1",
+     "codex.quest.fd_kitchen.guide_straw.text.2"
+    ]
+   },
+   {
+    "id": "guide_rice_plot",
+    "title": "codex.quest.fd_kitchen.guide_rice_plot.title",
+    "icon": "farmersdelight:rice",
+    "deps": [
+     "crops"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:rice",
+      "count": 16
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 5,
+    "text": [
+     "codex.quest.fd_kitchen.guide_rice_plot.text.0",
+     "codex.quest.fd_kitchen.guide_rice_plot.text.1",
+     "codex.quest.fd_kitchen.guide_rice_plot.text.2"
+    ]
+   },
+   {
+    "id": "guide_tomato_support",
+    "title": "codex.quest.fd_kitchen.guide_tomato_support.title",
+    "icon": "farmersdelight:rope",
+    "deps": [
+     "rope",
+     "crops"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "tomato_support",
+      "note": "codex.quest.fd_kitchen.guide_tomato_support.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 3,
+    "text": [
+     "codex.quest.fd_kitchen.guide_tomato_support.text.0",
+     "codex.quest.fd_kitchen.guide_tomato_support.text.1",
+     "codex.quest.fd_kitchen.guide_tomato_support.text.2"
+    ]
+   },
+   {
+    "id": "guide_cabbage_batch",
+    "title": "codex.quest.fd_kitchen.guide_cabbage_batch.title",
+    "icon": "farmersdelight:cabbage_leaf",
+    "deps": [
+     "board",
+     "crops"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "farmersdelight:cabbage_leaf",
+      "count": 16
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 6,
+    "text": [
+     "codex.quest.fd_kitchen.guide_cabbage_batch.text.0",
+     "codex.quest.fd_kitchen.guide_cabbage_batch.text.1",
+     "codex.quest.fd_kitchen.guide_cabbage_batch.text.2"
+    ]
+   },
+   {
+    "id": "guide_menu_reserve",
+    "title": "codex.quest.fd_kitchen.guide_menu_reserve.title",
+    "icon": "farmersdelight:beef_stew",
+    "deps": [
+     "food_service_run",
+     "guide_rice_plot"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "menu_reserve",
+      "note": "codex.quest.fd_kitchen.guide_menu_reserve.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 5,
+    "text": [
+     "codex.quest.fd_kitchen.guide_menu_reserve.text.0",
+     "codex.quest.fd_kitchen.guide_menu_reserve.text.1",
+     "codex.quest.fd_kitchen.guide_menu_reserve.text.2"
+    ]
+   },
+   {
+    "id": "guide_kitchen_access",
+    "title": "codex.quest.fd_kitchen.guide_kitchen_access.title",
+    "icon": "farmersdelight:oak_cabinet",
+    "deps": [
+     "storage_fd",
+     "food_service_run"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "kitchen_access",
+      "note": "codex.quest.fd_kitchen.guide_kitchen_access.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 4,
+    "text": [
+     "codex.quest.fd_kitchen.guide_kitchen_access.text.0",
+     "codex.quest.fd_kitchen.guide_kitchen_access.text.1",
+     "codex.quest.fd_kitchen.guide_kitchen_access.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "life"
  },
  {
   "id": "life_furniture",
@@ -312,7 +597,9 @@
   "icon": "handcrafted:bench",
   "subtitle": "codex.chapter.life_furniture.subtitle",
   "intro": [
-   "codex.chapter.life_furniture.intro.0"
+   "codex.chapter.life_furniture.intro.0",
+   "codex.chapter.life_furniture.intro.1",
+   "codex.chapter.life_furniture.intro.2"
   ],
   "quests": [
    {
@@ -320,10 +607,11 @@
     "title": "codex.quest.life_furniture.handcrafted.title",
     "icon": "handcrafted:bench",
     "x": 0,
-    "y": 0,
+    "y": 1,
     "text": [
      "codex.quest.life_furniture.handcrafted.text.0",
-     "codex.quest.life_furniture.handcrafted.text.1"
+     "codex.quest.life_furniture.handcrafted.text.1",
+     "codex.quest.life_furniture.handcrafted.text.2"
     ],
     "tasks": [
      {
@@ -341,17 +629,21 @@
      "items": [],
      "xp": 20,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "refurbished",
     "title": "codex.quest.life_furniture.refurbished.title",
     "icon": "refurbished_furniture:computer",
-    "x": 1,
-    "y": 0,
+    "x": 0,
+    "y": 2,
     "text": [
      "codex.quest.life_furniture.refurbished.text.0",
-     "codex.quest.life_furniture.refurbished.text.1"
+     "codex.quest.life_furniture.refurbished.text.1",
+     "codex.quest.life_furniture.refurbished.text.2"
     ],
     "tasks": [
      {
@@ -361,7 +653,7 @@
      },
      {
       "type": "item",
-      "id": "refurbished_furniture:bath",
+      "id": "refurbished_furniture:white_bath",
       "count": 1
      }
     ],
@@ -369,17 +661,21 @@
      "items": [],
      "xp": 20,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "furnicraft",
     "title": "codex.quest.life_furniture.furnicraft.title",
     "icon": "minecraft:crafting_table",
-    "x": 2,
-    "y": 0,
+    "x": 0,
+    "y": 3,
     "text": [
      "codex.quest.life_furniture.furnicraft.text.0",
-     "codex.quest.life_furniture.furnicraft.text.1"
+     "codex.quest.life_furniture.furnicraft.text.1",
+     "codex.quest.life_furniture.furnicraft.text.2"
     ],
     "tasks": [
      {
@@ -392,17 +688,21 @@
      "items": [],
      "xp": 20,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "domum",
     "title": "codex.quest.life_furniture.domum.title",
     "icon": "domum_ornamentum:architectscutter",
     "x": 0,
-    "y": 1,
+    "y": 4,
     "text": [
      "codex.quest.life_furniture.domum.text.0",
-     "codex.quest.life_furniture.domum.text.1"
+     "codex.quest.life_furniture.domum.text.1",
+     "codex.quest.life_furniture.domum.text.2"
     ],
     "tasks": [
      {
@@ -415,17 +715,21 @@
      "items": [],
      "xp": 20,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "create_deco2",
     "title": "codex.quest.life_furniture.create_deco2.title",
     "icon": "create:copper_shingles",
-    "x": 1,
-    "y": 1,
+    "x": 0,
+    "y": 5,
     "text": [
      "codex.quest.life_furniture.create_deco2.text.0",
-     "codex.quest.life_furniture.create_deco2.text.1"
+     "codex.quest.life_furniture.create_deco2.text.1",
+     "codex.quest.life_furniture.create_deco2.text.2"
     ],
     "tasks": [
      {
@@ -438,17 +742,21 @@
      "items": [],
      "xp": 20,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "et_deco",
     "title": "codex.quest.life_furniture.et_deco.title",
     "icon": "eternal_tales:soul_lava_lamp",
-    "x": 2,
-    "y": 1,
+    "x": 0,
+    "y": 6,
     "text": [
      "codex.quest.life_furniture.et_deco.text.0",
-     "codex.quest.life_furniture.et_deco.text.1"
+     "codex.quest.life_furniture.et_deco.text.1",
+     "codex.quest.life_furniture.et_deco.text.2"
     ],
     "tasks": [
      {
@@ -462,16 +770,21 @@
      "items": [],
      "xp": 20,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "comforts2",
     "title": "codex.quest.life_furniture.comforts2.title",
     "icon": "comforts:hammock_red",
     "x": 0,
-    "y": 2,
+    "y": 7,
     "text": [
-     "codex.quest.life_furniture.comforts2.text.0"
+     "codex.quest.life_furniture.comforts2.text.0",
+     "codex.quest.life_furniture.comforts2.text.1",
+     "codex.quest.life_furniture.comforts2.text.2"
     ],
     "tasks": [
      {
@@ -484,17 +797,21 @@
      "items": [],
      "xp": 20,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "macaw",
     "title": "codex.quest.life_furniture.macaw.title",
     "icon": "mcwroofs:oak_roof",
-    "x": 1,
-    "y": 2,
+    "x": 0,
+    "y": 8,
     "text": [
      "codex.quest.life_furniture.macaw.text.0",
-     "codex.quest.life_furniture.macaw.text.1"
+     "codex.quest.life_furniture.macaw.text.1",
+     "codex.quest.life_furniture.macaw.text.2"
     ],
     "tasks": [
      {
@@ -518,8 +835,98 @@
      "items": [],
      "xp": 20,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
+   },
+   {
+    "id": "guide_material_sample",
+    "title": "codex.quest.life_furniture.guide_material_sample.title",
+    "icon": "minecraft:stone_bricks",
+    "deps": [
+     "domum"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "material_sample",
+      "note": "codex.quest.life_furniture.guide_material_sample.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 5,
+    "text": [
+     "codex.quest.life_furniture.guide_material_sample.text.0",
+     "codex.quest.life_furniture.guide_material_sample.text.1",
+     "codex.quest.life_furniture.guide_material_sample.text.2"
+    ]
+   },
+   {
+    "id": "guide_room_light",
+    "title": "codex.quest.life_furniture.guide_room_light.title",
+    "icon": "minecraft:lantern",
+    "deps": [
+     "guide_material_sample"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "room_light",
+      "note": "codex.quest.life_furniture.guide_room_light.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 4,
+    "text": [
+     "codex.quest.life_furniture.guide_room_light.text.0",
+     "codex.quest.life_furniture.guide_room_light.text.1",
+     "codex.quest.life_furniture.guide_room_light.text.2"
+    ]
+   },
+   {
+    "id": "guide_furnished_workshop",
+    "title": "codex.quest.life_furniture.guide_furnished_workshop.title",
+    "icon": "handcrafted:bench",
+    "deps": [
+     "guide_room_light",
+     "furnicraft",
+     "macaw"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "furnished_workshop",
+      "note": "codex.quest.life_furniture.guide_furnished_workshop.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 5,
+    "text": [
+     "codex.quest.life_furniture.guide_furnished_workshop.text.0",
+     "codex.quest.life_furniture.guide_furnished_workshop.text.1",
+     "codex.quest.life_furniture.guide_furnished_workshop.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "life"
  }
 ]

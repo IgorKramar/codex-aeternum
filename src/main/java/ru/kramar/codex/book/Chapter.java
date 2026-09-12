@@ -14,6 +14,7 @@ public final class Chapter {
 
     public final String id;
     public final String sectionId;
+    public final String mapId;
     public final int order;
     public final String title;
     public final String subtitle;
@@ -22,10 +23,11 @@ public final class Chapter {
     public final List<Quest> quests;
     public final Map<String, Quest> byId;
 
-    private Chapter(String id, String sectionId, int order, String title, String subtitle,
+    private Chapter(String id, String sectionId, String mapId, int order, String title, String subtitle,
                     String icon, List<String> intro, List<Quest> quests) {
         this.id = id;
         this.sectionId = sectionId;
+        this.mapId = mapId;
         this.order = order;
         this.title = title;
         this.subtitle = subtitle;
@@ -33,8 +35,17 @@ public final class Chapter {
         this.intro = List.copyOf(intro);
         this.quests = List.copyOf(quests);
         Map<String, Quest> m = new LinkedHashMap<>();
-        for (Quest q : quests) m.put(q.id, q);
+        for (Quest q : quests) {
+            String key = q.chapterId.equals(id) ? q.id : q.globalId();
+            if (m.putIfAbsent(key, q) != null) throw new IllegalArgumentException("Повтор задания: " + q.globalId());
+        }
         this.byId = Map.copyOf(m);
+    }
+
+    public static Chapter displayMap(String id, Chapter first, Section section, List<Quest> quests) {
+        return new Chapter(id, first.sectionId, id, first.order,
+                section == null ? first.title : section.title, first.subtitle,
+                section == null ? first.icon : section.icon, first.intro, quests);
     }
 
     public static Chapter parse(JsonObject o) {
@@ -56,6 +67,6 @@ public final class Chapter {
                 quests.add(Quest.parse(id, e.getAsJsonObject()));
             }
         }
-        return new Chapter(id, sectionId, order, title, subtitle, icon, intro, quests);
+        return new Chapter(id, sectionId, o.has("map") ? o.get("map").getAsString() : id, order, title, subtitle, icon, intro, quests);
     }
 }

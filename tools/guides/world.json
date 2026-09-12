@@ -1,0 +1,639 @@
+{
+  "section": "world",
+  "chapters": {
+    "life_world": {
+      "intro": [
+        "За стенами мастерской лежит мир, который стоит изучать не наугад. Новый биом приносит материалы, найденная постройка становится ориентиром, а продуманный маршрут позволяет вернуться домой с добычей.",
+        "Эта глава знакомит с картами, поисковыми компасами и путевыми камнями. Сначала освойте навигацию, затем подготовьте короткую вылазку. Дальняя прорисовка помогает выбирать направление, но не делает далёкую местность безопасной или доступной для взаимодействия.",
+        "Боковые ветви предлагают полевые задачи: разведать дорогу, обследовать биом, организовать перевалочный пункт. Ручные отметки здесь означают выполненную проверку, а не требование просто прочитать страницу."
+      ],
+      "intro_en": [
+        "Beyond the workshop lies a world worth exploring deliberately. A new biome provides materials, a discovered structure becomes a landmark, and a planned route brings both you and your supplies home.",
+        "This chapter introduces maps, search compasses and waystones. Learn navigation first, then prepare a short expedition. Distant terrain rendering helps you choose a direction, but it does not make faraway land safe or interactive.",
+        "Optional branches offer field assignments: scout a route, survey a biome and establish a staging post. Manual ticks record checks you have actually performed, rather than merely asking you to read a page."
+      ]
+    }
+  },
+  "quests": {
+    "life_world/terralith": {
+      "text": [
+        "В этой сборке знакомый Верхний мир получил новую географию. Terralith создаёт дополнительные биомы и необычный рельеф: широкая долина может соседствовать с отвесным ущельем, а под спокойным склоном скрываться большая пещера. Название биома важнее первого впечатления от пейзажа.",
+        "Отправьтесь на короткую разведку с едой, факелами и блоками для подъёма. Найдите область Terralith и проверьте название биома на экране отладки или доступном интерфейсе карты. Поисковый компас из соседнего задания поможет выбрать конкретную цель, если случайные прогулки затянулись.",
+        "Запишите координаты и отметьте удобный подход. Не спускайтесь в глубокую расселину без пути обратно: красивый вид не сообщает ни о высоте падения, ни о противниках внизу. Поставьте ручную отметку после подтверждения биома; это первое осмысленное наблюдение для вашей будущей карты ресурсов."
+      ],
+      "text_en": [
+        "This pack gives the familiar Overworld a new geography. Terralith adds biomes and distinctive terrain: a broad valley may border a sheer ravine, while a large cave hides beneath a gentle slope. The biome name matters more than your first impression of the scenery.",
+        "Take food, torches and building blocks on a short scouting trip. Find a Terralith area and check its biome name using the debug screen or an available map display. The search compass introduced nearby can locate a specific target if wandering takes too long.",
+        "Record the coordinates and mark a convenient approach. Do not descend into a deep fissure without a return route: scenery reveals neither fall distance nor enemies below. Tick the manual goal after confirming the biome, creating your first useful observation for a resource atlas."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти и определить биом Terralith",
+          "en": "Find and identify a Terralith biome"
+        }
+      }
+    },
+    "life_world/compass": {
+      "text": [
+        "Два внешне похожих компаса отвечают на разные вопросы. Nature’s Compass ищет биомы — например, определённый лес или пустыню. Explorer’s Compass ищет зарегистрированные структуры, такие как деревни и подземелья. Ни один из них не является универсальным указателем любого блока, существа или сундука.",
+        "Изготовьте оба предмета по рецептам установленной сборки и откройте интерфейс нужного компаса. Выберите биом или структуру из списка, запустите поиск и дождитесь результата. Сверяйте направление с картой: прямой путь может проходить через океан, горы или опасное подземелье.",
+        "Сообщение об отсутствии результата не доказывает, что цель вообще не существует. Проверьте измерение, правильность выбранного названия и ограничения поиска; иногда нужно начать поиск из другого места. Сохраните найденные координаты отдельной точкой, чтобы следующий поиск не лишил вас уже полученного ориентира."
+      ],
+      "text_en": [
+        "Two similar-looking compasses answer different questions. Nature’s Compass searches for biomes, such as a particular forest or desert. Explorer’s Compass searches registered structures, including villages and dungeons. Neither is a universal locator for arbitrary blocks, creatures or chests.",
+        "Craft both items using this pack’s recipes and open the appropriate compass interface. Select a biome or structure, start the search and wait for a result. Compare its direction with your map: the straight route may cross an ocean, mountain range or dangerous dungeon.",
+        "A failed search does not prove the target is absent from the entire world. Check the dimension, selected name and search limits; moving your search origin can help. Save successful coordinates as a separate waypoint so that your next search does not erase an earlier landmark."
+      ],
+      "task_notes": {}
+    },
+    "life_world/dh": {
+      "text": [
+        "Далёкий горный хребет на горизонте может быть полезным ориентиром ещё до того, как вы к нему доберётесь. Distant Horizons показывает удалённый ландшафт упрощёнными моделями. Они дополняют обычную дальность прорисовки, но не заменяют настоящие блоки рядом с игроком.",
+        "Различайте видимость и работу мира. По далёкому изображению нельзя проверить состояние сундука, рассмотреть каждый механизм или заключить, что ферма продолжает работать. Постройки и существа за пределами обычной загрузки могут отображаться иначе или отсутствовать; для взаимодействия придётся приблизиться.",
+        "Если горизонт заполняется постепенно, дайте игре время подготовить данные. При заметных задержках уменьшайте настройки дальней прорисовки и генерации по одной, сравнивая результат. Эта карточка справочная: отметьте её после чтения и используйте дальние силуэты для планирования маршрута, а карту — для точных координат."
+      ],
+      "text_en": [
+        "A distant mountain ridge can be a useful landmark long before you reach it. Distant Horizons renders faraway terrain using simplified models. These extend the visible landscape beyond ordinary render distance, but they do not replace the actual blocks around your player.",
+        "Visibility and world activity are different things. A distant image cannot confirm a chest’s contents, show every machine or prove that a farm is running. Buildings and entities outside normal loading may look different or be absent; interaction requires moving closer.",
+        "If the horizon fills in gradually, allow time for data preparation. When performance suffers, reduce distant rendering or generation settings one at a time and compare the result. This is a reference quest: mark it after reading, then use silhouettes to plan routes and the map for precise coordinates."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Прочитать о дальней прорисовке и её ограничениях",
+          "en": "Read about distant rendering and its limitations"
+        }
+      }
+    },
+    "life_world/xaero": {
+      "text": [
+        "Карта превращает прогулку в маршрут, который можно повторить. Мини-карта помогает ориентироваться вокруг персонажа, полная карта показывает исследованные окрестности, а путевые точки сохраняют важные места. Эти возможности особенно полезны там, где несколько долин или пещер выглядят одинаково.",
+        "Найдите назначенную клавишу полной карты в настройках управления Xaero и откройте её. Создайте точку дома с понятным названием. Для входа в шахту или найденного подземелья заведите отдельные точки: название «Вход в пещеру» полезнее, чем очередной безымянный маркер.",
+        "Карта хранит ориентиры, но сама по себе не выдаёт разрешение на телепортацию. Если после перехода между мирами точка кажется потерянной, проверьте выбранное измерение и набор точек. Выполните ручную цель после открытия карты; следующие задания помогут превратить отдельные отметки в сеть безопасных маршрутов."
+      ],
+      "text_en": [
+        "A map turns a walk into a route you can repeat. The minimap supports local navigation, the full map shows explored surroundings, and waypoints preserve important locations. This is particularly useful when several valleys or cave passages look alike.",
+        "Find the full-map binding in Xaero’s controls and open it. Create a clearly named home waypoint. Use separate markers for your mine entrance and discovered dungeons: “Cave entrance” is more useful than another unnamed point.",
+        "The map stores landmarks but does not itself grant permission to teleport. If a waypoint seems missing after travelling between worlds, check the selected dimension and waypoint set. Complete the manual goal after opening the map; later assignments turn individual markers into a network of reliable routes."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Открыть полную карту Xaero",
+          "en": "Open Xaero’s full map"
+        }
+      }
+    },
+    "life_world/structures": {
+      "text": [
+        "Необычная постройка вдали может оказаться мастерской, поселением или местом опасного боя. Дополнительные моды расширяют набор структур, поэтому знакомый силуэт ещё не говорит, что внутри действуют ванильные правила. Первое обследование лучше считать разведкой, а не обязательным штурмом.",
+        "Найдите модовую структуру во время прогулки или с помощью Explorer’s Compass. Сначала осмотрите подходы снаружи, отметьте вход и место, где можно отступить. Перед спуском под землю оставьте лишние ценности дома и приготовьте освещение, еду и запасные блоки.",
+        "Для этой цели достаточно найти структуру и отметить это вручную; побеждать её босса не требуется. Сундуки, подозрительные алтари и необычные блоки исследуйте осторожно, читая подсказки. Отдельная точка на карте позволит вернуться подготовленным, когда другие ветки дадут подходящие инструменты и снаряжение."
+      ],
+      "text_en": [
+        "An unfamiliar building may be a workshop, settlement or dangerous encounter. Additional mods expand the structure pool, so a familiar silhouette does not guarantee vanilla rules inside. Treat your first visit as reconnaissance rather than a compulsory assault.",
+        "Find a modded structure while exploring or with Explorer’s Compass. Inspect the approaches from outside, mark the entrance and identify a retreat route. Before going underground, leave unnecessary valuables at home and bring lighting, food and spare blocks.",
+        "This objective only asks you to find a structure and confirm it manually; defeating its boss is not required. Examine chests, suspicious altars and unusual blocks carefully, reading their hints. A separate waypoint lets you return prepared once other branches provide appropriate equipment."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Найти и отметить на карте структуру одного из модов",
+          "en": "Find and mark a modded structure on your map"
+        }
+      }
+    },
+    "life_world/waystones2": {
+      "text": [
+        "Путевые камни сокращают дорогу между уже освоенными местами. Обычный камень становится доступной точкой после активации. Общие камни работают по цветовым сетям: синий вариант связывается с другими синими. В этой цели требуется именно синий общий камень, а не произвольный цвет.",
+        "Подготовьте обычный камень, синий общий камень и варп-пыль. Последняя служит компонентом рецептов и сама по себе не заменяет свиток перемещения. Разместите камень в удобном месте, активируйте его и дайте название, по которому позднее узнаете пункт назначения.",
+        "Перед дальней экспедицией проверьте доступные переходы и их стоимость: ограничения измерений, время ожидания и расход опыта задаёт конфигурация сборки. Не считайте новый пункт готовым только потому, что блок стоит на земле. Задание учитывает предметы; надёжность самой сети вы проверите отдельным пробным переходом."
+      ],
+      "text_en": [
+        "Waystones shorten journeys between established locations. A regular waystone becomes a destination after activation. Sharestones use colour-based networks: blue ones connect with other blue ones. This objective specifically requires a blue sharestone rather than any colour.",
+        "Prepare a regular waystone, a blue sharestone and warp dust. Dust is a crafting ingredient and does not itself replace a teleport scroll. Place a stone somewhere convenient, activate it and give the destination a name you will recognise later.",
+        "Before a long expedition, check available destinations and travel costs: dimension restrictions, cooldowns and experience costs depend on pack configuration. A placed block alone is not proof of a working destination. This quest tracks the items; a separate test journey verifies the network itself."
+      ],
+      "task_notes": {}
+    },
+    "life_world/lootr_world": {
+      "text": [
+        "В совместной игре первый исследователь не обязательно забирает всю добычу. Lootr создаёт персональное содержимое для поддерживаемых контейнеров: один и тот же сундук может дать каждому игроку собственный набор предметов. Обычные сундуки, которые вы поставили сами, от этого персональными не становятся.",
+        "При обследовании структуры посмотрите на оформление контейнера и подсказку блока. Если это контейнер Lootr, откройте его своим персонажем и заберите нужное. Другому игроку лучше открыть тот же контейнер самостоятельно, а не ждать, что вы переложите ему своё содержимое.",
+        "Не ломайте исследовательский сундук только ради проверки: так можно лишить следующего путешественника удобной точки доступа. Персональная добыча также не означает бесконечное восстановление ресурсов — правила обновления зависят от настроек и типа контейнера. Здесь достаточно прочитать объяснение; навык пригодится в ближайшей экспедиции."
+      ],
+      "text_en": [
+        "In multiplayer, the first explorer does not necessarily take all the loot. Lootr gives supported containers personal contents, so the same chest can offer each player a separate selection. Ordinary chests you place yourself do not automatically become personal loot containers.",
+        "When surveying a structure, inspect the container’s appearance and block tooltip. If it belongs to Lootr, open it with your own character and take what you need. Another player should open the same container independently rather than expecting you to transfer your contents.",
+        "Do not break an exploration chest merely to test it, since that can remove a convenient access point for the next traveller. Personal loot also does not imply unlimited resource regeneration: refresh behaviour depends on settings and container type. Read this explanation now and apply it during your next expedition."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Прочитать, как устроена персональная добыча Lootr",
+          "en": "Read how Lootr personal loot works"
+        }
+      }
+    },
+    "life_world/mobs": {
+      "text": [
+        "Этот мир населён не только знакомыми существами Minecraft. Моды добавляют животных с собственным поведением, необычных противников и боссов, для которых обычная прогулочная экипировка окажется недостаточной. Размер, яркая окраска или спокойная поза не являются надёжным признаком безопасности.",
+        "Увидев незнакомое существо, сначала определите его название по доступной подсказке и осмотрите местность. Держите свободный путь отхода, не подходите к краю обрыва и не проверяйте всё ударом меча. Для необычных животных ищите сведения в руководстве соответствующего мода: способы кормления и приручения различаются.",
+        "Запишите место встречи, если существо понадобится позже. Боссов и специальных призывных противников оставьте до тематических заданий, где разобраны подготовка и условия боя. Эта справочная цель не требует сражения: её задача — научить различать наблюдение, обычную охоту и экспедицию за конкретным трофеем."
+      ],
+      "text_en": [
+        "This world contains more than familiar Minecraft creatures. Mods add animals with their own behaviour, unusual enemies and bosses that demand more than casual travelling equipment. Size, bright colours or a calm stance are not reliable indicators of safety.",
+        "When you meet an unfamiliar creature, identify its name using an available tooltip and inspect the surroundings. Keep a retreat route open, avoid cliff edges and resist testing everything with a sword strike. Consult the relevant mod’s guide for unusual animals, because feeding and taming methods differ.",
+        "Record the encounter location if the creature may be useful later. Leave bosses and specially summoned enemies until their dedicated quests explain preparation and combat conditions. This reference objective requires no fight: it teaches the difference between observation, ordinary hunting and a targeted trophy expedition."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Прочитать рекомендации по незнакомым существам",
+          "en": "Read the advice for encounters with unfamiliar creatures"
+        }
+      }
+    },
+    "life_world/guide_field_kit": {
+      "text": [
+        "Дальняя дорога начинается с вещей, которые позволяют пережить неудачный поворот. Свет, еда, запас блоков и исправный инструмент важнее случайно найденного сокровища. Подготовьте комплект заранее, чтобы не обнаружить пустой запас еды на дне незнакомой пещеры.",
+        "Для цели возьмите в инвентарь 32 факела и восемь приготовленных стейков. Дополните их киркой, оружием, блоками для подъёма и свободным местом под добычу. Если предпочитаете другую пищу, пользоваться ею можно, но именно эта предметная цель проверяет стейки. Ресурсы останутся у вас.",
+        "Перед выходом отметьте базу на карте и проверьте прочность снаряжения. Сложите дома вещи, которые не нужны в пути: запасная редкая деталь не поможет выбраться из оврага. Теперь можно разведать короткий маршрут и вернуться, пока дорога ещё хорошо запомнилась."
+      ],
+      "text_en": [
+        "A long journey starts with equipment that lets you survive a wrong turn. Light, food, spare blocks and working tools matter more than a random treasure. Prepare them before leaving, rather than discovering an empty food supply at the bottom of an unfamiliar cave.",
+        "Carry 32 torches and eight cooked steaks for this inventory goal. Add a pickaxe, a weapon, climbing blocks and room for discoveries. Other food remains useful for travelling, but this particular objective checks cooked beef. Your supplies are not consumed.",
+        "Mark home on the map and inspect equipment durability before departure. Leave unnecessary valuables behind: a spare rare machine component will not help you escape a ravine. You can now scout a short route and return while its landmarks are still familiar."
+      ],
+      "task_notes": {}
+    },
+    "life_world/guide_route": {
+      "text": [
+        "Первая разведка должна закончиться возвращением, а не потерей вещей. Выберите видимую цель недалеко от базы: холм, берег, границу леса или вход в долину. Такой маршрут учит пользоваться картой без обязательства пережить сразу несколько незнакомых биомов.",
+        "Поставьте домашнюю метку, пройдите до цели и отметьте хотя бы один промежуточный ориентир. Обходите перепады высоты, которые потребуют опасного прыжка на обратном пути. Если маршрут пересекает воду, заранее решите, где будете выходить на берег.",
+        "Вернитесь домой по собственным меткам и только затем подтвердите ручную цель. Карта должна объяснять дорогу без воспоминаний вроде «где-то за деревьями». Удачный короткий маршрут станет началом сети путей к шахтам, деревням и будущим перевалочным пунктам."
+      ],
+      "text_en": [
+        "Your first survey should end with a return, rather than lost equipment. Choose a nearby visible destination: a hill, a shore, a woodland edge or a valley entrance. This route teaches map use without demanding survival across several unfamiliar biomes at once.",
+        "Create a home marker, travel to the destination and mark at least one intermediate landmark. Avoid height changes that would require a dangerous jump on the return trip. If you cross water, decide where you will reach dry land before entering it.",
+        "Return home using your markers before ticking the manual objective. The map should explain the route without vague memories of somewhere beyond the trees. A successful short survey becomes the beginning of paths to mines, villages and future staging posts."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Пройти разведочный маршрут и вернуться по своим меткам",
+          "en": "Scout a route and return using your own markers"
+        }
+      }
+    },
+    "life_world/guide_notes": {
+      "text": [
+        "Карта хранит координаты, но сама по себе не объясняет, зачем туда возвращаться. Заведите полевой журнал для мест, которые имеют практическую ценность: залежей материала, безопасных проходов, интересных построек и встреч с необычными существами.",
+        "Сделайте книгу с пером и держите её в инвентаре для предметной цели. Внутри запишите название места, измерение, координаты и причину будущего визита. Рядом полезно указать помеху: обрыв, затопленный вход или противников. Не подписывайте книгу, пока хотите продолжать редактирование.",
+        "Кодекс проверяет наличие книги, а не её страницы. Попробуйте восстановить по записи маршрут спустя некоторое время: если приходится угадывать, добавьте ориентир. Такая привычка особенно полезна, когда поиски нужного материала возвращают вас в биом, открытый много игровых дней назад."
+      ],
+      "text_en": [
+        "A map stores coordinates, but does not explain why a place deserves another visit. Keep a field journal for locations with practical value: resource deposits, safe passages, interesting structures and encounters with unusual creatures.",
+        "Craft a book and quill and carry it for the inventory objective. Record the location’s name, dimension, coordinates and reason to return. Add a relevant obstacle, such as a cliff, flooded entrance or enemies. Leave the book unsigned while you still want to edit it.",
+        "The Codex checks for the book, rather than reading its pages. Try reconstructing the route from your notes later; if you have to guess, add a landmark. This habit becomes especially useful when a material search takes you back to a biome discovered many game days ago."
+      ],
+      "task_notes": {}
+    },
+    "life_world/guide_return_cache": {
+      "text": [
+        "Полевой запас нужен прежде всего тогда, когда экспедиция пошла хуже ожидаемого. Небольшая бочка с едой, светом и блоками возле безопасного ориентира позволяет переждать ночь, разгрузить инвентарь и подготовить возвращение.",
+        "Поставьте хранилище в защищённом месте на разведанной дороге. Оставьте несколько порций еды, факелы и строительные блоки, осветите подход и добавьте метку с понятным названием. Не считайте один сундук убежищем: вокруг должно быть место, где противники не застанут вас врасплох.",
+        "Отойдите от пункта и найдите его обратно по карте. Подтверждайте цель после этой проверки и заполнения запаса; сам факт изготовления бочки ничего не говорит о её расположении. При следующем визите пополните использованное, чтобы резерв не превратился в пустую декорацию."
+      ],
+      "text_en": [
+        "A field cache matters most when an expedition has gone badly. A small barrel of food, light and building blocks near a safe landmark lets you wait out the night, unload your inventory and prepare for the journey home.",
+        "Place storage in a protected location on your surveyed route. Leave food, torches and building blocks, light the approach and create a clearly named map marker. A chest alone is not a shelter: its surroundings must also give you room to avoid being surprised by enemies.",
+        "Leave the site and find it again using the map. Tick the goal after this check and after stocking the cache; crafting a barrel says nothing about its placement. Replenish used supplies on your next visit so the reserve does not become an empty decoration."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Оборудовать запас на маршруте и найти его по карте",
+          "en": "Stock a route cache and locate it using the map"
+        }
+      }
+    },
+    "life_world/guide_alpine": {
+      "text": [
+        "Высокогорная разведка отличается от прогулки по равнине: направление может быть верным, а прямого прохода впереди не окажется. Найдите Alpine Grove из Terralith, чтобы научиться выбирать подход к биому с учётом рельефа.",
+        "Выберите этот биом в Nature’s Compass и отправляйтесь с едой, факелами и блоками для безопасного подъёма. Если поиск не дал результата, смените район и повторите его. Компас указывает цель, но не строит удобную тропу: обход скалы часто разумнее подъёма по отвесной стене.",
+        "Войдите в сам биом, чтобы цель посещения засчиталась. Отметьте удобный проход и место отдыха, прежде чем исследовать крутые склоны. Здесь важен не рекорд высоты, а маршрут, по которому позднее можно провести нагруженного путешественника без рискованных прыжков."
+      ],
+      "text_en": [
+        "Alpine surveying differs from a walk across a plain: the direction may be correct while no direct passage exists. Find Terralith’s Alpine Grove to practise approaching a biome with the terrain in mind.",
+        "Select the biome in Nature’s Compass and take food, torches and blocks for safe climbing. If the search finds nothing, move to another area and try again. The compass points towards a destination rather than plotting a convenient trail; walking around a cliff is often wiser than climbing its face.",
+        "Enter the biome itself for the visit goal to register. Mark a convenient approach and a resting place before exploring steep slopes. The useful result is a route a heavily laden traveller can repeat without risky jumps, rather than a new altitude record."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Посетить альпийскую рощу Terralith",
+          "en": "Visit Terralith’s Alpine Grove"
+        }
+      }
+    },
+    "life_world/guide_cave_survey": {
+      "text": [
+        "Пещера — отдельный маршрут со своими поворотами и перепадами высоты. Для этой разведки найдите андезитовые пещеры Terralith. Даже если камень вокруг знаком, принадлежность к биому нужно проверить по его названию: отдельные блоки андезита встречаются и в других местах.",
+        "Запаситесь светом, едой, исправной киркой и блоками. Nature’s Compass поможет искать нужный биом, но спуск организуйте сами: не копайте вертикально под собой. Отмечайте развилки одинаковым способом и оставляйте безопасный подъём там, где спускаетесь на нижний ярус.",
+        "Цель засчитывает посещение соответствующего биома. После этого найдите выход без прокладывания случайного туннеля и отметьте вход с поверхности. Из разведанной пещеры гораздо проще сделать рабочую шахту: вы уже знаете путь, опасные места и направление для вывоза материала."
+      ],
+      "text_en": [
+        "A cave is a route with its own turns and changes in elevation. Locate Terralith’s Andesite Caves for this survey. Familiar stone is not enough to identify the biome: check its name, since isolated andesite blocks also occur elsewhere.",
+        "Bring light, food, a sound pickaxe and building blocks. Nature’s Compass can search for the biome, but arranging the descent remains your responsibility; never dig straight beneath yourself. Mark junctions consistently and leave a safe way up whenever you descend to another level.",
+        "The goal records entry into the named biome. Afterwards, find the exit without cutting a random tunnel and mark its surface entrance. A surveyed cave is much easier to turn into a working mine because you already know its access route, hazards and material transport direction."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Посетить андезитовые пещеры Terralith",
+          "en": "Visit Terralith’s Andesite Caves"
+        }
+      }
+    },
+    "life_world/guide_moonlight": {
+      "text": [
+        "Не всякая экспедиция начинается с нужного слитка. Иногда полезно найти необычный биом, понять его расположение и сохранить место для будущей стройки. Moonlight Grove — цель такого самостоятельного путешествия по миру Terralith.",
+        "Найдите биом через Nature’s Compass и подготовьте обычный походный набор. Название не означает, что посещать рощу обязательно ночью: цель проверяет биом, а не время суток. Днём легче оценить подступы, перепады высоты и расстояние до ближайшего безопасного места.",
+        "После входа в биом сохраните метку и несколько наблюдений в журнале. Не разбирайте весь пейзаж ради случайного образца: возможно, позже здесь появится дом или остановка маршрута. Задание фиксирует визит; выбор места и аккуратное обследование остаются вашей полевой работой."
+      ],
+      "text_en": [
+        "An expedition does not always begin with a missing ingot. Sometimes it is useful to locate an unusual biome, understand its surroundings and preserve the site for a future building. Terralith’s Moonlight Grove is the destination for this independent journey.",
+        "Find the biome with Nature’s Compass and prepare your usual travel supplies. Its name does not require a night visit: the objective checks the biome rather than the time of day. Daylight makes approaches, changes in elevation and nearby safe ground easier to assess.",
+        "After entering, save a marker and a few observations in your journal. Avoid dismantling the entire landscape for a casual sample; you may later want a home or a route stop here. The quest records your visit, while choosing and carefully surveying a site remains your field work."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Посетить лунную рощу Terralith",
+          "en": "Visit Terralith’s Moonlight Grove"
+        }
+      }
+    },
+    "life_world/guide_atlas": {
+      "text": [
+        "Три найденных биома становятся полезнее, когда связаны одной понятной картой. Соберите полевые записи в маленький атлас: названия, координаты, подходы и причины возвращения должны находиться рядом, а не теряться среди случайных меток.",
+        "Проверьте записи об альпийской роще, андезитовой пещере и лунной роще. Для каждого места укажите измерение, безопасный вход и доступный маршрут от базы или промежуточного лагеря. Если путь проходит через опасный участок, опишите его прямо; красивая метка не заменяет предупреждение об обрыве.",
+        "Выберите одно место и восстановите дорогу по записям. После успешной проверки можно поставить ручную отметку. Этот атлас пригодится при размещении поселения, шахты или транспортной линии: теперь выбор основан на обследованной местности, а не только на расстоянии по прямой."
+      ],
+      "text_en": [
+        "Three discovered biomes become more useful when linked by a clear map. Turn your field notes into a small atlas: names, coordinates, approaches and reasons to return belong together rather than among unlabelled markers.",
+        "Review the entries for the Alpine Grove, Andesite Caves and Moonlight Grove. Give each a dimension, a safe entrance and an accessible route from home or an intermediate camp. Describe hazardous stretches directly; an attractive marker cannot replace a warning about a cliff.",
+        "Choose one location and reconstruct its route from the notes. Tick the manual goal after successfully checking it. This atlas will help place a settlement, mine or transport line using surveyed terrain rather than straight-line distance alone."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Составить атлас трёх биомов и проверить один маршрут",
+          "en": "Compile an atlas of three biomes and check one route"
+        }
+      }
+    },
+    "life_world/guide_staging": {
+      "text": [
+        "Путевой камень сокращает расстояние, но не собирает снаряжение за путешественника. Прежде чем превращать случайную находку в постоянную остановку, подготовьте рядом место для вещей и безопасный подход к самой точке прибытия.",
+        "Осветите площадку у активированного камня, уберите непосредственные препятствия и поставьте хранилище для походного запаса. Оставьте проход достаточно свободным, чтобы прибывший игрок не оказался у края падения. Назовите пункт по назначению или местности: похожие безымянные остановки легко перепутать.",
+        "Проверьте площадку пешком и сопоставьте название камня с меткой на карте. Подтверждайте цель после подготовки места; наличие камня в инвентаре здесь не требуется. Следующий шаг — испытать настоящую связь между двумя остановками и убедиться, что возвращение столь же удобно, как отправление."
+      ],
+      "text_en": [
+        "A waystone shortens a journey, but does not pack equipment for the traveller. Before turning a chance discovery into a permanent stop, prepare storage and a safe approach to its arrival point.",
+        "Light the area around an activated stone, remove immediate obstacles and place storage for travel supplies. Keep the arrival space clear so a traveller does not appear at a dangerous drop. Name the stop after its purpose or surroundings; similar unnamed destinations are easy to confuse.",
+        "Inspect the site on foot and match the stone’s name to a map marker. Tick the goal after preparing the location; carrying a waystone item is not required. The next step is to test an actual connection between two stops and ensure the return is as convenient as departure."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Подготовить безопасную площадку и запас у путевого камня",
+          "en": "Prepare a safe arrival area and supplies beside a waystone"
+        }
+      }
+    },
+    "life_world/guide_waystone_pair": {
+      "text": [
+        "Постоянная транспортная связь начинается с двух понятных адресов. Активируйте путевые камни возле базы и в разведанном районе: пользоваться можно найденными камнями, если их расположение удобно для вашего маршрута.",
+        "Посетите оба места и взаимодействуйте с каждым камнем, чтобы добавить его в доступные назначения. Дайте различимые названия и проверьте список переходов. Стоимость и ограничения зависят от настроек Waystones: ориентируйтесь на показанную стоимость, а не на предположение о бесплатном перемещении.",
+        "Переместитесь из первого пункта во второй и осмотрите точку появления. Поставьте отметку после удачного перехода. Пока это проверка одного направления: отдельно предстоит убедиться, что хватает ресурсов для обратного пути и что нужный камень действительно доступен в списке."
+      ],
+      "text_en": [
+        "A permanent transport link starts with two recognisable addresses. Activate waystones near home and in a surveyed area; discovered stones are suitable if their locations fit your route.",
+        "Visit both sites and interact with each stone to add it to your available destinations. Give them distinct names and inspect the travel list. Costs and restrictions depend on Waystones settings, so read the displayed cost instead of assuming travel is free.",
+        "Travel from the first stop to the second and inspect the arrival point. Tick the objective after a successful transfer. This only tests one direction: you still need to check that you can afford the return and that the required stone is available in the destination list."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Активировать два камня и перейти между ними",
+          "en": "Activate two waystones and travel between them"
+        }
+      }
+    },
+    "life_world/guide_round_trip": {
+      "text": [
+        "Хорошая сеть проверяется не первым красивым переходом, а надёжным возвращением с грузом. Отправьтесь в удалённую точку обычным способом и испытайте обратный путь до базы, не полагаясь на случайный запас опыта.",
+        "Перед отправлением посмотрите стоимость перехода и оставьте достаточно для возвращения, если ваша конфигурация требует оплаты. После прибытия найдите домашнее назначение и выполните обратный переход. Проверьте, что запас и подход к обоим камням доступны с той стороны, где появляется игрок.",
+        "Ручную цель отмечайте после полного кругового маршрута. Если возвращение неудобно, исправьте название, площадку или снабжение сейчас. Рабочая пара камней станет опорой дальнейших путешествий, но пешая дорога и сохранённые координаты по-прежнему полезны на случай изменения маршрута."
+      ],
+      "text_en": [
+        "A useful network proves itself through a reliable return with supplies, rather than a single impressive departure. Travel to the remote stop and test the journey home without relying on a lucky reserve of experience.",
+        "Check the displayed travel cost before leaving and keep enough for the return if your configuration charges for it. At the destination, find home in the list and travel back. Ensure supplies and approaches at both stones are accessible from the player’s arrival side.",
+        "Tick the manual goal after completing the round trip. Fix an unclear name, awkward landing or missing supplies now. A working pair of stones supports further exploration, while the walking route and recorded coordinates remain useful if your plans change."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Выполнить переход туда и обратно с проверкой обеих площадок",
+          "en": "Complete a round trip and inspect both arrival areas"
+        }
+      }
+    },
+    "life_world/guide_outpost": {
+      "text": [
+        "Когда район обследован и путь домой проверен, временный лагерь можно превратить в опорный пункт. Его назначение — помогать экспедициям: хранить расходники, принимать добычу и давать безопасное место для подготовки следующей вылазки.",
+        "Обустройте укрытие возле выбранного маршрута, осветите внутреннее пространство и подступы. Разделите запас для путешествия и место под найденные материалы; поставьте верстак и оборудование, которое действительно используете в поле. Запишите назначение пункта в атласе и свяжите его с ближайшим путевым камнем.",
+        "Проведите через пункт одну настоящую вылазку: возьмите запас, вернитесь с находками, разгрузитесь и пополните расходники. После этого подтвердите цель. Так у карты появляется практический смысл: она объединяет базу, разведанную местность и работающую инфраструктуру ваших путешествий."
+      ],
+      "text_en": [
+        "Once an area is surveyed and the route home is tested, a temporary camp can become an outpost. Its purpose is to support expeditions by storing supplies, receiving discoveries and providing a safe place to prepare the next trip.",
+        "Build shelter near your chosen route and light both its interior and approaches. Separate travel supplies from incoming materials; add a crafting table and the equipment you actually use in the field. Record the outpost’s purpose in your atlas and connect it to the nearest waystone.",
+        "Use the site for a real outing: take supplies, return with discoveries, unload and replenish what you used. Then confirm the objective. Your map now joins home, surveyed terrain and functioning travel infrastructure in a practical network."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Провести экспедицию через оборудованный опорный пункт",
+          "en": "Run an expedition through an equipped outpost"
+        }
+      }
+    }
+  },
+  "additions": [
+    {
+      "chapter": "life_world",
+      "id": "guide_field_kit",
+      "title": "Рюкзак разведчика",
+      "title_en": "A scout’s field kit",
+      "icon": "minecraft:torch",
+      "deps": [
+        "xaero"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "minecraft:torch",
+          "count": 32
+        },
+        {
+          "type": "item",
+          "id": "minecraft:cooked_beef",
+          "count": 8
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_route",
+      "title": "Дорога, по которой можно вернуться",
+      "title_en": "A route you can retrace",
+      "icon": "minecraft:compass",
+      "deps": [
+        "guide_field_kit"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "route"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_notes",
+      "title": "Полевой журнал",
+      "title_en": "Field notes",
+      "icon": "minecraft:writable_book",
+      "deps": [
+        "guide_route"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "minecraft:writable_book",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_return_cache",
+      "title": "Запас для обратного пути",
+      "title_en": "Supplies for the return journey",
+      "icon": "minecraft:barrel",
+      "deps": [
+        "guide_notes"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "return_cache"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_alpine",
+      "title": "Высота и хвойные склоны",
+      "title_en": "Alpine slopes",
+      "icon": "minecraft:spruce_sapling",
+      "deps": [
+        "terralith",
+        "compass"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "id": "terralith:alpine_grove"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_cave_survey",
+      "title": "Подземный маршрут",
+      "title_en": "An underground survey",
+      "icon": "minecraft:andesite",
+      "deps": [
+        "terralith",
+        "guide_field_kit"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "id": "terralith:cave/andesite_caves"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_moonlight",
+      "title": "Роща под лунным светом",
+      "title_en": "The moonlit grove",
+      "icon": "minecraft:amethyst_shard",
+      "deps": [
+        "terralith",
+        "compass"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "id": "terralith:moonlight_grove"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_atlas",
+      "title": "Атлас полезных мест",
+      "title_en": "An atlas of useful places",
+      "icon": "minecraft:map",
+      "deps": [
+        "guide_alpine",
+        "guide_cave_survey",
+        "guide_moonlight"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "atlas"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_staging",
+      "title": "Перед дальним переходом",
+      "title_en": "Before a long journey",
+      "icon": "minecraft:chest",
+      "deps": [
+        "waystones2",
+        "guide_return_cache"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "staging"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_waystone_pair",
+      "title": "Две точки одной дороги",
+      "title_en": "Two ends of one route",
+      "icon": "waystones:waystone",
+      "deps": [
+        "guide_staging"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "waystone_pair"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_round_trip",
+      "title": "Билет обратно",
+      "title_en": "A return ticket",
+      "icon": "minecraft:compass",
+      "deps": [
+        "guide_waystone_pair"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "round_trip"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "life_world",
+      "id": "guide_outpost",
+      "title": "Опорный пункт исследователя",
+      "title_en": "An explorer’s outpost",
+      "icon": "minecraft:lantern",
+      "deps": [
+        "guide_round_trip",
+        "guide_atlas"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "outpost"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 25,
+        "items": [],
+        "text": []
+      }
+    }
+  ]
+}

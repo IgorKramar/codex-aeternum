@@ -8,8 +8,7 @@
   "subtitle": "codex.chapter.hunt_cataclysm.subtitle",
   "intro": [
    "codex.chapter.hunt_cataclysm.intro.0",
-   "codex.chapter.hunt_cataclysm.intro.1",
-   "codex.chapter.hunt_cataclysm.intro.2"
+   "codex.chapter.hunt_cataclysm.intro.1"
   ],
   "quests": [
    {
@@ -17,7 +16,7 @@
     "title": "codex.quest.hunt_cataclysm.root.title",
     "icon": "cataclysm:black_steel_ingot",
     "x": 0,
-    "y": 0,
+    "y": 3,
     "text": [
      "codex.quest.hunt_cataclysm.root.text.0",
      "codex.quest.hunt_cataclysm.root.text.1",
@@ -49,14 +48,17 @@
      ],
      "xp": 150,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/blaze"
+    ]
    },
    {
     "id": "soulforge",
     "title": "codex.quest.hunt_cataclysm.soulforge.title",
     "icon": "cataclysm:infernal_forge",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 0,
     "deps": [
      "root"
     ],
@@ -68,11 +70,13 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:find_soul_black_smith"
+      "id": "cataclysm:find_soul_black_smith",
+      "note": "codex.quest.hunt_cataclysm.soulforge.task.0"
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_monstrosity"
+      "id": "cataclysm:kill_monstrosity",
+      "note": "codex.quest.hunt_cataclysm.soulforge.task.1"
      },
      {
       "type": "item",
@@ -95,7 +99,7 @@
     "id": "citadel",
     "title": "codex.quest.hunt_cataclysm.citadel.title",
     "icon": "cataclysm:gauntlet_of_guard",
-    "x": 0,
+    "x": 4,
     "y": 2,
     "deps": [
      "soulforge"
@@ -108,15 +112,18 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:find_ruined_citadel"
+      "id": "cataclysm:find_ruined_citadel",
+      "note": "codex.quest.hunt_cataclysm.citadel.task.0"
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_ender_golem"
+      "id": "cataclysm:kill_ender_golem",
+      "note": "codex.quest.hunt_cataclysm.citadel.task.1"
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_ender_guardian"
+      "id": "cataclysm:kill_ender_guardian",
+      "note": "codex.quest.hunt_cataclysm.citadel.task.2"
      },
      {
       "type": "item",
@@ -144,7 +151,7 @@
     "id": "factory",
     "title": "codex.quest.hunt_cataclysm.factory.title",
     "icon": "cataclysm:witherite_ingot",
-    "x": 0,
+    "x": 6,
     "y": 3,
     "deps": [
      "citadel"
@@ -157,11 +164,13 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:find_ancient_factory"
+      "id": "cataclysm:find_ancient_factory",
+      "note": "codex.quest.hunt_cataclysm.factory.task.0"
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_harbinger"
+      "id": "cataclysm:kill_harbinger",
+      "note": "codex.quest.hunt_cataclysm.factory.task.1"
      },
      {
       "type": "item",
@@ -189,8 +198,8 @@
     "id": "fusion",
     "title": "codex.quest.hunt_cataclysm.fusion.title",
     "icon": "cataclysm:void_forge",
-    "x": 1,
-    "y": 4,
+    "x": 8,
+    "y": 2,
     "deps": [
      "factory"
     ],
@@ -221,8 +230,8 @@
     "id": "pyramid",
     "title": "codex.quest.hunt_cataclysm.pyramid.title",
     "icon": "cataclysm:sandstorm_in_a_bottle",
-    "x": -1,
-    "y": 2,
+    "x": 4,
+    "y": 3,
     "deps": [
      "soulforge"
     ],
@@ -234,11 +243,13 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:find_cursed_pyramid"
+      "id": "cataclysm:find_cursed_pyramid",
+      "note": "codex.quest.hunt_cataclysm.pyramid.task.0"
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_remnant"
+      "id": "cataclysm:kill_remnant",
+      "note": "codex.quest.hunt_cataclysm.pyramid.task.1"
      },
      {
       "type": "item",
@@ -266,21 +277,21 @@
     "id": "sunken",
     "title": "codex.quest.hunt_cataclysm.sunken.title",
     "icon": "cataclysm:tidal_claws",
-    "x": -1,
-    "y": 3,
+    "x": 6,
+    "y": 4,
     "deps": [
      "pyramid"
     ],
     "text": [
      "codex.quest.hunt_cataclysm.sunken.text.0",
      "codex.quest.hunt_cataclysm.sunken.text.1",
-     "codex.quest.hunt_cataclysm.sunken.text.2",
-     "codex.quest.hunt_cataclysm.sunken.text.3"
+     "codex.quest.hunt_cataclysm.sunken.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:find_sunken_city"
+      "id": "cataclysm:find_sunken_city",
+      "note": "codex.quest.hunt_cataclysm.sunken.task.0"
      },
      {
       "type": "item",
@@ -289,7 +300,8 @@
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_leviathan"
+      "id": "cataclysm:kill_leviathan",
+      "note": "codex.quest.hunt_cataclysm.sunken.task.2"
      },
      {
       "type": "item",
@@ -312,7 +324,7 @@
     "id": "acropolis",
     "title": "codex.quest.hunt_cataclysm.acropolis.title",
     "icon": "cataclysm:ceraunus",
-    "x": -1,
+    "x": 8,
     "y": 4,
     "deps": [
      "sunken"
@@ -325,15 +337,18 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:find_acropolis"
+      "id": "cataclysm:find_acropolis",
+      "note": "codex.quest.hunt_cataclysm.acropolis.task.0"
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_clawdian"
+      "id": "cataclysm:kill_clawdian",
+      "note": "codex.quest.hunt_cataclysm.acropolis.task.1"
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_scylla"
+      "id": "cataclysm:kill_scylla",
+      "note": "codex.quest.hunt_cataclysm.acropolis.task.2"
      },
      {
       "type": "item",
@@ -361,8 +376,8 @@
     "id": "frosted",
     "title": "codex.quest.hunt_cataclysm.frosted.title",
     "icon": "cataclysm:cursium_ingot",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 4,
     "deps": [
      "acropolis",
      "fusion"
@@ -375,7 +390,8 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:find_frosted_prison"
+      "id": "cataclysm:find_frosted_prison",
+      "note": "codex.quest.hunt_cataclysm.frosted.task.0"
      },
      {
       "type": "item",
@@ -384,7 +400,8 @@
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_maledictus"
+      "id": "cataclysm:kill_maledictus",
+      "note": "codex.quest.hunt_cataclysm.frosted.task.2"
      },
      {
       "type": "item",
@@ -407,8 +424,8 @@
     "id": "burning",
     "title": "codex.quest.hunt_cataclysm.burning.title",
     "icon": "cataclysm:the_incinerator",
-    "x": 0,
-    "y": 6,
+    "x": 12,
+    "y": 4,
     "deps": [
      "frosted"
     ],
@@ -420,15 +437,18 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:find_burning_arena"
+      "id": "cataclysm:find_burning_arena",
+      "note": "codex.quest.hunt_cataclysm.burning.task.0"
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_revenant"
+      "id": "cataclysm:kill_revenant",
+      "note": "codex.quest.hunt_cataclysm.burning.task.1"
      },
      {
       "type": "advancement",
-      "id": "cataclysm:kill_ignis"
+      "id": "cataclysm:kill_ignis",
+      "note": "codex.quest.hunt_cataclysm.burning.task.2"
      },
      {
       "type": "item",
@@ -456,8 +476,8 @@
     "id": "ignitium",
     "title": "codex.quest.hunt_cataclysm.ignitium.title",
     "icon": "cataclysm:ignitium_elytra_chestplate",
-    "x": 1,
-    "y": 6,
+    "x": 14,
+    "y": 5,
     "deps": [
      "burning"
     ],
@@ -498,14 +518,15 @@
     "id": "pets",
     "title": "codex.quest.hunt_cataclysm.pets.title",
     "icon": "cataclysm:netherite_effigy",
-    "x": 1,
-    "y": 3,
+    "x": 4,
+    "y": 4,
     "deps": [
      "soulforge"
     ],
     "text": [
      "codex.quest.hunt_cataclysm.pets.text.0",
-     "codex.quest.hunt_cataclysm.pets.text.1"
+     "codex.quest.hunt_cataclysm.pets.text.1",
+     "codex.quest.hunt_cataclysm.pets.text.2"
     ],
     "tasks": [
      {
@@ -535,8 +556,8 @@
     "id": "all_bosses",
     "title": "codex.quest.hunt_cataclysm.all_bosses.title",
     "icon": "cataclysm:kobolediator_skull",
-    "x": 0,
-    "y": 7,
+    "x": 14,
+    "y": 6,
     "deps": [
      "burning"
     ],
@@ -548,7 +569,8 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:kill_all_bosses"
+      "id": "cataclysm:kill_all_bosses",
+      "note": "codex.quest.hunt_cataclysm.all_bosses.task.0"
      }
     ],
     "rewards": {
@@ -567,8 +589,147 @@
       "codex.quest.hunt_cataclysm.all_bosses.reward.0"
      ]
     }
+   },
+   {
+    "id": "guide_eyes",
+    "title": "codex.quest.hunt_cataclysm.guide_eyes.title",
+    "icon": "cataclysm:monstrous_eye",
+    "deps": [
+     "root"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cataclysm:monstrous_eye",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:desert_eye",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 45,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 1,
+    "text": [
+     "codex.quest.hunt_cataclysm.guide_eyes.text.0",
+     "codex.quest.hunt_cataclysm.guide_eyes.text.1",
+     "codex.quest.hunt_cataclysm.guide_eyes.text.2"
+    ]
+   },
+   {
+    "id": "guide_black_steel_kit",
+    "title": "codex.quest.hunt_cataclysm.guide_black_steel_kit.title",
+    "icon": "cataclysm:black_steel_sword",
+    "deps": [
+     "root"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cataclysm:black_steel_sword",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:black_steel_pickaxe",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:black_steel_targe",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 2,
+    "text": [
+     "codex.quest.hunt_cataclysm.guide_black_steel_kit.text.0",
+     "codex.quest.hunt_cataclysm.guide_black_steel_kit.text.1",
+     "codex.quest.hunt_cataclysm.guide_black_steel_kit.text.2"
+    ]
+   },
+   {
+    "id": "guide_wither_assault",
+    "title": "codex.quest.hunt_cataclysm.guide_wither_assault.title",
+    "icon": "cataclysm:wither_assault_shoulder_weapon",
+    "deps": [
+     "factory"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cataclysm:wither_assault_shoulder_weapon",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "wither_assault_range",
+      "note": "codex.quest.hunt_cataclysm.guide_wither_assault.task.1",
+      "note_en": "Test both firing modes at an open range away from any buildings"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 50,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 3,
+    "text": [
+     "codex.quest.hunt_cataclysm.guide_wither_assault.text.0",
+     "codex.quest.hunt_cataclysm.guide_wither_assault.text.1",
+     "codex.quest.hunt_cataclysm.guide_wither_assault.text.2"
+    ]
+   },
+   {
+    "id": "guide_cursium_gear",
+    "title": "codex.quest.hunt_cataclysm.guide_cursium_gear.title",
+    "icon": "cataclysm:cursium_helmet",
+    "deps": [
+     "frosted"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "cataclysm:cursium_upgrade_smithing_template",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "cataclysm:cursium_helmet",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 55,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 5,
+    "text": [
+     "codex.quest.hunt_cataclysm.guide_cursium_gear.text.0",
+     "codex.quest.hunt_cataclysm.guide_cursium_gear.text.1",
+     "codex.quest.hunt_cataclysm.guide_cursium_gear.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "hunt"
  },
  {
   "id": "hunt_beasts",
@@ -587,10 +748,11 @@
     "title": "codex.quest.hunt_beasts.dictionary.title",
     "icon": "alexsmobs:animal_dictionary",
     "x": 0,
-    "y": 0,
+    "y": 4,
     "text": [
      "codex.quest.hunt_beasts.dictionary.text.0",
-     "codex.quest.hunt_beasts.dictionary.text.1"
+     "codex.quest.hunt_beasts.dictionary.text.1",
+     "codex.quest.hunt_beasts.dictionary.text.2"
     ],
     "tasks": [
      {
@@ -608,14 +770,17 @@
      ],
      "xp": 80,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "tame",
     "title": "codex.quest.hunt_beasts.tame.title",
     "icon": "alexsmobs:acacia_blossom",
-    "x": -1,
-    "y": 1,
+    "x": 2,
+    "y": 3,
     "deps": [
      "dictionary"
     ],
@@ -627,11 +792,13 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "alexsmobs:alexsmobs/tame_grizzly_bear"
+      "id": "alexsmobs:alexsmobs/tame_grizzly_bear",
+      "note": "codex.quest.hunt_beasts.tame.task.0"
      },
      {
       "type": "advancement",
-      "id": "alexsmobs:alexsmobs/tame_gorilla"
+      "id": "alexsmobs:alexsmobs/tame_gorilla",
+      "note": "codex.quest.hunt_beasts.tame.task.1"
      },
      {
       "type": "item",
@@ -654,14 +821,15 @@
     "id": "locators",
     "title": "codex.quest.hunt_beasts.locators.title",
     "icon": "alexsmobs:echolocator",
-    "x": -1,
-    "y": 2,
+    "x": 4,
+    "y": 5,
     "deps": [
      "tame"
     ],
     "text": [
      "codex.quest.hunt_beasts.locators.text.0",
-     "codex.quest.hunt_beasts.locators.text.1"
+     "codex.quest.hunt_beasts.locators.text.1",
+     "codex.quest.hunt_beasts.locators.text.2"
     ],
     "tasks": [
      {
@@ -695,8 +863,8 @@
     "id": "beast_gear",
     "title": "codex.quest.hunt_beasts.beast_gear.title",
     "icon": "alexsmobs:tarantula_hawk_elytra",
-    "x": -1,
-    "y": 3,
+    "x": 6,
+    "y": 5,
     "deps": [
      "locators"
     ],
@@ -737,8 +905,8 @@
     "id": "voidworm",
     "title": "codex.quest.hunt_beasts.voidworm.title",
     "icon": "alexsmobs:dimensional_carver",
-    "x": -1,
-    "y": 4,
+    "x": 8,
+    "y": 5,
     "deps": [
      "beast_gear"
     ],
@@ -755,7 +923,8 @@
      },
      {
       "type": "advancement",
-      "id": "alexsmobs:alexsmobs/void_worm_kill"
+      "id": "alexsmobs:alexsmobs/void_worm_kill",
+      "note": "codex.quest.hunt_beasts.voidworm.task.1"
      },
      {
       "type": "item",
@@ -778,14 +947,15 @@
     "id": "transmute",
     "title": "codex.quest.hunt_beasts.transmute.title",
     "icon": "alexsmobs:transmutation_table",
-    "x": -1,
+    "x": 10,
     "y": 5,
     "deps": [
      "voidworm"
     ],
     "text": [
      "codex.quest.hunt_beasts.transmute.text.0",
-     "codex.quest.hunt_beasts.transmute.text.1"
+     "codex.quest.hunt_beasts.transmute.text.1",
+     "codex.quest.hunt_beasts.transmute.text.2"
     ],
     "tasks": [
      {
@@ -810,8 +980,8 @@
     "id": "wroughtnaut",
     "title": "codex.quest.hunt_beasts.wroughtnaut.title",
     "icon": "mowziesmobs:wrought_axe",
-    "x": 1,
-    "y": 1,
+    "x": 0,
+    "y": 5,
     "text": [
      "codex.quest.hunt_beasts.wroughtnaut.text.0",
      "codex.quest.hunt_beasts.wroughtnaut.text.1",
@@ -820,7 +990,8 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "mowziesmobs:kill_ferrous_wroughtnaut"
+      "id": "mowziesmobs:kill_ferrous_wroughtnaut",
+      "note": "codex.quest.hunt_beasts.wroughtnaut.task.0"
      },
      {
       "type": "item",
@@ -842,14 +1013,17 @@
      ],
      "xp": 500,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "frostmaw",
     "title": "codex.quest.hunt_beasts.frostmaw.title",
     "icon": "mowziesmobs:ice_crystal",
-    "x": 1,
-    "y": 2,
+    "x": 2,
+    "y": 4,
     "deps": [
      "wroughtnaut"
     ],
@@ -861,7 +1035,8 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "mowziesmobs:kill_frostmaw"
+      "id": "mowziesmobs:kill_frostmaw",
+      "note": "codex.quest.hunt_beasts.frostmaw.task.0"
      },
      {
       "type": "item",
@@ -884,8 +1059,8 @@
     "id": "umvuthi",
     "title": "codex.quest.hunt_beasts.umvuthi.title",
     "icon": "mowziesmobs:sol_visage",
-    "x": 1,
-    "y": 3,
+    "x": 4,
+    "y": 6,
     "deps": [
      "frostmaw"
     ],
@@ -897,11 +1072,13 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "mowziesmobs:suns_blessing"
+      "id": "mowziesmobs:suns_blessing",
+      "note": "codex.quest.hunt_beasts.umvuthi.task.0"
      },
      {
       "type": "advancement",
-      "id": "mowziesmobs:kill_umvuthi"
+      "id": "mowziesmobs:kill_umvuthi",
+      "note": "codex.quest.hunt_beasts.umvuthi.task.1"
      },
      {
       "type": "item",
@@ -924,16 +1101,15 @@
     "id": "sculptor",
     "title": "codex.quest.hunt_beasts.sculptor.title",
     "icon": "mowziesmobs:earthrend_gauntlet",
-    "x": 1,
-    "y": 4,
+    "x": 6,
+    "y": 6,
     "deps": [
      "umvuthi"
     ],
     "text": [
      "codex.quest.hunt_beasts.sculptor.text.0",
      "codex.quest.hunt_beasts.sculptor.text.1",
-     "codex.quest.hunt_beasts.sculptor.text.2",
-     "codex.quest.hunt_beasts.sculptor.text.3"
+     "codex.quest.hunt_beasts.sculptor.text.2"
     ],
     "tasks": [
      {
@@ -943,7 +1119,8 @@
      },
      {
       "type": "advancement",
-      "id": "mowziesmobs:sculptor_challenge"
+      "id": "mowziesmobs:sculptor_challenge",
+      "note": "codex.quest.hunt_beasts.sculptor.task.1"
      },
      {
       "type": "item",
@@ -967,7 +1144,7 @@
     "title": "codex.quest.hunt_beasts.chemx.title",
     "icon": "mutantmonsters:hulk_hammer",
     "x": 0,
-    "y": 1,
+    "y": 6,
     "text": [
      "codex.quest.hunt_beasts.chemx.text.0",
      "codex.quest.hunt_beasts.chemx.text.1",
@@ -976,11 +1153,13 @@
     "tasks": [
      {
       "type": "advancement",
-      "id": "mutantmonsters:gunpowder_spice"
+      "id": "mutantmonsters:gunpowder_spice",
+      "note": "codex.quest.hunt_beasts.chemx.task.0"
      },
      {
       "type": "advancement",
-      "id": "mutantmonsters:burn_zombie_burn"
+      "id": "mutantmonsters:burn_zombie_burn",
+      "note": "codex.quest.hunt_beasts.chemx.task.1"
      },
      {
       "type": "item",
@@ -997,14 +1176,17 @@
      ],
      "xp": 600,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "mutant_gear",
     "title": "codex.quest.hunt_beasts.mutant_gear.title",
     "icon": "mutantmonsters:mutant_skeleton_chestplate",
-    "x": 0,
-    "y": 2,
+    "x": 2,
+    "y": 7,
     "deps": [
      "chemx"
     ],
@@ -1046,12 +1228,11 @@
     "title": "codex.quest.hunt_beasts.combat.title",
     "icon": "minecraft:iron_sword",
     "x": 0,
-    "y": 3,
+    "y": 7,
     "text": [
      "codex.quest.hunt_beasts.combat.text.0",
      "codex.quest.hunt_beasts.combat.text.1",
-     "codex.quest.hunt_beasts.combat.text.2",
-     "codex.quest.hunt_beasts.combat.text.3"
+     "codex.quest.hunt_beasts.combat.text.2"
     ],
     "tasks": [
      {
@@ -1069,9 +1250,145 @@
      ],
      "xp": 100,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
+   },
+   {
+    "id": "guide_blowgun",
+    "title": "codex.quest.hunt_beasts.guide_blowgun.title",
+    "icon": "mowziesmobs:blowgun",
+    "deps": [
+     "combat"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "mowziesmobs:kill_naga",
+      "note": "codex.quest.hunt_beasts.guide_blowgun.task.0"
+     },
+     {
+      "type": "item",
+      "id": "mowziesmobs:blowgun",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "mowziesmobs:dart",
+      "count": 8
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 45,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 9,
+    "text": [
+     "codex.quest.hunt_beasts.guide_blowgun.text.0",
+     "codex.quest.hunt_beasts.guide_blowgun.text.1",
+     "codex.quest.hunt_beasts.guide_blowgun.text.2"
+    ]
+   },
+   {
+    "id": "guide_grottol",
+    "title": "codex.quest.hunt_beasts.guide_grottol.title",
+    "icon": "mowziesmobs:captured_grottol",
+    "deps": [
+     "wroughtnaut"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "mowziesmobs:kill_grottol_silk_touch",
+      "note": "codex.quest.hunt_beasts.guide_grottol.task.0"
+     },
+     {
+      "type": "item",
+      "id": "mowziesmobs:captured_grottol",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 45,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 5,
+    "text": [
+     "codex.quest.hunt_beasts.guide_grottol.text.0",
+     "codex.quest.hunt_beasts.guide_grottol.text.1",
+     "codex.quest.hunt_beasts.guide_grottol.text.2"
+    ]
+   },
+   {
+    "id": "guide_ice_theft",
+    "title": "codex.quest.hunt_beasts.guide_ice_theft.title",
+    "icon": "mowziesmobs:ice_crystal",
+    "deps": [
+     "wroughtnaut"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "mowziesmobs:steal_ice_crystal",
+      "note": "codex.quest.hunt_beasts.guide_ice_theft.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 60,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 6,
+    "text": [
+     "codex.quest.hunt_beasts.guide_ice_theft.text.0",
+     "codex.quest.hunt_beasts.guide_ice_theft.text.1",
+     "codex.quest.hunt_beasts.guide_ice_theft.text.2"
+    ]
+   },
+   {
+    "id": "guide_creeper_minion",
+    "title": "codex.quest.hunt_beasts.guide_creeper_minion.title",
+    "icon": "mutantmonsters:creeper_minion_tracker",
+    "deps": [
+     "chemx"
+    ],
+    "tasks": [
+     {
+      "type": "advancement",
+      "id": "mutantmonsters:you_da_bomby",
+      "note": "codex.quest.hunt_beasts.guide_creeper_minion.task.0"
+     },
+     {
+      "type": "item",
+      "id": "mutantmonsters:creeper_minion_tracker",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 50,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 8,
+    "text": [
+     "codex.quest.hunt_beasts.guide_creeper_minion.text.0",
+     "codex.quest.hunt_beasts.guide_creeper_minion.text.1",
+     "codex.quest.hunt_beasts.guide_creeper_minion.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "hunt"
  },
  {
   "id": "hunt_apotheosis",
@@ -1082,8 +1399,7 @@
   "subtitle": "codex.chapter.hunt_apotheosis.subtitle",
   "intro": [
    "codex.chapter.hunt_apotheosis.intro.0",
-   "codex.chapter.hunt_apotheosis.intro.1",
-   "codex.chapter.hunt_apotheosis.intro.2"
+   "codex.chapter.hunt_apotheosis.intro.1"
   ],
   "quests": [
    {
@@ -1091,7 +1407,7 @@
     "title": "codex.quest.hunt_apotheosis.affixes.title",
     "icon": "apotheosis:gem_dust",
     "x": 0,
-    "y": 0,
+    "y": 8,
     "text": [
      "codex.quest.hunt_apotheosis.affixes.text.0",
      "codex.quest.hunt_apotheosis.affixes.text.1",
@@ -1105,7 +1421,8 @@
      },
      {
       "type": "advancement",
-      "id": "apotheosis:progression/root"
+      "id": "apotheosis:progression/root",
+      "note": "codex.quest.hunt_apotheosis.affixes.task.1"
      }
     ],
     "rewards": {
@@ -1117,14 +1434,17 @@
      ],
      "xp": 150,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "gems",
     "title": "codex.quest.hunt_apotheosis.gems.title",
     "icon": "apotheosis:gem_cutting_table",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 10,
     "text": [
      "codex.quest.hunt_apotheosis.gems.text.0",
      "codex.quest.hunt_apotheosis.gems.text.1",
@@ -1165,8 +1485,8 @@
     "id": "sigils",
     "title": "codex.quest.hunt_apotheosis.sigils.title",
     "icon": "apotheosis:sigil_of_socketing",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 7,
     "text": [
      "codex.quest.hunt_apotheosis.sigils.text.0",
      "codex.quest.hunt_apotheosis.sigils.text.1",
@@ -1207,8 +1527,8 @@
     "id": "reforge",
     "title": "codex.quest.hunt_apotheosis.reforge.title",
     "icon": "apotheosis:reforging_table",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 7,
     "text": [
      "codex.quest.hunt_apotheosis.reforge.text.0",
      "codex.quest.hunt_apotheosis.reforge.text.1",
@@ -1244,8 +1564,8 @@
     "id": "enchanting",
     "title": "codex.quest.hunt_apotheosis.enchanting.title",
     "icon": "apothic_enchanting:apothic_enchanting_table",
-    "x": 1,
-    "y": 4,
+    "x": 8,
+    "y": 6,
     "text": [
      "codex.quest.hunt_apotheosis.enchanting.text.0",
      "codex.quest.hunt_apotheosis.enchanting.text.1",
@@ -1291,8 +1611,8 @@
     "id": "infusion",
     "title": "codex.quest.hunt_apotheosis.infusion.title",
     "icon": "apothic_enchanting:infused_hellshelf",
-    "x": 1,
-    "y": 5,
+    "x": 10,
+    "y": 6,
     "deps": [
      "enchanting"
     ],
@@ -1333,7 +1653,7 @@
     "id": "deepshelf",
     "title": "codex.quest.hunt_apotheosis.deepshelf.title",
     "icon": "apothic_enchanting:echoing_sculkshelf",
-    "x": 1,
+    "x": 12,
     "y": 6,
     "deps": [
      "infusion"
@@ -1375,7 +1695,7 @@
     "id": "hundred",
     "title": "codex.quest.hunt_apotheosis.hundred.title",
     "icon": "apothic_enchanting:draconic_endshelf",
-    "x": 1,
+    "x": 14,
     "y": 7,
     "deps": [
      "deepshelf"
@@ -1383,8 +1703,7 @@
     "text": [
      "codex.quest.hunt_apotheosis.hundred.text.0",
      "codex.quest.hunt_apotheosis.hundred.text.1",
-     "codex.quest.hunt_apotheosis.hundred.text.2",
-     "codex.quest.hunt_apotheosis.hundred.text.3"
+     "codex.quest.hunt_apotheosis.hundred.text.2"
     ],
     "tasks": [
      {
@@ -1420,8 +1739,8 @@
     "id": "tomes",
     "title": "codex.quest.hunt_apotheosis.tomes.title",
     "icon": "apothic_enchanting:bow_tome",
-    "x": 2,
-    "y": 5,
+    "x": 10,
+    "y": 7,
     "deps": [
      "enchanting"
     ],
@@ -1468,8 +1787,8 @@
     "id": "leads",
     "title": "codex.quest.hunt_apotheosis.leads.title",
     "icon": "apothic_enchanting:ender_lead",
-    "x": 2,
-    "y": 6,
+    "x": 12,
+    "y": 7,
     "deps": [
      "infusion"
     ],
@@ -1505,26 +1824,27 @@
    {
     "id": "spawners",
     "title": "codex.quest.hunt_apotheosis.spawners.title",
-    "icon": "apotheosis:spawner_rune",
-    "x": -1,
-    "y": 4,
+    "icon": "minecraft:spawner",
+    "x": 8,
+    "y": 7,
     "deps": [
      "reforge"
     ],
     "text": [
      "codex.quest.hunt_apotheosis.spawners.text.0",
-     "codex.quest.hunt_apotheosis.spawners.text.1"
+     "codex.quest.hunt_apotheosis.spawners.text.1",
+     "codex.quest.hunt_apotheosis.spawners.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "apotheosis:spawner_chain",
-      "count": 1
+      "id": "minecraft:torch",
+      "count": 32
      },
      {
-      "type": "item",
-      "id": "apotheosis:spawner_rune",
-      "count": 1
+      "type": "check",
+      "id": "spawner_cycle_review",
+      "note": "codex.quest.hunt_apotheosis.spawners.task.1"
      }
     ],
     "rewards": {
@@ -1542,8 +1862,8 @@
     "id": "invaders",
     "title": "codex.quest.hunt_apotheosis.invaders.title",
     "icon": "apotheosis:sigil_of_malice",
-    "x": 0,
-    "y": 4,
+    "x": 10,
+    "y": 8,
     "text": [
      "codex.quest.hunt_apotheosis.invaders.text.0",
      "codex.quest.hunt_apotheosis.invaders.text.1",
@@ -1579,8 +1899,8 @@
     "id": "augment",
     "title": "codex.quest.hunt_apotheosis.augment.title",
     "icon": "apotheosis:augmenting_table",
-    "x": 0,
-    "y": 5,
+    "x": 12,
+    "y": 8,
     "text": [
      "codex.quest.hunt_apotheosis.augment.text.0",
      "codex.quest.hunt_apotheosis.augment.text.1",
@@ -1625,16 +1945,18 @@
     "id": "tier_haven",
     "title": "codex.quest.hunt_apotheosis.tier_haven.title",
     "icon": "apotheosis:gem",
-    "x": 3,
-    "y": 0,
+    "x": 0,
+    "y": 9,
     "text": [
      "codex.quest.hunt_apotheosis.tier_haven.text.0",
-     "codex.quest.hunt_apotheosis.tier_haven.text.1"
+     "codex.quest.hunt_apotheosis.tier_haven.text.1",
+     "codex.quest.hunt_apotheosis.tier_haven.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "apotheosis:progression/haven"
+      "id": "apotheosis:progression/haven",
+      "note": "codex.quest.hunt_apotheosis.tier_haven.task.0"
      }
     ],
     "rewards": {
@@ -1646,22 +1968,27 @@
      ],
      "xp": 150,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "tier_frontier",
     "title": "codex.quest.hunt_apotheosis.tier_frontier.title",
     "icon": "apotheosis:timeworn_fabric",
-    "x": 3,
-    "y": 1,
+    "x": 2,
+    "y": 12,
     "text": [
      "codex.quest.hunt_apotheosis.tier_frontier.text.0",
-     "codex.quest.hunt_apotheosis.tier_frontier.text.1"
+     "codex.quest.hunt_apotheosis.tier_frontier.text.1",
+     "codex.quest.hunt_apotheosis.tier_frontier.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "apotheosis:progression/frontier"
+      "id": "apotheosis:progression/frontier",
+      "note": "codex.quest.hunt_apotheosis.tier_frontier.task.0"
      }
     ],
     "rewards": {
@@ -1682,15 +2009,18 @@
     "id": "tier_ascent",
     "title": "codex.quest.hunt_apotheosis.tier_ascent.title",
     "icon": "apotheosis:luminous_crystal_shard",
-    "x": 3,
-    "y": 2,
+    "x": 4,
+    "y": 9,
     "text": [
-     "codex.quest.hunt_apotheosis.tier_ascent.text.0"
+     "codex.quest.hunt_apotheosis.tier_ascent.text.0",
+     "codex.quest.hunt_apotheosis.tier_ascent.text.1",
+     "codex.quest.hunt_apotheosis.tier_ascent.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "apotheosis:progression/ascent"
+      "id": "apotheosis:progression/ascent",
+      "note": "codex.quest.hunt_apotheosis.tier_ascent.task.0"
      }
     ],
     "rewards": {
@@ -1711,15 +2041,18 @@
     "id": "tier_summit",
     "title": "codex.quest.hunt_apotheosis.tier_summit.title",
     "icon": "apotheosis:arcane_sands",
-    "x": 3,
-    "y": 3,
+    "x": 6,
+    "y": 8,
     "text": [
-     "codex.quest.hunt_apotheosis.tier_summit.text.0"
+     "codex.quest.hunt_apotheosis.tier_summit.text.0",
+     "codex.quest.hunt_apotheosis.tier_summit.text.1",
+     "codex.quest.hunt_apotheosis.tier_summit.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "apotheosis:progression/summit"
+      "id": "apotheosis:progression/summit",
+      "note": "codex.quest.hunt_apotheosis.tier_summit.task.0"
      }
     ],
     "rewards": {
@@ -1740,16 +2073,18 @@
     "id": "tier_pinnacle",
     "title": "codex.quest.hunt_apotheosis.tier_pinnacle.title",
     "icon": "apotheosis:godforged_pearl",
-    "x": 3,
-    "y": 4,
+    "x": 8,
+    "y": 9,
     "text": [
      "codex.quest.hunt_apotheosis.tier_pinnacle.text.0",
-     "codex.quest.hunt_apotheosis.tier_pinnacle.text.1"
+     "codex.quest.hunt_apotheosis.tier_pinnacle.text.1",
+     "codex.quest.hunt_apotheosis.tier_pinnacle.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "apotheosis:progression/pinnacle"
+      "id": "apotheosis:progression/pinnacle",
+      "note": "codex.quest.hunt_apotheosis.tier_pinnacle.task.0"
      }
     ],
     "rewards": {
@@ -1769,7 +2104,109 @@
     "deps": [
      "tier_summit"
     ]
+   },
+   {
+    "id": "guide_gem_cutting",
+    "title": "codex.quest.hunt_apotheosis.guide_gem_cutting.title",
+    "icon": "apotheosis:gem_cutting_table",
+    "deps": [
+     "gems"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apotheosis:gem_dust",
+      "count": 3
+     },
+     {
+      "type": "item",
+      "id": "apotheosis:mysterious_scrap_metal",
+      "count": 9
+     },
+     {
+      "type": "check",
+      "id": "gem_purity_upgrade",
+      "note": "codex.quest.hunt_apotheosis.guide_gem_cutting.task.2",
+      "note_en": "Raise the purity of one gem at the Gem Cutting Table"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 45,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 8,
+    "text": [
+     "codex.quest.hunt_apotheosis.guide_gem_cutting.text.0",
+     "codex.quest.hunt_apotheosis.guide_gem_cutting.text.1",
+     "codex.quest.hunt_apotheosis.guide_gem_cutting.text.2"
+    ]
+   },
+   {
+    "id": "guide_potion_charm",
+    "title": "codex.quest.hunt_apotheosis.guide_potion_charm.title",
+    "icon": "apotheosis:potion_charm",
+    "deps": [
+     "affixes"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apotheosis:potion_charm",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 40,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 11,
+    "text": [
+     "codex.quest.hunt_apotheosis.guide_potion_charm.text.0",
+     "codex.quest.hunt_apotheosis.guide_potion_charm.text.1",
+     "codex.quest.hunt_apotheosis.guide_potion_charm.text.2"
+    ]
+   },
+   {
+    "id": "guide_salvage_cycle",
+    "title": "codex.quest.hunt_apotheosis.guide_salvage_cycle.title",
+    "icon": "apotheosis:salvaging_table",
+    "deps": [
+     "reforge"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "apotheosis:timeworn_fabric",
+      "count": 3
+     },
+     {
+      "type": "check",
+      "id": "reforge_review",
+      "note": "codex.quest.hunt_apotheosis.guide_salvage_cycle.task.1",
+      "note_en": "Reforge an unwanted affix item and compare its properties before and after"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 50,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 8,
+    "text": [
+     "codex.quest.hunt_apotheosis.guide_salvage_cycle.text.0",
+     "codex.quest.hunt_apotheosis.guide_salvage_cycle.text.1",
+     "codex.quest.hunt_apotheosis.guide_salvage_cycle.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "hunt"
  }
 ]

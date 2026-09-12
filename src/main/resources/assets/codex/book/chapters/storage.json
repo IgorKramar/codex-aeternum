@@ -18,7 +18,9 @@
     "x": 0,
     "y": 0,
     "text": [
-     "codex.quest.rs_network.silicon.text.0"
+     "codex.quest.rs_network.silicon.text.0",
+     "codex.quest.rs_network.silicon.text.1",
+     "codex.quest.rs_network.silicon.text.2"
     ],
     "tasks": [
      {
@@ -36,16 +38,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "quartz_iron",
     "title": "codex.quest.rs_network.quartz_iron.title",
     "icon": "refinedstorage:quartz_enriched_iron",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 0,
     "text": [
-     "codex.quest.rs_network.quartz_iron.text.0"
+     "codex.quest.rs_network.quartz_iron.text.0",
+     "codex.quest.rs_network.quartz_iron.text.1",
+     "codex.quest.rs_network.quartz_iron.text.2"
     ],
     "tasks": [
      {
@@ -67,10 +74,12 @@
     "id": "controller",
     "title": "codex.quest.rs_network.controller.title",
     "icon": "refinedstorage:controller",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 1,
     "text": [
-     "codex.quest.rs_network.controller.text.0"
+     "codex.quest.rs_network.controller.text.0",
+     "codex.quest.rs_network.controller.text.1",
+     "codex.quest.rs_network.controller.text.2"
     ],
     "tasks": [
      {
@@ -101,10 +110,12 @@
     "id": "cable",
     "title": "codex.quest.rs_network.cable.title",
     "icon": "refinedstorage:cable",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 1,
     "text": [
-     "codex.quest.rs_network.cable.text.0"
+     "codex.quest.rs_network.cable.text.0",
+     "codex.quest.rs_network.cable.text.1",
+     "codex.quest.rs_network.cable.text.2"
     ],
     "tasks": [
      {
@@ -131,10 +142,12 @@
     "id": "drive",
     "title": "codex.quest.rs_network.drive.title",
     "icon": "refinedstorage:disk_drive",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 2,
     "text": [
-     "codex.quest.rs_network.drive.text.0"
+     "codex.quest.rs_network.drive.text.0",
+     "codex.quest.rs_network.drive.text.1",
+     "codex.quest.rs_network.drive.text.2"
     ],
     "tasks": [
      {
@@ -166,10 +179,12 @@
     "id": "grid",
     "title": "codex.quest.rs_network.grid.title",
     "icon": "refinedstorage:grid",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 1,
     "text": [
-     "codex.quest.rs_network.grid.text.0"
+     "codex.quest.rs_network.grid.text.0",
+     "codex.quest.rs_network.grid.text.1",
+     "codex.quest.rs_network.grid.text.2"
     ],
     "tasks": [
      {
@@ -201,13 +216,15 @@
     "id": "blocks_storage",
     "title": "codex.quest.rs_network.blocks_storage.title",
     "icon": "refinedstorage:1k_storage_block",
-    "x": 1,
-    "y": 4,
+    "x": 10,
+    "y": 2,
     "deps": [
      "drive"
     ],
     "text": [
-     "codex.quest.rs_network.blocks_storage.text.0"
+     "codex.quest.rs_network.blocks_storage.text.0",
+     "codex.quest.rs_network.blocks_storage.text.1",
+     "codex.quest.rs_network.blocks_storage.text.2"
     ],
     "tasks": [
      {
@@ -227,13 +244,15 @@
     "id": "external",
     "title": "codex.quest.rs_network.external.title",
     "icon": "refinedstorage:external_storage",
-    "x": 1,
-    "y": 5,
+    "x": 12,
+    "y": 1,
     "deps": [
      "grid"
     ],
     "text": [
-     "codex.quest.rs_network.external.text.0"
+     "codex.quest.rs_network.external.text.0",
+     "codex.quest.rs_network.external.text.1",
+     "codex.quest.rs_network.external.text.2"
     ],
     "tasks": [
      {
@@ -257,10 +276,12 @@
     "id": "io",
     "title": "codex.quest.rs_network.io.title",
     "icon": "refinedstorage:importer",
-    "x": 0,
-    "y": 6,
+    "x": 14,
+    "y": 0,
     "text": [
-     "codex.quest.rs_network.io.text.0"
+     "codex.quest.rs_network.io.text.0",
+     "codex.quest.rs_network.io.text.1",
+     "codex.quest.rs_network.io.text.2"
     ],
     "tasks": [
      {
@@ -302,10 +323,12 @@
     "id": "constructor",
     "title": "codex.quest.rs_network.constructor.title",
     "icon": "refinedstorage:constructor",
-    "x": 1,
-    "y": 6,
+    "x": 16,
+    "y": 0,
     "text": [
-     "codex.quest.rs_network.constructor.text.0"
+     "codex.quest.rs_network.constructor.text.0",
+     "codex.quest.rs_network.constructor.text.1",
+     "codex.quest.rs_network.constructor.text.2"
     ],
     "tasks": [
      {
@@ -332,10 +355,12 @@
     "id": "monitor",
     "title": "codex.quest.rs_network.monitor.title",
     "icon": "refinedstorage:storage_monitor",
-    "x": 2,
-    "y": 6,
+    "x": 18,
+    "y": 1,
     "text": [
-     "codex.quest.rs_network.monitor.text.0"
+     "codex.quest.rs_network.monitor.text.0",
+     "codex.quest.rs_network.monitor.text.1",
+     "codex.quest.rs_network.monitor.text.2"
     ],
     "tasks": [
      {
@@ -362,10 +387,12 @@
     "id": "wireless",
     "title": "codex.quest.rs_network.wireless.title",
     "icon": "refinedstorage:wireless_grid",
-    "x": 0,
-    "y": 7,
+    "x": 20,
+    "y": 0,
     "text": [
-     "codex.quest.rs_network.wireless.text.0"
+     "codex.quest.rs_network.wireless.text.0",
+     "codex.quest.rs_network.wireless.text.1",
+     "codex.quest.rs_network.wireless.text.2"
     ],
     "tasks": [
      {
@@ -402,10 +429,12 @@
     "id": "security",
     "title": "codex.quest.rs_network.security.title",
     "icon": "refinedstorage:security_manager",
-    "x": 1,
-    "y": 7,
+    "x": 22,
+    "y": 0,
     "text": [
-     "codex.quest.rs_network.security.text.0"
+     "codex.quest.rs_network.security.text.0",
+     "codex.quest.rs_network.security.text.1",
+     "codex.quest.rs_network.security.text.2"
     ],
     "tasks": [
      {
@@ -428,8 +457,66 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "guide_power_recovery",
+    "title": "codex.quest.rs_network.guide_power_recovery.title",
+    "icon": "refinedstorage:controller",
+    "deps": [
+     "grid"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_power_recovery",
+      "note": "codex.quest.rs_network.guide_power_recovery.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 2,
+    "text": [
+     "codex.quest.rs_network.guide_power_recovery.text.0",
+     "codex.quest.rs_network.guide_power_recovery.text.1",
+     "codex.quest.rs_network.guide_power_recovery.text.2"
+    ]
+   },
+   {
+    "id": "guide_disk_migration",
+    "title": "codex.quest.rs_network.guide_disk_migration.title",
+    "icon": "refinedstorage:disk_interface",
+    "deps": [
+     "guide_power_recovery",
+     "external"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_disk_migration",
+      "note": "codex.quest.rs_network.guide_disk_migration.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 1,
+    "text": [
+     "codex.quest.rs_network.guide_disk_migration.text.0",
+     "codex.quest.rs_network.guide_disk_migration.text.1",
+     "codex.quest.rs_network.guide_disk_migration.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "storage"
  },
  {
   "id": "rs_autocraft",
@@ -439,17 +526,20 @@
   "icon": "refinedstorage:autocrafter",
   "subtitle": "codex.chapter.rs_autocraft.subtitle",
   "intro": [
-   "codex.chapter.rs_autocraft.intro.0"
+   "codex.chapter.rs_autocraft.intro.0",
+   "codex.chapter.rs_autocraft.intro.1"
   ],
   "quests": [
    {
     "id": "pattern_grid",
     "title": "codex.quest.rs_autocraft.pattern_grid.title",
     "icon": "refinedstorage:pattern_grid",
-    "x": 0,
-    "y": 0,
+    "x": 12,
+    "y": 3,
     "text": [
-     "codex.quest.rs_autocraft.pattern_grid.text.0"
+     "codex.quest.rs_autocraft.pattern_grid.text.0",
+     "codex.quest.rs_autocraft.pattern_grid.text.1",
+     "codex.quest.rs_autocraft.pattern_grid.text.2"
     ],
     "tasks": [
      {
@@ -467,16 +557,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "rs_network/grid"
+    ]
    },
    {
     "id": "autocrafter",
     "title": "codex.quest.rs_autocraft.autocrafter.title",
     "icon": "refinedstorage:autocrafter",
-    "x": 0,
-    "y": 1,
+    "x": 14,
+    "y": 3,
     "text": [
-     "codex.quest.rs_autocraft.autocrafter.text.0"
+     "codex.quest.rs_autocraft.autocrafter.text.0",
+     "codex.quest.rs_autocraft.autocrafter.text.1",
+     "codex.quest.rs_autocraft.autocrafter.text.2"
     ],
     "tasks": [
      {
@@ -503,10 +598,12 @@
     "id": "manager",
     "title": "codex.quest.rs_autocraft.manager.title",
     "icon": "refinedstorage:autocrafter_manager",
-    "x": 0,
-    "y": 2,
+    "x": 16,
+    "y": 1,
     "text": [
-     "codex.quest.rs_autocraft.manager.text.0"
+     "codex.quest.rs_autocraft.manager.text.0",
+     "codex.quest.rs_autocraft.manager.text.1",
+     "codex.quest.rs_autocraft.manager.text.2"
     ],
     "tasks": [
      {
@@ -528,10 +625,12 @@
     "id": "monitor_craft",
     "title": "codex.quest.rs_autocraft.monitor_craft.title",
     "icon": "refinedstorage:autocrafting_monitor",
-    "x": 1,
+    "x": 18,
     "y": 2,
     "text": [
-     "codex.quest.rs_autocraft.monitor_craft.text.0"
+     "codex.quest.rs_autocraft.monitor_craft.text.0",
+     "codex.quest.rs_autocraft.monitor_craft.text.1",
+     "codex.quest.rs_autocraft.monitor_craft.text.2"
     ],
     "tasks": [
      {
@@ -553,10 +652,12 @@
     "id": "upgrade_craft",
     "title": "codex.quest.rs_autocraft.upgrade_craft.title",
     "icon": "refinedstorage:autocrafting_upgrade",
-    "x": 0,
-    "y": 3,
+    "x": 20,
+    "y": 1,
     "text": [
-     "codex.quest.rs_autocraft.upgrade_craft.text.0"
+     "codex.quest.rs_autocraft.upgrade_craft.text.0",
+     "codex.quest.rs_autocraft.upgrade_craft.text.1",
+     "codex.quest.rs_autocraft.upgrade_craft.text.2"
     ],
     "tasks": [
      {
@@ -578,10 +679,12 @@
     "id": "wireless_craft",
     "title": "codex.quest.rs_autocraft.wireless_craft.title",
     "icon": "refinedstorage:wireless_autocrafting_monitor",
-    "x": 1,
-    "y": 3,
+    "x": 22,
+    "y": 1,
     "text": [
-     "codex.quest.rs_autocraft.wireless_craft.text.0"
+     "codex.quest.rs_autocraft.wireless_craft.text.0",
+     "codex.quest.rs_autocraft.wireless_craft.text.1",
+     "codex.quest.rs_autocraft.wireless_craft.text.2"
     ],
     "tasks": [
      {
@@ -604,10 +707,12 @@
     "id": "jei_rs",
     "title": "codex.quest.rs_autocraft.jei_rs.title",
     "icon": "minecraft:bookshelf",
-    "x": 0,
-    "y": 4,
+    "x": 22,
+    "y": 2,
     "text": [
-     "codex.quest.rs_autocraft.jei_rs.text.0"
+     "codex.quest.rs_autocraft.jei_rs.text.0",
+     "codex.quest.rs_autocraft.jei_rs.text.1",
+     "codex.quest.rs_autocraft.jei_rs.text.2"
     ],
     "tasks": [
      {
@@ -617,7 +722,7 @@
      }
     ],
     "deps": [
-     "wireless_craft"
+     "upgrade_craft"
     ],
     "rewards": {
      "items": [],
@@ -629,13 +734,15 @@
     "id": "big_project",
     "title": "codex.quest.rs_autocraft.big_project.title",
     "icon": "refinedstorage:advanced_processor",
-    "x": 0,
-    "y": 5,
+    "x": 22,
+    "y": 3,
     "deps": [
      "upgrade_craft"
     ],
     "text": [
-     "codex.quest.rs_autocraft.big_project.text.0"
+     "codex.quest.rs_autocraft.big_project.text.0",
+     "codex.quest.rs_autocraft.big_project.text.1",
+     "codex.quest.rs_autocraft.big_project.text.2"
     ],
     "tasks": [
      {
@@ -654,8 +761,190 @@
      "xp": 120,
      "text": []
     }
+   },
+   {
+    "id": "processor_line_setup",
+    "title": "codex.quest.rs_autocraft.processor_line_setup.title",
+    "icon": "refinedstorage:autocrafter",
+    "x": 16,
+    "y": 2,
+    "deps": [
+     "autocrafter"
+    ],
+    "text": [
+     "codex.quest.rs_autocraft.processor_line_setup.text.0",
+     "codex.quest.rs_autocraft.processor_line_setup.text.1",
+     "codex.quest.rs_autocraft.processor_line_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:autocrafter",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "refinedstorage:importer",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "processor_line_batch",
+    "title": "codex.quest.rs_autocraft.processor_line_batch.title",
+    "icon": "refinedstorage:autocrafter",
+    "x": 18,
+    "y": 3,
+    "deps": [
+     "processor_line_setup"
+    ],
+    "text": [
+     "codex.quest.rs_autocraft.processor_line_batch.text.0",
+     "codex.quest.rs_autocraft.processor_line_batch.text.1",
+     "codex.quest.rs_autocraft.processor_line_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:advanced_processor",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "processor_line_run",
+    "title": "codex.quest.rs_autocraft.processor_line_run.title",
+    "icon": "refinedstorage:autocrafter",
+    "x": 20,
+    "y": 3,
+    "deps": [
+     "processor_line_batch"
+    ],
+    "text": [
+     "codex.quest.rs_autocraft.processor_line_run.text.0",
+     "codex.quest.rs_autocraft.processor_line_run.text.1",
+     "codex.quest.rs_autocraft.processor_line_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.rs_autocraft.processor_line_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_bindings",
+    "title": "codex.quest.rs_autocraft.guide_bindings.title",
+    "icon": "refinedstorage:processor_binding",
+    "deps": [
+     "autocrafter"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:processor_binding",
+      "count": 16
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 3,
+    "text": [
+     "codex.quest.rs_autocraft.guide_bindings.text.0",
+     "codex.quest.rs_autocraft.guide_bindings.text.1",
+     "codex.quest.rs_autocraft.guide_bindings.text.2"
+    ]
+   },
+   {
+    "id": "guide_return_fault",
+    "title": "codex.quest.rs_autocraft.guide_return_fault.title",
+    "icon": "refinedstorage:autocrafting_monitor",
+    "deps": [
+     "guide_bindings",
+     "monitor_craft"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_return_fault",
+      "note": "codex.quest.rs_autocraft.guide_return_fault.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 20,
+    "y": 2,
+    "text": [
+     "codex.quest.rs_autocraft.guide_return_fault.text.0",
+     "codex.quest.rs_autocraft.guide_return_fault.text.1",
+     "codex.quest.rs_autocraft.guide_return_fault.text.2"
+    ]
+   },
+   {
+    "id": "guide_stock_limit",
+    "title": "codex.quest.rs_autocraft.guide_stock_limit.title",
+    "icon": "refinedstorage:regulator_upgrade",
+    "deps": [
+     "guide_return_fault",
+     "upgrade_craft"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "refinedstorage:regulator_upgrade",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "guide_stock_limit",
+      "note": "codex.quest.rs_autocraft.guide_stock_limit.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 22,
+    "y": 4,
+    "text": [
+     "codex.quest.rs_autocraft.guide_stock_limit.text.0",
+     "codex.quest.rs_autocraft.guide_stock_limit.text.1",
+     "codex.quest.rs_autocraft.guide_stock_limit.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "storage"
  },
  {
   "id": "storage_local",
@@ -664,16 +953,21 @@
   "title": "codex.chapter.storage_local.title",
   "icon": "sophisticatedbackpacks:diamond_backpack",
   "subtitle": "codex.chapter.storage_local.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.storage_local.intro.0",
+   "codex.chapter.storage_local.intro.1"
+  ],
   "quests": [
    {
     "id": "backpack_tiers",
     "title": "codex.quest.storage_local.backpack_tiers.title",
     "icon": "sophisticatedbackpacks:diamond_backpack",
     "x": 0,
-    "y": 0,
+    "y": 1,
     "text": [
-     "codex.quest.storage_local.backpack_tiers.text.0"
+     "codex.quest.storage_local.backpack_tiers.text.0",
+     "codex.quest.storage_local.backpack_tiers.text.1",
+     "codex.quest.storage_local.backpack_tiers.text.2"
     ],
     "tasks": [
      {
@@ -691,19 +985,24 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/backpack"
+    ]
    },
    {
     "id": "backpack_auto",
     "title": "codex.quest.storage_local.backpack_auto.title",
     "icon": "sophisticatedbackpacks:auto_smelting_upgrade",
-    "x": 1,
-    "y": 0,
+    "x": 2,
+    "y": 1,
     "deps": [
      "backpack_tiers"
     ],
     "text": [
-     "codex.quest.storage_local.backpack_auto.text.0"
+     "codex.quest.storage_local.backpack_auto.text.0",
+     "codex.quest.storage_local.backpack_auto.text.1",
+     "codex.quest.storage_local.backpack_auto.text.2"
     ],
     "tasks": [
      {
@@ -733,12 +1032,14 @@
     "title": "codex.quest.storage_local.backpack_filter.title",
     "icon": "sophisticatedbackpacks:advanced_filter_upgrade",
     "x": 2,
-    "y": 0,
+    "y": 2,
     "deps": [
      "backpack_tiers"
     ],
     "text": [
-     "codex.quest.storage_local.backpack_filter.text.0"
+     "codex.quest.storage_local.backpack_filter.text.0",
+     "codex.quest.storage_local.backpack_filter.text.1",
+     "codex.quest.storage_local.backpack_filter.text.2"
     ],
     "tasks": [
      {
@@ -767,13 +1068,15 @@
     "id": "everlasting",
     "title": "codex.quest.storage_local.everlasting.title",
     "icon": "sophisticatedbackpacks:everlasting_upgrade",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 3,
     "deps": [
      "backpack_tiers"
     ],
     "text": [
-     "codex.quest.storage_local.everlasting.text.0"
+     "codex.quest.storage_local.everlasting.text.0",
+     "codex.quest.storage_local.everlasting.text.1",
+     "codex.quest.storage_local.everlasting.text.2"
     ],
     "tasks": [
      {
@@ -793,10 +1096,12 @@
     "id": "vault_create",
     "title": "codex.quest.storage_local.vault_create.title",
     "icon": "create:item_vault",
-    "x": 1,
-    "y": 1,
+    "x": 0,
+    "y": 2,
     "text": [
-     "codex.quest.storage_local.vault_create.text.0"
+     "codex.quest.storage_local.vault_create.text.0",
+     "codex.quest.storage_local.vault_create.text.1",
+     "codex.quest.storage_local.vault_create.text.2"
     ],
     "tasks": [
      {
@@ -809,16 +1114,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/backpack"
+    ]
    },
    {
     "id": "bins",
     "title": "codex.quest.storage_local.bins.title",
     "icon": "mekanism:basic_bin",
-    "x": 2,
-    "y": 1,
+    "x": 0,
+    "y": 3,
     "text": [
-     "codex.quest.storage_local.bins.text.0"
+     "codex.quest.storage_local.bins.text.0",
+     "codex.quest.storage_local.bins.text.1",
+     "codex.quest.storage_local.bins.text.2"
     ],
     "tasks": [
      {
@@ -831,16 +1141,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/backpack"
+    ]
    },
    {
     "id": "rack",
     "title": "codex.quest.storage_local.rack.title",
     "icon": "minecolonies:blockminecoloniesrack",
-    "x": 3,
-    "y": 1,
+    "x": 0,
+    "y": 4,
     "text": [
-     "codex.quest.storage_local.rack.text.0"
+     "codex.quest.storage_local.rack.text.0",
+     "codex.quest.storage_local.rack.text.1",
+     "codex.quest.storage_local.rack.text.2"
     ],
     "tasks": [
      {
@@ -854,8 +1169,125 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/backpack"
+    ]
+   },
+   {
+    "id": "guide_deposit_test",
+    "title": "codex.quest.storage_local.guide_deposit_test.title",
+    "icon": "sophisticatedbackpacks:deposit_upgrade",
+    "deps": [
+     "backpack_filter"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_deposit_test",
+      "note": "codex.quest.storage_local.guide_deposit_test.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 2,
+    "text": [
+     "codex.quest.storage_local.guide_deposit_test.text.0",
+     "codex.quest.storage_local.guide_deposit_test.text.1",
+     "codex.quest.storage_local.guide_deposit_test.text.2"
+    ]
+   },
+   {
+    "id": "guide_void_filter",
+    "title": "codex.quest.storage_local.guide_void_filter.title",
+    "icon": "sophisticatedbackpacks:void_upgrade",
+    "deps": [
+     "guide_deposit_test"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_void_filter",
+      "note": "codex.quest.storage_local.guide_void_filter.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 2,
+    "text": [
+     "codex.quest.storage_local.guide_void_filter.text.0",
+     "codex.quest.storage_local.guide_void_filter.text.1",
+     "codex.quest.storage_local.guide_void_filter.text.2"
+    ]
+   },
+   {
+    "id": "guide_bin_assignment",
+    "title": "codex.quest.storage_local.guide_bin_assignment.title",
+    "icon": "mekanism:basic_bin",
+    "deps": [
+     "bins"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_bin_assignment",
+      "note": "codex.quest.storage_local.guide_bin_assignment.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 4,
+    "text": [
+     "codex.quest.storage_local.guide_bin_assignment.text.0",
+     "codex.quest.storage_local.guide_bin_assignment.text.1",
+     "codex.quest.storage_local.guide_bin_assignment.text.2"
+    ]
+   },
+   {
+    "id": "guide_bulk_network",
+    "title": "codex.quest.storage_local.guide_bulk_network.title",
+    "icon": "refinedstorage:external_storage",
+    "deps": [
+     "guide_bin_assignment",
+     "rs_network/external"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_bulk_network",
+      "note": "codex.quest.storage_local.guide_bulk_network.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 2,
+    "text": [
+     "codex.quest.storage_local.guide_bulk_network.text.0",
+     "codex.quest.storage_local.guide_bulk_network.text.1",
+     "codex.quest.storage_local.guide_bulk_network.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "storage"
  }
 ]

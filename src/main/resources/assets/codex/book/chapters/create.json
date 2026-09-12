@@ -16,10 +16,11 @@
     "title": "codex.quest.create_basics.andesite.title",
     "icon": "create:andesite_alloy",
     "x": 0,
-    "y": 0,
+    "y": 8,
     "text": [
      "codex.quest.create_basics.andesite.text.0",
-     "codex.quest.create_basics.andesite.text.1"
+     "codex.quest.create_basics.andesite.text.1",
+     "codex.quest.create_basics.andesite.text.2"
     ],
     "tasks": [
      {
@@ -37,17 +38,21 @@
      ],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "shaft",
     "title": "codex.quest.create_basics.shaft.title",
     "icon": "create:shaft",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 5,
     "text": [
      "codex.quest.create_basics.shaft.text.0",
-     "codex.quest.create_basics.shaft.text.1"
+     "codex.quest.create_basics.shaft.text.1",
+     "codex.quest.create_basics.shaft.text.2"
     ],
     "tasks": [
      {
@@ -69,11 +74,12 @@
     "id": "cogwheel",
     "title": "codex.quest.create_basics.cogwheel.title",
     "icon": "create:cogwheel",
-    "x": -1,
-    "y": 2,
+    "x": 4,
+    "y": 6,
     "text": [
      "codex.quest.create_basics.cogwheel.text.0",
-     "codex.quest.create_basics.cogwheel.text.1"
+     "codex.quest.create_basics.cogwheel.text.1",
+     "codex.quest.create_basics.cogwheel.text.2"
     ],
     "tasks": [
      {
@@ -100,13 +106,15 @@
     "id": "handcrank",
     "title": "codex.quest.create_basics.handcrank.title",
     "icon": "create:hand_crank",
-    "x": 1,
-    "y": 2,
+    "x": 4,
+    "y": 7,
     "deps": [
      "shaft"
     ],
     "text": [
-     "codex.quest.create_basics.handcrank.text.0"
+     "codex.quest.create_basics.handcrank.text.0",
+     "codex.quest.create_basics.handcrank.text.1",
+     "codex.quest.create_basics.handcrank.text.2"
     ],
     "tasks": [
      {
@@ -125,13 +133,15 @@
     "id": "waterwheel",
     "title": "codex.quest.create_basics.waterwheel.title",
     "icon": "create:water_wheel",
-    "x": -1,
-    "y": 3,
+    "x": 4,
+    "y": 8,
     "deps": [
-     "cogwheel"
+     "shaft"
     ],
     "text": [
-     "codex.quest.create_basics.waterwheel.text.0"
+     "codex.quest.create_basics.waterwheel.text.0",
+     "codex.quest.create_basics.waterwheel.text.1",
+     "codex.quest.create_basics.waterwheel.text.2"
     ],
     "tasks": [
      {
@@ -159,13 +169,15 @@
     "id": "bigwheel",
     "title": "codex.quest.create_basics.bigwheel.title",
     "icon": "create:large_water_wheel",
-    "x": -2,
-    "y": 4,
+    "x": 6,
+    "y": 7,
     "deps": [
      "waterwheel"
     ],
     "text": [
-     "codex.quest.create_basics.bigwheel.text.0"
+     "codex.quest.create_basics.bigwheel.text.0",
+     "codex.quest.create_basics.bigwheel.text.1",
+     "codex.quest.create_basics.bigwheel.text.2"
     ],
     "tasks": [
      {
@@ -178,20 +190,22 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "optional": true
    },
    {
     "id": "windmill",
     "title": "codex.quest.create_basics.windmill.title",
     "icon": "create:windmill_bearing",
-    "x": 1,
-    "y": 3,
+    "x": 6,
+    "y": 5,
     "deps": [
      "cogwheel"
     ],
     "text": [
      "codex.quest.create_basics.windmill.text.0",
-     "codex.quest.create_basics.windmill.text.1"
+     "codex.quest.create_basics.windmill.text.1",
+     "codex.quest.create_basics.windmill.text.2"
     ],
     "tasks": [
      {
@@ -215,13 +229,15 @@
     "id": "sail",
     "title": "codex.quest.create_basics.sail.title",
     "icon": "create:white_sail",
-    "x": 2,
-    "y": 3,
+    "x": 8,
+    "y": 1,
     "deps": [
      "windmill"
     ],
     "text": [
-     "codex.quest.create_basics.sail.text.0"
+     "codex.quest.create_basics.sail.text.0",
+     "codex.quest.create_basics.sail.text.1",
+     "codex.quest.create_basics.sail.text.2"
     ],
     "tasks": [
      {
@@ -234,20 +250,22 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "optional": true
    },
    {
     "id": "stress",
     "title": "codex.quest.create_basics.stress.title",
     "icon": "create:stressometer",
-    "x": 0,
+    "x": 8,
     "y": 4,
     "deps": [
-     "waterwheel",
-     "windmill"
+     "cogwheel"
     ],
     "text": [
-     "codex.quest.create_basics.stress.text.0"
+     "codex.quest.create_basics.stress.text.0",
+     "codex.quest.create_basics.stress.text.1",
+     "codex.quest.create_basics.stress.text.2"
     ],
     "tasks": [
      {
@@ -265,16 +283,23 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "any_deps": [
+     "waterwheel",
+     "windmill",
+     "handcrank"
+    ]
    },
    {
     "id": "wrench",
     "title": "codex.quest.create_basics.wrench.title",
     "icon": "create:wrench",
-    "x": 0,
-    "y": 5,
+    "x": 2,
+    "y": 6,
     "text": [
-     "codex.quest.create_basics.wrench.text.0"
+     "codex.quest.create_basics.wrench.text.0",
+     "codex.quest.create_basics.wrench.text.1",
+     "codex.quest.create_basics.wrench.text.2"
     ],
     "tasks": [
      {
@@ -284,7 +309,7 @@
      }
     ],
     "deps": [
-     "stress"
+     "andesite"
     ],
     "rewards": {
      "items": [
@@ -301,13 +326,15 @@
     "id": "goggles",
     "title": "codex.quest.create_basics.goggles.title",
     "icon": "create:goggles",
-    "x": 1,
-    "y": 5,
+    "x": 4,
+    "y": 10,
     "deps": [
      "wrench"
     ],
     "text": [
-     "codex.quest.create_basics.goggles.text.0"
+     "codex.quest.create_basics.goggles.text.0",
+     "codex.quest.create_basics.goggles.text.1",
+     "codex.quest.create_basics.goggles.text.2"
     ],
     "tasks": [
      {
@@ -327,12 +354,14 @@
     "title": "codex.quest.create_basics.ponder.title",
     "icon": "create:clipboard",
     "x": 2,
-    "y": 5,
+    "y": 7,
     "deps": [
-     "wrench"
+     "andesite"
     ],
     "text": [
-     "codex.quest.create_basics.ponder.text.0"
+     "codex.quest.create_basics.ponder.text.0",
+     "codex.quest.create_basics.ponder.text.1",
+     "codex.quest.create_basics.ponder.text.2"
     ],
     "tasks": [
      {
@@ -346,8 +375,70 @@
      "xp": 25,
      "text": []
     }
+   },
+   {
+    "id": "guide_isolate",
+    "title": "codex.quest.create_basics.guide_isolate.title",
+    "icon": "create:clutch",
+    "deps": [
+     "stress"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:clutch",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "minecraft:lever",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 3,
+    "text": [
+     "codex.quest.create_basics.guide_isolate.text.0",
+     "codex.quest.create_basics.guide_isolate.text.1",
+     "codex.quest.create_basics.guide_isolate.text.2"
+    ]
+   },
+   {
+    "id": "guide_stress_recovery",
+    "title": "codex.quest.create_basics.guide_stress_recovery.title",
+    "icon": "create:stressometer",
+    "deps": [
+     "guide_isolate"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_stress_recovery",
+      "note": "codex.quest.create_basics.guide_stress_recovery.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 2,
+    "text": [
+     "codex.quest.create_basics.guide_stress_recovery.text.0",
+     "codex.quest.create_basics.guide_stress_recovery.text.1",
+     "codex.quest.create_basics.guide_stress_recovery.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_andesite",
@@ -357,17 +448,20 @@
   "icon": "create:andesite_casing",
   "subtitle": "codex.chapter.create_andesite.subtitle",
   "intro": [
-   "codex.chapter.create_andesite.intro.0"
+   "codex.chapter.create_andesite.intro.0",
+   "codex.chapter.create_andesite.intro.1"
   ],
   "quests": [
    {
     "id": "casing",
     "title": "codex.quest.create_andesite.casing.title",
     "icon": "create:andesite_casing",
-    "x": 0,
-    "y": 0,
+    "x": 4,
+    "y": 9,
     "text": [
-     "codex.quest.create_andesite.casing.text.0"
+     "codex.quest.create_andesite.casing.text.0",
+     "codex.quest.create_andesite.casing.text.1",
+     "codex.quest.create_andesite.casing.text.2"
     ],
     "tasks": [
      {
@@ -380,17 +474,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_basics/shaft"
+    ]
    },
    {
     "id": "press",
     "title": "codex.quest.create_andesite.press.title",
     "icon": "create:mechanical_press",
-    "x": 0,
-    "y": 1,
+    "x": 6,
+    "y": 8,
     "text": [
      "codex.quest.create_andesite.press.text.0",
-     "codex.quest.create_andesite.press.text.1"
+     "codex.quest.create_andesite.press.text.1",
+     "codex.quest.create_andesite.press.text.2"
     ],
     "tasks": [
      {
@@ -422,13 +520,15 @@
     "id": "millstone",
     "title": "codex.quest.create_andesite.millstone.title",
     "icon": "create:millstone",
-    "x": -1,
-    "y": 2,
+    "x": 6,
+    "y": 9,
     "deps": [
      "casing"
     ],
     "text": [
-     "codex.quest.create_andesite.millstone.text.0"
+     "codex.quest.create_andesite.millstone.text.0",
+     "codex.quest.create_andesite.millstone.text.1",
+     "codex.quest.create_andesite.millstone.text.2"
     ],
     "tasks": [
      {
@@ -438,29 +538,29 @@
      },
      {
       "type": "item",
-      "id": "create:crushed_raw_iron",
+      "id": "create:wheat_flour",
       "count": 8
      }
     ],
     "rewards": {
      "items": [],
      "xp": 25,
-     "text": [
-      "codex.quest.create_andesite.millstone.reward.0"
-     ]
+     "text": []
     }
    },
    {
     "id": "saw",
     "title": "codex.quest.create_andesite.saw.title",
     "icon": "create:mechanical_saw",
-    "x": 1,
-    "y": 2,
+    "x": 6,
+    "y": 10,
     "deps": [
-     "press"
+     "casing"
     ],
     "text": [
-     "codex.quest.create_andesite.saw.text.0"
+     "codex.quest.create_andesite.saw.text.0",
+     "codex.quest.create_andesite.saw.text.1",
+     "codex.quest.create_andesite.saw.text.2"
     ],
     "tasks": [
      {
@@ -479,13 +579,15 @@
     "id": "fan",
     "title": "codex.quest.create_andesite.fan.title",
     "icon": "create:encased_fan",
-    "x": 0,
-    "y": 2,
+    "x": 6,
+    "y": 11,
     "deps": [
      "casing"
     ],
     "text": [
-     "codex.quest.create_andesite.fan.text.0"
+     "codex.quest.create_andesite.fan.text.0",
+     "codex.quest.create_andesite.fan.text.1",
+     "codex.quest.create_andesite.fan.text.2"
     ],
     "tasks": [
      {
@@ -504,16 +606,15 @@
     "id": "belt",
     "title": "codex.quest.create_andesite.belt.title",
     "icon": "create:belt_connector",
-    "x": 0,
-    "y": 3,
+    "x": 8,
+    "y": 5,
     "deps": [
-     "fan",
-     "saw",
-     "millstone"
+     "press"
     ],
     "text": [
      "codex.quest.create_andesite.belt.text.0",
-     "codex.quest.create_andesite.belt.text.1"
+     "codex.quest.create_andesite.belt.text.1",
+     "codex.quest.create_andesite.belt.text.2"
     ],
     "tasks": [
      {
@@ -523,8 +624,8 @@
      },
      {
       "type": "item",
-      "id": "create:belt",
-      "count": 16
+      "id": "create:belt_connector",
+      "count": 8
      }
     ],
     "rewards": {
@@ -537,10 +638,12 @@
     "id": "depot",
     "title": "codex.quest.create_andesite.depot.title",
     "icon": "create:depot",
-    "x": -1,
-    "y": 4,
+    "x": 8,
+    "y": 6,
     "text": [
-     "codex.quest.create_andesite.depot.text.0"
+     "codex.quest.create_andesite.depot.text.0",
+     "codex.quest.create_andesite.depot.text.1",
+     "codex.quest.create_andesite.depot.text.2"
     ],
     "tasks": [
      {
@@ -555,7 +658,7 @@
      }
     ],
     "deps": [
-     "belt"
+     "press"
     ],
     "rewards": {
      "items": [],
@@ -567,13 +670,15 @@
     "id": "chute",
     "title": "codex.quest.create_andesite.chute.title",
     "icon": "create:chute",
-    "x": 1,
-    "y": 4,
+    "x": 8,
+    "y": 7,
     "deps": [
-     "belt"
+     "press"
     ],
     "text": [
-     "codex.quest.create_andesite.chute.text.0"
+     "codex.quest.create_andesite.chute.text.0",
+     "codex.quest.create_andesite.chute.text.1",
+     "codex.quest.create_andesite.chute.text.2"
     ],
     "tasks": [
      {
@@ -592,13 +697,15 @@
     "id": "mixer",
     "title": "codex.quest.create_andesite.mixer.title",
     "icon": "create:mechanical_mixer",
-    "x": 0,
-    "y": 5,
+    "x": 8,
+    "y": 8,
     "deps": [
-     "belt"
+     "press"
     ],
     "text": [
-     "codex.quest.create_andesite.mixer.text.0"
+     "codex.quest.create_andesite.mixer.text.0",
+     "codex.quest.create_andesite.mixer.text.1",
+     "codex.quest.create_andesite.mixer.text.2"
     ],
     "tasks": [
      {
@@ -631,13 +738,16 @@
     "id": "blaze",
     "title": "codex.quest.create_andesite.blaze.title",
     "icon": "create:blaze_burner",
-    "x": 1,
-    "y": 5,
+    "x": 10,
+    "y": 4,
     "deps": [
-     "mixer"
+     "mixer",
+     "dim_nether/blaze"
     ],
     "text": [
-     "codex.quest.create_andesite.blaze.text.0"
+     "codex.quest.create_andesite.blaze.text.0",
+     "codex.quest.create_andesite.blaze.text.1",
+     "codex.quest.create_andesite.blaze.text.2"
     ],
     "tasks": [
      {
@@ -661,13 +771,15 @@
     "id": "crafter_basic",
     "title": "codex.quest.create_andesite.crafter_basic.title",
     "icon": "create:mechanical_crafter",
-    "x": 0,
-    "y": 6,
+    "x": 14,
+    "y": 3,
     "deps": [
-     "mixer"
+     "create_brass/brass"
     ],
     "text": [
-     "codex.quest.create_andesite.crafter_basic.text.0"
+     "codex.quest.create_andesite.crafter_basic.text.0",
+     "codex.quest.create_andesite.crafter_basic.text.1",
+     "codex.quest.create_andesite.crafter_basic.text.2"
     ],
     "tasks": [
      {
@@ -691,13 +803,15 @@
     "id": "ejector",
     "title": "codex.quest.create_andesite.ejector.title",
     "icon": "create:weighted_ejector",
-    "x": -1,
+    "x": 20,
     "y": 6,
     "deps": [
-     "depot"
+     "create_brass/precision"
     ],
     "text": [
-     "codex.quest.create_andesite.ejector.text.0"
+     "codex.quest.create_andesite.ejector.text.0",
+     "codex.quest.create_andesite.ejector.text.1",
+     "codex.quest.create_andesite.ejector.text.2"
     ],
     "tasks": [
      {
@@ -711,8 +825,256 @@
      "xp": 25,
      "text": []
     }
+   },
+   {
+    "id": "bakery_setup",
+    "title": "codex.quest.create_andesite.bakery_setup.title",
+    "icon": "create:millstone",
+    "x": 8,
+    "y": 13,
+    "deps": [
+     "millstone"
+    ],
+    "text": [
+     "codex.quest.create_andesite.bakery_setup.text.0",
+     "codex.quest.create_andesite.bakery_setup.text.1",
+     "codex.quest.create_andesite.bakery_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:millstone",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:encased_fan",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:depot",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "bakery_batch",
+    "title": "codex.quest.create_andesite.bakery_batch.title",
+    "icon": "create:millstone",
+    "x": 10,
+    "y": 14,
+    "deps": [
+     "bakery_setup"
+    ],
+    "text": [
+     "codex.quest.create_andesite.bakery_batch.text.0",
+     "codex.quest.create_andesite.bakery_batch.text.1",
+     "codex.quest.create_andesite.bakery_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:bread",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "bakery_run",
+    "title": "codex.quest.create_andesite.bakery_run.title",
+    "icon": "create:millstone",
+    "x": 12,
+    "y": 16,
+    "deps": [
+     "bakery_batch"
+    ],
+    "text": [
+     "codex.quest.create_andesite.bakery_run.text.0",
+     "codex.quest.create_andesite.bakery_run.text.1",
+     "codex.quest.create_andesite.bakery_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.create_andesite.bakery_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "sheets_line_setup",
+    "title": "codex.quest.create_andesite.sheets_line_setup.title",
+    "icon": "create:mechanical_press",
+    "x": 8,
+    "y": 9,
+    "deps": [
+     "press"
+    ],
+    "text": [
+     "codex.quest.create_andesite.sheets_line_setup.text.0",
+     "codex.quest.create_andesite.sheets_line_setup.text.1",
+     "codex.quest.create_andesite.sheets_line_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:mechanical_press",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:belt_connector",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create:andesite_funnel",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "sheets_line_batch",
+    "title": "codex.quest.create_andesite.sheets_line_batch.title",
+    "icon": "create:mechanical_press",
+    "x": 10,
+    "y": 5,
+    "deps": [
+     "sheets_line_setup"
+    ],
+    "text": [
+     "codex.quest.create_andesite.sheets_line_batch.text.0",
+     "codex.quest.create_andesite.sheets_line_batch.text.1",
+     "codex.quest.create_andesite.sheets_line_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:iron_sheet",
+      "count": 32
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "sheets_line_run",
+    "title": "codex.quest.create_andesite.sheets_line_run.title",
+    "icon": "create:mechanical_press",
+    "x": 12,
+    "y": 4,
+    "deps": [
+     "sheets_line_batch"
+    ],
+    "text": [
+     "codex.quest.create_andesite.sheets_line_run.text.0",
+     "codex.quest.create_andesite.sheets_line_run.text.1",
+     "codex.quest.create_andesite.sheets_line_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.create_andesite.sheets_line_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_washing_sample",
+    "title": "codex.quest.create_andesite.guide_washing_sample.title",
+    "icon": "minecraft:gravel",
+    "deps": [
+     "fan"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:iron_nugget",
+      "count": 9
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 14,
+    "text": [
+     "codex.quest.create_andesite.guide_washing_sample.text.0",
+     "codex.quest.create_andesite.guide_washing_sample.text.1",
+     "codex.quest.create_andesite.guide_washing_sample.text.2"
+    ]
+   },
+   {
+    "id": "guide_washing_sort",
+    "title": "codex.quest.create_andesite.guide_washing_sort.title",
+    "icon": "create:brass_funnel",
+    "deps": [
+     "guide_washing_sample",
+     "create_brass/brass_funnel"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_washing_sort",
+      "note": "codex.quest.create_andesite.guide_washing_sort.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 11,
+    "text": [
+     "codex.quest.create_andesite.guide_washing_sort.text.0",
+     "codex.quest.create_andesite.guide_washing_sort.text.1",
+     "codex.quest.create_andesite.guide_washing_sort.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_kinetics",
@@ -722,17 +1084,20 @@
   "icon": "create:gearbox",
   "subtitle": "codex.chapter.create_kinetics.subtitle",
   "intro": [
-   "codex.chapter.create_kinetics.intro.0"
+   "codex.chapter.create_kinetics.intro.0",
+   "codex.chapter.create_kinetics.intro.1"
   ],
   "quests": [
    {
     "id": "gearbox",
     "title": "codex.quest.create_kinetics.gearbox.title",
     "icon": "create:gearbox",
-    "x": 0,
-    "y": 0,
+    "x": 6,
+    "y": 6,
     "text": [
-     "codex.quest.create_kinetics.gearbox.text.0"
+     "codex.quest.create_kinetics.gearbox.text.0",
+     "codex.quest.create_kinetics.gearbox.text.1",
+     "codex.quest.create_kinetics.gearbox.text.2"
     ],
     "tasks": [
      {
@@ -745,16 +1110,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_basics/cogwheel"
+    ]
    },
    {
     "id": "clutch",
     "title": "codex.quest.create_kinetics.clutch.title",
     "icon": "create:clutch",
-    "x": 1,
-    "y": 0,
+    "x": 8,
+    "y": 2,
     "text": [
-     "codex.quest.create_kinetics.clutch.text.0"
+     "codex.quest.create_kinetics.clutch.text.0",
+     "codex.quest.create_kinetics.clutch.text.1",
+     "codex.quest.create_kinetics.clutch.text.2"
     ],
     "tasks": [
      {
@@ -781,10 +1151,12 @@
     "id": "chaindrive",
     "title": "codex.quest.create_kinetics.chaindrive.title",
     "icon": "create:encased_chain_drive",
-    "x": 0,
-    "y": 1,
+    "x": 8,
+    "y": 3,
     "text": [
-     "codex.quest.create_kinetics.chaindrive.text.0"
+     "codex.quest.create_kinetics.chaindrive.text.0",
+     "codex.quest.create_kinetics.chaindrive.text.1",
+     "codex.quest.create_kinetics.chaindrive.text.2"
     ],
     "tasks": [
      {
@@ -794,7 +1166,7 @@
      }
     ],
     "deps": [
-     "clutch"
+     "gearbox"
     ],
     "rewards": {
      "items": [],
@@ -806,10 +1178,12 @@
     "id": "sequenced",
     "title": "codex.quest.create_kinetics.sequenced.title",
     "icon": "create:sequenced_gearshift",
-    "x": 1,
-    "y": 1,
+    "x": 20,
+    "y": 4,
     "text": [
-     "codex.quest.create_kinetics.sequenced.text.0"
+     "codex.quest.create_kinetics.sequenced.text.0",
+     "codex.quest.create_kinetics.sequenced.text.1",
+     "codex.quest.create_kinetics.sequenced.text.2"
     ],
     "tasks": [
      {
@@ -819,7 +1193,8 @@
      }
     ],
     "deps": [
-     "chaindrive"
+     "clutch",
+     "create_brass/precision"
     ],
     "rewards": {
      "items": [],
@@ -831,13 +1206,15 @@
     "id": "rsc",
     "title": "codex.quest.create_kinetics.rsc.title",
     "icon": "create:rotation_speed_controller",
-    "x": 0,
-    "y": 2,
+    "x": 20,
+    "y": 7,
     "deps": [
-     "chaindrive"
+     "create_brass/precision"
     ],
     "text": [
-     "codex.quest.create_kinetics.rsc.text.0"
+     "codex.quest.create_kinetics.rsc.text.0",
+     "codex.quest.create_kinetics.rsc.text.1",
+     "codex.quest.create_kinetics.rsc.text.2"
     ],
     "tasks": [
      {
@@ -856,13 +1233,15 @@
     "id": "flywheel",
     "title": "codex.quest.create_kinetics.flywheel.title",
     "icon": "create:flywheel",
-    "x": 0,
-    "y": 3,
+    "x": 16,
+    "y": 7,
     "deps": [
-     "rsc"
+     "create_copper/boiler"
     ],
     "text": [
-     "codex.quest.create_kinetics.flywheel.text.0"
+     "codex.quest.create_kinetics.flywheel.text.0",
+     "codex.quest.create_kinetics.flywheel.text.1",
+     "codex.quest.create_kinetics.flywheel.text.2"
     ],
     "tasks": [
      {
@@ -886,10 +1265,12 @@
     "id": "logic",
     "title": "codex.quest.create_kinetics.logic.title",
     "icon": "create:pulse_repeater",
-    "x": 1,
-    "y": 3,
+    "x": 10,
+    "y": 2,
     "text": [
-     "codex.quest.create_kinetics.logic.text.0"
+     "codex.quest.create_kinetics.logic.text.0",
+     "codex.quest.create_kinetics.logic.text.1",
+     "codex.quest.create_kinetics.logic.text.2"
     ],
     "tasks": [
      {
@@ -909,7 +1290,7 @@
      }
     ],
     "deps": [
-     "flywheel"
+     "clutch"
     ],
     "rewards": {
      "items": [],
@@ -921,10 +1302,12 @@
     "id": "link",
     "title": "codex.quest.create_kinetics.link.title",
     "icon": "create:redstone_link",
-    "x": 2,
-    "y": 3,
+    "x": 12,
+    "y": 0,
     "text": [
-     "codex.quest.create_kinetics.link.text.0"
+     "codex.quest.create_kinetics.link.text.0",
+     "codex.quest.create_kinetics.link.text.1",
+     "codex.quest.create_kinetics.link.text.2"
     ],
     "tasks": [
      {
@@ -951,13 +1334,15 @@
     "id": "stockpile",
     "title": "codex.quest.create_kinetics.stockpile.title",
     "icon": "create:stockpile_switch",
-    "x": 0,
-    "y": 4,
+    "x": 12,
+    "y": 1,
     "deps": [
      "logic"
     ],
     "text": [
-     "codex.quest.create_kinetics.stockpile.text.0"
+     "codex.quest.create_kinetics.stockpile.text.0",
+     "codex.quest.create_kinetics.stockpile.text.1",
+     "codex.quest.create_kinetics.stockpile.text.2"
     ],
     "tasks": [
      {
@@ -981,13 +1366,15 @@
     "id": "display",
     "title": "codex.quest.create_kinetics.display.title",
     "icon": "create:display_link",
-    "x": 1,
-    "y": 4,
+    "x": 14,
+    "y": 2,
     "deps": [
      "stockpile"
     ],
     "text": [
-     "codex.quest.create_kinetics.display.text.0"
+     "codex.quest.create_kinetics.display.text.0",
+     "codex.quest.create_kinetics.display.text.1",
+     "codex.quest.create_kinetics.display.text.2"
     ],
     "tasks": [
      {
@@ -1007,7 +1394,8 @@
      "text": []
     }
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_fluids",
@@ -1017,17 +1405,20 @@
   "icon": "create:mechanical_pump",
   "subtitle": "codex.chapter.create_fluids.subtitle",
   "intro": [
-   "codex.chapter.create_fluids.intro.0"
+   "codex.chapter.create_fluids.intro.0",
+   "codex.chapter.create_fluids.intro.1"
   ],
   "quests": [
    {
     "id": "pipe",
     "title": "codex.quest.create_fluids.pipe.title",
     "icon": "create:fluid_pipe",
-    "x": 0,
-    "y": 0,
+    "x": 8,
+    "y": 10,
     "text": [
-     "codex.quest.create_fluids.pipe.text.0"
+     "codex.quest.create_fluids.pipe.text.0",
+     "codex.quest.create_fluids.pipe.text.1",
+     "codex.quest.create_fluids.pipe.text.2"
     ],
     "tasks": [
      {
@@ -1040,16 +1431,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_andesite/press"
+    ]
    },
    {
     "id": "pump",
     "title": "codex.quest.create_fluids.pump.title",
     "icon": "create:mechanical_pump",
-    "x": 0,
-    "y": 1,
+    "x": 10,
+    "y": 6,
     "text": [
-     "codex.quest.create_fluids.pump.text.0"
+     "codex.quest.create_fluids.pump.text.0",
+     "codex.quest.create_fluids.pump.text.1",
+     "codex.quest.create_fluids.pump.text.2"
     ],
     "tasks": [
      {
@@ -1071,10 +1467,12 @@
     "id": "tank",
     "title": "codex.quest.create_fluids.tank.title",
     "icon": "create:fluid_tank",
-    "x": -1,
-    "y": 2,
+    "x": 10,
+    "y": 7,
     "text": [
-     "codex.quest.create_fluids.tank.text.0"
+     "codex.quest.create_fluids.tank.text.0",
+     "codex.quest.create_fluids.tank.text.1",
+     "codex.quest.create_fluids.tank.text.2"
     ],
     "tasks": [
      {
@@ -1084,7 +1482,7 @@
      }
     ],
     "deps": [
-     "pump"
+     "pipe"
     ],
     "rewards": {
      "items": [],
@@ -1096,13 +1494,15 @@
     "id": "hose",
     "title": "codex.quest.create_fluids.hose.title",
     "icon": "create:hose_pulley",
-    "x": 1,
-    "y": 2,
+    "x": 12,
+    "y": 5,
     "deps": [
      "pump"
     ],
     "text": [
-     "codex.quest.create_fluids.hose.text.0"
+     "codex.quest.create_fluids.hose.text.0",
+     "codex.quest.create_fluids.hose.text.1",
+     "codex.quest.create_fluids.hose.text.2"
     ],
     "tasks": [
      {
@@ -1126,10 +1526,12 @@
     "id": "spout",
     "title": "codex.quest.create_fluids.spout.title",
     "icon": "create:spout",
-    "x": 0,
-    "y": 3,
+    "x": 12,
+    "y": 6,
     "text": [
-     "codex.quest.create_fluids.spout.text.0"
+     "codex.quest.create_fluids.spout.text.0",
+     "codex.quest.create_fluids.spout.text.1",
+     "codex.quest.create_fluids.spout.text.2"
     ],
     "tasks": [
      {
@@ -1144,7 +1546,7 @@
      }
     ],
     "deps": [
-     "hose"
+     "pump"
     ],
     "rewards": {
      "items": [],
@@ -1156,13 +1558,16 @@
     "id": "chocolate",
     "title": "codex.quest.create_fluids.chocolate.title",
     "icon": "create:chocolate_bucket",
-    "x": 1,
-    "y": 3,
+    "x": 14,
+    "y": 6,
     "deps": [
-     "spout"
+     "spout",
+     "create_andesite/mixer"
     ],
     "text": [
-     "codex.quest.create_fluids.chocolate.text.0"
+     "codex.quest.create_fluids.chocolate.text.0",
+     "codex.quest.create_fluids.chocolate.text.1",
+     "codex.quest.create_fluids.chocolate.text.2"
     ],
     "tasks": [
      {
@@ -1187,14 +1592,16 @@
     "id": "portable_fluid",
     "title": "codex.quest.create_fluids.portable_fluid.title",
     "icon": "create:portable_fluid_interface",
-    "x": 0,
-    "y": 4,
+    "x": 12,
+    "y": 10,
     "deps": [
      "tank",
-     "hose"
+     "create_contraptions/glue"
     ],
     "text": [
-     "codex.quest.create_fluids.portable_fluid.text.0"
+     "codex.quest.create_fluids.portable_fluid.text.0",
+     "codex.quest.create_fluids.portable_fluid.text.1",
+     "codex.quest.create_fluids.portable_fluid.text.2"
     ],
     "tasks": [
      {
@@ -1213,8 +1620,104 @@
      "xp": 25,
      "text": []
     }
+   },
+   {
+    "id": "water_service_setup",
+    "title": "codex.quest.create_fluids.water_service_setup.title",
+    "icon": "create:mechanical_pump",
+    "x": 12,
+    "y": 7,
+    "deps": [
+     "pump"
+    ],
+    "text": [
+     "codex.quest.create_fluids.water_service_setup.text.0",
+     "codex.quest.create_fluids.water_service_setup.text.1",
+     "codex.quest.create_fluids.water_service_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:mechanical_pump",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:fluid_pipe",
+      "count": 8
+     },
+     {
+      "type": "item",
+      "id": "create:fluid_tank",
+      "count": 4
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "water_service_batch",
+    "title": "codex.quest.create_fluids.water_service_batch.title",
+    "icon": "create:mechanical_pump",
+    "x": 14,
+    "y": 7,
+    "deps": [
+     "water_service_setup"
+    ],
+    "text": [
+     "codex.quest.create_fluids.water_service_batch.text.0",
+     "codex.quest.create_fluids.water_service_batch.text.1",
+     "codex.quest.create_fluids.water_service_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:fluid_valve",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "water_service_run",
+    "title": "codex.quest.create_fluids.water_service_run.title",
+    "icon": "create:mechanical_pump",
+    "x": 16,
+    "y": 6,
+    "deps": [
+     "water_service_batch"
+    ],
+    "text": [
+     "codex.quest.create_fluids.water_service_run.text.0",
+     "codex.quest.create_fluids.water_service_run.text.1",
+     "codex.quest.create_fluids.water_service_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.create_fluids.water_service_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_copper",
@@ -1224,17 +1727,20 @@
   "icon": "create:copper_casing",
   "subtitle": "codex.chapter.create_copper.subtitle",
   "intro": [
-   "codex.chapter.create_copper.intro.0"
+   "codex.chapter.create_copper.intro.0",
+   "codex.chapter.create_copper.intro.1"
   ],
   "quests": [
    {
     "id": "copper_casing",
     "title": "codex.quest.create_copper.copper_casing.title",
     "icon": "create:copper_casing",
-    "x": 0,
-    "y": 0,
+    "x": 12,
+    "y": 8,
     "text": [
-     "codex.quest.create_copper.copper_casing.text.0"
+     "codex.quest.create_copper.copper_casing.text.0",
+     "codex.quest.create_copper.copper_casing.text.1",
+     "codex.quest.create_copper.copper_casing.text.2"
     ],
     "tasks": [
      {
@@ -1247,16 +1753,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_fluids/pump"
+    ]
    },
    {
     "id": "boiler",
     "title": "codex.quest.create_copper.boiler.title",
     "icon": "create:steam_engine",
-    "x": 0,
-    "y": 1,
+    "x": 14,
+    "y": 8,
     "text": [
-     "codex.quest.create_copper.boiler.text.0"
+     "codex.quest.create_copper.boiler.text.0",
+     "codex.quest.create_copper.boiler.text.1",
+     "codex.quest.create_copper.boiler.text.2"
     ],
     "tasks": [
      {
@@ -1281,17 +1792,20 @@
      "text": []
     },
     "deps": [
-     "copper_casing"
+     "copper_casing",
+     "create_fluids/tank"
     ]
    },
    {
     "id": "whistle",
     "title": "codex.quest.create_copper.whistle.title",
     "icon": "create:steam_whistle",
-    "x": 1,
-    "y": 1,
+    "x": 16,
+    "y": 8,
     "text": [
-     "codex.quest.create_copper.whistle.text.0"
+     "codex.quest.create_copper.whistle.text.0",
+     "codex.quest.create_copper.whistle.text.1",
+     "codex.quest.create_copper.whistle.text.2"
     ],
     "tasks": [
      {
@@ -1314,10 +1828,12 @@
     "id": "backtank",
     "title": "codex.quest.create_copper.backtank.title",
     "icon": "create:copper_backtank",
-    "x": 0,
-    "y": 2,
+    "x": 14,
+    "y": 9,
     "text": [
-     "codex.quest.create_copper.backtank.text.0"
+     "codex.quest.create_copper.backtank.text.0",
+     "codex.quest.create_copper.backtank.text.1",
+     "codex.quest.create_copper.backtank.text.2"
     ],
     "tasks": [
      {
@@ -1327,7 +1843,7 @@
      }
     ],
     "deps": [
-     "whistle"
+     "copper_casing"
     ],
     "rewards": {
      "items": [],
@@ -1339,10 +1855,12 @@
     "id": "diving",
     "title": "codex.quest.create_copper.diving.title",
     "icon": "create:copper_diving_helmet",
-    "x": 0,
-    "y": 3,
+    "x": 16,
+    "y": 10,
     "text": [
-     "codex.quest.create_copper.diving.text.0"
+     "codex.quest.create_copper.diving.text.0",
+     "codex.quest.create_copper.diving.text.1",
+     "codex.quest.create_copper.diving.text.2"
     ],
     "tasks": [
      {
@@ -1369,10 +1887,12 @@
     "id": "netherite_diving",
     "title": "codex.quest.create_copper.netherite_diving.title",
     "icon": "create:netherite_diving_helmet",
-    "x": 1,
-    "y": 3,
+    "x": 18,
+    "y": 9,
     "text": [
-     "codex.quest.create_copper.netherite_diving.text.0"
+     "codex.quest.create_copper.netherite_diving.text.0",
+     "codex.quest.create_copper.netherite_diving.text.1",
+     "codex.quest.create_copper.netherite_diving.text.2"
     ],
     "tasks": [
      {
@@ -1395,8 +1915,70 @@
      "xp": 25,
      "text": []
     }
+   },
+   {
+    "id": "guide_boiler_supply",
+    "title": "codex.quest.create_copper.guide_boiler_supply.title",
+    "icon": "create:mechanical_pump",
+    "deps": [
+     "boiler"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:water_wheel",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "create:mechanical_pump",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 9,
+    "text": [
+     "codex.quest.create_copper.guide_boiler_supply.text.0",
+     "codex.quest.create_copper.guide_boiler_supply.text.1",
+     "codex.quest.create_copper.guide_boiler_supply.text.2"
+    ]
+   },
+   {
+    "id": "guide_boiler_restart",
+    "title": "codex.quest.create_copper.guide_boiler_restart.title",
+    "icon": "create:steam_engine",
+    "deps": [
+     "guide_boiler_supply"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_boiler_restart",
+      "note": "codex.quest.create_copper.guide_boiler_restart.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 18,
+    "y": 8,
+    "text": [
+     "codex.quest.create_copper.guide_boiler_restart.text.0",
+     "codex.quest.create_copper.guide_boiler_restart.text.1",
+     "codex.quest.create_copper.guide_boiler_restart.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_brass",
@@ -1406,17 +1988,20 @@
   "icon": "create:brass_casing",
   "subtitle": "codex.chapter.create_brass.subtitle",
   "intro": [
-   "codex.chapter.create_brass.intro.0"
+   "codex.chapter.create_brass.intro.0",
+   "codex.chapter.create_brass.intro.1"
   ],
   "quests": [
    {
     "id": "brass",
     "title": "codex.quest.create_brass.brass.title",
     "icon": "create:brass_ingot",
-    "x": 0,
-    "y": 0,
+    "x": 12,
+    "y": 3,
     "text": [
-     "codex.quest.create_brass.brass.text.0"
+     "codex.quest.create_brass.brass.text.0",
+     "codex.quest.create_brass.brass.text.1",
+     "codex.quest.create_brass.brass.text.2"
     ],
     "tasks": [
      {
@@ -1434,16 +2019,21 @@
      ],
      "xp": 40,
      "text": []
-    }
+    },
+    "deps": [
+     "create_andesite/blaze"
+    ]
    },
    {
     "id": "brass_casing",
     "title": "codex.quest.create_brass.brass_casing.title",
     "icon": "create:brass_casing",
-    "x": 0,
-    "y": 1,
+    "x": 14,
+    "y": 4,
     "text": [
-     "codex.quest.create_brass.brass_casing.text.0"
+     "codex.quest.create_brass.brass_casing.text.0",
+     "codex.quest.create_brass.brass_casing.text.1",
+     "codex.quest.create_brass.brass_casing.text.2"
     ],
     "tasks": [
      {
@@ -1465,13 +2055,16 @@
     "id": "crushing",
     "title": "codex.quest.create_brass.crushing.title",
     "icon": "create:crushing_wheel",
-    "x": -1,
+    "x": 16,
     "y": 2,
     "deps": [
-     "brass"
+     "brass",
+     "create_andesite/crafter_basic"
     ],
     "text": [
-     "codex.quest.create_brass.crushing.text.0"
+     "codex.quest.create_brass.crushing.text.0",
+     "codex.quest.create_brass.crushing.text.1",
+     "codex.quest.create_brass.crushing.text.2"
     ],
     "tasks": [
      {
@@ -1495,13 +2088,15 @@
     "id": "brass_funnel",
     "title": "codex.quest.create_brass.brass_funnel.title",
     "icon": "create:brass_funnel",
-    "x": 1,
-    "y": 2,
+    "x": 14,
+    "y": 5,
     "deps": [
-     "brass_casing"
+     "brass"
     ],
     "text": [
-     "codex.quest.create_brass.brass_funnel.text.0"
+     "codex.quest.create_brass.brass_funnel.text.0",
+     "codex.quest.create_brass.brass_funnel.text.1",
+     "codex.quest.create_brass.brass_funnel.text.2"
     ],
     "tasks": [
      {
@@ -1530,13 +2125,15 @@
     "id": "deployer",
     "title": "codex.quest.create_brass.deployer.title",
     "icon": "create:deployer",
-    "x": 0,
+    "x": 16,
     "y": 3,
     "deps": [
      "brass_casing"
     ],
     "text": [
-     "codex.quest.create_brass.deployer.text.0"
+     "codex.quest.create_brass.deployer.text.0",
+     "codex.quest.create_brass.deployer.text.1",
+     "codex.quest.create_brass.deployer.text.2"
     ],
     "tasks": [
      {
@@ -1555,13 +2152,15 @@
     "id": "arm",
     "title": "codex.quest.create_brass.arm.title",
     "icon": "create:mechanical_arm",
-    "x": 1,
-    "y": 3,
+    "x": 20,
+    "y": 8,
     "deps": [
-     "brass_casing"
+     "precision"
     ],
     "text": [
-     "codex.quest.create_brass.arm.text.0"
+     "codex.quest.create_brass.arm.text.0",
+     "codex.quest.create_brass.arm.text.1",
+     "codex.quest.create_brass.arm.text.2"
     ],
     "tasks": [
      {
@@ -1580,14 +2179,16 @@
     "id": "precision",
     "title": "codex.quest.create_brass.precision.title",
     "icon": "create:precision_mechanism",
-    "x": 0,
-    "y": 4,
+    "x": 18,
+    "y": 7,
     "deps": [
      "deployer",
-     "arm"
+     "create_andesite/press"
     ],
     "text": [
-     "codex.quest.create_brass.precision.text.0"
+     "codex.quest.create_brass.precision.text.0",
+     "codex.quest.create_brass.precision.text.1",
+     "codex.quest.create_brass.precision.text.2"
     ],
     "tasks": [
      {
@@ -1611,13 +2212,15 @@
     "id": "vault",
     "title": "codex.quest.create_brass.vault.title",
     "icon": "create:item_vault",
-    "x": -1,
+    "x": 16,
     "y": 4,
     "deps": [
-     "brass_casing"
+     "brass_funnel"
     ],
     "text": [
-     "codex.quest.create_brass.vault.text.0"
+     "codex.quest.create_brass.vault.text.0",
+     "codex.quest.create_brass.vault.text.1",
+     "codex.quest.create_brass.vault.text.2"
     ],
     "tasks": [
      {
@@ -1635,19 +2238,21 @@
    {
     "id": "chromatic",
     "title": "codex.quest.create_brass.chromatic.title",
-    "icon": "create:refined_radiance",
-    "x": 0,
-    "y": 5,
+    "icon": "create:attribute_filter",
+    "x": 20,
+    "y": 9,
     "deps": [
      "precision"
     ],
     "text": [
-     "codex.quest.create_brass.chromatic.text.0"
+     "codex.quest.create_brass.chromatic.text.0",
+     "codex.quest.create_brass.chromatic.text.1",
+     "codex.quest.create_brass.chromatic.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "create:chromatic_compound",
+      "id": "create:attribute_filter",
       "count": 1
      }
     ],
@@ -1657,8 +2262,104 @@
      "xp": 25,
      "text": []
     }
+   },
+   {
+    "id": "assembly_line_setup",
+    "title": "codex.quest.create_brass.assembly_line_setup.title",
+    "icon": "create:deployer",
+    "x": 20,
+    "y": 10,
+    "deps": [
+     "precision"
+    ],
+    "text": [
+     "codex.quest.create_brass.assembly_line_setup.text.0",
+     "codex.quest.create_brass.assembly_line_setup.text.1",
+     "codex.quest.create_brass.assembly_line_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:deployer",
+      "count": 3
+     },
+     {
+      "type": "item",
+      "id": "create:brass_funnel",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create:belt_connector",
+      "count": 3
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "assembly_line_batch",
+    "title": "codex.quest.create_brass.assembly_line_batch.title",
+    "icon": "create:deployer",
+    "x": 22,
+    "y": 8,
+    "deps": [
+     "assembly_line_setup"
+    ],
+    "text": [
+     "codex.quest.create_brass.assembly_line_batch.text.0",
+     "codex.quest.create_brass.assembly_line_batch.text.1",
+     "codex.quest.create_brass.assembly_line_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:precision_mechanism",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "assembly_line_run",
+    "title": "codex.quest.create_brass.assembly_line_run.title",
+    "icon": "create:deployer",
+    "x": 24,
+    "y": 8,
+    "deps": [
+     "assembly_line_batch"
+    ],
+    "text": [
+     "codex.quest.create_brass.assembly_line_run.text.0",
+     "codex.quest.create_brass.assembly_line_run.text.1",
+     "codex.quest.create_brass.assembly_line_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.create_brass.assembly_line_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_contraptions",
@@ -1668,17 +2369,20 @@
   "icon": "create:mechanical_bearing",
   "subtitle": "codex.chapter.create_contraptions.subtitle",
   "intro": [
-   "codex.chapter.create_contraptions.intro.0"
+   "codex.chapter.create_contraptions.intro.0",
+   "codex.chapter.create_contraptions.intro.1"
   ],
   "quests": [
    {
     "id": "glue",
     "title": "codex.quest.create_contraptions.glue.title",
     "icon": "create:super_glue",
-    "x": 0,
-    "y": 0,
+    "x": 8,
+    "y": 11,
     "text": [
-     "codex.quest.create_contraptions.glue.text.0"
+     "codex.quest.create_contraptions.glue.text.0",
+     "codex.quest.create_contraptions.glue.text.1",
+     "codex.quest.create_contraptions.glue.text.2"
     ],
     "tasks": [
      {
@@ -1696,16 +2400,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_andesite/press"
+    ]
    },
    {
     "id": "piston",
     "title": "codex.quest.create_contraptions.piston.title",
     "icon": "create:mechanical_piston",
-    "x": 0,
-    "y": 1,
+    "x": 10,
+    "y": 8,
     "text": [
-     "codex.quest.create_contraptions.piston.text.0"
+     "codex.quest.create_contraptions.piston.text.0",
+     "codex.quest.create_contraptions.piston.text.1",
+     "codex.quest.create_contraptions.piston.text.2"
     ],
     "tasks": [
      {
@@ -1732,13 +2441,15 @@
     "id": "pulley",
     "title": "codex.quest.create_contraptions.pulley.title",
     "icon": "create:rope_pulley",
-    "x": -1,
-    "y": 2,
+    "x": 10,
+    "y": 9,
     "deps": [
      "glue"
     ],
     "text": [
-     "codex.quest.create_contraptions.pulley.text.0"
+     "codex.quest.create_contraptions.pulley.text.0",
+     "codex.quest.create_contraptions.pulley.text.1",
+     "codex.quest.create_contraptions.pulley.text.2"
     ],
     "tasks": [
      {
@@ -1757,13 +2468,15 @@
     "id": "elevator",
     "title": "codex.quest.create_contraptions.elevator.title",
     "icon": "create:elevator_pulley",
-    "x": -2,
-    "y": 3,
+    "x": 12,
+    "y": 11,
     "deps": [
      "pulley"
     ],
     "text": [
-     "codex.quest.create_contraptions.elevator.text.0"
+     "codex.quest.create_contraptions.elevator.text.0",
+     "codex.quest.create_contraptions.elevator.text.1",
+     "codex.quest.create_contraptions.elevator.text.2"
     ],
     "tasks": [
      {
@@ -1773,8 +2486,8 @@
      },
      {
       "type": "item",
-      "id": "create:elevator_contact",
-      "count": 2
+      "id": "create:redstone_contact",
+      "count": 3
      }
     ],
     "rewards": {
@@ -1787,13 +2500,15 @@
     "id": "bearing",
     "title": "codex.quest.create_contraptions.bearing.title",
     "icon": "create:mechanical_bearing",
-    "x": 1,
-    "y": 2,
+    "x": 10,
+    "y": 10,
     "deps": [
      "glue"
     ],
     "text": [
-     "codex.quest.create_contraptions.bearing.text.0"
+     "codex.quest.create_contraptions.bearing.text.0",
+     "codex.quest.create_contraptions.bearing.text.1",
+     "codex.quest.create_contraptions.bearing.text.2"
     ],
     "tasks": [
      {
@@ -1812,13 +2527,15 @@
     "id": "clockwork",
     "title": "codex.quest.create_contraptions.clockwork.title",
     "icon": "create:clockwork_bearing",
-    "x": 2,
-    "y": 2,
+    "x": 12,
+    "y": 13,
     "deps": [
      "bearing"
     ],
     "text": [
-     "codex.quest.create_contraptions.clockwork.text.0"
+     "codex.quest.create_contraptions.clockwork.text.0",
+     "codex.quest.create_contraptions.clockwork.text.1",
+     "codex.quest.create_contraptions.clockwork.text.2"
     ],
     "tasks": [
      {
@@ -1838,14 +2555,16 @@
     "id": "tools_contraption",
     "title": "codex.quest.create_contraptions.tools_contraption.title",
     "icon": "create:mechanical_drill",
-    "x": 0,
-    "y": 3,
+    "x": 12,
+    "y": 12,
     "deps": [
      "piston",
      "bearing"
     ],
     "text": [
-     "codex.quest.create_contraptions.tools_contraption.text.0"
+     "codex.quest.create_contraptions.tools_contraption.text.0",
+     "codex.quest.create_contraptions.tools_contraption.text.1",
+     "codex.quest.create_contraptions.tools_contraption.text.2"
     ],
     "tasks": [
      {
@@ -1884,13 +2603,15 @@
     "id": "cart",
     "title": "codex.quest.create_contraptions.cart.title",
     "icon": "create:cart_assembler",
-    "x": 1,
-    "y": 3,
+    "x": 10,
+    "y": 11,
     "deps": [
      "glue"
     ],
     "text": [
-     "codex.quest.create_contraptions.cart.text.0"
+     "codex.quest.create_contraptions.cart.text.0",
+     "codex.quest.create_contraptions.cart.text.1",
+     "codex.quest.create_contraptions.cart.text.2"
     ],
     "tasks": [
      {
@@ -1914,13 +2635,15 @@
     "id": "gantry",
     "title": "codex.quest.create_contraptions.gantry.title",
     "icon": "create:gantry_carriage",
-    "x": 2,
-    "y": 3,
+    "x": 12,
+    "y": 9,
     "deps": [
      "piston"
     ],
     "text": [
-     "codex.quest.create_contraptions.gantry.text.0"
+     "codex.quest.create_contraptions.gantry.text.0",
+     "codex.quest.create_contraptions.gantry.text.1",
+     "codex.quest.create_contraptions.gantry.text.2"
     ],
     "tasks": [
      {
@@ -1939,14 +2662,16 @@
     "id": "controls",
     "title": "codex.quest.create_contraptions.controls.title",
     "icon": "create:contraption_controls",
-    "x": 0,
-    "y": 4,
+    "x": 14,
+    "y": 11,
     "deps": [
      "tools_contraption",
      "cart"
     ],
     "text": [
-     "codex.quest.create_contraptions.controls.text.0"
+     "codex.quest.create_contraptions.controls.text.0",
+     "codex.quest.create_contraptions.controls.text.1",
+     "codex.quest.create_contraptions.controls.text.2"
     ],
     "tasks": [
      {
@@ -1965,8 +2690,67 @@
      "xp": 25,
      "text": []
     }
+   },
+   {
+    "id": "guide_harvest_circle",
+    "title": "codex.quest.create_contraptions.guide_harvest_circle.title",
+    "icon": "create:mechanical_harvester",
+    "deps": [
+     "bearing",
+     "tools_contraption"
+    ],
+    "tasks": [
+     {
+      "type": "ponder",
+      "id": "create:mechanical_harvester",
+      "note": "codex.quest.create_contraptions.guide_harvest_circle.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 10,
+    "text": [
+     "codex.quest.create_contraptions.guide_harvest_circle.text.0",
+     "codex.quest.create_contraptions.guide_harvest_circle.text.1",
+     "codex.quest.create_contraptions.guide_harvest_circle.text.2"
+    ]
+   },
+   {
+    "id": "guide_harvest_unload",
+    "title": "codex.quest.create_contraptions.guide_harvest_unload.title",
+    "icon": "create:portable_storage_interface",
+    "deps": [
+     "guide_harvest_circle",
+     "create_fluids/portable_fluid"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_harvest_unload",
+      "note": "codex.quest.create_contraptions.guide_harvest_unload.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 12,
+    "text": [
+     "codex.quest.create_contraptions.guide_harvest_unload.text.0",
+     "codex.quest.create_contraptions.guide_harvest_unload.text.1",
+     "codex.quest.create_contraptions.guide_harvest_unload.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_packages",
@@ -1976,17 +2760,20 @@
   "icon": "create:packager",
   "subtitle": "codex.chapter.create_packages.subtitle",
   "intro": [
-   "codex.chapter.create_packages.intro.0"
+   "codex.chapter.create_packages.intro.0",
+   "codex.chapter.create_packages.intro.1"
   ],
   "quests": [
    {
     "id": "cardboard",
     "title": "codex.quest.create_packages.cardboard.title",
     "icon": "create:cardboard",
-    "x": 0,
-    "y": 0,
+    "x": 16,
+    "y": 5,
     "text": [
-     "codex.quest.create_packages.cardboard.text.0"
+     "codex.quest.create_packages.cardboard.text.0",
+     "codex.quest.create_packages.cardboard.text.1",
+     "codex.quest.create_packages.cardboard.text.2"
     ],
     "tasks": [
      {
@@ -1999,16 +2786,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_brass/brass_funnel"
+    ]
    },
    {
     "id": "packager",
     "title": "codex.quest.create_packages.packager.title",
     "icon": "create:packager",
-    "x": 0,
-    "y": 1,
+    "x": 18,
+    "y": 6,
     "text": [
-     "codex.quest.create_packages.packager.text.0"
+     "codex.quest.create_packages.packager.text.0",
+     "codex.quest.create_packages.packager.text.1",
+     "codex.quest.create_packages.packager.text.2"
     ],
     "tasks": [
      {
@@ -2030,10 +2822,12 @@
     "id": "frogport",
     "title": "codex.quest.create_packages.frogport.title",
     "icon": "create:package_frogport",
-    "x": -1,
-    "y": 2,
+    "x": 20,
+    "y": 5,
     "text": [
-     "codex.quest.create_packages.frogport.text.0"
+     "codex.quest.create_packages.frogport.text.0",
+     "codex.quest.create_packages.frogport.text.1",
+     "codex.quest.create_packages.frogport.text.2"
     ],
     "tasks": [
      {
@@ -2055,10 +2849,12 @@
     "id": "chain_conveyor",
     "title": "codex.quest.create_packages.chain_conveyor.title",
     "icon": "create:chain_conveyor",
-    "x": 0,
-    "y": 2,
+    "x": 22,
+    "y": 6,
     "text": [
-     "codex.quest.create_packages.chain_conveyor.text.0"
+     "codex.quest.create_packages.chain_conveyor.text.0",
+     "codex.quest.create_packages.chain_conveyor.text.1",
+     "codex.quest.create_packages.chain_conveyor.text.2"
     ],
     "tasks": [
      {
@@ -2080,10 +2876,12 @@
     "id": "stock_link",
     "title": "codex.quest.create_packages.stock_link.title",
     "icon": "create:stock_link",
-    "x": 1,
-    "y": 2,
+    "x": 24,
+    "y": 7,
     "text": [
-     "codex.quest.create_packages.stock_link.text.0"
+     "codex.quest.create_packages.stock_link.text.0",
+     "codex.quest.create_packages.stock_link.text.1",
+     "codex.quest.create_packages.stock_link.text.2"
     ],
     "tasks": [
      {
@@ -2105,15 +2903,17 @@
     "id": "ticker",
     "title": "codex.quest.create_packages.ticker.title",
     "icon": "create:stock_ticker",
-    "x": 0,
-    "y": 3,
+    "x": 26,
+    "y": 6,
     "deps": [
      "stock_link",
      "packager",
      "frogport"
     ],
     "text": [
-     "codex.quest.create_packages.ticker.text.0"
+     "codex.quest.create_packages.ticker.text.0",
+     "codex.quest.create_packages.ticker.text.1",
+     "codex.quest.create_packages.ticker.text.2"
     ],
     "tasks": [
      {
@@ -2142,13 +2942,15 @@
     "id": "requester",
     "title": "codex.quest.create_packages.requester.title",
     "icon": "create:redstone_requester",
-    "x": 1,
-    "y": 3,
+    "x": 28,
+    "y": 5,
     "deps": [
      "ticker"
     ],
     "text": [
-     "codex.quest.create_packages.requester.text.0"
+     "codex.quest.create_packages.requester.text.0",
+     "codex.quest.create_packages.requester.text.1",
+     "codex.quest.create_packages.requester.text.2"
     ],
     "tasks": [
      {
@@ -2167,13 +2969,15 @@
     "id": "factory_gauge",
     "title": "codex.quest.create_packages.factory_gauge.title",
     "icon": "create:factory_gauge",
-    "x": 0,
-    "y": 4,
+    "x": 28,
+    "y": 6,
     "deps": [
      "ticker"
     ],
     "text": [
-     "codex.quest.create_packages.factory_gauge.text.0"
+     "codex.quest.create_packages.factory_gauge.text.0",
+     "codex.quest.create_packages.factory_gauge.text.1",
+     "codex.quest.create_packages.factory_gauge.text.2"
     ],
     "tasks": [
      {
@@ -2197,13 +3001,15 @@
     "id": "shop",
     "title": "codex.quest.create_packages.shop.title",
     "icon": "create:red_table_cloth",
-    "x": -1,
-    "y": 4,
+    "x": 28,
+    "y": 7,
     "deps": [
      "ticker"
     ],
     "text": [
-     "codex.quest.create_packages.shop.text.0"
+     "codex.quest.create_packages.shop.text.0",
+     "codex.quest.create_packages.shop.text.1",
+     "codex.quest.create_packages.shop.text.2"
     ],
     "tasks": [
      {
@@ -2228,13 +3034,15 @@
     "id": "postbox",
     "title": "codex.quest.create_packages.postbox.title",
     "icon": "create:red_postbox",
-    "x": 1,
-    "y": 4,
+    "x": 22,
+    "y": 7,
     "deps": [
      "frogport"
     ],
     "text": [
-     "codex.quest.create_packages.postbox.text.0"
+     "codex.quest.create_packages.postbox.text.0",
+     "codex.quest.create_packages.postbox.text.1",
+     "codex.quest.create_packages.postbox.text.2"
     ],
     "tasks": [
      {
@@ -2249,8 +3057,65 @@
      "xp": 25,
      "text": []
     }
+   },
+   {
+    "id": "guide_address_test",
+    "title": "codex.quest.create_packages.guide_address_test.title",
+    "icon": "create:package_frogport",
+    "deps": [
+     "ticker"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_address_test",
+      "note": "codex.quest.create_packages.guide_address_test.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 28,
+    "y": 8,
+    "text": [
+     "codex.quest.create_packages.guide_address_test.text.0",
+     "codex.quest.create_packages.guide_address_test.text.1",
+     "codex.quest.create_packages.guide_address_test.text.2"
+    ]
+   },
+   {
+    "id": "guide_repackage",
+    "title": "codex.quest.create_packages.guide_repackage.title",
+    "icon": "create:repackager",
+    "deps": [
+     "guide_address_test"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:repackager",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 30,
+    "y": 7,
+    "text": [
+     "codex.quest.create_packages.guide_repackage.text.0",
+     "codex.quest.create_packages.guide_repackage.text.1",
+     "codex.quest.create_packages.guide_repackage.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_trains",
@@ -2268,10 +3133,12 @@
     "id": "sturdy",
     "title": "codex.quest.create_trains.sturdy.title",
     "icon": "create:sturdy_sheet",
-    "x": 0,
-    "y": 0,
+    "x": 20,
+    "y": 11,
     "text": [
-     "codex.quest.create_trains.sturdy.text.0"
+     "codex.quest.create_trains.sturdy.text.0",
+     "codex.quest.create_trains.sturdy.text.1",
+     "codex.quest.create_trains.sturdy.text.2"
     ],
     "tasks": [
      {
@@ -2284,16 +3151,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_brass/precision"
+    ]
    },
    {
     "id": "railway_casing",
     "title": "codex.quest.create_trains.railway_casing.title",
     "icon": "create:railway_casing",
-    "x": 0,
-    "y": 1,
+    "x": 22,
+    "y": 9,
     "text": [
-     "codex.quest.create_trains.railway_casing.text.0"
+     "codex.quest.create_trains.railway_casing.text.0",
+     "codex.quest.create_trains.railway_casing.text.1",
+     "codex.quest.create_trains.railway_casing.text.2"
     ],
     "tasks": [
      {
@@ -2315,10 +3187,12 @@
     "id": "track",
     "title": "codex.quest.create_trains.track.title",
     "icon": "create:track",
-    "x": 0,
-    "y": 2,
+    "x": 24,
+    "y": 9,
     "text": [
-     "codex.quest.create_trains.track.text.0"
+     "codex.quest.create_trains.track.text.0",
+     "codex.quest.create_trains.track.text.1",
+     "codex.quest.create_trains.track.text.2"
     ],
     "tasks": [
      {
@@ -2340,10 +3214,12 @@
     "id": "station",
     "title": "codex.quest.create_trains.station.title",
     "icon": "create:track_station",
-    "x": 0,
-    "y": 3,
+    "x": 26,
+    "y": 7,
     "text": [
-     "codex.quest.create_trains.station.text.0"
+     "codex.quest.create_trains.station.text.0",
+     "codex.quest.create_trains.station.text.1",
+     "codex.quest.create_trains.station.text.2"
     ],
     "tasks": [
      {
@@ -2364,17 +3240,24 @@
    {
     "id": "bogey",
     "title": "codex.quest.create_trains.bogey.title",
-    "icon": "create:large_bogey",
-    "x": -1,
-    "y": 3,
+    "icon": "create:railway_casing",
+    "x": 28,
+    "y": 9,
     "text": [
-     "codex.quest.create_trains.bogey.text.0"
+     "codex.quest.create_trains.bogey.text.0",
+     "codex.quest.create_trains.bogey.text.1",
+     "codex.quest.create_trains.bogey.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "create:large_bogey",
+      "id": "create:railway_casing",
       "count": 2
+     },
+     {
+      "type": "check",
+      "id": "placed_bogeys",
+      "note": "codex.quest.create_trains.bogey.task.1"
      }
     ],
     "deps": [
@@ -2390,14 +3273,16 @@
     "id": "train",
     "title": "codex.quest.create_trains.train.title",
     "icon": "create:controls",
-    "x": 0,
-    "y": 4,
+    "x": 30,
+    "y": 8,
     "deps": [
      "station",
      "bogey"
     ],
     "text": [
-     "codex.quest.create_trains.train.text.0"
+     "codex.quest.create_trains.train.text.0",
+     "codex.quest.create_trains.train.text.1",
+     "codex.quest.create_trains.train.text.2"
     ],
     "tasks": [
      {
@@ -2421,10 +3306,12 @@
     "id": "schedule",
     "title": "codex.quest.create_trains.schedule.title",
     "icon": "create:schedule",
-    "x": 0,
-    "y": 5,
+    "x": 32,
+    "y": 7,
     "text": [
-     "codex.quest.create_trains.schedule.text.0"
+     "codex.quest.create_trains.schedule.text.0",
+     "codex.quest.create_trains.schedule.text.1",
+     "codex.quest.create_trains.schedule.text.2"
     ],
     "tasks": [
      {
@@ -2451,13 +3338,15 @@
     "id": "signals",
     "title": "codex.quest.create_trains.signals.title",
     "icon": "create:track_signal",
-    "x": 1,
-    "y": 5,
+    "x": 26,
+    "y": 8,
     "deps": [
      "track"
     ],
     "text": [
-     "codex.quest.create_trains.signals.text.0"
+     "codex.quest.create_trains.signals.text.0",
+     "codex.quest.create_trains.signals.text.1",
+     "codex.quest.create_trains.signals.text.2"
     ],
     "tasks": [
      {
@@ -2481,13 +3370,15 @@
     "id": "board",
     "title": "codex.quest.create_trains.board.title",
     "icon": "create:display_board",
-    "x": 2,
-    "y": 5,
+    "x": 28,
+    "y": 10,
     "deps": [
      "signals"
     ],
     "text": [
-     "codex.quest.create_trains.board.text.0"
+     "codex.quest.create_trains.board.text.0",
+     "codex.quest.create_trains.board.text.1",
+     "codex.quest.create_trains.board.text.2"
     ],
     "tasks": [
      {
@@ -2507,13 +3398,15 @@
     "id": "snr_coupler",
     "title": "codex.quest.create_trains.snr_coupler.title",
     "icon": "railways:track_coupler",
-    "x": 0,
-    "y": 6,
+    "x": 32,
+    "y": 8,
     "deps": [
      "train"
     ],
     "text": [
-     "codex.quest.create_trains.snr_coupler.text.0"
+     "codex.quest.create_trains.snr_coupler.text.0",
+     "codex.quest.create_trains.snr_coupler.text.1",
+     "codex.quest.create_trains.snr_coupler.text.2"
     ],
     "tasks": [
      {
@@ -2536,19 +3429,21 @@
    {
     "id": "snr_conductor",
     "title": "codex.quest.create_trains.snr_conductor.title",
-    "icon": "railways:conductor_cap",
-    "x": 1,
+    "icon": "railways:blue_conductor_cap",
+    "x": 34,
     "y": 6,
     "deps": [
      "schedule"
     ],
     "text": [
-     "codex.quest.create_trains.snr_conductor.text.0"
+     "codex.quest.create_trains.snr_conductor.text.0",
+     "codex.quest.create_trains.snr_conductor.text.1",
+     "codex.quest.create_trains.snr_conductor.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "railways:conductor_cap",
+      "id": "railways:blue_conductor_cap",
       "count": 1
      },
      {
@@ -2567,13 +3462,15 @@
     "id": "snr_style",
     "title": "codex.quest.create_trains.snr_style.title",
     "icon": "railways:smokestack_coalburner",
-    "x": 0,
-    "y": 7,
+    "x": 34,
+    "y": 8,
     "deps": [
      "snr_coupler"
     ],
     "text": [
-     "codex.quest.create_trains.snr_style.text.0"
+     "codex.quest.create_trains.snr_style.text.0",
+     "codex.quest.create_trains.snr_style.text.1",
+     "codex.quest.create_trains.snr_style.text.2"
     ],
     "tasks": [
      {
@@ -2593,13 +3490,15 @@
     "id": "snr_handcar",
     "title": "codex.quest.create_trains.snr_handcar.title",
     "icon": "railways:handcar",
-    "x": 1,
-    "y": 7,
+    "x": 26,
+    "y": 9,
     "deps": [
      "track"
     ],
     "text": [
-     "codex.quest.create_trains.snr_handcar.text.0"
+     "codex.quest.create_trains.snr_handcar.text.0",
+     "codex.quest.create_trains.snr_handcar.text.1",
+     "codex.quest.create_trains.snr_handcar.text.2"
     ],
     "tasks": [
      {
@@ -2614,8 +3513,157 @@
      "xp": 25,
      "text": []
     }
+   },
+   {
+    "id": "freight_setup",
+    "title": "codex.quest.create_trains.freight_setup.title",
+    "icon": "create:track_station",
+    "x": 32,
+    "y": 9,
+    "deps": [
+     "train"
+    ],
+    "text": [
+     "codex.quest.create_trains.freight_setup.text.0",
+     "codex.quest.create_trains.freight_setup.text.1",
+     "codex.quest.create_trains.freight_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:track_station",
+      "count": 2
+     },
+     {
+      "type": "item",
+      "id": "create:portable_storage_interface",
+      "count": 2
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "freight_batch",
+    "title": "codex.quest.create_trains.freight_batch.title",
+    "icon": "create:track_station",
+    "x": 34,
+    "y": 9,
+    "deps": [
+     "freight_setup"
+    ],
+    "text": [
+     "codex.quest.create_trains.freight_batch.text.0",
+     "codex.quest.create_trains.freight_batch.text.1",
+     "codex.quest.create_trains.freight_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:schedule",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "freight_run",
+    "title": "codex.quest.create_trains.freight_run.title",
+    "icon": "create:track_station",
+    "x": 36,
+    "y": 8,
+    "deps": [
+     "freight_batch"
+    ],
+    "text": [
+     "codex.quest.create_trains.freight_run.text.0",
+     "codex.quest.create_trains.freight_run.text.1",
+     "codex.quest.create_trains.freight_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.create_trains.freight_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_reverse_route",
+    "title": "codex.quest.create_trains.guide_reverse_route.title",
+    "icon": "create:controls",
+    "deps": [
+     "train",
+     "schedule"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "create:controls",
+      "count": 2
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 34,
+    "y": 7,
+    "text": [
+     "codex.quest.create_trains.guide_reverse_route.text.0",
+     "codex.quest.create_trains.guide_reverse_route.text.1",
+     "codex.quest.create_trains.guide_reverse_route.text.2"
+    ]
+   },
+   {
+    "id": "guide_passing_loop",
+    "title": "codex.quest.create_trains.guide_passing_loop.title",
+    "icon": "create:track_signal",
+    "deps": [
+     "guide_reverse_route",
+     "signals"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "guide_passing_loop",
+      "note": "codex.quest.create_trains.guide_passing_loop.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 36,
+    "y": 7,
+    "text": [
+     "codex.quest.create_trains.guide_passing_loop.text.0",
+     "codex.quest.create_trains.guide_passing_loop.text.1",
+     "codex.quest.create_trains.guide_passing_loop.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_tools",
@@ -2624,16 +3672,21 @@
   "title": "codex.chapter.create_tools.title",
   "icon": "create:extendo_grip",
   "subtitle": "codex.chapter.create_tools.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.create_tools.intro.0",
+   "codex.chapter.create_tools.intro.1"
+  ],
   "quests": [
    {
     "id": "extendo",
     "title": "codex.quest.create_tools.extendo.title",
     "icon": "create:extendo_grip",
-    "x": 0,
-    "y": 0,
+    "x": 8,
+    "y": 12,
     "text": [
-     "codex.quest.create_tools.extendo.text.0"
+     "codex.quest.create_tools.extendo.text.0",
+     "codex.quest.create_tools.extendo.text.1",
+     "codex.quest.create_tools.extendo.text.2"
     ],
     "tasks": [
      {
@@ -2646,16 +3699,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_andesite/press"
+    ]
    },
    {
     "id": "potato",
     "title": "codex.quest.create_tools.potato.title",
     "icon": "create:potato_cannon",
-    "x": 1,
-    "y": 0,
+    "x": 10,
+    "y": 12,
     "text": [
-     "codex.quest.create_tools.potato.text.0"
+     "codex.quest.create_tools.potato.text.0",
+     "codex.quest.create_tools.potato.text.1",
+     "codex.quest.create_tools.potato.text.2"
     ],
     "tasks": [
      {
@@ -2678,10 +3736,12 @@
     "id": "symmetry",
     "title": "codex.quest.create_tools.symmetry.title",
     "icon": "create:wand_of_symmetry",
-    "x": 2,
-    "y": 0,
+    "x": 12,
+    "y": 14,
     "text": [
-     "codex.quest.create_tools.symmetry.text.0"
+     "codex.quest.create_tools.symmetry.text.0",
+     "codex.quest.create_tools.symmetry.text.1",
+     "codex.quest.create_tools.symmetry.text.2"
     ],
     "tasks": [
      {
@@ -2704,10 +3764,12 @@
     "id": "schematic",
     "title": "codex.quest.create_tools.schematic.title",
     "icon": "create:schematic_and_quill",
-    "x": 0,
-    "y": 1,
+    "x": 10,
+    "y": 13,
     "text": [
-     "codex.quest.create_tools.schematic.text.0"
+     "codex.quest.create_tools.schematic.text.0",
+     "codex.quest.create_tools.schematic.text.1",
+     "codex.quest.create_tools.schematic.text.2"
     ],
     "tasks": [
      {
@@ -2722,7 +3784,7 @@
      }
     ],
     "deps": [
-     "symmetry"
+     "extendo"
     ],
     "rewards": {
      "items": [],
@@ -2734,10 +3796,12 @@
     "id": "cannon",
     "title": "codex.quest.create_tools.cannon.title",
     "icon": "create:schematicannon",
-    "x": 0,
-    "y": 2,
+    "x": 12,
+    "y": 15,
     "text": [
-     "codex.quest.create_tools.cannon.text.0"
+     "codex.quest.create_tools.cannon.text.0",
+     "codex.quest.create_tools.cannon.text.1",
+     "codex.quest.create_tools.cannon.text.2"
     ],
     "tasks": [
      {
@@ -2764,10 +3828,12 @@
     "id": "blueprint",
     "title": "codex.quest.create_tools.blueprint.title",
     "icon": "create:crafting_blueprint",
-    "x": 1,
-    "y": 2,
+    "x": 14,
+    "y": 12,
     "text": [
-     "codex.quest.create_tools.blueprint.text.0"
+     "codex.quest.create_tools.blueprint.text.0",
+     "codex.quest.create_tools.blueprint.text.1",
+     "codex.quest.create_tools.blueprint.text.2"
     ],
     "tasks": [
      {
@@ -2790,10 +3856,12 @@
     "id": "toolbox",
     "title": "codex.quest.create_tools.toolbox.title",
     "icon": "create:brown_toolbox",
-    "x": 2,
-    "y": 2,
+    "x": 16,
+    "y": 13,
     "text": [
-     "codex.quest.create_tools.toolbox.text.0"
+     "codex.quest.create_tools.toolbox.text.0",
+     "codex.quest.create_tools.toolbox.text.1",
+     "codex.quest.create_tools.toolbox.text.2"
     ],
     "tasks": [
      {
@@ -2816,13 +3884,15 @@
     "id": "worldshaper",
     "title": "codex.quest.create_tools.worldshaper.title",
     "icon": "create:handheld_worldshaper",
-    "x": 0,
-    "y": 3,
+    "x": 14,
+    "y": 13,
     "deps": [
      "cannon"
     ],
     "text": [
-     "codex.quest.create_tools.worldshaper.text.0"
+     "codex.quest.create_tools.worldshaper.text.0",
+     "codex.quest.create_tools.worldshaper.text.1",
+     "codex.quest.create_tools.worldshaper.text.2"
     ],
     "tasks": [
      {
@@ -2838,7 +3908,8 @@
      "text": []
     }
    }
-  ]
+  ],
+  "map": "create"
  },
  {
   "id": "create_world",
@@ -2847,16 +3918,21 @@
   "title": "codex.chapter.create_world.title",
   "icon": "create:andesite_casing",
   "subtitle": "codex.chapter.create_world.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.create_world.intro.0",
+   "codex.chapter.create_world.intro.1"
+  ],
   "quests": [
    {
     "id": "arise",
     "title": "codex.quest.create_world.arise.title",
     "icon": "create:andesite_casing",
-    "x": 0,
-    "y": 0,
+    "x": 2,
+    "y": 8,
     "text": [
-     "codex.quest.create_world.arise.text.0"
+     "codex.quest.create_world.arise.text.0",
+     "codex.quest.create_world.arise.text.1",
+     "codex.quest.create_world.arise.text.2"
     ],
     "tasks": [
      {
@@ -2869,16 +3945,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_basics/andesite"
+    ]
    },
    {
     "id": "rustic",
     "title": "codex.quest.create_world.rustic.title",
     "icon": "minecraft:oak_planks",
-    "x": 1,
-    "y": 0,
+    "x": 2,
+    "y": 9,
     "text": [
-     "codex.quest.create_world.rustic.text.0"
+     "codex.quest.create_world.rustic.text.0",
+     "codex.quest.create_world.rustic.text.1",
+     "codex.quest.create_world.rustic.text.2"
     ],
     "tasks": [
      {
@@ -2891,16 +3972,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_basics/andesite"
+    ]
    },
    {
     "id": "stickywheels",
     "title": "codex.quest.create_world.stickywheels.title",
     "icon": "offroad:sticky_tire",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 10,
     "text": [
-     "codex.quest.create_world.stickywheels.text.0"
+     "codex.quest.create_world.stickywheels.text.0",
+     "codex.quest.create_world.stickywheels.text.1",
+     "codex.quest.create_world.stickywheels.text.2"
     ],
     "tasks": [
      {
@@ -2914,16 +4000,21 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_basics/andesite"
+    ]
    },
    {
     "id": "deco",
     "title": "codex.quest.create_world.deco.title",
     "icon": "create:copper_shingles",
-    "x": 1,
-    "y": 1,
+    "x": 2,
+    "y": 11,
     "text": [
-     "codex.quest.create_world.deco.text.0"
+     "codex.quest.create_world.deco.text.0",
+     "codex.quest.create_world.deco.text.1",
+     "codex.quest.create_world.deco.text.2"
     ],
     "tasks": [
      {
@@ -2942,8 +4033,12 @@
      "items": [],
      "xp": 25,
      "text": []
-    }
+    },
+    "deps": [
+     "create_basics/andesite"
+    ]
    }
-  ]
+  ],
+  "map": "create"
  }
 ]

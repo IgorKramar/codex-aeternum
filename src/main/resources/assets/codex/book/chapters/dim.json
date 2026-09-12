@@ -7,7 +7,8 @@
   "icon": "minecraft:netherrack",
   "subtitle": "codex.chapter.dim_nether.subtitle",
   "intro": [
-   "codex.chapter.dim_nether.intro.0"
+   "codex.chapter.dim_nether.intro.0",
+   "codex.chapter.dim_nether.intro.1"
   ],
   "quests": [
    {
@@ -15,9 +16,11 @@
     "title": "codex.quest.dim_nether.portal.title",
     "icon": "minecraft:obsidian",
     "x": 0,
-    "y": 0,
+    "y": 2,
     "text": [
-     "codex.quest.dim_nether.portal.text.0"
+     "codex.quest.dim_nether.portal.text.0",
+     "codex.quest.dim_nether.portal.text.1",
+     "codex.quest.dim_nether.portal.text.2"
     ],
     "tasks": [
      {
@@ -30,16 +33,21 @@
      "items": [],
      "xp": 45,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "blaze",
     "title": "codex.quest.dim_nether.blaze.title",
     "icon": "minecraft:blaze_rod",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 2,
     "text": [
-     "codex.quest.dim_nether.blaze.text.0"
+     "codex.quest.dim_nether.blaze.text.0",
+     "codex.quest.dim_nether.blaze.text.1",
+     "codex.quest.dim_nether.blaze.text.2"
     ],
     "tasks": [
      {
@@ -66,10 +74,12 @@
     "id": "quartz",
     "title": "codex.quest.dim_nether.quartz.title",
     "icon": "minecraft:quartz",
-    "x": 1,
-    "y": 1,
+    "x": 4,
+    "y": 0,
     "text": [
-     "codex.quest.dim_nether.quartz.text.0"
+     "codex.quest.dim_nether.quartz.text.0",
+     "codex.quest.dim_nether.quartz.text.1",
+     "codex.quest.dim_nether.quartz.text.2"
     ],
     "tasks": [
      {
@@ -91,10 +101,12 @@
     "id": "ancient",
     "title": "codex.quest.dim_nether.ancient.title",
     "icon": "minecraft:netherite_ingot",
-    "x": 0,
-    "y": 2,
+    "x": 6,
+    "y": 1,
     "text": [
-     "codex.quest.dim_nether.ancient.text.0"
+     "codex.quest.dim_nether.ancient.text.0",
+     "codex.quest.dim_nether.ancient.text.1",
+     "codex.quest.dim_nether.ancient.text.2"
     ],
     "tasks": [
      {
@@ -116,10 +128,12 @@
     "id": "fortress",
     "title": "codex.quest.dim_nether.fortress.title",
     "icon": "minecraft:nether_brick",
-    "x": 1,
-    "y": 2,
+    "x": 8,
+    "y": 1,
     "text": [
-     "codex.quest.dim_nether.fortress.text.0"
+     "codex.quest.dim_nether.fortress.text.0",
+     "codex.quest.dim_nether.fortress.text.1",
+     "codex.quest.dim_nether.fortress.text.2"
     ],
     "tasks": [
      {
@@ -141,10 +155,12 @@
     "id": "nether_et",
     "title": "codex.quest.dim_nether.nether_et.title",
     "icon": "minecraft:clock",
-    "x": 0,
-    "y": 3,
+    "x": 10,
+    "y": 0,
     "text": [
-     "codex.quest.dim_nether.nether_et.text.0"
+     "codex.quest.dim_nether.nether_et.text.0",
+     "codex.quest.dim_nether.nether_et.text.1",
+     "codex.quest.dim_nether.nether_et.text.2"
     ],
     "tasks": [
      {
@@ -162,8 +178,65 @@
      "xp": 45,
      "text": []
     }
+   },
+   {
+    "id": "guide_portal_shelter",
+    "title": "codex.quest.dim_nether.guide_portal_shelter.title",
+    "icon": "minecraft:cobblestone",
+    "deps": [
+     "portal"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:cobblestone",
+      "count": 64
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 3,
+    "text": [
+     "codex.quest.dim_nether.guide_portal_shelter.text.0",
+     "codex.quest.dim_nether.guide_portal_shelter.text.1",
+     "codex.quest.dim_nether.guide_portal_shelter.text.2"
+    ]
+   },
+   {
+    "id": "guide_wart_patch",
+    "title": "codex.quest.dim_nether.guide_wart_patch.title",
+    "icon": "minecraft:soul_sand",
+    "deps": [
+     "fortress"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:soul_sand",
+      "count": 8
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 1,
+    "text": [
+     "codex.quest.dim_nether.guide_wart_patch.text.0",
+     "codex.quest.dim_nether.guide_wart_patch.text.1",
+     "codex.quest.dim_nether.guide_wart_patch.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "dim"
  },
  {
   "id": "dim_end",
@@ -172,16 +245,21 @@
   "title": "codex.chapter.dim_end.title",
   "icon": "minecraft:end_portal_frame",
   "subtitle": "codex.chapter.dim_end.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.dim_end.intro.0",
+   "codex.chapter.dim_end.intro.1"
+  ],
   "quests": [
    {
     "id": "stronghold",
     "title": "codex.quest.dim_end.stronghold.title",
     "icon": "minecraft:ender_eye",
-    "x": 0,
-    "y": 0,
+    "x": 4,
+    "y": 1,
     "text": [
-     "codex.quest.dim_end.stronghold.text.0"
+     "codex.quest.dim_end.stronghold.text.0",
+     "codex.quest.dim_end.stronghold.text.1",
+     "codex.quest.dim_end.stronghold.text.2"
     ],
     "tasks": [
      {
@@ -194,16 +272,21 @@
      "items": [],
      "xp": 45,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/blaze"
+    ]
    },
    {
     "id": "dragon",
     "title": "codex.quest.dim_end.dragon.title",
     "icon": "minecraft:dragon_head",
-    "x": 0,
-    "y": 1,
+    "x": 6,
+    "y": 3,
     "text": [
-     "codex.quest.dim_end.dragon.text.0"
+     "codex.quest.dim_end.dragon.text.0",
+     "codex.quest.dim_end.dragon.text.1",
+     "codex.quest.dim_end.dragon.text.2"
     ],
     "tasks": [
      {
@@ -230,10 +313,12 @@
     "id": "elytra",
     "title": "codex.quest.dim_end.elytra.title",
     "icon": "minecraft:elytra",
-    "x": 0,
-    "y": 2,
+    "x": 8,
+    "y": 4,
     "text": [
-     "codex.quest.dim_end.elytra.text.0"
+     "codex.quest.dim_end.elytra.text.0",
+     "codex.quest.dim_end.elytra.text.1",
+     "codex.quest.dim_end.elytra.text.2"
     ],
     "tasks": [
      {
@@ -255,10 +340,12 @@
     "id": "shulker",
     "title": "codex.quest.dim_end.shulker.title",
     "icon": "minecraft:shulker_shell",
-    "x": 1,
-    "y": 2,
+    "x": 10,
+    "y": 4,
     "text": [
-     "codex.quest.dim_end.shulker.text.0"
+     "codex.quest.dim_end.shulker.text.0",
+     "codex.quest.dim_end.shulker.text.1",
+     "codex.quest.dim_end.shulker.text.2"
     ],
     "tasks": [
      {
@@ -280,10 +367,12 @@
     "id": "end_et",
     "title": "codex.quest.dim_end.end_et.title",
     "icon": "minecraft:end_stone",
-    "x": 0,
+    "x": 12,
     "y": 3,
     "text": [
-     "codex.quest.dim_end.end_et.text.0"
+     "codex.quest.dim_end.end_et.text.0",
+     "codex.quest.dim_end.end_et.text.1",
+     "codex.quest.dim_end.end_et.text.2"
     ],
     "tasks": [
      {
@@ -301,8 +390,65 @@
      "xp": 45,
      "text": []
     }
+   },
+   {
+    "id": "guide_breath_reserve",
+    "title": "codex.quest.dim_end.guide_breath_reserve.title",
+    "icon": "minecraft:glass_bottle",
+    "deps": [
+     "stronghold"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:glass_bottle",
+      "count": 8
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 4,
+    "text": [
+     "codex.quest.dim_end.guide_breath_reserve.text.0",
+     "codex.quest.dim_end.guide_breath_reserve.text.1",
+     "codex.quest.dim_end.guide_breath_reserve.text.2"
+    ]
+   },
+   {
+    "id": "guide_box_manifest",
+    "title": "codex.quest.dim_end.guide_box_manifest.title",
+    "icon": "minecraft:shulker_box",
+    "deps": [
+     "shulker"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:shulker_box",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 4,
+    "text": [
+     "codex.quest.dim_end.guide_box_manifest.text.0",
+     "codex.quest.dim_end.guide_box_manifest.text.1",
+     "codex.quest.dim_end.guide_box_manifest.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "dim"
  },
  {
   "id": "dim_aether",
@@ -312,17 +458,20 @@
   "icon": "aether:aether_portal_frame",
   "subtitle": "codex.chapter.dim_aether.subtitle",
   "intro": [
-   "codex.chapter.dim_aether.intro.0"
+   "codex.chapter.dim_aether.intro.0",
+   "codex.chapter.dim_aether.intro.1"
   ],
   "quests": [
    {
     "id": "aether_portal",
     "title": "codex.quest.dim_aether.aether_portal.title",
     "icon": "aether:aether_portal_frame",
-    "x": 0,
-    "y": 0,
+    "x": 6,
+    "y": 2,
     "text": [
-     "codex.quest.dim_aether.aether_portal.text.0"
+     "codex.quest.dim_aether.aether_portal.text.0",
+     "codex.quest.dim_aether.aether_portal.text.1",
+     "codex.quest.dim_aether.aether_portal.text.2"
     ],
     "tasks": [
      {
@@ -335,16 +484,21 @@
      "items": [],
      "xp": 45,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_nether/quartz"
+    ]
    },
    {
     "id": "holystone",
     "title": "codex.quest.dim_aether.holystone.title",
     "icon": "aether:holystone_pickaxe",
-    "x": 0,
-    "y": 1,
+    "x": 8,
+    "y": 2,
     "text": [
-     "codex.quest.dim_aether.holystone.text.0"
+     "codex.quest.dim_aether.holystone.text.0",
+     "codex.quest.dim_aether.holystone.text.1",
+     "codex.quest.dim_aether.holystone.text.2"
     ],
     "tasks": [
      {
@@ -376,10 +530,12 @@
     "id": "zanite",
     "title": "codex.quest.dim_aether.zanite.title",
     "icon": "aether:zanite_gemstone",
-    "x": 0,
+    "x": 10,
     "y": 2,
     "text": [
-     "codex.quest.dim_aether.zanite.text.0"
+     "codex.quest.dim_aether.zanite.text.0",
+     "codex.quest.dim_aether.zanite.text.1",
+     "codex.quest.dim_aether.zanite.text.2"
     ],
     "tasks": [
      {
@@ -406,10 +562,12 @@
     "id": "altar",
     "title": "codex.quest.dim_aether.altar.title",
     "icon": "aether:altar",
-    "x": 0,
-    "y": 3,
+    "x": 12,
+    "y": 1,
     "text": [
-     "codex.quest.dim_aether.altar.text.0"
+     "codex.quest.dim_aether.altar.text.0",
+     "codex.quest.dim_aether.altar.text.1",
+     "codex.quest.dim_aether.altar.text.2"
     ],
     "tasks": [
      {
@@ -436,10 +594,12 @@
     "id": "gravitite",
     "title": "codex.quest.dim_aether.gravitite.title",
     "icon": "aether:enchanted_gravitite",
-    "x": 0,
-    "y": 4,
+    "x": 14,
+    "y": 0,
     "text": [
-     "codex.quest.dim_aether.gravitite.text.0"
+     "codex.quest.dim_aether.gravitite.text.0",
+     "codex.quest.dim_aether.gravitite.text.1",
+     "codex.quest.dim_aether.gravitite.text.2"
     ],
     "tasks": [
      {
@@ -466,13 +626,15 @@
     "id": "moa",
     "title": "codex.quest.dim_aether.moa.title",
     "icon": "aether:blue_moa_egg",
-    "x": -1,
+    "x": 10,
     "y": 3,
     "deps": [
      "holystone"
     ],
     "text": [
-     "codex.quest.dim_aether.moa.text.0"
+     "codex.quest.dim_aether.moa.text.0",
+     "codex.quest.dim_aether.moa.text.1",
+     "codex.quest.dim_aether.moa.text.2"
     ],
     "tasks": [
      {
@@ -501,10 +663,12 @@
     "id": "bronze_dungeon",
     "title": "codex.quest.dim_aether.bronze_dungeon.title",
     "icon": "aether:bronze_dungeon_key",
-    "x": 0,
-    "y": 5,
+    "x": 12,
+    "y": 2,
     "text": [
-     "codex.quest.dim_aether.bronze_dungeon.text.0"
+     "codex.quest.dim_aether.bronze_dungeon.text.0",
+     "codex.quest.dim_aether.bronze_dungeon.text.1",
+     "codex.quest.dim_aether.bronze_dungeon.text.2"
     ],
     "tasks": [
      {
@@ -533,10 +697,12 @@
     "id": "silver_dungeon",
     "title": "codex.quest.dim_aether.silver_dungeon.title",
     "icon": "aether:silver_dungeon_key",
-    "x": 0,
-    "y": 6,
+    "x": 14,
+    "y": 4,
     "text": [
-     "codex.quest.dim_aether.silver_dungeon.text.0"
+     "codex.quest.dim_aether.silver_dungeon.text.0",
+     "codex.quest.dim_aether.silver_dungeon.text.1",
+     "codex.quest.dim_aether.silver_dungeon.text.2"
     ],
     "tasks": [
      {
@@ -568,10 +734,12 @@
     "id": "gold_dungeon",
     "title": "codex.quest.dim_aether.gold_dungeon.title",
     "icon": "aether:gold_dungeon_key",
-    "x": 0,
-    "y": 7,
+    "x": 16,
+    "y": 1,
     "text": [
-     "codex.quest.dim_aether.gold_dungeon.text.0"
+     "codex.quest.dim_aether.gold_dungeon.text.0",
+     "codex.quest.dim_aether.gold_dungeon.text.1",
+     "codex.quest.dim_aether.gold_dungeon.text.2"
     ],
     "tasks": [
      {
@@ -603,13 +771,15 @@
     "id": "accessories",
     "title": "codex.quest.dim_aether.accessories.title",
     "icon": "aether:golden_ring",
-    "x": 1,
-    "y": 5,
+    "x": 14,
+    "y": 1,
     "deps": [
      "altar"
     ],
     "text": [
-     "codex.quest.dim_aether.accessories.text.0"
+     "codex.quest.dim_aether.accessories.text.0",
+     "codex.quest.dim_aether.accessories.text.1",
+     "codex.quest.dim_aether.accessories.text.2"
     ],
     "tasks": [
      {
@@ -638,13 +808,15 @@
     "id": "lore",
     "title": "codex.quest.dim_aether.lore.title",
     "icon": "aether:book_of_lore",
-    "x": 2,
-    "y": 5,
+    "x": 14,
+    "y": 2,
     "deps": [
      "altar"
     ],
     "text": [
-     "codex.quest.dim_aether.lore.text.0"
+     "codex.quest.dim_aether.lore.text.0",
+     "codex.quest.dim_aether.lore.text.1",
+     "codex.quest.dim_aether.lore.text.2"
     ],
     "tasks": [
      {
@@ -659,8 +831,93 @@
      "xp": 45,
      "text": []
     }
+   },
+   {
+    "id": "guide_first_parachute",
+    "title": "codex.quest.dim_aether.guide_first_parachute.title",
+    "icon": "aether:cold_parachute",
+    "deps": [
+     "aether_portal"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:cold_parachute",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 3,
+    "text": [
+     "codex.quest.dim_aether.guide_first_parachute.text.0",
+     "codex.quest.dim_aether.guide_first_parachute.text.1",
+     "codex.quest.dim_aether.guide_first_parachute.text.2"
+    ]
+   },
+   {
+    "id": "guide_altar_healing",
+    "title": "codex.quest.dim_aether.guide_altar_healing.title",
+    "icon": "aether:healing_stone",
+    "deps": [
+     "altar"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:healing_stone",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 3,
+    "text": [
+     "codex.quest.dim_aether.guide_altar_healing.text.0",
+     "codex.quest.dim_aether.guide_altar_healing.text.1",
+     "codex.quest.dim_aether.guide_altar_healing.text.2"
+    ]
+   },
+   {
+    "id": "guide_medal_purse",
+    "title": "codex.quest.dim_aether.guide_medal_purse.title",
+    "icon": "aether:victory_medal",
+    "deps": [
+     "bronze_dungeon"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "aether:victory_medal",
+      "count": 10
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 5,
+    "text": [
+     "codex.quest.dim_aether.guide_medal_purse.text.0",
+     "codex.quest.dim_aether.guide_medal_purse.text.1",
+     "codex.quest.dim_aether.guide_medal_purse.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "dim"
  },
  {
   "id": "dim_twilight",
@@ -670,7 +927,8 @@
   "icon": "twilightforest:twilight_portal_miniature_structure",
   "subtitle": "codex.chapter.dim_twilight.subtitle",
   "intro": [
-   "codex.chapter.dim_twilight.intro.0"
+   "codex.chapter.dim_twilight.intro.0",
+   "codex.chapter.dim_twilight.intro.1"
   ],
   "quests": [
    {
@@ -678,9 +936,11 @@
     "title": "codex.quest.dim_twilight.tf_portal.title",
     "icon": "twilightforest:twilight_portal_miniature_structure",
     "x": 0,
-    "y": 0,
+    "y": 3,
     "text": [
-     "codex.quest.dim_twilight.tf_portal.text.0"
+     "codex.quest.dim_twilight.tf_portal.text.0",
+     "codex.quest.dim_twilight.tf_portal.text.1",
+     "codex.quest.dim_twilight.tf_portal.text.2"
     ],
     "tasks": [
      {
@@ -693,16 +953,21 @@
      "items": [],
      "xp": 45,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "tf_start",
     "title": "codex.quest.dim_twilight.tf_start.title",
     "icon": "twilightforest:ironwood_ingot",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 4,
     "text": [
-     "codex.quest.dim_twilight.tf_start.text.0"
+     "codex.quest.dim_twilight.tf_start.text.0",
+     "codex.quest.dim_twilight.tf_start.text.1",
+     "codex.quest.dim_twilight.tf_start.text.2"
     ],
     "tasks": [
      {
@@ -734,10 +999,12 @@
     "id": "naga",
     "title": "codex.quest.dim_twilight.naga.title",
     "icon": "twilightforest:naga_trophy",
-    "x": 0,
+    "x": 4,
     "y": 2,
     "text": [
-     "codex.quest.dim_twilight.naga.text.0"
+     "codex.quest.dim_twilight.naga.text.0",
+     "codex.quest.dim_twilight.naga.text.1",
+     "codex.quest.dim_twilight.naga.text.2"
     ],
     "tasks": [
      {
@@ -769,10 +1036,12 @@
     "id": "lich",
     "title": "codex.quest.dim_twilight.lich.title",
     "icon": "twilightforest:lich_trophy",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 5,
     "text": [
-     "codex.quest.dim_twilight.lich.text.0"
+     "codex.quest.dim_twilight.lich.text.0",
+     "codex.quest.dim_twilight.lich.text.1",
+     "codex.quest.dim_twilight.lich.text.2"
     ],
     "tasks": [
      {
@@ -801,10 +1070,12 @@
     "id": "minoshroom",
     "title": "codex.quest.dim_twilight.minoshroom.title",
     "icon": "twilightforest:minoshroom_trophy",
-    "x": -1,
-    "y": 4,
+    "x": 8,
+    "y": 5,
     "text": [
-     "codex.quest.dim_twilight.minoshroom.text.0"
+     "codex.quest.dim_twilight.minoshroom.text.0",
+     "codex.quest.dim_twilight.minoshroom.text.1",
+     "codex.quest.dim_twilight.minoshroom.text.2"
     ],
     "tasks": [
      {
@@ -831,10 +1102,12 @@
     "id": "hydra",
     "title": "codex.quest.dim_twilight.hydra.title",
     "icon": "twilightforest:hydra_trophy",
-    "x": 0,
-    "y": 4,
+    "x": 10,
+    "y": 5,
     "text": [
-     "codex.quest.dim_twilight.hydra.text.0"
+     "codex.quest.dim_twilight.hydra.text.0",
+     "codex.quest.dim_twilight.hydra.text.1",
+     "codex.quest.dim_twilight.hydra.text.2"
     ],
     "tasks": [
      {
@@ -871,10 +1144,12 @@
     "id": "knight_phantom",
     "title": "codex.quest.dim_twilight.knight_phantom.title",
     "icon": "twilightforest:knight_phantom_trophy",
-    "x": 1,
-    "y": 4,
+    "x": 12,
+    "y": 5,
     "text": [
-     "codex.quest.dim_twilight.knight_phantom.text.0"
+     "codex.quest.dim_twilight.knight_phantom.text.0",
+     "codex.quest.dim_twilight.knight_phantom.text.1",
+     "codex.quest.dim_twilight.knight_phantom.text.2"
     ],
     "tasks": [
      {
@@ -901,13 +1176,15 @@
     "id": "ur_ghast",
     "title": "codex.quest.dim_twilight.ur_ghast.title",
     "icon": "twilightforest:ur_ghast_trophy",
-    "x": 0,
-    "y": 5,
+    "x": 14,
+    "y": 6,
     "deps": [
      "knight_phantom"
     ],
     "text": [
-     "codex.quest.dim_twilight.ur_ghast.text.0"
+     "codex.quest.dim_twilight.ur_ghast.text.0",
+     "codex.quest.dim_twilight.ur_ghast.text.1",
+     "codex.quest.dim_twilight.ur_ghast.text.2"
     ],
     "tasks": [
      {
@@ -936,14 +1213,16 @@
     "id": "snow_queen",
     "title": "codex.quest.dim_twilight.snow_queen.title",
     "icon": "twilightforest:snow_queen_trophy",
-    "x": 0,
-    "y": 6,
+    "x": 16,
+    "y": 2,
     "deps": [
      "ur_ghast",
      "hydra"
     ],
     "text": [
-     "codex.quest.dim_twilight.snow_queen.text.0"
+     "codex.quest.dim_twilight.snow_queen.text.0",
+     "codex.quest.dim_twilight.snow_queen.text.1",
+     "codex.quest.dim_twilight.snow_queen.text.2"
     ],
     "tasks": [
      {
@@ -972,10 +1251,12 @@
     "id": "giants",
     "title": "codex.quest.dim_twilight.giants.title",
     "icon": "twilightforest:giant_pickaxe",
-    "x": 0,
-    "y": 7,
+    "x": 18,
+    "y": 3,
     "text": [
-     "codex.quest.dim_twilight.giants.text.0"
+     "codex.quest.dim_twilight.giants.text.0",
+     "codex.quest.dim_twilight.giants.text.1",
+     "codex.quest.dim_twilight.giants.text.2"
     ],
     "tasks": [
      {
@@ -1007,10 +1288,12 @@
     "id": "cinders",
     "title": "codex.quest.dim_twilight.cinders.title",
     "icon": "twilightforest:lamp_of_cinders",
-    "x": 0,
-    "y": 8,
+    "x": 20,
+    "y": 3,
     "text": [
-     "codex.quest.dim_twilight.cinders.text.0"
+     "codex.quest.dim_twilight.cinders.text.0",
+     "codex.quest.dim_twilight.cinders.text.1",
+     "codex.quest.dim_twilight.cinders.text.2"
     ],
     "tasks": [
      {
@@ -1037,13 +1320,15 @@
     "id": "uncrafting",
     "title": "codex.quest.dim_twilight.uncrafting.title",
     "icon": "twilightforest:uncrafting_table",
-    "x": 1,
-    "y": 2,
+    "x": 4,
+    "y": 3,
     "deps": [
      "tf_start"
     ],
     "text": [
-     "codex.quest.dim_twilight.uncrafting.text.0"
+     "codex.quest.dim_twilight.uncrafting.text.0",
+     "codex.quest.dim_twilight.uncrafting.text.1",
+     "codex.quest.dim_twilight.uncrafting.text.2"
     ],
     "tasks": [
      {
@@ -1063,13 +1348,15 @@
     "id": "charms",
     "title": "codex.quest.dim_twilight.charms.title",
     "icon": "twilightforest:charm_of_life_1",
-    "x": 2,
-    "y": 2,
+    "x": 4,
+    "y": 4,
     "deps": [
      "tf_start"
     ],
     "text": [
-     "codex.quest.dim_twilight.charms.text.0"
+     "codex.quest.dim_twilight.charms.text.0",
+     "codex.quest.dim_twilight.charms.text.1",
+     "codex.quest.dim_twilight.charms.text.2"
     ],
     "tasks": [
      {
@@ -1094,13 +1381,15 @@
     "id": "trophy",
     "title": "codex.quest.dim_twilight.trophy.title",
     "icon": "twilightforest:trophy_pedestal",
-    "x": 1,
-    "y": 8,
+    "x": 16,
+    "y": 3,
     "deps": [
      "ur_ghast"
     ],
     "text": [
-     "codex.quest.dim_twilight.trophy.text.0"
+     "codex.quest.dim_twilight.trophy.text.0",
+     "codex.quest.dim_twilight.trophy.text.1",
+     "codex.quest.dim_twilight.trophy.text.2"
     ],
     "tasks": [
      {
@@ -1114,7 +1403,92 @@
      "xp": 45,
      "text": []
     }
+   },
+   {
+    "id": "guide_route_map",
+    "title": "codex.quest.dim_twilight.guide_route_map.title",
+    "icon": "twilightforest:magic_map",
+    "deps": [
+     "tf_start"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:magic_map",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 5,
+    "text": [
+     "codex.quest.dim_twilight.guide_route_map.text.0",
+     "codex.quest.dim_twilight.guide_route_map.text.1",
+     "codex.quest.dim_twilight.guide_route_map.text.2"
+    ]
+   },
+   {
+    "id": "guide_fire_swamp_meal",
+    "title": "codex.quest.dim_twilight.guide_fire_swamp_meal.title",
+    "icon": "twilightforest:meef_stroganoff",
+    "deps": [
+     "minoshroom"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:meef_stroganoff",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 6,
+    "text": [
+     "codex.quest.dim_twilight.guide_fire_swamp_meal.text.0",
+     "codex.quest.dim_twilight.guide_fire_swamp_meal.text.1",
+     "codex.quest.dim_twilight.guide_fire_swamp_meal.text.2"
+    ]
+   },
+   {
+    "id": "guide_115_kitchen",
+    "title": "codex.quest.dim_twilight.guide_115_kitchen.title",
+    "icon": "twilightforest:experiment_115",
+    "deps": [
+     "ur_ghast"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "twilightforest:experiment_115",
+      "count": 8
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 30,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 4,
+    "text": [
+     "codex.quest.dim_twilight.guide_115_kitchen.text.0",
+     "codex.quest.dim_twilight.guide_115_kitchen.text.1",
+     "codex.quest.dim_twilight.guide_115_kitchen.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "dim"
  }
 ]

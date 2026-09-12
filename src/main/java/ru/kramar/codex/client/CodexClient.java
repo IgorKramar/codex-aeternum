@@ -16,6 +16,7 @@ import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.client.event.RegisterClientCommandsEvent;
 import net.neoforged.neoforge.client.event.RegisterClientReloadListenersEvent;
 import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
+import net.neoforged.neoforge.client.event.RenderTooltipEvent;
 import org.lwjgl.glfw.GLFW;
 import ru.kramar.codex.Codex;
 import ru.kramar.codex.book.Book;
@@ -48,10 +49,20 @@ public final class CodexClient {
         }
 
         @SubscribeEvent
+        public static void onTooltipColor(RenderTooltipEvent.Color event) {
+            var screen = Minecraft.getInstance().screen;
+            if (!(screen instanceof CodexScreen) && !(screen instanceof CodexWelcomeScreen)) return;
+            event.setBackgroundStart(Theme.PANEL);
+            event.setBackgroundEnd(Theme.PANEL_DEEP);
+            event.setBorderStart(Theme.BORDER_LIGHT);
+            event.setBorderEnd(Theme.TURQUOISE);
+        }
+
+        @SubscribeEvent
         public static void onClientTick(ClientTickEvent.Post event) {
             Minecraft mc = Minecraft.getInstance();
             while (OPEN_KEY.consumeClick()) {
-                if (mc.screen == null && mc.player != null) mc.setScreen(new CodexScreen());
+                if (mc.screen == null && mc.player != null) mc.setScreen(new CodexWelcomeScreen());
             }
             Tracker.clientTick();
         }
@@ -61,7 +72,7 @@ public final class CodexClient {
             LiteralArgumentBuilder<CommandSourceStack> root = Commands.literal("codex")
                     .executes(ctx -> {
                         Minecraft.getInstance().tell(() ->
-                                Minecraft.getInstance().setScreen(new CodexScreen()));
+                                Minecraft.getInstance().setScreen(new CodexWelcomeScreen()));
                         return 1;
                     });
             event.getDispatcher().register(root);

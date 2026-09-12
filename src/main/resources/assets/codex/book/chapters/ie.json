@@ -16,9 +16,11 @@
     "title": "codex.quest.ie_start.manual.title",
     "icon": "immersiveengineering:manual",
     "x": 0,
-    "y": 0,
+    "y": 4,
     "text": [
-     "codex.quest.ie_start.manual.text.0"
+     "codex.quest.ie_start.manual.text.0",
+     "codex.quest.ie_start.manual.text.1",
+     "codex.quest.ie_start.manual.text.2"
     ],
     "tasks": [
      {
@@ -31,16 +33,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "hammer",
     "title": "codex.quest.ie_start.hammer.title",
     "icon": "immersiveengineering:hammer",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 4,
     "text": [
-     "codex.quest.ie_start.hammer.text.0"
+     "codex.quest.ie_start.hammer.text.0",
+     "codex.quest.ie_start.hammer.text.1",
+     "codex.quest.ie_start.hammer.text.2"
     ],
     "tasks": [
      {
@@ -72,10 +79,12 @@
     "id": "coke_oven",
     "title": "codex.quest.ie_start.coke_oven.title",
     "icon": "immersiveengineering:coke_oven",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 4,
     "text": [
-     "codex.quest.ie_start.coke_oven.text.0"
+     "codex.quest.ie_start.coke_oven.text.0",
+     "codex.quest.ie_start.coke_oven.text.1",
+     "codex.quest.ie_start.coke_oven.text.2"
     ],
     "tasks": [
      {
@@ -107,10 +116,12 @@
     "id": "treated",
     "title": "codex.quest.ie_start.treated.title",
     "icon": "immersiveengineering:treated_wood_horizontal",
-    "x": 0,
+    "x": 6,
     "y": 3,
     "text": [
-     "codex.quest.ie_start.treated.text.0"
+     "codex.quest.ie_start.treated.text.0",
+     "codex.quest.ie_start.treated.text.1",
+     "codex.quest.ie_start.treated.text.2"
     ],
     "tasks": [
      {
@@ -132,10 +143,12 @@
     "id": "blast",
     "title": "codex.quest.ie_start.blast.title",
     "icon": "immersiveengineering:blast_furnace",
-    "x": 0,
+    "x": 8,
     "y": 4,
     "text": [
-     "codex.quest.ie_start.blast.text.0"
+     "codex.quest.ie_start.blast.text.0",
+     "codex.quest.ie_start.blast.text.1",
+     "codex.quest.ie_start.blast.text.2"
     ],
     "tasks": [
      {
@@ -167,10 +180,12 @@
     "id": "workbench",
     "title": "codex.quest.ie_start.workbench.title",
     "icon": "immersiveengineering:workbench",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 2,
     "text": [
-     "codex.quest.ie_start.workbench.text.0"
+     "codex.quest.ie_start.workbench.text.0",
+     "codex.quest.ie_start.workbench.text.1",
+     "codex.quest.ie_start.workbench.text.2"
     ],
     "tasks": [
      {
@@ -202,10 +217,12 @@
     "id": "components",
     "title": "codex.quest.ie_start.components.title",
     "icon": "immersiveengineering:component_steel",
-    "x": 1,
-    "y": 5,
+    "x": 12,
+    "y": 1,
     "text": [
-     "codex.quest.ie_start.components.text.0"
+     "codex.quest.ie_start.components.text.0",
+     "codex.quest.ie_start.components.text.1",
+     "codex.quest.ie_start.components.text.2"
     ],
     "tasks": [
      {
@@ -237,10 +254,12 @@
     "id": "scaffold",
     "title": "codex.quest.ie_start.scaffold.title",
     "icon": "immersiveengineering:steel_scaffolding_standard",
-    "x": 2,
-    "y": 5,
+    "x": 14,
+    "y": 1,
     "text": [
-     "codex.quest.ie_start.scaffold.text.0"
+     "codex.quest.ie_start.scaffold.text.0",
+     "codex.quest.ie_start.scaffold.text.1",
+     "codex.quest.ie_start.scaffold.text.2"
     ],
     "tasks": [
      {
@@ -258,8 +277,190 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "steel_service_setup",
+    "title": "codex.quest.ie_start.steel_service_setup.title",
+    "icon": "immersiveengineering:hammer",
+    "x": 10,
+    "y": 3,
+    "deps": [
+     "blast"
+    ],
+    "text": [
+     "codex.quest.ie_start.steel_service_setup.text.0",
+     "codex.quest.ie_start.steel_service_setup.text.1",
+     "codex.quest.ie_start.steel_service_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:hammer",
+      "count": 1
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "steel_service_batch",
+    "title": "codex.quest.ie_start.steel_service_batch.title",
+    "icon": "immersiveengineering:hammer",
+    "x": 12,
+    "y": 2,
+    "deps": [
+     "steel_service_setup"
+    ],
+    "text": [
+     "codex.quest.ie_start.steel_service_batch.text.0",
+     "codex.quest.ie_start.steel_service_batch.text.1",
+     "codex.quest.ie_start.steel_service_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:ingot_steel",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "steel_service_run",
+    "title": "codex.quest.ie_start.steel_service_run.title",
+    "icon": "immersiveengineering:hammer",
+    "x": 14,
+    "y": 2,
+    "deps": [
+     "steel_service_batch"
+    ],
+    "text": [
+     "codex.quest.ie_start.steel_service_run.text.0",
+     "codex.quest.ie_start.steel_service_run.text.1",
+     "codex.quest.ie_start.steel_service_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.ie_start.steel_service_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_creosote_drain",
+    "title": "codex.quest.ie_start.guide_creosote_drain.title",
+    "icon": "immersiveengineering:fluid_pump",
+    "deps": [
+     "coke_oven"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:fluid_pump",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:wooden_barrel",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_start.guide_creosote_drain.text.0",
+     "codex.quest.ie_start.guide_creosote_drain.text.1",
+     "codex.quest.ie_start.guide_creosote_drain.text.2"
+    ]
+   },
+   {
+    "id": "guide_improved_blast",
+    "title": "codex.quest.ie_start.guide_improved_blast.title",
+    "icon": "immersiveengineering:blastbrick_reinforced",
+    "deps": [
+     "blast",
+     "guide_creosote_drain"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:blastbrick_reinforced",
+      "count": 27
+     },
+     {
+      "type": "check",
+      "id": "Улучшенная домна выдаёт сталь и шлак",
+      "note": "codex.quest.ie_start.guide_improved_blast.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_start.guide_improved_blast.text.0",
+     "codex.quest.ie_start.guide_improved_blast.text.1",
+     "codex.quest.ie_start.guide_improved_blast.text.2"
+    ]
+   },
+   {
+    "id": "guide_hot_blast",
+    "title": "codex.quest.ie_start.guide_hot_blast.title",
+    "icon": "immersiveengineering:blastfurnace_preheater",
+    "deps": [
+     "guide_improved_blast",
+     "ie_power/capacitor"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:blastfurnace_preheater",
+      "count": 2
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_start.guide_hot_blast.text.0",
+     "codex.quest.ie_start.guide_hot_blast.text.1",
+     "codex.quest.ie_start.guide_hot_blast.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "ie"
  },
  {
   "id": "ie_power",
@@ -269,17 +470,20 @@
   "icon": "immersiveengineering:wirecoil_copper",
   "subtitle": "codex.chapter.ie_power.subtitle",
   "intro": [
-   "codex.chapter.ie_power.intro.0"
+   "codex.chapter.ie_power.intro.0",
+   "codex.chapter.ie_power.intro.1"
   ],
   "quests": [
    {
     "id": "wire_lv",
     "title": "codex.quest.ie_power.wire_lv.title",
     "icon": "immersiveengineering:wirecoil_copper",
-    "x": 0,
-    "y": 0,
+    "x": 4,
+    "y": 5,
     "text": [
-     "codex.quest.ie_power.wire_lv.text.0"
+     "codex.quest.ie_power.wire_lv.text.0",
+     "codex.quest.ie_power.wire_lv.text.1",
+     "codex.quest.ie_power.wire_lv.text.2"
     ],
     "tasks": [
      {
@@ -297,16 +501,21 @@
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "ie_start/hammer"
+    ]
    },
    {
     "id": "dynamo",
     "title": "codex.quest.ie_power.dynamo.title",
     "icon": "immersiveengineering:dynamo",
-    "x": 0,
-    "y": 1,
+    "x": 6,
+    "y": 5,
     "text": [
-     "codex.quest.ie_power.dynamo.text.0"
+     "codex.quest.ie_power.dynamo.text.0",
+     "codex.quest.ie_power.dynamo.text.1",
+     "codex.quest.ie_power.dynamo.text.2"
     ],
     "tasks": [
      {
@@ -342,10 +551,12 @@
     "id": "windmill_ie",
     "title": "codex.quest.ie_power.windmill_ie.title",
     "icon": "immersiveengineering:windmill",
-    "x": 1,
-    "y": 1,
+    "x": 8,
+    "y": 5,
     "text": [
-     "codex.quest.ie_power.windmill_ie.text.0"
+     "codex.quest.ie_power.windmill_ie.text.0",
+     "codex.quest.ie_power.windmill_ie.text.1",
+     "codex.quest.ie_power.windmill_ie.text.2"
     ],
     "tasks": [
      {
@@ -372,10 +583,12 @@
     "id": "capacitor",
     "title": "codex.quest.ie_power.capacitor.title",
     "icon": "immersiveengineering:capacitor_lv",
-    "x": 0,
-    "y": 2,
+    "x": 10,
+    "y": 7,
     "text": [
-     "codex.quest.ie_power.capacitor.text.0"
+     "codex.quest.ie_power.capacitor.text.0",
+     "codex.quest.ie_power.capacitor.text.1",
+     "codex.quest.ie_power.capacitor.text.2"
     ],
     "tasks": [
      {
@@ -397,10 +610,12 @@
     "id": "wire_mv",
     "title": "codex.quest.ie_power.wire_mv.title",
     "icon": "immersiveengineering:wirecoil_electrum",
-    "x": 0,
-    "y": 3,
+    "x": 12,
+    "y": 7,
     "text": [
-     "codex.quest.ie_power.wire_mv.text.0"
+     "codex.quest.ie_power.wire_mv.text.0",
+     "codex.quest.ie_power.wire_mv.text.1",
+     "codex.quest.ie_power.wire_mv.text.2"
     ],
     "tasks": [
      {
@@ -427,10 +642,12 @@
     "id": "wire_hv",
     "title": "codex.quest.ie_power.wire_hv.title",
     "icon": "immersiveengineering:wirecoil_steel",
-    "x": 0,
-    "y": 4,
+    "x": 14,
+    "y": 7,
     "text": [
-     "codex.quest.ie_power.wire_hv.text.0"
+     "codex.quest.ie_power.wire_hv.text.0",
+     "codex.quest.ie_power.wire_hv.text.1",
+     "codex.quest.ie_power.wire_hv.text.2"
     ],
     "tasks": [
      {
@@ -462,10 +679,12 @@
     "id": "transformer",
     "title": "codex.quest.ie_power.transformer.title",
     "icon": "immersiveengineering:transformer",
-    "x": 0,
-    "y": 5,
+    "x": 16,
+    "y": 8,
     "text": [
-     "codex.quest.ie_power.transformer.text.0"
+     "codex.quest.ie_power.transformer.text.0",
+     "codex.quest.ie_power.transformer.text.1",
+     "codex.quest.ie_power.transformer.text.2"
     ],
     "tasks": [
      {
@@ -492,10 +711,12 @@
     "id": "safety",
     "title": "codex.quest.ie_power.safety.title",
     "icon": "immersiveengineering:armor_faraday_chestplate",
-    "x": 1,
-    "y": 5,
+    "x": 18,
+    "y": 7,
     "text": [
-     "codex.quest.ie_power.safety.text.0"
+     "codex.quest.ie_power.safety.text.0",
+     "codex.quest.ie_power.safety.text.1",
+     "codex.quest.ie_power.safety.text.2"
     ],
     "tasks": [
      {
@@ -527,13 +748,15 @@
     "id": "thermo",
     "title": "codex.quest.ie_power.thermo.title",
     "icon": "immersiveengineering:thermoelectric_generator",
-    "x": -1,
-    "y": 4,
+    "x": 12,
+    "y": 8,
     "deps": [
      "capacitor"
     ],
     "text": [
-     "codex.quest.ie_power.thermo.text.0"
+     "codex.quest.ie_power.thermo.text.0",
+     "codex.quest.ie_power.thermo.text.1",
+     "codex.quest.ie_power.thermo.text.2"
     ],
     "tasks": [
      {
@@ -553,19 +776,26 @@
     "id": "lightning",
     "title": "codex.quest.ie_power.lightning.title",
     "icon": "immersiveengineering:lightning_rod",
-    "x": -1,
-    "y": 5,
+    "x": 16,
+    "y": 9,
     "deps": [
      "wire_hv"
     ],
     "text": [
-     "codex.quest.ie_power.lightning.text.0"
+     "codex.quest.ie_power.lightning.text.0",
+     "codex.quest.ie_power.lightning.text.1",
+     "codex.quest.ie_power.lightning.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:lightning_rod",
-      "count": 1
+      "id": "immersiveengineering:steel_fence",
+      "count": 8
+     },
+     {
+      "type": "check",
+      "id": "Основание, мачта и выход громоотвода собраны",
+      "note": "codex.quest.ie_power.lightning.task.1"
      }
     ],
     "optional": true,
@@ -574,8 +804,67 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "guide_insulated_route",
+    "title": "codex.quest.ie_power.guide_insulated_route.title",
+    "icon": "immersiveengineering:wirecoil_copper_ins",
+    "deps": [
+     "wire_lv",
+     "safety"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:wirecoil_copper_ins",
+      "count": 4
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 20,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_power.guide_insulated_route.text.0",
+     "codex.quest.ie_power.guide_insulated_route.text.1",
+     "codex.quest.ie_power.guide_insulated_route.text.2"
+    ]
+   },
+   {
+    "id": "guide_grid_diagnosis",
+    "title": "codex.quest.ie_power.guide_grid_diagnosis.title",
+    "icon": "immersiveengineering:voltmeter",
+    "deps": [
+     "guide_insulated_route",
+     "capacitor"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Источник, передача и нагрузка проверены отдельно",
+      "note": "codex.quest.ie_power.guide_grid_diagnosis.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 22,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_power.guide_grid_diagnosis.text.0",
+     "codex.quest.ie_power.guide_grid_diagnosis.text.1",
+     "codex.quest.ie_power.guide_grid_diagnosis.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "ie"
  },
  {
   "id": "ie_machines",
@@ -584,22 +873,32 @@
   "title": "codex.chapter.ie_machines.title",
   "icon": "immersiveengineering:crusher",
   "subtitle": "codex.chapter.ie_machines.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.ie_machines.intro.0",
+   "codex.chapter.ie_machines.intro.1"
+  ],
   "quests": [
    {
     "id": "crusher_ie",
     "title": "codex.quest.ie_machines.crusher_ie.title",
     "icon": "immersiveengineering:crusher",
-    "x": 0,
-    "y": 0,
+    "x": 10,
+    "y": 5,
     "text": [
-     "codex.quest.ie_machines.crusher_ie.text.0"
+     "codex.quest.ie_machines.crusher_ie.text.0",
+     "codex.quest.ie_machines.crusher_ie.text.1",
+     "codex.quest.ie_machines.crusher_ie.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:crusher",
+      "id": "minecraft:gravel",
       "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Дробилка переработала пробный блок",
+      "note": "codex.quest.ie_machines.crusher_ie.task.1"
      }
     ],
     "rewards": {
@@ -611,23 +910,23 @@
      ],
      "xp": 60,
      "text": []
-    }
+    },
+    "deps": [
+     "ie_start/blast"
+    ]
    },
    {
     "id": "press",
     "title": "codex.quest.ie_machines.press.title",
     "icon": "immersiveengineering:metal_press",
-    "x": 0,
-    "y": 1,
+    "x": 12,
+    "y": 3,
     "text": [
-     "codex.quest.ie_machines.press.text.0"
+     "codex.quest.ie_machines.press.text.0",
+     "codex.quest.ie_machines.press.text.1",
+     "codex.quest.ie_machines.press.text.2"
     ],
     "tasks": [
-     {
-      "type": "item",
-      "id": "immersiveengineering:metal_press",
-      "count": 1
-     },
      {
       "type": "item",
       "id": "immersiveengineering:mold_plate",
@@ -642,6 +941,16 @@
       "type": "item",
       "id": "immersiveengineering:mold_wire",
       "count": 1
+     },
+     {
+      "type": "item",
+      "id": "immersiveengineering:plate_iron",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Пресс выпустил железную пластину",
+      "note": "codex.quest.ie_machines.press.task.4"
      }
     ],
     "deps": [
@@ -657,21 +966,23 @@
     "id": "arc",
     "title": "codex.quest.ie_machines.arc.title",
     "icon": "immersiveengineering:arc_furnace",
-    "x": 0,
-    "y": 2,
+    "x": 14,
+    "y": 3,
     "text": [
-     "codex.quest.ie_machines.arc.text.0"
+     "codex.quest.ie_machines.arc.text.0",
+     "codex.quest.ie_machines.arc.text.1",
+     "codex.quest.ie_machines.arc.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:arc_furnace",
-      "count": 1
+      "id": "immersiveengineering:graphite_electrode",
+      "count": 3
      },
      {
-      "type": "item",
-      "id": "immersiveengineering:graphite_electrode",
-      "count": 1
+      "type": "check",
+      "id": "Дуговая печь выполнила плавку",
+      "note": "codex.quest.ie_machines.arc.task.1"
      }
     ],
     "deps": [
@@ -687,21 +998,23 @@
     "id": "assembler",
     "title": "codex.quest.ie_machines.assembler.title",
     "icon": "immersiveengineering:assembler",
-    "x": 1,
-    "y": 2,
+    "x": 16,
+    "y": 0,
     "text": [
-     "codex.quest.ie_machines.assembler.text.0"
+     "codex.quest.ie_machines.assembler.text.0",
+     "codex.quest.ie_machines.assembler.text.1",
+     "codex.quest.ie_machines.assembler.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:assembler",
-      "count": 1
+      "id": "immersiveengineering:component_electronic",
+      "count": 2
      },
      {
-      "type": "item",
-      "id": "immersiveengineering:auto_workbench",
-      "count": 1
+      "type": "check",
+      "id": "Сборщик и автоматический верстак работают",
+      "note": "codex.quest.ie_machines.assembler.task.1"
      }
     ],
     "deps": [
@@ -717,10 +1030,12 @@
     "id": "sample",
     "title": "codex.quest.ie_machines.sample.title",
     "icon": "immersiveengineering:sample_drill",
-    "x": 0,
-    "y": 3,
+    "x": 18,
+    "y": 1,
     "text": [
-     "codex.quest.ie_machines.sample.text.0"
+     "codex.quest.ie_machines.sample.text.0",
+     "codex.quest.ie_machines.sample.text.1",
+     "codex.quest.ie_machines.sample.text.2"
     ],
     "tasks": [
      {
@@ -752,21 +1067,23 @@
     "id": "excavator",
     "title": "codex.quest.ie_machines.excavator.title",
     "icon": "immersiveengineering:excavator",
-    "x": 0,
-    "y": 4,
+    "x": 20,
+    "y": 2,
     "text": [
-     "codex.quest.ie_machines.excavator.text.0"
+     "codex.quest.ie_machines.excavator.text.0",
+     "codex.quest.ie_machines.excavator.text.1",
+     "codex.quest.ie_machines.excavator.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:excavator",
-      "count": 1
+      "id": "immersiveengineering:component_steel",
+      "count": 8
      },
      {
-      "type": "item",
-      "id": "immersiveengineering:bucket_wheel",
-      "count": 1
+      "type": "check",
+      "id": "Экскаватор с колесом добывает на разведанной жиле",
+      "note": "codex.quest.ie_machines.excavator.task.1"
      }
     ],
     "rewards": {
@@ -787,21 +1104,23 @@
     "id": "storage",
     "title": "codex.quest.ie_machines.storage.title",
     "icon": "immersiveengineering:silo",
-    "x": 1,
-    "y": 4,
+    "x": 22,
+    "y": 3,
     "text": [
-     "codex.quest.ie_machines.storage.text.0"
+     "codex.quest.ie_machines.storage.text.0",
+     "codex.quest.ie_machines.storage.text.1",
+     "codex.quest.ie_machines.storage.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:silo",
-      "count": 1
+      "id": "immersiveengineering:sheetmetal_iron",
+      "count": 32
      },
      {
-      "type": "item",
-      "id": "immersiveengineering:tank",
-      "count": 1
+      "type": "check",
+      "id": "Силос и резервуар принимают и отдают ресурс",
+      "note": "codex.quest.ie_machines.storage.task.1"
      }
     ],
     "deps": [
@@ -817,10 +1136,12 @@
     "id": "conveyor",
     "title": "codex.quest.ie_machines.conveyor.title",
     "icon": "immersiveengineering:conveyor_basic",
-    "x": 0,
-    "y": 5,
+    "x": 24,
+    "y": 4,
     "text": [
-     "codex.quest.ie_machines.conveyor.text.0"
+     "codex.quest.ie_machines.conveyor.text.0",
+     "codex.quest.ie_machines.conveyor.text.1",
+     "codex.quest.ie_machines.conveyor.text.2"
     ],
     "tasks": [
      {
@@ -847,8 +1168,39 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "guide_electrode_stock",
+    "title": "codex.quest.ie_machines.guide_electrode_stock.title",
+    "icon": "immersiveengineering:graphite_electrode",
+    "deps": [
+     "arc",
+     "ie_chemistry/bottling",
+     "ie_chemistry/squeezer"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:graphite_electrode",
+      "count": 3
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 18,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_machines.guide_electrode_stock.text.0",
+     "codex.quest.ie_machines.guide_electrode_stock.text.1",
+     "codex.quest.ie_machines.guide_electrode_stock.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "ie"
  },
  {
   "id": "ie_chemistry",
@@ -857,44 +1209,64 @@
   "title": "codex.chapter.ie_chemistry.title",
   "icon": "immersiveengineering:refinery",
   "subtitle": "codex.chapter.ie_chemistry.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.ie_chemistry.intro.0",
+   "codex.chapter.ie_chemistry.intro.1"
+  ],
   "quests": [
    {
     "id": "squeezer",
     "title": "codex.quest.ie_chemistry.squeezer.title",
     "icon": "immersiveengineering:squeezer",
-    "x": 0,
-    "y": 0,
+    "x": 12,
+    "y": 4,
     "text": [
-     "codex.quest.ie_chemistry.squeezer.text.0"
+     "codex.quest.ie_chemistry.squeezer.text.0",
+     "codex.quest.ie_chemistry.squeezer.text.1",
+     "codex.quest.ie_chemistry.squeezer.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:squeezer",
+      "id": "immersiveengineering:plantoil_bucket",
       "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Выжималка производит и выводит масло",
+      "note": "codex.quest.ie_chemistry.squeezer.task.1"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 30,
      "text": []
-    }
+    },
+    "deps": [
+     "ie_machines/crusher_ie"
+    ]
    },
    {
     "id": "fermenter",
     "title": "codex.quest.ie_chemistry.fermenter.title",
     "icon": "immersiveengineering:fermenter",
-    "x": 0,
-    "y": 1,
+    "x": 14,
+    "y": 4,
     "text": [
-     "codex.quest.ie_chemistry.fermenter.text.0"
+     "codex.quest.ie_chemistry.fermenter.text.0",
+     "codex.quest.ie_chemistry.fermenter.text.1",
+     "codex.quest.ie_chemistry.fermenter.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:fermenter",
+      "id": "immersiveengineering:ethanol_bucket",
       "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Ферментёр производит и выводит этанол",
+      "note": "codex.quest.ie_chemistry.fermenter.task.1"
      }
     ],
     "deps": [
@@ -910,21 +1282,23 @@
     "id": "refinery_ie",
     "title": "codex.quest.ie_chemistry.refinery_ie.title",
     "icon": "immersiveengineering:refinery",
-    "x": 0,
-    "y": 2,
+    "x": 16,
+    "y": 1,
     "text": [
-     "codex.quest.ie_chemistry.refinery_ie.text.0"
+     "codex.quest.ie_chemistry.refinery_ie.text.0",
+     "codex.quest.ie_chemistry.refinery_ie.text.1",
+     "codex.quest.ie_chemistry.refinery_ie.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:refinery",
+      "id": "immersiveengineering:biodiesel_bucket",
       "count": 1
      },
      {
-      "type": "item",
-      "id": "immersiveengineering:biodiesel_bucket",
-      "count": 1
+      "type": "check",
+      "id": "Перегонный завод выпускает биодизель с катализатором",
+      "note": "codex.quest.ie_chemistry.refinery_ie.task.1"
      }
     ],
     "deps": [
@@ -940,16 +1314,23 @@
     "id": "diesel",
     "title": "codex.quest.ie_chemistry.diesel.title",
     "icon": "immersiveengineering:diesel_generator",
-    "x": 0,
-    "y": 3,
+    "x": 18,
+    "y": 2,
     "text": [
-     "codex.quest.ie_chemistry.diesel.text.0"
+     "codex.quest.ie_chemistry.diesel.text.0",
+     "codex.quest.ie_chemistry.diesel.text.1",
+     "codex.quest.ie_chemistry.diesel.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:diesel_generator",
+      "id": "immersiveengineering:heavy_engineering",
       "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Дизель-генератор питает нагрузку",
+      "note": "codex.quest.ie_chemistry.diesel.task.1"
      }
     ],
     "rewards": {
@@ -970,19 +1351,26 @@
     "id": "mixer",
     "title": "codex.quest.ie_chemistry.mixer.title",
     "icon": "immersiveengineering:mixer",
-    "x": 1,
+    "x": 16,
     "y": 2,
     "deps": [
      "fermenter"
     ],
     "text": [
-     "codex.quest.ie_chemistry.mixer.text.0"
+     "codex.quest.ie_chemistry.mixer.text.0",
+     "codex.quest.ie_chemistry.mixer.text.1",
+     "codex.quest.ie_chemistry.mixer.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:mixer",
+      "id": "immersiveengineering:redstone_acid_bucket",
       "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Смеситель получил редстоуновую кислоту",
+      "note": "codex.quest.ie_chemistry.mixer.task.1"
      }
     ],
     "rewards": {
@@ -995,19 +1383,26 @@
     "id": "bottling",
     "title": "codex.quest.ie_chemistry.bottling.title",
     "icon": "immersiveengineering:bottling_machine",
-    "x": 2,
-    "y": 2,
+    "x": 16,
+    "y": 3,
     "deps": [
      "fermenter"
     ],
     "text": [
-     "codex.quest.ie_chemistry.bottling.text.0"
+     "codex.quest.ie_chemistry.bottling.text.0",
+     "codex.quest.ie_chemistry.bottling.text.1",
+     "codex.quest.ie_chemistry.bottling.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersiveengineering:bottling_machine",
+      "id": "minecraft:water_bucket",
       "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Разливочная машина наполнила ведро",
+      "note": "codex.quest.ie_chemistry.bottling.task.1"
      }
     ],
     "rewards": {
@@ -1020,10 +1415,12 @@
     "id": "duroplast",
     "title": "codex.quest.ie_chemistry.duroplast.title",
     "icon": "immersiveengineering:plate_duroplast",
-    "x": 0,
-    "y": 4,
+    "x": 18,
+    "y": 3,
     "text": [
-     "codex.quest.ie_chemistry.duroplast.text.0"
+     "codex.quest.ie_chemistry.duroplast.text.0",
+     "codex.quest.ie_chemistry.duroplast.text.1",
+     "codex.quest.ie_chemistry.duroplast.text.2"
     ],
     "tasks": [
      {
@@ -1045,13 +1442,15 @@
     "id": "cloche",
     "title": "codex.quest.ie_chemistry.cloche.title",
     "icon": "immersiveengineering:cloche",
-    "x": 1,
-    "y": 4,
+    "x": 14,
+    "y": 5,
     "deps": [
      "squeezer"
     ],
     "text": [
-     "codex.quest.ie_chemistry.cloche.text.0"
+     "codex.quest.ie_chemistry.cloche.text.0",
+     "codex.quest.ie_chemistry.cloche.text.1",
+     "codex.quest.ie_chemistry.cloche.text.2"
     ],
     "tasks": [
      {
@@ -1067,8 +1466,101 @@
       "codex.quest.ie_chemistry.cloche.reward.0"
      ]
     }
+   },
+   {
+    "id": "guide_oil_seeds",
+    "title": "codex.quest.ie_chemistry.guide_oil_seeds.title",
+    "icon": "immersiveengineering:seed",
+    "deps": [
+     "cloche",
+     "squeezer"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:seed",
+      "count": 64
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 5,
+    "text": [
+     "codex.quest.ie_chemistry.guide_oil_seeds.text.0",
+     "codex.quest.ie_chemistry.guide_oil_seeds.text.1",
+     "codex.quest.ie_chemistry.guide_oil_seeds.text.2"
+    ]
+   },
+   {
+    "id": "guide_catalyst",
+    "title": "codex.quest.ie_chemistry.guide_catalyst.title",
+    "icon": "immersiveengineering:dust_saltpeter",
+    "deps": [
+     "squeezer",
+     "fermenter"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:dust_saltpeter",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 4,
+    "text": [
+     "codex.quest.ie_chemistry.guide_catalyst.text.0",
+     "codex.quest.ie_chemistry.guide_catalyst.text.1",
+     "codex.quest.ie_chemistry.guide_catalyst.text.2"
+    ]
+   },
+   {
+    "id": "guide_fuel_restart",
+    "title": "codex.quest.ie_chemistry.guide_fuel_restart.title",
+    "icon": "immersiveengineering:jerrycan",
+    "deps": [
+     "diesel",
+     "guide_catalyst"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:jerrycan",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Резервное топливо сохранено и запуск проверен",
+      "note": "codex.quest.ie_chemistry.guide_fuel_restart.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 20,
+    "y": 3,
+    "text": [
+     "codex.quest.ie_chemistry.guide_fuel_restart.text.0",
+     "codex.quest.ie_chemistry.guide_fuel_restart.text.1",
+     "codex.quest.ie_chemistry.guide_fuel_restart.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "ie"
  },
  {
   "id": "ie_gear",
@@ -1077,16 +1569,21 @@
   "title": "codex.chapter.ie_gear.title",
   "icon": "immersiveengineering:revolver",
   "subtitle": "codex.chapter.ie_gear.subtitle",
-  "intro": [],
+  "intro": [
+   "codex.chapter.ie_gear.intro.0",
+   "codex.chapter.ie_gear.intro.1"
+  ],
   "quests": [
    {
     "id": "drill_ie",
     "title": "codex.quest.ie_gear.drill_ie.title",
     "icon": "immersiveengineering:drill",
-    "x": 0,
-    "y": 0,
+    "x": 10,
+    "y": 6,
     "text": [
-     "codex.quest.ie_gear.drill_ie.text.0"
+     "codex.quest.ie_gear.drill_ie.text.0",
+     "codex.quest.ie_gear.drill_ie.text.1",
+     "codex.quest.ie_gear.drill_ie.text.2"
     ],
     "tasks": [
      {
@@ -1109,16 +1606,21 @@
      ],
      "xp": 50,
      "text": []
-    }
+    },
+    "deps": [
+     "ie_start/blast"
+    ]
    },
    {
     "id": "buzzsaw",
     "title": "codex.quest.ie_gear.buzzsaw.title",
     "icon": "immersiveengineering:buzzsaw",
-    "x": 1,
-    "y": 0,
+    "x": 12,
+    "y": 6,
     "text": [
-     "codex.quest.ie_gear.buzzsaw.text.0"
+     "codex.quest.ie_gear.buzzsaw.text.0",
+     "codex.quest.ie_gear.buzzsaw.text.1",
+     "codex.quest.ie_gear.buzzsaw.text.2"
     ],
     "tasks": [
      {
@@ -1140,10 +1642,12 @@
     "id": "revolver",
     "title": "codex.quest.ie_gear.revolver.title",
     "icon": "immersiveengineering:revolver",
-    "x": 0,
-    "y": 1,
+    "x": 14,
+    "y": 6,
     "text": [
-     "codex.quest.ie_gear.revolver.text.0"
+     "codex.quest.ie_gear.revolver.text.0",
+     "codex.quest.ie_gear.revolver.text.1",
+     "codex.quest.ie_gear.revolver.text.2"
     ],
     "tasks": [
      {
@@ -1170,10 +1674,12 @@
     "id": "railgun",
     "title": "codex.quest.ie_gear.railgun.title",
     "icon": "immersiveengineering:railgun",
-    "x": 0,
-    "y": 2,
+    "x": 16,
+    "y": 6,
     "text": [
-     "codex.quest.ie_gear.railgun.text.0"
+     "codex.quest.ie_gear.railgun.text.0",
+     "codex.quest.ie_gear.railgun.text.1",
+     "codex.quest.ie_gear.railgun.text.2"
     ],
     "tasks": [
      {
@@ -1195,10 +1701,12 @@
     "id": "chemthrower",
     "title": "codex.quest.ie_gear.chemthrower.title",
     "icon": "immersiveengineering:chemthrower",
-    "x": 1,
-    "y": 2,
+    "x": 18,
+    "y": 5,
     "text": [
-     "codex.quest.ie_gear.chemthrower.text.0"
+     "codex.quest.ie_gear.chemthrower.text.0",
+     "codex.quest.ie_gear.chemthrower.text.1",
+     "codex.quest.ie_gear.chemthrower.text.2"
     ],
     "tasks": [
      {
@@ -1220,10 +1728,12 @@
     "id": "powerpack",
     "title": "codex.quest.ie_gear.powerpack.title",
     "icon": "immersiveengineering:powerpack",
-    "x": 0,
-    "y": 3,
+    "x": 20,
+    "y": 4,
     "text": [
-     "codex.quest.ie_gear.powerpack.text.0"
+     "codex.quest.ie_gear.powerpack.text.0",
+     "codex.quest.ie_gear.powerpack.text.1",
+     "codex.quest.ie_gear.powerpack.text.2"
     ],
     "tasks": [
      {
@@ -1250,10 +1760,12 @@
     "id": "skyhook",
     "title": "codex.quest.ie_gear.skyhook.title",
     "icon": "immersiveengineering:skyhook",
-    "x": 1,
-    "y": 3,
+    "x": 22,
+    "y": 4,
     "text": [
-     "codex.quest.ie_gear.skyhook.text.0"
+     "codex.quest.ie_gear.skyhook.text.0",
+     "codex.quest.ie_gear.skyhook.text.1",
+     "codex.quest.ie_gear.skyhook.text.2"
     ],
     "tasks": [
      {
@@ -1280,10 +1792,12 @@
     "id": "steel_armor",
     "title": "codex.quest.ie_gear.steel_armor.title",
     "icon": "immersiveengineering:armor_steel_chestplate",
-    "x": 0,
-    "y": 4,
+    "x": 24,
+    "y": 5,
     "text": [
-     "codex.quest.ie_gear.steel_armor.text.0"
+     "codex.quest.ie_gear.steel_armor.text.0",
+     "codex.quest.ie_gear.steel_armor.text.1",
+     "codex.quest.ie_gear.steel_armor.text.2"
     ],
     "tasks": [
      {
@@ -1305,13 +1819,15 @@
     "id": "turret",
     "title": "codex.quest.ie_gear.turret.title",
     "icon": "immersiveengineering:turret_gun",
-    "x": 1,
-    "y": 4,
+    "x": 16,
+    "y": 7,
     "deps": [
      "revolver"
     ],
     "text": [
-     "codex.quest.ie_gear.turret.text.0"
+     "codex.quest.ie_gear.turret.text.0",
+     "codex.quest.ie_gear.turret.text.1",
+     "codex.quest.ie_gear.turret.text.2"
     ],
     "tasks": [
      {
@@ -1335,10 +1851,12 @@
     "id": "misc_ie",
     "title": "codex.quest.ie_gear.misc_ie.title",
     "icon": "immersiveengineering:floodlight",
-    "x": 2,
-    "y": 4,
+    "x": 18,
+    "y": 6,
     "text": [
-     "codex.quest.ie_gear.misc_ie.text.0"
+     "codex.quest.ie_gear.misc_ie.text.0",
+     "codex.quest.ie_gear.misc_ie.text.1",
+     "codex.quest.ie_gear.misc_ie.text.2"
     ],
     "tasks": [
      {
@@ -1371,10 +1889,12 @@
     "id": "shaders",
     "title": "codex.quest.ie_gear.shaders.title",
     "icon": "immersiveengineering:shader_bag_common",
-    "x": 3,
-    "y": 4,
+    "x": 20,
+    "y": 6,
     "text": [
-     "codex.quest.ie_gear.shaders.text.0"
+     "codex.quest.ie_gear.shaders.text.0",
+     "codex.quest.ie_gear.shaders.text.1",
+     "codex.quest.ie_gear.shaders.text.2"
     ],
     "tasks": [
      {
@@ -1392,7 +1912,42 @@
      "xp": 30,
      "text": []
     }
+   },
+   {
+    "id": "guide_field_service",
+    "title": "codex.quest.ie_gear.guide_field_service.title",
+    "icon": "immersiveengineering:maintenance_kit",
+    "deps": [
+     "drill_ie",
+     "misc_ie"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersiveengineering:drillhead_iron",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Головка заменена ремонтным комплектом",
+      "note": "codex.quest.ie_gear.guide_field_service.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 20,
+    "y": 7,
+    "text": [
+     "codex.quest.ie_gear.guide_field_service.text.0",
+     "codex.quest.ie_gear.guide_field_service.text.1",
+     "codex.quest.ie_gear.guide_field_service.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "ie"
  }
 ]

@@ -96,7 +96,7 @@ chapter(
 
 chapter(
     "life_furniture", "life", 20, "Мебель и уют", "handcrafted:bench",
-    "Handcrafted, Refurbished Furniture, Furnicraft и декор",
+    "Handcrafted, Refurbished Furniture и архитектурный декор",
     [
         "В сборке три независимых мебельных мода плюс декоративные "
         "блоки Create, Domum Ornamentum и Eternal Tales. Вместе они "

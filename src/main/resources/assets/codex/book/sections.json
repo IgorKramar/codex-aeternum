@@ -112,5 +112,11 @@
     "title": "codex.section.hunt",
     "icon": "cataclysm:the_incinerator",
     "color": "E85C5C"
+  },
+  "more": {
+    "order": 108,
+    "title": "codex.section.more",
+    "icon": "minecraft:compass",
+    "color": "88B8CC"
   }
 }

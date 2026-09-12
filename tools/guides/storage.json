@@ -1,0 +1,795 @@
+{
+  "section": "storage",
+  "chapters": {
+    "rs_network": {
+      "intro": [
+        "Refined Storage объединяет подключённые хранилища в общий список с поиском. Контроллер обеспечивает питание сети, диски и внешние контейнеры дают вместимость, а грид позволяет работать с содержимым. Первый стенд собирайте с несколькими дешёвыми предметами, сохраняя основной склад доступным.",
+        "Наличие устройств не доказывает работающую сеть. Проверьте питание, связь, сохранность предметов и свободное место до переноса ценных запасов. В установленной версии Refined Storage 2 некоторые правила отличаются от старых руководств."
+      ],
+      "intro_en": [
+        "Refined Storage combines connected storage into one searchable list. Controllers supply network energy, disks and external containers provide capacity, and a grid accesses contents. Build the first rig with a few inexpensive items while keeping the main warehouse accessible.",
+        "Owning devices does not establish a working network. Check power, connectivity, item retention and free space before moving valuable supplies. Some Refined Storage 2 rules differ from older guides."
+      ]
+    },
+    "rs_autocraft": {
+      "intro": [
+        "Автокрафт исполняет записанные шаблоны, а обработка во внешней машине требует явного возврата результата. Сеть умеет выдать ингредиенты, но не считает заказ готовым, пока ожидаемые предметы не вернутся. Начинайте с одного обычного рецепта и одной печи.",
+        "Разделяйте шаблон заготовки, шаблон обработки и физическую логистику. Монитор покажет ожидание, а маленькая пробная партия поможет понять, в каком именно месте остановился процесс."
+      ],
+      "intro_en": [
+        "Autocrafting executes encoded patterns, while external processing requires explicit output return. The network can send ingredients but does not consider a task complete until expected items come back. Begin with one ordinary recipe and one furnace.",
+        "Separate raw-item patterns, processing patterns and physical logistics. A monitor reveals waiting, while a small trial batch identifies exactly where processing stopped."
+      ]
+    },
+    "storage_local": {
+      "intro": [
+        "Локальные хранилища полезны до цифровой сети и остаются удобными после её появления. Рюкзак переносит инструменты, бины держат большие запасы одного ресурса, а хранилище Create обслуживает производственный поток. Выбирайте устройство по реальной задаче.",
+        "Автоматические улучшения проверяйте на дешёвых предметах. Особенно внимательно настраивайте удаление: исчезнувший через модуль пустоты ресурс не вернётся после выключения фильтра."
+      ],
+      "intro_en": [
+        "Local storage is useful before a digital network and remains convenient afterward. A backpack carries tools, bins hold large stocks of one resource, and Create vaults serve production flows. Choose storage for the actual job.",
+        "Test automatic upgrades with inexpensive items. Configure deletion particularly carefully: resources removed by a void upgrade do not return when its filter is disabled."
+      ]
+    }
+  },
+  "quests": {
+    "rs_network/silicon": {
+      "text": [
+        "Кремний и процессоры входят в большинство устройств Refined Storage. Кремний в установленном рецепте получают обжигом кварца в обычной печи. Подготовьте кварц, железо, красную пыль, нити, слизь и топливо; сначала получите восемь кремниев одним запасом для учёта, затем используйте их в процессорах.",
+        "Две нити со слизью дают восемь связок процессора. Соедините связку, кремний, красную пыль и железный слиток для базовой заготовки, затем обожгите её в печи. Золото и алмаз используются для других уровней, а не заменяют железо в той же цели.",
+        "После кремния зарегистрируйте четыре готовых базовых процессора; разные цели допускают поочерёдный показ. Сырая заготовка не считается завершённым процессором. Позже автоматизация должна повторять два разных шага — крафт заготовки и обжиг — с возвратом результата в сеть. Пока маленькая ручная партия позволяет увидеть весь путь материала."
+      ],
+      "text_en": [
+        "Silicon and processors are used in most Refined Storage devices. The installed silicon recipe smelts quartz in an ordinary furnace. Prepare quartz, iron, redstone, string, slime and fuel; register eight silicon together first, then use them in processors.",
+        "Two strings with slime produce eight processor bindings. Combine a binding, silicon, redstone and an iron ingot into a raw basic processor, then smelt it. Gold and diamond serve other tiers rather than replacing iron in this objective.",
+        "After silicon, register four finished basic processors; different item objectives can be shown sequentially. A raw processor does not count as finished. Later automation must repeat two distinct steps, crafting the raw processor and smelting it, with output returning to the network. A small manual batch reveals the complete route first."
+      ]
+    },
+    "rs_network/quartz_iron": {
+      "text": [
+        "Кварцевое железо нужно для корпусов, кабелей и других базовых компонентов сети. Подготовьте обычные железные слитки и кварц. Не обжигайте весь кварц в кремний: часть нужна именно как исходный кристалл.",
+        "Установленный рецепт соединяет три железных слитка и один кварц в четыре единицы кварцевого железа. Повторите его четыре раза, чтобы получить шестнадцать. Расположение ингредиентов сверяйте с квадратной формой в JEI, если ручной крафт не появился.",
+        "Это отдельный материал, а не улучшение уже поставленного кабеля. Разделите запас между контроллером, соединениями и дисковыми корпусами, оставляя несколько слитков на ремонт. Нехватка одного дешёвого материала часто задерживает сеть дольше редкого процессора, поэтому небольшую повторяемую партию удобно добавить в список частых крафтов мастерской."
+      ],
+      "text_en": [
+        "Quartz-enriched iron is needed for casings, cables and other basic network parts. Prepare ordinary iron ingots and quartz. Do not smelt all quartz into silicon; some is needed as the original crystal.",
+        "The installed recipe combines three iron ingots and one quartz into four quartz-enriched iron. Repeat four times to obtain sixteen. Check the square ingredient pattern in JEI if manual crafting produces no result.",
+        "This is a separate material rather than an upgrade applied to existing cable. Divide supplies between controller, connections and disk housings, retaining a few ingots for repairs. A shortage of one cheap material can delay a network longer than a rare processor, so this small repeatable batch belongs among the workshop’s frequent crafts."
+      ]
+    },
+    "rs_network/controller": {
+      "text": [
+        "Контроллер передаёт электроэнергию устройствам сети Refined Storage. Подготовьте его и стабильный источник FE; одно размещение блока не включает грид и хранилища. Для первой сети достаточно одного контроллера, но версия 2 допускает несколько, поэтому старое правило о единственном на сеть здесь неверно.",
+        "Подключите питание, затем добавьте небольшой участок кабеля и первые устройства. Откройте состояние контроллера и сравните доступный запас с расходом. При росте сети потребление меняется, особенно после добавления улучшений и дисков.",
+        "Если всё погасло, сначала проверьте энергию и соединение источника. Полный сундук материалов рядом не заменяет электрическую подачу. Оставьте контроллер доступным для осмотра и не переносите весь склад до проверки записи и извлечения предметов. Так вы сможете восстановить питание без поиска ключевых деталей внутри отключённой сети."
+      ],
+      "text_en": [
+        "A controller supplies electrical energy to Refined Storage devices. Prepare one and a steady FE source; placing the block alone does not activate grids or storage. One controller is enough initially, but version 2 permits several, so the old one-controller-per-network rule is incorrect here.",
+        "Connect power, then add a short cable and initial devices. Open controller status and compare stored energy with demand. Consumption changes as the network grows, especially with upgrades and disks.",
+        "If everything goes dark, inspect energy and source connection first. A nearby chest of materials does not replace electrical delivery. Keep the controller accessible and avoid moving the whole warehouse before testing insertion and extraction. This leaves restoration parts available outside an unpowered network."
+      ]
+    },
+    "rs_network/cable": {
+      "text": [
+        "Кабель связывает устройства в одну сеть, а реле позволяет управлять целой веткой. Подготовьте шестнадцать кабелей и одно реле. Для опыта соедините контроллер и будущий грид короткой видимой трассой, не пряча всё сразу под пол.",
+        "Поставьте реле на границе отдельной ветки и проверьте его направление и режим. В простом сквозном режиме оно передаёт сеть целиком; дополнительные настройки позволяют выбирать доступные хранилище, энергию, безопасность и шаблоны. Пока не усложняйте фильтрацию без конкретной необходимости.",
+        "Проверьте отключение и восстановление одной ветки, сохраняя доступ к основной. Если грид пуст, но питается, причина может быть в том, что реле не передаёт хранилище. Различайте отсутствие энергии и отсутствие разрешённого доступа к ресурсам. Кабель сам ничего не хранит, поэтому следующая задача добавит дисковую вместимость."
+      ],
+      "text_en": [
+        "Cable connects devices into a network, while a relay controls an entire branch. Prepare sixteen cables and one relay. Use a short visible route between controller and future grid instead of immediately hiding everything under the floor.",
+        "Place the relay at a branch boundary and inspect direction and mode. Simple pass-through shares the whole network; advanced settings selectively expose storage, energy, security and patterns. Avoid adding filtering without a concrete need.",
+        "Test disconnecting and restoring one branch while retaining main-network access. An empty but powered grid may indicate that the relay is not passing storage. Distinguish missing energy from missing resource access. Cable stores nothing itself, so the next quest adds disk capacity."
+      ]
+    },
+    "rs_network/drive": {
+      "text": [
+        "Дисковод предоставляет место для дисков, а данные хранятся на самих дисках. Сначала изготовьте и зарегистрируйте корпус, затем используйте его для диска на 1k; запасной корпус ради цели не нужен. Подготовьте также дисковод. Пустой корпус соединяется с компонентом хранения при крафте диска, но сам предметы не вмещает.",
+        "Подключите дисковод к питаемой сети и вставьте диск. Когда появится грид, положите несколько дешёвых предметов и проверьте занятость. Не рассчитывайте, что один дисковод без дисков даёт запас места.",
+        "Извлечение диска убирает доступ к его содержимому из сети, поэтому подписывайте переносимые носители и храните их аккуратно. Разбирать диск на компоненты предусмотренным действием можно, когда он пуст; сначала выгрузите данные и проверьте нулевое заполнение. Цель проверяет наличие трёх предметов, а не запись на носитель. Для первого переноса склада используйте маленькую пробу, которую легко пересчитать."
+      ],
+      "text_en": [
+        "A disk drive holds storage disks, while the disks themselves hold the data. Craft and register a housing first, then use it for a 1k disk; no spare housing is needed solely for tracking. Prepare a drive too. An empty housing combines with a storage part when crafting a disk but stores no items alone.",
+        "Connect the drive to a powered network and insert the disk. Once a grid is available, insert a few inexpensive items and inspect usage. A drive without disks provides no storage capacity.",
+        "Removing a disk makes its contents unavailable through the network, so label and protect transported media. The supported action disassembles a disk into components when it is empty; evacuate contents and verify zero usage first. The objective checks three items rather than recording data. Use a small countable trial before migrating a warehouse."
+      ]
+    },
+    "rs_network/grid": {
+      "text": [
+        "Грид показывает общий доступный список ресурсов и позволяет класть и забирать предметы. Крафтовый вариант добавляет обычную сетку верстака. Подготовьте оба устройства; базовый грид лучше показать учёту до использования его в рецепте улучшения.",
+        "Подключите грид к питаемой сети с установленным диском или внешним хранилищем. Положите небольшую стопку камня, найдите её поиском и заберите часть. Затем проверьте простой рецепт в крафтовом гриде из доступных материалов.",
+        "Пустой список может означать отсутствие хранилища, фильтр отображения, отключённое реле или права, а не потерю всех предметов. Проверьте эти причины до перестройки. Крафтовый грид не автоматизирует рецепт сам: он помогает ручному крафту, тогда как шаблоны и автокрафтеры появятся в следующей главе. Сохраните привычный обычный сундук для аварийного доступа к деталям питания."
+      ],
+      "text_en": [
+        "A grid shows available network resources and lets you insert and extract items. A crafting grid adds an ordinary crafting matrix. Prepare both devices; register the basic grid before using it in an upgrade recipe.",
+        "Connect a grid to a powered network with a disk or external storage. Insert a small stack of stone, find it through search and remove some. Then try a simple recipe in the crafting grid using available materials.",
+        "An empty list may indicate missing storage, display filtering, a disabled relay or permissions rather than loss of every item. Check these before rebuilding. A crafting grid assists manual crafting; patterns and autocrafters provide automation in the next chapter. Retain an ordinary emergency chest for power-restoration components."
+      ]
+    },
+    "rs_network/blocks_storage": {
+      "text": [
+        "Блок-хранилище объединяет вместимость и подключение в одном установленном устройстве, не требуя дисковода. Подготовьте вариант на 1k и свободное место на вашей кабельной трассе. Он удобен маленькой сети, где отдельный дисковод пока занимает лишнее пространство.",
+        "Подключите блок к питанию сети и вставьте через грид небольшую известную партию. Посмотрите изменение заполнения, затем извлеките те же предметы. Если в сети есть другие хранилища, учитывайте их приоритет: запись могла попасть туда.",
+        "Перед переносом блока проверьте правила сохранения содержимого и предпочтительно освободите учебный экземпляр. Не считайте его пустым только потому, что окно грида закрыто. Блоковая и дисковая формы решают похожую задачу, но расширяются и обслуживаются по-разному. После простого опыта выбирайте вариант по удобству размещения, сохраняя запас места для входящего производства."
+      ],
+      "text_en": [
+        "A storage block combines capacity and network connection in one installed device without a disk drive. Prepare the 1k variant and space along the cable route. It suits a small network where a separate drive is inconvenient.",
+        "Connect the block and insert a small known batch through the grid. Watch usage change, then retrieve the same items. If other storage exists, account for priorities: insertion may have gone elsewhere.",
+        "Before moving it, check content-preservation behavior and preferably empty the training block. Closing a grid window does not make storage empty. Block and disk forms solve similar problems but differ in expansion and handling. After testing, choose based on placement convenience while preserving free capacity for incoming production."
+      ]
+    },
+    "rs_network/external": {
+      "text": [
+        "Внешнее хранилище открывает сети содержимое подключённого сундука, бака или совместимого инвентаря. Предметы остаются в исходном контейнере, а не обязательно переписываются на диск. Подготовьте адаптер и небольшой сундук с известным содержимым.",
+        "Установите устройство рабочей стороной к контейнеру, подключите кабель и проверьте список в гриде. Настройте допустимые ресурсы, режим и приоритет, если они нужны вашему складу. Не подключайте одну и ту же ёмкость несколькими независимыми путями без понятной причины.",
+        "Дисковый интерфейс из второй цели выполняет другую работу: переносит ресурсы между вставленными дисками и сетью в выбранном направлении. Для первой проверки используйте отдельный носитель с дешёвым содержимым и достаточно свободного места. Не путайте подключение внешнего сундука с миграцией диска; оба результата проверяются по изменению реальных запасов."
+      ],
+      "text_en": [
+        "External storage exposes a connected chest, tank or compatible inventory to the network. Items remain in their original container rather than necessarily moving onto a disk. Prepare the adapter and a small chest with known contents.",
+        "Point the device into the container, connect cable and inspect the grid listing. Configure permitted resources, mode and priority where needed. Avoid exposing the same container through several independent paths without a clear reason.",
+        "The disk interface in the second objective does something different: transferring resources between inserted disks and the network in a selected direction. Test with a separate inexpensive sample disk and enough free space. Do not confuse external-chest access with disk migration; verify both through actual stock changes."
+      ]
+    },
+    "rs_network/io": {
+      "text": [
+        "Импортёр забирает ресурсы из внешнего инвентаря в сеть, а экспортёр отправляет выбранные ресурсы из сети наружу. Подготовьте оба устройства, интерфейс и улучшения скорости со стопкой. Для опыта используйте два небольших сундука, чтобы видеть направление.",
+        "Подключите импортёр к входному сундуку и экспортёр к выходному, задав фильтр последнему. Интерфейс содержит промежуточные слоты для обоих направлений; соседние машины должны сами вставлять и извлекать из них предметы подходящей логистикой. Он не равен двум бесконтактным универсальным трубам.",
+        "Проверьте одну стопку до установки ускорений. Улучшения работают только в поддерживаемых устройствах и увеличивают потребление энергии. Если предметы ходят по кругу, проверьте, не импортируете ли вы тот же запас, который экспортируете. Для производственной машины отдельно обеспечьте правильный вход сырья и возврат готового результата."
+      ],
+      "text_en": [
+        "An importer pulls resources from an external inventory into the network, while an exporter sends selected resources out. Prepare both, an interface, and speed and stack upgrades. Use two small chests so transfer direction is visible.",
+        "Attach the importer to the input chest and the exporter to the output, configuring the exporter’s filter. An interface has intermediate slots for both directions; neighboring machinery must insert and extract through suitable logistics. It is not two universal contactless pipes.",
+        "Test one stack before adding acceleration. Upgrades work only in supported devices and increase energy use. If items loop endlessly, check whether the same supply is being exported and immediately imported. A production machine separately needs correct raw-material insertion and finished-output return."
+      ]
+    },
+    "rs_network/constructor": {
+      "text": [
+        "Конструктор размещает выбранные блоки из сети в мире, а деструктор разрушает подходящие блоки перед собой и возвращает добычу. Подготовьте оба устройства и небольшой запас земли или камня. Испытательный участок держите вдали от важных машин.",
+        "Подключите конструктор к сети, задайте материал и проверьте рабочую сторону на свободном месте. Деструктор испытайте отдельно на одном подготовленном блоке. Настройте фильтр, если требуется ограничить добычу, и проверьте место для результата в хранилище.",
+        "Не направляйте деструктор на дорогой механизм, не выяснив его правила выпадения: добытый результат может отличаться от установленного блока. Рядом стоящие конструктор и деструктор способны бесконечно перерабатывать один участок, расходуя энергию. Добавьте понятную команду включения и осмотрите результат до автоматизации фермы или регулярно восстанавливаемой стены."
+      ],
+      "text_en": [
+        "A constructor places selected blocks from the network into the world, while a destructor breaks suitable blocks in front and returns drops. Prepare both and a small dirt or stone supply. Keep the test area away from important machinery.",
+        "Connect the constructor, select material and check its working face against empty space. Test the destructor separately on one prepared block. Configure filtering where necessary and provide storage space for drops.",
+        "Do not point a destructor at an expensive machine without understanding its drops; the harvested result may differ from the installed block. Adjacent constructors and destructors can repeatedly recycle one position while using energy. Add an understandable enable control and inspect the result before automating a farm or rebuilding wall."
+      ]
+    },
+    "rs_network/monitor": {
+      "text": [
+        "Монитор хранения показывает запас выбранного ресурса, а детектор выдаёт красный сигнал по условию количества. Подготовьте оба устройства и материал, запас которого легко менять. Это полезно для угля у генератора или железа перед большой сборкой.",
+        "Подключите монитор и назначьте отображаемый предмет. В детекторе задайте тот же ресурс и порог, затем постепенно кладите и забирайте его через грид. Наблюдайте число и состояние лампы на выходе детектора.",
+        "Проверьте знак сравнения: сигнал при недостатке отличается от сигнала при избытке. Сам монитор не делает запас бесконечным, а детектор не создаёт рецепт пополнения. После опыта можно связать сигнал с внешней производственной линией, сохранив возможность остановки. Для автоматического изготовления внутри Refined Storage потребуется отдельная ветка шаблонов и автокрафта."
+      ],
+      "text_en": [
+        "A storage monitor displays the quantity of a selected resource, while a detector emits redstone under a quantity condition. Prepare both and an item whose stock is easy to change. This is useful for generator fuel or iron before a large build.",
+        "Connect the monitor and assign its displayed item. Set the same resource and a threshold in the detector, then add and remove it through the grid. Watch the number and a lamp attached to the detector.",
+        "Check comparison direction: signaling shortage differs from signaling surplus. A monitor does not create infinite stock, and a detector does not create a replenishment recipe. After testing, connect the signal to an external production line with a stop control. Internal manufacturing requires the separate pattern and autocrafting branch."
+      ]
+    },
+    "rs_network/wireless": {
+      "text": [
+        "Беспроводной грид открывает сеть в пределах покрытия передатчиков и требует заряда самого предмета. Сетевые передатчик с приёмником соединяют удалённые части сети и выполняют другую задачу. Подготовьте четыре устройства из целей, а для связки сегментов — также сетевую карту.",
+        "Зарядите и привяжите беспроводной грид предусмотренным способом, затем проверьте доступ рядом с работающим передатчиком. Для удалённого сегмента присядьте и примените карту к приёмнику, после чего вставьте связанную карту в сетевой передатчик.",
+        "Не считайте обычное радиопокрытие неограниченным доступом из любой точки мира. Проверяйте дальность, питание, загрузку обеих сторон и нужные улучшения для выбранного маршрута. До путешествия попробуйте положить и забрать дешёвый предмет. Сохраните обычный грид у базы: разряженный карманный терминал не должен лишать вас доступа к материалам для собственной зарядки."
+      ],
+      "text_en": [
+        "A wireless grid accesses the network within transmitter coverage and needs its own charge. Network transmitters and receivers connect remote network segments and serve a different purpose. Prepare the four listed devices plus a network card for segment linking.",
+        "Charge and bind the wireless grid using its supported method, then test beside an operating transmitter. For a remote segment, sneak-use the card on the receiver and insert the bound card into the network transmitter.",
+        "Ordinary wireless coverage is not unlimited access from anywhere. Check range, energy, loading of both endpoints and required upgrades for the intended route. Insert and extract an inexpensive item before traveling. Keep a normal grid at the base so an empty handheld battery does not block access to charging materials."
+      ]
+    },
+    "rs_network/security": {
+      "text": [
+        "Менеджер безопасности регулирует действия игроков в общей сети. В установленной версии активный менеджер по умолчанию блокирует операции, пока карточками не заданы разрешения. Подготовьте устройство и карту, сначала продумав доступ владельца.",
+        "Настройте персональную карту с нужными правами: открытие устройств, вставка, извлечение, автокрафт и изменение сети имеют отдельный смысл. Проверьте собственный доступ на учебной конфигурации до подключения основного склада. Общие права для игроков без карточки задаются отдельной резервной картой.",
+        "Если менеджер отключён, сеть не защищена им, поэтому случайное управление красным сигналом важно проверить. На совместном сервере испытайте разрешённое и запрещённое действие с согласованным участником. Не храните единственное средство восстановления вне своего доступа. Предметная цель подтверждает компоненты, а реальную политику определяет проверенная конфигурация карт и состояния менеджера."
+      ],
+      "text_en": [
+        "A security manager controls player actions in a shared network. In this version, an active manager blocks operations by default until cards grant permissions. Prepare the device and a card, planning owner access first.",
+        "Configure a personal card with required rights: opening devices, insertion, extraction, autocrafting and network modification are distinct. Test your own access on a training setup before connecting the main warehouse. A separate fallback card defines rights for players without individual cards.",
+        "An inactive manager does not protect the network, so check accidental redstone control. On a shared server, test an allowed and denied action with an agreed participant. Do not place the only recovery method beyond your own access. The item objective confirms components; tested cards and manager state establish the actual policy."
+      ]
+    },
+    "rs_autocraft/pattern_grid": {
+      "text": [
+        "Грид шаблонов записывает рецепт на специальный предмет для автокрафтера. Подготовьте устройство и восемь пустых шаблонов, подключите грид к питаемой сети. Первый рецепт выбирайте простой, с однозначным результатом, например обычные доски из подходящего бревна.",
+        "В режиме крафта задайте расположение ингредиентов и результат, затем запишите шаблон. Для печи или другой внешней машины нужен режим обработки: слева указывается высылаемое сырьё, справа — точный ожидаемый выход. Сам грид такую обработку не выполняет.",
+        "Не записывайте случайный вероятностный результат как гарантированный без дополнительной схемы. Проверьте количество выхода и допустимые замены ингредиентов, особенно у предметов с особыми данными. Готовый шаблон отправится в автокрафтер следующего задания. До переноса сложного рецепта полезно исполнить его вручную и убедиться, что указан именно результат вашей установленной сборки."
+      ],
+      "text_en": [
+        "A pattern grid encodes a recipe onto a pattern item for an autocrafter. Prepare the device and eight blank patterns, then connect it to a powered network. Choose a simple first recipe with an unambiguous result, such as ordinary planks from a suitable log.",
+        "In crafting mode, define ingredients and output, then encode the pattern. A furnace or external machine needs processing mode: inputs specify resources sent out, and outputs specify the exact expected return. The grid does not perform processing itself.",
+        "Do not declare a probabilistic result guaranteed without additional handling. Check output quantities and permitted substitutions, especially for items with special data. Place the pattern in an autocrafter next. Execute complex recipes manually first to verify the installed pack’s actual result."
+      ]
+    },
+    "rs_autocraft/autocrafter": {
+      "text": [
+        "Автокрафтер хранит шаблоны и делает их доступными для заказов. Для обычного крафта ему достаточно сети и материалов, а для обработки он выдаёт ингредиенты во внешний инвентарь. Подготовьте устройство и один уже записанный простой шаблон.",
+        "Подключите автокрафтер и вставьте шаблон. Через грид запросите небольшую партию результата, просмотрите расчёт материалов и запустите задачу. Убедитесь, что предмет появился в сети, прежде чем добавлять десятки рецептов.",
+        "Для машинного шаблона важна рабочая сторона автокрафтера: она должна смотреть в подходящий вход машины или промежуточный буфер. Выход машины возвращайте импортёром либо иной проверенной подачей. Если ингредиенты ушли, а заказ висит, не добавляйте второй шаблон вслепую. Сначала найдите, где физически находится ожидаемый продукт, и проверьте его точное количество."
+      ],
+      "text_en": [
+        "An autocrafter stores patterns and exposes them for requests. Ordinary crafting needs the network and ingredients; processing patterns send ingredients into an external inventory. Prepare the device and one encoded simple pattern.",
+        "Connect the autocrafter and insert the pattern. Request a small output batch through the grid, inspect material planning and start the task. Confirm the product appears before adding dozens of recipes.",
+        "For processing, the autocrafter’s output face must point into a suitable machine input or buffer. Return machine output through an importer or another verified route. If ingredients leave but the task remains waiting, do not blindly add a second pattern. Locate the expected product physically and check its exact quantity."
+      ]
+    },
+    "rs_autocraft/manager": {
+      "text": [
+        "Менеджер автокрафтеров собирает шаблоны в одном интерфейсе и помогает обслуживать распределённую мастерскую. Подготовьте устройство после первого работающего автокрафта. Сам менеджер не увеличивает скорость выполнения рецептов и не заменяет блоки, где лежат шаблоны.",
+        "Подключите его к сети и найдите знакомый рецепт по выходу, входу или имени автокрафтера. Дайте устройствам понятные названия, особенно если несколько обслуживают одинаковые печи. Проверьте настройку видимости автокрафтера в менеджере, если он не отображается.",
+        "При дублирующих рецептах сравните приоритеты: сеть предпочитает шаблон в автокрафтере с более высоким приоритетом. Не удаляйте работающие записи наугад во время активного заказа. Сначала завершите или осознанно остановите задачу, затем исправьте одну запись и повторите небольшую пробу. Такой порядок упрощает развитие большого списка рецептов."
+      ],
+      "text_en": [
+        "An autocrafter manager presents patterns in one interface and helps service a distributed workshop. Prepare it after the first successful autocraft. It neither speeds recipes up nor replaces the devices physically holding patterns.",
+        "Connect it and find a familiar recipe by output, input or autocrafter name. Give devices understandable names, especially when several serve identical furnaces. If one is absent, check its manager-visibility setting.",
+        "For duplicate recipes, compare priorities: the network favors the pattern in the higher-priority autocrafter. Avoid deleting working patterns randomly during an active request. Finish or deliberately cancel the task first, then correct one entry and repeat a small trial. This keeps a growing recipe collection manageable."
+      ]
+    },
+    "rs_autocraft/monitor_craft": {
+      "text": [
+        "Монитор автокрафта показывает состояние заказов и позволяет отличить ожидание ингредиентов от ожидания результата машины. Подготовьте его и подключите к той же сети, где уже работает простой шаблон. Для обучения используйте небольшой заказ без дорогих материалов.",
+        "Запустите рецепт и откройте монитор, пока задача выполняется. Посмотрите необходимые и ожидаемые ресурсы, затем найдите соответствующее состояние в самой машине. Исчезнувшее из сетевого запаса сырьё может уже лежать во внешнем буфере.",
+        "Отмена задачи не означает автоматического возвращения всех предметов из чужих инвентарей. Перед повторным заказом осмотрите печь, вход и выход, чтобы не удвоить ненужную партию. Если результат не возвращается, исправьте физическую подачу или шаблон ожидаемого выхода. Монитор помогает диагностике, но не является механизмом, который сам разблокирует каждую машину."
+      ],
+      "text_en": [
+        "An autocrafting monitor shows task state and distinguishes ingredient waiting from waiting for machine output. Prepare it on the same network as a working simple pattern. Use a small inexpensive request for learning.",
+        "Start a recipe and open the monitor while it runs. Inspect required and expected resources, then locate the corresponding machine state. Raw material missing from network stock may already be in an external buffer.",
+        "Canceling a task does not automatically retrieve every item from outside inventories. Inspect furnace, input and output before ordering again so you do not duplicate an unwanted batch. If output fails to return, fix physical routing or the expected-output pattern. The monitor supports diagnosis rather than automatically unblocking every machine."
+      ]
+    },
+    "rs_autocraft/upgrade_craft": {
+      "text": [
+        "Улучшение автокрафта позволяет совместимому устройству заказать недостающий ресурс по шаблону. Оно полезно экспортёру, интерфейсу или конструктору, которым нужен постоянный материал. Подготовьте улучшение только после успешного ручного заказа этого ресурса.",
+        "Установите его в поддерживаемое устройство и задайте нужный предмет в фильтре. Сначала используйте небольшой приёмный сундук, ограничив требуемый запас подходящим регулятором или контролируемой ёмкостью. Уберите немного ресурса и наблюдайте создание заказа.",
+        "Улучшение не создаёт отсутствующий рецепт и не знает желаемый потолок запаса без остальных настроек. Непрерывный экспорт в огромный сундук может расходовать всё сырьё сети. Проверьте прекращение производства при достижении заданного количества и возобновление после расходования. Если заказ висит, ищите обычные причины через монитор: материалы, питание, доступ к машине и возврат результата."
+      ],
+      "text_en": [
+        "An autocrafting upgrade lets a compatible device request a missing resource through a pattern. It suits an exporter, interface or constructor needing a steady material supply. Prepare it only after that resource has been requested successfully by hand.",
+        "Install it in a supported device and set the desired filtered item. Start with a small receiving chest, limiting stock through a suitable regulator or controlled capacity. Remove some material and observe the resulting task.",
+        "The upgrade does not invent missing recipes or know a desired stock ceiling without other settings. Continuous export into a huge chest can consume all network ingredients. Check that production stops at the target and resumes after consumption. Diagnose waiting tasks through the monitor: materials, power, machine access and output return."
+      ]
+    },
+    "rs_autocraft/wireless_craft": {
+      "text": [
+        "Беспроводной монитор позволяет наблюдать и отменять заказы, не возвращаясь к стационарному экрану. Он использует сетевое покрытие и собственную энергию. Подготовьте предмет, зарядите его и выполните требуемую привязку к нужной сети.",
+        "Запустите небольшой заказ возле базы, откройте карманный монитор и сравните данные со стационарным. Затем отойдите на обычное рабочее расстояние и проверьте, остаётся ли связь. Покрытие зависит от передатчиков и улучшений, а не от того, сколько рецептов записано.",
+        "Отменяйте заказ только понимая последствия для внешних машин: уже отправленные ингредиенты могут остаться в печи или буфере. Разряженный прибор не означает остановку самой сети. Сохраните стационарный монитор и доступный источник зарядки. Этот предмет удобен при обслуживании длинной фабрики, где неисправность видна на одном конце, а автокрафтер стоит на другом."
+      ],
+      "text_en": [
+        "A wireless autocrafting monitor lets you inspect and cancel tasks without returning to a fixed screen. It uses network coverage and its own energy. Prepare and charge the item, then bind it to the intended network.",
+        "Start a small task near the base, open the handheld monitor and compare it with the stationary one. Move to your normal working distance and test connectivity. Coverage depends on transmitters and upgrades rather than pattern count.",
+        "Cancel only with an understanding of external-machine consequences: dispatched ingredients may remain in a furnace or buffer. A discharged monitor does not mean the network stopped. Keep a stationary monitor and accessible charging source. This is useful in long factories where a visible fault and its autocrafter are far apart."
+      ]
+    },
+    "rs_autocraft/jei_rs": {
+      "text": [
+        "Интеграция JEI помогает перенести известный рецепт к сетевому крафту и увидеть недостающие материалы. Она не превращает любой показанный рецепт в уже записанный шаблон. Подготовьте работающий грид и простой ресурс, который сеть действительно умеет изготавливать.",
+        "Откройте рецепт в JEI из интерфейса грида и воспользуйтесь доступным действием переноса или заказа. Проверьте расчёт перед запуском: отсутствующий ингредиент может потребовать собственного шаблона или пополнения запаса. Наблюдайте завершение и появление результата в сети.",
+        "Ручную цель «Заказать крафт из JEI через грид» отмечайте после настоящего заказа, а не просто просмотра рецепта. Если кнопка недоступна, проверьте тип грида, наличие интеграции и записанного шаблона. Не повторяйте запрос бесконечно: сначала выясните, не остался ли первый заказ в ожидании обработки внешней машиной."
+      ],
+      "text_en": [
+        "JEI integration helps bring a known recipe into network crafting and reveal missing ingredients. It does not turn every displayed recipe into an already encoded pattern. Prepare a working grid and a simple resource the network can actually craft.",
+        "Open the JEI recipe from the grid interface and use the available transfer or request action. Inspect planning before starting: a missing ingredient may need its own pattern or replenished stock. Observe completion and the product appearing in storage.",
+        "Confirm the manual “Order crafting from JEI through the grid” objective after an actual request, not merely viewing a recipe. If unavailable, check grid type, integration and encoded pattern. Avoid endless repeated requests; first determine whether the original is waiting for external processing."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: заказать крафт из JEI через грид и проверить появление результата в сети",
+          "en": "Manually request crafting from JEI through the grid and verify the result appears in the network"
+        }
+      }
+    },
+    "rs_autocraft/big_project": {
+      "text": [
+        "Продвинутый процессор требует цепочки из изготовления заготовки и обжига. Для восьми изделий подготовьте алмазы, кремний, красную пыль и связки процессора, либо рабочие шаблоны недостающих промежуточных материалов. Одной записи готового процессора как обычного крафта недостаточно.",
+        "Запишите рецепт сырой заготовки и отдельный шаблон обработки в печи. Настройте выдачу заготовок в правильный вход, снабжение печи топливом и возврат продукта в сеть. Затем закажите восемь процессоров через грид и наблюдайте обе стадии.",
+        "Сверьте результат с монитором и сетевым запасом. Если восемь процессоров уже были учтены раньше, повторно держать их ради предметной галочки не нужно; новый опыт полезен для проверки цепочки. Не путайте исторический зачёт с работающим возвратом: реальная печь должна отдать заказанные изделия без ручной переноски."
+      ],
+      "text_en": [
+        "An advanced processor needs a chain of raw-processor crafting and smelting. For eight products, prepare diamonds, silicon, redstone and bindings, or working patterns for missing intermediates. One ordinary crafting pattern for the finished processor is insufficient.",
+        "Encode the raw recipe and a separate furnace-processing pattern. Configure insertion into the correct furnace input, fuel supply and output return. Request eight processors through the grid and watch both stages.",
+        "Compare completion in the monitor with network stock. If eight processors were registered earlier, they need not be held again solely for the item check; the new trial verifies the chain. Historical credit is not evidence of working return logistics: the actual furnace must deliver requested products without hand-carrying."
+      ]
+    },
+    "rs_autocraft/processor_line_setup": {
+      "text": [
+        "Линия процессоров связывает автокрафтер, печь и возврат в сеть. Цель просит автокрафтер и импортёр; ранее зарегистрированные устройства можно использовать повторно, не добывая их ради учёта. Подготовьте печь, кабель и отдельное снабжение топливом.",
+        "В автокрафтере разместите шаблоны сырого продвинутого процессора и его обжига. Направьте выдачу заготовок к подходящему входу печи, а импортёр — к стороне извлечения готовых изделий. Не отправляйте топливо в тот же слот, что и сырьё.",
+        "Проверьте один процессор, начиная с алмаза, кремния, красной пыли и связки. Если заготовка изготовлена, а обжига нет, осмотрите топливо и вход. Если обжиг завершён, а заказ ждёт, ищите продукт на выходе. Подготовка компонентов ещё не доказывает весь цикл; пробная партия и отдельное испытание помогут убедиться в устойчивости."
+      ],
+      "text_en": [
+        "A processor line connects an autocrafter, furnace and return path. This objective asks for an autocrafter and importer; previously registered devices can be reused without removing them for tracking. Prepare a furnace, cable and separate fuel supply.",
+        "Install raw advanced-processor and smelting patterns in the autocrafter. Direct raw items toward a suitable furnace input and the importer toward finished-output extraction. Do not send fuel into the same slot as raw ingredients.",
+        "Test one processor from diamond, silicon, redstone and binding. If raw crafting works but smelting does not, inspect fuel and input. If smelting finishes but the task waits, locate output. Prepared components do not prove the whole cycle; a batch and separate trial establish reliability."
+      ]
+    },
+    "rs_autocraft/processor_line_batch": {
+      "text": [
+        "Пробная партия проверяет путь нескольких процессоров через одну линию. Выделите материалы на восемь продвинутых изделий и посмотрите предварительный расчёт заказа. Если чего-то не хватает, пополните именно указанный материал, не меняя одновременно все шаблоны.",
+        "Запустите заказ через грид и наблюдайте заготовки, печь и возврат. Убедитесь, что импортёр забирает готовые процессоры, а не вытягивает сырьё из входа. Выходной запас должен увеличиться на заказанное количество после завершения обработки.",
+        "Для предметной цели достаточно однажды показать восемь одинаковых процессоров в доступном инвентаре; разные маленькие партии не суммируются в такой запас. Если максимум уже зарегистрирован, повторный показ не нужен. Предметы не расходуются Кодексом. Работу именно этой линии подтверждает наблюдение, а не галочка, которая могла появиться благодаря ранее изготовленным процессорам."
+      ],
+      "text_en": [
+        "The trial batch checks several processors moving through one line. Reserve materials for eight advanced processors and inspect the request preview. Replenish the specifically missing ingredient instead of changing every pattern at once.",
+        "Start the request through the grid and watch raw crafting, furnace processing and return. Ensure the importer extracts finished processors rather than pulling raw inputs. Output stock should increase by the requested quantity after completion.",
+        "The item objective requires having shown eight identical processors together in a tracked inventory once; separate small batches do not add up to that holding. No repeat showing is needed if already registered. The Codex does not consume them. Observation proves this line works; a checkbox may have come from previously produced processors."
+      ]
+    },
+    "rs_autocraft/processor_line_run": {
+      "text": [
+        "Приёмка линии должна включать недостаток материалов и правильное завершение после пополнения. Подготовьте интерфейс сети, монитор и свободное место для готовых процессоров. Оставьте запас недостающего ингредиента вне сети, чтобы можно было выполнить контролируемую проверку.",
+        "Закажите восемь процессоров из интерфейса сети. Сверьте список недостающих материалов; после пополнения заказ должен завершиться и вернуть все восемь изделий. Если интерфейс не позволяет запуск с нехваткой, сначала изучите расчёт, пополните запас и затем подтвердите заказ.",
+        "Отметьте цель вручную после проверки в мире. Кодекс не измеряет работу установки автоматически. Проследите и внешнюю печь: после окончания задание не должно зависеть от ручного извлечения результата. При зависании проверьте топливо, сторону импорта и точное описание выходного продукта, сохранив заготовки вместо бессистемного повторного запуска."
+      ],
+      "text_en": [
+        "Acceptance should include missing materials and correct completion after replenishment. Prepare the network interface, monitor and room for finished processors. Keep a missing ingredient outside the network for a controlled check.",
+        "Request eight processors through the interface. Compare the missing-material list; after replenishment, the order must finish and return all eight. If the interface prevents starting with shortages, inspect the preview first, supply materials and then confirm the request.",
+        "Confirm manually after the in-world check; the Codex does not automatically measure operation. Follow the external furnace too: completion must not depend on manually extracting output. If waiting persists, inspect fuel, importer side and exact expected product, preserving intermediates instead of repeatedly restarting without diagnosis."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: запросить восемь процессоров, сверить нехватку материалов, пополнить запас и получить все восемь результатов обратно в сеть",
+          "en": "Manually request eight processors, check missing materials, replenish supplies and receive all eight outputs back into the network"
+        }
+      }
+    },
+    "storage_local/backpack_tiers": {
+      "text": [
+        "Улучшение уровня рюкзака добавляет место для предметов и модулей. В цели нужны железный и золотой варианты. Их можно зарегистрировать по очереди: сначала получите железный, покажите учёту, затем используйте тот же рюкзак для следующего улучшения по рецепту.",
+        "Перед крафтом осмотрите содержимое и установленные модули. Штатный рецепт улучшения сохраняет данные рюкзака, но первый опыт лучше провести с небольшой дешёвой загрузкой и затем сверить результат. Не путайте улучшение существующего рюкзака с изготовлением другого пустого.",
+        "После перехода проверьте доступные слоты и настройки активных модулей. Большая вместимость не отменяет фильтры подбора и ограничения конкретных улучшений. Не требуется одновременно носить два отдельных рюкзака только ради целей; исторически учтённый железный останется зарегистрированным. Выберите окончательный уровень по размеру обычной экспедиционной поклажи и расходу материалов."
+      ],
+      "text_en": [
+        "A backpack tier upgrade adds room for items and upgrade modules. This objective needs iron and gold variants, which can be registered sequentially: obtain and register iron first, then use the same backpack in the next upgrade recipe.",
+        "Inspect contents and installed modules before crafting. The intended upgrade recipe preserves backpack data, but test first with a small inexpensive load and compare afterward. Upgrading an existing backpack is different from crafting another empty one.",
+        "Check available slots and active-module settings afterward. More capacity does not remove pickup filters or individual upgrade limits. You need not carry two separate backpacks solely for these objectives; the registered iron tier remains recorded. Choose the final tier according to normal expedition cargo and material costs."
+      ]
+    },
+    "storage_local/backpack_auto": {
+      "text": [
+        "Рюкзачные модули позволяют выполнять отдельные операции прямо в переносном хранилище. Автоматическая плавка обрабатывает подходящие предметы с топливом, крафтовый модуль предоставляет верстак, а уплотнение превращает ресурсы в совместимые компактные формы. Подготовьте три улучшения и рюкзак со свободными слотами модулей.",
+        "Устанавливайте по одному и испытывайте на небольшом запасе. Для плавки задайте вход и топливо, затем проверьте готовый продукт. У уплотнения изучите доступные размеры рецептов и фильтр, чтобы не перерабатывать материал, который нужен отдельными единицами.",
+        "Крафтовый модуль не означает универсальный автоматический крафт всего рюкзака. Совместимость и правила каждого улучшения различаются. После настройки закройте и снова откройте рюкзак, убедившись, что запас и режимы ожидаемые. Для длительной экспедиции берите отдельный запас топлива и оставляйте место для результата обработки, иначе переносная машина остановится при заполнении."
+      ],
+      "text_en": [
+        "Backpack modules perform specific operations within portable storage. Automatic smelting processes suitable items with fuel, a crafting module provides a workbench, and compacting converts resources into supported compressed forms. Prepare the three upgrades and a backpack with free module slots.",
+        "Install them one at a time and test small supplies. Configure smelting input and fuel, then inspect the product. For compacting, review supported recipe sizes and filters so materials needed as individual units are not transformed.",
+        "A crafting module does not mean universal automatic crafting across the backpack. Each upgrade has distinct compatibility and behavior. Close and reopen the pack after configuring it to verify stock and modes. Carry fuel and leave output space on long expeditions, or portable processing will stop when storage fills."
+      ]
+    },
+    "storage_local/backpack_filter": {
+      "text": [
+        "Улучшение фильтра управляет предметами, которые логистика вводит в рюкзак или извлекает из него. Модуль пустоты уничтожает выбранные вещи, а вклад выгружает их в указанный инвентарь. Подготовьте три устройства, но сначала установите только фильтр и вклад.",
+        "На дешёвой смеси проверьте разрешённые входы и выходы. Для вклада присядьте и взаимодействуйте с выбранным сундуком, затем сравните содержимое обеих сторон. Этот модуль не должен случайно отправить рабочие инструменты вместе с рудой.",
+        "Пустоту настраивайте последней и только на строго выбранном ненужном материале. Перед активацией уберите ценные предметы из учебного рюкзака: удаление необратимо. Фильтр логистики не обязательно заменяет настройки автоматического подбора других модулей. Проверьте каждый путь отдельно, особенно если позднее подключаете рюкзак к трубам или машинному складу."
+      ],
+      "text_en": [
+        "A filter upgrade controls items piped into or out of a backpack. A void module deletes selected items, while a deposit upgrade unloads into a targeted inventory. Prepare all three, but initially install only filtering and deposit.",
+        "Test permitted inputs and outputs with an inexpensive mixture. To deposit, sneak-interact with the chosen chest and compare both inventories. Avoid sending working tools out with ore.",
+        "Configure voiding last and only for a narrowly selected unwanted material. Remove valuables from the test backpack before activation because deletion is irreversible. A logistics filter does not necessarily replace automatic-pickup settings in other modules. Check each route separately, particularly before connecting the backpack to pipes or machine storage."
+      ]
+    },
+    "storage_local/everlasting": {
+      "text": [
+        "Вечное улучшение защищает сам рюкзак как предмет от уничтожения и исчезновения, включая обычное пропадание и падение в пустоту по правилам модуля. Подготовьте улучшение и подходящий рюкзак со свободным слотом. Оно не делает владельца неуязвимым.",
+        "Установите модуль и проверьте, что он активен в интерфейсе рюкзака. Сверьте подсказку с ожидаемой защитой. Не начинайте проверку намеренным броском единственного ценного рюкзака в лаву или пустоту: получение обратно остаётся отдельной практической задачей.",
+        "Улучшение не отменяет доступ к месту потери и не переносит рюкзак автоматически в безопасный сундук. Для экспедиции всё равно полезны координаты смерти, запасной набор и свободный слот для возвращённой поклажи. Предметная цель подтверждает изготовление модуля; защитные свойства относятся к рюкзаку с установленным улучшением, а не к любому соседнему контейнеру."
+      ],
+      "text_en": [
+        "An everlasting upgrade protects the backpack item against destruction and disappearance, including ordinary despawning and void loss under the module’s rules. Prepare the upgrade and a suitable backpack with a free slot. It does not make the wearer invulnerable.",
+        "Install the module and verify its active presence in the backpack interface. Compare the tooltip with the expected protection. Do not begin by deliberately throwing your only valuable backpack into lava or the void; recovering it remains a separate practical problem.",
+        "The upgrade does not grant access to a loss location or automatically send the pack into a safe chest. Death coordinates, spare equipment and room for recovered cargo remain useful. The item objective confirms crafting; protection applies to the equipped backpack module, not every nearby container."
+      ]
+    },
+    "storage_local/vault_create": {
+      "text": [
+        "Хранилище Create даёт крупный буфер для производственных предметов ещё до цифровой сети. Подготовьте восемь блоков и воронки либо другой способ ввода и извлечения. Его содержимое нельзя открывать вручную как обычный сундук, поэтому выход нужен сразу.",
+        "Соберите допустимую форму, проверьте объединение и загрузите небольшую известную партию через логистику. Затем выгрузите её в доступный сундук. Не считайте каждую произвольную группу соприкасающихся блоков одним резервуаром.",
+        "Позже внешнее хранилище Refined Storage может предоставить этот инвентарь общей сети при совместимом подключении. Предметы при этом остаются в исходном буфере. Следите за фильтрами и приоритетом, чтобы случайный смешанный запас не занял всё место. До подключения автоматики проверьте сохранность и возвращение тестовой партии; восемь изготовленных блоков сами по себе не доказывают работающий склад."
+      ],
+      "text_en": [
+        "A Create item vault provides a large production buffer before a digital network exists. Prepare eight blocks and funnels or another insertion and extraction method. Its contents cannot be opened like an ordinary chest, so provide output immediately.",
+        "Build a valid shape, verify formation and insert a small known batch through logistics. Extract it into an accessible chest afterward. An arbitrary group of touching blocks does not necessarily form one inventory.",
+        "Later, Refined Storage external storage can expose the compatible vault to the network. Items remain in the original buffer. Watch filters and priority so unintended mixed stock does not occupy all capacity. Verify retention and return of the sample before automation; eight crafted blocks alone do not prove a working warehouse."
+      ]
+    },
+    "storage_local/bins": {
+      "text": [
+        "Бин Mekanism хранит большой запас одного типа предмета. Он удобен для булыжника, дерева или другого массового сырья, которое переполняет обычные сундуки. Подготовьте базовый бин и небольшую одинаковую партию для настройки.",
+        "Поставьте блок, вложите выбранный материал и проверьте ручное извлечение. Настройте сохранение назначения, если хотите, чтобы пустой бин не принял случайный другой предмет. Точный способ фиксации и доступную вместимость смотрите в его интерфейсе и подсказках.",
+        "Не используйте один бин как смешанный сундук всех руд: его преимущество связано именно с одним видом. Для автоматической линии задайте соответствующий фильтр и предусмотрите поведение при заполнении. Улучшение уровня меняет вместимость, но не заменяет выбор назначения. После проверки можно подключить бин к внешней сети, сохранив видимую подпись ресурса и доступ к извлечению."
+      ],
+      "text_en": [
+        "A Mekanism bin stores a large quantity of one item type. It suits cobblestone, timber or other bulk materials that overflow ordinary chests. Prepare a basic bin and a small uniform batch for configuration.",
+        "Place it, insert the chosen material and test manual extraction. Configure retention of its assigned type if an empty bin should not accept an accidental different item. Check its interface and hints for the exact locking action and capacity.",
+        "Do not treat one bin as mixed storage for every ore; its benefit comes from one resource type. Filter automatic input and plan behavior when full. Tier upgrades change capacity without replacing resource assignment. Connect it to external networks only after testing, retaining a visible label and extraction access."
+      ]
+    },
+    "storage_local/rack": {
+      "text": [
+        "Стойки MineColonies предназначены для хранения и работы складской системы колонии. Подготовьте одну стойку и сначала изучите её как локальный контейнер. Не считайте любой внешний сетевой адаптер полноценной заменой логистики курьеров и требований колонистов.",
+        "Поставьте стойку в выбранном месте и проверьте размещение и извлечение небольшой партии. Если она входит в действующий склад колонии, оставьте доступ работникам и учитывайте правила соответствующей постройки. Для подключения Refined Storage отдельно проверьте, предоставляет ли установленная стойка совместимый инвентарь.",
+        "Испытайте чтение и выдачу на дешёвых материалах, не забирая через сеть всё снабжение жителей. Видимость предмета в гриде не означает, что колония перестала нуждаться в своём запасе. Разделите личные ресурсы и рабочие запасы понятными контейнерами. Цель проверяет предмет стойки, а не исправную интеграцию двух систем снабжения."
+      ],
+      "text_en": [
+        "MineColonies racks serve storage and colony warehouse operations. Prepare one and learn its local-container behavior first. An external network adapter is not automatically a replacement for couriers and colonist supply requirements.",
+        "Place the rack and test inserting and removing a small batch. If part of an active colony warehouse, preserve worker access and follow that building’s rules. For Refined Storage integration, separately check whether the installed rack exposes a compatible inventory.",
+        "Test reading and extraction with inexpensive materials rather than draining all resident supplies. Seeing an item in a grid does not mean the colony no longer needs it. Separate personal resources from working stocks with clear containers. The objective checks a rack item, not successful integration of both supply systems."
+      ]
+    },
+    "rs_network/guide_power_recovery": {
+      "text": [
+        "Потеря питания временно закрывает доступ через грид, поэтому детали восстановления не стоит хранить только внутри сети. Подготовьте обычный внешний сундук с кабелем, топливом для генератора и нужным инструментом. Для проверки положите в сеть маленькую точно известную партию.",
+        "Остановите подачу энергии на учебный участок и дождитесь выключения доступа, если контроллер ещё имеет запас. Восстановите питание из доступных внешних средств, затем откройте грид и пересчитайте тестовые предметы. Не извлекайте диски во время опыта без необходимости.",
+        "Подтвердите вручную, когда можете вернуть доступ и количество совпало. Отключённый экран не означает уничтоженные данные, но требует понятного способа запуска источника. Такой запас особенно полезен после подключения автокрафта, когда каждая новая машина увеличивает расход. Храните только действительно нужные ремонтные детали, не дублируя весь цифровой склад."
+      ],
+      "text_en": [
+        "A power outage temporarily removes grid access, so restoration parts should not exist only inside the network. Prepare an ordinary external chest with cable, generator fuel and required tools. Put a small precisely known batch into the network for testing.",
+        "Stop energy delivery to the training section and wait for access to switch off if controller reserves remain. Restore power using externally accessible supplies, reopen the grid and count the sample. Avoid unnecessary disk removal during the trial.",
+        "Confirm manually once access returns and quantities match. A dark screen does not mean destroyed data, but you need a clear way to restart generation. This reserve matters after adding autocrafting, since devices increase demand. Keep actual repair essentials rather than duplicating the whole digital warehouse."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: восстановить питание из запаса вне сети и после отключения сверить прежнее количество тестовых предметов",
+          "en": "Manually restore power using supplies outside the network and verify the original sample quantity after the outage"
+        }
+      }
+    },
+    "rs_network/guide_disk_migration": {
+      "text": [
+        "Дисковый интерфейс позволяет освободить носитель перед разборкой или обновлением хранения. Подготовьте отдельный учебный диск с известной дешёвой партией и сеть с достаточной свободной вместимостью. Источник переноса должен быть понятен, иначе одинаковые ресурсы легко перепутать.",
+        "Вставьте носитель в дисковый интерфейс и выберите перенос с диска в сеть. Проверьте фильтр и направление до запуска. Дождитесь завершения, затем сравните пустое состояние исходного диска и количество ресурсов в целевой сети.",
+        "Подтвердите вручную после обеих проверок. Если часть осталась, ищите переполнение или запрещающий фильтр; не разбирайте носитель в надежде, что это завершит перенос. Только пустой диск можно дальше разбирать предусмотренным способом. Такой учебный опыт стоит провести до миграции редких предметов и зачарованного снаряжения, для которых ошибка заметнее и дороже."
+      ],
+      "text_en": [
+        "A disk interface empties media before disassembly or storage changes. Prepare a separate training disk containing a known inexpensive batch and a network with sufficient free capacity. Keep the transfer source clear so identical resources are not confused.",
+        "Insert the disk into the interface and choose transfer from disk to network. Check filter and direction before starting. Wait for completion, then compare the empty source state and destination quantities.",
+        "Confirm manually after both checks. If contents remain, inspect capacity and blocking filters instead of disassembling the disk in the hope of finishing transfer. Only an empty disk should undergo its supported disassembly action. Perform this trial before migrating rare items and enchanted equipment, where mistakes are more costly."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: перенести известную партию с диска в сеть, подтвердить нулевое заполнение исходного диска и совпадение количества",
+          "en": "Manually transfer a known batch from disk to network, verify the source disk is empty and quantities match"
+        }
+      }
+    },
+    "rs_autocraft/guide_bindings": {
+      "text": [
+        "Вложенный рецепт позволяет заказывать процессоры из базового сырья, не готовя связки каждый раз вручную. Подготовьте нити, слизь и свободный шаблон. Сначала проверьте обычный рецепт: две нити и одна слизь дают восемь связок, поэтому количество выхода в шаблоне существенно.",
+        "Запишите этот крафт и поместите в доступный автокрафтер. Закажите шестнадцать связок и сравните расчёт со входным запасом. Правильный шаблон должен использовать две партии рецепта, а не шестнадцать отдельных слизней.",
+        "Получите шестнадцать одинаковых связок одним запасом для предметного учёта, если этот максимум ещё не зарегистрирован. Разные маленькие выдачи не суммируются в требуемое наличие. Затем используйте связки для процессоров, не создавая отдельный ненужный резерв. Проверенный вложенный рецепт станет основой более длинной цепочки, где сеть сама рассчитывает промежуточные материалы."
+      ],
+      "text_en": [
+        "A subrecipe lets you request processors from basic supplies without manually preparing bindings each time. Gather string, slime and a blank pattern. Verify the ordinary recipe first: two strings and one slime produce eight bindings, so encoded output quantity matters.",
+        "Encode the craft and place it in an accessible autocrafter. Request sixteen bindings and compare planning with input stock. A correct pattern needs two recipe batches rather than sixteen separate slime balls.",
+        "Obtain sixteen identical bindings together for tracking if that maximum has not already been registered. Separate small holdings do not accumulate toward that quantity. Use the bindings in processors afterward rather than creating an unnecessary spare stock. This subrecipe supports longer chains in which the network calculates intermediate materials."
+      ]
+    },
+    "rs_autocraft/guide_return_fault": {
+      "text": [
+        "Заказ может зависнуть даже при исправной печи, если готовый продукт не возвращается в сеть. Для опыта выберите дешёвую обработку с известным выходом и контролируемый импортёр. Не используйте рецепт, который одновременно обслуживает важный общий заказ.",
+        "Временно остановите возврат, выполните небольшую партию и откройте монитор. Найдите ожидаемый результат, затем убедитесь, что он действительно лежит в выходе машины. Восстановите импорт и дождитесь завершения той же задачи без нового заказа.",
+        "Подтвердите вручную после найденной причины и автоматического завершения. Не отменяйте задачу первым действием: это может скрыть, что сеть ждала уже изготовленный предмет. Если продукт вернулся, а ожидание осталось, сверяйте тип, данные и количество выхода в шаблоне. Такой опыт помогает отличать ошибки логистики от неправильного крафтового расчёта."
+      ],
+      "text_en": [
+        "A task can remain waiting despite a working furnace if its product does not return. Choose inexpensive processing with a known result and a controllable importer. Avoid a recipe simultaneously serving an important shared request.",
+        "Temporarily stop output return, process a small batch and open the monitor. Identify the expected product and verify that it physically occupies the machine’s output. Restore import and wait for the same task to finish without placing another request.",
+        "Confirm manually after finding the cause and observing automatic completion. Do not cancel first, since that may conceal that the network was waiting for an already made item. If the product returns but waiting continues, compare expected type, data and quantity. This distinguishes routing faults from recipe-planning errors."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: найти в машине ожидаемый монитором продукт при остановленном возврате; восстановить импорт и завершить тот же заказ",
+          "en": "Manually locate the monitor’s expected product while return is stopped, restore import and finish the same task"
+        }
+      }
+    },
+    "rs_autocraft/guide_stock_limit": {
+      "text": [
+        "Автокрафт в экспортёре может продолжать заполнять приёмник, пока есть сырьё. Регулятор ограничивает количество выбранного ресурса в целевом инвентаре. Подготовьте улучшение и маленький сундук с одним расходником, который сеть уже умеет делать.",
+        "Настройте регулятор на нужный предмет и небольшой предел, затем установите в поддерживаемый экспортёр вместе с автокрафтом. Дождитесь наполнения и убедитесь, что новые предметы перестали поступать. Заберите часть и проверьте восстановление до того же уровня.",
+        "Ручную цель отмечайте после остановки и повторного пополнения. Если производство продолжается, проверьте, регулируется ли именно содержимое целевого сундука и совпадает ли фильтр. Огромная вместимость сама не задаёт разумный запас. После опыта такой узел можно использовать для ремонтных деталей, сохранив основные материалы сети для других заказов."
+      ],
+      "text_en": [
+        "An autocrafting exporter may keep filling its destination while ingredients remain. A regulator limits the selected resource quantity in the target inventory. Prepare the upgrade and a small chest holding one consumable the network can craft.",
+        "Configure the regulator’s item and modest limit, then install it in a supported exporter with autocrafting. Wait for stock to fill and verify that insertion stops. Remove some and check replenishment to the same level.",
+        "Confirm manually after stopping and refilling are observed. If production continues, check whether the actual destination stock is regulated and filters match. A huge capacity is not a sensible stock target by itself. This arrangement can supply repair parts while preserving network materials for other requests."
+      ],
+      "task_notes": {
+        "1": {
+          "ru": "Вручную: экспорт прекращается у заданного предела и возобновляется после расхода, восстанавливая тот же запас",
+          "en": "Manually verify export stops at the configured limit and resumes after consumption to restore the same stock"
+        }
+      }
+    },
+    "storage_local/guide_deposit_test": {
+      "text": [
+        "Возвращение из шахты удобнее, когда рюкзак выгружает добычу, сохраняя нужное для следующего похода. Подготовьте модуль вклада, пустой сундук и учебный набор: немного камня, руды и один дешёвый инструмент. Модуль пустоты на время опыта отключите.",
+        "Настройте фильтр вклада на разрешённые к выгрузке ресурсы, затем присядьте и взаимодействуйте с сундуком. Сверьте обе стороны: добыча должна оказаться в получателе, а инструмент остаться доступным. Повторите опыт с полным приёмником, убедившись, что предметы сохраняются.",
+        "Подтвердите вручную после правильной сортировки и безопасной остановки. Если инструмент ушёл, исправьте именно фильтр вклада, не полагаясь на настройки другого улучшения. Такой маршрут помогает отделить личный комплект от общего склада и уменьшает вероятность выйти в следующую экспедицию без кирки."
+      ],
+      "text_en": [
+        "Returning from a mine is easier when the backpack unloads loot while retaining the next trip’s equipment. Prepare a deposit upgrade, empty chest and training set of stone, ore and one cheap tool. Disable any void module during testing.",
+        "Configure the deposit filter for resources permitted to leave, then sneak-interact with the chest. Compare both sides: loot should reach the receiver while the tool remains available. Repeat with a full receiver and verify that items are retained.",
+        "Confirm manually after correct selection and a safe stop. If the tool leaves, fix the deposit filter rather than relying on another upgrade’s settings. This route separates personal equipment from shared stock and reduces the chance of beginning the next expedition without a pickaxe."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: выбранная добыча выгружается, инструмент остаётся; полный сундук не приводит к потере предметов",
+          "en": "Manually verify selected loot deposits, the tool stays, and a full chest causes no item loss"
+        }
+      }
+    },
+    "storage_local/guide_void_filter": {
+      "text": [
+        "Модуль пустоты полезен только там, где точно известен ненужный ресурс. Для проверки освободите учебный рюкзак от ценных вещей и положите два дешёвых разных материала. Одному назначьте роль мусора, второй оставьте контрольным.",
+        "Создайте узкий фильтр удаления только для первого материала и включите модуль. Проверьте, что выбранные предметы исчезают, а контрольные остаются. Затем выключите модуль и убедитесь, что новый запас выбранного материала больше не удаляется.",
+        "Подтвердите вручную после этих двух состояний. Уничтоженные предметы не возвращаются при выключении, поэтому такая проба не должна содержать ничего ценного. Не задавайте широкий признак вроде всего мода, если нужно удалить лишь один камень. После расширения набора модулей повторяйте тест, поскольку автоматический подбор может принести под фильтр вещи, которых раньше в рюкзаке не было."
+      ],
+      "text_en": [
+        "A void upgrade is useful only when the unwanted resource is precisely known. Empty valuables from a training backpack and insert two different cheap materials. Designate one as trash and keep the other as a control.",
+        "Create a narrow deletion filter for the first material only and enable the module. Verify selected items disappear while controls remain. Disable it and confirm that newly added stock of the selected material is no longer deleted.",
+        "Confirm manually after both states. Deleted items do not return when disabled, so the trial must contain nothing valuable. Avoid broad rules such as an entire mod when only one stone type is unwanted. Retest after adding modules, since automatic pickup may introduce items previously absent from the backpack."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: удалить только выбранный дешёвый материал, сохранить контрольный и проверить прекращение удаления после выключения",
+          "en": "Manually delete only the selected cheap material, retain the control and verify deletion stops when disabled"
+        }
+      }
+    },
+    "storage_local/guide_bin_assignment": {
+      "text": [
+        "Пустой буфер может случайно принять другой ресурс и нарушить привычную подачу. Для опыта подготовьте бин с выбранным массовым материалом и небольшую партию другого предмета. Используйте настройку сохранения назначения, доступную у этого хранилища.",
+        "Заполните бин первым ресурсом, закрепите его назначение и извлеките содержимое. Попробуйте подать второй ресурс, затем снова первый. Проверьте, что заданное назначение сохраняется после опустошения и правильная подача возобновляется.",
+        "Подтвердите вручную после обоих испытаний. Если другой ресурс принят, исправьте фиксацию или поставьте точный внешний фильтр, прежде чем подключать общую линию. Важно добиться результата в вашей установленной версии, а не только увидеть значок замка. Такая защита от случайной смены назначения полезна у генератора булыжника и склада материалов для автокрафта."
+      ],
+      "text_en": [
+        "An empty buffer can accidentally accept another resource and disrupt an established feed. Prepare a bin assigned to a bulk material and a small supply of a different item. Use the storage’s available assignment-retention setting.",
+        "Fill with the first resource, lock its assignment and empty it. Try inserting the second resource, then the first again. Confirm that the assignment survives emptying and correct input resumes.",
+        "Confirm manually after both trials. If the other resource enters, fix locking or add a precise external filter before connecting the shared line. Achieve the actual result in the installed version rather than merely seeing a lock icon. This prevents accidental reassignment beside cobblestone generation and autocrafting material stores."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: пустой настроенный бин отвергает другой ресурс и снова принимает назначенный материал",
+          "en": "Manually verify an emptied configured bin rejects another resource and accepts its assigned material again"
+        }
+      }
+    },
+    "storage_local/guide_bulk_network": {
+      "text": [
+        "Массовое сырьё удобно хранить в отдельном буфере, оставляя диски для смешанной добычи. Подготовьте настроенный бин или хранилище Create, внешнее хранилище Refined Storage и небольшой известный запас ресурса. Не переносите сразу весь склад.",
+        "Подключите буфер и задайте нужный приоритет с точным фильтром. Вставьте материал через грид и проверьте, где увеличилось заполнение: именно во внешнем буфере, а не на другом диске. Затем извлеките часть и сравните остаток.",
+        "Подтвердите вручную после правильного пути в обе стороны. При заполнении внешнего буфера заранее решите, должна ли сеть использовать другое место или останавливать ввод; проверьте настройки на дешёвой партии. Такое подключение сохраняет преимущества локального склада и общего поиска, но требует понятного приоритета, а не просто соседства двух блоков."
+      ],
+      "text_en": [
+        "Bulk resources can stay in a dedicated buffer while disks serve mixed loot. Prepare an assigned bin or Create vault, a Refined Storage external-storage device and a small known resource batch. Do not migrate the whole warehouse immediately.",
+        "Connect the buffer and set its intended priority and precise filter. Insert material through the grid and check that the external buffer grows rather than another disk. Extract some and compare the remainder.",
+        "Confirm manually after verifying both directions. Decide beforehand whether a full external buffer should overflow into other storage or stop input, then test those settings cheaply. This connection combines local storage benefits with shared search, but needs understandable priorities rather than merely neighboring blocks."
+      ],
+      "task_notes": {
+        "0": {
+          "ru": "Вручную: вставка через грид пополняет выбранный внешний буфер, извлечение возвращает ресурс; поведение полного буфера проверено",
+          "en": "Manually verify grid insertion fills the chosen external buffer, extraction returns resources, and full-buffer behavior is tested"
+        }
+      }
+    }
+  },
+  "additions": [
+    {
+      "chapter": "rs_network",
+      "id": "guide_power_recovery",
+      "title": "Доступ после отключения питания",
+      "title_en": "Access After a Power Outage",
+      "icon": "refinedstorage:controller",
+      "deps": [
+        "grid"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_power_recovery",
+          "note": "Вручную: сохранить ремонтный запас вне сети, отключить и вернуть питание, сверить тестовые предметы"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "rs_network",
+      "id": "guide_disk_migration",
+      "title": "Перенос содержимого диска",
+      "title_en": "Migrate Disk Contents",
+      "icon": "refinedstorage:disk_interface",
+      "deps": [
+        "guide_power_recovery",
+        "external"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_disk_migration",
+          "note": "Вручную: перенести маленькую партию с отдельного диска в сеть и подтвердить пустой источник"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "rs_autocraft",
+      "id": "guide_bindings",
+      "title": "Связки как вложенный рецепт",
+      "title_en": "Bindings as a Subrecipe",
+      "icon": "refinedstorage:processor_binding",
+      "deps": [
+        "autocrafter"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "refinedstorage:processor_binding",
+          "count": 16
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "rs_autocraft",
+      "id": "guide_return_fault",
+      "title": "Найти задержанный результат",
+      "title_en": "Find a Delayed Output",
+      "icon": "refinedstorage:autocrafting_monitor",
+      "deps": [
+        "guide_bindings",
+        "monitor_craft"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_return_fault",
+          "note": "Вручную: остановить возврат результата, найти ожидание в мониторе и завершить заказ после восстановления импорта"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "rs_autocraft",
+      "id": "guide_stock_limit",
+      "title": "Ограничить запас экспортёра",
+      "title_en": "Limit Exported Stock",
+      "icon": "refinedstorage:regulator_upgrade",
+      "deps": [
+        "guide_return_fault",
+        "upgrade_craft"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "id": "refinedstorage:regulator_upgrade",
+          "count": 1
+        },
+        {
+          "type": "check",
+          "id": "guide_stock_limit",
+          "note": "Вручную: запас пополняется до выбранного количества и после расхода восстанавливается без бесконечного производства"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "storage_local",
+      "id": "guide_deposit_test",
+      "title": "Выгрузить добычу, оставить инструменты",
+      "title_en": "Deposit Loot and Keep Tools",
+      "icon": "sophisticatedbackpacks:deposit_upgrade",
+      "deps": [
+        "backpack_filter"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_deposit_test",
+          "note": "Вручную: настроить вклад так, чтобы выбранная добыча ушла в сундук, а инструменты остались в рюкзаке"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "storage_local",
+      "id": "guide_void_filter",
+      "title": "Один точный фильтр удаления",
+      "title_en": "One Precise Deletion Filter",
+      "icon": "sophisticatedbackpacks:void_upgrade",
+      "deps": [
+        "guide_deposit_test"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_void_filter",
+          "note": "Вручную: на пустом учебном рюкзаке удалить только выбранный дешёвый материал, сохранив контрольный предмет"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "storage_local",
+      "id": "guide_bin_assignment",
+      "title": "Сохранить назначение пустого бина",
+      "title_en": "Keep an Empty Bin Assigned",
+      "icon": "mekanism:basic_bin",
+      "deps": [
+        "bins"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_bin_assignment",
+          "note": "Вручную: опустошить настроенный бин и проверить, что случайный другой предмет не занимает назначение"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    },
+    {
+      "chapter": "storage_local",
+      "id": "guide_bulk_network",
+      "title": "Массовый запас во внешнем складе",
+      "title_en": "Keep Bulk Stock in External Storage",
+      "icon": "refinedstorage:external_storage",
+      "deps": [
+        "guide_bin_assignment",
+        "rs_network/external"
+      ],
+      "tasks": [
+        {
+          "type": "check",
+          "id": "guide_bulk_network",
+          "note": "Вручную: подключить массовый буфер к сети, проверить приоритет записи и возврат ресурса через грид"
+        }
+      ],
+      "optional": true,
+      "rewards": {
+        "xp": 30,
+        "items": [],
+        "text": []
+      }
+    }
+  ]
+}

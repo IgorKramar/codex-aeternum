@@ -8,7 +8,8 @@
   "subtitle": "codex.chapter.life_world.subtitle",
   "intro": [
    "codex.chapter.life_world.intro.0",
-   "codex.chapter.life_world.intro.1"
+   "codex.chapter.life_world.intro.1",
+   "codex.chapter.life_world.intro.2"
   ],
   "quests": [
    {
@@ -19,7 +20,8 @@
     "y": 0,
     "text": [
      "codex.quest.life_world.terralith.text.0",
-     "codex.quest.life_world.terralith.text.1"
+     "codex.quest.life_world.terralith.text.1",
+     "codex.quest.life_world.terralith.text.2"
     ],
     "tasks": [
      {
@@ -32,17 +34,21 @@
      "items": [],
      "xp": 15,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "compass",
     "title": "codex.quest.life_world.compass.title",
     "icon": "naturescompass:naturescompass",
-    "x": 1,
-    "y": 0,
+    "x": 0,
+    "y": 1,
     "text": [
      "codex.quest.life_world.compass.text.0",
-     "codex.quest.life_world.compass.text.1"
+     "codex.quest.life_world.compass.text.1",
+     "codex.quest.life_world.compass.text.2"
     ],
     "tasks": [
      {
@@ -60,17 +66,21 @@
      "items": [],
      "xp": 15,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "dh",
     "title": "codex.quest.life_world.dh.title",
     "icon": "minecraft:spyglass",
-    "x": 2,
-    "y": 0,
+    "x": 0,
+    "y": 2,
     "text": [
      "codex.quest.life_world.dh.text.0",
-     "codex.quest.life_world.dh.text.1"
+     "codex.quest.life_world.dh.text.1",
+     "codex.quest.life_world.dh.text.2"
     ],
     "tasks": [
      {
@@ -83,17 +93,21 @@
      "items": [],
      "xp": 15,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "xaero",
     "title": "codex.quest.life_world.xaero.title",
     "icon": "minecraft:filled_map",
     "x": 0,
-    "y": 1,
+    "y": 3,
     "text": [
      "codex.quest.life_world.xaero.text.0",
-     "codex.quest.life_world.xaero.text.1"
+     "codex.quest.life_world.xaero.text.1",
+     "codex.quest.life_world.xaero.text.2"
     ],
     "tasks": [
      {
@@ -106,16 +120,21 @@
      "items": [],
      "xp": 15,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "structures",
     "title": "codex.quest.life_world.structures.title",
     "icon": "minecraft:chest",
-    "x": 1,
-    "y": 1,
+    "x": 0,
+    "y": 4,
     "text": [
-     "codex.quest.life_world.structures.text.0"
+     "codex.quest.life_world.structures.text.0",
+     "codex.quest.life_world.structures.text.1",
+     "codex.quest.life_world.structures.text.2"
     ],
     "tasks": [
      {
@@ -128,17 +147,21 @@
      "items": [],
      "xp": 15,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "waystones2",
     "title": "codex.quest.life_world.waystones2.title",
     "icon": "waystones:waystone",
-    "x": 2,
-    "y": 1,
+    "x": 0,
+    "y": 5,
     "text": [
      "codex.quest.life_world.waystones2.text.0",
-     "codex.quest.life_world.waystones2.text.1"
+     "codex.quest.life_world.waystones2.text.1",
+     "codex.quest.life_world.waystones2.text.2"
     ],
     "tasks": [
      {
@@ -148,7 +171,7 @@
      },
      {
       "type": "item",
-      "id": "waystones:sharestone",
+      "id": "waystones:blue_sharestone",
       "count": 1
      },
      {
@@ -161,16 +184,21 @@
      "items": [],
      "xp": 15,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "lootr_world",
     "title": "codex.quest.life_world.lootr_world.title",
     "icon": "lootr:trophy",
     "x": 0,
-    "y": 2,
+    "y": 6,
     "text": [
-     "codex.quest.life_world.lootr_world.text.0"
+     "codex.quest.life_world.lootr_world.text.0",
+     "codex.quest.life_world.lootr_world.text.1",
+     "codex.quest.life_world.lootr_world.text.2"
     ],
     "tasks": [
      {
@@ -183,17 +211,21 @@
      "items": [],
      "xp": 15,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
    },
    {
     "id": "mobs",
     "title": "codex.quest.life_world.mobs.title",
     "icon": "minecraft:zombie_head",
-    "x": 1,
-    "y": 2,
+    "x": 0,
+    "y": 7,
     "text": [
      "codex.quest.life_world.mobs.text.0",
-     "codex.quest.life_world.mobs.text.1"
+     "codex.quest.life_world.mobs.text.1",
+     "codex.quest.life_world.mobs.text.2"
     ],
     "tasks": [
      {
@@ -206,8 +238,360 @@
      "items": [],
      "xp": 15,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/crafting"
+    ]
+   },
+   {
+    "id": "guide_field_kit",
+    "title": "codex.quest.life_world.guide_field_kit.title",
+    "icon": "minecraft:torch",
+    "deps": [
+     "xaero"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:torch",
+      "count": 32
+     },
+     {
+      "type": "item",
+      "id": "minecraft:cooked_beef",
+      "count": 8
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 4,
+    "text": [
+     "codex.quest.life_world.guide_field_kit.text.0",
+     "codex.quest.life_world.guide_field_kit.text.1",
+     "codex.quest.life_world.guide_field_kit.text.2"
+    ]
+   },
+   {
+    "id": "guide_route",
+    "title": "codex.quest.life_world.guide_route.title",
+    "icon": "minecraft:compass",
+    "deps": [
+     "guide_field_kit"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "route",
+      "note": "codex.quest.life_world.guide_route.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 4,
+    "text": [
+     "codex.quest.life_world.guide_route.text.0",
+     "codex.quest.life_world.guide_route.text.1",
+     "codex.quest.life_world.guide_route.text.2"
+    ]
+   },
+   {
+    "id": "guide_notes",
+    "title": "codex.quest.life_world.guide_notes.title",
+    "icon": "minecraft:writable_book",
+    "deps": [
+     "guide_route"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "minecraft:writable_book",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 4,
+    "text": [
+     "codex.quest.life_world.guide_notes.text.0",
+     "codex.quest.life_world.guide_notes.text.1",
+     "codex.quest.life_world.guide_notes.text.2"
+    ]
+   },
+   {
+    "id": "guide_return_cache",
+    "title": "codex.quest.life_world.guide_return_cache.title",
+    "icon": "minecraft:barrel",
+    "deps": [
+     "guide_notes"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "return_cache",
+      "note": "codex.quest.life_world.guide_return_cache.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 3,
+    "text": [
+     "codex.quest.life_world.guide_return_cache.text.0",
+     "codex.quest.life_world.guide_return_cache.text.1",
+     "codex.quest.life_world.guide_return_cache.text.2"
+    ]
+   },
+   {
+    "id": "guide_alpine",
+    "title": "codex.quest.life_world.guide_alpine.title",
+    "icon": "minecraft:spruce_sapling",
+    "deps": [
+     "terralith",
+     "compass"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "terralith:alpine_grove",
+      "note": "codex.quest.life_world.guide_alpine.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 2,
+    "text": [
+     "codex.quest.life_world.guide_alpine.text.0",
+     "codex.quest.life_world.guide_alpine.text.1",
+     "codex.quest.life_world.guide_alpine.text.2"
+    ]
+   },
+   {
+    "id": "guide_cave_survey",
+    "title": "codex.quest.life_world.guide_cave_survey.title",
+    "icon": "minecraft:andesite",
+    "deps": [
+     "terralith",
+     "guide_field_kit"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "terralith:cave/andesite_caves",
+      "note": "codex.quest.life_world.guide_cave_survey.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 3,
+    "text": [
+     "codex.quest.life_world.guide_cave_survey.text.0",
+     "codex.quest.life_world.guide_cave_survey.text.1",
+     "codex.quest.life_world.guide_cave_survey.text.2"
+    ]
+   },
+   {
+    "id": "guide_moonlight",
+    "title": "codex.quest.life_world.guide_moonlight.title",
+    "icon": "minecraft:amethyst_shard",
+    "deps": [
+     "terralith",
+     "compass"
+    ],
+    "tasks": [
+     {
+      "type": "biome",
+      "id": "terralith:moonlight_grove",
+      "note": "codex.quest.life_world.guide_moonlight.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 3,
+    "text": [
+     "codex.quest.life_world.guide_moonlight.text.0",
+     "codex.quest.life_world.guide_moonlight.text.1",
+     "codex.quest.life_world.guide_moonlight.text.2"
+    ]
+   },
+   {
+    "id": "guide_atlas",
+    "title": "codex.quest.life_world.guide_atlas.title",
+    "icon": "minecraft:map",
+    "deps": [
+     "guide_alpine",
+     "guide_cave_survey",
+     "guide_moonlight"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "atlas",
+      "note": "codex.quest.life_world.guide_atlas.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 3,
+    "text": [
+     "codex.quest.life_world.guide_atlas.text.0",
+     "codex.quest.life_world.guide_atlas.text.1",
+     "codex.quest.life_world.guide_atlas.text.2"
+    ]
+   },
+   {
+    "id": "guide_staging",
+    "title": "codex.quest.life_world.guide_staging.title",
+    "icon": "minecraft:chest",
+    "deps": [
+     "waystones2",
+     "guide_return_cache"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "staging",
+      "note": "codex.quest.life_world.guide_staging.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 3,
+    "text": [
+     "codex.quest.life_world.guide_staging.text.0",
+     "codex.quest.life_world.guide_staging.text.1",
+     "codex.quest.life_world.guide_staging.text.2"
+    ]
+   },
+   {
+    "id": "guide_waystone_pair",
+    "title": "codex.quest.life_world.guide_waystone_pair.title",
+    "icon": "waystones:waystone",
+    "deps": [
+     "guide_staging"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "waystone_pair",
+      "note": "codex.quest.life_world.guide_waystone_pair.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 3,
+    "text": [
+     "codex.quest.life_world.guide_waystone_pair.text.0",
+     "codex.quest.life_world.guide_waystone_pair.text.1",
+     "codex.quest.life_world.guide_waystone_pair.text.2"
+    ]
+   },
+   {
+    "id": "guide_round_trip",
+    "title": "codex.quest.life_world.guide_round_trip.title",
+    "icon": "minecraft:compass",
+    "deps": [
+     "guide_waystone_pair"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "round_trip",
+      "note": "codex.quest.life_world.guide_round_trip.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 14,
+    "y": 3,
+    "text": [
+     "codex.quest.life_world.guide_round_trip.text.0",
+     "codex.quest.life_world.guide_round_trip.text.1",
+     "codex.quest.life_world.guide_round_trip.text.2"
+    ]
+   },
+   {
+    "id": "guide_outpost",
+    "title": "codex.quest.life_world.guide_outpost.title",
+    "icon": "minecraft:lantern",
+    "deps": [
+     "guide_round_trip",
+     "guide_atlas"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "outpost",
+      "note": "codex.quest.life_world.guide_outpost.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 16,
+    "y": 3,
+    "text": [
+     "codex.quest.life_world.guide_outpost.text.0",
+     "codex.quest.life_world.guide_outpost.text.1",
+     "codex.quest.life_world.guide_outpost.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "world"
  }
 ]

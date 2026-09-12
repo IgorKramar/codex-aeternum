@@ -45,13 +45,18 @@ public final class Task {
             case "biome" -> Kind.BIOME;
             case "check" -> Kind.CHECK;
             case "ponder" -> Kind.PONDER;
-            default -> Kind.ITEM;
+            case "item" -> Kind.ITEM;
+            default -> throw new IllegalArgumentException("Неизвестный тип цели: " + type);
         };
         String id = o.has("id") ? o.get("id").getAsString()
                 : o.has("item") ? o.get("item").getAsString() : "";
         int count = o.has("count") ? o.get("count").getAsInt() : 1;
         boolean consume = o.has("consume") && o.get("consume").getAsBoolean();
         String note = o.has("note") ? o.get("note").getAsString() : "";
+        if (count <= 0) throw new IllegalArgumentException("Количество цели должно быть положительным");
+        if (consume && kind != Kind.ITEM) throw new IllegalArgumentException("consume допустим только для предметов");
+        if (kind != Kind.CHECK && ResourceLocation.tryParse(id) == null)
+            throw new IllegalArgumentException("Неверный идентификатор цели: " + id);
         return new Task(kind, id, count, consume, note);
     }
 

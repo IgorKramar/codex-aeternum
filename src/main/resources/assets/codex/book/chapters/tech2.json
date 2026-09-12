@@ -16,10 +16,11 @@
     "title": "codex.quest.tech2_newage.coil.title",
     "icon": "create_new_age:generator_coil",
     "x": 0,
-    "y": 0,
+    "y": 4,
     "text": [
      "codex.quest.tech2_newage.coil.text.0",
-     "codex.quest.tech2_newage.coil.text.1"
+     "codex.quest.tech2_newage.coil.text.1",
+     "codex.quest.tech2_newage.coil.text.2"
     ],
     "tasks": [
      {
@@ -47,17 +48,21 @@
      ],
      "xp": 150,
      "text": []
-    }
+    },
+    "deps": [
+     "create_andesite/press"
+    ]
    },
    {
     "id": "energiser",
     "title": "codex.quest.tech2_newage.energiser.title",
     "icon": "create_new_age:basic_energiser",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 7,
     "text": [
      "codex.quest.tech2_newage.energiser.text.0",
-     "codex.quest.tech2_newage.energiser.text.1"
+     "codex.quest.tech2_newage.energiser.text.1",
+     "codex.quest.tech2_newage.energiser.text.2"
     ],
     "tasks": [
      {
@@ -89,11 +94,12 @@
     "id": "wires",
     "title": "codex.quest.tech2_newage.wires.title",
     "icon": "create_new_age:copper_wire",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 7,
     "text": [
      "codex.quest.tech2_newage.wires.text.0",
-     "codex.quest.tech2_newage.wires.text.1"
+     "codex.quest.tech2_newage.wires.text.1",
+     "codex.quest.tech2_newage.wires.text.2"
     ],
     "tasks": [
      {
@@ -125,11 +131,12 @@
     "id": "motor",
     "title": "codex.quest.tech2_newage.motor.title",
     "icon": "create_new_age:basic_motor",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 8,
     "text": [
      "codex.quest.tech2_newage.motor.text.0",
-     "codex.quest.tech2_newage.motor.text.1"
+     "codex.quest.tech2_newage.motor.text.1",
+     "codex.quest.tech2_newage.motor.text.2"
     ],
     "tasks": [
      {
@@ -161,11 +168,12 @@
     "id": "heat",
     "title": "codex.quest.tech2_newage.heat.title",
     "icon": "create_new_age:heat_pipe",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 8,
     "text": [
      "codex.quest.tech2_newage.heat.text.0",
-     "codex.quest.tech2_newage.heat.text.1"
+     "codex.quest.tech2_newage.heat.text.1",
+     "codex.quest.tech2_newage.heat.text.2"
     ],
     "tasks": [
      {
@@ -202,11 +210,12 @@
     "id": "thorium",
     "title": "codex.quest.tech2_newage.thorium.title",
     "icon": "create_new_age:thorium",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 7,
     "text": [
      "codex.quest.tech2_newage.thorium.text.0",
-     "codex.quest.tech2_newage.thorium.text.1"
+     "codex.quest.tech2_newage.thorium.text.1",
+     "codex.quest.tech2_newage.thorium.text.2"
     ],
     "tasks": [
      {
@@ -238,11 +247,12 @@
     "id": "reactor",
     "title": "codex.quest.tech2_newage.reactor.title",
     "icon": "create_new_age:reactor_rod",
-    "x": 0,
+    "x": 12,
     "y": 6,
     "text": [
      "codex.quest.tech2_newage.reactor.text.0",
-     "codex.quest.tech2_newage.reactor.text.1"
+     "codex.quest.tech2_newage.reactor.text.1",
+     "codex.quest.tech2_newage.reactor.text.2"
     ],
     "tasks": [
      {
@@ -279,8 +289,67 @@
     "deps": [
      "thorium"
     ]
+   },
+   {
+    "id": "guide_conversion",
+    "title": "codex.quest.tech2_newage.guide_conversion.title",
+    "icon": "create_new_age:carbon_brushes",
+    "deps": [
+     "coil",
+     "wires"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Генератор питает отдельный потребитель",
+      "note": "codex.quest.tech2_newage.guide_conversion.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 6,
+    "text": [
+     "codex.quest.tech2_newage.guide_conversion.text.0",
+     "codex.quest.tech2_newage.guide_conversion.text.1",
+     "codex.quest.tech2_newage.guide_conversion.text.2"
+    ]
+   },
+   {
+    "id": "guide_heat_route",
+    "title": "codex.quest.tech2_newage.guide_heat_route.title",
+    "icon": "create_new_age:heat_pipe",
+    "deps": [
+     "heat",
+     "guide_conversion"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Тепловой маршрут проверен без реакторного топлива",
+      "note": "codex.quest.tech2_newage.guide_heat_route.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 10,
+    "y": 6,
+    "text": [
+     "codex.quest.tech2_newage.guide_heat_route.text.0",
+     "codex.quest.tech2_newage.guide_heat_route.text.1",
+     "codex.quest.tech2_newage.guide_heat_route.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "tech2"
  },
  {
   "id": "tech2_mektools",
@@ -299,10 +368,11 @@
     "title": "codex.quest.tech2_mektools.lapis.title",
     "icon": "mekanismtools:lapis_lazuli_pickaxe",
     "x": 0,
-    "y": 0,
+    "y": 5,
     "text": [
      "codex.quest.tech2_mektools.lapis.text.0",
-     "codex.quest.tech2_mektools.lapis.text.1"
+     "codex.quest.tech2_mektools.lapis.text.1",
+     "codex.quest.tech2_mektools.lapis.text.2"
     ],
     "tasks": [
      {
@@ -320,17 +390,21 @@
      ],
      "xp": 100,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_start/infuser"
+    ]
    },
    {
     "id": "glowstone",
     "title": "codex.quest.tech2_mektools.glowstone.title",
     "icon": "mekanismtools:refined_glowstone_pickaxe",
-    "x": 1,
-    "y": 0,
+    "x": 0,
+    "y": 6,
     "text": [
      "codex.quest.tech2_mektools.glowstone.text.0",
-     "codex.quest.tech2_mektools.glowstone.text.1"
+     "codex.quest.tech2_mektools.glowstone.text.1",
+     "codex.quest.tech2_mektools.glowstone.text.2"
     ],
     "tasks": [
      {
@@ -348,17 +422,21 @@
      ],
      "xp": 150,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_start/infuser"
+    ]
    },
    {
     "id": "osmium",
     "title": "codex.quest.tech2_mektools.osmium.title",
     "icon": "mekanismtools:osmium_paxel",
     "x": 0,
-    "y": 1,
+    "y": 7,
     "text": [
      "codex.quest.tech2_mektools.osmium.text.0",
-     "codex.quest.tech2_mektools.osmium.text.1"
+     "codex.quest.tech2_mektools.osmium.text.1",
+     "codex.quest.tech2_mektools.osmium.text.2"
     ],
     "tasks": [
      {
@@ -368,7 +446,8 @@
      },
      {
       "type": "advancement",
-      "id": "mekanismtools:paxel"
+      "id": "mekanismtools:paxel",
+      "note": "codex.quest.tech2_mektools.osmium.task.1"
      }
     ],
     "rewards": {
@@ -380,17 +459,21 @@
      ],
      "xp": 250,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_start/infuser"
+    ]
    },
    {
     "id": "obsidian",
     "title": "codex.quest.tech2_mektools.obsidian.title",
     "icon": "mekanismtools:refined_obsidian_helmet",
     "x": 0,
-    "y": 2,
+    "y": 8,
     "text": [
      "codex.quest.tech2_mektools.obsidian.text.0",
-     "codex.quest.tech2_mektools.obsidian.text.1"
+     "codex.quest.tech2_mektools.obsidian.text.1",
+     "codex.quest.tech2_mektools.obsidian.text.2"
     ],
     "tasks": [
      {
@@ -405,7 +488,8 @@
      },
      {
       "type": "advancement",
-      "id": "mekanismtools:better_than_netherite"
+      "id": "mekanismtools:better_than_netherite",
+      "note": "codex.quest.tech2_mektools.obsidian.task.2"
      }
     ],
     "rewards": {
@@ -417,16 +501,21 @@
      ],
      "xp": 500,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_start/infuser"
+    ]
    },
    {
     "id": "shield",
     "title": "codex.quest.tech2_mektools.shield.title",
     "icon": "mekanismtools:osmium_shield",
-    "x": 1,
-    "y": 2,
+    "x": 0,
+    "y": 9,
     "text": [
-     "codex.quest.tech2_mektools.shield.text.0"
+     "codex.quest.tech2_mektools.shield.text.0",
+     "codex.quest.tech2_mektools.shield.text.1",
+     "codex.quest.tech2_mektools.shield.text.2"
     ],
     "tasks": [
      {
@@ -436,7 +525,8 @@
      },
      {
       "type": "advancement",
-      "id": "mekanismtools:not_enough_shielding"
+      "id": "mekanismtools:not_enough_shielding",
+      "note": "codex.quest.tech2_mektools.shield.task.1"
      }
     ],
     "rewards": {
@@ -449,9 +539,13 @@
      "xp": 200,
      "text": []
     },
-    "optional": true
+    "optional": true,
+    "deps": [
+     "mek_start/infuser"
+    ]
    }
-  ]
+  ],
+  "map": "tech2"
  },
  {
   "id": "tech2_pneumatic",
@@ -462,8 +556,7 @@
   "subtitle": "codex.chapter.tech2_pneumatic.subtitle",
   "intro": [
    "codex.chapter.tech2_pneumatic.intro.0",
-   "codex.chapter.tech2_pneumatic.intro.1",
-   "codex.chapter.tech2_pneumatic.intro.2"
+   "codex.chapter.tech2_pneumatic.intro.1"
   ],
   "quests": [
    {
@@ -493,13 +586,16 @@
      ],
      "xp": 100,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "compressor",
     "title": "codex.quest.tech2_pneumatic.compressor.title",
     "icon": "pneumaticcraft:air_compressor",
-    "x": 0,
+    "x": 2,
     "y": 1,
     "text": [
      "codex.quest.tech2_pneumatic.compressor.text.0",
@@ -541,13 +637,12 @@
     "id": "chamber",
     "title": "codex.quest.tech2_pneumatic.chamber.title",
     "icon": "pneumaticcraft:pressure_chamber_valve",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 1,
     "text": [
      "codex.quest.tech2_pneumatic.chamber.text.0",
      "codex.quest.tech2_pneumatic.chamber.text.1",
-     "codex.quest.tech2_pneumatic.chamber.text.2",
-     "codex.quest.tech2_pneumatic.chamber.text.3"
+     "codex.quest.tech2_pneumatic.chamber.text.2"
     ],
     "tasks": [
      {
@@ -584,8 +679,8 @@
     "id": "plastic",
     "title": "codex.quest.tech2_pneumatic.plastic.title",
     "icon": "pneumaticcraft:plastic",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 1,
     "text": [
      "codex.quest.tech2_pneumatic.plastic.text.0",
      "codex.quest.tech2_pneumatic.plastic.text.1",
@@ -626,13 +721,12 @@
     "id": "pcb",
     "title": "codex.quest.tech2_pneumatic.pcb.title",
     "icon": "pneumaticcraft:printed_circuit_board",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 1,
     "text": [
      "codex.quest.tech2_pneumatic.pcb.text.0",
      "codex.quest.tech2_pneumatic.pcb.text.1",
-     "codex.quest.tech2_pneumatic.pcb.text.2",
-     "codex.quest.tech2_pneumatic.pcb.text.3"
+     "codex.quest.tech2_pneumatic.pcb.text.2"
     ],
     "tasks": [
      {
@@ -674,8 +768,8 @@
     "id": "assembly",
     "title": "codex.quest.tech2_pneumatic.assembly.title",
     "icon": "pneumaticcraft:assembly_controller",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 1,
     "text": [
      "codex.quest.tech2_pneumatic.assembly.text.0",
      "codex.quest.tech2_pneumatic.assembly.text.1",
@@ -721,11 +815,12 @@
     "id": "drone",
     "title": "codex.quest.tech2_pneumatic.drone.title",
     "icon": "pneumaticcraft:drone",
-    "x": 0,
-    "y": 6,
+    "x": 12,
+    "y": 3,
     "text": [
      "codex.quest.tech2_pneumatic.drone.text.0",
-     "codex.quest.tech2_pneumatic.drone.text.1"
+     "codex.quest.tech2_pneumatic.drone.text.1",
+     "codex.quest.tech2_pneumatic.drone.text.2"
     ],
     "tasks": [
      {
@@ -762,8 +857,8 @@
     "id": "armor",
     "title": "codex.quest.tech2_pneumatic.armor.title",
     "icon": "pneumaticcraft:pneumatic_helmet",
-    "x": 0,
-    "y": 7,
+    "x": 14,
+    "y": 4,
     "text": [
      "codex.quest.tech2_pneumatic.armor.text.0",
      "codex.quest.tech2_pneumatic.armor.text.1",
@@ -804,13 +899,15 @@
     "id": "elevator",
     "title": "codex.quest.tech2_pneumatic.elevator.title",
     "icon": "pneumaticcraft:elevator_base",
-    "x": 1,
-    "y": 6,
+    "x": 12,
+    "y": 4,
     "deps": [
      "assembly"
     ],
     "text": [
-     "codex.quest.tech2_pneumatic.elevator.text.0"
+     "codex.quest.tech2_pneumatic.elevator.text.0",
+     "codex.quest.tech2_pneumatic.elevator.text.1",
+     "codex.quest.tech2_pneumatic.elevator.text.2"
     ],
     "tasks": [
      {
@@ -835,8 +932,195 @@
      "text": []
     },
     "optional": true
+   },
+   {
+    "id": "pressure_service_setup",
+    "title": "codex.quest.tech2_pneumatic.pressure_service_setup.title",
+    "icon": "pneumaticcraft:pressure_tube",
+    "x": 6,
+    "y": 2,
+    "deps": [
+     "chamber"
+    ],
+    "text": [
+     "codex.quest.tech2_pneumatic.pressure_service_setup.text.0",
+     "codex.quest.tech2_pneumatic.pressure_service_setup.text.1",
+     "codex.quest.tech2_pneumatic.pressure_service_setup.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:pressure_tube",
+      "count": 8
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "pressure_service_batch",
+    "title": "codex.quest.tech2_pneumatic.pressure_service_batch.title",
+    "icon": "pneumaticcraft:pressure_tube",
+    "x": 8,
+    "y": 2,
+    "deps": [
+     "pressure_service_setup"
+    ],
+    "text": [
+     "codex.quest.tech2_pneumatic.pressure_service_batch.text.0",
+     "codex.quest.tech2_pneumatic.pressure_service_batch.text.1",
+     "codex.quest.tech2_pneumatic.pressure_service_batch.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:ingot_iron_compressed",
+      "count": 16
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 0,
+     "text": []
+    },
+    "optional": true
+   },
+   {
+    "id": "pressure_service_run",
+    "title": "codex.quest.tech2_pneumatic.pressure_service_run.title",
+    "icon": "pneumaticcraft:pressure_tube",
+    "x": 10,
+    "y": 2,
+    "deps": [
+     "pressure_service_batch"
+    ],
+    "text": [
+     "codex.quest.tech2_pneumatic.pressure_service_run.text.0",
+     "codex.quest.tech2_pneumatic.pressure_service_run.text.1",
+     "codex.quest.tech2_pneumatic.pressure_service_run.text.2"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Проверка установки выполнена",
+      "note": "codex.quest.tech2_pneumatic.pressure_service_run.task.0"
+     }
+    ],
+    "rewards": {
+     "items": [],
+     "xp": 25,
+     "text": []
+    },
+    "shape": "big",
+    "optional": true
+   },
+   {
+    "id": "guide_pressure_control",
+    "title": "codex.quest.tech2_pneumatic.guide_pressure_control.title",
+    "icon": "pneumaticcraft:pressure_gauge_module",
+    "deps": [
+     "compressor"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:pressure_gauge_module",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:module_expansion_card",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:safety_tube_module",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 2,
+    "text": [
+     "codex.quest.tech2_pneumatic.guide_pressure_control.text.0",
+     "codex.quest.tech2_pneumatic.guide_pressure_control.text.1",
+     "codex.quest.tech2_pneumatic.guide_pressure_control.text.2"
+    ]
+   },
+   {
+    "id": "guide_interfaces",
+    "title": "codex.quest.tech2_pneumatic.guide_interfaces.title",
+    "icon": "pneumaticcraft:pressure_chamber_interface",
+    "deps": [
+     "chamber",
+     "guide_pressure_control"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:pressure_chamber_interface",
+      "count": 2
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 6,
+    "y": 3,
+    "text": [
+     "codex.quest.tech2_pneumatic.guide_interfaces.text.0",
+     "codex.quest.tech2_pneumatic.guide_interfaces.text.1",
+     "codex.quest.tech2_pneumatic.guide_interfaces.text.2"
+    ]
+   },
+   {
+    "id": "guide_assembly_arms",
+    "title": "codex.quest.tech2_pneumatic.guide_assembly_arms.title",
+    "icon": "pneumaticcraft:assembly_io_unit_import",
+    "deps": [
+     "assembly",
+     "guide_interfaces"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "pneumaticcraft:assembly_io_unit_import",
+      "count": 1
+     },
+     {
+      "type": "item",
+      "id": "pneumaticcraft:assembly_io_unit_export",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 12,
+    "y": 5,
+    "text": [
+     "codex.quest.tech2_pneumatic.guide_assembly_arms.text.0",
+     "codex.quest.tech2_pneumatic.guide_assembly_arms.text.1",
+     "codex.quest.tech2_pneumatic.guide_assembly_arms.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "tech2"
  },
  {
   "id": "tech2_foregoing",
@@ -855,10 +1139,11 @@
     "title": "codex.quest.tech2_foregoing.latex.title",
     "icon": "industrialforegoing:latex_processing_unit",
     "x": 0,
-    "y": 0,
+    "y": 1,
     "text": [
      "codex.quest.tech2_foregoing.latex.text.0",
-     "codex.quest.tech2_foregoing.latex.text.1"
+     "codex.quest.tech2_foregoing.latex.text.1",
+     "codex.quest.tech2_foregoing.latex.text.2"
     ],
     "tasks": [
      {
@@ -886,16 +1171,21 @@
      ],
      "xp": 150,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "frames",
     "title": "codex.quest.tech2_foregoing.frames.title",
     "icon": "industrialforegoing:machine_frame_pity",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 2,
     "text": [
-     "codex.quest.tech2_foregoing.frames.text.0"
+     "codex.quest.tech2_foregoing.frames.text.0",
+     "codex.quest.tech2_foregoing.frames.text.1",
+     "codex.quest.tech2_foregoing.frames.text.2"
     ],
     "tasks": [
      {
@@ -927,11 +1217,12 @@
     "id": "farm",
     "title": "codex.quest.tech2_foregoing.farm.title",
     "icon": "industrialforegoing:plant_gatherer",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 3,
     "text": [
      "codex.quest.tech2_foregoing.farm.text.0",
-     "codex.quest.tech2_foregoing.farm.text.1"
+     "codex.quest.tech2_foregoing.farm.text.1",
+     "codex.quest.tech2_foregoing.farm.text.2"
     ],
     "tasks": [
      {
@@ -968,11 +1259,12 @@
     "id": "animals",
     "title": "codex.quest.tech2_foregoing.animals.title",
     "icon": "industrialforegoing:animal_rancher",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 4,
     "text": [
      "codex.quest.tech2_foregoing.animals.text.0",
-     "codex.quest.tech2_foregoing.animals.text.1"
+     "codex.quest.tech2_foregoing.animals.text.1",
+     "codex.quest.tech2_foregoing.animals.text.2"
     ],
     "tasks": [
      {
@@ -1009,11 +1301,12 @@
     "id": "ore_meat",
     "title": "codex.quest.tech2_foregoing.ore_meat.title",
     "icon": "industrialforegoing:washing_factory",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 3,
     "text": [
      "codex.quest.tech2_foregoing.ore_meat.text.0",
-     "codex.quest.tech2_foregoing.ore_meat.text.1"
+     "codex.quest.tech2_foregoing.ore_meat.text.1",
+     "codex.quest.tech2_foregoing.ore_meat.text.2"
     ],
     "tasks": [
      {
@@ -1050,11 +1343,12 @@
     "id": "laser",
     "title": "codex.quest.tech2_foregoing.laser.title",
     "icon": "industrialforegoing:laser_drill",
-    "x": 0,
-    "y": 5,
+    "x": 10,
+    "y": 3,
     "text": [
      "codex.quest.tech2_foregoing.laser.text.0",
-     "codex.quest.tech2_foregoing.laser.text.1"
+     "codex.quest.tech2_foregoing.laser.text.1",
+     "codex.quest.tech2_foregoing.laser.text.2"
     ],
     "tasks": [
      {
@@ -1096,13 +1390,15 @@
     "id": "stonework",
     "title": "codex.quest.tech2_foregoing.stonework.title",
     "icon": "industrialforegoing:material_stonework_factory",
-    "x": 1,
-    "y": 5,
+    "x": 10,
+    "y": 4,
     "deps": [
      "ore_meat"
     ],
     "text": [
-     "codex.quest.tech2_foregoing.stonework.text.0"
+     "codex.quest.tech2_foregoing.stonework.text.0",
+     "codex.quest.tech2_foregoing.stonework.text.1",
+     "codex.quest.tech2_foregoing.stonework.text.2"
     ],
     "tasks": [
      {
@@ -1122,8 +1418,76 @@
      "text": []
     },
     "optional": true
+   },
+   {
+    "id": "guide_log_supply",
+    "title": "codex.quest.tech2_foregoing.guide_log_supply.title",
+    "icon": "industrialforegoing:fluid_extractor",
+    "deps": [
+     "latex"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "industrialforegoing:fluid_extractor",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Латекс получен после замены бревна",
+      "note": "codex.quest.tech2_foregoing.guide_log_supply.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 3,
+    "text": [
+     "codex.quest.tech2_foregoing.guide_log_supply.text.0",
+     "codex.quest.tech2_foregoing.guide_log_supply.text.1",
+     "codex.quest.tech2_foregoing.guide_log_supply.text.2"
+    ]
+   },
+   {
+    "id": "guide_dissolution",
+    "title": "codex.quest.tech2_foregoing.guide_dissolution.title",
+    "icon": "industrialforegoing:dissolution_chamber",
+    "deps": [
+     "frames",
+     "guide_log_supply"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "industrialforegoing:dissolution_chamber",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Рецепт камеры растворения выполнен",
+      "note": "codex.quest.tech2_foregoing.guide_dissolution.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 4,
+    "text": [
+     "codex.quest.tech2_foregoing.guide_dissolution.text.0",
+     "codex.quest.tech2_foregoing.guide_dissolution.text.1",
+     "codex.quest.tech2_foregoing.guide_dissolution.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "tech2"
  },
  {
   "id": "tech2_powah",
@@ -1142,9 +1506,11 @@
     "title": "codex.quest.tech2_powah.dielectric.title",
     "icon": "powah:dielectric_paste",
     "x": 0,
-    "y": 0,
+    "y": 2,
     "text": [
-     "codex.quest.tech2_powah.dielectric.text.0"
+     "codex.quest.tech2_powah.dielectric.text.0",
+     "codex.quest.tech2_powah.dielectric.text.1",
+     "codex.quest.tech2_powah.dielectric.text.2"
     ],
     "tasks": [
      {
@@ -1167,17 +1533,21 @@
      ],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "start_first_day/iron"
+    ]
    },
    {
     "id": "generators",
     "title": "codex.quest.tech2_powah.generators.title",
     "icon": "powah:thermo_generator_starter",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 4,
     "text": [
      "codex.quest.tech2_powah.generators.text.0",
-     "codex.quest.tech2_powah.generators.text.1"
+     "codex.quest.tech2_powah.generators.text.1",
+     "codex.quest.tech2_powah.generators.text.2"
     ],
     "tasks": [
      {
@@ -1214,10 +1584,12 @@
     "id": "cells",
     "title": "codex.quest.tech2_powah.cells.title",
     "icon": "powah:energy_cell_starter",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 5,
     "text": [
-     "codex.quest.tech2_powah.cells.text.0"
+     "codex.quest.tech2_powah.cells.text.0",
+     "codex.quest.tech2_powah.cells.text.1",
+     "codex.quest.tech2_powah.cells.text.2"
     ],
     "tasks": [
      {
@@ -1254,11 +1626,12 @@
     "id": "energizing",
     "title": "codex.quest.tech2_powah.energizing.title",
     "icon": "powah:energizing_orb",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 5,
     "text": [
      "codex.quest.tech2_powah.energizing.text.0",
-     "codex.quest.tech2_powah.energizing.text.1"
+     "codex.quest.tech2_powah.energizing.text.1",
+     "codex.quest.tech2_powah.energizing.text.2"
     ],
     "tasks": [
      {
@@ -1295,11 +1668,12 @@
     "id": "crystals",
     "title": "codex.quest.tech2_powah.crystals.title",
     "icon": "powah:crystal_blazing",
-    "x": 0,
+    "x": 8,
     "y": 4,
     "text": [
      "codex.quest.tech2_powah.crystals.text.0",
-     "codex.quest.tech2_powah.crystals.text.1"
+     "codex.quest.tech2_powah.crystals.text.1",
+     "codex.quest.tech2_powah.crystals.text.2"
     ],
     "tasks": [
      {
@@ -1331,11 +1705,12 @@
     "id": "reactor",
     "title": "codex.quest.tech2_powah.reactor.title",
     "icon": "powah:reactor_starter",
-    "x": 0,
+    "x": 10,
     "y": 5,
     "text": [
      "codex.quest.tech2_powah.reactor.text.0",
-     "codex.quest.tech2_powah.reactor.text.1"
+     "codex.quest.tech2_powah.reactor.text.1",
+     "codex.quest.tech2_powah.reactor.text.2"
     ],
     "tasks": [
      {
@@ -1367,8 +1742,37 @@
     "deps": [
      "crystals"
     ]
+   },
+   {
+    "id": "guide_orb_batches",
+    "title": "codex.quest.tech2_powah.guide_orb_batches.title",
+    "icon": "powah:energizing_orb",
+    "deps": [
+     "energizing"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "id": "Две партии энергетической стали выполнены последовательно",
+      "note": "codex.quest.tech2_powah.guide_orb_batches.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 5,
+    "text": [
+     "codex.quest.tech2_powah.guide_orb_batches.text.0",
+     "codex.quest.tech2_powah.guide_orb_batches.text.1",
+     "codex.quest.tech2_powah.guide_orb_batches.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "tech2"
  },
  {
   "id": "tech2_petroleum",
@@ -1387,7 +1791,7 @@
     "title": "codex.quest.tech2_petroleum.survey.title",
     "icon": "immersivepetroleum:seismic_survey",
     "x": 0,
-    "y": 0,
+    "y": 3,
     "text": [
      "codex.quest.tech2_petroleum.survey.text.0",
      "codex.quest.tech2_petroleum.survey.text.1",
@@ -1414,23 +1818,32 @@
      ],
      "xp": 200,
      "text": []
-    }
+    },
+    "deps": [
+     "ie_start/blast"
+    ]
    },
    {
     "id": "derrick",
     "title": "codex.quest.tech2_petroleum.derrick.title",
     "icon": "immersivepetroleum:derrick",
-    "x": 0,
-    "y": 1,
+    "x": 2,
+    "y": 5,
     "text": [
      "codex.quest.tech2_petroleum.derrick.text.0",
-     "codex.quest.tech2_petroleum.derrick.text.1"
+     "codex.quest.tech2_petroleum.derrick.text.1",
+     "codex.quest.tech2_petroleum.derrick.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersivepetroleum:derrick",
-      "count": 1
+      "id": "immersiveengineering:fluid_pipe",
+      "count": 16
+     },
+     {
+      "type": "check",
+      "id": "Вышка создала устье и контролируемо отдаёт жидкость",
+      "note": "codex.quest.tech2_petroleum.derrick.task.1"
      }
     ],
     "rewards": {
@@ -1451,17 +1864,23 @@
     "id": "pumpjack",
     "title": "codex.quest.tech2_petroleum.pumpjack.title",
     "icon": "immersivepetroleum:pumpjack",
-    "x": 0,
-    "y": 2,
+    "x": 4,
+    "y": 6,
     "text": [
      "codex.quest.tech2_petroleum.pumpjack.text.0",
-     "codex.quest.tech2_petroleum.pumpjack.text.1"
+     "codex.quest.tech2_petroleum.pumpjack.text.1",
+     "codex.quest.tech2_petroleum.pumpjack.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersivepetroleum:pumpjack",
+      "id": "immersiveengineering:heavy_engineering",
       "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Качалка добывает через подготовленное устье",
+      "note": "codex.quest.tech2_petroleum.pumpjack.task.1"
      }
     ],
     "rewards": {
@@ -1482,17 +1901,18 @@
     "id": "tower",
     "title": "codex.quest.tech2_petroleum.tower.title",
     "icon": "immersivepetroleum:distillation_tower",
-    "x": 0,
-    "y": 3,
+    "x": 6,
+    "y": 7,
     "text": [
      "codex.quest.tech2_petroleum.tower.text.0",
-     "codex.quest.tech2_petroleum.tower.text.1"
+     "codex.quest.tech2_petroleum.tower.text.1",
+     "codex.quest.tech2_petroleum.tower.text.2"
     ],
     "tasks": [
      {
       "type": "item",
-      "id": "immersivepetroleum:distillation_tower",
-      "count": 1
+      "id": "immersiveengineering:sheetmetal_iron",
+      "count": 32
      },
      {
       "type": "item",
@@ -1503,6 +1923,11 @@
       "type": "item",
       "id": "immersivepetroleum:diesel_bucket",
       "count": 4
+     },
+     {
+      "type": "check",
+      "id": "Башня разделяет нефть и выводит все продукты",
+      "note": "codex.quest.tech2_petroleum.tower.task.3"
      }
     ],
     "rewards": {
@@ -1523,11 +1948,12 @@
     "id": "products",
     "title": "codex.quest.tech2_petroleum.products.title",
     "icon": "immersivepetroleum:asphalt",
-    "x": 0,
-    "y": 4,
+    "x": 8,
+    "y": 7,
     "text": [
      "codex.quest.tech2_petroleum.products.text.0",
-     "codex.quest.tech2_petroleum.products.text.1"
+     "codex.quest.tech2_petroleum.products.text.1",
+     "codex.quest.tech2_petroleum.products.text.2"
     ],
     "tasks": [
      {
@@ -1554,7 +1980,70 @@
     "deps": [
      "tower"
     ]
+   },
+   {
+    "id": "guide_survey_record",
+    "title": "codex.quest.tech2_petroleum.guide_survey_record.title",
+    "icon": "immersivepetroleum:survey_result",
+    "deps": [
+     "survey"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersivepetroleum:survey_result",
+      "count": 1
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 6,
+    "text": [
+     "codex.quest.tech2_petroleum.guide_survey_record.text.0",
+     "codex.quest.tech2_petroleum.guide_survey_record.text.1",
+     "codex.quest.tech2_petroleum.guide_survey_record.text.2"
+    ]
+   },
+   {
+    "id": "guide_desulfurize",
+    "title": "codex.quest.tech2_petroleum.guide_desulfurize.title",
+    "icon": "immersivepetroleum:diesel_bucket",
+    "deps": [
+     "tower",
+     "guide_survey_record"
+    ],
+    "tasks": [
+     {
+      "type": "item",
+      "id": "immersivepetroleum:diesel_bucket",
+      "count": 1
+     },
+     {
+      "type": "check",
+      "id": "Обессеривание выполнено в установке высокого давления",
+      "note": "codex.quest.tech2_petroleum.guide_desulfurize.task.1"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 25,
+     "items": [],
+     "text": []
+    },
+    "x": 8,
+    "y": 6,
+    "text": [
+     "codex.quest.tech2_petroleum.guide_desulfurize.text.0",
+     "codex.quest.tech2_petroleum.guide_desulfurize.text.1",
+     "codex.quest.tech2_petroleum.guide_desulfurize.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "tech2"
  }
 ]

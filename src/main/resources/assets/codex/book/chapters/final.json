@@ -19,7 +19,8 @@
     "y": 0,
     "text": [
      "codex.quest.final_bridges.rot_to_fe.text.0",
-     "codex.quest.final_bridges.rot_to_fe.text.1"
+     "codex.quest.final_bridges.rot_to_fe.text.1",
+     "codex.quest.final_bridges.rot_to_fe.text.2"
     ],
     "tasks": [
      {
@@ -44,33 +45,35 @@
      }
     ],
     "rewards": {
-     "items": [],
      "xp": 120,
-     "text": [
-      "codex.quest.final_bridges.rot_to_fe.reward.0"
-     ]
-    }
+     "items": [],
+     "text": []
+    },
+    "deps": [
+     "ca_electric/alternator"
+    ]
    },
    {
     "id": "ore_chain",
     "title": "codex.quest.final_bridges.ore_chain.title",
-    "icon": "mekanism:chemical_dissolution_chamber",
-    "x": 1,
-    "y": 0,
+    "icon": "create:crushing_wheel",
+    "x": 0,
+    "y": 1,
     "text": [
      "codex.quest.final_bridges.ore_chain.text.0",
-     "codex.quest.final_bridges.ore_chain.text.1"
+     "codex.quest.final_bridges.ore_chain.text.1",
+     "codex.quest.final_bridges.ore_chain.text.2"
     ],
     "tasks": [
      {
       "type": "item",
       "id": "create:crushing_wheel",
-      "count": 1
+      "count": 2
      },
      {
       "type": "item",
-      "id": "immersiveengineering:crusher",
-      "count": 1
+      "id": "immersiveengineering:dust_iron",
+      "count": 4
      },
      {
       "type": "item",
@@ -82,17 +85,22 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "create_brass/crushing",
+     "mek_ore/dissolution"
+    ]
    },
    {
     "id": "fuel_chain",
     "title": "codex.quest.final_bridges.fuel_chain.title",
-    "icon": "immersiveengineering:refinery",
-    "x": 2,
-    "y": 0,
+    "icon": "immersiveengineering:biodiesel_bucket",
+    "x": 0,
+    "y": 2,
     "text": [
      "codex.quest.final_bridges.fuel_chain.text.0",
-     "codex.quest.final_bridges.fuel_chain.text.1"
+     "codex.quest.final_bridges.fuel_chain.text.1",
+     "codex.quest.final_bridges.fuel_chain.text.2"
     ],
     "tasks": [
      {
@@ -115,17 +123,21 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "ie_chemistry/refinery_ie"
+    ]
    },
    {
     "id": "storage_bridge",
     "title": "codex.quest.final_bridges.storage_bridge.title",
     "icon": "refinedstorage:external_storage",
     "x": 0,
-    "y": 1,
+    "y": 3,
     "text": [
      "codex.quest.final_bridges.storage_bridge.text.0",
-     "codex.quest.final_bridges.storage_bridge.text.1"
+     "codex.quest.final_bridges.storage_bridge.text.1",
+     "codex.quest.final_bridges.storage_bridge.text.2"
     ],
     "tasks": [
      {
@@ -148,17 +160,21 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "rs_network/external"
+    ]
    },
    {
     "id": "autocraft_bridge",
     "title": "codex.quest.final_bridges.autocraft_bridge.title",
     "icon": "refinedstorage:autocrafter",
-    "x": 1,
-    "y": 1,
+    "x": 0,
+    "y": 4,
     "text": [
      "codex.quest.final_bridges.autocraft_bridge.text.0",
-     "codex.quest.final_bridges.autocraft_bridge.text.1"
+     "codex.quest.final_bridges.autocraft_bridge.text.1",
+     "codex.quest.final_bridges.autocraft_bridge.text.2"
     ],
     "tasks": [
      {
@@ -173,22 +189,24 @@
      }
     ],
     "rewards": {
-     "items": [],
      "xp": 120,
-     "text": [
-      "codex.quest.final_bridges.autocraft_bridge.reward.0"
-     ]
-    }
+     "items": [],
+     "text": []
+    },
+    "deps": [
+     "rs_autocraft/autocrafter"
+    ]
    },
    {
     "id": "logistics_bridge",
     "title": "codex.quest.final_bridges.logistics_bridge.title",
     "icon": "create:stock_ticker",
-    "x": 2,
-    "y": 1,
+    "x": 0,
+    "y": 5,
     "text": [
      "codex.quest.final_bridges.logistics_bridge.text.0",
-     "codex.quest.final_bridges.logistics_bridge.text.1"
+     "codex.quest.final_bridges.logistics_bridge.text.1",
+     "codex.quest.final_bridges.logistics_bridge.text.2"
     ],
     "tasks": [
      {
@@ -206,17 +224,22 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "create_packages/ticker",
+     "rs_network/grid"
+    ]
    },
    {
     "id": "colony_bridge",
     "title": "codex.quest.final_bridges.colony_bridge.title",
     "icon": "minecolonies:blockhutmechanic",
     "x": 0,
-    "y": 2,
+    "y": 6,
     "text": [
      "codex.quest.final_bridges.colony_bridge.text.0",
-     "codex.quest.final_bridges.colony_bridge.text.1"
+     "codex.quest.final_bridges.colony_bridge.text.1",
+     "codex.quest.final_bridges.colony_bridge.text.2"
     ],
     "tasks": [
      {
@@ -234,17 +257,21 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "mc_found/warehouse"
+    ]
    },
    {
     "id": "transport_bridge",
     "title": "codex.quest.final_bridges.transport_bridge.title",
     "icon": "create:track_station",
-    "x": 1,
-    "y": 2,
+    "x": 0,
+    "y": 7,
     "text": [
      "codex.quest.final_bridges.transport_bridge.text.0",
-     "codex.quest.final_bridges.transport_bridge.text.1"
+     "codex.quest.final_bridges.transport_bridge.text.1",
+     "codex.quest.final_bridges.transport_bridge.text.2"
     ],
     "tasks": [
      {
@@ -267,17 +294,22 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "create_trains/train",
+     "mek_qio/teleporter"
+    ]
    },
    {
     "id": "defense_bridge",
     "title": "codex.quest.final_bridges.defense_bridge.title",
     "icon": "create_radar:fire_controller",
-    "x": 2,
-    "y": 2,
+    "x": 0,
+    "y": 8,
     "text": [
      "codex.quest.final_bridges.defense_bridge.text.0",
-     "codex.quest.final_bridges.defense_bridge.text.1"
+     "codex.quest.final_bridges.defense_bridge.text.1",
+     "codex.quest.final_bridges.defense_bridge.text.2"
     ],
     "tasks": [
      {
@@ -300,17 +332,22 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "ie_gear/turret",
+     "mc_found/builder"
+    ]
    },
    {
     "id": "energy_bridge2",
     "title": "codex.quest.final_bridges.energy_bridge2.title",
     "icon": "powah:energy_cell_starter",
     "x": 0,
-    "y": 4,
+    "y": 9,
     "text": [
      "codex.quest.final_bridges.energy_bridge2.text.0",
-     "codex.quest.final_bridges.energy_bridge2.text.1"
+     "codex.quest.final_bridges.energy_bridge2.text.1",
+     "codex.quest.final_bridges.energy_bridge2.text.2"
     ],
     "tasks": [
      {
@@ -343,17 +380,22 @@
      ],
      "xp": 400,
      "text": []
-    }
+    },
+    "deps": [
+     "tech2_powah/cells",
+     "space_ground/generator"
+    ]
    },
    {
     "id": "resource_bridge",
     "title": "codex.quest.final_bridges.resource_bridge.title",
     "icon": "mysticalagriculture:supremium_essence",
-    "x": 1,
-    "y": 4,
+    "x": 0,
+    "y": 10,
     "text": [
      "codex.quest.final_bridges.resource_bridge.text.0",
-     "codex.quest.final_bridges.resource_bridge.text.1"
+     "codex.quest.final_bridges.resource_bridge.text.1",
+     "codex.quest.final_bridges.resource_bridge.text.2"
     ],
     "tasks": [
      {
@@ -381,17 +423,22 @@
      ],
      "xp": 500,
      "text": []
-    }
+    },
+    "deps": [
+     "magic_agriculture/supremium",
+     "mek_ore/miner"
+    ]
    },
    {
     "id": "magic_tech_bridge",
     "title": "codex.quest.final_bridges.magic_tech_bridge.title",
     "icon": "botania:mana_spreader",
-    "x": 2,
-    "y": 4,
+    "x": 0,
+    "y": 11,
     "text": [
      "codex.quest.final_bridges.magic_tech_bridge.text.0",
-     "codex.quest.final_bridges.magic_tech_bridge.text.1"
+     "codex.quest.final_bridges.magic_tech_bridge.text.1",
+     "codex.quest.final_bridges.magic_tech_bridge.text.2"
     ],
     "tasks": [
      {
@@ -419,17 +466,22 @@
      ],
      "xp": 500,
      "text": []
-    }
+    },
+    "deps": [
+     "magic_botania/spreader",
+     "magic_ars/source"
+    ]
    },
    {
     "id": "adventure_bridge",
     "title": "codex.quest.final_bridges.adventure_bridge.title",
     "icon": "mekanism:meka_tool",
     "x": 0,
-    "y": 5,
+    "y": 12,
     "text": [
      "codex.quest.final_bridges.adventure_bridge.text.0",
-     "codex.quest.final_bridges.adventure_bridge.text.1"
+     "codex.quest.final_bridges.adventure_bridge.text.1",
+     "codex.quest.final_bridges.adventure_bridge.text.2"
     ],
     "tasks": [
      {
@@ -447,9 +499,203 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_gear/mekatool",
+     "mek_gear/mekasuit"
+    ]
+   },
+   {
+    "id": "guide_power_transfer",
+    "title": "codex.quest.final_bridges.guide_power_transfer.title",
+    "icon": "mekanism:basic_energy_cube",
+    "deps": [
+     "rot_to_fe"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "note": "codex.quest.final_bridges.guide_power_transfer.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 60,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 8,
+    "text": [
+     "codex.quest.final_bridges.guide_power_transfer.text.0",
+     "codex.quest.final_bridges.guide_power_transfer.text.1",
+     "codex.quest.final_bridges.guide_power_transfer.text.2"
+    ]
+   },
+   {
+    "id": "guide_ore_comparison",
+    "title": "codex.quest.final_bridges.guide_ore_comparison.title",
+    "icon": "minecraft:raw_iron",
+    "deps": [
+     "ore_chain"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "note": "codex.quest.final_bridges.guide_ore_comparison.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 60,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 9,
+    "text": [
+     "codex.quest.final_bridges.guide_ore_comparison.text.0",
+     "codex.quest.final_bridges.guide_ore_comparison.text.1",
+     "codex.quest.final_bridges.guide_ore_comparison.text.2"
+    ]
+   },
+   {
+    "id": "guide_ore_routing",
+    "title": "codex.quest.final_bridges.guide_ore_routing.title",
+    "icon": "create:attribute_filter",
+    "deps": [
+     "guide_ore_comparison"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "note": "codex.quest.final_bridges.guide_ore_routing.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 60,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 10,
+    "text": [
+     "codex.quest.final_bridges.guide_ore_routing.text.0",
+     "codex.quest.final_bridges.guide_ore_routing.text.1",
+     "codex.quest.final_bridges.guide_ore_routing.text.2"
+    ]
+   },
+   {
+    "id": "guide_external_roundtrip",
+    "title": "codex.quest.final_bridges.guide_external_roundtrip.title",
+    "icon": "refinedstorage:external_storage",
+    "deps": [
+     "storage_bridge"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "note": "codex.quest.final_bridges.guide_external_roundtrip.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 60,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 10,
+    "text": [
+     "codex.quest.final_bridges.guide_external_roundtrip.text.0",
+     "codex.quest.final_bridges.guide_external_roundtrip.text.1",
+     "codex.quest.final_bridges.guide_external_roundtrip.text.2"
+    ]
+   },
+   {
+    "id": "guide_stock_boundary",
+    "title": "codex.quest.final_bridges.guide_stock_boundary.title",
+    "icon": "minecraft:chest",
+    "deps": [
+     "guide_external_roundtrip"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "note": "codex.quest.final_bridges.guide_stock_boundary.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 60,
+     "items": [],
+     "text": []
+    },
+    "x": 4,
+    "y": 11,
+    "text": [
+     "codex.quest.final_bridges.guide_stock_boundary.text.0",
+     "codex.quest.final_bridges.guide_stock_boundary.text.1",
+     "codex.quest.final_bridges.guide_stock_boundary.text.2"
+    ]
+   },
+   {
+    "id": "guide_processing_order",
+    "title": "codex.quest.final_bridges.guide_processing_order.title",
+    "icon": "refinedstorage:autocrafter",
+    "deps": [
+     "autocraft_bridge"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "note": "codex.quest.final_bridges.guide_processing_order.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 60,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 11,
+    "text": [
+     "codex.quest.final_bridges.guide_processing_order.text.0",
+     "codex.quest.final_bridges.guide_processing_order.text.1",
+     "codex.quest.final_bridges.guide_processing_order.text.2"
+    ]
+   },
+   {
+    "id": "guide_colony_delivery",
+    "title": "codex.quest.final_bridges.guide_colony_delivery.title",
+    "icon": "minecolonies:blockpostbox",
+    "deps": [
+     "colony_bridge"
+    ],
+    "tasks": [
+     {
+      "type": "check",
+      "note": "codex.quest.final_bridges.guide_colony_delivery.task.0"
+     }
+    ],
+    "optional": true,
+    "rewards": {
+     "xp": 60,
+     "items": [],
+     "text": []
+    },
+    "x": 2,
+    "y": 12,
+    "text": [
+     "codex.quest.final_bridges.guide_colony_delivery.text.0",
+     "codex.quest.final_bridges.guide_colony_delivery.text.1",
+     "codex.quest.final_bridges.guide_colony_delivery.text.2"
+    ]
    }
-  ]
+  ],
+  "map": "final"
  },
  {
   "id": "final_goals",
@@ -459,7 +705,8 @@
   "icon": "minecraft:nether_star",
   "subtitle": "codex.chapter.final_goals.subtitle",
   "intro": [
-   "codex.chapter.final_goals.intro.0"
+   "codex.chapter.final_goals.intro.0",
+   "codex.chapter.final_goals.intro.1"
   ],
   "quests": [
    {
@@ -467,9 +714,11 @@
     "title": "codex.quest.final_goals.goal_create.title",
     "icon": "create:factory_gauge",
     "x": 0,
-    "y": 0,
+    "y": 13,
     "text": [
-     "codex.quest.final_goals.goal_create.text.0"
+     "codex.quest.final_goals.goal_create.text.0",
+     "codex.quest.final_goals.goal_create.text.1",
+     "codex.quest.final_goals.goal_create.text.2"
     ],
     "tasks": [
      {
@@ -492,32 +741,29 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "create_packages/factory_gauge",
+     "create_copper/boiler",
+     "aero_basics/assembler"
+    ]
    },
    {
     "id": "goal_ie",
     "title": "codex.quest.final_goals.goal_ie.title",
-    "icon": "immersiveengineering:excavator",
-    "x": 1,
-    "y": 0,
+    "icon": "immersiveengineering:railgun",
+    "x": 0,
+    "y": 14,
     "text": [
-     "codex.quest.final_goals.goal_ie.text.0"
+     "codex.quest.final_goals.goal_ie.text.0",
+     "codex.quest.final_goals.goal_ie.text.1",
+     "codex.quest.final_goals.goal_ie.text.2"
     ],
     "tasks": [
      {
-      "type": "item",
-      "id": "immersiveengineering:excavator",
-      "count": 1
-     },
-     {
-      "type": "item",
-      "id": "immersiveengineering:arc_furnace",
-      "count": 1
-     },
-     {
-      "type": "item",
-      "id": "immersiveengineering:diesel_generator",
-      "count": 1
+      "type": "check",
+      "id": "ie_three_plants",
+      "note": "codex.quest.final_goals.goal_ie.task.0"
      },
      {
       "type": "item",
@@ -529,16 +775,23 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "ie_machines/excavator",
+     "ie_machines/arc",
+     "ie_chemistry/diesel"
+    ]
    },
    {
     "id": "goal_mek",
     "title": "codex.quest.final_goals.goal_mek.title",
     "icon": "mekanism:pellet_antimatter",
-    "x": 2,
-    "y": 0,
+    "x": 0,
+    "y": 15,
     "text": [
-     "codex.quest.final_goals.goal_mek.text.0"
+     "codex.quest.final_goals.goal_mek.text.0",
+     "codex.quest.final_goals.goal_mek.text.1",
+     "codex.quest.final_goals.goal_mek.text.2"
     ],
     "tasks": [
      {
@@ -566,16 +819,23 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "mek_nuclear/sps",
+     "mek_nuclear/fusion",
+     "mek_gear/mekatool"
+    ]
    },
    {
     "id": "goal_storage",
     "title": "codex.quest.final_goals.goal_storage.title",
     "icon": "refinedstorage:64k_storage_disk",
     "x": 0,
-    "y": 1,
+    "y": 16,
     "text": [
-     "codex.quest.final_goals.goal_storage.text.0"
+     "codex.quest.final_goals.goal_storage.text.0",
+     "codex.quest.final_goals.goal_storage.text.1",
+     "codex.quest.final_goals.goal_storage.text.2"
     ],
     "tasks": [
      {
@@ -598,21 +858,28 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "rs_network/wireless",
+     "mek_qio/qio_array"
+    ]
    },
    {
     "id": "goal_colony",
     "title": "codex.quest.final_goals.goal_colony.title",
     "icon": "minecolonies:blockhuttownhall",
-    "x": 1,
-    "y": 1,
+    "x": 0,
+    "y": 17,
     "text": [
-     "codex.quest.final_goals.goal_colony.text.0"
+     "codex.quest.final_goals.goal_colony.text.0",
+     "codex.quest.final_goals.goal_colony.text.1",
+     "codex.quest.final_goals.goal_colony.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "minecolonies:minecolonies/colony_population_50"
+      "id": "minecolonies:minecolonies/colony_population_50",
+      "note": "codex.quest.final_goals.goal_colony.task.0"
      },
      {
       "type": "item",
@@ -629,16 +896,22 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "mc_found/warehouse",
+     "mc_research/university"
+    ]
    },
    {
     "id": "goal_adventure",
     "title": "codex.quest.final_goals.goal_adventure.title",
     "icon": "twilightforest:lamp_of_cinders",
-    "x": 2,
-    "y": 1,
+    "x": 0,
+    "y": 18,
     "text": [
-     "codex.quest.final_goals.goal_adventure.text.0"
+     "codex.quest.final_goals.goal_adventure.text.0",
+     "codex.quest.final_goals.goal_adventure.text.1",
+     "codex.quest.final_goals.goal_adventure.text.2"
     ],
     "tasks": [
      {
@@ -661,49 +934,65 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "dim_twilight/cinders",
+     "dim_aether/bronze_dungeon"
+    ]
    },
    {
     "id": "goal_eternal",
     "title": "codex.quest.final_goals.goal_eternal.title",
     "icon": "eternal_tales:the_ultimate_two",
     "x": 0,
-    "y": 2,
+    "y": 19,
     "text": [
-     "codex.quest.final_goals.goal_eternal.text.0"
+     "codex.quest.final_goals.goal_eternal.text.0",
+     "codex.quest.final_goals.goal_eternal.text.1",
+     "codex.quest.final_goals.goal_eternal.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "eternal_tales:kill_unahzaal"
+      "id": "eternal_tales:kill_unahzaal",
+      "note": "codex.quest.final_goals.goal_eternal.task.0"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:enter_in_the_ultimate_world"
+      "id": "eternal_tales:enter_in_the_ultimate_world",
+      "note": "codex.quest.final_goals.goal_eternal.task.1"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:get_the_ultimate_two"
+      "id": "eternal_tales:get_the_ultimate_two",
+      "note": "codex.quest.final_goals.goal_eternal.task.2"
      },
      {
       "type": "advancement",
-      "id": "eternal_tales:pass_all_quests"
+      "id": "eternal_tales:pass_all_quests",
+      "note": "codex.quest.final_goals.goal_eternal.task.3"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "et_ultimate/ultimate_items",
+     "et_ultimate/aftermath"
+    ]
    },
    {
     "id": "goal_space",
     "title": "codex.quest.final_goals.goal_space.title",
     "icon": "ad_astra:tier_4_rocket",
     "x": 0,
-    "y": 3,
+    "y": 20,
     "text": [
-     "codex.quest.final_goals.goal_space.text.0"
+     "codex.quest.final_goals.goal_space.text.0",
+     "codex.quest.final_goals.goal_space.text.1",
+     "codex.quest.final_goals.goal_space.text.2"
     ],
     "tasks": [
      {
@@ -718,23 +1007,29 @@
      },
      {
       "type": "advancement",
-      "id": "ad_astra:interstellar"
+      "id": "ad_astra:interstellar",
+      "note": "codex.quest.final_goals.goal_space.task.2"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "space_glacio/interstellar"
+    ]
    },
    {
     "id": "goal_magic",
     "title": "codex.quest.final_goals.goal_magic.title",
     "icon": "botania:dice",
-    "x": 1,
-    "y": 3,
+    "x": 0,
+    "y": 21,
     "text": [
-     "codex.quest.final_goals.goal_magic.text.0"
+     "codex.quest.final_goals.goal_magic.text.0",
+     "codex.quest.final_goals.goal_magic.text.1",
+     "codex.quest.final_goals.goal_magic.text.2"
     ],
     "tasks": [
      {
@@ -744,28 +1039,35 @@
      },
      {
       "type": "advancement",
-      "id": "botania:challenge/gaia_guardian_hardmode"
+      "id": "botania:challenge/gaia_guardian_hardmode",
+      "note": "codex.quest.final_goals.goal_magic.task.1"
      }
     ],
     "rewards": {
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "magic_botania_end/gaia2"
+    ]
    },
    {
     "id": "goal_hunt",
     "title": "codex.quest.final_goals.goal_hunt.title",
     "icon": "cataclysm:the_incinerator",
-    "x": 2,
-    "y": 3,
+    "x": 0,
+    "y": 22,
     "text": [
-     "codex.quest.final_goals.goal_hunt.text.0"
+     "codex.quest.final_goals.goal_hunt.text.0",
+     "codex.quest.final_goals.goal_hunt.text.1",
+     "codex.quest.final_goals.goal_hunt.text.2"
     ],
     "tasks": [
      {
       "type": "advancement",
-      "id": "cataclysm:kill_all_bosses"
+      "id": "cataclysm:kill_all_bosses",
+      "note": "codex.quest.final_goals.goal_hunt.task.0"
      },
      {
       "type": "item",
@@ -777,14 +1079,17 @@
      "items": [],
      "xp": 120,
      "text": []
-    }
+    },
+    "deps": [
+     "hunt_cataclysm/all_bosses"
+    ]
    },
    {
     "id": "goal_all",
     "title": "codex.quest.final_goals.goal_all.title",
     "icon": "minecraft:nether_star",
-    "x": 1,
-    "y": 4,
+    "x": 2,
+    "y": 13,
     "deps": [
      "goal_create",
      "goal_ie",
@@ -799,7 +1104,8 @@
     ],
     "text": [
      "codex.quest.final_goals.goal_all.text.0",
-     "codex.quest.final_goals.goal_all.text.1"
+     "codex.quest.final_goals.goal_all.text.1",
+     "codex.quest.final_goals.goal_all.text.2"
     ],
     "tasks": [
      {
@@ -824,6 +1130,7 @@
     },
     "shape": "big"
    }
-  ]
+  ],
+  "map": "final"
  }
 ]
