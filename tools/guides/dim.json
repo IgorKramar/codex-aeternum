@@ -33,12 +33,12 @@
     },
     "dim_twilight": {
       "intro": [
-        "Сумеречный лес открывается небольшим водным порталом, но дальнейший путь ограничен достижениями мода. После Наги и Лича расходятся три ветки: болото, тёмный лес и снег. Перед высокогорьем нужно завершить все три.",
-        "Не путайте трофей, специальную добычу и действие, снимающее защиту региона. Для огненного болота нужно съесть блюдо Миношрума, а для подземной крепости поставить трофей на пьедестал. Магическая карта помогает выбрать следующий доступный маршрут, вместо попыток пробежать сквозь действующее проклятие."
+        "Сумеречный лес открывается небольшим водным порталом, но дальше дорогу перекрывают достижения мода. После Наги и Лича путь расходится на три ветки: болото, тёмный лес и снега. Все три нужно пройти, прежде чем откроется высокогорье.",
+        "Трофей, особая добыча и действие, снимающее проклятие области, — три разные вещи, и путать их дорого. Огненное болото пускает лишь того, кто съел блюдо Миношрума; в подземную крепость ведёт трофей на пьедестале. Магическая карта подскажет, куда идти дальше, вместо того чтобы ломиться сквозь действующее проклятие."
       ],
       "intro_en": [
-        "The Twilight Forest starts with a small water portal, but further travel is gated by the mod’s advancements. After the Naga and Lich, progression branches into swamp, dark forest, and snow. All three converge before the Highlands.",
-        "Distinguish trophies, special loot, and the action removing regional protection. Eat Minoshroom’s meal for the Fire Swamp and place a trophy on the pedestal for the stronghold. A Magic Map helps choose an accessible route instead of running through an active curse."
+        "The Twilight Forest opens with a small water portal, but the road beyond is gated by the mod’s advancements. After the Naga and the Lich the path splits three ways: swamp, dark forest and snow. All three must be finished before the Highlands open.",
+        "A trophy, a special drop and the action that lifts a regional curse are three different things, and mixing them up is costly. The Fire Swamp admits only those who have eaten Minoshroom’s meal; a trophy on the pedestal opens the stronghold. The Magic Map shows where to go next instead of forcing a way through an active curse."
       ]
     }
   },
@@ -63,26 +63,26 @@
     },
     "dim_nether/blaze": {
       "text": [
-        "Ифритов ищите в незерской крепости, особенно возле их спавнеров. Подготовьте броню, щит, еду и огнестойкость, если уже можете её получить. Подход к спавнеру защитите блоками так, чтобы можно было отступить из линии огня без падения с мостов.",
-        "Для шестнадцати стержней убивайте ифритов и подбирайте добычу, складывая её одним запасом для зачёта. Отдельно изготовьте пустую горелку Create и покажите её книге до наполнения. Правый клик пустой горелкой по ифриту позволяет получить заселённую горелку.",
-        "Пойманный ифрит не заменяет запас стержней: у этих целей разные применения. Не разрушайте спавнер после первой партии, если хотите сохранить источник. Стержни пойдут в зельеварение, оки Края и рецепты модов, а заполненная горелка обеспечит технологическое тепло дома."
+        "Ифриты живут в незерских крепостях и кружат возле своих генераторов монстров. Идите за ними с бронёй, щитом, едой и, если она уже доступна, огнестойкостью. Подход к генератору обложите блоками так, чтобы из линии огня можно было отступить, не сорвавшись с моста.",
+        "Шестнадцать стержней набираются с убитых ифритов; складывайте их в одну стопку, чтобы книга засчитала количество. Отдельно сделайте пустую горелку Create и покажите её книге до того, как наполните. Правый щелчок пустой горелкой по живому ифриту переселяет его внутрь — так получается заселённая горелка.",
+        "Пойманный ифрит и запас стержней — разные цели, одна другую не заменяет. Генератор после первой партии лучше не ломать: он ещё пригодится. Стержни уйдут в зельеварение, на оки Края и в рецепты модов, а горелка с ифритом станет источником тепла для машин дома."
       ],
       "text_en": [
-        "Find Blazes in a Nether Fortress, especially near their spawners. Prepare armour, a shield, food, and Fire Resistance if available. Secure the approach so you can retreat from fire without falling from fortress bridges.",
-        "Kill Blazes and collect sixteen rods together for detection. Separately craft an Empty Blaze Burner and let the guide see it before filling it. Right-click a Blaze with the empty burner to obtain a populated burner.",
-        "Capturing a Blaze does not replace the rod stock; the objectives serve different purposes. Preserve the spawner for future supply. Rods support brewing, Eyes of Ender, and mod recipes, while the filled burner provides technological heat at home."
+        "Blazes live in Nether Fortresses and circle their monster spawners. Go after them with armour, a shield, food and, if you already have it, Fire Resistance. Wall off the approach to the spawner so you can step out of the line of fire without falling off a bridge.",
+        "Sixteen rods come from slain Blazes; keep them in one stack so the book counts the full amount. Separately craft an Empty Blaze Burner and show it to the book before filling it. Right-clicking a living Blaze with the empty burner moves it inside — that is how you get a populated burner.",
+        "A captured Blaze and a stock of rods are different goals; neither replaces the other. Leave the spawner standing after the first batch — it will be needed again. Rods go into brewing, Eyes of Ender and mod recipes, while the burner with a Blaze inside becomes a heat source for your machines at home."
       ],
       "task_notes": {}
     },
     "dim_nether/quartz": {
       "text": [
         "Незерский кварц добывается из светлых вкраплений в незераке. Выберите жилу рядом с защищённым проходом, проверьте опору под ней и не копайте прямо над лавой. Для начала подходит доступная кирка, а зачарование удачи увеличивает выход кварца.",
-        "Накопите шестьдесят четыре предмета кварца одновременно и дождитесь отметки, прежде чем превращать их в строительные блоки или компоненты. Кварцевый блок не заменяет предметную форму в этой цели. Опыт от добычи пригодится для зачарований и ремонта снаряжения.",
+        "Соберите шестьдесят четыре кварца в одну стопку и дождитесь отметки, прежде чем переплавлять их в строительные блоки или детали: книга считает именно кварц, а не блоки из него. Опыт с добычи пригодится для зачарований и починки снаряжения.",
         "Ресурс нужен наблюдателям, компараторам и множеству модовых рецептов, поэтому часть партии держите в общей мастерской. Изготовление розового кварца Create или материалов цифрового хранения выполняйте уже отдельными рецептами. После первого рейса отметьте безопасные оставшиеся жилы для повторного снабжения, вместо новой разведки с каждым заказом."
       ],
       "text_en": [
         "Mine Nether Quartz from pale veins in netherrack. Choose one near a protected passage, inspect the ground beneath it, and avoid mining directly above lava. An ordinary suitable pickaxe works, while Fortune increases quartz yield.",
-        "Accumulate sixty-four quartz items together and wait for detection before turning them into blocks or components. Quartz Blocks do not substitute for the item form. Mining experience supports enchantments and equipment repairs.",
+        "Gather sixty-four quartz in one stack and wait for the tick before turning it into building blocks or parts: the book counts quartz itself, not blocks made from it. The experience from mining will go towards enchanting and repairing gear.",
         "Quartz supplies observers, comparators, and many mod recipes, so keep some in the shared workshop. Rose Quartz and digital-storage materials require their own processing steps. Mark remaining safe veins after the first trip to support repeat supply without exploring anew for every order."
       ],
       "task_notes": {}
@@ -90,12 +90,12 @@
     "dim_nether/ancient": {
       "text": [
         "Для незеритового слитка добудьте четыре древних обломка алмазной или более сильной киркой. Искать удобно в нижней части Незера, около Y 15, но это не гарантия жилы. Прокладывайте тоннели с контролем лавы и держите быстрый путь отхода.",
-        "Переплавьте четыре обломка в четыре незеритовых скрапа, затем соедините их с четырьмя золотыми слитками. Подберите готовый незеритовый слиток для зачёта. Золото и лом сами по себе не выполняют цель до последнего крафта.",
-        "Для улучшения алмазного предмета в этой версии нужен также кузнечный шаблон незеритового улучшения, встречающийся в бастионах. Один слиток не заменяет шаблон. Сначала выберите действительно нужный инструмент; для магического мифрила, например, полезна незеритовая кирка. Не расходуйте весь первый запас на случайную деталь брони."
+        "Переплавьте четыре обломка в четыре незеритовых скрапа и соедините их с четырьмя золотыми слитками. Готовый незеритовый слиток и есть цель: пока золото и скрап лежат по отдельности, засчитывать нечего.",
+        "Для улучшения алмазного предмета в этой версии нужен также кузнечный шаблон незеритового улучшения, встречающийся в бастионах. Без шаблона слиток бесполезен: улучшение требует обоих. Сначала выберите действительно нужный инструмент; для магического мифрила, например, полезна незеритовая кирка. Не расходуйте весь первый запас на случайную деталь брони."
       ],
       "text_en": [
         "Mine four Ancient Debris with a diamond or stronger pickaxe for a Netherite Ingot. The lower Nether around Y 15 is a useful search area, not a guaranteed vein. Tunnel carefully with lava control and an escape route.",
-        "Smelt the debris into four Netherite Scrap and combine them with four Gold Ingots. Collect the finished Netherite Ingot for detection; gold and scrap alone do not complete the objective.",
+        "Smelt the four debris into four Netherite Scrap and combine them with four Gold Ingots. The finished Netherite Ingot is the goal: while gold and scrap lie separately, there is nothing to count.",
         "Upgrading diamond equipment also requires a Netherite Upgrade Smithing Template found in bastions. An ingot cannot replace it. Choose a useful first upgrade; a netherite pickaxe, for example, enables magical mithril mining. Avoid spending the entire first reserve on arbitrary armour."
       ],
       "task_notes": {}
@@ -104,12 +104,12 @@
       "text": [
         "Адский нарост ищите в крепостях на участках песка душ возле лестниц. Эта культура нужна для базовых зелий и множества магических рецептов. Крепость можно исследовать раньше незерита: подготовьте защиту, огнестойкость и освещённый маршрут, не ожидая последней ступени металла.",
         "Соберите шестнадцать наростов и немного песка душ, затем перенесите посадку домой. Нарост растёт на песке душ и вне Нижнего мира, поэтому постоянный опасный рейс ради каждого зелья не нужен. Дождитесь зрелости перед сбором и оставляйте часть для новой посадки.",
-        "Бастион — другое сооружение с пиглинами и иной добычей; наличие нароста не доказывает его посещение. Цель здесь проверяет только урожай. После зачёта займитесь запасом для зелий, а разведку бастиона планируйте отдельно под золото, древние материалы и кузнечные шаблоны."
+        "Бастион — другое сооружение, с пиглинами и своей добычей; нарост растёт не там. Здесь книга смотрит только на урожай. После отметки заложите запас для зелий, а вылазку в бастион планируйте отдельно — за золотом, древними обломками и кузнечными шаблонами."
       ],
       "text_en": [
         "Find nether wart growing on Soul Sand near stairways inside Nether Fortresses. It supplies base potions and many magic recipes. Explore a fortress before obtaining Netherite if prepared with protection, Fire Resistance, and a secure route.",
         "Collect sixteen wart and some Soul Sand, then establish a home patch. Nether wart grows on Soul Sand outside the Nether, eliminating repeated dangerous trips for every potion. Harvest mature plants and retain replanting stock.",
-        "A bastion is a different structure with Piglins and different loot; owning wart does not prove visiting one. This objective checks only the harvest. Build brewing reserves after completion and plan bastion exploration separately for gold, ancient materials, and smithing templates."
+        "A bastion is a different structure, with Piglins and its own loot; wart does not grow there. Here the book looks only at the harvest. Once it is ticked, lay in a brewing reserve and plan a bastion raid separately — for gold, ancient debris and smithing templates."
       ],
       "task_notes": {}
     },
@@ -135,12 +135,12 @@
       "text": [
         "Оки Края делают из жемчуга Края и огненного порошка, полученного из стержней ифрита. Заготовьте двенадцать для цели и дополнительный запас на поиск: брошенный глаз иногда ломается. Не отправляйтесь с ровно двенадцатью, рассчитывая сохранить каждый до рамки.",
         "Используйте глаз на поверхности и следуйте направлению полёта, подбирая уцелевшие экземпляры. Проверяйте направление через разумные промежутки. Когда указатель начинает вести вниз, спускайтесь осторожно лестницей, а не вертикальной шахтой, и найдите комнату портала внутри крепости.",
-        "Обезопасьте комнату от чешуйниц и лавы, поставьте рядом сундук с запасами. Вставьте недостающие глаза в рамку только после подготовки к бою. Количество глаз в инвентаре не проверяет открытие портала, поэтому до перехода отдельно убедитесь в появлении активной поверхности."
+        "Обезопасьте комнату от чешуйниц и лавы и поставьте рядом сундук с припасами. Недостающие глаза вставляйте в рамку, когда готовы к бою, не раньше. Книга считает глаза в инвентаре, а не открытый портал, так что перед прыжком взгляните на рамку: чёрная гладь внутри должна появиться."
       ],
       "text_en": [
         "Craft Eyes of Ender from Ender Pearls and Blaze Powder made from rods. Prepare twelve for the objective plus extras for searching because thrown eyes sometimes break. Do not expect exactly twelve to survive the whole journey.",
         "Use an eye on the surface, follow its flight, and retrieve surviving eyes. Recheck direction periodically. Once they lead downward, descend using a safe staircase rather than a vertical shaft and locate the stronghold portal room.",
-        "Secure the room against Silverfish and lava and leave a supply chest. Fill the missing frame eyes only after combat preparation. Inventory detection does not verify an open portal, so confirm the active surface before entering."
+        "Secure the room against Silverfish and lava and set a supply chest nearby. Put the missing eyes into the frame only once you are ready to fight, not before. The book counts eyes in your inventory, not an open portal, so glance at the frame before jumping: the black surface inside has to be there."
       ],
       "task_notes": {}
     },
@@ -166,7 +166,7 @@
       "text": [
         "Элитры находятся в рамке внутри корабля, который иногда появляется возле города Края. Не каждый город имеет корабль, поэтому сначала осмотрите его издалека. Для пути по внешним островам возьмите блоки, запас жемчуга и средство замедленного падения.",
         "Добравшись до корабля, обезвредьте шалкера возле награды и снимите элитры с рамки. Убедитесь, что они попали в инвентарь для зачёта. Рядом есть полезная добыча, но не перегружайтесь до проверки маршрута обратно на безопасную землю.",
-        "Наденьте элитры в слот нагрудника и испытайте короткое планирование с невысокой площадки. Для ускорения подготовьте ракеты без пиротехнических звёзд, а для долгой эксплуатации — ремонт и прочность. Первую проверку полёта проводите над островом: найденные крылья ещё не заменяют опыт управления над пустотой."
+        "Наденьте элитры в слот нагрудника и испытайте короткое планирование с невысокой площадки. Для ускорения подготовьте ракеты без пиротехнических звёзд, а для долгой эксплуатации — ремонт и прочность. Первую проверку полёта проводите над островом: крылья вы нашли, а умение держаться над пустотой ещё предстоит наработать."
       ],
       "text_en": [
         "Elytra hang in an item frame inside an End Ship, which sometimes accompanies an End City. Not every city has a ship, so scout from a distance first. Bring blocks, spare pearls, and Slow Falling for outer-island travel.",
@@ -226,14 +226,14 @@
     },
     "dim_aether/holystone": {
       "text": [
-        "Начните с древесины небесного корня: сделайте доски, палки и Skyroot Pickaxe. Этой киркой добудьте священный камень и амброзиевую руду. Инструменты небесного корня могут удваивать подходящую природную добычу, поэтому первая деревянная кирка сохраняет пользу после улучшения.",
-        "Из священного камня изготовьте Holystone Pickaxe и продолжайте поиск амброзия. Каменные инструменты иногда дополнительно дают его осколки при работе. Накопите шестнадцать осколков одним запасом и покажите обе кирки книге; уже отмеченный инструмент затем можно использовать без запасного экземпляра.",
-        "Амброзий служит местным топливом, а употребление осколка восстанавливает немного здоровья. Не съедайте весь запас до производства факелов и запуска алтаря. Эта пара кирок открывает добычу занита и обеспечивает первые освещённые тоннели внутри острова, подальше от опасных наружных краёв."
+        "Первое дерево Эфира — небесный корень. Из его древесины выходят доски, палки и Skyroot Pickaxe; ею уже можно добывать священный камень и амброзиевую руду. Инструменты небесного корня умеют удваивать подходящую природную добычу, так что деревянная кирка не отправится на свалку после улучшения.",
+        "Из священного камня соберите Holystone Pickaxe и продолжайте искать амброзий. Каменные инструменты порой отсыпают его осколки просто за работу. Наберите шестнадцать осколков одной стопкой и покажите книге обе кирки; отмеченный инструмент дальше можно использовать без запасного экземпляра.",
+        "Амброзий — здешнее топливо, а съеденный осколок возвращает немного здоровья. Не проедайте весь запас раньше, чем сделаете факелы и запустите алтарь. Две кирки открывают добычу занита и первые освещённые тоннели внутри острова, подальше от обрывов на краю."
       ],
       "text_en": [
-        "Begin with Skyroot wood, making planks, sticks, and a Skyroot Pickaxe. Mine Holystone and Ambrosium Ore with it. Skyroot tools can double suitable natural drops, so the wooden pick remains useful after upgrading.",
-        "Craft a Holystone Pickaxe and continue collecting Ambrosium. Holystone tools sometimes provide additional shards while working. Accumulate sixteen shards together and let both picks register; detected tools can then be used without spare copies.",
-        "Ambrosium is local fuel, and eating a shard restores a little health. Keep enough for torches and the altar rather than consuming everything. These picks unlock Zanite mining and lit tunnels inside the island, away from dangerous exposed edges."
+        "The first tree of the Aether is the Skyroot. Its wood gives planks, sticks and a Skyroot Pickaxe, which already mines Holystone and Ambrosium Ore. Skyroot tools can double suitable natural drops, so the wooden pick will not be thrown away after you upgrade.",
+        "Craft a Holystone Pickaxe from Holystone and keep looking for Ambrosium. Stone tools sometimes throw in extra shards just for working. Gather sixteen shards in one stack and show the book both picks; a registered tool can then be used without keeping a spare.",
+        "Ambrosium is the local fuel, and an eaten shard restores a little health. Do not eat the whole reserve before you have made torches and started the altar. These two picks open Zanite mining and the first lit tunnels inside the island, well away from the edges."
       ],
       "task_notes": {}
     },
@@ -254,7 +254,7 @@
       "text": [
         "Алтарь Aether зачаровывает определённые предметы и ремонтирует подходящую броню. Для его изготовления окружите занит священным камнем, затем поставьте блок рядом со складом амброзия. Положите исходный предмет в рабочий слот, а осколки амброзия — в топливный.",
         "Морозильник устроен отдельно и использует ледяной камень Icestone как топливо. Соберите его из священного камня, ледяного камня и досок небесного корня. Проверьте простую операцию охлаждения по рецепту, не перекладывая автоматически в его топливный слот амброзий от алтаря.",
-        "Задача проверяет наличие двух устройств, но их назначение и питание различаются. Для первого опыта на алтаре удобно улучшить ягоды или священный камень, затем переходить к редкому гравититу. Храните исходное сырьё и готовые результаты отдельно, чтобы не перепутать обычные блоки с зачарованными."
+        "Книге нужны оба устройства, хотя назначение и питание у них разные. Для первого опыта на алтаре удобно улучшить ягоды или священный камень, затем переходить к редкому гравититу. Храните исходное сырьё и готовые результаты отдельно, чтобы не перепутать обычные блоки с зачарованными."
       ],
       "text_en": [
         "The Aether Altar enchants specific items and repairs suitable armour. Craft it by surrounding Zanite with Holystone and place it near Ambrosium storage. Put the input in its working slot and Ambrosium Shards in the fuel slot.",
@@ -266,7 +266,7 @@
     "dim_aether/gravitite": {
       "text": [
         "Гравитит — редкая розовая руда внутри островов Aether. Добудьте её занитовой или другой подходящей киркой, предварительно проверив пространство над жилой: открытый сверху блок руды способен всплывать. Подготовьте запас амброзия для обработки, прежде чем расходовать время на дальнюю добычу.",
-        "Положите руду в алтарь и получите зачарованный гравитит. Накопите восемь блоков в инвентаре для отметки, затем используйте эти же восемь на нагрудник. Уже зачтённая предметная цель сохраняется, поэтому второй комплект материала ради зачёта не нужен.",
+        "Положите руду в алтарь и получите зачарованный гравитит. Накопите восемь блоков в инвентаре для отметки, затем используйте эти же восемь на нагрудник. Что книга уже отметила, она не забудет, так что второй комплект материала ради зачёта не нужен.",
         "Высокий прыжок связан с полным комплектом гравититовой брони, а один нагрудник его не доказывает. Наденьте изделие и продолжайте комплект по мере добычи. Вблизи края острова сначала испытайте поведение снаряжения над безопасной площадкой, прежде чем рассчитывать на него при пересечении пропасти."
       ],
       "text_en": [
@@ -278,8 +278,8 @@
     },
     "dim_aether/moa": {
       "text": [
-        "Синий моа появляется из синего яйца, которое откладывают дикие взрослые птицы. Ищите яйцо на поверхности островов и избегайте рискованного преследования у края. Для выращивания приготовьте инкубатор, амброзиевые факелы в качестве топлива и лепестки растения Aechor.",
-        "Поместите яйцо в инкубатор и дождитесь вылупления. Кормите птенца лепестками, когда он готов есть, пока не вырастет. Aechor стреляет ядом, поэтому лепестки заготавливайте с защитой и запасом лечения, сохранив четыре одновременно для предметной цели.",
+        "Синий моа появляется из синего яйца, которое откладывают дикие взрослые птицы. Ищите яйцо на поверхности островов и избегайте рискованного преследования у края. Для выращивания приготовьте инкубатор, амброзиевые факелы на топливо и лепестки растения Aechor.",
+        "Поместите яйцо в инкубатор и дождитесь вылупления. Кормите птенца лепестками, когда он готов есть, пока не вырастет. Aechor стреляет ядом, поэтому лепестки заготавливайте с защитой и запасом лечения, и держите четыре штуки вместе, чтобы книга их засчитала.",
         "Взрослого приручённого моа оседлайте и испытайте на широком острове. Синий получает три воздушных прыжка, белый четыре, чёрный восемь; это ограниченная серия, а не бесконечный полёт. Перед перелётом оцените расстояние и место посадки, оставляя резерв прыжков для коррекции маршрута."
       ],
       "text_en": [
@@ -291,9 +291,9 @@
     },
     "dim_aether/bronze_dungeon": {
       "text": [
-        "Бронзовое подземелье узнаётся по резному камню и залу каменного Слайдера. Возьмите прочную кирку, броню и лечение; обычный меч для этого босса не заменяет инструмент добычи. В коридорах остерегайтесь мимиков: похожий на сундук объект может оказаться врагом.",
+        "Бронзовое подземелье узнаётся по резному камню и залу каменного Слайдера. Возьмите прочную кирку, броню и лечение: этого босса берут не мечом, а инструментом добычи. В коридорах остерегайтесь мимиков: похожий на сундук объект может оказаться врагом.",
         "Начните бой ударом подходящей кирки. Слайдер резко перемещается по прямым, поэтому уходите в сторону от линии разгона и отвечайте ударами между рывками. После победы подберите бронзовый ключ, дождитесь отметки и откройте соответствующее сокровище.",
-        "Медаль победы из второй цели получают отдельно за поединок с младшей валькирией в серебряном подземелье. Бронзовый сундук её не заменяет. Первую медаль сохраните для знакомства со следующим испытанием; Королеве потребуется уже десять, поэтому эта карточка связывает подготовку двух разных подземелий."
+        "Медаль победы из второй цели получают отдельно за поединок с младшей валькирией в серебряном подземелье. В бронзовом сундуке медалей нет — их дают только поединки. Первую медаль сохраните для знакомства со следующим испытанием; Королеве потребуется уже десять, поэтому эта карточка связывает подготовку двух разных подземелий."
       ],
       "text_en": [
         "Recognise a Bronze Dungeon by its Carved Stone and the stone Slider’s chamber. Bring a durable pickaxe, armour, and healing; an ordinary sword cannot replace a mining tool against this boss. Beware of chest mimics in the corridors.",
@@ -306,7 +306,7 @@
       "text": [
         "Серебряное подземелье — храм валькирий из ангельского камня. Для вызова Королевы победите младших валькирий и соберите десять медалей. Подготовьте броню, лечение и оружие с удобной дистанцией; медаль из предыдущей задачи входит в этот запас после зачёта.",
         "Поговорите с Королевой и предъявите требуемые медали, чтобы начать поединок. Держите дистанцию, отслеживайте перемещения и не стойте в месте очередной атаки. После победы заберите серебряный ключ и используйте его для наградного сундука.",
-        "Шлем валькирии находится среди серебряных наград, а копьё валькирии — в бронзовых сокровищах. Ни то ни другое не гарантировано каждым сундуком; недостающую вещь ищите в новом подземелье соответствующего типа. Само наличие копья не вызывает Королеву автоматически и не отменяет десять медалей."
+        "Шлем валькирии находится среди серебряных наград, а копьё валькирии — в бронзовых сокровищах. Ни то ни другое не гарантировано каждым сундуком; недостающую вещь ищите в новом подземелье соответствующего типа. Копьё само по себе Королеву не вызовет и десяти медалей не отменит."
       ],
       "text_en": [
         "A Silver Dungeon is an Angelic Stone Valkyrie temple. Defeat lesser Valkyries and collect ten medals to challenge the Queen. Prepare armour, healing, and a weapon with comfortable reach; the medal detected in the previous quest can join this reserve.",
@@ -318,26 +318,26 @@
     "dim_aether/gold_dungeon": {
       "text": [
         "Золотое подземелье скрывает Солнечного духа в зале из адского камня. Подготовьте лечение, защиту от огня и удобное оружие. Взаимодействуйте с духом, последовательно проходя его предупреждения: разговор приводит к вызову, поэтому не начинайте его во время неподготовленного осмотра.",
-        "Во время боя отражайте выпущенный духом ледяной кристалл обратно ударом. Попавший кристалл замораживает босса примерно на девять секунд, открывая окно для обычных атак. Уклоняйтесь от огненных снарядов и появляющихся прислужников; обычные снежки не заменяют эту механику.",
-        "После победы подберите золотой ключ и откройте сокровищницу. Молот Кингбдогза из дополнительной цели находится в бронзовых наградах, поэтому его не следует ожидать от Солнечного духа. Завершите недостающую бронзовую вылазку отдельно и сохраните ключевую добычу до её отметки в книге."
+        "Во время боя отражайте выпущенный духом ледяной кристалл обратно ударом. Попавший кристалл замораживает босса примерно на девять секунд, открывая окно для обычных атак. Уклоняйтесь от огненных снарядов и появляющихся прислужников; обычные снежки здесь не помогут — работает только отражённый кристалл.",
+        "После победы подберите золотой ключ и откройте сокровищницу. Молот Кингбдогза из дополнительной цели лежит среди бронзовых наград, а не у Солнечного духа. Завершите недостающую бронзовую вылазку отдельно и не расходуйте ключевую добычу, пока книга её не отметила."
       ],
       "text_en": [
         "A Gold Dungeon houses the Sun Spirit in a Hellfire Stone chamber. Prepare healing, fire protection, and a reliable weapon. Interact through his warnings to issue the challenge; do not begin that conversation during an unprepared inspection.",
         "Reflect one of his Ice Crystals back by striking it. A hit freezes the boss for roughly nine seconds, creating an opening for normal attacks. Avoid fire projectiles and spawned minions; ordinary snowballs do not replace this mechanic.",
-        "After victory, collect the Gold Key and open the treasury. The additional Hammer of Kingbdogz objective belongs to bronze rewards, so do not expect it from the Sun Spirit. Complete any missing bronze expedition separately and let important loot register before spending it."
+        "After the victory pick up the Gold Key and open the treasury. The Hammer of Kingbdogz from the extra objective lies among the bronze rewards, not with the Sun Spirit. Finish any missing bronze expedition separately and do not spend key loot until the book has ticked it."
       ],
       "task_notes": {}
     },
     "dim_aether/accessories": {
       "text": [
-        "Аксессуары Aether надеваются в собственные подходящие слоты и дают разные эффекты. Золотое кольцо можно изготовить из четырёх золотых слитков. Ледяная подвеска встречается в добыче подземелий, а золотое перо ищите среди серебряных наград; простой крафт не заменяет все три находки.",
+        "Аксессуары Эфира надеваются в свои слоты и работают каждый по-своему. Золотое кольцо собирается из четырёх золотых слитков. Ледяная подвеска попадается в добыче подземелий, а золотое перо ищите среди серебряных наград — верстак закроет только одну из трёх находок.",
         "Покажите каждый предмет книге, затем наденьте и испытайте отдельно. Подвеска замораживает воду и лаву под ногами, перо замедляет падение. Перед настоящим обрывом проверьте перо с небольшой высоты над безопасной землёй, убедившись, что выбран правильный рабочий слот.",
-        "Эффекты не следует переносить на все кольца и подвески по внешнему сходству. Эти три предмета можно получать постепенно, сохраняя уже отмеченные результаты. Дополните ими защиту и транспорт, но продолжайте строить ограждения у портала и мостов: аксессуар не исправляет потерянную дорогу домой."
+        "Похожее кольцо или подвеска другого вида действуют иначе — не переносите эффекты по внешнему сходству. Три предмета можно собирать постепенно, отмеченное не пропадёт. Они дополнят защиту и передвижение, но ограждения у портала и мостов стройте по-прежнему: аксессуар не найдёт дорогу домой вместо вас."
       ],
       "text_en": [
-        "Aether accessories use their corresponding equipment slots and provide different effects. Craft a Golden Ring from four Gold Ingots. Ice Pendants occur in dungeon loot, while Golden Feathers belong to silver rewards; one crafting recipe cannot replace all three acquisitions.",
+        "Aether accessories go into their own slots and each works differently. A Golden Ring is crafted from four Gold Ingots. An Ice Pendant turns up in dungeon loot, while a Golden Feather comes from silver rewards — the crafting table covers only one of the three.",
         "Let each item register, then equip and test it separately. The pendant freezes water and lava beneath you, and the feather slows falling. Test the feather from a low height over safe ground before trusting it near a cliff, checking the functional slot.",
-        "Do not generalise these effects to every similar ring or pendant. Obtain the three items gradually, retaining earlier detection. They complement protection and transport, while portal fences and secure bridges remain valuable; accessories cannot recover a lost homeward route."
+        "A similar ring or another pendant behaves differently — do not assume effects by looks. Collect the three items gradually; what is ticked stays ticked. They add to protection and mobility, but keep building fences at the portal and bridges: an accessory will not find the way home for you."
       ],
       "task_notes": {}
     },
@@ -345,7 +345,7 @@
       "text": [
         "Книга преданий содержит описания предметов и блоков Aether. Сделайте её из обычной книги и подходящего местного материала по рецепту. Она особенно полезна после первых подземелий, когда появляются незнакомые украшения, инструменты и предметы с необычными способностями.",
         "Откройте книгу и поместите интересующий предмет в предусмотренное место для изучения. Начните с алтаря, инкубатора и найденного аксессуара: так можно сравнить их топливо, назначение и требования к использованию без расходования редкой добычи на случайные опыты.",
-        "Получение книги закрывает предметную цель, но прочитайте хотя бы одну действительно полезную запись перед продолжением пути. Подсказки различают полный комплект брони и отдельную деталь, а также бронзовые и серебряные награды. Храните книгу возле портального склада, чтобы сверяться с ней после каждой экспедиции."
+        "Книга отметит том, как только он окажется у вас, но прочитайте хотя бы одну по-настоящему полезную запись, прежде чем идти дальше. Подсказки различают полный комплект брони и отдельную деталь, а также бронзовые и серебряные награды. Храните книгу возле портального склада, чтобы сверяться с ней после каждой экспедиции."
       ],
       "text_en": [
         "The Book of Lore describes Aether items and blocks. Craft it from a normal book and a suitable local material. It is especially helpful after early dungeons introduce unfamiliar accessories, tools, and unusual abilities.",
@@ -388,12 +388,12 @@
     "dim_twilight/naga": {
       "text": [
         "Нагу ищите в открытом каменном дворе с колоннами, отмеченном на магической карте. До входа подготовьте щит, оружие, еду и свободное место для движения. Осмотрите ограду и не рассчитывайте на колонны как на постоянное укрытие: босс разрушает часть арены.",
-        "Следите за головой и направлением рывка, уходите в сторону и атакуйте после прохода. Не забивайтесь в угол между стеной и телом. Когда Нага меняет направление или ненадолго останавливается, используйте окно для удара и восстановления положения.",
+        "Взгляд держите на голове и на направлении рывка: уходите вбок и бейте, когда туша проносится мимо. Не дайте зажать себя между стеной и телом. Когда Нага разворачивается или замирает на миг, это окно для удара и для того, чтобы вернуть себе удобную позицию.",
         "После победы подберите трофей и не менее четырёх чешуек одним запасом. Проверьте достижение прогрессии Наги: оно снимает защиту башни Лича. Чешую можно потратить на снаряжение после отметки, а трофей сохраните — позднее он пригодится на пьедестале входа в подземную крепость."
       ],
       "text_en": [
         "Find the Naga in an open stone courtyard with pillars, marked on the Magic Map. Prepare a shield, weapon, food, and movement space. Inspect the enclosure and do not rely on pillars as permanent cover because the boss destroys parts of the arena.",
-        "Watch the head and charge direction, sidestep, and attack after a pass. Avoid being trapped between the wall and body. Use turns and pauses to strike and regain position.",
+        "Keep your eyes on the head and the direction of the charge: step aside and strike as the body rushes past. Do not let yourself be pinned between the wall and the coils. When the Naga turns or freezes for a moment, that is the window to hit and to regain a good position.",
         "Collect the trophy and at least four scales together after victory. Check Naga progression, which removes Lich Tower protection. Spend scales on gear after detection, but save the trophy for the later stronghold entrance pedestal."
       ],
       "task_notes": {}
@@ -427,24 +427,24 @@
     "dim_twilight/hydra": {
       "text": [
         "К Гидре отправляйтесь в огненное болото после того, как съедите Meef Stroganoff и получите соответствующее достижение. Подготовьте огнестойкость, сильное оружие, лечение и устойчивую площадку для движения. Если жар региона всё ещё действует, вернитесь к условию блюда, а не тратьте зелья на обход защиты.",
-        "Следите за несколькими головами: уязвимое окно появляется, когда пасть открывается для атаки. Бейте открытую пасть, отражайте подходящие взрывные снаряды и не стойте под огненным дыханием. Уничтожение головы не равно завершению боя: продолжайте следить за общей жизнью босса.",
-        "Соберите трофей и четыре огненной крови одним запасом, затем используйте материалы для огненного меча. После зачёта кровь можно расходовать. Победа — одна из трёх необходимых веток высокогорья; две остальные ведут через Ур-Гаста и Снежную королеву."
+        "Голов несколько, и уязвимое окно появляется, когда пасть раскрывается для атаки. Бейте в открытую пасть, отбивайте подходящие взрывные снаряды и не стойте под огненным дыханием. Снесённая голова боя не заканчивает — следите за общей полоской здоровья.",
+        "Соберите трофей и четыре огненной крови одной стопкой, а затем пустите материалы на огненный меч; после отметки кровь можно тратить. Эта победа закрывает одну из трёх веток перед высокогорьем — две другие ведут через Ур-Гаста и Снежную королеву."
       ],
       "text_en": [
         "Enter the Fire Swamp after eating Meef Stroganoff and earning its progression advancement. Prepare Fire Resistance, strong weapons, healing, and movement space. If regional heat remains, revisit the meal requirement instead of spending potions to bypass protection.",
-        "Watch the heads and attack when a mouth opens. Strike exposed mouths, reflect suitable explosive projectiles, and avoid fire breath. Destroying a head is not victory; continue tracking the boss’s overall health.",
-        "Collect the trophy and four Fiery Blood together, then use the materials for a Fiery Sword after detection. Hydra victory completes one of the three branches needed for the Highlands; the others lead through the Ur-Ghast and Snow Queen."
+        "There are several heads, and the opening comes when a mouth gapes to attack. Strike the open mouth, knock back suitable explosive projectiles and stay out of the fire breath. A severed head does not end the fight — watch the overall health bar.",
+        "Collect the trophy and four Fiery Blood in one stack, then put the materials into a Fiery Sword; once ticked, the blood can be spent. This victory closes one of the three branches before the Highlands — the other two run through the Ur-Ghast and the Snow Queen."
       ],
       "task_notes": {}
     },
     "dim_twilight/knight_phantom": {
       "text": [
-        "Призрачные рыцари обитают в подземной крепости тёмного леса. После Лича найдите вход и поставьте добытый боссовый трофей на штатный пьедестал, снимая защитный барьер. Карточка пьедестала нарисована дальше по книге, но само действие необходимо уже здесь.",
+        "Призрачные рыцари обитают в подземной крепости тёмного леса. После Лича найдите вход и поставьте добытый боссовый трофей на штатный пьедестал — так снимается барьер. Карточка пьедестала нарисована дальше по книге, но сделать это придётся уже здесь.",
         "Исследуйте коридоры с отметками возврата, собирая доспешные осколки с местных врагов. В зале рыцарей сражайтесь со всей группой призраков, следите за летящим оружием и меняющимися построениями. Победа над одним участником не завершает групповое испытание.",
         "Заберите трофей после окончательной победы. Найтметалл получается переработкой осколков из крепости; накопите четыре слитка для цели. Подтверждённая прогрессия рыцарей открывает нормальную работу устройств Тёмной башни, поэтому до дальнейшего подъёма проверьте и добычу, и личное достижение."
       ],
       "text_en": [
-        "The Knight Phantoms inhabit a stronghold beneath the Dark Forest. After the Lich, locate its entrance and place a boss trophy on the existing pedestal to remove the barrier. The guide’s pedestal card appears later, but this action is already required here.",
+        "The Knight Phantoms live in the stronghold beneath the Dark Forest. After the Lich, find the entrance and set a boss trophy you have won on the built-in pedestal — that is what lifts the barrier. The pedestal card appears later in the book, but the deed has to be done here.",
         "Mark your route through the corridors and collect armour shards from local enemies. Fight the entire phantom group in its chamber, watching thrown weapons and changing formations. Defeating one member does not complete the group encounter.",
         "Collect the trophy after final victory. Process stronghold shards into Knightmetal and accumulate four ingots. Knight progression enables the Dark Tower’s devices, so check both loot and your personal advancement before the next climb."
       ],
@@ -467,12 +467,12 @@
       "text": [
         "Снежная ветка начинается с Альфа-йети в снежном лесу и его пещере. После Лича подготовьте защиту, оружие и лечение, избегайте падающих ледяных глыб во время боя. Соберите мех: прогрессия Альфа-йети снимает холодную защиту ледника перед походом к Королеве.",
         "Снежная королева находится наверху дворца полярного сияния. Поднимайтесь осторожно, сохраняя обратный маршрут, затем атакуйте босса в моменты доступности и уходите из-под её атак и ледяных лучей. Защитные ледяные элементы не равнозначны уязвимой части существа.",
-        "Для карточки нужны четыре меха Альфа-йети, трофей Королевы и арктический нагрудник. Арктический комплект делается из арктического меха и не является бронёй из меха Альфа-йети. После выполнения этой ветки вместе с Гидрой и Ур-Гастом проверьте открытие высокогорья."
+        "Для карточки нужны четыре меха Альфа-йети, трофей Королевы и арктический нагрудник. Арктический комплект шьётся из арктического меха; мех Альфа-йети для него не годится. Когда эта ветка сойдётся с Гидрой и Ур-Гастом, проверьте, открылось ли высокогорье."
       ],
       "text_en": [
         "The snowy branch begins with the Alpha Yeti in its Snowy Forest cave. After the Lich, prepare protection, weapons, and healing, and avoid falling ice during combat. Collect fur; Alpha Yeti progression removes the Glacier’s protective cold.",
         "The Snow Queen waits atop the Aurora Palace. Climb carefully with a return route, then strike during openings and avoid her attacks and icy beams. Protective ice elements are not the same as the vulnerable creature.",
-        "This card needs four Alpha Yeti Fur, the Queen’s trophy, and an Arctic Chestplate. Arctic armour uses Arctic Fur, not Alpha Yeti Fur. Once this branch, Hydra, and Ur-Ghast are complete, check that the Highlands have opened."
+        "The card needs four Alpha Yeti Fur, the Queen’s trophy and an Arctic Chestplate. The arctic set is made from Arctic Fur; Alpha Yeti Fur will not do. When this branch meets the Hydra and the Ur-Ghast, check whether the Highlands have opened."
       ],
       "task_notes": {}
     },
@@ -480,12 +480,12 @@
       "text": [
         "Высокогорье открывается после завершения трёх веток: Гидры, Ур-Гаста и Снежной королевы. Если кислотный дождь сохраняется, проверьте соответствующие личные достижения. Под облачными островами найдите пещеры троллей, плодородную Uberous Soil и волшебные бобы в местной добыче.",
         "Покажите почву и бобы книге, затем посадите бобы на плодородную землю под облаками. Вырастет высокий стебель. Перед подъёмом подготовьте защиту от падения и отметьте удобную точку спуска; узкая лестница не должна стать единственным планом возвращения.",
-        "Наверху победите великана с киркой и заберите Giant Pickaxe. Её широкий захват добывает большие группы блоков, поэтому испытайте инструмент вдали от базы. Кирка нужна для гигантского обсидиана в тролльих хранилищах: облачный поход является подготовкой к Светочу углей, а не завершением всей линии."
+        "Наверху победите великана с киркой и заберите Giant Pickaxe. Она выбирает блоки широким захватом, так что первые пробы делайте подальше от базы. Кирка нужна ради гигантского обсидиана в тролльих хранилищах: облачный поход готовит вас к Светочу углей, а не завершает линию."
       ],
       "text_en": [
         "The Highlands open after Hydra, Ur-Ghast, and Snow Queen progression. If acid rain remains, inspect those personal advancements. Beneath the cloud islands, search troll caves for Uberous Soil and Magic Beans in local loot.",
         "Let the soil and beans register, then plant beans on Uberous Soil below the clouds to grow a tall stalk. Prepare fall protection and a descent point before climbing; the narrow stalk should not be your only return plan.",
-        "Defeat a pickaxe-wielding Giant above and collect the Giant Pickaxe. Its broad excavation affects large groups of blocks, so test away from home. It mines Giant Obsidian in troll vaults, making the cloud expedition preparation for the Lamp of Cinders."
+        "Up top, defeat the pickaxe-wielding Giant and take the Giant Pickaxe. It digs in wide sweeps, so try it well away from your base. You need it for Giant Obsidian in the troll vaults: the cloud expedition prepares you for the Lamp of Cinders rather than ending the line."
       ],
       "task_notes": {}
     },
@@ -505,13 +505,13 @@
     "dim_twilight/uncrafting": {
       "text": [
         "Стол разбора встречается среди сокровищ леса, включая некоторые полые холмы и кладбища. Получите его и поставьте в мастерской отдельно от обычного верстака. В установленной конфигурации разбор включён, но отдельные рецепты и ингредиенты имеют ограничения.",
-        "Для первого опыта выберите простой недорогой предмет и посмотрите предложенные возвращаемые компоненты и стоимость опыта. Изношенное снаряжение может вернуть не полный набор. Не помещайте единственную важную реликвию ради проверки неизвестного результата: сначала изучите отображаемую операцию.",
-        "Задача проверяет наличие стола, а не удачный возврат всех ресурсов. Завершите один понятный разбор и сравните полученные предметы с ожиданием. Устройство полезно для переработки лишней добычи, но не является универсальным способом восстановить редкие компоненты из любого модового предмета или обойти всякий этап производства."
+        "Первый опыт ставьте на чём-нибудь дешёвом и простом: посмотрите, какие детали стол предлагает вернуть и сколько опыта просит. Изношенное снаряжение возвращает неполный набор. Единственную ценную реликвию на стол не кладите, пока не изучили, что он показывает.",
+        "Книга проверяет, что стол у вас есть, а не удачу разбора. Проведите одну понятную операцию и сравните результат с ожиданием. Стол хорош для переработки лишней добычи, но не вернёт редкие детали из любого модового предмета и не перескочит через этап производства."
       ],
       "text_en": [
         "The Uncrafting Table appears in forest treasures, including some hollow hills and graveyards. Obtain it and place it separately from the ordinary crafting table. Uncrafting is enabled in the installed configuration, with restrictions on certain recipes and ingredients.",
-        "Choose a cheap, simple item for the first test and inspect returned components and experience cost. Worn equipment may not return a full set. Avoid experimenting with your only important relic before understanding the preview.",
-        "The objective checks table ownership, not recovery of every resource. Complete one clear uncrafting operation and compare the result with expectations. It helps recycle surplus loot but cannot universally recover rare components from every modded item or bypass every production step."
+        "Run the first test on something cheap and simple: see which parts the table offers back and how much experience it asks for. Worn gear returns an incomplete set. Do not put your only precious relic on the table before you have studied what it shows.",
+        "The book checks that you own the table, not the luck of a disassembly. Do one clear operation and compare the result with what you expected. The table is good for recycling surplus loot, but it will not recover rare parts from every modded item or skip a production step."
       ],
       "task_notes": {}
     },
@@ -530,12 +530,12 @@
     },
     "dim_twilight/trophy": {
       "text": [
-        "Пьедестал трофеев у входа в крепость тёмного леса — механизм снятия барьера. После прогрессии Лича поставьте на него подходящий боссовый трофей, например Наги, и проверьте открытие входа. Это действие выполняется до призрачных рыцарей, даже если данная коллекционная карточка появилась позже.",
-        "После открытия исследуйте крепость, а сам предмет пьедестала получайте тогда, когда сооружение допускает добычу блока. Для текущей цели он должен хотя бы раз попасть в инвентарь. Простой трофей на полке не заменяет специальный пьедестал и его активацию.",
+        "Пьедестал трофеев у входа в крепость тёмного леса — механизм, снимающий барьер. После прогрессии Лича поставьте на него подходящий боссовый трофей, например Наги, и убедитесь, что вход открылся. Делается это до призрачных рыцарей, пусть сама коллекционная карточка и появляется в книге позже.",
+        "После открытия исследуйте крепость, а сам предмет пьедестала получайте тогда, когда сооружение допускает добычу блока. Для текущей цели он должен хотя бы раз попасть в инвентарь. Трофей на полке — украшение; барьер снимает только пьедестал с трофеем на нём.",
         "Дома пьедестал удобно сохранить в зале трофеев, подписав связанный этап маршрута. Не обещайте себе общий постоянный боевой бонус только за такую декорацию: подтверждённая важная механика здесь — снятие защиты крепости. Эта карточка сохраняет памятный блок после уже выполненной работы с региональной прогрессией."
       ],
       "text_en": [
-        "The Trophy Pedestal at the Dark Forest stronghold entrance removes its barrier. After Lich progression, place an accepted boss trophy, such as the Naga’s, on it and confirm the entrance opens. This precedes the Knight Phantoms even if this collection card appears later.",
+        "The Trophy Pedestal at the entrance to the Dark Forest stronghold is the mechanism that lifts the barrier. After Lich progression, place an accepted boss trophy on it — the Naga’s, for instance — and make sure the entrance has opened. This comes before the Knight Phantoms, even though the collection card itself appears later in the book.",
         "Explore the opened stronghold and collect the pedestal block once the structure allows it. The current objective needs the item to enter your inventory at least once. An ordinary trophy on a shelf cannot replace the special pedestal and its activation.",
         "Keep the pedestal in a labelled trophy hall at home. Do not assume decoration grants a permanent general combat bonus; its important confirmed role is removing stronghold protection. This card preserves the landmark block after its regional-progression job has been completed."
       ],
@@ -556,20 +556,20 @@
     },
     "dim_nether/guide_wart_patch": {
       "text": [
-        "Песок душ позволяет перенести выращивание адского нароста домой. Соберите восемь блоков и оставьте несколько зрелых наростов из крепости для посадки. Выделите небольшой участок, который не будет вытоптан во время работы с соседними механизмами.",
-        "Посадите нарост на песок душ и дождитесь последней стадии роста, затем соберите и снова засадите поле. Вода для такой грядки не требуется. Храните посадочную часть отдельно от ингредиентов зелий, чтобы случайный массовый крафт не уничтожил источник снабжения.",
-        "После двух урожаев сравните запас: он должен покрывать новую посадку и давать избыток. Предметная цель не следит за ростом автоматически. Действующая грядка избавляет от повторных опасных походов ради каждой партии зелий и поддерживает дальнейшее производство огнестойкости для самого Незера."
+        "Песок душ переносит грядку адского нароста домой. Наберите восемь блоков и приберегите несколько зрелых наростов из крепости на посадку. Отведите под них небольшой участок, который не затопчут по дороге к соседним механизмам.",
+        "Посадите нарост на песок душ, дождитесь последней стадии, соберите и засейте поле заново. Вода такой грядке не нужна. Посадочный запас держите отдельно от ингредиентов для зелий, чтобы большая партия варева случайно не съела источник.",
+        "После двух урожаев сравните запас: он должен покрывать новую посадку и давать избыток. За ростом книга не следит — это ваша забота. Действующая грядка избавляет от повторных опасных походов ради каждой партии зелий и поддерживает дальнейшее производство огнестойкости для самого Незера."
       ],
       "text_en": [
-        "Soul Sand lets you grow nether wart at home. Collect eight blocks and reserve wart from the fortress for planting. Set aside a small patch that nearby workshop traffic will not disturb.",
-        "Plant wart on Soul Sand, wait for its final growth stage, harvest, and replant. Water is unnecessary. Keep planting reserves separate from brewing ingredients so a large crafting batch cannot consume your supply source.",
+        "Soul Sand brings a nether wart patch home. Gather eight blocks and set aside a few mature wart from the fortress for planting. Give them a small plot that will not be trampled on the way to nearby machines.",
+        "Plant the wart on Soul Sand, wait for the final stage, harvest and sow again. Such a patch needs no water. Keep the planting stock apart from brewing ingredients so a big batch of potions does not accidentally eat the source.",
         "Compare stock after two harvests: it should cover replanting and leave a surplus. The item objective does not automatically monitor growth. A working patch eliminates dangerous trips for every potion batch and supports further Fire Resistance brewing for Nether travel."
       ],
       "task_notes": {}
     },
     "dim_end/guide_breath_reserve": {
       "text": [
-        "Дыхание дракона удобнее заготовить во время первого боя, чем потом повторно призывать босса ради одной бутылки. Сделайте восемь пустых бутылочек и положите часть на панель быстрого доступа. Оставьте место для заполненных результатов, не заменяя ими лечение.",
+        "Дыхание дракона удобнее заготовить во время первого боя, чем потом повторно призывать босса ради одной бутылки. Сделайте восемь пустых бутылочек и положите часть на панель быстрого доступа. Оставьте место для готовых результатов, но лечение держите отдельно.",
         "В Крае дождитесь фиолетового облака на земле. Подойдите к его краю, примените бутылку и сразу смените положение, избегая длительного контакта с облаком. Повторяйте только при безопасном подходе; сбор сырья не должен мешать контролю кристаллов и дракона.",
         "После наполнения спрячьте запас в отдельное хранилище по возвращении. Пустые бутылки выполняют лишь подготовительную цель, а результат проверяется основной карточкой дыхания. Дополнительная партия пригодится оседающим зельям и кристаллу Эдема, где используется отдельный предмет дыхания дракона."
       ],
@@ -597,7 +597,7 @@
       "text": [
         "Холодные аэроблака встречаются среди небесных островов Aether и дают материал для простого парашюта. Собирайте их с устойчивой площадки, не разрушая последнюю опору под собой. Сделайте Cold Parachute и держите его в доступной ячейке перед строительством мостов.",
         "Испытайте использование при небольшом падении над широкой безопасной площадкой. Убедитесь, что замедление действительно включилось, и запомните способ применения. Холодный парашют одноразовый, поэтому после опыта изготовьте новый для настоящей дальней дороги.",
-        "Наличие предмета отмечает подготовку, но не умение вовремя открыть его. Дополните мосты ограждением и не рассчитывайте, что парашют вернёт вас на остров против любого толчка. Позднее серебряные награды дадут другие варианты замедленного падения, а первый расходуемый инструмент закрывает опасный ранний промежуток."
+        "Парашют в сумке — это подготовка; умение вовремя его раскрыть приходит только с пробой. Дополните мосты ограждением и не рассчитывайте, что парашют вернёт вас на остров против любого толчка. Позднее серебряные награды дадут другие варианты замедленного падения, а первый расходуемый инструмент закрывает опасный ранний промежуток."
       ],
       "text_en": [
         "Cold Aerclouds around Aether islands provide material for a basic parachute. Collect them from a stable platform without removing your final foothold. Craft a Cold Parachute and keep it accessible before bridge building.",
@@ -609,8 +609,8 @@
     "dim_aether/guide_altar_healing": {
       "text": [
         "Лечебный камень получается зачарованием священного камня на алтаре Aether. Подготовьте Holystone и запас амброзиевых осколков, положите их в соответствующие слоты и дождитесь обработки. Это полезная первая операция перед расходованием редкого гравитита.",
-        "Заберите Healing Stone и сохраните для восстановления во время подземелья. Он даёт регенерацию после употребления, поэтому применяйте заранее в безопасном промежутке, не ожидая мгновенного спасения от следующего сильного удара. Держите еду отдельно: восстановление здоровья не заменяет пополнение голода.",
-        "После опыта восполните топливо алтаря и подготовьте небольшой дорожный запас. Предметная цель отмечает один готовый камень, а исправность производства подтверждается повторением операции. Этот рецепт связывает распространённый местный ресурс с боевой подготовкой и снижает зависимость от случайной лечебной добычи."
+        "Заберите Healing Stone и сохраните для восстановления во время подземелья. Он даёт регенерацию после употребления, поэтому применяйте заранее в безопасном промежутке, не ожидая мгновенного спасения от следующего сильного удара. Еду держите отдельно: камень лечит раны, а голод утоляет только еда.",
+        "После опыта восполните топливо алтаря и подготовьте небольшой дорожный запас. Книга отметит первый готовый камень; что производство исправно, покажет второй. Этот рецепт связывает распространённый местный ресурс с боевой подготовкой и снижает зависимость от случайной лечебной добычи."
       ],
       "text_en": [
         "Enchant Holystone in the Aether Altar to obtain a Healing Stone. Prepare Holystone and Ambrosium Shards, place them in the appropriate slots, and wait for processing. This is a useful first operation before spending rare Gravitite.",
@@ -622,19 +622,19 @@
     "dim_aether/guide_medal_purse": {
       "text": [
         "Медали победы получают в поединках с младшими валькириями серебряного подземелья. До вызова Королевы соберите десять в одной стопке. Подготовьте броню и лечение, осмотрите пространство между колоннами и начинайте отдельные поединки, не теряя контроля над окружением.",
-        "После каждой победы подбирайте медаль и проверяйте прочность оружия. Копьё из бронзовых сокровищ помогает дистанцией, но не заменяет сам сбор медалей. Сохраняйте понятный путь к безопасному месту, где можно восстановиться между боями.",
-        "Дождитесь предметной отметки десяти медалей, затем предъявляйте этот же запас Королеве. Книга запоминает увиденное количество, поэтому дополнительная стопка для зачёта не нужна. Подготовленная партия делает условия вызова прозрачными и предотвращает бесцельный разговор с боссом без необходимого доказательства побед."
+        "После каждой победы подбирайте медаль и проверяйте прочность оружия. Копьё из бронзовых сокровищ даёт дистанцию, но медали всё равно придётся собирать. Сохраняйте понятный путь к безопасному месту, где можно восстановиться между боями.",
+        "Дождитесь отметки десяти медалей и с этой же стопкой идите к Королеве. Книга помнит увиденное количество, вторая стопка ради зачёта не нужна. С готовой партией условия вызова ясны, и вы не будете стучаться к боссу без доказательства побед."
       ],
       "text_en": [
         "Victory Medals come from duels with lesser Valkyries in Silver Dungeons. Collect ten together before challenging the Queen. Prepare armour and healing, inspect the space between pillars, and fight manageable individual duels.",
         "Collect each medal and check weapon durability afterwards. A lance from bronze treasure helps with reach but does not replace collecting medals. Preserve a route to somewhere safe for recovery between fights.",
-        "Let ten medals register, then present that same stock to the Queen. The guide remembers the detected quantity, so a duplicate stack is unnecessary. A prepared batch makes summoning conditions clear and avoids repeatedly approaching the boss without the required proof."
+        "Wait for the ten medals to be ticked and take that same stack to the Queen. The book remembers the quantity it has seen; a second stack for the count is unnecessary. With the batch ready, the terms of the challenge are clear, and you will not knock on the boss’s door without proof of your victories."
       ],
       "task_notes": {}
     },
     "dim_twilight/guide_route_map": {
       "text": [
-        "Магическая карта собирается из фокуса и восьми листов бумаги. Сделайте её после зачёта самого фокуса, откройте в Сумеречном лесу и определите положение портала относительно ближайших крупных сооружений. Сохраните координаты отдельно: значок карты не заменяет точное место входа.",
+        "Магическая карта собирается из фокуса и восьми листов бумаги. Сделайте её после зачёта самого фокуса, откройте в Сумеречном лесу и определите положение портала относительно ближайших крупных сооружений. Координаты запишите отдельно: значок на карте показывает область, а не точку входа.",
         "Сначала ищите двор Наги, затем башню Лича. После Лича нанесите три дальнейших направления: болотный лабиринт, крепость тёмного леса и пещеру Альфа-йети. Их можно исследовать отдельными подготовленными вылазками, постепенно собирая условия высокогорья.",
         "Проверяйте реальную доступность региона по достижениям и характеру защиты. Карта показывает цель, но не отключает её проклятие. После каждого босса возвращайтесь к плану, отмечая открытый путь и запас припасов; такой маршрут полезнее попытки пересечь весь мир одной перегруженной экспедицией."
       ],
@@ -647,12 +647,12 @@
     },
     "dim_twilight/guide_fire_swamp_meal": {
       "text": [
-        "После Миношрума сохраните Meef Stroganoff для снятия защиты огненного болота. Сначала дождитесь предметной отметки блюда, затем съешьте его при доступной возможности питания. Хранение в сундуке, перенос в руках и наличие трофея босса не заменяют потребление.",
+        "После Миношрума приберегите Meef Stroganoff: именно это блюдо снимает защиту огненного болота. Дождитесь, пока книга отметит блюдо, и съешьте его, когда шкала сытости позволит. Лежащее в сундуке, зажатое в руке или заменённое трофеем босса — не считается: болото ждёт съеденного.",
         "Откройте достижения Сумеречного леса и проверьте завершение прогрессии лабиринта. Только после этого направляйтесь к Гидре. Подготовьте обычную боевую огнестойкость и лечение: снятая региональная защита не делает огненные атаки босса безопасными.",
         "Если при подходе всё ещё действует особый жар области, перепроверьте личную прогрессию Лича и действие с блюдом. Не пытайтесь решить сюжетный запрет дополнительной бронёй. Эта небольшая подготовка сохраняет дорогие зелья и объясняет, почему победа над Миношрумом сама по себе иногда ещё не открывает путь."
       ],
       "text_en": [
-        "After Minoshroom, reserve Meef Stroganoff to remove Fire Swamp protection. Let the meal register, then eat it when you can consume food. Storage, holding the meal, and possessing the boss trophy do not substitute for consumption.",
+        "After Minoshroom, save the Meef Stroganoff: this dish is what lifts the Fire Swamp’s protection. Wait for the book to tick the meal, then eat it when your hunger bar allows. Kept in a chest, held in hand or swapped for the boss trophy — none of that counts: the swamp waits for the meal to be eaten.",
         "Open Twilight Forest advancements and verify labyrinth progression before travelling to the Hydra. Prepare ordinary combat Fire Resistance and healing too; removing regional protection does not make the boss’s fire attacks harmless.",
         "If the area’s special heat persists, recheck personal Lich progression and eating the meal. More armour cannot resolve the story gate. This preparation saves expensive potions and explains why Minoshroom victory alone may not yet open the route."
       ],

@@ -4,11 +4,11 @@
     "final_bridges": {
       "intro": [
         "Эта карта соединяет уже освоенные направления: вращение с электричеством, обработку с хранением, транспорт со снабжением. Начинайте с небольшой пары устройств и одного проверочного заказа, чтобы увидеть, где проходит предмет или энергия.",
-        "Основные карточки собирают необходимое оборудование и результаты. Наличие предметов не доказывает работу общей установки; для этого есть отдельные практические ветви с ручным подтверждением. Совместимость проверяйте на конкретных входах и выходах, не полагаясь только на знакомое название мода."
+        "Основные карточки собирают оборудование и первые результаты. Работает ли общая установка, покажут практические ветви с ручным подтверждением. Совместимость проверяйте на конкретных входах и выходах, а не по знакомому названию мода."
       ],
       "intro_en": [
         "This map connects paths you already know: rotation with electricity, processing with storage, transport with supplies. Start with a small pair of devices and one trial order to see where items or energy travel.",
-        "The main cards gather equipment and results. Owning items does not prove an integrated installation works; separate practical branches use manual confirmation for that. Check compatibility at specific inputs and outputs instead of relying on a familiar mod name."
+        "The main cards gather the equipment and the first results. Whether the combined installation actually works is shown by the practical branches with manual confirmation. Test compatibility on specific inputs and outputs, not by a familiar mod name."
       ]
     },
     "final_goals": {
@@ -27,12 +27,12 @@
       "text": [
         "Генератор Create Crafts & Additions превращает вращение в электричество FE, а электромотор выполняет обратную работу. Подготовьте оба устройства, низковольтный конденсатор Immersive Engineering и базовый энергокуб Mekanism. Это знакомство с переходом между системами, а не обещание вечного двигателя.",
         "Сначала подайте вращение на генератор и направьте его электрический выход в один накопитель. Настройте принимающую сторону накопителя и используйте совместимое соединение. Электромотор проверяйте от заряженного источника отдельно: его вал должен передавать вращение выбранной машине Create.",
-        "Книга запоминает получение устройств по очереди, поэтому после отметки их можно устанавливать. Соединение генератора с мотором в замкнутое кольцо не создаёт бесплатной энергии; преобразование имеет свои затраты и пределы. Для устойчивой базы нужен настоящий источник мощности и понятное направление её передачи."
+        "Устройства засчитываются по очереди, так что после отметки их можно ставить. Замкнуть генератор на мотор кольцом и получить даровую энергию не выйдет: у преобразования есть потери и пределы. Устойчивой базе нужен настоящий источник мощности и ясное направление её передачи."
       ],
       "text_en": [
         "The Create Crafts & Additions alternator converts rotation into FE electricity, while the electric motor performs the reverse job. Prepare both devices, an Immersive Engineering low-voltage capacitor and a Mekanism basic energy cube. This introduces conversion between systems rather than promising perpetual motion.",
         "First power the alternator mechanically and direct its electrical output into one store. Configure the receiving side and use a compatible connection. Test the motor separately from a charged source: its shaft should drive the chosen Create machine.",
-        "The book remembers devices obtained sequentially, so install them after registration. Connecting alternator and motor into a closed loop does not create free power; conversion has costs and limits. A reliable base needs a real energy source and a clear direction of transfer."
+        "The devices count one after another, so once ticked they can be installed. Looping the generator into the motor will not yield free energy: conversion has losses and limits. A stable base needs a real source of power and a clear direction for passing it on."
       ],
       "task_notes": {},
       "deps_override": [
@@ -98,13 +98,13 @@
     },
     "final_bridges/storage_bridge": {
       "text": [
-        "Внешнее хранилище Refined Storage позволяет включить совместимый инвентарь в сеть без переноса всех вещей на диски. Получите External Storage, хранилище Create и базовый бин Mekanism. Два последних устройства подходят для знакомства с массовым хранением, но устройство многоблочного склада и доступные стороны нужно учитывать отдельно.",
-        "Начните с одного установленного накопителя и небольшого количества выбранного предмета. Подключите внешнее хранилище к его доступной стороне, проверьте питание сети и найдите содержимое в сетке. Затем попробуйте извлечь часть запаса и вернуть её обратно.",
+        "Внешнее хранилище Refined Storage подключает к сети любой совместимый инвентарь, и переносить вещи на диски не приходится. Получите External Storage, хранилище Create и базовый бин Mekanism. Два последних устройства годятся для первого знакомства с массовым хранением; у многоблочного склада свои правила и свои рабочие стороны.",
+        "Для опыта хватит одного накопителя и горсти выбранного предмета. Приставьте внешнее хранилище к его рабочей стороне, проверьте питание сети и найдите содержимое в сетке. Потом извлеките часть запаса и верните её на место.",
         "Предметные цели лишь отмечают получение оборудования; работа объединённого склада проверяется вами. Не подключайте всю колонию вслепую: доступ к стойкам и поведение курьеров требуют отдельной проверки, а сетевой экспорт способен забрать нужный жителям запас. Для первого проекта достаточно одного понятного внешнего инвентаря."
       ],
       "text_en": [
-        "Refined Storage External Storage includes a compatible inventory in the network without moving everything onto disks. Obtain External Storage, a Create item vault and a Mekanism basic bin. The latter two introduce bulk storage, but multiblock layout and accessible sides still matter.",
-        "Start with one placed store and a small quantity of a chosen item. Attach External Storage to an accessible side, check network power and find the contents in the grid. Then extract part of the stock and return it.",
+        "Refined Storage's External Storage connects any compatible inventory to the network, and nothing has to be moved onto disks. Obtain External Storage, a Create vault and a basic Mekanism bin. The latter two are fine for a first look at bulk storage; a multiblock warehouse has its own rules and its own working faces.",
+        "One storage block and a handful of a chosen item are enough for the experiment. Attach the External Storage to its working face, check the network's power and find the contents in the grid. Then withdraw part of the stock and put it back.",
         "Item objectives only record obtaining equipment; you verify the combined store's operation. Do not connect an entire colony blindly: rack access and courier behaviour need separate checks, and network export can remove supplies citizens need. One understandable external inventory is enough for the first project."
       ],
       "task_notes": {},
@@ -115,12 +115,12 @@
     "final_bridges/autocraft_bridge": {
       "text": [
         "Автокрафт Refined Storage может отправлять материалы во внешнюю обработку, если вы описали её вход и ожидаемый результат. Подготовьте автокрафтер и шестнадцать шаблонов. Их наличие даёт инструменты для настройки, но не создаёт рецепты всех модов автоматически.",
-        "Начните с простой операции в одной печи или перерабатывающей машине. В сетке шаблонов выберите режим обработки, укажите точные количества входа и выхода, затем передайте шаблон автокрафтеру. Обеспечьте отдельный путь возвращения результата в сеть: одной выдачи ингредиентов в машину недостаточно.",
+        "Первую операцию выберите простую: одна печь или одна перерабатывающая машина. В сетке шаблонов переключитесь в режим обработки, впишите точные количества входа и выхода и передайте шаблон автокрафтеру. Результату нужен свой путь обратно в сеть; выдать ингредиенты машине — только половина дела.",
         "После отметки предметов можно использовать те же шаблоны и установить автокрафтер. Выполните небольшой заказ и проследите его завершение в мониторе. Для сложной последовательной сборки Create сначала настройте саму линию и сортировку её выходов, а уже потом описывайте внешний заказ; неизвестный или неверный результат оставит сеть ждать бесконечно."
       ],
       "text_en": [
         "Refined Storage autocrafting can send materials into external processing when you describe its inputs and expected result. Prepare an autocrafter and sixteen patterns. Owning them provides configuration tools but does not automatically create every mod's recipes.",
-        "Begin with a simple operation in one furnace or processing machine. Select processing mode in the pattern grid, specify exact input and output quantities, then place the pattern in the autocrafter. Provide a separate route returning the result to the network: delivering ingredients to the machine is insufficient.",
+        "Pick a simple first operation: one furnace or one processing machine. In the pattern grid switch to processing mode, enter the exact input and output amounts, and hand the pattern to the autocrafter. The result needs its own way back into the network; delivering ingredients to the machine is only half the job.",
         "After registration, use those same patterns and install the autocrafter. Run a small request and watch it finish in the monitor. For complex Create sequenced assembly, configure the line and output sorting first, then describe the external order; an unknown or incorrect result leaves the network waiting."
       ],
       "task_notes": {},
@@ -137,12 +137,12 @@
       "text": [
         "Сетка Refined Storage удобна для поиска содержимого подключённой сети, а система посылок Create организует физическую доставку между подготовленными точками. Получите сетку и Stock Ticker, чтобы сравнить оба подхода. Сам предмет заказа не соединяет их в общую автоматическую систему.",
         "В Create сначала настройте упаковщик, связь складского запаса с заказом, адрес доставки и распаковку. В RS проверьте питание, доступное хранилище и сетку. Выберите одну границу между системами, например обычный промежуточный ящик у погрузочной площадки, и убедитесь, что обе стороны работают с ним ожидаемым способом.",
-        "Карточка запоминает получение двух устройств, а перенос груза остаётся отдельным испытанием. Не допускайте встречного экспорта одного материала туда и обратно: такой круг занимает транспорт и не снабжает потребителя. Разделите входящую и исходящую партии и задайте каждой ясное назначение."
+        "Два устройства засчитываются при получении, а перевозка груза — уже отдельное испытание. Следите, чтобы один и тот же материал не гонялся туда и обратно встречным экспортом: такой круг занимает транспорт и никого не снабжает. Разделите входящую и исходящую партии и дайте каждой ясное назначение."
       ],
       "text_en": [
         "A Refined Storage grid searches connected storage, while Create packages arrange physical deliveries between prepared endpoints. Obtain a grid and Stock Ticker to compare both approaches. Owning the ordering device does not join them into one automatic system.",
         "In Create, configure the packager, stock connection, delivery address and unpacking first. In RS, verify power, accessible storage and the grid. Choose one boundary between the systems, such as an ordinary buffer chest at a loading area, and check how each side interacts with it.",
-        "The card records both devices, while cargo movement remains a separate trial. Avoid exporting the same material back and forth: that loop occupies transport without supplying a consumer. Separate incoming and outgoing batches and give each a clear purpose."
+        "The two devices count once obtained, while moving cargo is a separate trial. Make sure the same material is not shuttled back and forth by opposing exports: such a loop keeps the transport busy and supplies no one. Separate the incoming and outgoing batches and give each a clear purpose."
       ],
       "task_notes": {},
       "deps_override": [
@@ -152,13 +152,13 @@
     },
     "final_bridges/colony_bridge": {
       "text": [
-        "Мастерская механика и склад MineColonies помогают связать производство жителей с потребностями вашей базы. Получите блоки обоих зданий, затем используйте их для строительства через штатную систему колонии. Поставленный блок хижины ещё не означает готовое здание с работником и доступными рецептами.",
-        "Начните с одного рецепта, который интерфейс механика действительно разрешает изучить. Дайте работнику нужные материалы и проверьте доставку через курьера и склад. Не предполагается, что любой рецепт технологического мода автоматически доступен любому ремесленнику: действуют ограничения профессии, уровня и исследований.",
+        "Мастерская механика и склад MineColonies связывают труд жителей с нуждами вашей базы. Получите блоки обоих зданий и стройте их обычным колониальным порядком. Поставленный блок хижины — ещё не здание: работник, уровень и рецепты появятся позже.",
+        "Выберите один рецепт, который интерфейс механика в самом деле даёт изучить. Снабдите работника материалами и проследите доставку через курьера и склад. Не всякий рецепт технологического мода открыт любому ремесленнику: у профессии, уровня здания и исследований есть свои границы.",
         "После регистрации блоки можно установить; отдельные копии для книги не нужны. Для связи с фабрикой выделите небольшой передаточный запас и проверьте конкретный заказ жителя. Сначала убедитесь, что колония получает собственные инструменты и еду, и лишь затем направляйте избыток её продукции во внешнюю сеть."
       ],
       "text_en": [
-        "A MineColonies mechanic's workshop and warehouse help connect citizen production with your base's needs. Obtain both hut blocks, then use the colony's normal construction system. A placed hut block does not yet mean a finished building with a worker and available recipes.",
-        "Begin with one recipe the mechanic's interface actually permits learning. Supply its materials and check delivery through the courier and warehouse. Do not assume every technical-mod recipe is automatically available to every crafter: profession, level and research restrictions apply.",
+        "The Mechanic's workshop and the MineColonies warehouse tie the citizens' labour to your base's needs. Obtain the blocks of both buildings and construct them the usual colony way. A placed hut block is not yet a building: the worker, the level and the recipes come later.",
+        "Choose one recipe the mechanic's interface actually lets you teach. Supply the worker with materials and follow the delivery through the courier and the warehouse. Not every tech-mod recipe is open to any craftsman: profession, building level and research each draw their own limits.",
         "Install the blocks after registration; no separate book copies are needed. Set aside a small transfer reserve for the factory connection and test a specific citizen order. First make sure the colony receives its own tools and food, then direct surplus production into external storage."
       ],
       "task_notes": {},
@@ -170,12 +170,12 @@
       "text": [
         "Перевозка груза и быстрое перемещение игрока решают разные задачи. Подготовьте станцию Create, переносной интерфейс хранения и телепорт Mekanism. Станция организует остановку поезда, интерфейсы передают содержимое подвижного хранилища, а телепорт требует настроенной частоты, энергии и подходящей рамки.",
         "Для грузового участка поставьте принимающий интерфейс напротив интерфейса на конструкции и проверьте их стыковку в остановленном положении. Начните с небольшой партии в вагоне или другой совместимой конструкции. Телепорт испытайте отдельно между двумя правильно настроенными точками, оставив обычный путь возвращения.",
-        "Книга учитывает получение устройств, а не факт доставленного груза или путешествия. Поставьте их после отметки и проверьте обе задачи по очереди. Общий транспортный узел удобнее строить вокруг понятных мест загрузки, ожидания и выхода, чтобы прибывший игрок не оказывался на пути движущегося состава."
+        "Засчитываются сами устройства, а не доставленный груз или совершённое путешествие. Поставьте их после отметки и проверьте обе задачи по очереди. Транспортный узел удобнее строить вокруг понятных мест погрузки, ожидания и выхода, чтобы прибывший игрок не оказался на пути идущего состава."
       ],
       "text_en": [
         "Cargo transport and rapid player movement solve different problems. Prepare a Create station, Portable Storage Interface and Mekanism teleporter. The station defines a train stop, interfaces transfer moving storage contents, and the teleporter needs a configured frequency, power and suitable frame.",
         "For cargo transfer, place the receiving interface opposite the moving construction's interface and test docking while stopped. Start with a small batch aboard a train or another compatible construction. Test teleportation separately between two correctly configured endpoints while retaining an ordinary return route.",
-        "The book records devices, not delivered freight or a completed journey. Install them after registration and test both jobs in turn. Build a shared transport hub around clear loading, waiting and exit areas so arriving players do not stand in the path of a moving train."
+        "It is the devices that count, not the delivered cargo or the journey made. Install them after the tick and test both tasks in turn. A transport hub is easier to build around clear places for loading, waiting and exiting, so an arriving player does not end up in the path of a moving train."
       ],
       "task_notes": {},
       "deps_override": [
@@ -187,12 +187,12 @@
       "text": [
         "Оборона базы складывается из систем с разными правилами работы. Получите стрелковую турель Immersive Engineering, блок казарм MineColonies и контроллер огня Create Radar. Они не питаются одной и той же энергией: турели нужно электричество и боеприпасы, а стражникам — обучение, снаряжение и условия колонии.",
         "Сначала испытайте каждую систему в её собственной главе. Для турели настройте разрешённые цели и снабжение; для казарм завершите строительство и работу гарнизона; для артиллерии проверьте совместимость управления, наведение и безопасное направление ствола. Контроллер сам по себе не становится готовым орудием.",
-        "Предметы отмечаются при получении, затем их можно использовать в постройке. Разведите позиции так, чтобы стрельба не пересекала маршруты жителей, поездов и обслуживания. Наличие трёх компонентов не доказывает защиту от любого противника; проверяйте конкретные угрозы и обеспечивайте каждой системе собственное снабжение."
+        "Предметы засчитываются при получении, дальше их можно пускать в постройку. Разнесите позиции так, чтобы линия огня не пересекала дороги жителей, поездов и ремонтников. Три компонента в сундуке от врага не защитят: проверяйте оборону против конкретных угроз и давайте каждой системе своё снабжение."
       ],
       "text_en": [
         "Base defence combines systems with different operating rules. Obtain an Immersive Engineering gun turret, a MineColonies barracks block and a Create Radar fire controller. They do not all use one energy supply: a turret needs electricity and ammunition, while guards need training, equipment and colony support.",
         "Test each system within its own chapter first. Configure turret targets and supplies; finish barracks construction and staff the garrison; check artillery control compatibility, aiming and a safe firing direction. A controller alone does not become a complete gun.",
-        "Items register when obtained and may then be installed. Separate positions so firing sectors avoid citizen routes, trains and service passages. Three components do not prove protection against every enemy; test specific threats and provide each system with its own supplies."
+        "The items count once obtained; after that you can put them into the build. Spread the positions so the line of fire does not cross the routes of citizens, trains and maintenance. Three components in a chest will not stop an enemy: test the defence against specific threats and give each system its own supply."
       ],
       "task_notes": {},
       "deps_override": [
@@ -203,12 +203,12 @@
     "final_bridges/energy_bridge2": {
       "text": [
         "Электрические устройства разных модов часто умеют передавать FE, но соединение всё равно зависит от их сторон и разъёмов. Подготовьте начальную энергоячейку Powah, базовый мотор Create: New Age, угольный генератор Ad Astra и два низковольтных коннектора IE.",
-        "Начните с генератора и накопителя: настройте вывод энергии, поставьте совместимый кабель и проверьте рост запаса. Мотор New Age подключайте предусмотренным для него способом после знакомства с этой системой. Провода IE требуют коннекторов и подходящего напряжения; нельзя считать любой провод прямой заменой любого соседнего кабеля.",
+        "Первая пара — генератор и накопитель: настройте вывод энергии, протяните совместимый кабель и посмотрите, растёт ли запас. Мотор New Age подключайте так, как задумано его модом, когда познакомитесь с ним. Проводам IE нужны коннекторы и своё напряжение; провод одного мода не заменит кабель другого.",
         "Карточка учитывает четыре вида оборудования по очереди и не расходует их. Проверяйте переходы по одному, наблюдая запас энергии и работу небольшой нагрузки. Если один участок не передаёт мощность, исправьте сторону, соединение или ограничение пропускной способности, прежде чем прокладывать линию через всю базу."
       ],
       "text_en": [
         "Electrical devices from different mods often exchange FE, but connections still depend on their sides and terminals. Prepare a starter Powah energy cell, Create: New Age basic motor, Ad Astra coal generator and two IE low-voltage connectors.",
-        "Begin with generator and storage: configure energy output, install a compatible cable and watch the stored amount rise. Connect the New Age motor through its intended arrangement after learning that system. IE wires need connectors and suitable voltage; not every wire directly replaces every neighbouring cable.",
+        "The first pair is the generator and the storage: set the energy output, run a compatible cable and watch whether the reserve grows. Connect the New Age motor the way its own mod intends, once you know it. IE wires need connectors and their own voltage; one mod's wire will not stand in for another's cable.",
         "The card records the four equipment types sequentially without consuming them. Test transitions individually by watching stored energy and a small working load. If a section transfers no power, fix its side, connection or throughput limit before extending it across the base."
       ],
       "task_notes": {},
@@ -253,14 +253,14 @@
     },
     "final_bridges/adventure_bridge": {
       "text": [
-        "Технологическое снаряжение помогает в экспедициях, если его возможности проверены до выхода из мастерской. Получите Meka-Tool и нагрудник MekaSuit. Один нагрудник не является полным комплектом, а пустой запас энергии или отсутствующий модуль могут лишить предмет ожидаемой функции.",
+        "Технологическое снаряжение выручает в экспедиции, если испытано ещё в мастерской. Получите Meka-Tool и нагрудник MekaSuit. Один нагрудник — не комплект, а с пустым зарядом или без нужного модуля даже он не сделает того, чего вы от него ждёте.",
         "Зарядите снаряжение, проверьте выбранные модули и испытайте обычное движение, добычу и переключение режимов в безопасном месте. Подготовьте еду, освещение и способ возвращения отдельно. Защита от урона не заменяет кислород, радиационную защиту и специальные условия чужого измерения, если они требуются вашему маршруту.",
-        "Книга отмечает получение двух предметов, не обещая победы над любым боссом. Перед дальней экспедицией откройте её главу и сравните конкретные угрозы с возможностями комплекта. Оставьте на базе зарядку и запас расходников, чтобы после возвращения можно было восстановить готовность, а не собирать всё с нуля."
+        "Два предмета засчитываются при получении, а победу над боссом они не обещают. Перед дальней экспедицией откройте её главу и сравните тамошние угрозы с возможностями комплекта. Зарядку и запас расходников держите на базе, чтобы по возвращении восстановить готовность, а не собирать всё заново."
       ],
       "text_en": [
-        "Technical equipment helps expeditions when its capabilities are tested before leaving the workshop. Obtain a Meka-Tool and MekaSuit bodyarmor. One chest piece is not a full suit, while an empty energy reserve or missing module may remove the function you expected.",
+        "Tech gear pulls its weight on an expedition if it was tested back in the workshop. Obtain the Meka-Tool and the MekaSuit chestplate. One chestplate is not a suit, and with an empty charge or without the right module even that will not do what you expect.",
         "Charge the equipment, inspect installed modules and test ordinary movement, mining and mode switching somewhere safe. Prepare food, lighting and a return method separately. Damage protection does not replace oxygen, radiation protection or a dimension's special conditions when your route requires them.",
-        "The book records two items without promising victory over every boss. Open the expedition's chapter and compare its specific hazards with the equipment's capabilities. Leave charging facilities and supplies at base so you can restore readiness after returning rather than rebuilding preparations from scratch."
+        "The two items count once obtained, and they promise no boss victory. Before a distant expedition, open its chapter and weigh the threats there against what the kit can do. Keep charging and a stock of consumables at the base, so on return you restore readiness rather than gather everything anew."
       ],
       "task_notes": {},
       "deps_override": [
@@ -270,12 +270,12 @@
     },
     "final_goals/goal_create": {
       "text": [
-        "Эта вершина собирает оборудование трёх поздних направлений Create: четыре фабричных указателя, четыре паровых двигателя и физический сборщик Aeronautics. Каждый предмет относится к своей системе; их наличие не означает, что фабрика уже выполняет заказы, котёл развивает нужную мощность, а воздушный корабль готов к полёту.",
+        "Эта вершина собирает оборудование трёх поздних направлений Create: четыре фабричных указателя, четыре паровых двигателя и физический сборщик Aeronautics. Каждый предмет из своей системы, и сундук с ними — ещё не фабрика, выполняющая заказы, не котёл на полной мощности и не корабль, готовый к взлёту.",
         "Сначала завершите обучение паровой установке и пакетной логистике. Фабричные указатели используйте с правильно подключёнными запасами и производством, а двигатели — с котлом, которому хватает воды и нагрева. Сборщик нужен для подготовки физической конструкции по правилам Aeronautics.",
         "Получите требуемый запас каждого вида за один раз, дождитесь отметки и затем устанавливайте оборудование. Разные виды можно показывать последовательно. После предметной вершины выберите реальный общий проект: снабжение верфи или цеха по заказам, чтобы дорогие устройства выполняли понятную работу, а не оставались коллекцией в сундуке."
       ],
       "text_en": [
-        "This summit gathers equipment from three late Create paths: four factory gauges, four steam engines and an Aeronautics physics assembler. Each belongs to a separate system; owning them does not mean orders already run, the boiler delivers enough power or an aircraft is ready to fly.",
+        "This summit gathers equipment from three late Create branches: four factory gauges, four steam engines and the Aeronautics physics assembler. Each item belongs to its own system, and a chest full of them is not yet a factory filling orders, a boiler at full power or a ship ready for take-off.",
         "Complete steam-power and package-logistics lessons first. Use factory gauges with properly connected stock and production, and engines with a boiler supplied with enough water and heat. The assembler prepares physical constructions under Aeronautics rules.",
         "Obtain the required stock of each type together, wait for registration and then install it. Different types can be shown sequentially. After this equipment milestone, choose a working combined project such as supplying a shipyard or workshop by orders, so expensive devices perform useful work instead of remaining a chest collection."
       ],
@@ -290,12 +290,12 @@
       "text": [
         "Завершение промышленного пути IE проверяет работу трёх больших установок и получение рельсотрона. Экскаватор, дуговая печь и дизель-генератор собираются в мире; недоступные служебные предметы их готовых конструкций больше не нужны для этой карточки.",
         "Запустите экскаватор с ковшовым колесом на разведанной жиле и получите руду в накопитель. Выполните подходящий рецепт в дуговой печи, обеспечив электричество, исправные электроды и свободный выход. Затем подайте совместимое топливо в сформированный дизель-генератор и убедитесь, что он действительно питает подключённую нагрузку.",
-        "Отметьте общий эксплуатационный пункт вручную только после всех трёх проверок. Рельсотрон учитывается отдельно как предмет; перед применением ему нужны заряд и подходящие боеприпасы. Эта вершина подтверждает освоенные процессы, но не обещает непрерывную работу без пополнения топлива, обслуживания электродов и контроля истощения месторождения."
+        "Общий эксплуатационный пункт отмечайте вручную лишь после всех трёх проверок. Рельсотрон засчитывается отдельно как предмет; перед выстрелом ему нужны заряд и подходящие боеприпасы. Вершина подтверждает освоенные процессы, а дальше всё как в жизни: топливо кончается, электроды изнашиваются, жила истощается."
       ],
       "text_en": [
         "The IE industrial summit checks three large operating installations and ownership of a railgun. The excavator, arc furnace and diesel generator are assembled in the world; unobtainable standalone items representing their completed structures are no longer required.",
         "Run an excavator with bucket wheel on a surveyed vein and collect ore in storage. Complete a suitable arc-furnace recipe with power, usable electrodes and free output space. Then feed compatible fuel to a formed diesel generator and verify it powers a connected load.",
-        "Mark the combined operating objective manually only after all three checks. The railgun is recorded separately as an item; it needs charge and suitable ammunition before use. This milestone confirms learned processes without promising continuous operation free of refuelling, electrode maintenance or deposit depletion."
+        "Tick the shared operational point by hand only after all three checks. The railgun counts separately as an item; before firing it needs charge and suitable ammunition. The summit confirms the processes you have mastered, and after that it is life as usual: fuel runs out, electrodes wear, the vein depletes."
       ],
       "task_notes": {
         "0": {
@@ -325,12 +325,12 @@
       "text": [
         "Поздний Mekanism объединяет мощное производство энергии, антивещество и модульное снаряжение. Для этой вершины нужны гранула антивещества, нагрудник MekaSuit, Meka-Tool и контроллер термоядерного реактора. Контроллер — только часть реактора, а нагрудник — только часть комплекта брони.",
         "Пройдите отдельно цепочку деления и переработки отходов до SPS, затем подготовку термоядерного топлива и корпуса реактора. Не переносите правила одной установки на другую: у них разные входы, условия запуска и обслуживание. Снаряжение зарядите и настройте модулями под реальные задачи.",
-        "Книга запоминает получение каждого предмета, поэтому уже отмеченный контроллер можно поставить, а инструмент использовать. Эта цель не включает автоматическую проверку работающей турбины или полного костюма. Завершив коллекцию, проверьте запас энергии, вывод продукции и доступ к обслуживанию тех установок, которыми будете пользоваться дальше."
+        "Каждый предмет засчитывается при получении: отмеченный контроллер можно ставить, инструментом — работать. Работающую турбину или полный костюм эта цель не проверяет. Собрав коллекцию, посмотрите на запас энергии, вывод продукции и доступ к обслуживанию тех установок, которыми будете жить дальше."
       ],
       "text_en": [
         "Late Mekanism combines major power production, antimatter and modular equipment. This summit needs an antimatter pellet, MekaSuit bodyarmor, a Meka-Tool and a fusion reactor controller. The controller is only part of a reactor, and bodyarmor is only part of a suit.",
         "Complete fission and waste processing through the SPS separately from fusion fuel and reactor construction. Do not transfer one installation's rules to another: inputs, startup conditions and maintenance differ. Charge equipment and configure modules for actual tasks.",
-        "The book remembers each obtained item, so a registered controller may be installed and tools used. This objective does not automatically verify an operating turbine or full suit. After completing the collection, inspect energy reserves, product extraction and service access for installations you intend to keep using."
+        "Each item counts once obtained: a ticked controller can be placed, the tool put to work. A running turbine or a full suit is not what this goal checks. With the collection complete, look at the energy reserve, the product output and the maintenance access of the installations you will live with from here on."
       ],
       "task_notes": {},
       "deps_override": [
@@ -341,12 +341,12 @@
     },
     "final_goals/goal_storage": {
       "text": [
-        "Эта вершина знакомит с поздним хранением сразу двух систем. Получите диск Refined Storage на 64k, беспроводную сетку RS и сверхмассивный накопитель QIO Mekanism. Требуются все три предмета; формулировка не означает выбор между RS и QIO.",
+        "Эта вершина сводит позднее хранение двух систем. Получите диск Refined Storage на 64k, беспроводную сетку RS и сверхмассивный накопитель QIO Mekanism. Нужны все три предмета сразу, выбирать между RS и QIO не придётся.",
         "Для беспроводной сетки настройте связь с вашей сетью и предусмотренное покрытие, затем проверьте заряд и доступ. Накопитель QIO устанавливается в собственный массив, связанный с нужной частотой. Он не заменяет диск RS и не подключается в его дисковод просто из-за похожего назначения.",
         "Книга отмечает предметы по очереди и не расходует их. Покажите накопители до установки, после чего оставляйте их в работающих системах. Сравните ёмкость и ограничения типов у конкретных устройств в подсказках; число 64k у RS обозначает количество предметов, а не отдельные типы. Для общей базы выбирайте понятную границу ответственности двух сетей."
       ],
       "text_en": [
-        "This summit introduces late storage from two systems. Obtain a Refined Storage 64k disk, an RS wireless grid and a Mekanism supermassive QIO drive. All three items are required; the wording does not offer a choice between RS and QIO.",
+        "This summit brings together late storage from two systems. Obtain a 64k Refined Storage disk, the RS wireless grid and Mekanism's supermassive QIO drive. All three items are required at once; there is no choosing between RS and QIO.",
         "Configure the wireless grid's connection and coverage, then check charge and access. A QIO drive installs in its own array linked to the intended frequency. It neither replaces an RS disk nor fits an RS drive merely because both store items.",
         "The book records items sequentially without consuming them. Show drives before installation, then leave them in operating systems. Compare capacity and type limits in each device's tooltip; RS 64k refers to item count, not distinct types. Give both networks clear responsibilities within a shared base."
       ],
@@ -382,12 +382,12 @@
       "text": [
         "Три предмета соединяют исследования Aether и Сумеречного леса: молот короля Бдогза, Светоч углей и трофейный пьедестал. Молот относится к сокровищам бронзового подземелья Aether, поэтому его поиск начинается с победы над Slider и доступа к награде, а не с золотого храма.",
         "В Сумеречном лесу пьедестал используется в продвижении к рыцарской крепости, а Светоч углей получают значительно позже, проходя высокогорную цепочку. Следуйте порядку местных боссов и снимайте защитные ограничения мира штатными достижениями. Найденная постройка не всегда означает, что путь внутри уже открыт.",
-        "Карточка отмечает получение трёх предметов и не расходует их. Она не доказывает посещения каждого подземелья или завершения недоделанного Final Castle. Сохраните полезные инструменты и переходы между мирами; для поиска пропущенного трофея лучше вернуться к конкретной главе, чем повторять все экспедиции подряд."
+        "Три предмета засчитываются при получении и остаются у вас. Посещение каждого подземелья и недостроенный Final Castle книга не отслеживает. Берегите полезные инструменты и переходы между мирами; за пропущенным трофеем лучше вернуться в нужную главу, чем повторять все экспедиции подряд."
       ],
       "text_en": [
         "Three items connect Aether and Twilight Forest exploration: Hammer of Kingbdogz, Lamp of Cinders and Trophy Pedestal. The hammer belongs to Aether bronze-dungeon treasure, so begin with defeating the Slider and accessing its reward rather than searching a golden temple.",
         "In Twilight Forest, the pedestal supports progression toward the knight stronghold, while the Lamp of Cinders arrives much later through the highlands chain. Follow local boss order and remove the world's protections through normal advancements. Finding a structure does not always mean its interior is accessible yet.",
-        "The card records three items without consuming them. It does not prove every dungeon was visited or the unfinished Final Castle completed. Preserve useful tools and transitions; return to the specific chapter for a missing trophy instead of repeating every expedition."
+        "The three items count once obtained and stay with you. The book does not track visits to every dungeon or the unfinished Final Castle. Look after useful tools and the crossings between worlds; for a missed trophy it is better to return to the right chapter than to repeat every expedition in a row."
       ],
       "task_notes": {},
       "deps_override": [
@@ -453,12 +453,12 @@
     "final_goals/goal_magic": {
       "text": [
         "Эта вершина относится к усиленному хранителю Гайи Botania. Нужно лично победить его сложную версию и получить Кость судьбы. Реликвия, которая может появиться после использования кости, не заменяет сам предмет в цели, поэтому сначала дождитесь его регистрации книгой.",
-        "Подготовьте исправную арену с действующим маяком и четырьмя пилонами. Для усиленного призыва используется слиток духа Гайи: террастальной слиток вместе с четырьмя духами обычного хранителя. При зажатом Shift примените подношение к маяку; оно расходуется, а обычная террасталь вызовет другую версию боя.",
+        "Арена должна быть в порядке: действующий маяк и четыре пилона. Усиленного хранителя призывают слитком духа Гайи — террасталью, сплавленной с четырьмя духами обычного хранителя. С зажатым Shift примените подношение к маяку; оно исчезнет, а обычная террасталь вызовет другую, слабую версию боя.",
         "Проверьте броню, ману и лечение заранее. После победы подберите награды и убедитесь, что отмечено достижение сложной версии, а не только первого хранителя. Книга не расходует Кость судьбы и не требует конкретной случайной реликвии: дальнейшее использование предмета остаётся продолжением вашей магической коллекции."
       ],
       "text_en": [
         "This summit concerns Botania's stronger Guardian of Gaia. Defeat its hard-mode version personally and obtain a Dice of Fate. A relic produced after using the dice does not replace the dice item in the objective, so let the book register it first.",
-        "Prepare a working arena with an active beacon and four pylons. The stronger summon uses a Gaia Spirit Ingot, made from a Terrasteel Ingot and four spirits from the ordinary Guardian. Sneak-use the offering on the beacon; it is consumed, while ordinary Terrasteel summons the other fight.",
+        "The arena must be in order: a working beacon and four pylons. The empowered guardian is summoned with a Gaia Spirit Ingot — terrasteel fused with four spirits of the ordinary guardian. Holding Shift, use the offering on the beacon; it is consumed, while plain terrasteel summons the other, weaker version of the fight.",
         "Check armour, mana and healing beforehand. After victory, collect rewards and verify the hard-mode advancement rather than only the first Guardian's. The book does not consume the dice or require a particular random relic; using it further continues your own magical collection."
       ],
       "task_notes": {
@@ -495,24 +495,24 @@
     "final_goals/goal_all": {
       "text": [
         "Последняя карточка объединяет десять вершин этой карты: Create, Immersive Engineering, Mekanism, хранение, колонию, приключения, Eternal Tales, космос, магию и охоту. Здесь важно завершить каждую предшествующую отметку, а не просто собрать коллекцию похожих предметов в одном сундуке.",
-        "После этих достижений получите одну звезду Нижнего мира и дождитесь её регистрации. Звезда не расходуется данной целью; если книга уже видела её раньше, отдельный повторный бой с Иссушителем не нужен. Награда станет памятной отметкой пройденной общей цепочки.",
+        "Когда десять вершин взяты, покажите книге одну звезду Нижнего мира. Здесь она не расходуется; если книга уже видела её раньше, повторный бой с Иссушителем не понадобится. Награда останется памятной отметкой о пройденной цепочке.",
         "Посмотрите общий прогресс Codex после завершения: пропущенные главы и дополнительные ветви не закрываются автоматически. Теперь удобно выбрать проект, который использует несколько освоенных систем одновременно, например снабжение удалённого поселения. Так редкие предметы и крупные заводы получат общее назначение в вашем мире, а не останутся только отметками в книге."
       ],
       "text_en": [
         "The final card combines this map's ten summits: Create, Immersive Engineering, Mekanism, storage, colony, adventures, Eternal Tales, space, magic and hunting. Complete every preceding milestone rather than merely collecting similar items in one chest.",
-        "After those achievements, obtain a Nether Star and let it register. This objective does not consume the star; if the book recorded one earlier, another Wither fight is unnecessary. The reward commemorates the completed combined chain.",
+        "Once the ten summits are taken, show the book a single Nether Star. It is not consumed here; if the book has seen one before, no second Wither fight is needed. The reward remains a keepsake of the chain you have completed.",
         "Check overall Codex progress afterward: skipped chapters and side branches are not automatically completed. Choose a project using several learned systems together, such as supplying a remote settlement. This gives rare items and large factories a shared purpose in your world beyond their marks in the book."
       ],
       "task_notes": {}
     },
     "final_bridges/guide_power_transfer": {
       "text": [
-        "Для первого общего энергетического проекта достаточно одной машины и одного накопителя другого мода. Выберите обычный безопасный потребитель, например электрическую печь, и подготовьте небольшую партию сырья. Отключите его прежнее питание, чтобы результат нельзя было случайно объяснить старым кабелем.",
+        "Первый общий энергетический опыт обходится одной машиной и одним накопителем из другого мода. Возьмите безобидный потребитель вроде электрической печи и немного сырья. Старое питание отключите, иначе результат можно будет списать на прежний кабель.",
         "Подайте вращение в генератор Create Crafts & Additions, передайте FE в выбранный накопитель и соедините его выход с потребителем. Сначала проверьте рост заряда, затем выполнение одной операции. Смотрите на настройки сторон и направление потока энергии, а не только на нарисованный рядом провод.",
         "Подтвердите проект вручную, когда чужой накопитель зарядился от генератора и машина завершила обработку через эту цепочку. Затем восстановите удобную схему питания мастерской. Такой небольшой опыт показывает реальную совместимость устройств до того, как вы вложите ресурсы в длинную общую магистраль."
       ],
       "text_en": [
-        "One machine and a storage device from another mod are enough for the first shared power project. Choose an ordinary safe consumer such as an electric furnace and prepare a small input batch. Disconnect its former supply so an old cable cannot accidentally explain success.",
+        "The first shared energy experiment gets by with one machine and one storage block from another mod. Take a harmless consumer such as an electric furnace and a little raw material. Disconnect its old power, or the result could be put down to the previous cable.",
         "Power the Create Crafts & Additions alternator with rotation, transfer FE into the chosen store and connect its output to the consumer. Check charging first, then one completed operation. Inspect side settings and energy direction rather than merely a wire drawn nearby.",
         "Confirm manually when the other mod's store charges from the alternator and the machine finishes processing through that chain. Restore the workshop's convenient supply afterward. This small experiment establishes real device compatibility before investing in a long shared power line."
       ],
@@ -563,12 +563,12 @@
       "text": [
         "Проверьте внешнее хранилище на небольшом запасе, который легко пересчитать. Положите 32 булыжника в отдельный бин или хранилище Create и подключите его к RS через External Storage. На время опыта не используйте другие доступные сети запасы булыжника, чтобы наблюдать именно выбранный накопитель.",
         "Найдите эти предметы в сетке RS и извлеките восемь. Посмотрите на внешний накопитель: в нём должно остаться 24. Затем верните восемь через сетку и проверьте исходное количество. Настройка записи и приоритеты должны направить их обратно в испытываемое хранилище.",
-        "Подтвердите вручную только после совпадения обоих наблюдений. Если предметы вернулись на диск, а не во внешний накопитель, соединение чтения работает, но обратный маршрут ещё не настроен. Исправьте его до подключения больших запасов и сохраните отдельные фильтры для материалов, которыми не хотите заполнять этот склад."
+        "Подтверждайте вручную, когда сошлись оба наблюдения. Если предметы легли на диск, а не во внешний накопитель, чтение работает, а обратный путь ещё не настроен. Поправьте его до того, как подключать большие запасы, и заведите фильтры для материалов, которыми не хотите забивать этот склад."
       ],
       "text_en": [
         "Test External Storage with a small easily counted stock. Put 32 cobblestone into a separate bin or Create vault and connect it to RS through External Storage. Keep other cobblestone stores out of the test so you observe this container specifically.",
         "Find the items in the RS grid and extract eight. The external store should now hold 24. Return eight through the grid and verify the original amount. Write settings and priorities should send them back to the tested store.",
-        "Confirm manually only after both observations match. If items return to a disk instead, reading works but the return route is not configured. Fix it before connecting large stocks and preserve separate filters for materials you do not want filling this store."
+        "Confirm by hand once both observations agree. If the items landed on a disk rather than in the external storage, reading works but the way back is not yet set. Fix it before connecting large stocks, and set up filters for materials you do not want cluttering this warehouse."
       ],
       "task_notes": {
         "0": {
@@ -581,12 +581,12 @@
       "text": [
         "Общий склад удобен до тех пор, пока автоматизация не забирает последние материалы для ручной работы. Создайте рядом с сетью отдельный резервный сундук, который не подключён к её чтению или извлечению. Положите в него шестнадцать железных слитков и подпишите назначение резерва.",
         "В подключённой части хранилища оставьте другую небольшую партию железа и выполните обычный производственный заказ. После завершения осмотрите резерв: все шестнадцать слитков должны оставаться на месте. Не используйте для проверки рецепт, требующий больше материалов, чем доступно в рабочей части.",
-        "Подтвердите вручную, когда заказ завершён, а отдельный запас сохранился. Для начала достаточно физически отделённого сундука; сложные ограничения доступа не обязательны. Такой резерв полезен для ремонта инструмента, ручного изготовления кабеля или снабжения жителей, пока автоматическая фабрика занята очередной большой партией."
+        "Заказ выполнен, а резерв цел — можно подтверждать. Для начала хватит сундука, который стоит в стороне от сети; хитрые ограничения доступа подождут. Такой запас выручит с ремонтом инструмента, ручным кабелем или снабжением жителей, пока фабрика занята очередной большой партией."
       ],
       "text_en": [
         "Shared storage is convenient until automation takes the last materials needed for manual work. Create a separate reserve chest beside the network without connecting it for reading or extraction. Put sixteen iron ingots inside and label its purpose.",
         "Leave another small iron batch in connected storage and run an ordinary production order. After completion, inspect the reserve: all sixteen ingots should remain. Do not choose a test recipe demanding more material than the working store contains.",
-        "Confirm manually when the order finishes and the separate stock survives. A physically separate chest is sufficient initially; complex access controls are unnecessary. This reserve supports tool repairs, hand-crafted cables or citizen supplies while automatic production handles another large batch."
+        "Order done and reserve intact — you can confirm. To begin with, a chest standing apart from the network is enough; clever access restrictions can wait. Such a stock helps with tool repair, hand-made cable or supplying citizens while the factory is busy with its next big batch."
       ],
       "task_notes": {
         "0": {
@@ -615,12 +615,12 @@
     },
     "final_bridges/guide_colony_delivery": {
       "text": [
-        "Для первого общего заказа выберите реальную нехватку в интерфейсе жителя или строителя. Подойдёт простая партия досок, камня или другого материала, который ваша фабрика уже умеет выпускать. Запишите точный тип и количество: похожая по цвету древесина не всегда заменяет запрошенную.",
+        "Первый общий заказ возьмите из настоящей нехватки в интерфейсе жителя или строителя. Подойдёт простая партия досок, камня или другого материала, который фабрика уже выпускает. Запишите точный тип и количество: доски похожего цвета не всегда сойдут за запрошенные.",
         "Изготовьте эту партию на существующем оборудовании и доставьте её через понятный вам штатный путь снабжения колонии. На первом опыте допустима ручная передача: задача проверяет соответствие производства действительной потребности, а не обещает автоматическую интеграцию всех складов.",
         "Дождитесь, пока конкретный запрос будет удовлетворён и работа жителя сможет продолжиться, затем подтвердите проект. Простого появления ресурсов в случайном ящике недостаточно. После успешного заказа можно автоматизировать повторяющуюся часть маршрута, сохранив резерв для собственной мастерской и не отправляя жителям материалы, которые их текущие рецепты не используют."
       ],
       "text_en": [
-        "For the first shared order, choose an actual shortage shown by a citizen or builder. A simple batch of planks, stone or another material your factory already produces is suitable. Record the exact type and quantity: similarly coloured wood does not always replace what was requested.",
+        "Take the first shared order from a real shortage in a citizen's or the builder's interface. A simple batch of planks, stone or another material your factory already makes will do. Write down the exact type and amount: planks of a similar colour will not always pass for the ones requested.",
         "Produce the batch on existing equipment and deliver it through a normal colony-supply route you understand. Manual transfer is acceptable initially: the task checks production against a real need rather than promising automatic integration of every warehouse.",
         "Wait until that request is fulfilled and the citizen's work can continue, then confirm. Resources appearing in a random chest are insufficient. After a successful order, automate the repeated section while retaining workshop reserves and avoiding materials the citizens' current recipes do not use."
       ],

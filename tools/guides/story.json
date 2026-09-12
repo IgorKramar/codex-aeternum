@@ -3,150 +3,150 @@
   "chapters": {
     "story_forge": {
       "intro": [
-        "Путь механика соединяет знакомые машины Create в один грузовой маршрут: источник вращения, обработка материалов, паровая мощность и поезд между базой и местом добычи. Стройте небольшими работающими участками и соединяйте их после проверки.",
-        "Ветер и вода дают настоящие альтернативы входа, как и мельница с дроблением. Учтённые обычные предметы можно сразу устанавливать; расходуемые партии должны быть в инвентаре целиком сейчас и исчезают при сдаче."
+        "Путь механика складывает знакомые машины Create в один грузовой маршрут: источник вращения, переработка сырья, паровой котёл и поезд между базой и рудником. Стройте небольшими участками, каждый из которых работает сам по себе, и соединяйте их только после проверки.",
+        "Ветер и вода — равноправные входы в эту линию, как и мельница с дробильными колёсами. Обычные предметы книга запоминает при первом появлении в инвентаре, и их можно сразу ставить в дело; партии на сдачу должны лежать в сумке целиком в момент сдачи и исчезают вместе с наградой."
       ],
       "intro_en": [
-        "The mechanic’s path connects familiar Create machines into one freight route: rotation, material processing, steam power and a train between the base and mining site. Build small working sections and connect them after testing.",
-        "Wind and water are genuine alternative entrances, as are milling and crushing. Registered ordinary items can immediately be installed; consumable batches must be entirely in inventory now and disappear when submitted."
+        "The engineer’s road strings familiar Create machines into one freight route: a source of rotation, ore processing, a steam boiler and a train running between the base and the mine. Build in small sections that work on their own, and join them only once each has been tested.",
+        "Wind and water are equal entrances to this line, and so are the millstone and the crushing wheels. Ordinary items are remembered the moment they first appear in your inventory, so they can go straight into service; batches for turn-in must be in your bag in full at the moment of turn-in and vanish with the reward."
       ]
     },
     "story_current": {
       "intro": [
-        "Электрическая история связывает топливо, производство стали, генерацию и потребителей разных модов. Начните с понятного источника и одной нагрузки, затем увеличивайте сеть: большой генератор не исправляет неверные разъёмы и переполненный выход.",
-        "Названия целей не измеряют производительность. Рабочие установки проверяются в мире; особенно внимательно организуйте отключение питания, охлаждение и обращение с отходами перед переходом к ядерной энергии."
+        "Электрическая линия связывает топливо, сталь, генераторы и потребителей из разных модов в одну сеть. Начинайте с одного понятного источника и одной нагрузки, а потом наращивайте: большой генератор не спасёт от перепутанных разъёмов и забитого выхода.",
+        "Названия заданий говорят о деталях, а не о мощности; работает ли установка, видно только в мире. Особого внимания заслуживают аварийное отключение, охлаждение и отходы — без них к ядерной энергии лучше не подходить."
       ],
       "intro_en": [
-        "The electrical story links fuel, steelmaking, generation and consumers from different mods. Begin with a clear source and one load, then expand: a large generator cannot fix wrong connectors or blocked outputs.",
-        "Objective titles do not measure performance. Test operating installations in the world, paying particular attention to power isolation, cooling and waste handling before entering nuclear energy."
+        "The electrical line ties fuel, steel, generators and consumers from different mods into a single grid. Start with one clear source and one load, then grow: a bigger generator will not save you from mismatched connectors and a blocked output.",
+        "Quest titles describe parts, not power; whether a plant really works is visible only in the world. Emergency shutdown, cooling and waste deserve special attention — without them, nuclear energy is best left alone."
       ]
     },
     "story_expedition": {
       "intro": [
-        "Экспедиционная линия собирает несколько самостоятельных приключений в маршрут по мирам. Карточки связывают этапы книги, но не отменяют местные порталы, сюжетные условия, защиту областей и личные достижения каждого мода.",
-        "Перед переходом готовьте возвращение и место для трофеев. Где достижение выдаётся за предмет, сначала получите его в свой инвентарь; где требуется событие, одно посещение измерения не завершает сюжет."
+        "Экспедиционная линия связывает несколько самостоятельных приключений в один маршрут по мирам. Карточки книги ведут от этапа к этапу, но порталы, сюжетные условия, защита областей и личные достижения остаются во власти каждого мода.",
+        "Перед каждым переходом готовьте обратную дорогу и место для трофеев. Там, где достижение выдаётся за предмет, сначала возьмите его в собственный инвентарь; там, где нужно событие, одного визита в измерение мало."
       ],
       "intro_en": [
-        "The expedition line combines several independent adventures into a route through worlds. Cards connect book stages without removing local portals, story conditions, area protection or each mod’s personal advancements.",
-        "Before crossing, prepare a return route and space for trophies. Where an advancement depends on an item, acquire it in your own inventory first; where it requires an event, merely visiting the dimension does not finish the story."
+        "The expedition line links several independent adventures into one route across worlds. The book’s cards lead from stage to stage, but portals, story conditions, protected areas and personal advancements stay in the hands of each mod.",
+        "Before every crossing, prepare the way back and a place for trophies. Where an advancement is granted for an item, take it into your own inventory first; where an event is required, a single visit to the dimension is not enough."
       ]
     },
     "story_colony": {
       "intro": [
-        "Развитие колонии идёт от первых построенных рабочих мест к снабжению, обучению, производству и гарнизону. Предмет хижины — только начало: здание должен возвести строитель, а работу выполняет назначенный и обеспеченный житель.",
-        "Книга запоминает показанные блоки, поэтому после регистрации их можно ставить. Проверяйте запросы жителей и реальные маршруты доставки: десятки заготовленных хижин не превращаются сами собой в действующий город."
+        "Колония растёт от первых рабочих мест к снабжению, обучению, производству и гарнизону. Блок хижины — лишь заявка: здание возводит строитель из запрошенных материалов, а работу делает назначенный и накормленный житель.",
+        "Показанные блоки книга запоминает, так что после регистрации их можно ставить. Смотрите на запросы жителей и на настоящие маршруты доставки: десяток заготовленных хижин сам по себе городом не станет."
       ],
       "intro_en": [
-        "Colony development leads from the first constructed workplaces to supply, education, production and a garrison. A hut item is only the beginning: a builder must construct it, and an assigned, supplied citizen performs the work.",
-        "The book remembers shown blocks, so place them after registration. Inspect citizen requests and actual delivery routes: dozens of prepared huts do not turn themselves into an operating town."
+        "A colony grows from its first workplaces to supply, schooling, industry and a garrison. A hut block is only an application: the builder raises the building from requested materials, and the work is done by an assigned, well-fed citizen.",
+        "The book remembers blocks it has seen, so once registered they can be placed. Watch the citizens’ requests and the real delivery routes: a dozen stockpiled huts will not turn into a town on their own."
       ]
     },
     "story_sky": {
       "intro": [
-        "Воздушный проект соединяет физическую конструкцию, наблюдение, управление оружием и снабжение. Сначала проверяйте подъём и управление на небольшой пришвартованной площадке, затем добавляйте оборудование и повторяйте испытание с возросшей массой.",
-        "Радарный контакт не означает разрешение на огонь, а набор деталей не равен готовому кораблю. Настройте опознавание и безопасный сектор испытаний до загрузки боеприпасов; после каждого изменения проверяйте движение без выстрела."
+        "Воздушный проект собирает воедино физическую конструкцию, наблюдение, оружие и снабжение. Сначала проверьте подъём и управление на маленькой пришвартованной площадке, потом добавляйте оборудование и повторяйте испытание с новой массой.",
+        "Отметка на радаре — не разрешение стрелять, а ящик деталей — не корабль. Настройте опознавание и безопасный сектор до того, как загрузите боеприпасы, и после каждого изменения делайте пробный полёт без выстрела."
       ],
       "intro_en": [
-        "The aerial project combines a physical structure, observation, weapon control and supply. Test lift and handling on a small moored platform first, then add equipment and repeat with the increased mass.",
-        "A radar contact does not mean permission to fire, and a collection of parts is not a completed ship. Configure identification and a safe test sector before loading ammunition; check motion without firing after every modification."
+        "The air project brings together a physics construct, observation, weapons and supply. Test lift and control on a small moored platform first, then add equipment and repeat the trial at the new mass.",
+        "A radar contact is not permission to fire, and a crate of parts is not a ship. Set up identification and a safe sector before loading ammunition, and after every change make a test flight without a shot."
       ]
     }
   },
   "quests": {
     "story_forge/hand": {
       "text": [
-        "Ручной привод помогает понять связь источника вращения с машиной до строительства постоянной электромеханики. Подготовьте рукоятку, механический пресс и железные слитки для десяти листов. Для первой площадки достаточно свободного места над депо; высокая башня и большой цех пока не нужны.",
-        "Подведите вращение от рукоятки к прессу, положите слиток на депо под его рабочей головкой и проверните привод. Проследите, что пресс выполняет полный удар, а результат действительно стал железным листом. Повторите обработку, сохраняя готовую продукцию отдельно от исходных слитков.",
-        "Рукоятку и пресс можно установить сразу после регистрации в инвентаре; разбирать их повторно не требуется. Десять листов покажите вместе, потому что количество одного предмета считается одновременно, а не суммой отдельных получений. Дальше ручную работу заменит выбранный вами источник: ветер или вода."
+        "Всё начинается с руки на рукоятке. Пока у вас нет ни ветряка, ни колеса, ручной привод показывает главное: машине Create нужно вращение, и оно приходит по валу. Для первой пробы хватит рукоятки, механического пресса и десятка железных слитков — под листы.",
+        "Подведите вал от рукоятки к прессу, положите слиток на депо под его головку и проверните ручку. Пресс должен опуститься до конца, а слиток — стать железным листом. Повторите, пока не наберётся десять, и складывайте готовое отдельно от сырья.",
+        "Рукоятку и пресс можно ставить сразу после того, как книга их заметила; разбирать ничего не придётся. Десять листов покажите разом: книга запоминает наибольшее количество одного предмета, а не сумму мелких партий. Дальше руку сменит ветер или вода — на ваш выбор."
       ],
       "text_en": [
-        "A hand crank teaches the relationship between rotation and machinery before a permanent power system is built. Prepare a crank, mechanical press and iron ingots for ten sheets. A clear space above a depot is enough for the first station; no tower or large workshop is needed.",
-        "Connect crank rotation to the press, place an ingot on the depot beneath its head and turn the handle. Watch the press complete its stroke and confirm that the output becomes an iron sheet. Repeat, keeping finished output separate from raw ingots.",
-        "Install the crank and press as soon as inventory registration occurs; dismantling them again is unnecessary. Show ten sheets together because the quantity of one item is measured simultaneously, not added across separate acquisitions. Next, choose wind or water to replace manual effort."
+        "It all begins with a hand on the crank. Before you own a windmill or a wheel, the hand crank shows the essential thing: a Create machine needs rotation, and rotation travels along a shaft. For the first trial a crank, a mechanical press and a dozen iron ingots for sheets will do.",
+        "Run a shaft from the crank to the press, put an ingot on a depot under its head and turn the handle. The press must come all the way down, and the ingot must become an iron sheet. Repeat until you have ten, keeping the finished sheets apart from the raw metal.",
+        "The crank and the press can be placed as soon as the book has seen them; nothing needs taking apart. Show the ten sheets together: the book remembers the largest count of one item, not the sum of small batches. After this, wind or water will replace your hand — the choice is yours."
       ]
     },
     "story_forge/wind": {
       "text": [
-        "Ветряк даёт постоянное вращение без расхода топлива и помогает вынести привод за пределы рабочего пола. Подготовьте подшипник ветряка и 64 парусные рамы. Высота сама по себе не является условием мощности: важны собранная конструкция и учитываемые парусные элементы.",
-        "Закрепите будущий ротор на подшипнике, добавьте рамы и надёжные связи между частями конструкции. Перед сборкой оставьте пространство, чтобы вращающийся объект не перекрывал проходы. Изучите показанную в Ponder последовательность запуска подшипника, затем снимите вращение с его неподвижной стороны на рабочий вал.",
-        "Все 64 рамы должны однажды оказаться в инвентаре вместе; после регистрации ставьте их без второго комплекта. Наличие деталей не измеряет работу ветряка, поэтому проверьте вращение подключённого вала. Следующее задание со стрессометром покажет, какую часть доступной мощности уже использует ваш цех."
+        "Ветряк крутится сам, не просит топлива и выносит привод из тесного цеха на крышу. Понадобятся подшипник ветряка и 64 парусные рамы. Высота сама по себе мощности не добавляет — считаются только собранная конструкция и число парусов.",
+        "Закрепите будущий ротор на подшипнике, набирайте его рамами и оставляйте простор вокруг: вращающийся крест не должен перекрывать проходы. Ponder подшипника показывает, как запустить ветряк, — посмотрите его до сборки. Вращение снимайте с неподвижной стороны подшипника на рабочий вал.",
+        "Все 64 рамы должны хотя бы раз лежать в инвентаре одновременно; после этого ставьте их, второй комплект не нужен. Крутится ли вал — проверьте глазами. Следующий шаг со стрессометром покажет, какую долю мощности уже съедает ваш цех."
       ],
       "text_en": [
-        "A windmill provides continuous rotation without fuel and moves the drive away from the workshop floor. Prepare a windmill bearing and 64 sail frames. Height alone does not determine capacity: the assembled structure and recognised sail elements matter.",
-        "Attach the planned rotor to the bearing, add frames and secure connections between its parts. Leave room before assembly so the rotating object does not obstruct walkways. Study the bearing’s startup sequence in Ponder, then take rotation from its stationary side to the workshop shaft.",
-        "All 64 frames must appear together in inventory once; after registration, install them without making another set. Owning parts does not measure windmill operation, so check the connected shaft actually rotates. The next stressometer task shows how much available capacity the workshop uses."
+        "A windmill turns by itself, asks for no fuel and moves the drive out of the cramped workshop onto the roof. You will need a windmill bearing and 64 sail frames. Height adds no power of its own — only the assembled structure and the number of sails count.",
+        "Fix the future rotor to the bearing, fill it out with frames and leave room around it: the spinning cross must not block walkways. The bearing’s Ponder scene shows how to start the windmill — watch it before assembling. Take rotation from the bearing’s stationary side onto the working shaft.",
+        "All 64 frames must sit in your inventory at once at least once; after that, place them, no second set required. Whether the shaft turns, check with your own eyes. The next step with the stressometer will show how much of the power your workshop is already eating."
       ]
     },
     "story_forge/water": {
       "text": [
-        "Водяная ветка предлагает другой постоянный привод для первого цеха. Подготовьте два больших водяных колеса Create и место для направленного потока воды. Само присутствие воды рядом с колесом недостаточно: поток должен воздействовать на него в подходящем месте.",
-        "Сначала установите одно колесо и организуйте подачу так, чтобы оно устойчиво вращалось. Затем добавьте второе и соедините валы, проверяя совместимость направлений. Уберите разлив с проходов и оставьте доступ к месту подключения, чтобы дальнейшие шестерни не пришлось монтировать вслепую через воду.",
-        "Покажите оба колеса в инвентаре одновременно до установки; после учёта вторую пару делать не нужно. Работу потока проверьте глазами и вращением связанного механизма. Эта ветка позволяет перейти к переработке без ветряка, а второй источник позже можно добавить ради увеличения доступной нагрузки."
+        "Вода — второй вечный двигатель первого цеха. Нужны два больших водяных колеса Create и место, где поток можно направить. Лужа рядом с колесом ничего не даёт: вода должна бить по лопастям в нужной точке.",
+        "Поставьте сначала одно колесо и добейтесь ровного вращения, потом добавьте второе и соедините валы, сверив направления. Уберите разливы с дорожек и оставьте подход к точке подключения, чтобы шестерни потом не пришлось монтировать вслепую сквозь воду.",
+        "Оба колеса покажите книге вместе до установки; вторую пару делать незачем. Работу потока проверяйте по вращению связанного механизма. Эта ветка ведёт к переработке без ветряка, а второй источник можно добавить позже, когда нагрузки станет больше."
       ],
       "text_en": [
-        "The water branch offers another continuous drive for the first workshop. Prepare two large Create water wheels and a site for directed flowing water. Water merely sitting nearby is insufficient: its flow must affect the wheel in a suitable position.",
-        "Install one wheel first and arrange water until it rotates steadily. Add the second and connect shafts while checking compatible directions. Remove spills from walkways and retain access to the connection point so future gears need not be installed blindly through water.",
-        "Show both wheels together in inventory before installation; no second pair is needed after registration. Verify the flow visually and through a connected mechanism’s rotation. This branch reaches processing without a windmill, while another source can be added later to increase available stress capacity."
+        "Water is the second perpetual engine of a first workshop. You need two large Create water wheels and a place where the flow can be directed. A puddle next to the wheel gives nothing: the water must strike the paddles at the right point.",
+        "Place one wheel first and get it turning steadily, then add the second and join the shafts, checking the directions. Clear spills off the walkways and leave access to the connection point so that later gears need not be mounted blindly through water.",
+        "Show both wheels to the book together before placing them; a second pair is pointless. Judge the flow by the rotation of the connected mechanism. This branch leads to processing without a windmill, and a second source can be added later, when the load grows."
       ]
     },
     "story_forge/source": {
       "text": [
-        "Стрессометр переводит работающий ветряк из наблюдения за вращением в понятный запас мощности. Изготовьте прибор и подключите его к тому же механическому валу, который питает пресс. Отдельный вращающийся вал без связи с цехом покажет состояние другой сети и не поможет оценить вашу нагрузку.",
-        "Сначала посмотрите показания при отключённой обработке, затем включите пресс и сравните результат. Очки инженера помогают читать параметры Create на месте. Если сеть перегружена, временно отсоедините часть потребителей и выясните, какой механизм или увеличение скорости привели к остановке.",
-        "Предметная цель запоминает стрессометр в инвентаре; поставленный прибор обратно забирать не нужно. Сама галочка не означает достаточного запаса мощности. После проверки выберите мельницу или дробильные колёса: каждая из этих веток ведёт к дальнейшей обработке, а водяное подтверждение остаётся альтернативой этому входу."
+        "Стрессометр превращает крутящийся ветряк в понятную цифру — запас мощности. Сделайте прибор и посадите его на тот же вал, что питает пресс. Отдельный вал где-то в стороне покажет чужую сеть и ничего не скажет о вашей.",
+        "Сначала снимите показания при выключенной обработке, затем включите пресс и сравните. Инженерные очки читают параметры Create прямо на месте. Если сеть встала, отключайте потребителей по одному и ищите, какая машина или лишнее ускорение её перегрузили.",
+        "Стрессометр книга запоминает как обычный предмет; поставленный прибор снимать не нужно. О запасе судите по стрелке, а не по галочке в книге. Дальше выбирайте: мельница или дробильные колёса, обе дороги ведут к переработке, а водяная проверка остаётся альтернативным входом."
       ],
       "text_en": [
-        "A stressometer turns a visibly rotating windmill into an understandable power reserve. Craft the gauge and connect it to the same mechanical shaft that drives the press. An unrelated rotating shaft reports a different network and cannot assess your workshop load.",
-        "Read the gauge with processing idle, then operate the press and compare. Engineer’s goggles help read Create parameters in place. If the network is overstressed, temporarily disconnect some consumers and identify which machine or speed increase caused the stop.",
-        "The item objective remembers the stressometer from inventory; an installed gauge need not be collected again. Its checkmark does not mean enough capacity remains. After testing, choose milling or crushing: both lead to further processing, with the water confirmation remaining an alternative entrance."
+        "The stressometer turns a spinning windmill into an understandable number — spare power. Make the gauge and put it on the same shaft that drives the press. A separate shaft off to the side will show somebody else’s network and say nothing about yours.",
+        "Take a reading first with processing switched off, then start the press and compare. Engineer’s goggles read Create values right where you stand. If the network stalls, disconnect consumers one at a time and find which machine or extra speed-up overloaded it.",
+        "The book remembers the stressometer as an ordinary item; a mounted gauge need not come down. Judge the headroom by the needle, not by the tick in the book. Next, choose: millstone or crushing wheels, both roads lead to processing, and the water check remains an alternative entrance."
       ]
     },
     "story_forge/source_w": {
       "text": [
-        "После установки колёс проверьте не только вращение, но и запас нагрузки водяной сети. Один стрессометр на её общем валу позволяет увидеть влияние подключаемых машин. Если на базе уже есть такой прибор, используйте его: предметная цель не требует изготовления отдельного экземпляра для каждой ветки.",
-        "Подключите измеритель там, где колесо и будущая обработка действительно образуют одну механическую сеть. Включите первый потребитель и наблюдайте изменение загрузки. При остановке сначала проверьте течение воды и направления соединённых приводов, а затем слишком высокую скорость или число машин.",
-        "Эта необязательная карточка подтверждает водяной вход в переработку; проходить ветряную линию ради мельницы не требуется. После регистрации прибор может оставаться установленным. Сохраните небольшую доступную мощность для транспорта: работающий пресс бесполезен, если после добавления ленты вся сеть перестаёт вращаться."
+        "Колёса крутятся — теперь узнайте, сколько они выдерживают. Один стрессометр на общем валу водяной сети покажет, как каждая новая машина сдвигает стрелку. Если прибор уже есть, используйте его: книга не требует отдельного экземпляра на каждую ветку.",
+        "Ставьте измеритель там, где колесо и будущая переработка образуют одну сеть. Включите первого потребителя и следите за загрузкой. При остановке сперва проверьте течение воды и направления приводов, потом уже скорость и число машин.",
+        "Эта необязательная карточка подтверждает водяной вход в переработку; ветряк ради мельницы проходить не нужно. Оставьте немного мощности про запас для транспорта: пресс, который встал вместе со всей сетью после первой ленты, — картина невесёлая."
       ],
       "text_en": [
-        "After installing water wheels, check stress capacity as well as visible rotation. One stressometer on the shared shaft shows the effect of connected machinery. Reuse an existing gauge if available: the item objective does not require a separate copy for each branch.",
-        "Connect the gauge where the wheel and future processing equipment genuinely share one mechanical network. Start the first consumer and observe the load change. If rotation stops, check water flow and connected drive directions before investigating excessive speed or machine count.",
-        "This optional card confirms the water entrance into processing; the wind branch is not required to reach milling. The gauge may remain installed after registration. Keep some capacity for transport: a running press is useless if adding its belt stops the entire network."
+        "The wheels are turning — now find out how much they can bear. One stressometer on the shared shaft of the water network shows how every new machine moves the needle. If you already own the gauge, use it: the book does not demand a separate one per branch.",
+        "Mount the meter where the wheel and the future processing form one network. Switch on the first consumer and watch the load. If everything stops, check the water flow and the drive directions first, and only then speed and the number of machines.",
+        "This optional card confirms the water entrance into processing; there is no need to go through the windmill for the sake of a millstone. Keep a little power in reserve for transport: a press that stalled together with the whole network after the first belt is a sorry sight."
       ]
     },
     "story_forge/mill": {
       "text": [
-        "Мельница предлагает простой выход продукции из уже работающего источника вращения. Для заказа нужны 32 единицы пшеничной муки Create. Выращенная пшеница превращается в полезный полуфабрикат, который затем можно использовать в собственной пищевой линии; эту конкретную партию вы отдаёте книге.",
-        "Установите жёрнов, подведите вращение и загрузите небольшое количество пшеницы. Проверьте получение муки и способ её извлечения до подачи полного урожая. Запас семян оставьте для нового посева, а часть зерна сохраните на обычный хлеб, пока следующий участок пищевой обработки ещё не построен.",
-        "При сдаче все 32 единицы муки нужны в инвентаре одновременно и будут израсходованы. Проверка не требует сдавать сам жёрнов. Это полноценная альтернатива дробильным колёсам на пути к вентиляторной обработке, поэтому дорогую латунную сборку можно оставить до появления настоящей потребности."
+        "Мельница — самый простой способ получить от работающего вала что-то съедобное. Заказ книги — 32 пшеничной муки Create. Из выращенной пшеницы получается полуфабрикат для будущей кухни; эту партию вы отдадите книге.",
+        "Поставьте жёрнов, подведите вращение и загрузите немного пшеницы. Убедитесь, что мука выходит и её удобно забирать, прежде чем ссыпать весь урожай. Семена оставьте на новый посев, а часть зерна — на обычный хлеб, пока кухня не построена.",
+        "При сдаче все 32 муки должны лежать в инвентаре и будут израсходованы; сам жёрнов сдавать не нужно. Мельница — полноправная замена дробильным колёсам на пути к вентиляторам, поэтому дорогую латунную сборку можно отложить до настоящей нужды."
       ],
       "text_en": [
-        "Milling offers a simple finished product from your established rotation source. The order needs 32 units of Create wheat flour. Farmed wheat becomes an intermediate useful for a later food line, although this particular batch goes to the book.",
-        "Install a millstone, supply rotation and load a little wheat. Verify flour production and extraction before feeding an entire harvest. Keep seeds for replanting and some grain for ordinary bread while the next food-processing stage is still unbuilt.",
-        "All 32 flour must be together in inventory at submission and will be consumed. The millstone itself is not submitted. This is a full alternative to crushing wheels on the route to fan processing, letting you postpone expensive brass assembly until it is actually needed."
+        "The millstone is the simplest way to get something edible out of a working shaft. The book’s order is 32 Create wheat flour. Grown wheat becomes an ingredient for a future kitchen; this batch you hand over to the book.",
+        "Place the millstone, connect rotation and load a little wheat. Make sure the flour comes out and is easy to collect before pouring in the whole harvest. Keep seeds for the next sowing and some grain for plain bread until the kitchen is built.",
+        "At turn-in all 32 flour must be in your inventory and will be consumed; the millstone itself is not handed over. The millstone is a full replacement for crushing wheels on the way to the fans, so the expensive brass assembly can wait until there is a real need."
       ]
     },
     "story_forge/wheels": {
       "text": [
-        "Дробильная ветка подходит, когда вы уже освоили латунную технику и механические крафтеры Create. Подготовьте два дробильных колеса и сырьё для 128 дроблёного железа. Жёрнов остаётся альтернативным входом, поэтому не нужно строить сложную линию раньше собственного технологического уровня.",
-        "Соберите колёса по рецепту механического крафта, установите парой и настройте встречное вращение к рабочему промежутку. Сначала обработайте небольшое количество подходящего железного сырья. Оградите доступ к зоне дробления и проверьте сбор результата снизу, чтобы продукция не исчезала среди лежащих на земле предметов.",
-        "Колёса учитываются как обычные предметы: покажите пару и ставьте её в работу. Однако вся партия из 128 дроблёного железа требуется сейчас при сдаче и расходуется. Это подтверждает выпуск материала, а корректность направления, безопасность и непрерывность загрузки установки вы проверяете отдельно."
+        "Дробильные колёса — путь для тех, кто уже освоил латунь и механические сборщики. Нужны два колеса и сырьё на 128 дроблёного железа. Жёрнов остаётся равноценным входом, так что строить эту линию раньше своего уровня незачем.",
+        "Соберите колёса на механических сборщиках, поставьте парой и настройте встречное вращение к зазору между ними. Начните с малой порции железного сырья. Огородите зону дробления и наладьте сбор снизу, иначе продукция затеряется среди предметов на земле.",
+        "Колёса книга запоминает как обычные предметы: покажите пару и пускайте в работу. А вот 128 дроблёного железа нужны в инвентаре при сдаче и уйдут целиком. Это подтверждает выпуск материала; направление вращения, ограждение и ровную подачу проверяйте сами."
       ],
       "text_en": [
-        "The crushing branch suits players who already have Create brass machinery and mechanical crafters. Prepare two crushing wheels and inputs for 128 crushed raw iron. Milling remains an alternative entrance, so this complex line need not precede your actual technology level.",
-        "Craft the wheels through mechanical crafting, install them as a pair and arrange inward rotation towards the processing gap. Test a small amount of compatible iron input first. Fence off the crushing area and check collection below so output is not lost among ground items.",
-        "Wheels use ordinary item tracking: show the pair, then put it to work. The full 128 crushed raw iron, however, must be present now at submission and is consumed. This confirms material output; rotation direction, safety and continuous feeding require separate inspection."
+        "Crushing wheels are the road for those who already know brass and Create’s mechanical crafters. You need two wheels and raw material for 128 crushed raw iron. The millstone remains an equal entrance, so there is no reason to build this line before your own level.",
+        "Assemble the wheels on mechanical crafters, place them as a pair and set them to turn towards the gap between them. Start with a small portion of iron raw material. Fence off the crushing zone and arrange collection underneath, or the output will get lost among items on the ground.",
+        "The book remembers the wheels as ordinary items: show the pair and put it to work. The 128 crushed raw iron, however, must be in your inventory at turn-in and will go in full. That confirms the output; the direction of rotation, the fencing and a steady feed you check yourself."
       ]
     },
     "story_forge/smelt": {
       "text": [
-        "Вентиляторная обработка превращает поток воздуха в технологический инструмент Create. Подготовьте два закрытых вентилятора и восемь соединителей ленты, затем откройте их Ponder. Для плавки воздух должен пройти через лаву и достигнуть предметов; простая лава рядом с машиной не создаёт нужный режим.",
-        "Выберите направление потока, поставьте подходящий источник обработки на его пути и проведите ленту с предметами через рабочую область. Начните с одного материала, для которого есть рецепт массовой плавки. Защитите лаву от случайного касания и проверьте, что готовый результат действительно уходит в выходной сундук.",
-        "Книга считает детали и просмотр справки, а не скорость плавки. Показанные вентиляторы можно сразу ставить, соединители учитывайте одной партией из восьми. Перед расширением дайте тестовому предмету достаточно времени в потоке: слишком быстрая лента может увезти его до завершения обработки."
+        "Закрытый вентилятор превращает поток воздуха в инструмент: воздух, прошедший сквозь лаву, плавит всё, что едет мимо. Нужны два вентилятора, восемь соединителей ленты и просмотренный Ponder вентилятора. Лава, просто стоящая рядом с машиной, ничего не плавит — важен поток сквозь неё.",
+        "Выберите направление потока, поставьте на его пути лаву и проведите ленту с предметами через рабочую зону. Начните с одного материала, у которого есть рецепт массовой плавки. Закройте лаву от случайного касания и проследите, что результат доезжает до выходного сундука.",
+        "Книга считает детали и просмотр Ponder, а не скорость плавки. Вентиляторы ставьте сразу, соединители покажите одной партией из восьми. Дайте пробному предмету время в потоке: слишком быстрая лента увезёт его недоплавленным."
       ],
       "text_en": [
-        "Fan processing turns airflow into a Create production tool. Prepare two encased fans and eight belt connectors, then open their Ponder scene. For blasting, air must pass through lava and reach items; lava merely beside the machine does not establish the correct mode.",
-        "Choose airflow direction, put the processing source in its path and run an item belt through the working area. Begin with a material that has a bulk-blasting recipe. Protect lava from accidental contact and verify that finished output reaches the destination chest.",
-        "The book counts components and viewing the reference, not smelting speed. Install registered fans immediately and show the eight connectors as one batch. Before expanding, give the test item enough time in the airflow: an overly fast belt may carry it away before processing finishes."
+        "The encased fan turns a stream of air into a tool: air that has passed through lava smelts whatever rides past. You need two fans, eight belt connectors and the fan’s Ponder scene watched. Lava merely standing next to the machine smelts nothing — what matters is the stream through it.",
+        "Choose the direction of the stream, put lava in its path and run a belt with items through the working zone. Start with one material that has a bulk smelting recipe. Shield the lava from accidental contact and make sure the result reaches the output chest.",
+        "The book counts parts and the Ponder scene, not smelting speed. Place the fans straight away; show the connectors as one batch of eight. Give a test item time in the stream: a belt that is too fast will carry it away half-smelted."
       ],
       "task_notes": {
         "2": {
@@ -157,52 +157,52 @@
     },
     "story_forge/boiler": {
       "text": [
-        "Паровой участок даёт запас вращения для более крупной обработки, но его мощность ограничивается сразу несколькими условиями. Подготовьте четыре паровых двигателя, шестнадцать баков и четыре горелки с блейзами. Эти количества являются набором деталей, а не обещанием конкретного уровня котла.",
-        "Соедините баки в допустимую конструкцию, обеспечьте непрерывную воду и нагрев снизу. Разместите двигатели с корректным выходом вращения на вал и проверьте показатели котла. Недостаток воды нельзя исправить дополнительной горелкой, как нехватку тепла — простым увеличением размера резервуара.",
-        "Покажите каждую требуемую партию до установки; разные виды деталей разрешено регистрировать по очереди. Затем проверьте устойчивую работу под нагрузкой, включая питание насоса при запуске. Если вода подаётся от самого котла, предусмотрите начальный запуск, иначе пустая установка не обеспечит себе первый поток."
+        "Паровой котёл даёт вращение для настоящего цеха, но его мощность держится на нескольких условиях сразу. Соберите четыре паровых двигателя, шестнадцать баков и четыре горелки с ифритами. Это набор деталей, а не обещание определённого уровня котла.",
+        "Составьте баки в допустимую форму, дайте им непрерывную воду и жар снизу. Двигатели ставьте так, чтобы вращение выходило на вал, и следите за показателями котла. Нехватку воды не лечат лишней горелкой, а нехватку жара — большим баком.",
+        "Каждую партию показывайте до установки; разные детали можно регистрировать по очереди. Потом проверьте котёл под нагрузкой, включая питание насоса на старте. Если вода идёт от самого котла, продумайте первый запуск: пустой котёл себе воды не накачает."
       ],
       "text_en": [
-        "The steam section provides rotation for larger processing, but several conditions limit its output simultaneously. Prepare four steam engines, sixteen tanks and four occupied blaze burners. These quantities form a component kit, not a promise of any particular boiler level.",
-        "Join tanks into a valid structure, provide continuous water and heat from below. Install engines with correctly arranged rotational outputs and inspect boiler indicators. Another burner cannot fix missing water, just as a larger tank cannot fix insufficient heat.",
-        "Show each required batch before installation; different component types may register separately. Then check stable loaded operation, including pump power during startup. If the boiler powers its own water supply, arrange an initial start method or an empty installation cannot provide its first flow."
+        "A steam boiler gives rotation for a real workshop, but its power rests on several conditions at once. Gather four steam engines, sixteen fluid tanks and four blaze burners. This is a set of parts, not a promise of a particular boiler level.",
+        "Arrange the tanks into a valid shape, give them a constant supply of water and heat from below. Mount the engines so that rotation reaches a shaft, and watch the boiler’s readout. A shortage of water is not cured by an extra burner, nor a shortage of heat by a bigger tank.",
+        "Show each batch before installing it; different parts can be registered one after another. Then test the boiler under load, including power for the pump at start-up. If the water comes from the boiler itself, plan the first start: an empty boiler will not pump its own water."
       ],
       "title": "Паровой участок",
       "title_en": "Steam Power Section"
     },
     "story_forge/precision": {
       "text": [
-        "Механизмы точности связывают освоенную мощность с управляемой производственной линией. Вам нужна партия из восьми готовых механизмов Create. Планируйте золотые листы и расходники с запасом, поскольку последовательная сборка иногда выдаёт побочные предметы, а не нужный результат.",
-        "Один цикл состоит из добавления малой шестерни, большой шестерни и железного самородка деплойерами; исходный золотой лист проходит всю последовательность пять раз. Организуйте возврат незавершённых механизмов и отбор готовых. Пять механических крафтеров для этого рецепта не нужны: важны порядок операций и число повторений.",
-        "Сдавайте восемь готовых механизмов одновременно из инвентаря; партия будет израсходована. Книга не определяет степень автоматизации по результату, поэтому лично проверьте хотя бы один полный проход без переноса заготовки руками. Это умение пригодится при обслуживании дальнейших грузовых и управляющих механизмов."
+        "Механизм точности — первая деталь, которую невозможно сделать руками. Книга ждёт восемь готовых механизмов Create. Запаситесь золотыми листами и расходниками с избытком: последовательная сборка иногда выдаёт побочный хлам вместо нужной детали.",
+        "Один цикл — это автономные активаторы, которые по очереди кладут малую шестерню, большую шестерню и железный самородок, и золотой лист проходит эту цепочку пять раз. Наладьте возврат незавершённых механизмов на вход и отбор готовых. Пять механических сборщиков здесь ни при чём: важны порядок операций и число повторов.",
+        "Сдайте восемь механизмов разом из инвентаря; партия уйдёт. Насколько линия автоматизирована, книга не видит, поэтому сами проследите хотя бы один полный проход без переноса заготовки руками. Это умение ещё пригодится, когда дело дойдёт до поездов и управления."
       ],
       "text_en": [
-        "Precision mechanisms connect your available power to a controlled production line. You need eight completed Create precision mechanisms. Allow extra golden sheets and consumables because sequenced assembly sometimes yields by-products instead of the desired result.",
-        "One cycle adds a small cogwheel, a large cogwheel and an iron nugget using deployers; the initial golden sheet passes through that entire sequence five times. Arrange return routing for incomplete mechanisms and extraction for finished ones. Five mechanical crafters are unnecessary here: operation order and repetition count matter.",
-        "Submit eight completed mechanisms together from inventory; the batch is consumed. The book cannot infer automation from the output, so personally observe one full pass without carrying the workpiece by hand. This skill supports later freight and control equipment."
+        "The precision mechanism is the first part that cannot be made by hand. The book expects eight finished Create mechanisms. Stock up on gold sheets and consumables generously: sequenced assembly sometimes yields scrap instead of the part you wanted.",
+        "One cycle is deployers placing in turn a small cogwheel, a large cogwheel and an iron nugget, and the gold sheet passes through this chain five times. Arrange the return of unfinished mechanisms to the input and the sorting-out of finished ones. Five mechanical crafters have nothing to do with it: what matters is the order of operations and the number of repeats.",
+        "Hand in the eight mechanisms at once from your inventory; the batch will go. How automated the line is, the book cannot see, so watch at least one full pass yourself without carrying the workpiece by hand. That skill will come in handy again when trains and controls come up."
       ]
     },
     "story_forge/rails": {
       "text": [
-        "Железнодорожная ветка начинается с маршрута, а не с украшения локомотива. Подготовьте 64 пути Create и две станции для базы и места добычи. Этого запаса может не хватить на любое выбранное расстояние, поэтому сначала осмотрите местность и оцените фактическую длину линии.",
-        "Проложите непрерывный путь между двумя площадками, оставляя удобные участки для станций и погрузки. Изгибы формируйте инструментом прокладки путей, проверяя соединение каждого сегмента. Станции назовите различимо: расписание будет ссылаться на остановки, и одинаковые случайные имена затруднят диагностику маршрута.",
-        "Покажите полный стак путей и обе станции до установки; зарегистрированные предметы можно сразу использовать. Наличие комплекта не подтверждает проходимость линии. Пройдите её от конца до конца и заранее решите, как поезд возвращается: по замкнутому маршруту либо с управлением в обратном направлении."
+        "Железная дорога начинается с маршрута, а не с раскраски паровоза. Заготовьте 64 пути Create и две станции — для базы и для рудника. На любое расстояние такого запаса может не хватить, так что сперва пройдите местность и прикиньте настоящую длину линии.",
+        "Проложите непрерывный путь между площадками, оставив ровные участки под станции и погрузку. Повороты кладите инструментом прокладки путей и проверяйте стык каждого сегмента. Станциям дайте разные внятные имена: расписание будет ссылаться на них, и два одинаковых названия превратят поиск неисправности в мучение.",
+        "Покажите полный стак путей и обе станции до установки; дальше ими можно пользоваться. Проходима ли линия, комплект не скажет — пройдите её от конца до конца. Заранее решите, как поезд будет возвращаться: по кольцу или задним ходом с управлением."
       ],
       "text_en": [
-        "The railway branch starts with a route rather than locomotive decoration. Prepare 64 Create tracks and two stations for the base and mining site. This reserve may not cover every chosen distance, so survey the terrain and estimate actual route length first.",
-        "Lay continuous track between the two sites, leaving convenient station and loading areas. Form curves with track placement controls and inspect each segment’s connection. Give stations distinct names: schedules refer to stops, and accidental duplicate names complicate route diagnosis.",
-        "Show the full track stack and both stations before installing them; registered items may be used immediately. Owning the kit does not verify a traversable route. Walk it end to end and decide how the train returns, using a loop or controls that support reverse travel."
+        "A railway begins with a route, not with painting the locomotive. Prepare 64 Create track pieces and two stations — one for the base, one for the mine. That stock may not cover any distance you like, so walk the terrain first and estimate the real length of the line.",
+        "Lay a continuous track between the two sites, leaving level stretches for stations and loading. Make curves with the track-laying tool and check every joint. Give the stations distinct, meaningful names: the schedule will refer to them, and two identical names turn troubleshooting into torment.",
+        "Show the full stack of track and both stations before placing them; after that they are yours to use. Whether the line is passable, the kit will not tell you — walk it end to end. Decide in advance how the train will return: around a loop or in reverse with controls."
       ]
     },
     "story_forge/train": {
       "text": [
-        "Грузовой поезд завершает путь механика только после реального рейса. Подготовьте органы управления, расписание, синюю фуражку проводника и пару переносных интерфейсов хранения. Фуражка сама не становится машинистом: нужен правильно назначенный управляющий по правилам Create и установленного железнодорожного дополнения.",
-        "Соберите поезд на станции, обеспечьте допустимое движение туда и обратно и задайте расписание двух остановок. На каждой погрузочной площадке совместите интерфейсы так, чтобы остановившийся состав мог обмениваться предметами с базой. Сначала отправьте небольшой дешёвый груз, сохраняя свободное место в принимающем хранилище.",
-        "Предметные цели можно регистрировать последовательно и затем использовать детали. Ручную цель отмечайте только после полного рейса с загрузкой и выгрузкой через интерфейсы. Если состав приехал пустым, проверьте остановку, совпадение интерфейсов и условия ожидания, а не считайте само движение завершённой перевозкой."
+        "Путь механика заканчивается не поездом, а рейсом. Соберите органы управления, расписание, синюю фуражку проводника и пару переносных интерфейсов хранения. Фуражка сама поезд не поведёт: машинистом станет тот, кого вы назначите по правилам Create и железнодорожного дополнения.",
+        "Соберите состав на станции, проверьте ход в обе стороны и задайте расписание из двух остановок. На каждой площадке совместите интерфейсы так, чтобы остановившийся поезд мог обменяться предметами с базой. Первым рейсом отправьте дешёвый груз и оставьте место в принимающем хранилище.",
+        "Детали регистрируйте по очереди и ставьте. Ручную цель отмечайте только после полного рейса с погрузкой и выгрузкой через интерфейсы. Если состав вернулся пустым, ищите причину в остановке, совпадении интерфейсов и условиях ожидания — само движение перевозкой не считается."
       ],
       "text_en": [
-        "The freight train completes the mechanic’s path only after a real round trip. Prepare controls, a schedule, a blue conductor cap and two portable storage interfaces. A cap alone does not become a driver: assign an appropriate operator according to Create and the installed railway addon.",
-        "Assemble the train at a station, provide travel in both directions and schedule the two stops. Align storage interfaces at loading sites so the stopped train exchanges items with the base. Send a small cheap cargo first, with free space in receiving storage.",
-        "Item objectives may register sequentially before components are used. Confirm the manual objective only after a complete trip that loads and unloads through interfaces. If the train arrives empty, inspect its stop, interface alignment and waiting conditions rather than treating movement itself as completed freight service."
+        "The engineer’s road ends not with a train but with a trip. Gather the train controls, a schedule, a blue conductor’s cap and a pair of portable storage interfaces. The cap will not drive the train by itself: the driver is whoever you assign by the rules of Create and the railway add-on.",
+        "Assemble the train at a station, check that it runs both ways and set a two-stop schedule. At each site align the interfaces so that a stopped train can exchange items with the base. Send a cheap load on the first trip and leave room in the receiving storage.",
+        "Register the parts one by one and install them. Tick the manual goal only after a full trip with loading and unloading through the interfaces. If the train came back empty, look for the cause in the stop, the interface alignment and the wait conditions — motion alone does not count as haulage."
       ],
       "task_notes": {
         "4": {
@@ -213,62 +213,62 @@
     },
     "story_current/coke": {
       "text": [
-        "Кокс связывает первую доменную печь с устойчивым снабжением топливом. Для начала электрической истории выделите 64 единицы кокса Immersive Engineering. Эта поставка относится к запасу готового топлива; она не доказывает, что коксовая печь работает непрерывно или что рядом уже построена правильная домна.",
-        "Загрузите уголь в собранную коксовую печь и проследите оба выхода: твёрдый кокс и жидкий креозот. Освобождайте внутреннюю ёмкость, чтобы заполнение жидкости не остановило очередную переработку. Сначала оставьте топливо собственной плавке стали, затем накапливайте отдельный стак для книги.",
-        "При сдаче все 64 единицы требуются в инвентаре и расходуются. Уголь Minecraft не заменяет кокс, даже если тоже служит топливом в других устройствах. После обмена проверьте оставшийся уголь и свободный объём для креозота: следующая стадия одновременно задействует две самостоятельные металлургические цепочки."
+        "Дым над коксовой печью — первый признак того, что электрическая история началась. Книга просит 64 кокса Immersive Engineering. Это запас готового топлива, и только: работает ли печь без остановки и стоит ли рядом правильная домна, по нему не понять.",
+        "Загрузите уголь в собранную коксовую печь и следите за обоими выходами — твёрдым коксом и жидким креозотом. Опорожняйте внутренний бак, иначе полный креозот остановит переработку. Сначала накормите топливом собственную плавку стали, потом откладывайте стак для книги.",
+        "При сдаче все 64 кокса должны быть в инвентаре и уйдут. Обычный уголь Minecraft кокс не заменит, хотя в других печах горит. После сдачи взгляните на остаток угля и свободное место под креозот: следующий шаг запускает сразу две металлургические цепочки."
       ],
       "text_en": [
-        "Coke connects your first blast furnace to a steady fuel supply. Set aside 64 Immersive Engineering coal coke to begin the electrical story. This delivery concerns finished fuel reserves; it does not prove continuous coke-oven operation or a correctly built nearby blast furnace.",
-        "Load coal into an assembled coke oven and follow both outputs: solid coke and liquid creosote. Empty its internal tank so fluid accumulation does not stop another batch. Reserve fuel for your own steelmaking first, then collect a separate stack for the book.",
-        "All 64 pieces must be in inventory at submission and are consumed. Minecraft coal does not replace coke even if other devices accept it as fuel. Afterwards, check remaining coal and creosote capacity: the next stage uses two independent metallurgical chains."
+        "Smoke over the coke oven is the first sign that the electrical story has begun. The book asks for 64 Immersive Engineering coal coke. That is a stock of ready fuel and nothing more: whether the oven runs without pause and whether a proper blast furnace stands nearby, it cannot tell.",
+        "Load coal into the assembled coke oven and watch both outputs — solid coke and liquid creosote. Empty the internal tank, or full creosote will halt processing. Feed your own steel smelting first, then set aside a stack for the book.",
+        "At turn-in all 64 coke must be in your inventory and will go. Plain Minecraft coal will not replace coke, though it burns in other furnaces. After handing it in, look at the remaining coal and the free room for creosote: the next step starts two metallurgical chains at once."
       ]
     },
     "story_current/steel": {
       "text": [
-        "Две стали знакомят с разными способами получить похожий промышленный материал. Здесь нужны 32 стальных слитка Immersive Engineering и 32 Mekanism. Некоторые рецепты принимают их через общие теги, но эта поставка различает точные предметы и требует обе разновидности.",
-        "В IE используйте доменную печь с железом и подходящим топливом, освобождая сталь и шлак. В Mekanism проведите железо через углеродное наполнение до обогащённого железа и стальной пыли, затем выплавьте слитки. Дайте каждой цепочке отдельный выходной сундук, чтобы сразу видеть происхождение продукции.",
-        "Обе партии необходимо принести вместе: сдача расходует все 64 слитка, а не запоминает уже показанные ранее половины. Сохраните материал для корпусов собственных машин. После этого выбирайте электрогенерацию от кинетического динамо IE либо от альтернатора, питаемого вращением Create."
+        "Две стали — два способа получить почти одно и то же. Понадобятся 32 стальных слитка Immersive Engineering и 32 — Mekanism. Многие рецепты принимают их через общие теги, но эта сдача различает предметы точно и требует обе разновидности.",
+        "В IE железо с подходящим топливом проходит через доменную печь, на выходе — сталь и шлак. В Mekanism железо получает углерод в металлургическом инфузоре, становится обогащённым железом, затем стальной пылью и лишь потом слитком. Дайте каждой цепочке свой сундук, чтобы происхождение слитков было видно с первого взгляда.",
+        "Обе партии приносите вместе: сдача забирает все 64 слитка, а половинки, показанные раньше, не запоминает. Оставьте сталь на корпуса собственных машин. Дальше — генерация: кинетическое динамо IE или альтернатор, который крутит вал Create."
       ],
       "text_en": [
-        "Two steels introduce different ways to obtain similar industrial material. This task needs 32 Immersive Engineering steel ingots and 32 Mekanism steel ingots. Some recipes accept both through shared tags, but this delivery distinguishes exact items and requires both variants.",
-        "In IE, run iron and suitable fuel through a blast furnace while clearing steel and slag. In Mekanism, carbon-infuse iron into enriched iron and steel dust, then smelt the ingots. Give each chain its own output chest so product origin remains clear.",
-        "Bring both batches together: submission consumes all 64 ingots rather than remembering halves shown earlier. Keep materials for your own machine casings. Then choose generation through an IE kinetic dynamo or an alternator driven by Create rotation."
+        "Two steels are two ways to get almost the same thing. You need 32 Immersive Engineering steel ingots and 32 from Mekanism. Many recipes accept them through shared tags, but this turn-in tells the items apart precisely and demands both kinds.",
+        "In IE, iron with suitable fuel goes through the blast furnace and comes out as steel and slag. In Mekanism, iron takes on carbon in the metallurgic infuser, becomes enriched iron, then steel dust, and only then an ingot. Give each chain its own chest so the origin of the ingots is obvious at a glance.",
+        "Bring both batches together: the turn-in takes all 64 ingots and does not remember halves shown earlier. Keep some steel for the casings of your own machines. Next comes generation: IE’s kinetic dynamo or an alternator spun by a Create shaft."
       ]
     },
     "story_current/dynamo": {
       "text": [
-        "Кинетическое динамо Immersive Engineering превращает вращение собственного водяного колеса или ветряка мода в электрическую энергию. Подготовьте динамо, низковольтный конденсатор и четыре низковольтных разъёма. Колесо Create нельзя считать подходящим приводом только из-за похожего внешнего вида.",
-        "Соберите выбранный привод IE на рабочей стороне динамо и проверьте условия его вращения. Выведите энергию через подходящие низковольтные соединения в конденсатор, настроив его стороны на приём и выдачу инженерным молотком. Для первого опыта подключите только один понятный потребитель, чтобы видеть направление потока.",
-        "Детали после регистрации можно сразу устанавливать, а разъёмы покажите одной группой из четырёх. Проверьте рост запаса энергии в конденсаторе: наличие динамо в книге не является измерением генерации. Провода прокладывайте вне проходов и безопасно изолируйте доступные участки, прежде чем расширять сеть через двор."
+        "Кинетическое динамо Immersive Engineering превращает вращение собственного водяного колеса или ветряка этого мода в ток. Нужны само динамо, низковольтный конденсатор и четыре низковольтных разъёма. Колесо Create на роль привода не годится, как бы похоже оно ни выглядело.",
+        "Соберите привод IE у рабочей стороны динамо и добейтесь вращения. Ток выведите низковольтными соединениями в конденсатор, а его стороны настройте инженерным молотком на приём и отдачу. Для первого опыта хватит одного потребителя — так виден путь энергии.",
+        "Детали ставьте сразу после регистрации; разъёмы покажите четвёркой. Что генерация идёт, докажет растущий заряд конденсатора, а не галочка в книге. Провода уводите с дорожек и прикрывайте доступные участки, прежде чем тянуть сеть через двор."
       ],
       "text_en": [
-        "An Immersive Engineering kinetic dynamo converts rotation from that mod’s water wheel or windmill into electrical energy. Prepare a dynamo, LV capacitor and four LV connectors. A Create wheel is not automatically a compatible drive merely because it looks similar.",
-        "Build the chosen IE drive on the dynamo’s working side and check its rotation conditions. Feed energy through suitable LV connections into the capacitor, configuring its input and output faces with the engineer’s hammer. Connect one clear consumer initially so energy direction is easy to observe.",
-        "Install components after registration and show the four connectors together. Verify the capacitor’s stored energy rises: a dynamo checkmark is not a generation measurement. Route wires away from walkways and safely insulate accessible sections before extending the grid across the yard."
+        "Immersive Engineering’s kinetic dynamo turns the rotation of the mod’s own water wheel or windmill into current. You need the dynamo, a low-voltage capacitor and four low-voltage connectors. A Create wheel will not do as a drive, however similar it looks.",
+        "Build the IE drive at the working side of the dynamo and get it turning. Lead the current through low-voltage connections into the capacitor, and set its sides for input and output with the engineer’s hammer. One consumer is enough for the first trial — that way the path of the energy is visible.",
+        "Place parts as soon as they are registered; show the connectors as a set of four. A rising charge in the capacitor proves generation, not a tick in the book. Keep wires off the walkways and cover the reachable stretches before running the grid across the yard."
       ]
     },
     "story_current/alternator": {
       "text": [
-        "Альтернатор Create Crafts & Additions позволяет использовать существующую механическую мощность для питания электрических машин. Подготовьте два альтернатора и прокатный стан. Это другая ветка генерации после стали: проходить динамо IE перед ней не требуется, но рабочий источник вращения Create уже нужен.",
-        "Подключите первый альтернатор к валу и проверьте запас нагрузки источника до добавления второго. Через подходящие электрические соединения направьте выход в накопитель или потребитель. Прокатный стан пригодится для проволоки и других деталей дополнения; его вход и выход вращения также учитывайте в общей нагрузке.",
-        "Оба альтернатора покажите одновременно, затем устанавливайте; стан можно зарегистрировать отдельно. Книга не считает выработку энергии, поэтому проверьте её появление у получателя. Если вращение останавливается, устраняйте перегрузку источника, а если валы движутся без передачи энергии — проверяйте электрические подключения и режимы сторон."
+        "Альтернатор из Create Crafts & Additions отдаёт механическую мощность электрическим машинам. Заготовьте два альтернатора и прокатный стан. Это вторая ветка генерации после стали: динамо IE проходить не обязательно, но рабочий источник вращения Create уже нужен.",
+        "Подключите первый альтернатор к валу и посмотрите, какой запас остался у источника, прежде чем вешать второй. Подходящими электрическими соединениями направьте ток в накопитель или потребитель. Стан пригодится для проволоки и других деталей дополнения; его вход и выход тоже ложатся на общую нагрузку.",
+        "Оба альтернатора покажите вместе, потом ставьте; стан регистрируйте отдельно. Выработку книга не считает — убедитесь, что ток дошёл до получателя. Встал вал — ищите перегрузку источника; валы крутятся, а тока нет — проверяйте соединения и настройку сторон."
       ],
       "text_en": [
-        "The Create Crafts & Additions alternator lets existing mechanical power supply electrical machines. Prepare two alternators and a rolling mill. This is another generation branch after steel: IE dynamos are not a prerequisite, but a working Create rotation source is.",
-        "Connect the first alternator to a shaft and inspect source stress capacity before adding the second. Route electrical output through suitable connections into storage or a consumer. The rolling mill produces wire and other addon parts; include its rotational demand in the shared load.",
-        "Show both alternators together, then install them; the mill may register separately. The book does not measure energy production, so check that power reaches the recipient. If rotation stops, fix source overload; if shafts rotate without energy transfer, inspect electrical connections and side modes."
+        "The alternator from Create Crafts & Additions hands mechanical power to electrical machines. Prepare two alternators and a rolling mill. This is the second generation branch after steel: the IE dynamo is not required, but a working Create rotation source already is.",
+        "Connect the first alternator to the shaft and see how much headroom the source has left before hanging the second one. Send the current through suitable electrical connections into a store or a consumer. The mill is useful for wire and other add-on parts; its input and output also land on the common load.",
+        "Show both alternators together, then place them; register the mill separately. The book does not count output — make sure current reaches the receiver. If the shaft stops, look for an overloaded source; if shafts turn but there is no current, check the connections and the side settings."
       ]
     },
     "story_current/grid": {
       "text": [
-        "Общая сеть нужна для передачи энергии между генерацией и потребителями, но разъёмы IE сохраняют свои классы проводов. Обычный трансформатор связывает низковольтную и средневольтную линии. Поэтому в этом наборе используется электрумовая проволока среднего напряжения, а не стальная высоковольтная линия.",
-        "Подготовьте трансформатор, четыре катушки электрумового провода и базовый энергокуб Mekanism. Соберите переход между подходящими разъёмами и настройте стороны куба на приём и выдачу. Энергокуб подключайте через поддерживаемое энергетическое соединение, а не прямым креплением IE-провода к любой его грани.",
-        "Детали можно регистрировать и устанавливать по очереди; четыре катушки одного вида покажите вместе. Сначала проверьте заряд куба от выбранного источника и работу одного потребителя. Затем расширяйте сеть, сохраняя доступ для отключения и не смешивая высоковольтный провод с обычным трансформатором."
+        "Единая сеть переносит ток от генераторов к потребителям, но разъёмы IE помнят класс своего провода. Обычный трансформатор связывает низковольтную линию со средневольтной, поэтому здесь нужна электрумовая проволока среднего напряжения, а не стальная высоковольтная.",
+        "Заготовьте трансформатор, четыре катушки электрумового провода и базовый энергокуб Mekanism. Соберите переход между подходящими разъёмами и настройте стороны куба на приём и отдачу. Куб подключайте через поддерживаемое энергосоединение — IE-провод, прибитый к любой его грани, работать не станет.",
+        "Детали регистрируйте и ставьте по очереди; четыре катушки одного вида покажите вместе. Сначала убедитесь, что куб заряжается от вашего источника и один потребитель работает. Расширяя сеть, оставляйте доступ к отключению и не смешивайте высоковольтный провод с обычным трансформатором."
       ],
       "text_en": [
-        "A shared grid moves energy between generation and consumers, but IE connectors retain their wire classes. An ordinary transformer links low- and medium-voltage lines. This kit therefore uses medium-voltage electrum wire rather than high-voltage steel wire.",
-        "Prepare a transformer, four electrum wire coils and a basic Mekanism energy cube. Build the transition with suitable connectors and configure cube faces for input and output. Connect the cube through supported energy interfaces rather than attaching IE wire directly to an arbitrary face.",
-        "Components can register and be installed separately; show four coils of the same type together. First verify the chosen source charges the cube and runs one consumer. Then expand while retaining shutdown access and keeping high-voltage wire away from the ordinary transformer."
+        "A single grid carries current from generators to consumers, but IE connectors remember the class of their wire. An ordinary transformer joins a low-voltage line to a medium-voltage one, so what is needed here is medium-voltage electrum wire, not high-voltage steel.",
+        "Prepare a transformer, four coils of electrum wire and a basic Mekanism energy cube. Build the crossover between suitable connectors and set the cube’s sides for input and output. Connect the cube through a supported energy connection — an IE wire nailed to any face of it will not work.",
+        "Register and place the parts one at a time; show the four coils of one kind together. First make sure the cube charges from your source and one consumer runs. As the grid grows, keep access for disconnecting it and never mix high-voltage wire with an ordinary transformer."
       ],
       "tasks_override": [
         {
@@ -290,26 +290,26 @@
     },
     "story_current/ore5": {
       "text": [
-        "Химическая переработка Mekanism извлекает больше продукта из подходящего рудного сырья, но название «пятикратная» не гарантирует одинаковый выход для всех форм железа. Подготовьте камеру растворения и кристаллизатор, затем проследите полный рецепт выбранного сырья до железных кристаллов.",
-        "Камера растворения использует серную кислоту и выдаёт грязную суспензию; химический промыватель очищает её водой, после чего кристаллизатор получает кристаллы. Между этими стадиями нужны подходящие химические соединения, питание и свободные выходы. Пропуск промывателя не исправляется прямой трубой между двумя указанными в цели машинами.",
-        "Оборудование учитывается до установки, но 64 железных кристалла требуется сдать одновременно, и они расходуются. Сделайте пробу на малой партии и проверьте выход именно своего рецепта. Для превращения оставшихся кристаллов в слитки понадобится дальнейшая стандартная цепочка очистки и обработки Mekanism."
+        "Химическая переработка Mekanism выжимает из руды больше, чем печь, хотя слово «пятикратная» не обещает одинакового выхода для любой формы железа. Заготовьте камеру растворения и кристаллизатор, а потом проследите весь рецепт выбранного сырья до железных кристаллов.",
+        "Камера растворения работает на серной кислоте и выдаёт грязную суспензию; химический промыватель очищает её водой, и только после этого кристаллизатор даёт кристаллы. Между стадиями нужны свои реагенты, питание и свободные выходы. Прямая труба между двумя машинами из цели промыватель не заменит.",
+        "Оборудование книга запомнит до установки, а 64 железных кристалла нужно сдать разом — они уйдут. Сделайте пробу на малой партии и проверьте выход именно своего рецепта. Оставшиеся кристаллы превращаются в слитки обычной цепочкой очистки Mekanism."
       ],
       "text_en": [
-        "Mekanism chemical processing extracts more output from suitable ore inputs, but the “fivefold” name does not promise identical yields for every form of iron. Prepare a dissolution chamber and crystallizer, then follow your chosen input’s entire recipe through to iron crystals.",
-        "The dissolution chamber uses sulfuric acid and produces dirty slurry; a chemical washer cleans it with water before the crystallizer makes crystals. These stages need suitable chemical connections, power and free outputs. Skipping the washer cannot be fixed by connecting the two listed machines directly.",
-        "Equipment registers before installation, but 64 iron crystals must be submitted together and are consumed. Test a small batch and verify the yield of your actual recipe. Turning remaining crystals into ingots requires Mekanism’s subsequent standard purification and processing chain."
+        "Mekanism’s chemical processing squeezes more out of ore than a furnace, though the word “fivefold” promises no identical yield for every form of iron. Prepare a chemical dissolution chamber and a crystallizer, then trace the whole recipe of your chosen raw material through to iron crystals.",
+        "The dissolution chamber runs on sulfuric acid and produces dirty slurry; the chemical washer cleans it with water, and only then does the crystallizer yield crystals. Between the stages you need their own reagents, power and free outputs. A straight pipe between the two machines named in the goal will not replace the washer.",
+        "The book remembers the equipment before installation, but the 64 iron crystals must be handed in at once — they will go. Run a trial on a small batch and check the yield of your own recipe. The remaining crystals become ingots through Mekanism’s usual purification chain."
       ]
     },
     "story_current/diesel": {
       "text": [
-        "Дизельная ветка поддерживает сеть запасаемым жидким топливом. Генератор IE строится из материалов многоблочной конструкции: готового доступного блока генератора в обычном выживании нет. Подготовьте перечисленные детали и отдельно 16 вёдер биодизеля, не забирая топливо из единственного рабочего резерва базы.",
-        "Соберите генератор по Инженерному руководству и сформируйте его молотком. Масло от выжималки и этанол от ферментёра перерабатываются в биодизель на очистительной установке с селитрой-катализатором. Подведите топливо и подключите электрический выход к накопителю с местом для энергии; наличие бака само по себе не обеспечивает расход.",
-        "Материалы можно показать до постройки, но шестнадцать заполненных вёдер требуются вместе при сдаче и расходуются целиком, включая тару. Ручную цель отмечайте после реальной генерации и роста запаса у получателя. Если двигатель молчит, проверьте топливо, электрический выход и управление, прежде чем перестраивать корпус."
+        "Дизель держит сеть на жидком топливе, которое можно запасти. Генератор IE строится из блоков многоблочной конструкции — готовым предметом в выживании он не бывает. Соберите перечисленные детали и отдельно шестнадцать вёдер биодизеля, не забирая топливо из единственного резерва базы.",
+        "Соберите генератор по Инженерному руководству и сформируйте его молотком. Масло из выжималки и этанол из ферментёра превращаются в биодизель на нефтеперегонном заводе с селитрой в роли катализатора. Подведите топливо и выведите ток в накопитель, где есть место; полный бак сам по себе двигатель не заводит.",
+        "Материалы можно показать до постройки, но шестнадцать полных вёдер сдаются вместе и уходят целиком, с тарой. Ручную цель отмечайте после того, как увидели работу генератора и рост заряда у получателя. Молчит — проверьте топливо, электрический выход и управление, прежде чем ломать корпус."
       ],
       "text_en": [
-        "The diesel branch supports the grid with stockpiled liquid fuel. An IE generator is built from multiblock materials: there is no ordinary survival item representing the complete machine. Prepare the listed components and separately sixteen biodiesel buckets without draining the base’s only operating reserve.",
-        "Build the generator from the Engineer’s Manual and form it with a hammer. Squeezer oil and fermenter ethanol become biodiesel in a refinery using saltpeter catalyst. Supply fuel and connect electrical output to storage with spare capacity; merely having a tank does not establish consumption.",
-        "Show construction materials before building, but all sixteen filled buckets must be present together at submission and are consumed, containers included. Confirm manually after actual generation increases the recipient’s energy reserve. If the engine remains idle, check fuel, output and control before rebuilding its structure."
+        "Diesel keeps the grid on liquid fuel that can be stored. The IE generator is built from multiblock construction blocks — it never exists as a ready-made item in survival. Gather the listed parts and, separately, sixteen buckets of biodiesel, without taking fuel out of the base’s only reserve.",
+        "Assemble the generator by the Engineer’s Manual and form it with the hammer. Oil from the squeezer and ethanol from the fermenter become biodiesel in the refinery, with saltpeter as the catalyst. Bring in the fuel and lead the current into a store with room to spare; a full tank alone does not start the engine.",
+        "Materials can be shown before construction, but the sixteen full buckets are handed in together and go entirely, containers included. Tick the manual goal after you have seen the generator run and the receiver’s charge grow. If it stays silent, check fuel, electrical output and control before tearing down the housing."
       ],
       "tasks_override": [
         {
@@ -364,38 +364,38 @@
     },
     "story_current/fission": {
       "text": [
-        "Реактор деления требует законченной системы охлаждения и отходов до первой загрузки топлива. Адаптер логики, четыре турбинных ротора и четыре запасные топливные сборки — только часть проекта. Книга не проверяет форму реактора, эффективность турбины или безопасность выбранной скорости горения по этим предметам.",
-        "Сначала соберите и проверьте реактор, охлаждающий контур, путь пара и возврат охлаждения, затем организуйте отвод радиоактивных отходов. Настройте аварийное отключение и начните с минимального безопасного режима. Следите за температурой и повреждением; полный защитный комплект нужен для радиоактивных работ, а заполненные трубы и ёмкости нельзя бездумно разбирать.",
-        "Адаптер и роторы разрешено установить после регистрации. Четыре запасные топливные сборки должны оставаться в инвентаре для сдачи и будут израсходованы: не вынимайте их из действующего реактора. При любой нестабильности остановите горение и сохраните охлаждение, вместо попытки закончить испытание повышением мощности."
+        "Реактор деления не прощает недостроенного охлаждения и не отведённых отходов. Адаптер логики, четыре турбинных ротора и четыре запасные топливные сборки — лишь малая часть проекта. Форму реактора, отдачу турбины и безопасность выбранной скорости горения книга по этим предметам не оценит.",
+        "Сначала соберите и проверьте реактор, контур охлаждения, путь пара и возврат хладагента, потом наладьте отвод радиоактивных отходов. Настройте аварийную остановку и начинайте с самого малого безопасного режима. Следите за температурой и повреждением; для работ с радиацией нужен полный защитный комплект, а полные трубы и ёмкости нельзя разбирать наобум.",
+        "Адаптер и роторы ставьте после регистрации. Четыре запасные сборки должны лежать в инвентаре к сдаче и уйдут — не вытаскивайте их из работающего реактора. При малейшей нестабильности гасите горение и сохраняйте охлаждение; дожимать испытание мощностью нельзя."
       ],
       "text_en": [
-        "A fission reactor needs complete cooling and waste systems before the first fuel load. A logic adapter, four turbine rotors and four spare fuel assemblies are only part of the project. These items do not let the book verify reactor structure, turbine efficiency or safe burn rate.",
-        "First assemble and check the reactor, cooling circuit, steam route and coolant return, then arrange radioactive-waste removal. Configure emergency shutdown and start at a minimal safe rate. Watch temperature and damage; complete protection is needed for radioactive work, and occupied pipes or containers must not be dismantled casually.",
-        "The adapter and rotors may be installed after registration. Four spare fuel assemblies must remain in inventory for submission and are consumed: do not remove them from an operating reactor. If anything becomes unstable, stop burning while preserving cooling instead of raising output to finish the trial."
+        "A fission reactor forgives neither unfinished cooling nor waste with nowhere to go. A logic adapter, four turbine rotors and four spare fuel assemblies are only a small part of the project. The reactor’s shape, the turbine’s output and the safety of the chosen burn rate the book cannot judge from these items.",
+        "First assemble and test the reactor, the coolant loop, the steam path and the coolant return, then arrange the removal of radioactive waste. Set up an emergency shutdown and begin at the lowest safe setting. Watch temperature and damage; radiation work needs a full protective suit, and full pipes and tanks must never be taken apart carelessly.",
+        "Place the adapter and rotors after registration. The four spare assemblies must be in your inventory for turn-in and will go — do not pull them out of a running reactor. At the slightest instability stop the burn and keep the cooling; forcing the trial with more power is not an option."
       ]
     },
     "story_expedition/kit": {
       "text": [
-        "Походный комплект должен обеспечивать возвращение, а не только быстрый выход из дома. Подготовьте камень пути Waystones, два свитка возвращения и красный спальный мешок Comforts. Цвет мешка здесь указан точно; другой вариант может работать в игре, но не совпадает с предметной целью.",
-        "Активируйте домашний камень пути и проверьте фактическое назначение свитка до опасного перехода. Разместите запас еды и ремонта у точки возвращения. Спальный мешок полезен для ночёвки в подходящих условиях, но не превращает любое измерение в безопасное место и не заменяет проверку обычной точки возрождения.",
-        "Все предметы остаются у вас: покажите два свитка вместе, остальные цели можно регистрировать отдельно. Перед выходом прочитайте подсказки выбранного средства перемещения и оцените ограничения текущего мира. Если возврат ещё не проверен, сначала совершите короткую поездку поблизости, сохранив второй свиток для самой экспедиции."
+        "Походный набор нужен для возвращения, а не только для быстрого выхода за ворота. Заготовьте камень пути Waystones, два свитка возвращения и красный спальный мешок Comforts. Цвет здесь важен: мешок другого цвета в игре работает, но с этой целью не совпадает.",
+        "Активируйте домашний камень и проверьте, куда на самом деле ведёт свиток, до опасного перехода. У точки возвращения оставьте еду и материалы для ремонта. Спальный мешок хорош для ночёвки в спокойном месте, но чужое измерение безопасным не делает и обычную точку возрождения не отменяет.",
+        "Все предметы остаются у вас: два свитка покажите вместе, остальное — как удобно. Перед выходом прочитайте подсказки своего средства перемещения и учтите ограничения текущего мира. Если возврат ещё не проверен, сначала съездите недалеко, а второй свиток приберегите для самой экспедиции."
       ],
       "text_en": [
-        "A travel kit should provide a way home, not merely a quick departure. Prepare a Waystones waystone, two return scrolls and a red Comforts sleeping bag. The bag colour is exact here; another colour may work in play but does not match the item objective.",
-        "Activate the home waystone and verify the scroll’s actual destination before a dangerous crossing. Keep food and repair supplies near the return point. A sleeping bag helps with overnight travel under suitable conditions but does not make every dimension safe or replace checking your normal respawn point.",
-        "You keep every item: show both scrolls together, while other objectives may register separately. Read the selected travel method’s tooltip and consider the current world’s restrictions. If return travel is untested, make a short nearby trip first and retain the second scroll for the expedition itself."
+        "A travel kit is for coming back, not just for a quick way out of the gate. Prepare a Waystones waystone, two return scrolls and a red Comforts sleeping bag. The colour matters here: a bag of another colour works in the game but does not match this goal.",
+        "Activate your home waystone and check where the scroll really leads before any dangerous crossing. Leave food and repair materials at the return point. The sleeping bag is fine for a night in a quiet spot, but it makes no foreign dimension safe and does not replace your ordinary respawn point.",
+        "All items stay with you: show the two scrolls together, the rest as convenient. Before setting out, read the tooltips of your means of travel and mind the limits of the current world. If the way back is still untested, make a short trip nearby first and keep the second scroll for the expedition itself."
       ]
     },
     "story_expedition/sky": {
       "text": [
-        "Первый небесный этап ведёт в Эфир и его бронзовое подземелье. Для входа подготовьте портал Aether из светокамня с активацией водой, затем возьмите блоки и средство пережить падение. Острова не образуют сплошную поверхность, поэтому направление движения здесь выбирают особенно внимательно.",
-        "После перехода закрепите безопасную площадку возвращения и найдите бронзовое подземелье. Его босс Слайдер требует подходящего для каменного противника инструмента; обычная привычка атаковать только мечом может не сработать. Сохраните пространство для уклонения и не оставляйте необходимую добычу в недоступной части сооружения.",
-        "Задание проверяет посещение Эфира и бронзовый ключ подземелья. Получите ключ в инвентарь до использования на наградном сундуке: книга запомнит обычный предмет и не требует запасного ключа. Далее можно сравнить этот линейный бой с местной последовательностью боссов Сумеречного леса."
+        "Первая небесная остановка — Эфир и его бронзовое подземелье. Портал Aether складывают из светокамня и зажигают водой; с собой возьмите блоки и что-нибудь против падения. Острова не образуют сплошной земли, и каждый шаг в сторону здесь выбирают вдумчиво.",
+        "После перехода закрепите безопасную площадку для возврата и найдите бронзовое подземелье. Его хозяин, Слайдер, каменный, и бить его нужно тем, что берёт камень; привычка размахивать мечом здесь не сработает. Оставьте пространство для уклонения и не бросайте нужную добычу в недосягаемой части сооружения.",
+        "Задание проверяет визит в Эфир и бронзовый ключ подземелья. Возьмите ключ в инвентарь до того, как откроете им наградной сундук: книга запомнит предмет и запасного не попросит. Потом сравните этот прямой бой с очерёдностью боссов Сумеречного леса."
       ],
       "text_en": [
-        "The first sky stage leads to the Aether and a bronze dungeon. Prepare an Aether glowstone portal activated with water, then bring blocks and protection against falling. Islands do not form continuous ground, so choose travel directions carefully.",
-        "After crossing, secure a return platform and locate a bronze dungeon. Its Slider boss requires a tool suitable for the stone opponent; relying only on a sword may fail. Preserve dodging space and avoid leaving essential loot in an inaccessible part of the structure.",
-        "The task checks visiting the Aether and obtaining a bronze dungeon key. Put the key in inventory before using it on the reward chest: the book remembers this ordinary item and requires no spare key. Next, compare this encounter with the Twilight Forest’s local boss sequence."
+        "The first stop in the sky is the Aether and its bronze dungeon. An Aether portal is built from glowstone and lit with water; bring blocks and something against falling. The islands do not form solid ground, and every sideways step here is chosen with care.",
+        "After crossing, secure a safe platform for the return and find the bronze dungeon. Its master, the Slider, is made of stone and must be hit with what breaks stone; the habit of swinging a sword will not work here. Keep room to dodge and do not leave needed loot in an unreachable part of the structure.",
+        "The quest checks a visit to the Aether and the bronze dungeon key. Take the key into your inventory before you open the reward chest with it: the book will remember the item and will not ask for a spare. Then compare this straightforward fight with the boss order of the Twilight Forest."
       ],
       "task_notes": {
         "0": {
@@ -406,14 +406,14 @@
     },
     "story_expedition/dusk": {
       "text": [
-        "Сумеречный лес учит проходить боссов в установленном порядке. Подготовьте его портал: небольшой водоём, окружённый природным украшением по правилам мода, активируется броском алмаза. После перехода запомните точку выхода и приготовьте еду для нескольких последовательных встреч, а не одной короткой прогулки.",
-        "Сначала найдите двор Наги и добейтесь её этапа прогрессии, затем отправляйтесь в башню Лича. Защита следующей области может зависеть от предыдущего достижения. В начальной фазе Лича отражайте подходящие снаряды в настоящего босса, чтобы снять щиты, и не застревайте среди его копий.",
-        "Книга требует посещение леса и оба трофея: Наги и Лича. Их можно показать по очереди, затем разместить дома без дополнительной пары. Если башня остаётся защищённой, проверяйте местные достижения, а не только отметки этой маршрутной карты: предметные цели не заменяют правила измерения."
+        "Сумеречный лес учит проходить боссов по порядку. Портал — небольшой водоём в обрамлении цветов и травы по правилам мода, брошенный в него алмаз открывает путь. На той стороне запомните место выхода и возьмите еды на несколько встреч подряд, а не на короткую прогулку.",
+        "Сначала найдите двор Наги и закройте её этап, затем идите к башне Лича: защита следующей области зависит от предыдущей победы. В первой фазе Лича отражайте его снаряды обратно в настоящего босса, чтобы сбить щиты, и не тратьте силы на его копии.",
+        "Книге нужны визит в лес и оба трофея — Наги и Лича. Покажите их по очереди, потом смело вешайте дома, второй пары не нужно. Если башня всё ещё закрыта, смотрите достижения самого мода: отметки в этой книге правил измерения не отменяют."
       ],
       "text_en": [
-        "The Twilight Forest teaches ordered boss progression. Prepare its portal: a small pool surrounded by natural decorations following the mod’s rules, activated by throwing in a diamond. After crossing, mark the exit and bring enough food for several encounters rather than a short walk.",
-        "Find the Naga courtyard and obtain its progression stage first, then travel to the Lich Tower. Protection in the next area may depend on the previous advancement. During the Lich’s initial phase, reflect suitable projectiles into the real boss to remove shields while avoiding its copies.",
-        "The book requires visiting the forest and both Naga and Lich trophies. Show them separately if convenient, then display them at home without an extra pair. If the tower remains protected, inspect local advancements rather than only this route map’s marks: item objectives do not replace dimension rules."
+        "The Twilight Forest teaches you to take bosses in order. The portal is a small pool framed by flowers and grass by the mod’s rules; a diamond thrown in opens the way. On the other side, memorise the exit and bring food for several encounters in a row, not for a short stroll.",
+        "First find the Naga’s courtyard and close her stage, then go to the Lich’s tower: the protection of the next area depends on the previous victory. In the Lich’s first phase, reflect his projectiles back at the real boss to strip his shields, and waste no strength on his copies.",
+        "The book needs a visit to the forest and both trophies — the Naga’s and the Lich’s. Show them one after another, then hang them at home without worry; no second pair is needed. If the tower is still sealed, look at the mod’s own advancements: the ticks in this book do not override the dimension’s rules."
       ],
       "task_notes": {
         "0": {
@@ -424,14 +424,14 @@
     },
     "story_expedition/comets": {
       "text": [
-        "Кометы открывают длинную линию Eternal Tales после двух самостоятельных путешествий. Сначала подготовьте доступ к этому измерению по его отдельной главе и местным достижениям: портал Эфира или Сумеречного леса не ведёт туда автоматически. Возьмите запас прочности и оставьте место для сюжетной добычи.",
-        "Освойте ближайшую безопасную область и найдите этап Ужасного дерева в местной прогрессии. Перед серьёзной встречей отметьте путь к порталу и не складывайте необходимые предметы в случайные сундуки. Победа должна закончиться сбором трофея, поэтому после боя осмотрите площадку, а не сразу уходите за наградой книги.",
-        "Здесь требуется посещение Комет и достижение, которое установленная версия выдаёт за Кометное знамя в инвентаре. Подберите знамя лично до размещения дома или передачи товарищу. Оно не расходуется; зарегистрированный трофей завершает этот участок маршрута и открывает подготовку к Чистилищу."
+        "Кометы открывают длинную линию Eternal Tales после двух самостоятельных путешествий. Доступ в это измерение готовьте по его собственной главе и достижениям мода: портал Эфира или Сумеречного леса туда не ведёт. Берите запас прочности и оставьте место под сюжетную добычу.",
+        "Освойте ближайший безопасный участок и найдите в местной прогрессии этап Ужасного дерева. Перед серьёзной встречей отметьте дорогу к порталу и не складывайте нужные вещи в случайные сундуки. Победа заканчивается сбором трофея: осмотрите площадку после боя, а не бегите за наградой книги.",
+        "Здесь нужны визит в Кометы и достижение, которое установленная версия выдаёт за Кометное знамя в инвентаре. Подберите знамя сами, прежде чем вешать его дома или отдавать товарищу. Оно не расходуется; с ним этот участок закрыт, а впереди — подготовка к Чистилищу."
       ],
       "text_en": [
-        "Comets opens the long Eternal Tales route after two independent journeys. First prepare access using its dedicated chapter and local advancements: Aether or Twilight Forest portals do not lead there automatically. Bring durability reserves and leave room for story loot.",
-        "Explore the nearest safe area and locate Terrible Tree’s stage in local progression. Before the major encounter, mark the portal route and keep essential items out of random chests. Victory should end with trophy collection, so inspect the battlefield before opening book rewards.",
-        "This task requires visiting Comets and the advancement that the installed version awards for a Comet Banner in inventory. Collect it personally before displaying it or giving it to a teammate. It is not consumed; the registered trophy completes this route segment and opens preparation for Purgatory."
+        "The Comets open the long Eternal Tales line after two independent journeys. Prepare access to this dimension through its own chapter and the mod’s advancements: the Aether or Twilight Forest portal does not lead there. Bring durability to spare and leave room for story loot.",
+        "Settle the nearest safe area and find the Terrible Tree stage in the local progression. Before the serious encounter, mark the way to the portal and do not stash needed things in random chests. Victory ends with collecting the trophy: look over the ground after the fight instead of running for the book’s reward.",
+        "This needs a visit to the Comets and the advancement that the installed version grants for the Comet Banner in your inventory. Pick up the banner yourself before hanging it at home or handing it to a friend. It is not consumed; with it this stretch is closed, and ahead lies preparation for Purgatorium."
       ],
       "task_notes": {
         "0": {
@@ -446,14 +446,14 @@
     },
     "story_expedition/purg": {
       "text": [
-        "Чистилище продолжает историю Eternal Tales и требует отдельной подготовки к переходу. Прежде чем уходить из Комет, восстановите снаряжение и сохраните полученные сюжетные материалы. Последовательность этой карты задаёт маршрут чтения, но действительный доступ в Чистилище определяется механизмами самого мода.",
-        "После входа найдите безопасный ориентир для возврата и следуйте местной ветке к Ньетету, Павшему стражу. Изучайте подход к встрече до начала боя: неизвестный рельеф и отсутствие отступления опаснее, чем лишние несколько минут разведки. В совместном походе договоритесь о порядке сбора трофея.",
-        "Для завершения требуются визит в Чистилище и получение его знамени, которое регистрирует достижение Ньетета. Предмет должен побывать у вас в инвентаре; чужая настенная коллекция не является вашим получением. После регистрации знамя остаётся у вас, а следующий участок маршрута ведёт к сюжетному поручению Эдема."
+        "Чистилище продолжает историю Eternal Tales и требует отдельных сборов. Прежде чем покидать Кометы, почините снаряжение и уберите сюжетные материалы в надёжное место. Порядок карточек задаёт маршрут чтения, а настоящий вход в Чистилище открывают механизмы самого мода.",
+        "Внутри найдите безопасный ориентир для возврата и следуйте местной линии к Ньетету, Павшему стражу. Изучите подход к арене до начала боя: незнакомый рельеф и отсутствие пути отхода опаснее, чем лишние минуты разведки. В совместном походе заранее договоритесь, кто подбирает трофей.",
+        "Для зачёта нужны визит в Чистилище и его знамя, за которое мод выдаёт достижение Ньетета. Предмет должен побывать в вашем инвентаре: чужая коллекция на стене вашей победой не считается. Знамя остаётся у вас, а следующая остановка — сюжетное поручение Эдема."
       ],
       "text_en": [
-        "Purgatory continues the Eternal Tales story and needs separate crossing preparations. Before leaving Comets, repair equipment and preserve acquired story materials. This map orders the reading route, while the mod’s own mechanics determine actual access to Purgatory.",
-        "After entering, establish a safe return landmark and follow local progression towards Nyetet, the Fallen Guardian. Scout the approach before combat: unknown terrain and no escape route are more dangerous than spending a few extra minutes exploring. Agree on trophy collection during a shared expedition.",
-        "Completion requires visiting Purgatory and acquiring its banner, which registers Nyetet’s advancement. The item must enter your inventory; someone else’s wall collection is not your acquisition. You keep the banner after registration, and the next route section leads to Eden’s story assignment."
+        "Purgatorium continues the Eternal Tales story and calls for separate preparations. Before leaving the Comets, repair your gear and stow story materials somewhere safe. The order of the cards sets the reading route, while the real entrance to Purgatorium is opened by the mod’s own mechanisms.",
+        "Inside, find a safe landmark for the return and follow the local line to Nyetet, the Fallen Guardian. Study the approach to the arena before the fight begins: unfamiliar terrain and no line of retreat are more dangerous than a few extra minutes of scouting. On a shared expedition, agree in advance who picks up the trophy.",
+        "Completion needs a visit to Purgatorium and its banner, for which the mod grants the Nyetet advancement. The item must pass through your inventory: someone else’s collection on a wall does not count as your victory. The banner stays with you, and the next stop is the story errand of Eden."
       ],
       "task_notes": {
         "0": {
@@ -468,14 +468,14 @@
     },
     "story_expedition/eden": {
       "text": [
-        "Эдем отличается от предыдущих трофейных остановок: здесь нужен завершённый сюжетный заказ, а не просто знамя в сумке. Посетите Сады Эдема и найдите линию поручения Д’Куджи об Алтаре Солнца. Прочитайте местный диалог до отправления к указанной встрече, чтобы понимать, кому возвращать результат.",
-        "Поручение связано с освобождением Алтаря Солнца от Вечного рассвета. Подготовьте снаряжение для этого события и выполните последовательность задания, включая предусмотренное продолжение разговора. Одна победа без завершения сюжетного взаимодействия может ещё не дать нужную отметку, потому что её выдаёт логика квеста Eternal Tales.",
-        "Проверьте достижение «Напиток Солнца» после выполнения поручения. Книга отдельно учитывает посещение измерения, но не подменяет им сюжетное условие и не требует сдавать сам напиток. Отсюда маршрут разделяется на Раяну и Карват: обе ветки следует подготовить как самостоятельные экспедиции."
+        "Эдем не похож на прежние трофейные остановки: здесь нужно выполнить сюжетное поручение, а не принести знамя. Посетите Сады Эдема и найдите линию Д’Куджи об Алтаре Солнца. Дочитайте местный диалог до конца, прежде чем идти на указанную встречу, — так вы будете знать, кому вернуть результат.",
+        "Поручение — освободить Алтарь Солнца от Вечного рассвета. Подготовьте снаряжение для этого события и пройдите задание целиком, включая продолжение разговора после боя. Одна победа без завершения сюжетного диалога отметку ещё не даст: её выдаёт логика квеста Eternal Tales.",
+        "После выполнения проверьте достижение «Напиток Солнца». Книга отдельно учитывает визит в измерение, но сюжетное условие им не подменяет и сам напиток не забирает. Отсюда путь расходится на Раяну и Карват — каждую из них готовьте как отдельную экспедицию."
       ],
       "text_en": [
-        "Eden differs from the previous trophy stops: it needs a completed story assignment rather than merely a banner in your bag. Visit the Gardens of Eden and locate D’Kudja’s Altar of the Sun quest line. Read the local dialogue before travelling to the encounter so you know whom to report to.",
-        "The assignment concerns freeing the Altar of the Sun from Eternal Dawn. Prepare for the event and follow its quest sequence, including the intended subsequent conversation. Victory alone may not grant the mark before story interaction finishes, because Eternal Tales quest logic awards it.",
-        "Check the Drink of the Sun advancement after completing the assignment. The book records the dimension visit separately without substituting it for the story requirement or demanding the drink itself. The route now splits towards Rayana and Karvat, each requiring an independent expedition."
+        "Eden is unlike the earlier trophy stops: here you must complete a story errand, not bring a banner. Visit the Gardens of Eden and find D’Kuji’s line about the Altar of the Sun. Read the local dialogue to the end before heading to the appointed meeting — that way you will know who to bring the result to.",
+        "The errand is to free the Altar of the Sun from the Eternal Dawn. Prepare gear for that event and go through the quest in full, including the continuation of the conversation after the fight. A single victory without finishing the story dialogue will not yet grant the mark: it is issued by the Eternal Tales quest logic.",
+        "When it is done, check the “Drink of the Sun” advancement. The book records the visit to the dimension separately, but does not substitute it for the story condition and does not take the drink itself. From here the road forks into Rayana and Karvat — prepare each as a separate expedition."
       ],
       "task_notes": {
         "0": {
@@ -490,14 +490,14 @@
     },
     "story_expedition/rayana": {
       "text": [
-        "Раяна — одна из двух ветвей после Эдема. Подготовьте её собственный переход и запас для разведки местности; открытие карточки не означает, что портал уже построен. Не расходуйте всю добычу Эдема до проверки рецептов и сюжетных требований дальнейшего пути.",
-        "После прибытия отметьте выход и найдите этап Птериона в прогрессии Раяны. Выбирайте позиции с видимыми проходами и проверенным рельефом, особенно при перемещении за противником. Перед боем оставьте место для одного конкретного трофея: Знамени Раяны, которое понадобится для регистрации местной победы.",
-        "Задание завершается посещением Раяны и достижением за получение её знамени. Подберите предмет в личный инвентарь до автоматической отправки на базу; книга его не расходует. Для следующего общего перехода также требуется Карват, поэтому восстановите припасы и пройдите соседнюю ветвь, не пытаясь перескочить её одной галочкой."
+        "Раяна — одна из двух дорог после Эдема. Готовьте её собственный переход и запас на разведку: открывшаяся карточка не значит, что портал уже стоит. Не тратьте всю добычу Эдема, пока не проверили рецепты и сюжетные требования дальнейшего пути.",
+        "На месте отметьте выход и найдите этап Птериона в прогрессии Раяны. Выбирайте позиции с обзором и проверенной опорой под ногами, особенно когда придётся бежать за противником. Перед боем освободите место под один конкретный трофей — Знамя Раяны, по которому мод засчитает победу.",
+        "Зачёт — визит в Раяну и достижение за её знамя. Подберите его в личный инвентарь, пока оно не улетело на базу автоматически; книга его не тратит. Для общего перехода дальше нужен ещё и Карват, так что пополните припасы и пройдите соседнюю ветвь целиком."
       ],
       "text_en": [
-        "Rayana is one of the two branches after Eden. Prepare its own crossing and exploration supplies; unlocking the card does not build a portal. Avoid spending all Eden loot before checking later recipes and story requirements.",
-        "After arrival, mark the exit and locate Pterion’s stage in Rayana progression. Choose positions with visible passages and known terrain, particularly while following the opponent. Before combat, reserve space for the specific Rayana Banner needed to register the local victory.",
-        "Completion requires visiting Rayana and the advancement for acquiring its banner. Pick it up into personal inventory before automatically sending it home; the book does not consume it. The next shared crossing also requires Karvat, so replenish supplies and finish that neighbouring branch instead of trying to skip it with one checkmark."
+        "Rayana is one of the two roads after Eden. Prepare its own crossing and supplies for scouting: an unlocked card does not mean the portal already stands. Do not spend all of Eden’s loot until you have checked the recipes and story requirements of the road ahead.",
+        "On arrival, mark the exit and find the Pterion stage in Rayana’s progression. Pick positions with a view and tested footing, especially when you have to chase the enemy. Before the fight, free up room for one specific trophy — the Banner of Rayana, by which the mod counts the victory.",
+        "Completion is a visit to Rayana and the advancement for its banner. Pick it up into your personal inventory before it flies off to the base automatically; the book does not spend it. The onward crossing also needs Karvat, so restock and go through the neighbouring branch in full."
       ],
       "task_notes": {
         "0": {
@@ -512,14 +512,14 @@
     },
     "story_expedition/karvat": {
       "text": [
-        "Карват содержит сразу три отмечаемых этапа: Эникрих, Арла и Иккорх. Подготовьте длительную экспедицию с возвращениями за ремонтом, а не рассчитывайте пройти все встречи одним неизменным набором припасов. Порядок доступа и сюжетные условия уточняйте по местной линии Eternal Tales.",
-        "Посетите Земли Карвата и продвигайтесь через необходимые события, сохраняя добычу каждого завершённого участка. После каждой победы подберите соответствующее знамя: у трёх достижений разные предметные критерии. Один уже добытый трофей не заменяет два остальных, даже если бой выглядел похожим и проходил в том же измерении.",
-        "Проверьте в книге все три отдельные отметки и зарегистрированное посещение Карвата. Знамёна можно получать последовательно и затем оставлять дома: сдачи здесь нет. После завершения Карвата и Раяны общий путь продолжится в Вулканех, поэтому перед новым переходом соберите сюжетные материалы обеих ветвей."
+        "Карват держит сразу три отметки: Эникрих, Арла и Иккорх. Готовьтесь к долгой экспедиции с возвращениями на ремонт, а не к одному набору припасов на все встречи. Порядок доступа и сюжетные условия сверяйте с местной линией Eternal Tales.",
+        "Побывайте в Землях Карвата и продвигайтесь через нужные события, сохраняя добычу каждого закрытого участка. После каждой победы подбирайте соответствующее знамя: у трёх достижений разные предметы. Один добытый трофей два других не заменит, даже если бои похожи и идут в одном мире.",
+        "Проверьте в книге все три отметки и зарегистрированный визит в Карват. Знамёна берутся по очереди и потом остаются дома: сдачи здесь нет. Когда закрыты и Карват, и Раяна, путь ведёт в Вулканех — соберите сюжетные материалы обеих ветвей до нового перехода."
       ],
       "text_en": [
-        "Karvat contains three recorded stages: Enicrih, Arla and Ikkorh. Prepare for an extended expedition with repair returns instead of expecting one unchanged supply kit to cover every encounter. Follow Eternal Tales’ local route for access order and story conditions.",
-        "Visit the Lands of Karvat and progress through required events while preserving loot from each completed section. After each victory, collect its corresponding banner: the three advancements have different item criteria. One acquired trophy does not replace the other two, even if encounters seemed similar within the same dimension.",
-        "Check all three separate marks and the registered Karvat visit in the book. Banners may be acquired sequentially and then left at home because none are submitted. Once Karvat and Rayana are complete, the shared route continues to Volcanech; gather story materials from both branches before crossing."
+        "Karvat holds three marks at once: Enicrih, Arla and Ikkorh. Prepare for a long expedition with trips home for repairs, not for one set of supplies covering every encounter. Check the order of access and the story conditions against the local Eternal Tales line.",
+        "Visit the Lands of Karvat and push through the required events, keeping the loot of every closed stretch. After each victory pick up the matching banner: the three advancements have different items. One trophy will not stand in for the other two, even if the fights look alike and take place in the same world.",
+        "Check all three marks in the book and the registered visit to Karvat. The banners are taken one after another and then stay at home: there is no turn-in here. When both Karvat and Rayana are closed, the road leads to Volcanech — gather the story materials of both branches before the new crossing."
       ],
       "task_notes": {
         "0": {
@@ -542,14 +542,14 @@
     },
     "story_expedition/volcanech": {
       "text": [
-        "Вулканех объединяет подготовку после Раяны и Карвата и ведёт к Арахулуму. Проверьте завершение обеих ветвей книги, затем подготовьте реальный способ перехода по Eternal Tales. Сюжетные награды предыдущих миров храните отдельно от сырья, которое автоматически уходит в производство.",
-        "Войдя в Вулканех, сначала обеспечьте возвращение и разберитесь в ближайшем участке местной истории. До решающего боя восстановите броню и оружие, а также проверьте запас подходящих средств защиты для встреченной среды. Не заменяйте разведку предположениями по названию измерения: реальные опасности определяются местностью и противниками.",
-        "Завершение этой карточки требует посещения мира и достижения Арахулума, выдаваемого за его знамя в инвентаре. Подберите трофей лично после победы и дождитесь обновления отметки. Знамя остаётся вашим, а следующий участок открывает подготовку к Янтарному королевству с сохранёнными результатами уже пройденной истории."
+        "Вулканех соединяет итоги Раяны и Карвата и ведёт к Арахулуму. Убедитесь, что обе ветви в книге закрыты, и подготовьте настоящий переход по Eternal Tales. Сюжетные награды прежних миров храните отдельно от сырья, которое само уходит в производство.",
+        "Войдя в Вулканех, сначала обеспечьте дорогу назад и разберитесь в ближайшем куске местной истории. Перед решающим боем восстановите броню и оружие и проверьте защиту от здешней среды. Не судите об опасностях по названию измерения — их определяют местность и противники.",
+        "Для зачёта нужны визит в мир и достижение Арахулума, которое мод выдаёт за его знамя в инвентаре. Подберите трофей сами после победы и дождитесь обновления отметки. Знамя остаётся вашим, а впереди — Янтарное королевство, куда вы придёте с плодами всей пройденной истории."
       ],
       "text_en": [
-        "Volcanech combines preparation from Rayana and Karvat and leads towards Arahulum. Check both book branches are complete, then prepare the actual Eternal Tales crossing. Store previous worlds’ story rewards separately from raw materials automatically sent into production.",
-        "After entering Volcanech, secure a return method and understand the nearby part of local progression. Repair armour and weapons before the decisive fight and check suitable protection for the environment you encountered. Do not replace scouting with assumptions based on the dimension’s name: terrain and opponents determine actual hazards.",
-        "This card requires visiting the world and Arahulum’s advancement, awarded for its banner in inventory. Collect the trophy personally after victory and let the mark update. The banner remains yours, while the next section opens preparation for the Kingdom of Amber with previous story results preserved."
+        "Volcanech joins the results of Rayana and Karvat and leads to Arahulum. Make sure both branches are closed in the book, and prepare the real crossing by Eternal Tales. Keep the story rewards of earlier worlds apart from raw materials that go into production on their own.",
+        "Once in Volcanech, secure the way back first and get to know the nearest piece of the local story. Before the decisive fight restore armour and weapons and check your protection against the local environment. Do not judge the dangers by the dimension’s name — the terrain and the enemies define them.",
+        "Completion needs a visit to the world and the Arahulum advancement, which the mod grants for his banner in your inventory. Pick up the trophy yourself after the victory and wait for the mark to update. The banner remains yours, and ahead lies the Kingdom of Amber, which you will reach with the fruits of the whole story so far."
       ],
       "task_notes": {
         "0": {
@@ -564,14 +564,14 @@
     },
     "story_expedition/amber": {
       "text": [
-        "Янтарное королевство продолжает сюжет через местные события к Ксаксасу XIX. Это не просто добывающая остановка ради редких слитков: для карты требуется посещение мира и трофейная отметка его правителя. До перехода подготовьте продолжение истории и восстановите запасы после Вулканеха.",
-        "Проходите диалоги и необходимые участки королевства, сохраняя путь через уже изученные помещения. Если продвижение остановилось, вернитесь к текущему поручению, а не ищите случайный бой вместо сюжетного условия. К моменту финальной встречи оставьте место под Королевское знамя и обеспечьте достаточную прочность снаряжения.",
-        "После победы получите знамя в свой инвентарь: именно этот предмет вызывает установленное достижение Ксаксаса XIX. Книга не забирает трофей, и размещать его дома можно после регистрации. Проверьте состояние персонажа и соберите нужные сюжетные предметы перед последним переходом к Унахзаалу."
+        "Янтарное королевство ведёт через местные события к Ксаксасу XIX. Это не заезд за редкими слитками: карте нужны визит в мир и трофей его правителя. До перехода подготовьте продолжение истории и восстановите запасы после Вулканеха.",
+        "Проходите диалоги и нужные залы королевства, запоминая дорогу через уже изученные помещения. Если продвижение застопорилось, вернитесь к текущему поручению, а не ищите случайный бой вместо сюжетного условия. К финальной встрече освободите место под Королевское знамя и проверьте прочность снаряжения.",
+        "После победы возьмите знамя в инвентарь — именно оно запускает достижение Ксаксаса XIX в установленной версии. Книга трофей не забирает, дома его можно вешать сразу после регистрации. Осмотрите состояние персонажа и соберите сюжетные предметы перед последним переходом к Унахзаалу."
       ],
       "text_en": [
-        "The Kingdom of Amber continues the story through local events towards Xaxxas XIX. It is more than a mining stop for rare ingots: the map requires a world visit and its ruler’s trophy milestone. Prepare story access and replenish supplies after Volcanech before crossing.",
-        "Follow kingdom dialogue and required areas while maintaining a route through explored rooms. If progress stops, revisit the current assignment instead of seeking a random fight to replace its story condition. Reserve space for the Royal Banner and ensure sufficient equipment durability before the final encounter.",
-        "After victory, acquire the banner in your own inventory: this item triggers the installed Xaxxas XIX advancement. The book does not take the trophy, so display it at home after registration. Check your character’s condition and gather necessary story items before the final crossing to Unahzaal."
+        "The Kingdom of Amber leads through local events to Xaxxas XIX. This is no trip for rare ingots: the card needs a visit to the world and the trophy of its ruler. Before crossing, prepare the continuation of the story and restore your supplies after Volcanech.",
+        "Go through the dialogues and the required halls of the kingdom, remembering the way through rooms already explored. If progress stalls, return to the current errand rather than looking for a random fight in place of the story condition. For the final encounter free up room for the Royal Banner and check the durability of your gear.",
+        "After the victory take the banner into your inventory — it is what triggers the Xaxxas XIX advancement in the installed version. The book does not take the trophy; at home it can go on the wall right after registration. Check your character’s condition and gather the story items before the last crossing to Unahzaal."
       ],
       "task_notes": {
         "0": {
@@ -586,14 +586,14 @@
     },
     "story_expedition/unahzaal": {
       "text": [
-        "Финальный переход ведёт в Мультивселенную Унахзаала и завершает основную линию Eternal Tales. Здесь недостаточно найти декоративный блок мира или принести похожий трофей. Карта отдельно проверяет посещение измерения и достижение финальной победы, которое выдаётся логикой события мода.",
-        "До входа проверьте готовность снаряжения, средств восстановления и запасов для повторной попытки. Сохраните всё нужное для дальнейшего доступа в безопасном месте и убедитесь, что понимаете возврат после неудачи. Последний этап не стоит начинать с остатками еды и почти сломанным оружием после длинного предыдущего похода.",
-        "Завершите встречу с Унахзаалом и дождитесь окончания предусмотренных событий, затем проверьте личное достижение. Специальный режим Вечной тьмы этой карточке не нужен. Никакая добыча не расходуется, поэтому награду можно получить спокойно после выхода из опасности и возвращения к сохранённой экспедиционной коллекции."
+        "Последний переход ведёт в Мультивселенную Унахзаала и завершает основную линию Eternal Tales. Здесь мало найти декоративный блок мира или принести похожий трофей: карта проверяет визит в измерение и достижение финальной победы, которое выдаёт логика события мода.",
+        "Перед входом проверьте снаряжение, средства восстановления и запас на вторую попытку. Всё нужное для повторного доступа оставьте в надёжном месте и заранее поймите, как вернётесь после неудачи. Начинать последний этап с остатками еды и почти сломанным оружием — плохая идея.",
+        "Доведите встречу с Унахзаалом до конца, дождитесь завершения событий и проверьте личное достижение. Особый режим Вечной тьмы этой карточке не нужен. Добыча не расходуется, так что награду можно взять спокойно, выбравшись из опасности к своей экспедиционной коллекции."
       ],
       "text_en": [
-        "The final crossing leads to Unahzaal’s Multiverse and completes Eternal Tales’ main route. Finding a decorative dimension block or bringing a similar trophy is insufficient. The map separately checks the dimension visit and the final victory advancement awarded by the mod’s event logic.",
-        "Before entering, inspect equipment, recovery supplies and reserves for another attempt. Keep everything needed for continued access in a safe place and understand how to return after failure. Do not begin the last stage on food scraps and nearly broken weapons after the previous long expedition.",
-        "Complete the Unahzaal encounter and let its intended events finish, then check your personal advancement. This card does not require the special Eternal Darkness mode. No loot is consumed, so claim the reward once safely out of danger and back with your preserved expedition collection."
+        "The last crossing leads into the Unahzaal Multiverse and completes the main Eternal Tales line. Finding a decorative block of the world or bringing a similar trophy is not enough here: the card checks a visit to the dimension and the final-victory advancement issued by the mod’s event logic.",
+        "Before entering, check your gear, your means of recovery and supplies for a second attempt. Leave everything needed for repeat access in a safe place and understand in advance how you will return after a failure. Starting the final stage with leftover food and a nearly broken weapon is a bad idea.",
+        "See the encounter with Unahzaal through, wait for the events to finish and check your personal advancement. The special Eternal Darkness mode is not needed for this card. No loot is consumed, so the reward can be claimed calmly once you are out of danger and back with your expedition collection."
       ],
       "task_notes": {
         "0": {
@@ -608,64 +608,64 @@
     },
     "story_colony/found": {
       "text": [
-        "Первый колониальный участок связывает ратушу, строителя и жилой дом в работающий порядок. Подготовьте блоки этих трёх зданий MineColonies и строительный инструмент. Предмет хижины обозначает рабочее место, но не заменяет готовую постройку: её ещё должен возвести назначенный строитель из запрошенных материалов.",
-        "Разместите ратушу и определите территорию, затем выберите подходящие схемы для строителя и жилья с учётом рельефа. Закажите строительство, выдайте инструменты и следите за запросами. Не ставьте соседние проекты вплотную без просмотра их полного размера: зоны будущих зданий могут пересекаться, хотя блоки хижин находятся далеко друг от друга.",
-        "Книга запоминает каждый показанный блок до установки, поэтому сносить уже начатое поселение не нужно. Завершите начальные заказы и проверьте назначение работников. Название прежней карточки не является точным счётчиком населения: реальная цель здесь — подготовленные здания, из которых начинается управляемая колония."
+        "Поселение начинается с трёх зданий: ратуши, дома строителя и жилого дома. Заготовьте их блоки MineColonies и строительный инструмент. Блок хижины — это заявка на постройку; саму постройку возведёт назначенный строитель из тех материалов, которые запросит.",
+        "Поставьте ратушу и очертите территорию, затем подберите схемы для строителя и жилья под рельеф. Закажите стройку, выдайте инструменты и отвечайте на запросы. Не ставьте проекты впритык, не посмотрев их полный размер: зоны зданий могут пересечься, хотя блоки хижин стоят далеко друг от друга.",
+        "Каждый показанный блок книга запомнит до установки, поэтому сносить начатое поселение не придётся. Доведите первые заказы до конца и проверьте, кто где работает. Название карточки — не счётчик населения: цель здесь — три готовых здания, с которых начинается управляемая колония."
       ],
       "text_en": [
-        "The first colony section connects a town hall, builder and residence into a working order. Prepare these three MineColonies hut blocks and the building tool. A hut item designates a workplace but does not replace the completed structure, which an assigned builder must construct from requested materials.",
-        "Place the town hall and establish territory, then choose builder and residence schematics that suit the terrain. Request construction, supply tools and watch requests. Do not place neighbouring projects tightly without previewing their full dimensions: future buildings can overlap even when hut blocks are well apart.",
-        "The book remembers each block shown before installation, so demolishing an emerging settlement is unnecessary. Finish initial requests and check worker assignments. The old card title is not an exact population counter: its actual objective is the building kit from which a managed colony begins."
+        "A settlement begins with three buildings: the town hall, the builder’s hut and a house. Prepare their MineColonies blocks and the build tool. A hut block is an application for construction; the building itself is raised by the assigned builder from whatever materials they request.",
+        "Place the town hall and outline the territory, then choose blueprints for the builder and the housing to suit the terrain. Order construction, hand out tools and answer the requests. Do not set projects side by side without viewing their full size: building zones can overlap even when the hut blocks stand far apart.",
+        "The book remembers every block it has seen before placement, so the settlement you have started will not need demolishing. See the first orders through and check who works where. The card’s name is not a population counter: the goal here is three finished buildings from which a managed colony begins."
       ],
       "title": "Основать поселение",
       "title_en": "Establish a Settlement"
     },
     "story_colony/supply": {
       "text": [
-        "Складская цепочка нужна, чтобы строитель и другие работники получали материалы без постоянных личных доставок. Подготовьте хижины склада, курьера и ресторана, а также 64 хлеба для отдельной поставки. Блок ресторана не кормит жителей, пока здание не построено и кухня не обеспечена.",
-        "Закажите сооружения и назначьте работников, затем загрузите доступные материалы на склад. Проверьте реальные запросы курьера и повара, включая инструменты, продукты и проходимые маршруты. Сначала проследите одну доставку к строительству и один доступный приём пищи, прежде чем считать снабжение всего поселения налаженным.",
-        "Хижины можно ставить после регистрации в книге. Однако весь стак хлеба нужно держать в инвентаре при сдаче, и он будет израсходован книгой, а не отправлен в ресторан. Поэтому рацион колонии храните отдельно: награда не заменяет её повседневную еду и текущие строительные материалы."
+        "Склад нужен, чтобы строитель и остальные получали материалы без ваших личных доставок. Заготовьте хижины склада, курьера и столовой, а отдельно — 64 хлеба на сдачу. Блок столовой никого не накормит, пока здание не построено, а кухня не снабжена.",
+        "Закажите постройки, назначьте работников и сложите на склад то, что есть. Следите за настоящими запросами курьера и повара — инструменты, продукты, проходимые дороги. Проследите одну доставку на стройку и один обед, прежде чем считать снабжение налаженным.",
+        "Хижины можно ставить после регистрации. Хлеб же должен лежать в инвентаре весь стак при сдаче, и книга его заберёт — в столовую он не попадёт. Поэтому рацион колонии держите отдельно: награда не заменяет ни повседневную еду жителей, ни материалы для текущей стройки."
       ],
       "text_en": [
-        "The supply chain lets builders and other workers receive materials without constant personal deliveries. Prepare warehouse, courier and restaurant huts, plus 64 bread for a separate delivery. A restaurant block cannot feed citizens until its building is constructed and its kitchen supplied.",
-        "Request the buildings, assign workers and load available materials into the warehouse. Inspect actual courier and cook requests, including tools, ingredients and accessible routes. Follow one delivery to a construction site and one available meal before treating settlement-wide supply as established.",
-        "Huts may be installed after book registration. The entire bread stack, however, must be in inventory at submission and is consumed by the book rather than sent to the restaurant. Keep colony meals separate: the reward does not replace everyday food or current building materials."
+        "The warehouse exists so that the builder and everyone else get materials without your personal deliveries. Prepare the warehouse, courier and restaurant huts, and separately 64 bread for turn-in. The restaurant block feeds nobody until the building is built and the kitchen supplied.",
+        "Order the buildings, assign workers and put whatever you have into the warehouse. Watch the courier’s and the cook’s real requests — tools, food, passable roads. Follow one delivery to a construction site and one meal before considering the supply settled.",
+        "The huts can be placed after registration. The bread, though, must be in your inventory as a full stack at turn-in, and the book will take it — it does not go to the restaurant. So keep the colony’s rations separate: the reward replaces neither the citizens’ daily food nor the materials for the current build."
       ]
     },
     "story_colony/wood": {
       "text": [
-        "Лес и камень дают колонии собственную основу стройматериалов. Подготовьте лесоруба, лесопилку, шахтёра и каменщика. Это четыре разные рабочие роли: добывающий житель приносит сырьё, а производственный перерабатывает его по освоенным рецептам и возникающим запросам, не создавая материалы из воздуха.",
-        "Постройте рабочие места в доступных точках и обеспечьте каждого назначенного жителя инструментом подходящего уровня. Лесорубу нужен доступ к деревьям, шахтёру — возможность развивать шахту, а переработчикам — сырьё и известные рецепты. Проследите доставку через склад, прежде чем одновременно открывать много строительных заказов.",
-        "Каждый блок можно зарегистрировать и поставить отдельно; запасные хижины ради книги не нужны. Наличие четырёх предметов ещё не подтверждает выпуск досок и каменных изделий. Проверьте хотя бы один реальный запрос от строителя до готового материала: эта связь важнее числа декоративных производственных зданий."
+        "Лес и камень дают колонии собственные стройматериалы. Заготовьте хижины лесоруба, лесопилки, шахтёра и каменщика. Это четыре разные роли: добытчик приносит сырьё, а мастер перерабатывает его по известным рецептам и текущим запросам — из воздуха ничего не берётся.",
+        "Стройте рабочие места там, куда легко дойти, и дайте каждому жителю инструмент нужного уровня. Лесорубу нужны деревья рядом, шахтёру — возможность углублять шахту, мастерам — сырьё и рецепты. Проследите доставку через склад, прежде чем открывать много строительных заказов разом.",
+        "Каждый блок регистрируется и ставится отдельно; запасных хижин ради книги не нужно. Четыре хижины в сумке — ещё не поток досок и камня. Проведите хотя бы один запрос от строителя до готового материала: эта связь важнее числа красивых цехов."
       ],
       "text_en": [
-        "Wood and stone give the colony its own construction-material foundation. Prepare forester, sawmill, miner and stonemason huts. These are four distinct jobs: gathering citizens supply raw materials, while producers process them through learned recipes and actual requests rather than creating resources from nothing.",
-        "Construct accessible workplaces and give each assigned citizen tools appropriate to their level. Foresters need trees, miners need room to develop a mine, and processors need inputs and known recipes. Follow warehouse delivery before opening many building requests simultaneously.",
-        "Register and place each hut separately; spare huts are unnecessary for the book. Owning four blocks does not prove production of planks or stone products. Follow at least one builder request through to a finished material: this connection matters more than a row of decorative industrial buildings."
+        "Wood and stone give the colony its own building materials. Prepare the lumberjack, sawmill, miner and stonemason huts. These are four different roles: a gatherer brings raw material, and a craftsman processes it by known recipes and current requests — nothing comes out of thin air.",
+        "Build the workplaces where they are easy to reach and give every citizen a tool of the right level. The lumberjack needs trees nearby, the miner room to deepen the mine, the craftsmen raw material and recipes. Follow a delivery through the warehouse before opening many construction orders at once.",
+        "Each block is registered and placed separately; no spare huts are needed for the book. Four huts in the bag are not yet a flow of planks and stone. Follow at least one request from the builder through to finished material: that link matters more than the number of handsome workshops."
       ]
     },
     "story_colony/guard": {
       "text": [
-        "Первые защитники должны прикрывать реальные подходы к колонии. Подготовьте две сторожевые башни и знамя сбора стражи. Выбирайте места так, чтобы назначенные воины могли выйти к дорогам и жилью, а не оказались за собственной стеной без доступной лестницы.",
-        "Закажите постройку башен, назначьте охрану и выдайте подходящее оружие, броню и еду через доступное снабжение. Осмотрите маршруты движения в обычный день. Знамя предназначено для управления сбором стражи, но одно его наличие в сумке не создаёт армию и не компенсирует пустые рабочие места.",
-        "Две башни покажите в инвентаре вместе до установки; знамя можно зарегистрировать позже. Предметы не сдаются. Проверьте готовность обоих постов до ночи или набега, а расширение обороны планируйте по площади поселения: две исправные башни не гарантируют защиту каждого дальнего склада или фермы."
+        "Первые защитники должны прикрывать настоящие подходы к колонии. Заготовьте две сторожевые башни и знамя сбора стражи. Ставьте башни так, чтобы стражники выходили к дорогам и домам, а не оказались за собственной стеной без лестницы.",
+        "Закажите постройку, назначьте охрану и выдайте через снабжение оружие, броню и еду. Пройдите маршруты стражи в обычный день. Знамя нужно, чтобы собирать стражу в одну точку, но одно его наличие в сумке армии не создаёт и пустые посты не заполняет.",
+        "Две башни покажите вместе до установки; знамя можно зарегистрировать позже. Ничего не сдаётся. Оба поста должны быть готовы до ночи или набега, а оборону расширяйте по площади поселения: две башни не прикроют дальний склад или ферму."
       ],
       "text_en": [
-        "The first defenders should cover real approaches to the colony. Prepare two guard towers and a guard rally banner. Choose positions from which assigned soldiers can reach roads and homes rather than becoming trapped behind their own wall without stairs.",
-        "Request tower construction, assign guards and provide suitable weapons, armour and food through available supply. Inspect movement routes on an ordinary day. The banner controls guard gathering, but merely carrying it does not create an army or fill empty workplaces.",
-        "Show both tower blocks together before placing them; the banner may register later. Nothing is submitted. Check both posts are ready before night or a raid, then expand defence according to settlement size: two working towers cannot guarantee protection for every distant warehouse or farm."
+        "The first defenders must cover the real approaches to the colony. Prepare two guard towers and the rally banner for guards. Place the towers so that the guards can walk out to the roads and houses, and not end up behind their own wall with no ladder.",
+        "Order the construction, assign guards and issue weapons, armour and food through supply. Walk the guards’ patrol routes on an ordinary day. The banner is for rallying the guards to one spot, but merely having it in the bag creates no army and fills no empty posts.",
+        "Show the two towers together before placing them; the banner can be registered later. Nothing is handed in. Both posts should be ready before night or a raid, and expand the defence to match the settlement’s area: two towers will not cover a distant warehouse or farm."
       ]
     },
     "story_colony/population": {
       "text": [
-        "Рубеж двадцати пяти жителей проверяет настоящий рост MineColonies, а не запас блоков жилых домов. Увеличивайте доступное жильё, поддерживайте еду и необходимые условия дальнейшего заселения. Одновременно подготовьте больницу, чтобы расширение населения сопровождалось местом для лечения, а не только новыми рабочими заказами.",
-        "Заказывайте улучшения постепенно и следите за ограничениями колонии, исследованиями и запросами жителей. Постройте больницу и обеспечьте её работу согласно текущим требованиям персонала. Пустая хижина больницы в инвентаре закрывает предметный пункт, но не лечит заболевших и не сокращает очередь к отсутствующему врачу.",
-        "Достижение должно зарегистрировать население не менее 25 человек у вашего персонажа. Блок больницы можно установить после его учёта без запасного экземпляра. Когда оба пункта закрыты, оцените нагрузку на склад и питание: рост населения открывает обучение и промышленность, но одновременно увеличивает повседневное потребление."
+        "Двадцать пять жителей — рубеж настоящего роста, а не запас блоков жилых домов. Увеличивайте жильё, поддерживайте еду и всё, что нужно для заселения. Заодно подготовьте больницу: растущему населению нужно место для лечения, а не только новые заказы.",
+        "Заказывайте улучшения по одному и следите за ограничениями колонии, исследованиями и запросами жителей. Постройте больницу и обеспечьте её работу по текущим требованиям к персоналу. Блок больницы в сумке закроет предметный пункт, но больных не вылечит и очередь к отсутствующему врачу не сократит.",
+        "Достижение должно зарегистрировать у вашего персонажа население не меньше 25 человек. Блок больницы ставьте после учёта, запасной не нужен. Когда оба пункта закрыты, взвесьте нагрузку на склад и питание: рост открывает обучение и промышленность, но и ест больше с каждым днём."
       ],
       "text_en": [
-        "The twenty-five-citizen milestone checks actual MineColonies growth rather than stored residence blocks. Increase housing capacity while maintaining food and conditions for further settlement. Also prepare a hospital so population expansion includes treatment capacity rather than only new work orders.",
-        "Request upgrades gradually and watch colony limits, research and citizen requests. Construct the hospital and support its operation according to current staff requirements. A hospital hut in inventory satisfies the item point but does not treat illness or shorten a queue for a missing doctor.",
-        "Your character must register the advancement for at least 25 citizens. Install the hospital block after registration without a spare copy. Once both points are complete, assess warehouse and food demand: population growth opens education and industry while also increasing everyday consumption."
+        "Twenty-five citizens are a milestone of real growth, not a stockpile of house blocks. Add housing, keep up the food and everything else settlement needs. Prepare a hospital at the same time: a growing population needs a place to be treated, not only new orders.",
+        "Order upgrades one at a time and watch the colony’s limits, research and the citizens’ requests. Build the hospital and get it running to the current staffing requirements. A hospital block in the bag closes the item entry, but heals no one and shortens no queue to a doctor who is not there.",
+        "The advancement must register a population of at least 25 for your character. Place the hospital block after it is counted; no spare needed. When both entries are closed, weigh the load on the warehouse and the food: growth unlocks schooling and industry, but also eats more every day."
       ],
       "task_notes": {
         "0": {
@@ -676,50 +676,50 @@
     },
     "story_colony/science": {
       "text": [
-        "Образовательный квартал разделяет обучение и исследования между библиотекой, школой и университетом. Подготовьте три соответствующие хижины. Они не являются взаимозаменяемыми украшениями: университет открывает исследования, а образовательные рабочие места помогают развивать жителей в рамках собственных правил и доступных назначений.",
-        "Постройте здания, изучите их интерфейсы и обеспечьте запрошенные материалы. В университете выбирайте исследование по текущему ограничению колонии, проверяя требуемые уровни построек и ресурсы до начала. Школу и библиотеку связывайте с реальной потребностью в подготовке жителей, а не рассчитывайте на автоматическую выдачу всех навыков после установки блока.",
-        "Книга учитывает каждый предмет отдельно, поэтому стройку можно вести поэтапно. Она не измеряет завершённые исследования этой целью. Проверьте первый доступный исследовательский процесс и назначение образовательных работников; это создаст понятную основу для дальнейшего роста города и более требовательного промышленного квартала."
+        "Учебный квартал делит знания между библиотекой, школой и университетом. Заготовьте три хижины. Это не взаимозаменяемые украшения: университет открывает исследования, а школа и библиотека растят жителей по своим правилам и назначениям.",
+        "Постройте здания, загляните в их интерфейсы и поставьте запрошенные материалы. В университете выбирайте исследование под то, что сейчас мешает колонии, и сверяйте требуемые уровни зданий и ресурсы до старта. Школу и библиотеку связывайте с настоящей нуждой в подготовке жителей — навыки после установки блока сами не появятся.",
+        "Каждый предмет книга считает отдельно, так что строить можно поэтапно. Сколько исследований завершено, эта карточка не считает. Проверьте первое доступное исследование и назначение учителей — это понятная основа для роста города и куда более требовательного промышленного квартала."
       ],
       "text_en": [
-        "The education district separates learning and research between a library, school and university. Prepare all three hut types. They are not interchangeable decorations: the university unlocks research, while educational workplaces develop citizens under their own rules and available assignments.",
-        "Construct the buildings, inspect their interfaces and provide requested supplies. At the university, choose research that addresses a current colony constraint, checking building-level and resource requirements first. Connect school and library operation to actual training needs instead of expecting every skill to appear when a block is placed.",
-        "The book tracks each item separately, so construction can proceed in stages. This objective does not measure completed research. Check the first available research process and educational worker assignments; these establish a clear foundation for town growth and a more demanding industrial district."
+        "The school district divides knowledge between the library, the school and the university. Prepare the three huts. They are not interchangeable decorations: the university unlocks research, while the school and the library raise citizens by their own rules and assignments.",
+        "Build the buildings, look into their interfaces and provide the requested materials. In the university choose research aimed at whatever is holding the colony back now, and check the required building levels and resources before starting. Tie the school and the library to a real need to train citizens — skills will not appear by themselves once the block is placed.",
+        "The book counts each item separately, so you can build in stages. How much research is finished, this card does not count. Check the first available research and the assignment of teachers — that is a clear foundation for the town’s growth and for the far more demanding industrial district."
       ]
     },
     "story_colony/industry": {
       "text": [
-        "Промышленный квартал добавляет плавильню, кузницу и мастерскую механика. Подготовьте их блоки, затем решите, какие реальные запросы колонии они будут закрывать. Соседство трёх зданий само по себе не создаёт цепочку: у каждого работника должны быть сырьё, инструменты и нужные рецепты.",
-        "Стройте и запускайте участки последовательно. Плавильню обеспечьте подходящими материалами для её процессов, кузнецу передайте освоенные рецепты нужных изделий, а механику — допустимые для его профессии заказы. Проверяйте интерфейс конкретного здания, поскольку колониальный работник не умеет любой рецепт другого мода только благодаря названию профессии.",
-        "Хижины разрешено ставить сразу после учёта в инвентаре. Для собственной проверки проследите один заказ от появления запроса до выдачи готового предмета через склад. Если задание работника стоит, выясняйте недостающий ресурс или рецепт: строительство второй такой же мастерской не устранит отсутствующее знание первой."
+        "Промышленный квартал — это плавильня, кузница и мастерская механика. Заготовьте их блоки и решите, какие настоящие запросы колонии они закроют. Соседство трёх зданий цепочки не создаёт: у каждого работника должны быть сырьё, инструменты и нужные рецепты.",
+        "Стройте и запускайте цеха по очереди. Плавильне дайте материалы для её процессов, кузнецу передайте рецепты нужных изделий, механику — допустимые для его профессии заказы. Смотрите интерфейс каждого здания: колониальный работник не выучит любой рецепт чужого мода только из-за названия профессии.",
+        "Хижины ставьте сразу после учёта. Для собственной проверки проведите один заказ от появления запроса до выдачи готового предмета через склад. Если работник стоит без дела, ищите недостающий ресурс или рецепт: вторая такая же мастерская незнания первой не восполнит."
       ],
       "text_en": [
-        "The industrial district adds a smeltery, blacksmith and mechanic workshop. Prepare their hut blocks, then decide which actual colony requests each will serve. Three neighbouring buildings do not automatically form a chain: every worker needs inputs, tools and suitable recipes.",
-        "Build and start the sections sequentially. Supply smeltery processes with appropriate materials, teach the blacksmith required item recipes and give the mechanic orders valid for that profession. Inspect each building’s interface because a colony worker cannot perform every other mod’s recipe merely because of a job title.",
-        "Install huts immediately after inventory registration. For your own check, follow one request from its creation to finished-item delivery through the warehouse. If work stalls, identify the missing resource or recipe: a second identical workshop does not fix knowledge missing from the first."
+        "The industrial district means a smeltery, a blacksmith and a mechanic’s workshop. Prepare their blocks and decide which real requests of the colony they will cover. Three buildings side by side make no chain: every worker needs raw material, tools and the right recipes.",
+        "Build and start the workshops one at a time. Give the smeltery materials for its processes, hand the blacksmith the recipes for the needed items, and the mechanic the orders allowed for that profession. Look at each building’s interface: a colony worker will not learn any recipe of another mod just because of the profession’s name.",
+        "Place the huts right after they are counted. For your own check, follow one order from the moment the request appears to the finished item leaving the warehouse. If a worker stands idle, look for the missing resource or recipe: a second identical workshop will not make up for what the first does not know."
       ]
     },
     "story_colony/network": {
       "text": [
-        "Общий доступ к складским запасам удобен, когда он не мешает курьерам колонии. Подготовьте два внешних хранилища Refined Storage и грид; контроллер, питание и соединения нужны отдельно. Подключение к доступному инвентарю не гарантирует, что сеть увидит всё содержимое многоблочного склада сразу.",
-        "Сначала подключите один подходящий складской инвентарь и проверьте в гриде несколько известных предметов. Настройте режимы и приоритеты внешнего хранилища так, чтобы не создавать бесконечный возврат вещей между импортом и экспортом. Второе подключение добавляйте после проверки первого, избегая повторного подключения к тому же доступному содержимому.",
-        "Оба внешних хранилища покажите вместе, грид можно зарегистрировать отдельно и поставить. Книга не проверяет корректность складской интеграции. Проследите реальную доставку курьера после подключения: появление материалов в поиске полезно только тогда, когда колония продолжает получать собственные строительные и пищевые запасы."
+        "Общий доступ к складу удобен, пока он не мешает курьерам. Заготовьте два внешних хранилища Refined Storage и грид; контроллер, питание и кабели нужны отдельно. Подключение к инвентарю ещё не значит, что сеть увидит всё содержимое многоблочного склада сразу.",
+        "Сначала подключите один складской инвентарь и найдите в гриде несколько знакомых предметов. Настройте режимы и приоритеты внешнего хранилища так, чтобы вещи не гонялись по кругу между импортом и экспортом. Второе подключение добавляйте после проверки первого и не подключайте дважды одно и то же содержимое.",
+        "Оба внешних хранилища покажите вместе; грид регистрируйте отдельно и ставьте. Удалась ли связка, лучше всего покажет доставка курьера после подключения. Предметы в поиске радуют только тогда, когда колония по-прежнему получает свои стройматериалы и еду."
       ],
       "text_en": [
-        "Shared access to warehouse supplies is useful when it does not disrupt colony couriers. Prepare two Refined Storage external storages and a grid; a controller, power and connections are additional requirements. Connecting to an accessible inventory does not guarantee visibility of the entire warehouse at once.",
-        "Connect one suitable warehouse inventory first and verify several known items in the grid. Configure external-storage modes and priorities to avoid endlessly returning items between import and export. Add the second connection after testing the first, avoiding duplicate access to the same contents.",
-        "Show both external storages together; the grid may register separately before placement. The book does not verify warehouse integration. Follow a real courier delivery afterwards: searchable materials are useful only if the colony still receives its own building supplies and food."
+        "Shared access to the warehouse is convenient as long as it does not get in the couriers’ way. Prepare two Refined Storage external storages and a grid; the controller, power and cables are needed separately. Connecting to an inventory does not yet mean the network sees the entire contents of the multi-block warehouse at once.",
+        "Connect one warehouse inventory first and find a few familiar items in the grid. Set the external storage’s modes and priorities so that things do not chase each other in circles between import and export. Add the second connection after checking the first, and never connect the same contents twice.",
+        "Show both external storages together; register the grid separately and place it. Whether the link-up worked is best shown by a courier’s delivery after connecting. Items in the search are only a joy when the colony still receives its building materials and food."
       ]
     },
     "story_colony/garrison": {
       "text": [
-        "Гарнизон превращает первые посты охраны в организованную военную часть. Подготовьте казарму и развивайте доступные военные рабочие места до восьми назначенных воинов. Само достижение считает численность армии; набег и победа над конкретным противником для этой цели не требуются.",
-        "Разместите казарму с учётом связанных военных построек выбранной схемы, закажите строительство и обеспечьте назначения. Проверьте оружие, броню, питание и доступ к дорогам у каждого подразделения. Жители на других работах не станут солдатами из-за того, что рядом появилось красивое военное здание.",
-        "Казарму можно поставить после регистрации её предмета. Достижение восьми воинов дождитесь в личной ветке MineColonies, затем осмотрите маршруты к уязвимым входам поселения. Книга не оценивает тактику и не гарантирует отражение будущего нападения: численный рубеж служит поводом проверить реально работающую оборону."
+        "Гарнизон превращает первые посты в настоящую военную часть. Заготовьте казарму и развивайте военные места, пока в строю не окажется восемь воинов. Достижение считает численность армии; набег и победа над кем-то конкретным для него не нужны.",
+        "Разместите казарму с учётом связанных с ней построек выбранной схемы, закажите стройку и назначьте людей. У каждого отряда проверьте оружие, броню, питание и выход к дорогам. Жители с других работ солдатами не станут оттого, что рядом появилось красивое здание.",
+        "Казарму ставьте после регистрации блока. Достижение восьми воинов дождитесь в личной ветке MineColonies, а потом пройдите маршруты к уязвимым входам поселения. Тактику книга не оценивает и отражение набега не обещает: рубеж численности — повод проверить оборону на деле."
       ],
       "text_en": [
-        "The garrison turns initial guard posts into an organised military force. Prepare a barracks and develop military workplaces until eight soldiers are assigned. The advancement counts army size; neither a raid nor defeating a particular enemy is required.",
-        "Place the barracks with room for associated military structures in the chosen schematic, request construction and arrange assignments. Check weapons, armour, food and road access for every unit. Citizens working other jobs do not become soldiers because an attractive military building appears nearby.",
-        "Install the barracks after its item registers. Wait for your personal MineColonies eight-soldier advancement, then inspect routes to vulnerable settlement entrances. The book evaluates neither tactics nor guaranteed raid defence: the numerical milestone is a reason to inspect functioning protection."
+        "The garrison turns the first posts into a real military unit. Prepare the barracks and develop military positions until eight soldiers are in the ranks. The advancement counts the size of the army; a raid or a victory over anyone in particular is not required for it.",
+        "Place the barracks with the buildings tied to it in the chosen blueprint, order the construction and assign people. For each unit check weapons, armour, food and access to roads. Citizens in other jobs will not become soldiers because a handsome building appeared nearby.",
+        "Place the barracks after registering the block. Wait for the eight-soldier advancement in your personal MineColonies tree, then walk the routes to the settlement’s vulnerable entrances. The book judges no tactics and promises no repelled raid: the headcount milestone is a reason to test the defence for real."
       ],
       "task_notes": {
         "1": {
@@ -730,14 +730,14 @@
     },
     "story_colony/fifty": {
       "text": [
-        "Пятьдесят жителей требуют более устойчивого снабжения, чем несколько дополнительных домов. Подготовьте мистическое место и развивайте население с учётом жилья, исследований и текущих ограничений колонии. Эта постройка входит в городской проект, но сама по себе не создаёт пятьдесят жителей и не отменяет остальные условия роста.",
-        "Расширяйте жилой фонд по мере готовности еды, рабочих мест и доставки материалов. Проверяйте безработных, незакрытые запросы и расстояния между кварталами. Если колония упёрлась в лимит населения, ищите соответствующее условие развития в её интерфейсах, а не заказывайте бесконечно одинаковые дома в надежде обойти ограничение.",
-        "Дождитесь личного достижения населения 50 и зарегистрируйте блок мистического места перед строительством. Обычная предметная цель его не расходует. После рубежа оцените запас питания на следующий строительный цикл: финальная ратуша потребует времени и материалов, пока уже выросшее население продолжает ежедневно потреблять ресурсы."
+        "Пятьдесят жителей требуют устойчивого снабжения, а не пары лишних домов. Заготовьте мистическое место и растите население, следя за жильём, исследованиями и текущими ограничениями колонии. Эта постройка входит в городской проект, но сама по себе жителей не прибавляет и остальных условий не отменяет.",
+        "Расширяйте жильё по мере того, как поспевают еда, рабочие места и доставка. Проверяйте безработных, незакрытые запросы и расстояния между кварталами. Если колония упёрлась в предел населения, ищите условие роста в её интерфейсах, а не заказывайте одинаковые дома в надежде обойти ограничение.",
+        "Дождитесь личного достижения на 50 жителей и зарегистрируйте блок мистического места до постройки; книга его не тратит. После рубежа прикиньте запас еды на следующий строительный цикл: финальная ратуша потребует времени и материалов, а выросший город продолжит есть каждый день."
       ],
       "text_en": [
-        "Fifty citizens require stronger supply than a few additional houses. Prepare a mystical site and grow population with housing, research and current colony limits in mind. This structure belongs to the town project but does not create fifty citizens by itself or remove other growth conditions.",
-        "Expand residences as food, workplaces and deliveries become ready. Inspect unemployment, unresolved requests and distances between districts. If population hits a cap, find its relevant development requirement in colony interfaces instead of ordering endless identical houses in hopes of bypassing it.",
-        "Wait for your personal 50-population advancement and register the mystical-site block before construction. The ordinary item objective does not consume it. Afterwards, assess food reserves for the next building cycle: the final town hall takes time and materials while existing citizens continue consuming supplies daily."
+        "Fifty citizens call for steady supply, not a couple of extra houses. Prepare the mystical site and grow the population while watching housing, research and the colony’s current limits. This building is part of the town project, but by itself adds no citizens and cancels none of the other conditions.",
+        "Expand housing as food, workplaces and deliveries keep pace. Check for the unemployed, unfilled requests and the distances between districts. If the colony has hit its population cap, look for the growth condition in its interfaces instead of ordering identical houses in the hope of getting around the limit.",
+        "Wait for the personal advancement for 50 citizens and register the mystical site block before building it; the book does not spend it. After the milestone, estimate the food reserve for the next construction cycle: the final town hall will demand time and materials, and the grown town will keep eating every day."
       ],
       "task_notes": {
         "0": {
@@ -748,14 +748,14 @@
     },
     "story_colony/technopolis": {
       "text": [
-        "Технополис завершает городскую линию ратушей пятого уровня и поставкой восьми совершенных управляющих схем Mekanism. Эти условия проверяют разные стороны развития: законченное строительство MineColonies и запас высокоуровневой электроники. Наличие блока ратуши в сумке не заменяет готовое улучшение здания.",
-        "Закажите доступные улучшения ратуши по порядку, обеспечивая строителя инструментами и всем списком материалов. Следите, чтобы курьеры не забрали последние рабочие ресурсы из пищевого производства ради стройки. Электронную партию подготовьте отдельно из устойчивого заводского излишка, не разбирая управляющие компоненты действующих установок.",
-        "После завершения строительства должно появиться личное достижение ратуши уровня 5. Все восемь схем требуется иметь сейчас при сдаче, и они расходуются. Финальная отметка не останавливает потребности города: проверьте питание, оборону и склад после крупной стройки, чтобы технополис действительно продолжал жить своим обычным рабочим циклом."
+        "Технополис закрывает городскую линию ратушей пятого уровня и сдачей восьми совершенных управляющих схем Mekanism. Это две разные проверки: законченная стройка MineColonies и запас электроники высшего уровня. Блок ратуши в сумке и достроенная ратуша — разные вещи.",
+        "Заказывайте улучшения ратуши по порядку, снабжая строителя инструментами и всем списком материалов. Следите, чтобы курьеры не унесли на стройку последние ресурсы кухни. Схемы соберите из спокойного заводского излишка, не вынимая управляющие компоненты из работающих машин.",
+        "Когда стройка закончится, появится личное достижение ратуши уровня 5. Все восемь схем должны лежать в инвентаре при сдаче и уйдут. Финальная отметка нужды города не отменяет: после большой стройки проверьте еду, оборону и склад, чтобы технополис продолжал жить своим обычным ритмом."
       ],
       "text_en": [
-        "Technopolis completes the urban route with a level-five town hall and a delivery of eight Mekanism ultimate control circuits. These verify different developments: completed MineColonies construction and advanced-electronics reserves. A town-hall block in a bag does not replace its finished upgrade.",
-        "Request available town-hall upgrades in order, supplying the builder with tools and the complete material list. Ensure couriers do not drain food production’s final operating resources for construction. Prepare electronics from a steady factory surplus rather than dismantling controls from active installations.",
-        "Once construction finishes, your personal level-five town-hall advancement should appear. All eight circuits must be present now at submission and are consumed. The final mark does not end city needs: inspect food, defence and storage after the large build so the technopolis continues its ordinary working cycle."
+        "Technopolis closes the town line with a level-5 town hall and the turn-in of eight ultimate control circuits from Mekanism. These are two different checks: a finished MineColonies build and a stock of top-tier electronics. A town hall block in the bag and a finished town hall are different things.",
+        "Order the town hall upgrades in sequence, keeping the builder stocked with tools and the full list of materials. Make sure the couriers do not carry the kitchen’s last resources off to the site. Assemble the circuits from a calm factory surplus without pulling control components out of running machines.",
+        "When construction ends, the personal level-5 town hall advancement appears. All eight circuits must be in your inventory at turn-in and will go. The final mark cancels none of the town’s needs: after a big build, check food, defence and the warehouse so that the technopolis keeps living at its usual pace."
       ],
       "task_notes": {
         "0": {
@@ -766,86 +766,86 @@
     },
     "story_sky/lift": {
       "text": [
-        "Первый воздушный проект начинается с понимания подъёма, а не с тяжёлой палубы. Подготовьте физический сборщик, шестнадцать белых оболочек и шестнадцать левитита для поставки. Левитит поддерживает плавучесть конструкции, но сам не набирает высоту: для подъёма нужны дополнительные силы, например правильно работающий воздушный баллон.",
-        "Для баллона создайте герметичный объём и источник горячего воздуха; внутренние блоки уменьшают полезный объём, а отверстия нарушают удержание воздуха. Количество оболочек в цели не обещает достаточного размера для любого корабля. Выделите связанные блоки клеем и собирайте физическую конструкцию по Ponder сборщика на безопасной площадке.",
-        "Оболочки и сборщик можно использовать после регистрации. Шестнадцать левитита, напротив, должны находиться в инвентаре при сдаче и расходуются. Подъём установленной конструкции проверяйте отдельно с малой массой и свободным пространством: награда за материалы не является разрешением сразу перегрузить платформу орудиями."
+        "Воздушный проект начинается с понимания подъёма, а не с тяжёлой палубы. Заготовьте физический сборщик, шестнадцать белых оболочек и шестнадцать левитита на сдачу. Левитит держит конструкцию на плаву, но высоту не набирает: чтобы подняться, нужна другая сила — например, исправный воздушный баллон.",
+        "Для баллона сделайте герметичный объём и источник горячего воздуха; лишние блоки внутри съедают полезный объём, а щели выпускают воздух. Шестнадцать оболочек из цели не обещают достаточного размера для любого корабля. Склейте связанные блоки и соберите конструкцию по Ponder сборщика на безопасной площадке.",
+        "Оболочки и сборщик можно использовать после регистрации. Шестнадцать левитита, напротив, лежат в инвентаре к сдаче и уходят. Подъём проверяйте отдельно, с малой массой и свободным небом: награда за материалы не разрешает сразу обвешать платформу орудиями."
       ],
       "text_en": [
-        "The first aerial project begins with understanding lift rather than a heavy deck. Prepare a physics assembler, sixteen white envelopes and sixteen levitite for delivery. Levitite supports buoyancy but cannot gain altitude by itself: rising requires additional forces, such as a properly working hot-air balloon.",
-        "Build an airtight balloon volume and provide hot air; internal blocks reduce useful volume, while holes prevent containment. The listed envelope count does not promise sufficient size for any ship. Select connected blocks with glue and assemble the physical structure following assembler Ponder on a safe site.",
-        "Use envelopes and the assembler after registration. The sixteen levitite instead must be in inventory at submission and are consumed. Test the assembled structure’s lift separately with low mass and clear space: the material reward is not permission to immediately overload the platform with guns."
+        "The air project begins with understanding lift, not with a heavy deck. Prepare a physics assembler, sixteen white envelopes and sixteen levitite for turn-in. Levitite keeps a construct afloat but gains no altitude: to rise you need another force — a working hot-air balloon, for instance.",
+        "For a balloon make an airtight volume and a source of hot air; stray blocks inside eat the useful volume, and gaps let the air out. The sixteen envelopes in the goal promise no adequate size for any ship. Glue the linked blocks together and assemble the construct by the assembler’s Ponder scene on a safe platform.",
+        "The envelopes and the assembler can be used after registration. The sixteen levitite, by contrast, sit in your inventory for turn-in and go. Test lift separately, with little mass and an open sky: a reward for materials is no licence to hang guns all over the platform at once."
       ]
     },
     "story_sky/cast": {
       "text": [
-        "Четыре чугунных пушечных ствола Big Cannons — заказ на законченные детали, а не на готовую батарею. До литья подготовьте участок обработки с вращением и водой для расточного станка. Сырой отливке требуется дальнейшая обработка, поэтому проверяйте точное имя предмета на каждом этапе.",
-        "Отлейте подходящие чугунные заготовки по доступной схеме, дайте процессу завершиться и расточите их с правильной подачей станка и охлаждением. Сначала закончите один ствол, чтобы проверить направление движения и результат. Не смешивайте части разных пушечных систем только потому, что они имеют похожий диаметр в инвентаре.",
-        "Все четыре готовых ствола нужно одновременно держать в инвентаре при сдаче; они будут израсходованы. Для собственной пушки оставьте отдельный комплект с совместимыми камерой, затвором, снарядом и зарядом. После сборки проверяйте пустое орудие на земле, прежде чем устанавливать его на воздушную конструкцию."
+        "Четыре чугунных ствола Big Cannons — заказ на готовые детали, а не на батарею. До литья обустройте участок с вращением и водой для расточного станка. Сырая отливка требует обработки, поэтому на каждом шаге сверяйте точное имя предмета.",
+        "Отлейте чугунные заготовки по доступной схеме, дайте металлу застыть и расточите их при верной подаче станка и охлаждении. Первый ствол доведите до конца в одиночку — так вы увидите направление движения и результат. Не смешивайте части разных пушечных систем лишь потому, что в инвентаре они одного калибра.",
+        "Все четыре готовых ствола сдаются разом из инвентаря и уходят. Для собственной пушки держите отдельный комплект с совместимой камерой, затвором, снарядом и зарядом. Собранное орудие сначала проверьте пустым на земле и только потом поднимайте на борт."
       ],
       "text_en": [
-        "Four Big Cannons cast-iron cannon barrels are an order for finished components, not a complete battery. Before casting, prepare a machining area with rotation and water for the cannon drill. Raw castings need further processing, so check exact item names at each stage.",
-        "Cast suitable iron blanks through an available pattern, let the process finish and bore them with correct machine feed and cooling. Complete one barrel first to verify movement direction and output. Do not combine parts from different cannon systems merely because their inventory shapes appear similar.",
-        "All four finished barrels must be in inventory together at submission and are consumed. Keep a separate set for your own gun with compatible chamber, breech, projectile and charge. Test the empty assembled weapon on the ground before fitting it to an aerial structure."
+        "Four cast iron Big Cannons barrels are an order for finished parts, not for a battery. Before casting, set up a site with rotation and water for the boring machine. A raw casting needs machining, so check the exact item name at every step.",
+        "Cast the cast iron blanks by the available blueprint, let the metal set and bore them with the right feed and cooling. Finish the first barrel on its own — that way you see the direction of travel and the result. Do not mix parts of different cannon systems merely because they share a calibre in the inventory.",
+        "All four finished barrels are handed in at once from your inventory and go. For your own cannon keep a separate kit with a compatible chamber, breech, shell and charge. Test the assembled gun empty on the ground first, and only then lift it aboard."
       ]
     },
     "story_sky/eyes": {
       "text": [
-        "Радарный участок нужен для наблюдения до подключения автоматического огня. Подготовьте плоскостной радар, монитор и две связи данных Create Radar. Эти предметы не образуют рабочую сеть, пока вы не выполните назначение целей связи и необходимых контроллеров согласно интерфейсам дополнения.",
-        "Установите наблюдательный пост и соединяйте элементы последовательно, начиная с понятного канала отображения. Data Link сначала выбирает допустимую цель, например монитор, лафет или сетевой контроллер, а затем участвует в назначении связи. Сообщение о невыбранной цели или слишком большой дистанции означает ошибку настройки, а не отсутствие обнаруживаемых объектов.",
-        "Две связи данных покажите вместе до применения; остальные предметы можно регистрировать отдельно. Книга не проверяет наличие контактов на экране. Добейтесь отображения известной подходящей цели и сравните её движение с миром, прежде чем передавать эти данные на управление оружием или делать выводы о безопасности неба."
+        "Радар нужен, чтобы видеть небо до того, как в нём появится автоматический огонь. Заготовьте плоскостной радар, монитор и два передатчика радиолокационных данных из Create Radar. В сеть эти предметы сложатся только после назначения целей каждому передатчик радиолокационных данных и нужным контроллерам через интерфейсы дополнения.",
+        "Поставьте наблюдательный пост и соединяйте элементы по одному, начиная с понятного канала отображения. Передатчик сперва выбирает допустимую цель — монитор, лафет или сетевой контроллер — и лишь потом участвует в назначении. Сообщение о невыбранной цели или большой дистанции говорит об ошибке настройки, а не о пустом небе.",
+        "Два передатчик радиолокационных данных покажите вместе до применения; остальное регистрируйте отдельно. Есть ли отметки на экране, книга не видит. Добейтесь отметки известной цели и сверьте её движение с миром, прежде чем передавать эти сведения оружию или делать выводы о безопасности."
       ],
       "text_en": [
-        "The radar section provides observation before automatic fire is connected. Prepare a plane radar, monitor and two Create Radar data links. These items do not form a working network until link targets and necessary controllers are configured through the addon’s interfaces.",
-        "Build an observation post and connect elements sequentially, beginning with a clear display channel. A Data Link first selects an allowed target such as a monitor, cannon mount or network controller before assigning the connection. A missing-target or excessive-distance message indicates configuration trouble rather than absent detectable objects.",
-        "Show both data links together before using them; other items can register separately. The book does not check screen contacts. Display a known suitable target and compare its movement with the world before forwarding those data to weapon control or judging airspace safety."
+        "Radar exists so you can see the sky before automatic fire appears in it. Prepare a plane radar, a monitor and two Create Radar data links. These items form a network only after you assign the links’ targets and the required controllers through the add-on’s interfaces.",
+        "Set up an observation post and connect the elements one by one, starting with a clear display channel. A data link first selects a valid target — a monitor, a cannon mount or a network controller — and only then takes part in the assignment. A message about no target selected or too great a distance points to a setup error, not to an empty sky.",
+        "Show the two data links together before using them; register the rest separately. Whether there are marks on the screen, the book cannot see. Get a mark for a known target and compare its movement with the world before handing that data to weapons or drawing conclusions about safety."
       ]
     },
     "story_sky/mount": {
       "text": [
-        "Автоматическая наводка связывает данные наблюдения с движением орудия. Подготовьте лафет, контроллеры горизонтального и вертикального наведения и контроллер огня. Последний выдаёт сигнал красного камня при совмещении связанного лафета с целью; его нельзя считать самостоятельной проверкой дружественности объекта перед стволом.",
-        "Соберите совместимое орудие и назначьте контроллеры нужному лафету через систему связей дополнения. Первый опыт проводите без заряда и снаряда: проверьте отдельно горизонтальное и вертикальное движение по известной цели. Убедитесь, что пределы движения не направляют ствол в палубу, базу или собственные соседние установки.",
-        "Предметные цели можно отмечать по очереди и сразу устанавливать компоненты. Настройку сети они автоматически не оценивают. Подключайте разрешение выстрела только после проверки опознавания, безопасного сектора и поведения при потере цели; красивое следование ствола за отметкой на радаре ещё не является готовой боевой системой."
+        "Автоматическая наводка соединяет показания радара с движением орудия. Заготовьте лафет, контроллеры горизонтальной и вертикальной наводки и контроллер огня. Последний даёт сигнал красного камня, когда привязанный лафет наведён на отметку; свой это корабль или чужой, он не различает.",
+        "Соберите совместимое орудие и назначьте контроллеры своему лафету через систему связей дополнения. Первые пробы — без заряда и снаряда: отдельно проверьте поворот и наклон по известной цели. Убедитесь, что пределы движения не направят ствол в палубу, базу или соседнюю установку.",
+        "Предметы регистрируйте по очереди и сразу ставьте; настройку сети книга не оценивает. Разрешение на выстрел подключайте лишь после проверки опознавания, безопасного сектора и поведения при потере цели. Ствол, красиво следящий за отметкой, боевой системой ещё не стал."
       ],
       "text_en": [
-        "Automatic aiming connects observation data to weapon movement. Prepare a cannon mount, yaw and pitch controllers, and a fire controller. The latter emits redstone when its linked mount aligns with a target; it is not an independent friendliness check for the object ahead.",
-        "Assemble a compatible gun and assign controllers to its mount through the addon’s linking system. Run the first experiment without propellant or projectile: test horizontal and vertical movement separately against a known target. Ensure movement limits do not point the barrel into the deck, base or neighbouring friendly installations.",
-        "Item objectives can register separately before components are installed. They do not automatically assess network configuration. Connect firing permission only after checking identification, a safe sector and behaviour when the target disappears; a barrel smoothly following a radar contact is not yet a ready combat system."
+        "Automatic aiming joins radar data to the movement of a gun. Prepare a cannon mount, yaw and pitch controllers and a fire controller. The last gives a redstone signal when the linked mount is aimed at the mark; whether that is your own ship or a stranger’s, it cannot tell.",
+        "Assemble a compatible gun and assign the controllers to your mount through the add-on’s link system. First trials go without charge or shell: check yaw and pitch separately against a known target. Make sure the limits of travel will not point the barrel at the deck, the base or a neighbouring emplacement.",
+        "Register the items one by one and place them straight away; the book does not judge the network setup. Connect the firing permission only after checking identification, the safe sector and the behaviour on losing a target. A barrel that tracks a mark prettily is not yet a weapons system."
       ]
     },
     "story_sky/flak": {
       "text": [
-        "Автопушка отличается от большой пушки устройством, подачей и боеприпасами. Подготовьте стальной ствол автопушки и 64 зенитных патрона Big Cannons для поставки. Один ствол не является полным оружием: потребуются совместимые остальные части автопушки и рабочий способ подачи патронов.",
-        "Соберите установку на наземном полигоне, проверьте пустую механику и правильное направление стрельбы. Используйте именно патроны автопушки, а не крупные снаряды или пороховые заряды большой пушки. До загрузки назначьте безопасный воздушный сектор без собственных судов, построек и маршрутов игроков, учитывая действие разрывного боеприпаса.",
-        "Ствол после регистрации можно установить. Все 64 зенитных патрона при сдаче должны оставаться в инвентаре и расходуются; запас для испытательного огня приготовьте отдельно. Проверяйте подачу короткими контролируемыми очередями, а нехватку подъёмной силы после монтажа оружия исправляйте до следующего вылета, не во время стрельбы."
+        "Автопушка отличается от большой пушки устройством, подачей и боеприпасами. Заготовьте стальной ствол автопушки и 64 зенитных патрона Big Cannons на сдачу. Один ствол — ещё не оружие: понадобятся остальные совместимые части и рабочая подача патронов.",
+        "Соберите установку на наземном полигоне, проверьте пустую механику и направление стрельбы. Заряжайте именно патроны автопушки, а не снаряды и пороховые заряды большой пушки. До загрузки назначьте безопасный сектор неба без своих судов, построек и маршрутов игроков — снаряд разрывной.",
+        "Ствол после регистрации можно ставить. Все 64 патрона лежат в инвентаре к сдаче и уходят; запас для пробного огня держите отдельно. Проверяйте подачу короткими очередями, а нехватку подъёмной силы после установки оружия устраняйте до следующего вылета, не в бою."
       ],
       "text_en": [
-        "An autocannon differs from a large cannon in construction, feeding and ammunition. Prepare a steel autocannon barrel and 64 Big Cannons flak rounds for delivery. One barrel is not a complete weapon: compatible remaining autocannon parts and a working ammunition feed are also required.",
-        "Build it on a ground test range, check the empty mechanism and verify firing direction. Use autocannon rounds rather than large shells or big-cannon powder charges. Before loading, designate a safe air sector free of friendly vessels, buildings and player routes, accounting for explosive ammunition effects.",
-        "Install the barrel after registration. All 64 flak rounds must remain in inventory for submission and are consumed; prepare separate test-fire ammunition. Check feeding with short controlled bursts, and resolve lift shortages caused by installed weapon mass before the next flight rather than while firing."
+        "An autocannon differs from a big cannon in its build, feed and ammunition. Prepare a steel autocannon barrel and 64 Big Cannons flak rounds for turn-in. One barrel is not yet a weapon: you will need the remaining compatible parts and a working ammunition feed.",
+        "Assemble the mount on a ground range, check the empty mechanism and the direction of fire. Load autocannon rounds specifically, not the shells and powder charges of a big cannon. Before loading, assign a safe sector of sky with none of your ships, buildings or player routes in it — the round is explosive.",
+        "The barrel can be placed after registration. All 64 rounds sit in your inventory for turn-in and go; keep a stock for test fire separately. Check the feed in short bursts, and fix any lack of lift after mounting the weapon before the next flight, not in combat."
       ]
     },
     "story_sky/missile": {
       "text": [
-        "Ракетный участок использует отдельные компоненты дополнения CBCAeronautics Missiles: два двигателя, четыре блока управляющих рулей, вычислитель и пусковое крепление. Этот перечень не означает готовую ракету с боевой частью. Сначала соберите и изучите незаряженную конструкцию на площадке с достаточным свободным пространством.",
-        "Для привязки вычислителя сначала выберите управляющие рули правым нажатием соответствующего предмета, затем разместите вычислитель в допустимой дистанции. Сообщения о другой размерности, пропавших рулях или превышенном расстоянии указывают конкретную причину отказа. Дальнейшую сборку и назначение пускового крепления сверяйте с подсказками установленного дополнения.",
-        "Все детали нерасходуемые: двигатели и рули покажите требуемыми партиями, затем устанавливайте. Книга не запускает ракету и не проверяет наведение по наличию вычислителя. Первый запуск планируйте на отдельном полигоне после проверки связи, направления, опознавания и свободной траектории, сохраняя собственные летательные аппараты за пределами сектора."
+        "Ракетный участок собирается из деталей дополнения CBCAeronautics Missiles: два двигателя, четыре блока рулей, вычислитель наведения и пусковое крепление. Готовой ракеты с боевой частью в этом списке нет. Сначала соберите и изучите незаряженную конструкцию там, где вокруг много свободного места.",
+        "Для привязки вычислителя сперва выберите рули правым щелчком соответствующего предмета, затем поставьте вычислитель в допустимой дистанции. Сообщения о другом измерении, пропавших рулях или превышенном расстоянии называют причину отказа прямо. Дальнейшую сборку и назначение пускового крепления сверяйте с подсказками дополнения.",
+        "Детали не расходуются: двигатели и рули покажите нужными партиями и ставьте. Пуска книга не устраивает и по одному вычислителю о наведении не судит. Первый пуск — на отдельном полигоне после проверки связи, направления, опознавания и чистой траектории, когда свои аппараты далеко от сектора."
       ],
       "text_en": [
-        "The missile section uses dedicated CBCAeronautics Missiles components: two rocket motors, four actuator-fin blocks, a guidance computer and a missile mount. This list is not a completed missile with a warhead. First assemble and inspect an unloaded structure on a site with ample clear space.",
-        "To link the guidance computer, first select actuator fins by right-clicking with its item, then place the computer within the permitted range. Messages about another dimension, missing fins or excessive distance identify the failure. Follow the installed addon’s tooltips for subsequent assembly and mount assignment.",
-        "All components are non-consumable: show motors and fins in their required batches, then install them. The book neither launches a missile nor verifies guidance from owning a computer. Plan the first launch at a separate range after checking linkage, direction, identification and a clear trajectory, with friendly aircraft outside the sector."
+        "The missile section is assembled from CBCAeronautics Missiles parts: two rocket motors, four sets of actuator fins, a guidance computer and a missile mount. There is no finished missile with a warhead in this list. First assemble and study the unarmed construct where there is plenty of open space around.",
+        "To link the computer, first select the fins with a right-click of the matching item, then place the computer within the allowed distance. Messages about another dimension, missing fins or an exceeded range name the cause of the failure outright. Check further assembly and the assignment of the mount against the add-on’s tooltips.",
+        "The parts are not consumed: show the motors and fins in the required batches and place them. The book stages no launch and judges no guidance by the mere presence of a computer. The first launch belongs on a separate range after checking the link, direction, identification and a clear trajectory, with your own craft far from the sector."
       ]
     },
     "story_sky/fleet": {
       "text": [
-        "Флагман завершает проект объединением подъёма, навигации и опознавания на одной исправной конструкции. Подготовьте навигационный стол, транспондер и четыре гироскопических механизма для поставки. Стол выдаёт сигналы направления к цели навигационного предмета; сам по себе он не является готовым автопилотом для любого корпуса.",
-        "На пришвартованном судне проверьте управление и подъём после установки оружия. Настройте имя и код транспондера, затем внесите совпадающий код в фильтр опознавания сетевого контроллера ПВО: только установленный транспондер без соответствующей настройки не обещает исключения из автоматического выбора целей. Проведите проход через зону наблюдения без разрешённого огня.",
-        "Стол и транспондер можно поставить после регистрации. Четыре гироскопических механизма нужно держать в инвентаре одновременно при сдаче, и они расходуются; не снимайте ради этого детали с летящего судна. Завершайте проект проверкой возвращения и посадки с полной рабочей массой и сохранённым резервом управления."
+        "Флагман завершает проект: подъём, навигация и опознавание сходятся на одной исправной конструкции. Заготовьте навигационный стол, транспондер и четыре гироскопических механизма на сдачу. Стол выдаёт сигналы направления к цели навигационного предмета — готовым автопилотом для любого корпуса он не станет.",
+        "На пришвартованном судне проверьте управление и подъём после установки оружия. Задайте транспондеру имя и код, затем внесите тот же код в фильтр опознавания сетевого контроллера ПВО: один лишь установленный транспондер от автоматического выбора целей не спасает. Пройдите через зону наблюдения без разрешённого огня.",
+        "Стол и транспондер можно ставить после регистрации. Четыре гироскопа лежат в инвентаре к сдаче и уходят — не снимайте ради них детали с летящего судна. Завершите проект возвращением и посадкой с полной рабочей массой и запасом управления."
       ],
       "text_en": [
-        "The flagship finishes the project by combining lift, navigation and identification on one sound structure. Prepare a navigation table, transponder and four gyroscopic mechanisms for delivery. The table provides directional redstone towards a navigation item’s destination; it is not a ready-made autopilot for every hull.",
-        "While moored, check handling and lift after weapons are fitted. Set the transponder’s name and code, then enter the matching code in the air-defence network controller’s identification filter: installing a transponder alone does not promise exclusion from automatic targeting. Pass through the observation area with firing disabled.",
-        "Install the table and transponder after registration. Four gyroscopic mechanisms must be together in inventory at submission and are consumed; do not remove parts from a flying vessel for this. Finish by testing return and landing at full operating mass with control reserves available."
+        "The flagship completes the project: lift, navigation and identification meet on one sound construct. Prepare a navigation table, a transponder and four gyroscopic mechanisms for turn-in. The table gives directional signals towards a navigation item’s destination — it will not become a ready autopilot for any hull.",
+        "On the moored ship check control and lift after fitting the weapons. Give the transponder a name and a code, then enter the same code in the identification filter of the air-defence network controller: an installed transponder alone does not save you from automatic target selection. Pass through the observation zone with firing disabled.",
+        "The table and the transponder can be placed after registration. The four gyroscopes sit in your inventory for turn-in and go — do not strip parts off a flying ship for them. Finish the project with a return and a landing at full working mass and with control to spare."
       ]
     },
     "story_forge/guide_stress_audit": {

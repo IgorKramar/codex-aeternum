@@ -16,12 +16,12 @@
     "start_qol": {
       "intro": [
         "Удобства сборки экономят время, когда вы понимаете их правила. Поиск рецептов помогает спланировать производство, сортировка разгружает сундуки, а подсказки объясняют незнакомый блок до того, как вы его разберёте.",
-        "Начните с JEI и собственного управления. Затем пробуйте инструменты по мере появления задачи: строительный гаджет нужен для повторяющихся построек, загрузчик чанков — для оборудования, которое должно работать вдали от игрока. Их не обязательно изготавливать в первый вечер.",
+        "Первыми освойте JEI и собственное управление. Остальные инструменты пробуйте по мере надобности: строительный гаджет — когда постройки начнут повторяться, загрузчик чанков — когда оборудование должно работать вдали от вас. В первый вечер они не понадобятся.",
         "Справочные страницы отмечаются вручную. Прочитайте ограничения и выполните маленькую проверку там, где она предложена; это полезнее, чем сразу включать все доступные функции."
       ],
       "intro_en": [
         "The pack’s conveniences save time once you understand their rules. Recipe search helps plan production, sorting clears storage and tooltips explain an unfamiliar block before you dismantle it.",
-        "Start with JEI and your key bindings. Try other tools when a real need appears: building gadgets suit repetitive construction, while chunk loaders keep equipment active away from the player. Neither needs to be crafted on your first evening.",
+        "Master JEI and your own controls first. Try the other tools as the need arises: the building gadget once builds start repeating, the chunk loader once equipment has to run far from you. You will not need them on the first evening.",
         "Reference pages are marked manually. Read their limits and run the suggested small check; that is more useful than immediately enabling every available feature."
       ]
     }
@@ -55,14 +55,14 @@
     },
     "start_first_day/carry": {
       "text": [
-        "Carry On позволяет перенести подходящий контейнер вместе с содержимым. Это удобно при перестановке сундуков: вещи не приходится сначала высыпать на землю и собирать заново. Однако не каждый блок сборки разрешено переносить таким способом.",
-        "Для первой проверки используйте простой сундук с несколькими недорогими предметами. Освободите обе руки и примените действие Carry из настроек управления; обычно оно связано с приседанием и взаимодействием с блоком. Если перенос не начинается, проверьте назначение клавиши, свободную вторую руку и ограничения блока.",
-        "Переставьте сундук на свободное место, откройте его и сравните содержимое. Только после этого подтвердите цель. Сложную работающую машину сначала остановите и изучите её правила демонтажа: удобство переноски не обещает сохранения всех связей и внешних подключений."
+        "Carry On поднимает подходящий контейнер вместе со всем содержимым. При перестановке сундуков это спасает от высыпания вещей на землю и сбора заново. Но далеко не каждый блок сборки можно унести таким способом.",
+        "Для первой пробы возьмите простой сундук с парой недорогих предметов. Освободите обе руки и используйте действие Carry из настроек управления — обычно это приседание вместе с взаимодействием с блоком. Если перенос не начинается, проверьте назначение клавиши, пустую вторую руку и ограничения самого блока.",
+        "Переставьте сундук на свободное место, откройте и сравните содержимое — и только потом подтверждайте цель. Сложную работающую машину сначала остановите и узнайте её правила демонтажа: удобство переноски не обещает, что уцелеют все связи и внешние подключения."
       ],
       "text_en": [
-        "Carry On can move a supported container with its contents intact. It is useful when rearranging chests, avoiding the need to spill and collect every item. Not every block in the pack permits this kind of carrying.",
-        "Test a plain chest containing a few inexpensive items first. Empty both hands and use the Carry action shown in your controls, normally associated with sneaking and interacting. If nothing happens, inspect its binding, your offhand and the block’s restrictions.",
-        "Place the chest in a clear spot, reopen it and compare the contents before ticking the goal. Stop complex machinery and learn its dismantling rules before attempting to move it: convenient carrying does not promise to preserve every external connection."
+        "Carry On lifts a suitable container together with everything inside. When rearranging chests it saves you from dumping things on the ground and gathering them up again. But by no means every block in the pack can be carried this way.",
+        "For the first trial take a plain chest with a couple of cheap items. Free both hands and use the Carry action from the controls — usually sneaking together with interacting with the block. If the carry does not begin, check the key binding, the empty off-hand and the limits of the block itself.",
+        "Move the chest to a free spot, open it and compare the contents — only then confirm the goal. Stop a complex running machine first and learn its rules for dismantling: convenient carrying is no promise that every link and external connection survives."
       ],
       "task_notes": {
         "0": {
@@ -99,14 +99,14 @@
     },
     "start_first_day/night": {
       "text": [
-        "Спальный мешок Comforts позволяет переждать ночь в дороге, сохранив постоянную точку возрождения у домашней кровати. Это удобство для разведки, но оно не защищает от уже стоящих рядом противников и не заменяет безопасное место для отдыха.",
-        "Сделайте красный спальный мешок из трёх блоков красной шерсти по рецепту JEI. В этой цели проверяется именно красный вариант; мешки других цветов тоже работают в игре, но не увеличат данный счётчик. Подберите изготовленный предмет в инвентарь.",
-        "Выберите ровную защищённую площадку и попробуйте воспользоваться мешком в подходящее для сна время. Если сон недоступен, проверьте окружение и правила сервера. На базе всё равно стоит поставить обычную кровать: переносной ночлег и постоянное место возвращения решают разные задачи."
+        "Спальный мешок Comforts даёт переждать ночь в дороге, не трогая постоянную точку возрождения у домашней кровати. Это удобство для разведки: от уже стоящих рядом противников он не защитит и безопасное место для ночёвки не заменит.",
+        "Сделайте красный мешок из трёх блоков красной шерсти по рецепту в JEI. Цель проверяет именно красный: мешки других цветов в игре работают, но здесь не считаются. Готовый мешок возьмите в инвентарь.",
+        "Найдите ровную защищённую площадку и попробуйте лечь в подходящее для сна время. Если сон недоступен, осмотрите окружение и правила сервера. На базе всё равно поставьте кровать: переносной ночлег и постоянное место возвращения решают разные задачи."
       ],
       "text_en": [
-        "A Comforts sleeping bag lets you rest on a journey while preserving the respawn point at your home bed. It is useful for exploration, but does not protect you from nearby enemies or replace a safe resting spot.",
-        "Craft the red sleeping bag from three red wool blocks using its JEI recipe. This goal specifically checks the red variant. Other colours work in the game but do not advance this counter. Carry the crafted item in your inventory.",
-        "Choose a flat, protected site and try the bag when sleeping is allowed. If sleep is unavailable, check your surroundings and the server’s rules. Keep a normal bed at home as well: portable rest and a permanent place to respawn serve different purposes."
+        "A Comforts sleeping bag lets you wait out the night on the road without touching your permanent respawn point by the bed at home. It is a convenience for scouting: it will not protect you from enemies already standing nearby and does not replace a safe place to sleep.",
+        "Make a red bag from three blocks of red wool by the recipe in JEI. The goal checks red specifically: bags of other colours work in the game but do not count here. Take the finished bag into your inventory.",
+        "Find a level, sheltered spot and try lying down at a time suitable for sleep. If sleep is unavailable, look around and check the server rules. Put a bed at the base anyway: a portable bedroll and a permanent return point solve different problems."
       ],
       "task_notes": {
         "0": {
@@ -135,14 +135,14 @@
     },
     "start_first_day/jade": {
       "text": [
-        "Jade показывает сведения о блоке или существе под прицелом. Название и принадлежность к моду помогают понять, с чем вы столкнулись, а дополнительные строки нередко сообщают состояние машины, содержимое или запас энергии.",
-        "Наведите прицел сначала на обычный сундук, затем на знакомую машину и сравните подсказки. Если панель скрыта, найдите настройки или клавишу Jade в управлении. Часть сведений появляется только у поддерживаемых блоков, поэтому отсутствие строки не доказывает отсутствие функции.",
-        "Поставьте ручную отметку, когда сможете уверенно прочитать название и определить мод хотя бы у одного блока. При неисправности используйте Jade как первый осмотр: затем откройте интерфейс машины и изучите её питание, входы и выходы. Подсказка помогает диагностике, но не заменяет руководство."
+        "Jade рассказывает о блоке или существе под прицелом: название, мод, а нередко и состояние машины, содержимое или запас энергии. Так незнакомая вещь получает имя раньше, чем вы её разберёте.",
+        "Наведите прицел сначала на обычный сундук, потом на знакомую машину и сравните подсказки. Если панель скрыта, найдите настройки или клавишу Jade в управлении. Часть сведений появляется только у поддерживаемых блоков, поэтому пустая строка ещё не значит, что функции нет.",
+        "Ставьте отметку, когда уверенно прочитаете название и мод хотя бы у одного блока. При поломке Jade — первый осмотр; затем открывайте интерфейс машины и смотрите питание, входы и выходы. Подсказка помогает найти неисправность, но руководство не заменяет."
       ],
       "text_en": [
-        "Jade displays information about the block or creature under your crosshair. Its name and source mod identify what you are looking at, while extra lines often reveal machine state, contents or stored energy.",
-        "Point at a plain chest and then a familiar machine, comparing their tooltips. If the display is hidden, find Jade’s settings or key binding. Some details only exist for supported blocks; a missing line does not prove a feature is absent.",
-        "Tick the manual goal once you can identify at least one block and its mod. Use Jade for an initial inspection when something fails, then open the machine and examine its power, inputs and outputs. The tooltip assists diagnosis without replacing a guide."
+        "Jade tells you about the block or creature under your crosshair: its name, its mod, and often the state of a machine, its contents or its stored energy. An unfamiliar thing gets a name before you take it apart.",
+        "Aim first at an ordinary chest, then at a familiar machine, and compare the tooltips. If the panel is hidden, find Jade’s settings or key in the controls. Some information appears only for supported blocks, so a missing line does not yet mean the function is absent.",
+        "Tick the goal once you can confidently read the name and the mod of at least one block. When something breaks, Jade is the first inspection; then open the machine’s interface and look at power, inputs and outputs. The tooltip helps you find the fault, but it does not replace the manual."
       ],
       "task_notes": {
         "0": {
@@ -153,14 +153,14 @@
     },
     "start_first_day/iron": {
       "text": [
-        "Железо связывает первые инструменты с мастерской, которая сможет работать дальше. Оно нужно для ведра, оборудования, хранения и многих деталей модов. Соберите тридцать два железных слитка, не расходуя весь запас на первую понравившуюся вещь.",
-        "Добудьте железную руду подходящей киркой и переплавьте сырое железо в печи с топливом. Следите за светом и возможностью вернуться из шахты. Для цели слитки должны находиться в инвентаре одновременно; железные блоки и ещё не переплавленная руда не заменяют их.",
-        "После зачёта распределите запас: оставьте часть на инструменты, часть на транспортировку жидкостей и первые механизмы. Когда освоите промышленную переработку, выход металла можно будет улучшить. Пока полезнее наладить простой повторяемый цикл добычи и плавки, чем ждать идеальную фабрику без рабочего инструмента."
+        "Железо соединяет первые инструменты с мастерской, которая сможет расти дальше: ведро, механизмы, хранение, детали модов. Соберите тридцать два слитка и не спускайте весь запас на первую приглянувшуюся вещь.",
+        "Добудьте железную руду подходящей киркой и переплавьте сырое железо в печи. Следите за светом и дорогой назад из шахты. Для зачёта слитки должны лежать в инвентаре одновременно; железные блоки и непереплавленная руда в счёт не идут.",
+        "После зачёта распределите запас: часть на инструменты, часть на жидкости и первые механизмы. Промышленная переработка со временем увеличит выход металла. Пока же простой повторяемый цикл «добыл — переплавил» полезнее, чем ожидание идеальной фабрики без рабочей кирки."
       ],
       "text_en": [
-        "Iron connects your first tools to a workshop capable of further progress. Buckets, equipment, storage and many modded components need it. Gather thirty-two ingots without spending the entire reserve on the first interesting recipe.",
-        "Mine iron ore with a suitable pickaxe and smelt raw iron in a fuelled furnace. Maintain light and a way back from the mine. The objective needs all ingots in your inventory together; iron blocks and unsmelted ore do not substitute for them.",
-        "Once it registers, divide the supply between tools, fluid handling and initial machinery. Industrial processing can improve metal yields later. For now, a simple repeatable mining and smelting cycle is more useful than waiting for an ideal factory without working tools."
+        "Iron links the first tools to a workshop that can keep growing: a bucket, mechanisms, storage, mod parts. Gather thirty-two ingots and do not blow the whole stock on the first thing that catches your eye.",
+        "Mine iron ore with a suitable pickaxe and smelt the raw iron in a furnace. Watch the light and the way back out of the mine. For the goal the ingots must be in your inventory at the same time; iron blocks and unsmelted ore do not count.",
+        "After the goal is met, divide the stock: some for tools, some for fluids and the first mechanisms. Industrial processing will raise the metal yield in time. For now a simple repeatable cycle of mining and smelting is worth more than waiting for a perfect factory without a working pickaxe."
       ],
       "task_notes": {}
     },
@@ -215,14 +215,14 @@
     },
     "start_qol/jei": {
       "text": [
-        "JEI — справочник предметов и рецептов, доступный рядом с инвентарём. Он помогает выяснить не только способ изготовления вещи, но и то, где её используют. Это особенно важно для незнакомой детали: иногда её делают в машине, а не на верстаке.",
-        "Откройте инвентарь, найдите предмет через строку поиска JEI и откройте его рецепт. Посмотрите название категории обработки, ингредиенты и результат. Затем откройте применения одного ингредиента. Если есть несколько страниц или вариантов, пролистайте их, прежде чем выбирать производственный путь.",
-        "Подтвердите цель после того, как сможете назвать требуемое оборудование для выбранного рецепта. Наведение на рецепт само по себе не создаёт предмет и не обеспечивает машину энергией. В кодексе иконки предметных целей также открывают рецепт левой кнопкой и применения правой."
+        "JEI — справочник предметов и рецептов, живущий рядом с инвентарём. Он показывает не только как сделать вещь, но и где она применяется. Для незнакомой детали это главное: иногда её делают в машине, а не на верстаке.",
+        "Откройте инвентарь, найдите предмет через строку поиска JEI и откройте его рецепт. Посмотрите категорию обработки, ингредиенты и результат, затем — применения одного из ингредиентов. Если страниц или вариантов несколько, пролистайте все, прежде чем выбирать производственный путь.",
+        "Подтверждайте цель, когда сможете назвать оборудование для выбранного рецепта. Просмотр рецепта предмет не создаёт и машину током не питает. В кодексе иконки целей тоже открывают рецепт левой кнопкой и применения — правой."
       ],
       "text_en": [
-        "JEI is an item and recipe reference beside your inventory. It explains both how an item is made and where it is used. This matters for unfamiliar components, which may require a machine rather than a crafting table.",
-        "Open your inventory, search for an item and inspect its recipe. Read the processing category, ingredients and output, then view the uses of one ingredient. If there are multiple pages or alternatives, inspect them before choosing a production route.",
-        "Confirm the goal once you can name the equipment the recipe needs. Viewing it does not create the item or power the machine. Item icons in the Codex also open recipes with a left click and uses with a right click."
+        "JEI is a reference of items and recipes that lives next to your inventory. It shows not only how to make a thing but also where it is used. For an unfamiliar part that is the main point: sometimes it is made in a machine, not on a crafting table.",
+        "Open your inventory, find the item through JEI’s search bar and open its recipe. Look at the processing category, the ingredients and the result, then the uses of one of the ingredients. If there are several pages or variants, leaf through them all before choosing a production path.",
+        "Confirm the goal once you can name the equipment for the chosen recipe. Viewing a recipe creates no item and powers no machine. In the Codex, goal icons also open the recipe with the left button and the uses with the right."
       ],
       "task_notes": {
         "0": {
@@ -318,14 +318,14 @@
     },
     "start_qol/treechop2": {
       "text": [
-        "TreeChop меняет рубку деревьев: несколько ударов по стволу могут постепенно подготовить падение всего дерева. Количество работы зависит от дерева и настроек, поэтому нельзя рассчитывать, что любое огромное дерево исчезнет после одного взмаха.",
-        "Найдите обычное дерево вдали от построек и подготовьте топор. В настройках TreeChop посмотрите режим рубки, валки и поведение при приседании. Начните рубить ствол, наблюдая за индикатором и состоянием инструмента; при необходимости переключите режим для обычного разрушения отдельного блока.",
-        "Соберите выпавшую древесину и проверьте, что осталось на месте. После испытания отметьте цель. Возле деревянных зданий особенно важно понимать текущий режим: удобная массовая рубка не заменяет внимательный выбор блока. Посадите саженцы, чтобы следующий запас дерева вырос рядом."
+        "TreeChop меняет рубку деревьев: несколько ударов по стволу постепенно готовят падение всего дерева. Объём работы зависит от дерева и настроек, так что не ждите, что любой великан рухнет от одного взмаха.",
+        "Найдите обычное дерево подальше от построек и возьмите топор. В настройках TreeChop посмотрите режим рубки, валки и поведение при приседании. Рубите ствол, следя за индикатором и прочностью топора; когда нужен один блок, переключитесь в обычный режим.",
+        "Соберите упавшую древесину и посмотрите, что осталось на месте. После пробы отметьте цель. Рядом с деревянными домами особенно важно помнить текущий режим: массовая рубка удобна, но выбирать блок она за вас не станет. Посадите саженцы, чтобы следующий лес вырос под боком."
       ],
       "text_en": [
-        "TreeChop changes woodcutting: repeated chops can prepare an entire tree to fall. The work required depends on the tree and settings, so do not expect every enormous trunk to disappear after one swing.",
-        "Find an ordinary tree away from buildings and prepare an axe. Inspect TreeChop’s chopping, felling and sneak behaviour settings. Start chopping while watching its indicator and tool durability; switch modes when you need to break an individual block normally.",
-        "Collect the wood and inspect what remains before ticking the objective. Understanding the active mode matters especially near wooden buildings: convenient felling does not replace careful block selection. Replant saplings so your next supply grows nearby."
+        "TreeChop changes how trees are felled: several hits on the trunk gradually prepare the whole tree to fall. The amount of work depends on the tree and the settings, so do not expect any giant to topple from a single swing.",
+        "Find an ordinary tree well away from buildings and take an axe. In TreeChop’s settings look at the chopping mode, felling and the behaviour while sneaking. Chop the trunk, watching the indicator and the axe’s durability; when you need a single block, switch to the ordinary mode.",
+        "Gather the fallen wood and see what is left standing. Tick the goal after the trial. Next to wooden houses it is especially important to remember the current mode: mass felling is convenient, but it will not choose the block for you. Plant saplings so that the next forest grows close by."
       ],
       "task_notes": {
         "0": {
@@ -349,27 +349,27 @@
     },
     "start_qol/easyvillagers": {
       "text": [
-        "Trader из Easy Villagers позволяет устроить компактное рабочее место для торговли с жителем. Пустой блок ещё не содержит торговца: потребуется подходящий житель, а для выбора профессии — соответствующий рабочий блок.",
-        "Сделайте Trader по рецепту JEI. Найдите действие Pick Up в управлении Easy Villagers и используйте его для переноса подходящего жителя. Установите торговый блок и разместите жителя и рабочее место через его интерфейс. Для первого знакомства выбирайте взрослого жителя, чья профессия ещё не закреплена обменом.",
-        "Откройте торговлю и изучите предложения до первой сделки. Совершённые обмены закрепляют профессию и предложения по обычным правилам жителей. Предметная цель проверяет сам Trader в инвентаре, поэтому зачтите её перед установкой; дальнейшую работу торгового места проверьте отдельно."
+        "Трейдер из Easy Villagers — компактное рабочее место для торговли с жителем. Пустой блок торговца не содержит: нужен подходящий житель, а для профессии — соответствующий рабочий блок.",
+        "Сделайте трейдер по рецепту в JEI. Найдите действие Pick Up в управлении Easy Villagers и перенесите им подходящего жителя. Поставьте блок и разместите жителя с рабочим местом через интерфейс. Для первого знакомства берите взрослого жителя, чью профессию ещё не закрепила сделка.",
+        "Откройте торговлю и изучите предложения до первой сделки: обмен закрепляет профессию и ассортимент по обычным правилам жителей. Цель проверяет сам трейдер в инвентаре, так что зачтите его до установки, а работу торгового места проверьте отдельно."
       ],
       "text_en": [
-        "The Easy Villagers Trader provides a compact place to trade with a villager. An empty block does not contain a merchant: you need a suitable villager and the workstation associated with the desired profession.",
-        "Craft the Trader using JEI. Find Easy Villagers’ Pick Up action in your controls and use it to carry a suitable villager. Place the trading block and insert the villager and workstation through its interface. For your first trial, choose an adult whose profession has not been locked through trading.",
-        "Inspect the offers before making a first trade. Trading locks the profession and offers under normal villager rules. This inventory goal checks the Trader item, so complete it before placement and then verify the trading station’s operation separately."
+        "The Trader from Easy Villagers is a compact workplace for trading with a villager. An empty block contains no trader: it needs a suitable villager, and for a profession the matching workstation.",
+        "Make the Trader by the recipe in JEI. Find the Pick Up action in Easy Villagers’ controls and carry a suitable villager with it. Place the block and put the villager and the workstation in through the interface. For a first acquaintance take an adult villager whose profession no trade has locked in yet.",
+        "Open the trade and study the offers before the first deal: a trade locks in the profession and the range by the usual villager rules. The goal checks the Trader itself in your inventory, so have it counted before placing, and test the trading post separately."
       ],
       "task_notes": {}
     },
     "start_qol/voicechat": {
       "text": [
-        "Simple Voice Chat позволяет разговаривать с другими игроками голосом, если он настроен и доступен на сервере. Это удобно при совместной стройке: напарник может объяснить, какой блок поставить, пока вы смотрите на схему, а не на строку чата.",
-        "Найдите меню голосового чата в управлении, выберите устройства ввода и вывода и проверьте громкость. Настройте кнопку разговора или выбранный режим передачи. Если соединение недоступно, наличие клиентского мода само по себе не означает, что голосовой сервис работает на сервере.",
-        "Для справочной цели достаточно изучить меню и способ выключить микрофон. Второй игрок и реальная передача голоса не обязательны. Перед совместной игрой полезно коротко проверить слышимость и выбранный канал с участниками, чтобы случайно не обсуждать рабочую задачу с неподходящей группой."
+        "Simple Voice Chat даёт говорить с другими игроками голосом, если он настроен и включён на сервере. На общей стройке это удобно: напарник объяснит, какой блок ставить, пока вы смотрите на схему, а не в строку чата.",
+        "Найдите меню голосового чата в управлении, выберите устройства ввода и вывода и проверьте громкость. Настройте кнопку разговора или выбранный режим передачи. Клиентский мод в списке ещё не значит, что голосовая связь работает на сервере.",
+        "Для справочной цели хватит изучить меню и найти, как выключить микрофон. Второй игрок и живая передача не обязательны. Перед совместной игрой коротко проверьте слышимость и канал с участниками, чтобы не обсудить рабочую задачу не с той группой."
       ],
       "text_en": [
-        "Simple Voice Chat supports spoken conversation when configured and available on the server. It is useful during shared construction: a partner can explain a block placement while you look at the structure instead of typing into chat.",
-        "Find the voice menu in your controls, select input and output devices and inspect volume. Configure push-to-talk or your chosen transmission mode. A client mod alone does not guarantee the server’s voice service is running when the connection is unavailable.",
-        "This reference goal only asks you to inspect the menu and learn how to mute your microphone. Another player and actual voice transmission are unnecessary. Before a shared session, test audibility and the selected channel with the participants."
+        "Simple Voice Chat lets you talk to other players by voice if it is set up and enabled on the server. On a shared build that is handy: a partner explains which block to place while you look at the blueprint rather than at the chat line.",
+        "Find the voice chat menu in the controls, choose input and output devices and check the volume. Set up the push-to-talk key or the chosen transmission mode. A client-side mod in the list does not yet mean voice works on the server.",
+        "For this reference goal it is enough to explore the menu and find how to mute the microphone. A second player and a live transmission are not required. Before playing together, briefly check audibility and the channel with the others so as not to discuss a work task with the wrong group."
       ],
       "task_notes": {
         "0": {
@@ -380,14 +380,14 @@
     },
     "start_qol/performance": {
       "text": [
-        "Плавность игры зависит не от одной настройки. Большая дальность прорисовки нагружает вывод изображения, активные механизмы требуют вычислений, а исследование новой местности добавляет работу по созданию чанков. Сначала определите, при каком действии возникают задержки.",
-        "Сравните спокойную стоянку у базы с движением в неизведанную область. Изменяйте по одному параметру: дальность, сложные эффекты или настройки далёких ландшафтов. Проверяйте результат в похожих условиях, иначе случайно спокойный момент легко принять за исправление.",
-        "Отметьте цель после чтения и одной осмысленной проверки. Не отключайте неизвестные моды посреди прохождения ради эксперимента: среди них есть зависимости игровых систем. Если проблема связана с конкретной фабрикой, сначала проверьте скопившиеся предметы, незавершённые перевозки и объём постоянно загруженной области."
+        "Плавность игры складывается из многого. Большая дальность прорисовки нагружает вывод изображения, работающие механизмы требуют вычислений, а разведка новых земель добавляет генерацию чанков. Сначала поймите, при каком действии появляются задержки.",
+        "Сравните спокойную стоянку у базы с движением в неизведанное. Меняйте по одному параметру — дальность, сложные эффекты, настройки дальних ландшафтов — и проверяйте результат в похожих условиях, иначе случайно спокойный момент легко принять за исправление.",
+        "Ставьте галочку после чтения и одной осмысленной проверки. Не отключайте незнакомые моды посреди прохождения ради опыта: среди них есть зависимости игровых систем. Если тормозит конкретная фабрика, ищите скопившиеся предметы, незавершённые перевозки и размер постоянно загруженной области."
       ],
       "text_en": [
-        "Smooth gameplay depends on more than one setting. A long render distance increases rendering work, active machinery needs computation and exploring new terrain adds chunk generation. First identify which activity produces the slowdown.",
-        "Compare standing at your base with travelling into unexplored terrain. Change one setting at a time, such as distance, expensive effects or distant landscape options. Compare similar conditions so a coincidentally quiet moment does not look like a successful fix.",
-        "Mark the goal after reading and performing one deliberate check. Avoid disabling unfamiliar mods during a playthrough as an experiment, since some support gameplay systems. For a factory-specific slowdown, inspect accumulated dropped items, stalled transport and the size of constantly loaded areas first."
+        "Smooth play is made of many things. A large render distance loads the image output, running mechanisms demand computation, and scouting new land adds chunk generation. First understand during which action the lag appears.",
+        "Compare standing quietly at the base with moving into the unexplored. Change one parameter at a time — distance, complex effects, far-landscape settings — and check the result under similar conditions, or a chance quiet moment is easily taken for a fix.",
+        "Tick the goal after reading and one meaningful check. Do not switch off unfamiliar mods mid-playthrough for the sake of an experiment: some of them are dependencies of game systems. If a particular factory lags, look for piled-up items, unfinished transports and the size of the permanently loaded area."
       ],
       "task_notes": {
         "0": {
@@ -416,14 +416,14 @@
     },
     "start_qol/almanac": {
       "text": [
-        "Список установленных модов длиннее списка самостоятельных занятий в мире. Некоторые компоненты обслуживают другие системы: например, Almanac является библиотекой, а Sable поддерживает физику подвижных конструкций. Искать отдельную цепочку крафтов для каждого названия не нужно.",
-        "Выбирая следующий шаг, начните с игрового результата: обработать руду, построить транспорт или организовать хранение. Найдите соответствующую ветку кодекса и просмотрите её начало. Затем откройте рецепт первой нужной вещи и сравните его с доступными ресурсами.",
-        "Поставьте отметку, когда выберете понятное направление развития. Служебные компоненты сборки работают вместе с игровыми модами; менять их ради освобождения списка не требуется. Для прохождения полезнее знать инструмент и задачу, чем пытаться превратить каждую строку списка модов в отдельный обязательный этап."
+        "Список модов длиннее списка занятий, которые ждут вас в мире. Часть строк обслуживает другие системы: Almanac — библиотека, Sable отвечает за физику подвижных конструкций. Искать для каждого названия отдельную цепочку рецептов не нужно.",
+        "Выбирая следующий шаг, идите от игрового результата: переработать руду, построить транспорт, наладить хранение. Найдите нужную ветку кодекса и просмотрите её начало. Потом откройте рецепт первой нужной вещи и сравните его с тем, что у вас есть.",
+        "Ставьте отметку, когда выбрали понятное направление. Служебные компоненты работают вместе с игровыми модами, и трогать их ради чистоты списка не стоит. Для прохождения важнее знать инструмент и задачу, чем превращать каждую строку списка в обязательный этап."
       ],
       "text_en": [
-        "The installed mod list is longer than the list of independent activities in the world. Some components support other systems: Almanac is a library, while Sable supports moving structures’ physics. You do not need a separate crafting chain for every listed name.",
-        "Choose your next step by its gameplay result: process ore, build transport or organise storage. Find the corresponding Codex branch and read its beginning. Then inspect the recipe for the first required item and compare it with your available resources.",
-        "Tick the goal once you have chosen a clear direction. Supporting components work alongside gameplay mods and need not be changed merely to shorten the mod list. Understanding a tool and its purpose is more useful than turning every installed entry into a mandatory progression stage."
+        "The mod list is longer than the list of pursuits waiting for you in the world. Some lines serve other systems: Almanac is a library, Sable handles the physics of moving constructs. There is no need to look for a separate recipe chain for every name.",
+        "When choosing the next step, start from the in-game result: process ore, build transport, set up storage. Find the matching branch of the Codex and skim its beginning. Then open the recipe of the first thing you need and compare it with what you have.",
+        "Tick the goal once you have chosen a clear direction. Service components work alongside the gameplay mods, and touching them for the sake of a tidy list is not worth it. For a playthrough it matters more to know the tool and the task than to turn every line of the list into a compulsory stage."
       ],
       "task_notes": {
         "0": {
@@ -493,14 +493,14 @@
     },
     "start_first_day/guide_reserve": {
       "text": [
-        "Рабочий запас исчезает незаметно, если каждая новая идея забирает последние доски, еду и топливо. Выделите небольшой резерв для продолжения обычной жизни: добычи, освещения и возвращения из короткой вылазки.",
-        "Положите в отдельный подписанный контейнер еду, факелы, древесину и запасной инструмент. Рядом оставьте понятное правило пополнения: например, после каждой добычи возвращать использованные расходники. Точный размер выберите под свои маршруты, а не ради красивой полной бочки.",
-        "Проверьте, что можете собрать простой походный набор, не разбирая текущий проект и не опустошая печь. После этого подтвердите ручную цель. Резерв не запрещает тратить материалы; он показывает, какую часть нужно восстановить прежде, чем начинать следующую дорогую постройку."
+        "Рабочий запас тает незаметно, когда каждая новая идея забирает последние доски, еду и топливо. Отложите небольшой резерв на обычную жизнь: добычу, свет и возвращение из короткой вылазки.",
+        "Сложите в отдельный подписанный контейнер еду, факелы, древесину и запасной инструмент. Рядом заведите простое правило пополнения — скажем, возвращать использованные расходники после каждой добычи. Размер выбирайте под свои маршруты, а не ради красивой полной бочки.",
+        "Убедитесь, что походный набор собирается без разборки текущего проекта и опустошения печи, и подтвердите ручную цель. Резерв не запрещает тратить материалы — он показывает, что нужно восстановить, прежде чем начинать следующую дорогую постройку."
       ],
       "text_en": [
-        "Working supplies disappear quietly when every new idea uses the last planks, food and fuel. Set aside a small reserve for ordinary life: mining, lighting and returning from short trips.",
-        "Place food, torches, wood and a spare tool in a separate labelled container. Establish a clear replenishment habit, such as restoring used essentials after every mining trip. Choose quantities that suit your routes instead of trying to fill a barrel for appearance alone.",
-        "Check that you can assemble a simple travel kit without dismantling the current project or emptying the furnace, then confirm the manual goal. A reserve does not forbid spending supplies; it identifies what must be restored before another expensive construction begins."
+        "A working stock melts away unnoticed when every new idea takes the last planks, food and fuel. Set aside a small reserve for ordinary life: mining, light and the return from a short outing.",
+        "Put food, torches, wood and a spare tool in a separate labelled container. Next to it keep a simple rule for restocking — say, returning used consumables after every mining trip. Size it for your routes, not for the sake of a prettily full barrel.",
+        "Make sure a travel kit can be put together without dismantling the current project or emptying the furnace, and confirm the manual goal. The reserve does not forbid spending materials — it shows what must be restored before starting the next expensive build."
       ],
       "task_notes": {
         "0": {
@@ -511,14 +511,14 @@
     },
     "start_qol/guide_recipe_chain": {
       "text": [
-        "Сложная вещь часто требует детали, которые тоже нужно изготовить. Если посмотреть только последнюю страницу рецепта, можно пропустить нужную машину, обработанный материал или промежуточную жидкость. Проследите одну небольшую цепочку заранее.",
-        "Выберите доступный предмет из интересующей ветки и откройте рецепт в JEI. Для каждого незнакомого ингредиента посмотрите его изготовление, пока не дойдёте до материалов, которые умеете получать. Запишите промежуточные этапы и оборудование, отличая обычный крафт от машинной обработки.",
-        "Подтвердите цель, когда сможете объяснить путь от исходного материала до результата. Обратите внимание на выход рецепта: иногда одна операция делает несколько деталей, и заготовки не нужно умножать на каждую по отдельности. Такой разбор помогает планировать первую машину без лишнего накопления случайных ресурсов."
+        "Сложная вещь часто требует деталей, которые тоже нужно изготовить. Если смотреть только последнюю страницу рецепта, легко пропустить нужную машину, обработанный материал или промежуточную жидкость. Проследите одну короткую цепочку заранее.",
+        "Выберите доступный предмет из интересной ветки и откройте его рецепт в JEI. Для каждого незнакомого ингредиента посмотрите, как он делается, пока не дойдёте до сырья, которое умеете добывать. Запишите промежуточные шаги и оборудование, отличая рецепт верстака от машинной обработки.",
+        "Подтверждайте цель, когда сможете объяснить путь от исходного материала до результата. Обратите внимание на выход рецепта: иногда одна операция даёт несколько деталей, и заготовки не нужно умножать на каждую. Такой разбор помогает спланировать первую машину без залежей случайных ресурсов."
       ],
       "text_en": [
-        "A complicated item often needs components that must also be crafted. Looking only at the final recipe can hide a required machine, processed material or intermediate fluid. Trace one modest production chain beforehand.",
-        "Choose an accessible item from a branch that interests you and open its JEI recipe. Inspect each unfamiliar ingredient’s recipe until you reach materials you know how to obtain. Record intermediate stages and equipment, distinguishing table crafting from machine processing.",
-        "Confirm the goal once you can explain the route from raw material to result. Watch recipe output counts: one operation may produce several components, so ingredients need not be multiplied separately for each. This helps plan machinery without collecting unrelated supplies."
+        "A complex thing often needs parts that must be made too. If you look only at the last page of a recipe, it is easy to miss the required machine, a processed material or an intermediate fluid. Trace one short chain in advance.",
+        "Choose an available item from a branch that interests you and open its recipe in JEI. For every unfamiliar ingredient look at how it is made until you reach raw materials you know how to obtain. Write down the intermediate steps and the equipment, telling a crafting-table recipe from machine processing.",
+        "Confirm the goal once you can explain the road from the raw material to the result. Mind the recipe’s output: sometimes one operation yields several parts, and blanks need not be multiplied for each. Such a breakdown helps plan the first machine without hoards of random resources."
       ],
       "task_notes": {
         "0": {

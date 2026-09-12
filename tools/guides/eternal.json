@@ -3,11 +3,11 @@
   "chapters": {
     "et_intro": {
       "intro": [
-        "Начните с журнала и Вечного города: здесь берут сюжетные поручения, читают справку по навыкам и знакомятся с Мигелем. Журнал фиксирует поручения NPC, а эта карта связывает их с ремёслами и путешествиями.",
+        "Всё начинается с журнала и Вечного города: здесь берут сюжетные поручения, читают справку по навыкам и знакомятся с Мигелем. Журнал хранит поручения персонажей, а эта карта связывает их с ремёслами и путешествиями.",
         "Победы над боссами, завершение диалога и получение предмета — разные условия. Проверяйте список целей карточки: разговор после возвращения иногда важнее самого боя."
       ],
       "intro_en": [
-        "Begin with the Journal and Eternal Town: accept story quests, read about skills and meet Miguel here. The Journal records NPC assignments, while this map connects them with crafting and exploration.",
+        "Everything starts with the Journal and Eternal Town: here you take story assignments, read up on skills and meet Miguel. The Journal keeps the characters’ assignments, and this map ties them to crafts and travels.",
         "Defeating a boss, finishing a dialogue and obtaining an item are separate conditions. Read each card’s objectives: the conversation after your return can matter as much as the battle."
       ]
     },
@@ -44,11 +44,11 @@
     "et_farming": {
       "intro": [
         "Растения и рыба нужны для еды, ремесла и кристаллов измерений. Сначала получите один подтверждённый урожай или улов, затем расширяйте производство и добавляйте обслуживание машиной.",
-        "У горшка важны запасы воды и удобрения; у сети — окружение и наживка. Предметная отметка в книге не проверяет эти условия за вас."
+        "Горшку нужны вода и удобрение, сети — правильное окружение и наживка. Книга отметит урожай и улов, а следить за водой и наживкой придётся самим."
       ],
       "intro_en": [
         "Plants and fish supply food, crafting and dimension crystals. First obtain one confirmed harvest or catch, then expand production and add machine support.",
-        "Pots need water and fertilizer reserves; nets need the correct surroundings and bait. An item mark in the book does not verify these operating conditions for you."
+        "A pot needs water and fertiliser; a net needs the right surroundings and bait. The book will tick the harvest and the catch, but keeping an eye on water and bait is up to you."
       ]
     },
     "et_overworld": {
@@ -124,11 +124,11 @@
     "et_volcanech": {
       "intro": [
         "Вулканех требует десятого уровня колдовства и материалов предыдущих миров. Здесь полезны огнестойкость, исправная броня и внимательное наблюдение за противниками с летающим оружием и серными облаками.",
-        "Для голема отдельно подготовьте огненную сферу и пирокристалл, а для задания разведчика — разрушитель спавнеров. Арахулум из боковой линии вызывается в Крае."
+        "Для голема заранее приготовьте огненную сферу и пирокристалл, для поручения разведчика — разрушитель генераторов монстров. Арахулум из боковой линии вызывается в Крае."
       ],
       "intro_en": [
         "Volcanech requires Sorcery level ten and materials from earlier worlds. Fire Resistance, repaired armor and attention to enemies with floating weapons and sulfur clouds are useful here.",
-        "Prepare a Flame Sphere and Pyro Volcanite for the golem, and a Spawner Cracker for the scout’s assignment. Arahulum’s side encounter takes place in the End."
+        "For the golem, prepare a Flame Sphere and Pyro Volcanite in advance, and a Spawner Cracker for the scout’s assignment. Arahulum from the side line is summoned in the End."
       ]
     },
     "et_amber": {
@@ -204,12 +204,12 @@
     "et_intro/town": {
       "text": [
         "Вечный город нужен как постоянная точка встреч с персонажами, а не только как достопримечательность. Найдите город во время исследования обычного мира, отметьте координаты и поговорите с Аэтер. Её поручение «Город музыкантов» просит изготовить и поставить проигрыватель.",
-        "Подготовьте восемь досок и алмаз для проигрывателя. Сначала примите просьбу Аэтер, затем выполните строительство и вернитесь к ней, чтобы закончить разговор. Обычный нотный блок не заменяет проигрыватель.",
+        "На проигрыватель уйдут восемь досок и алмаз. Сперва примите просьбу Аэтер, потом постройте и вернитесь к ней закончить разговор. Нотный блок здесь не подойдёт: ей нужен именно проигрыватель.",
         "Условие этой карточки — завершённое сюжетное поручение, поэтому одно посещение города не засчитывается. После сдачи познакомьтесь с остальными жителями: здесь начинается линия Мигеля и появляется удобная база для следующих возвращений."
       ],
       "text_en": [
         "Eternal Town serves as a regular meeting place with characters, not merely a landmark. Find it while exploring the Overworld, record its coordinates and speak to Aeter. Her Musicians Town assignment asks you to craft and place a Jukebox.",
-        "Prepare eight planks and a diamond for the Jukebox. Accept Aeter’s request first, carry out the construction, then return to finish the conversation. A Note Block does not substitute for a Jukebox.",
+        "The Jukebox takes eight planks and a diamond. Accept Aeter’s request first, then build it and come back to finish the conversation. A Note Block will not do here: she wants a Jukebox and nothing else.",
         "This card checks the completed story assignment, so simply visiting town does not count. Afterwards, meet the other residents: Miguel’s storyline begins here, and the town provides a useful destination for future returns."
       ],
       "task_notes": {
@@ -222,8 +222,8 @@
     "et_intro/notice": {
       "text": [
         "Доска объявлений объединяет справочник мода, сведения о навыках и управление некоторыми настройками интерфейса. Для изготовления достаточно бумаги и любой доски. Поставьте её там, куда регулярно возвращаетесь, и откройте раздел навыков.",
-        "Очки развития связаны с отдельной системой Eternal Tales, поэтому ванильные уровни опыта над полоской быстрого доступа не заменяют их. Сначала заработайте очко навыка игровыми действиями, затем выберите на доске навык и повысьте его.",
-        "Карточка проверяет наличие самой доски и совершённое улучшение. Чтение справки не закрывает вторую цель. Особенно полезно следить за колдовством: его уровни понадобятся при изготовлении кристаллов измерений."
+        "Очки развития связаны с отдельной системой Eternal Tales, и ванильные уровни опыта над полоской быстрого доступа тут ни при чём. Сначала заработайте очко навыка игровыми действиями, затем выберите на доске навык и повысьте его.",
+        "Книге нужны сама доска и сделанное на ней улучшение. Чтение справки не закрывает вторую цель. Особенно полезно следить за колдовством: его уровни понадобятся при изготовлении кристаллов измерений."
       ],
       "text_en": [
         "The Notice Board combines the mod’s reference manual, skill information and several interface settings. Paper and any plank are enough to craft it. Place it somewhere you regularly return to and open the skills section.",
@@ -253,7 +253,7 @@
     "et_intro/miguel": {
       "text": [
         "Мигель рассказывает о боссах, показывает связанные с ними предметы и направляет первую большую экспедицию. Однако задача здесь требует именно его призыва. Найдите Знамя Вечности и нажмите по нему обычным куриным яйцом: этот способ прямо указан в достижении.",
-        "Призывайте рассказчика в безопасном месте, где вы сможете снова его найти. После появления откройте диалог, прочитайте первое поручение и сохраните маршрут к дому или городу. Простая встреча с уже существующим Мигелем не заменяет нужное действие.",
+        "Призывайте рассказчика в безопасном месте, где вы сможете снова его найти. После появления откройте диалог, прочитайте первое поручение и сохраните маршрут к дому или городу. Книга ждёт именно призыва: случайная встреча с уже гуляющим по миру Мигелем ей не подходит.",
         "Перед походом к Вивиду расспросите его о лабиринте и кобальтовой кирке. Раздел предметов пригодится позже, когда непонятный трофей окажется частью призыва другого босса."
       ],
       "text_en": [
@@ -271,12 +271,12 @@
     "et_intro/bard": {
       "text": [
         "Бард предлагает небольшую мирную передышку между поручениями. Возьмите монету, найдите барда среди жителей и передайте её через взаимодействие с ним. Следите за ответом персонажа и появлением достижения: случайно выброшенная на землю монета не равна оплате.",
-        "Вторая цель просит отдельный музыкальный предмет — гитару. Найдите её рецепт или доступное предложение торговли и оставьте полученную гитару в инвентаре для проверки. Наличие инструмента само по себе не подтверждает, что вы уже платили барду.",
+        "Вторая цель — отдельный музыкальный предмет, гитара. Найдите её рецепт или предложение у торговца и держите гитару в инвентаре, пока книга не отметит. Гитара и монета барду — две разные истории: одна не закрывает другую.",
         "Задание необязательное. Оно знакомит с тем, что мирные взаимодействия тоже имеют достижения, а монеты нужны не только для покупки боевого снаряжения."
       ],
       "text_en": [
         "The Bard offers a peaceful break between assignments. Bring a coin, find the Bard among the residents and give it through interaction. Watch the character’s response and advancement notification: dropping a coin on the ground is not payment.",
-        "The second objective requires a separate musical item, the Guitar. Look up its recipe or an available trade and keep the acquired instrument in your inventory for detection. Owning a Guitar does not prove that you have already paid the Bard.",
+        "The second goal is a separate musical item, the Guitar. Find its recipe or a trader’s offer and keep the Guitar in your inventory until the book ticks it. The Guitar and the coin for the Bard are two different stories: one does not close the other.",
         "This is optional. It introduces the idea that peaceful interactions also have advancements, and that coins have uses beyond buying combat equipment."
       ],
       "task_notes": {
@@ -288,12 +288,12 @@
     },
     "et_intro/coins": {
       "text": [
-        "Древние и золотые монеты относятся к экономике Eternal Tales. Подбирайте их во время исследования структур и после боёв, а предложения торговцев сравнивайте до покупки: разные монеты не являются одной общей валютой.",
+        "Древние и золотые монеты — деньги Eternal Tales. Их подбирают в сооружениях и после боёв, а перед покупкой стоит сравнить предложения торговцев: это разные монеты, и общей валюты у них нет.",
         "Для карточки достаточно получить оба вида и дождаться двух достижений. Храните запас отдельно от обычного золота; слиток, самородок и золотая монета — разные предметы. Часть валюты полезно оставлять на сюжетные покупки.",
         "Особенно не спешите тратить последнюю золотую монету перед Чистилищем: у местного странника продаётся часть Павшей руны. Этот запас может избавить от возвращения домой посреди подготовки к Ниетету."
       ],
       "text_en": [
-        "Ancient Coins and Gold Coins belong to Eternal Tales’ economy. Collect them while exploring structures and after battles, and compare traders’ offers before buying: different coin types are not one interchangeable currency.",
+        "Ancient Coins and Gold Coins are the money of Eternal Tales. You pick them up in structures and after fights, and it pays to compare traders’ offers before buying: they are different coins, with no common currency between them.",
         "Obtain both kinds and wait for their two advancements. Store reserves separately from ordinary gold; an ingot, nugget and Gold Coin are different items. Keeping some currency for story purchases is useful.",
         "In particular, avoid spending your last Gold Coin before Purgatorium: its wanderer sells a part of the Fallen Rune. This reserve can save you a return trip in the middle of preparations for Nyetet."
       ],
@@ -312,7 +312,7 @@
       "text": [
         "Эта карточка подводит итог сюжетным поручениям Eternal Tales и остаётся открытой на протяжении почти всего путешествия. Проверяйте журнал после каждого мира: незавершённая беседа с заказчиком может удерживать достижение даже после победы над нужным противником.",
         "Пройдите линии обычного мира, Нижнего мира, Края и последующих измерений, затем вернитесь к позднему сюжету Aftermath. Не пытайтесь закрыть итоговую цель раньше отдельных линий: её положение рядом с Мигелем означает знакомство с длинной целью, а не близость финала.",
-        "Когда все поручения сданы, проверьте именно общее достижение. Собранные трофеи или список убитых боссов не заменяют завершения заданий персонажей."
+        "Когда все поручения сданы, проверьте именно общее достижение. Трофеи и список убитых боссов здесь не в счёт — считаются только доведённые до конца поручения персонажей."
       ],
       "text_en": [
         "This card concludes Eternal Tales’ story assignments and remains open for most of your journey. Check the Journal after each world: an unfinished conversation with the quest giver can hold back an advancement even after the required enemy is defeated.",
@@ -329,12 +329,12 @@
     "et_skills/level": {
       "text": [
         "Система развития Eternal Tales различает опыт занятия, уровень навыка и очки, которые можно распределять через доску. Откройте её и посмотрите исходные значения, затем немного займитесь добычей руды или другим выбранным делом, чтобы увидеть, какой показатель меняется.",
-        "Но конкретно эта карточка просит эффект усиления любого навыка. Найдите предмет, в подсказке которого прямо указан Skill Boost, и примените его по назначению. Обычная бутылочка опыта даёт ванильный опыт и не является заменой.",
+        "Но эта карточка просит другое — эффект усиления любого навыка. Найдите предмет, в подсказке которого прямо написано Skill Boost, и примените его по назначению. Обычная бутылочка опыта даёт ванильный опыт и здесь не в счёт.",
         "Проверьте активные эффекты и достижение. Усиление удобно использовать перед подходящей работой; получение эффекта не означает постоянного повышения всех навыков."
       ],
       "text_en": [
         "Eternal Tales development distinguishes activity experience, skill level and points distributed through the Notice Board. Open it to inspect your starting values, then mine some ore or practise another activity to see which value changes.",
-        "This particular card, however, asks for any skill boost effect. Find an item whose tooltip explicitly lists Skill Boost and use it as intended. A normal Bottle o’ Enchanting grants vanilla experience and is not a substitute.",
+        "This card, though, asks for something else — a boost effect for any skill. Find an item whose tooltip says Skill Boost outright and use it as intended. An ordinary Bottle o’ Enchanting gives vanilla experience and does not count here.",
         "Check your active effects and the advancement. A boost is useful before the corresponding work; receiving the effect does not permanently increase every skill."
       ],
       "task_notes": {
@@ -347,7 +347,7 @@
     "et_skills/digging": {
       "text": [
         "Копание развивается при добыче руд; высокий уровень повышает шанс дополнительного куска сырья. Начните с обычной безопасной шахты, возьмите подходящую кирку, свет и запас еды. Камень вокруг жил помогает добраться до руды, но не стоит считать каждый булыжник отдельным упражнением навыка.",
-        "Добывайте руду и сравнивайте показатель на доске, пока не получите первый уровень копания. Затем получите сундук копания: это отдельная предметная цель, а не обозначение обычного сундука для шахтёрских запасов.",
+        "Добывайте руду и сравнивайте показатель на доске, пока не получите первый уровень копания. Затем получите сундук копания — это отдельный предмет, а не обычный сундук с шахтёрскими запасами.",
         "Для завершения нужны обе отметки. После первого уровня можно постепенно переходить к более ценным жилам; бонусная добыча помогает снабжать дальнейшее ремесло без отдельного сложного производства."
       ],
       "text_en": [
@@ -364,12 +364,12 @@
     },
     "et_skills/slaying": {
       "text": [
-        "Навык убийства растёт от побеждённых мобов. В справочнике количество получаемых очков связано с максимальным здоровьем противника, делённым на двадцать, поэтому одинаковое число разных существ не обязательно даёт одинаковый результат.",
+        "Навык убийства растёт с каждым побеждённым существом. По справочнику очки зависят от наибольшего здоровья противника, делённого на двадцать, так что десяток зомби и десяток крепких зверей дадут разный прирост.",
         "Запишите уровень на доске и сражайтесь с противниками, которых уверенно выдерживает ваше снаряжение. Сначала обеспечьте свет, отступление и лечение; рискованный босс не нужен для первого упражнения. После серии боёв снова проверьте показатель.",
         "Здесь ручное подтверждение: отметьте карточку только после фактического повышения навыка убийства. Позже он понадобится для эмблем, поэтому развивать его полезно параллельно сюжетным экспедициям."
       ],
       "text_en": [
-        "Slaying improves by defeating mobs. The reference ties awarded points to an enemy’s maximum health divided by twenty, so equal numbers of different creatures need not give equal progress.",
+        "Slaying grows with every creature you defeat. According to the reference, points depend on the enemy’s maximum health divided by twenty, so ten zombies and ten sturdy beasts give a different gain.",
         "Record your level on the board and fight enemies your equipment can reliably handle. Arrange lighting, retreat space and healing first; a dangerous boss is unnecessary for an introductory exercise. Check the value again after several fights.",
         "This objective is manual: confirm it only after your Slaying skill actually increases. The skill will later be needed for emblems, making it useful to develop alongside story expeditions."
       ],
@@ -437,7 +437,7 @@
     "et_skills/archaeology_skill": {
       "text": [
         "Археология развивается при аккуратном исследовании подозрительных блоков венетиевой или труадамантитовой кистью. Возьмите одну из этих кистей в экспедицию и ищите подходящие блоки среди археологических находок, а не разбивайте их киркой вместе с окружением.",
-        "Освободите место возле находки и продолжайте работу кистью до извлечения предмета. Простое касание или наличие инструмента не закрывает достижение; нужна завершённая раскопка подходящей кистью.",
+        "Освободите место возле находки и продолжайте работу кистью до извлечения предмета. Достижение даётся за доведённую до конца раскопку подходящей кистью — не за касание блока и не за кисть в руках.",
         "Среди находок бывают чертежи. Нужные сохраните для ремесла, а позднее лишние экземпляры можно переработать в шреддере ради развития навыка. Так одна экспедиция снабжает и коллекцию, и дальнейшее обучение."
       ],
       "text_en": [
@@ -454,13 +454,13 @@
     },
     "et_skills/speech": {
       "text": [
-        "Красноречие развивается через торговлю с торговцами Eternal Tales и даёт скидки в части предложений. Найдите такого торговца и осмотрите ассортимент, прежде чем тратить валюту. Сделка с обычным ванильным жителем не заменяет требуемое взаимодействие.",
-        "Выберите доступную полезную покупку, подготовьте указанную валюту и завершите обмен. Проверьте, что оплата списалась, а товар действительно оказался у вас; открытие окна торговли само по себе сделкой не является.",
+        "Красноречие развивается через торговлю с торговцами Eternal Tales и даёт скидки в части предложений. Найдите такого торговца и осмотрите ассортимент, прежде чем тратить валюту. Сделка с обычным деревенским жителем здесь не считается.",
+        "Выберите полезную покупку по карману, приготовьте нужную валюту и завершите обмен. Убедитесь, что деньги списались, а товар лежит у вас: открытое окно торговли сделкой ещё не считается.",
         "Карточка подтверждается вручную после торговли с персонажем мода. Для наблюдения за навыком сравните показатели до и после нескольких обменов: одна покупка не обязана давать целый уровень."
       ],
       "text_en": [
         "Speech develops through trades with Eternal Tales traders and grants discounts on some offers. Find one of these traders and inspect the stock before spending currency. A trade with a normal vanilla villager does not replace the required interaction.",
-        "Choose an affordable, useful purchase, prepare the listed payment and complete the exchange. Check that payment was taken and the goods reached your inventory; opening a trade interface is not itself a transaction.",
+        "Pick a useful purchase you can afford, prepare the required currency and complete the exchange. Make sure the money is gone and the goods are in your inventory: an open trade window is not yet a deal.",
         "Confirm this card manually after trading with a mod character. To observe skill development, compare values before and after several trades: one purchase need not grant an entire level."
       ],
       "task_notes": {
@@ -509,7 +509,7 @@
     "et_sorcery/runes": {
       "text": [
         "Руны получают из рунных камней, а их разновидности связаны с местом добычи. Начните с доступных камней обычного мира, используйте кирку и подбирайте выпавшие предметы. Для экзотических рун позже придётся посещать другие измерения.",
-        "Сумка для рун помогает не занимать весь инвентарь разными типами. Получите её и организуйте запас, но для первого достижения сначала убедитесь, что руна действительно была подобрана. Не заменяйте рунный камень декоративным блоком похожего цвета.",
+        "Сумка для рун помогает не занимать весь инвентарь разными типами. Получите её и организуйте запас, но для первого достижения сначала убедитесь, что руна действительно была подобрана. Декоративный блок похожего цвета рунным камнем не станет.",
         "Для дальнейших партий полезны «Рунный старатель» на кирке и «Рунная матрица» на броне. Собранное сырьё пойдёт в котёл извлечения и одновременно поддержит развитие колдовства."
       ],
       "text_en": [
@@ -548,7 +548,7 @@
     },
     "et_sorcery/matrix": {
       "text": [
-        "Рунная матрица — зачарование брони, усиливающее добычу рун и развитие колдовства. Отдельного станка с таким названием строить не нужно. Найдите доступный способ получить это зачарование и проверьте его наличие в подсказке предмета.",
+        "Рунная матрица — зачарование брони, усиливающее добычу рун и развитие колдовства. Отдельного станка с таким названием строить не нужно. Найдите доступный способ получить это зачарование и убедитесь, что оно появилось в подсказке предмета.",
         "Вторая цель относится к рунической броне. Подготовьте материалы комплекта и получите части, указанные достижением. Эффект полного комплекта нельзя проверять только по лежащему в сундуке шлему: для практической работы наденьте требуемую экипировку.",
         "После получения обеих отметок вернитесь к знакомой жиле рунных камней. Эти улучшения нужны для регулярного снабжения колдовства, поэтому оценивать их удобнее на нескольких добытых камнях, а не на единственном случайном выпадении."
       ],
@@ -588,14 +588,14 @@
     },
     "et_sorcery/astral": {
       "text": [
-        "Астральный зачарователь предоставляет собственные улучшения снаряжения. Для блока нужны костяные блоки, руны, резные каменные кирпичи и геобстрактсит. Поставьте его на базе и начните с предмета, который не является вашим единственным оружием.",
+        "Астральный зачарователь улучшает снаряжение по-своему. На блок уходят костяные блоки, руны, резные каменные кирпичи и геобстрактсит. Поставьте его на базе и первым положите в него не единственное своё оружие, а что-нибудь запасное.",
         "Откройте интерфейс, выберите подходящее улучшение и подготовьте указанные там материалы. Сверьте результат до подтверждения: название станции не означает, что любой предмет принимает любое зачарование.",
-        "Цель — действительно зачаровать предмет на этой станции. После операции заберите результат и проверьте изменившуюся подсказку вместе с достижением. Сам изготовленный блок или принесённая зачарованная книга не заменяют выполненной операции."
+        "Цель — зачаровать предмет именно на этой станции. Заберите результат и проверьте, как изменилась подсказка, и что достижение появилось. Сам блок в инвентаре или принесённая книга зачарований этого не заменят."
       ],
       "text_en": [
-        "The Astral Enchanter offers its own equipment upgrades. The block requires bone blocks, runes, chiseled stone bricks and Geobstractsite. Place it at your base and begin with an item that is not your only weapon.",
+        "The Astral Enchanter improves gear in its own way. The block takes bone blocks, runes, chiseled stone bricks and Geobstractsite. Set it up at your base and start not with your only weapon but with something spare.",
         "Open the interface, choose a compatible upgrade and prepare the materials it lists. Check the result before confirming: the station’s name does not mean that every item accepts every enchantment.",
-        "The objective is to actually enchant something at this station. Afterwards, take the output and check its changed tooltip together with the advancement. Merely crafting the block or bringing an enchanted book does not substitute for the operation."
+        "The goal is to enchant an item at this very station. Take the result, check how its tooltip changed and that the advancement has appeared. The block in your inventory or an enchanted book brought along will not stand in for that."
       ],
       "task_notes": {
         "0": {
@@ -607,13 +607,13 @@
     "et_sorcery/rituals": {
       "text": [
         "В этой карточке под названием «Ритуалы» проверяются чертёж и его копирование. Начните с археологии: завершайте раскопки подходящей кистью и сохраните найденный чертёж, особенно если ещё не можете изготовить описанный предмет.",
-        "Подготовьте принтер чертежей и материалы копирования, указанные его интерфейсом. Поместите нужный оригинал, выполните печать и заберите копию. Не отдавайте единственный ценный чертёж в шреддер: там он уничтожается ради опыта.",
-        "Должны зарегистрироваться получение любого чертежа и копирование на принтере. Это не проверка призыва босса или работы алтаря; копирование создаёт запас для ремесла и позволяет бережнее обращаться с редкими находками."
+        "Принтер чертежей попросит материалы для копии — они перечислены в его окне. Положите оригинал, напечатайте и заберите копию. Единственный ценный чертёж в шреддер не кладите: там он превращается в опыт и исчезает.",
+        "Книге нужны два события: получен любой чертёж и сделана копия на принтере. Призыв босса и алтарь здесь ни при чём. Копии создают запас для ремесла и берегут редкие находки."
       ],
       "text_en": [
         "Despite the title Rituals, this card checks a blueprint and its duplication. Start with archaeology: finish excavations using a suitable brush and save any blueprint found, especially when you cannot yet craft its item.",
-        "Prepare the blueprint printer and copying materials listed by its interface. Insert the desired original, perform the print operation and take the copy. Do not put your only valuable blueprint into a Shredder: that device destroys it for experience.",
-        "Both obtaining any blueprint and duplicating one on the printer must register. This does not check a boss summon or altar operation; copying creates crafting reserves and helps preserve rare finds."
+        "The blueprint printer will ask for copying materials — they are listed in its window. Put in the original, print and take the copy. Do not feed your only valuable blueprint to the Shredder: there it turns into experience and vanishes.",
+        "The book needs two events: any blueprint obtained and a copy made on the printer. Boss summons and altars have nothing to do with it. Copies build a crafting reserve and protect rare finds."
       ],
       "task_notes": {
         "0": {
@@ -629,25 +629,25 @@
     "et_sorcery/altars": {
       "text": [
         "Алтари Eternal Tales имеют разные назначения и условия взаимодействия. Эта карточка просит конкретно алтарь Ареи; алтарь Рок-Блейза или Чистилища не подойдёт вместо него, даже если выглядит как похожая каменная постройка.",
-        "Получите блок алтаря Ареи и держите его в инвентаре для проверки. Перед практическим использованием отдельно выясните предмет активации и подготовьте пространство: выполнение предметной цели не означает, что связанный бой уже начался или завершён.",
+        "Получите блок алтаря Ареи и держите его в инвентаре, пока книга не отметит. Прежде чем ставить его всерьёз, выясните, чем он активируется, и расчистите место: отмеченный блок — ещё не начатый бой.",
         "Полезно хранить найденные призывные предметы рядом с подписью нужного алтаря. Так при подготовке следующих экспедиций вы не перепутаете устройство с расходником и не потратите редкий предмет на неподходящую площадку."
       ],
       "text_en": [
         "Eternal Tales altars have different purposes and interaction conditions. This card specifically requests an Arei Altar; a Rock-Blaze or Purgatorium altar is not a substitute, even if it resembles the same kind of stone structure.",
-        "Obtain the Arei Altar block and keep it in your inventory for detection. Before using it, separately identify its activation item and prepare the surroundings: completing an item objective does not mean the associated battle has started or ended.",
+        "Get the Arei Altar block and keep it in your inventory until the book ticks it. Before setting it up for real, find out what activates it and clear the space: a ticked block is not yet a fight begun.",
         "Store summoning items beside a label naming their intended altar. This helps prevent confusing a device with its consumable or wasting a rare item at the wrong site while preparing future expeditions."
       ],
       "task_notes": {}
     },
     "et_archaeology/brush": {
       "text": [
-        "Венетиевая кисть нужна для раскопок Eternal Tales и развития археологии. Подготовьте её перед исследованием подозрительных блоков: обычная кирка разрушает находку и не выполняет работу кисти. Труадамантитовая кисть также подходит для достижения, но предметная цель здесь требует венетиевую.",
-        "Подойдите к подозрительному блоку и удерживайте взаимодействие кистью до извлечения содержимого. Уберите опасных мобов и не подкапывайте опору, чтобы спокойно закончить работу.",
+        "Венетиевая кисть нужна для раскопок Eternal Tales и развития археологии. Подготовьте её перед исследованием подозрительных блоков: обычная кирка разрушает находку и не выполняет работу кисти. Для достижения годится и труадамантитовая кисть, но в инвентаре книга хочет увидеть венетиевую.",
+        "Подойдите к подозрительному блоку и работайте кистью, пока содержимое не покажется. Прежде разгоните опасных существ и не подкапывайте опору под блоком — так вы закончите работу спокойно.",
         "Заберите выпавший предмет и проверьте достижение. Для завершения нужны и венетиевая кисть, и успешная раскопка подходящим инструментом; простого изготовления недостаточно. С этого начинается получение чертежей для следующей ветви."
       ],
       "text_en": [
         "The Venetium Brush is used for Eternal Tales excavation and Archaeology development. Prepare it before investigating suspicious blocks: a pickaxe destroys the find and does not perform brushing. A Truadamantite Brush also qualifies for the advancement, but this card’s item objective specifically requests Venetium.",
-        "Approach a suspicious block and keep brushing until its contents are extracted. Remove dangerous mobs and avoid undermining the block’s support so you can finish calmly.",
+        "Walk up to a suspicious block and keep brushing until its contents come out. Drive off dangerous creatures first and do not dig out the support beneath the block — that way you finish the job in peace.",
         "Collect the dropped item and check the advancement. You need both a Venetium Brush and a successful excavation with a qualifying tool; crafting alone is insufficient. This begins your supply of blueprints for the next branch."
       ],
       "task_notes": {
@@ -661,7 +661,7 @@
       "text": [
         "Неодимовые черепки и вазы образуют отдельную коллекцию археологических находок. Во время раскопок сохраняйте подписанные черепки по видам: обычные ванильные фрагменты керамики не обязательно подходят для целей мода.",
         "Получите любой неодимовый черепок, затем изготовьте или найдите подходящую неодимовую вазу. Для сборки сверяйте именно рецепт выбранной вазы, поскольку похожий внешний вид не гарантирует одинаковые компоненты.",
-        "Два достижения проверяют разные ступени: наличие фрагмента и готового предмета. Не расходуйте последний нужный черепок до проверки первой отметки. Коллекцию удобно хранить возле археологических инструментов, чтобы следующие находки сразу дополняли известные рецепты."
+        "Два достижения отмечают две ступени: найденный фрагмент и собранный из него предмет. Не расходуйте последний нужный черепок до проверки первой отметки. Коллекцию удобно хранить возле археологических инструментов, чтобы следующие находки сразу дополняли известные рецепты."
       ],
       "text_en": [
         "Neodymium Pottery Sherds and Vases form a separate archaeological collection. Save excavated sherds by their displayed type; ordinary vanilla pottery fragments do not necessarily qualify for the mod’s objectives.",
@@ -682,12 +682,12 @@
     "et_archaeology/blueprints": {
       "text": [
         "Чертежи открывают изготовление конкретных предметов: это полезный результат раскопок, а не просто бумажный трофей. Исследуйте подозрительные блоки венетиевой или труадамантитовой кистью и забирайте находки, пока не получите любой чертёж.",
-        "Прочитайте название и посмотрите, какой предмет он позволяет создавать. Сначала отложите оригинал в отдельное хранилище, затем составьте список недостающих материалов. Не все доступные чертежи рассчитаны на ваш текущий этап развития.",
+        "Прочитайте название и посмотрите, какой предмет чертёж открывает. Оригинал сразу отложите в отдельный сундук, потом составьте список недостающих материалов. Не всякий чертёж рассчитан на ваш нынешний этап.",
         "Получение одного подходящего чертежа закрывает цель. Продолжение предлагает шреддер, но это способ утилизации ненужных экземпляров; полезный оригинал лучше сохранить или предварительно скопировать на принтере."
       ],
       "text_en": [
         "Blueprints enable crafting particular items; they are useful excavation results, not merely paper trophies. Brush suspicious blocks with a Venetium or Truadamantite Brush and collect finds until you obtain any blueprint.",
-        "Read its name and inspect the item it helps create. Set the original aside in dedicated storage first, then list the missing materials. Not every available blueprint is intended for your current progression stage.",
+        "Read the name and see which item the blueprint unlocks. Put the original straight into a separate chest, then list the missing materials. Not every blueprint is meant for the stage you are at.",
         "Obtaining one qualifying blueprint completes this goal. The next card introduces the Shredder, but that device disposes of unwanted copies; preserve a useful original or duplicate it on the printer first."
       ],
       "task_notes": {
@@ -700,12 +700,12 @@
     "et_archaeology/shredder": {
       "text": [
         "Шреддер обменивает чертежи на развитие археологии, уничтожая переданный экземпляр. Это удобный выход для повторов, но плохое место хранения единственного редкого чертежа. Перед опытом выберите ненужную копию и уберите ценные оригиналы из рабочей зоны.",
-        "Откройте шреддер, поместите выбранный чертёж и выполните переработку. Сравните показатель археологии до и после операции; простое помещение предмета в незапущенную машину ещё не подтверждает результат.",
+        "Откройте шреддер, положите выбранный чертёж и запустите переработку. Взгляните на археологию до и после: цифра должна вырасти. Пока машина не запущена, лежащий в ней чертёж ничего не даёт.",
         "Для достижения требуется именно уничтожить чертёж в шреддере. Потеря этого предмета — нормальная цена действия, а не ошибка книги. Освоив цикл, можно превращать повторные находки в пользу без бесконечного накопления одинаковых бумаг."
       ],
       "text_en": [
         "The Shredder exchanges blueprints for Archaeology development, destroying the submitted copy. This is useful for duplicates but unsuitable for storing your only rare blueprint. Choose an unwanted copy for the exercise and move valuable originals away from the work area.",
-        "Open the Shredder, insert that blueprint and perform the recycling operation. Compare Archaeology progress before and after; placing an item in an idle machine does not establish that processing occurred.",
+        "Open the Shredder, put in the chosen blueprint and run it. Look at Archaeology before and after: the number should go up. A blueprint lying in an idle machine gives nothing.",
         "The advancement specifically requires destroying a blueprint in the Shredder. Losing that item is the expected price of the action, not a book error. Once understood, the cycle gives repeated finds a use instead of accumulating endless identical papers."
       ],
       "task_notes": {
@@ -718,7 +718,7 @@
     "et_archaeology/totems": {
       "text": [
         "Археологические тотемы — отдельные предметы, связанные с раскопками и дальнейшим ремеслом. Продолжайте сохранять необычные материалы и чертежи, затем выберите доступный тотем по его рецепту и подсказке. Не путайте их с ванильным тотемом бессмертия или переключателями Вечной Тьмы.",
-        "Получите любой предмет, который входит в достижение археологических тотемов. Перед применением прочитайте его эффект и условия: наличие слова «тотем» не обещает одинакового способа работы для всей группы.",
+        "Получите любой предмет, который входит в достижение археологических тотемов. Перед применением прочитайте его эффект и условия: слово «тотем» в названии не значит, что все они работают одинаково.",
         "Для карточки достаточно получения, поэтому опасный эксперимент не нужен. Полезнее сначала проверить, подходит ли эффект вашему занятию, и только после этого включать тотем в подготовку экспедиции."
       ],
       "text_en": [
@@ -814,12 +814,12 @@
     },
     "et_farming/fishing_nets": {
       "text": [
-        "Рыболовная сеть позволяет получать рыбу с помощью наживки. Для обычной сети выберите водоём, где вода есть с четырёх сторон блока и на двух уровнях под ним. Мелкая декоративная лужа может выглядеть подходящей, но не выполнять это условие.",
-        "Поймайте насекомое сачком, примените его к сети и дождитесь улова. Подбирайте наживку по показателю удачи, если охотитесь за редким ингредиентом. Адская сеть — отдельное устройство для своей среды; обычный улов не заменяет её получение.",
+        "Рыболовная сеть ловит рыбу на наживку без вашей удочки. Обычной сети нужна вода с четырёх сторон блока и на два уровня под ним. Мелкая декоративная лужа выглядит подходяще, но этому условию не отвечает.",
+        "Поймайте насекомое сачком, примените его к сети и дождитесь улова. Подбирайте наживку по показателю удачи, если охотитесь за редким ингредиентом. Адская сеть — отдельное устройство для своей среды, и книга ждёт именно её.",
         "Карточка просит достижения за обе сети. Подготовьте регулярную ловлю заранее: например, адская рыба потребуется для кристалла Раяны."
       ],
       "text_en": [
-        "A Fishing Net obtains fish using bait. For the ordinary net, choose water on all four sides and on two levels below the block. A shallow decorative pool may look suitable without meeting this condition.",
+        "A Fishing Net catches fish on bait without your rod. The ordinary net needs water on all four sides of the block and two levels below it. A shallow decorative pool looks suitable but does not meet that condition.",
         "Catch an insect with a Bug Net, apply it to the Fishing Net and wait for a catch. Select bait by Fishing Luck when seeking a rare ingredient. The Nether Fishing Net is a separate device for its own environment; an ordinary catch does not replace obtaining it.",
         "This card requests advancements for both nets. Establish regular fishing early: Nether Fish, for example, will be needed for the Rayana crystal."
       ],
@@ -838,7 +838,7 @@
       "text": [
         "Сачок превращает встреченных насекомых в полезную наживку. Возьмите его во время исследования растительности и взаимодействуйте с подходящими насекомыми, вместо того чтобы атаковать их обычным оружием. У пойманного экземпляра прочитайте подсказку.",
         "Разные виды отличаются рыболовной удачей. Отделите обычную наживку для пробных запусков сети от редкой, которую стоит приберечь для ценных рыб. Удача повышает вероятность, но не обещает определённый улов с первой попытки.",
-        "В этой карточке проверяется только наличие сачка. После получения поймайте хотя бы одно насекомое и используйте его в подготовленной сети: так инструмент станет частью работающего снабжения, а не останется коллекционным предметом."
+        "Этой карточке нужен только сачок. После получения поймайте хотя бы одно насекомое и используйте его в подготовленной сети: так инструмент станет частью работающего снабжения, а не останется коллекционным предметом."
       ],
       "text_en": [
         "A Bug Net turns encountered insects into useful bait. Carry it while exploring vegetation and interact with suitable insects instead of attacking them with a normal weapon. Read the captured specimen’s tooltip.",
@@ -850,7 +850,7 @@
     "et_farming/pets": {
       "text": [
         "У этой мирной ветви два разных действия: погладить енота и приручить все виды гультарвов, предусмотренные достижением. Начните с енота: взаимодействуйте с ним и проверьте, что сработало именно поглаживание, а не случайный удар.",
-        "Гультарвы требуют отдельного поиска и приручения. Ведите список уже засчитанных разновидностей в окне достижения; несколько одинаковых питомцев не заменят отсутствующий вид. Перед поиском следующего обеспечьте прежним безопасное место.",
+        "Гультарвы требуют отдельного поиска и приручения. Ведите список уже засчитанных разновидностей в окне достижения; три одинаковых питомца не восполнят недостающий вид. Перед поиском следующего обеспечьте прежним безопасное место.",
         "Задание рассчитано на постепенное исследование, а не одну короткую прогулку. Проверяйте оба достижения отдельно: успех с енотом не говорит ничего о полноте коллекции приручённых гультарвов."
       ],
       "text_en": [
@@ -932,13 +932,13 @@
     "et_overworld/bosses_ow": {
       "text": [
         "Эта коллекция объединяет боссов разных этапов, и их названия не означают общий способ призыва. Королева равритов связана с равритами Янтаря. Гротестерк также вызывается в Янтаре Руной Бури, которую дают янтарные воины лабиринта, замка и призванные Ксакксасом бойцы.",
-        "Ужасный саженец выращивают отдельно: семена выпадают с Духа Хэллоуина, затем их применяют к горшку садовника и обеспечивают водой и удобрением. Готовьте такое выращивание вдали от мирных посадок.",
-        "Отмечаются три победы. К карточке придётся возвращаться после других глав; для начала перехода к Вивиду не следует искать этих существ как обычных соседей первой базы."
+        "Ужасный саженец выращивают отдельно: семена выпадают с Духа Хэллоуина, их сажают в горшок садовника и снабжают водой и удобрением. Такую грядку держите подальше от мирных посадок.",
+        "Книге нужны три победы, и к карточке вы будете возвращаться из других глав. Перед походом к Вивиду не ищите этих существ по соседству с первой базой — они живут не там."
       ],
       "text_en": [
         "This collection combines bosses from different stages, and their names do not imply a shared summoning method. The Ravrite Queen is associated with Amber’s Ravrites. Grotesterk is also summoned in Amber using a Storm Rune dropped by Amber warriors in the maze, castle and Xaxxas’s summoned forces.",
-        "Dreadful Sapling is grown separately: its seeds drop from Halloween Spirit, then are used on a Gardener’s Pot supplied with water and fertilizer. Prepare this cultivation away from peaceful crops.",
-        "Three victories are recorded. You will return to this card after other chapters; do not search for these creatures as ordinary neighbors of your first base while preparing for Vivid."
+        "The Dreadful Sapling is grown separately: its seeds drop from the Halloween Spirit, then go into a Gardener’s Pot supplied with water and fertiliser. Keep that bed well away from peaceful crops.",
+        "The book needs three victories, and you will return to this card from other chapters. Before heading for Vivid, do not look for these creatures next to your first base — they do not live there."
       ],
       "task_notes": {
         "0": {
@@ -959,12 +959,12 @@
       "text": [
         "Дух Хэллоуина вызывается специальным предметом ночью. Мигель объясняет, что его делают из эктоплазмы духов и дополнительных материалов; календарный октябрь в его описании призыва не требуется. Подготовьте ночную арену и запас лечения до активации.",
         "Экэтебрина имеет несколько ступеней, но здесь нужна первая победа, указанная в достижении. Более поздние ледяной дракон и морозный змей относятся к отдельным боям и не подменяют эту цель. Выберите призыв именно нужной версии.",
-        "Проверьте две победы по отдельности. Добычу Духа Хэллоуина сохраните: его ужасные семена позволяют вырастить Ужасный саженец в горшке и продолжить соседнюю коллекцию боссов."
+        "Проверьте обе победы по отдельности. Добычу Духа Хэллоуина сберегите: из его ужасных семян в горшке вырастает Ужасный саженец, а с ним продолжается соседняя коллекция боссов."
       ],
       "text_en": [
         "Halloween Spirit is called with its special item at night. Miguel explains that the summoner is made from spirits’ Ectoplasm and additional materials; his summoning description does not require the calendar month of October. Prepare a nighttime arena and healing before activation.",
         "Ekatebrina has several tiers, but this card requires the first victory named by its advancement. The later Ice Dragon and Everfrost Serpent belong to separate fights and do not replace this objective. Choose the summoner for the correct version.",
-        "Check the two victories independently. Save Halloween Spirit’s drops: its Dreadful Seeds let you grow Dreadful Sapling in a pot and continue the neighboring boss collection."
+        "Check both victories separately. Keep the Halloween Spirit’s drops: its Dreadful Seeds grow a Dreadful Sapling in a pot, and with it the neighbouring boss collection continues."
       ],
       "task_notes": {
         "0": {
@@ -1006,12 +1006,12 @@
       "text": [
         "Межпространственный создатель собирает кристаллы из пяти компонентов и проверяет личный уровень колдовства. Получите устройство и поставьте на базе. Первым полезным результатом будет обратный билет: он требует первого уровня колдовства и помогает вернуться из экспедиции.",
         "Для билета нужны кобальтовый самородок, кирпичи, книга с пером, сноп сена и базальтовый слиток. Разложите их по схеме создателя и заберите результат. Не путайте строительный блок кирпичей с отдельным кирпичом.",
-        "Используйте билет после короткого контролируемого выхода и проверьте место возвращения. Карточка требует устройство, билет и достижение его применения; один предмет в сундуке не доказывает, что путь домой работает."
+        "Опробуйте билет после короткой вылазки и посмотрите, куда он вас вернул. Книге нужны устройство, билет и достижение за его применение: лежащий в сундуке билет дорогу домой не проверит."
       ],
       "text_en": [
         "The Interdimensional Creator combines five components into crystals and checks your personal Sorcery level. Obtain the device and place it at your base. A Return Ticket makes a useful first product: it requires Sorcery level one and helps you return from expeditions.",
         "The ticket uses a Cobalt Nugget, Bricks, a Book and Quill, a Hay Bale and a Basalt Ingot. Arrange them according to the creator’s recipe and collect the output. Do not confuse the Bricks block with an individual brick item.",
-        "Use a ticket after a short controlled trip and check where it returns you. This card requires the device, ticket and usage advancement; an item stored in a chest does not prove your route home works."
+        "Try the ticket after a short trip and see where it brings you back. The book needs the device, the ticket and the advancement for using it: a ticket lying in a chest will not test the way home."
       ],
       "task_notes": {
         "2": {
@@ -1023,8 +1023,8 @@
     "et_nether_end/nether_tower": {
       "text": [
         "Часовая башня пиглинов заперта четырьмя замками. Ищите её в Нижнем мире, а ключи добывайте у адских надзирателей в Пылающих пустошах. Отметьте башню и путь к ней до начала охоты, чтобы не потеряться с собранными ключами.",
-        "Хотя предметная цель показывает один адский ключ, для описанного в сюжете открытия нужны четыре. Соберите полный набор и последовательно откройте замки, затем исследуйте башню и доведите её поручение до завершения.",
-        "Не расходуйте все ключи до отметки предметной цели. Карточка требует и ключ, и достижение линии Нижнего мира; простое обнаружение здания не завершает историю спрятанной короны."
+        "Книга просит один адский ключ, но для открытия, о котором говорит сюжет, нужны четыре. Соберите полный набор и последовательно откройте замки, затем исследуйте башню и доведите её поручение до завершения.",
+        "Не тратьте все ключи, пока книга не отметила свой. Карточка требует и ключ, и достижение линии Нижнего мира; простое обнаружение здания не завершает историю спрятанной короны."
       ],
       "text_en": [
         "The Piglin Clocktower is secured by four locks. Find it in the Nether and obtain keys from Hell Overseers in the Blazing Wastes. Mark the tower and your route before hunting so you do not lose your way with the collected keys.",
@@ -1041,12 +1041,12 @@
     "et_nether_end/tsar": {
       "text": [
         "Для пиглина-колдуна поставьте вертикаль снизу вверх: полированный чернит, полированные чернитные кирпичи, золочёный чернит. Примените Nether Chronicles к верхнему блоку; книга расходуется. Перед активацией подготовьте броню, огнестойкость, лечение и свободную площадку.",
-        "Царя пиглинов вызывают Посохом Круга Пламени на блоке гиацинтового незерита. Это другой предмет и другая конструкция, поэтому победа над колдуном не завершает обе цели. Проверьте необходимые материалы и окружение перед вторым боем.",
+        "Царя пиглинов вызывают Посохом Круга Пламени на блоке гиацинтового незерита — другой предмет и другая постройка, так что победа над колдуном вторую цель не закрывает. Перед вторым боем сверьте материалы и осмотрите площадку.",
         "После каждой победы подберите трофеи и проверьте отдельное достижение. В режиме Вечной Тьмы призыв царя дополнительно связан с усиленным колдуном; первую обычную попытку лучше подготовить с осознанно выбранным режимом."
       ],
       "text_en": [
         "For Piglin Warlock, build a vertical stack from bottom to top: Polished Blackstone, Polished Blackstone Bricks and Gilded Blackstone. Use Nether Chronicles on the top block; the book is consumed. Prepare armor, Fire Resistance, healing and an open arena before activation.",
-        "Summon the Tsar of Piglins with Staff of the Circle of Flames on a Hyacinthum Netherite Block. This uses another item and construction, so defeating the Warlock does not complete both goals. Check materials and surroundings before the second fight.",
+        "The Tsar of Piglins is summoned with the Staff of the Circle of Flames on a Hyacinthum Netherite Block — a different item and a different build, so beating the Warlock does not close the second goal. Check the materials and look over the arena before the second fight.",
         "Collect trophies and check each advancement after victory. In Eternal Darkness, the Tsar summon also involves an enhanced Warlock; deliberately choose the mode when preparing your first normal attempt."
       ],
       "task_notes": {
@@ -1081,8 +1081,8 @@
     "et_nether_end/end_quest": {
       "text": [
         "Древний эндермен в Крае просит Живительный суп, чтобы восстановить древний хорус, который он охраняет. Найдите его, примите просьбу и запишите место встречи. Сначала разговор, затем доставка — надёжнее, чем приносить случайные блюда без активного поручения.",
-        "Приготовьте именно Vital Soup по рецепту и передайте заказчику. Доведите диалог до завершения, затем получите плод древнего хоруса. Обычный плод хоруса не выполняет предметную цель этой линии.",
-        "Проверьте достижение задания Края и наличие нужного плода. Древний хорус полезен путешественнику против портальной болезни, поэтому сохраните его источник и не рассматривайте первый плод как одноразовый сюжетный мусор."
+        "Приготовьте именно Vital Soup по рецепту и передайте заказчику. Доведите диалог до завершения, затем получите плод древнего хоруса. Обычный плод хоруса здесь не годится.",
+        "Проверьте достижение задания Края и убедитесь, что нужный плод у вас. Древний хорус полезен путешественнику против портальной болезни, поэтому сохраните его источник и не рассматривайте первый плод как одноразовый сюжетный мусор."
       ],
       "text_en": [
         "The Ancient Enderman in the End asks for Vital Soup to restore the Ancient Chorus he guards. Find him, accept his request and record the meeting place. Speaking first and delivering afterwards is more reliable than bringing arbitrary food without an active assignment.",
@@ -1116,12 +1116,12 @@
     },
     "et_comets/crystal": {
       "text": [
-        "Кристалл Комет делают на межпространственном создателе при втором уровне колдовства. Подготовьте древесину кровавого дерева в рамке из анциензита, перевёрнутую грязь, кристалл земли, могильную землю и блок гиацинтового золота. Сверяйте форму каждого компонента: блок золота здесь не заменяется слитком.",
+        "Кристалл Комет делают на межпространственном создателе при втором уровне колдовства. Понадобятся древесина кровавого дерева в рамке из анциензита, перевёрнутая грязь, кристалл земли, могильная земля и блок гиацинтового золота. Сверяйте форму каждого компонента: нужен именно блок золота, слиток создатель не примет.",
         "Проверьте уровень на доске, разложите пять компонентов по рецепту и заберите кристалл. Если результата нет, сначала проверяйте предметы и личный навык, а не перестраивайте портал.",
         "Карточка просит сам кристалл. Для путешествия отдельно нужны соответствующие межпространственные кирпичи и активация перехода. Возьмите обратный билет и строительные блоки до первого шага в новый мир."
       ],
       "text_en": [
-        "The Comets crystal is made in the Interdimensional Creator at Sorcery level two. Prepare Ancienzyte-Framed Bleedwood, Inverted Mud, a Terra Crystal, Grave Dirt and a Hyacinthum Gold Block. Check each component’s form: the gold block cannot be replaced by an ingot.",
+        "The Comets crystal is made in the Interdimensional Creator at Sorcery level two. You need Ancienzyte-Framed Bleedwood, Inverted Mud, a Terra Crystal, Grave Dirt and a Hyacinthum Gold Block. Check the form of every component: it has to be the gold block, the creator will not take an ingot.",
         "Check your level on the board, arrange the five components according to the recipe and take the crystal. If there is no result, verify the items and your personal skill before rebuilding a portal.",
         "This card requests the crystal itself. Travel separately requires the corresponding interdimensional bricks and an activated portal. Pack a Return Ticket and building blocks before your first step into the new world."
       ],
@@ -1171,12 +1171,12 @@
       "text": [
         "Ужасное древо вызывают рубкой кометного бревна Топором трагедии. Сделайте этот топор из аэролитового топора и четырёх блоков могильной земли. Выберите доступное кометное дерево на площадке, где есть место двигаться и нет открытого края прямо за спиной.",
         "До рубки отремонтируйте оружие, подготовьте лечение и путь отхода. Сломайте именно Comet Log нужным топором и после появления босса держитесь на устойчивой поверхности, освобождая пространство от мешающих существ.",
-        "Победа должна дать личное достижение. Оно необходимо для призыва Рок-Блейза: даже готовый адский огонь не обходит эту проверку. После боя сохраните трофеи и возвращайтесь за материалами следующего призыва."
+        "Победа должна принести личное достижение — без него Рок-Блейза не призвать, и готовый адский огонь эту проверку не обойдёт. После боя сберегите трофеи и возвращайтесь за материалами для следующего призыва."
       ],
       "text_en": [
         "Summon the Terrible Tree by breaking a Comet Log with a Tragedy Axe. Craft that axe from an Aerolite Axe and four Grave Dirt blocks. Choose an accessible comet tree on ground with room to move and no open edge immediately behind you.",
         "Repair your weapon and prepare healing and retreat space before chopping. Break the correct Comet Log with the required axe, then fight on solid ground while clearing interfering creatures.",
-        "Victory must grant your personal advancement. It is required to summon Rock-Blaze: even ready-made Hell Fire cannot bypass this check. Save the drops after the fight and return for the next summoning materials."
+        "The victory has to bring your personal advancement — without it Rock-Blaze cannot be summoned, and ready-made Hell Fire will not get around that check. After the fight keep the drops and go back for the next summoning materials."
       ],
       "task_notes": {
         "0": {
@@ -1206,12 +1206,12 @@
     "et_comets/ice": {
       "text": [
         "Ледяные земли — отдельный биом Комет и цель исследовательской вылазки. Возьмите строительные блоки, еду и способ вернуться, затем ищите холодные участки среди островов. Отмечайте переходы между островами, чтобы не повторять опасные прыжки на обратном пути.",
-        "Войдите внутрь найденного биома и дождитесь достижения. Лёд в инвентаре или вид заснеженного острова издалека не означает, что персонаж посетил нужную территорию.",
+        "Войдите в найденный биом и дождитесь достижения. Лёд в инвентаре или заснеженный остров на горизонте не считаются: персонаж должен ступить на эту землю.",
         "Запишите координаты и образцы местных материалов. Этот участок пригодится для более поздних холодных рецептов и высшей версии Экэтебрины; сейчас достаточно разведки, а готовить сложный бой при первом обнаружении не требуется."
       ],
       "text_en": [
         "Icelands is a distinct Comets biome and the target of an exploration trip. Bring building blocks, food and a return method, then search for cold areas among the islands. Mark crossings so the return journey does not require repeating dangerous jumps.",
-        "Enter the discovered biome and wait for its advancement. Ice in your inventory or a distant view of a snowy island does not mean your character has visited the required area.",
+        "Enter the biome you have found and wait for the advancement. Ice in your inventory or a snowy island on the horizon do not count: your character has to set foot on that ground.",
         "Record coordinates and samples of local materials. This location supports later cold-related recipes and the highest Ekatebrina tier; reconnaissance is sufficient now, without preparing a difficult fight on your first discovery."
       ],
       "task_notes": {
@@ -1224,7 +1224,7 @@
     "et_comets/comethorn": {
       "text": [
         "Комеророга приручают кустами или трубами геобстрактсита, как прямо указано в достижении. Подготовьте запас подходящего вида материала и найдите комеророга в Кометах, стараясь подходить на ровной площадке вдали от края острова.",
-        "Взаимодействуйте с существом подходящим предметом и следите за признаками приручения. Не заменяйте действие атакой и не считайте одного кормления гарантированным успехом; ориентируйтесь на состояние питомца и достижение.",
+        "Взаимодействуйте с существом подходящим предметом и следите за признаками приручения. Не бейте зверя вместо того, чтобы кормить, и не ждите успеха от первого же кормления; смотрите на состояние питомца и на достижение.",
         "После приручения обеспечьте безопасное место и проверьте его поведение, прежде чем вести через мосты. Карточка просит именно приручение: убитый комеророг или собранный материал не закрывают эту мирную ветвь."
       ],
       "text_en": [
@@ -1254,7 +1254,7 @@
     },
     "et_purgatorium/rock_blaze": {
       "text": [
-        "Рок-Блейз вызывается в адском подземелье Нижнего мира: примените адский огонь к Hellish Altar. Перед этим у призывающего должно быть достижение за Ужасное древо. Если алтарь отказывает, проверьте эту личную победу: чужой трофей и купленный огонь её не заменяют.",
+        "Рок-Блейз вызывается в адском подземелье Нижнего мира: примените адский огонь к Hellish Altar. Перед этим у призывающего должно быть достижение за Ужасное древо. Если алтарь отказывает, проверьте эту личную победу: ни чужой трофей, ни купленный огонь её не дадут.",
         "До призыва расчистите подходы, приготовьте броню, огнестойкость, лечение и выход. Пока босс жив, успейте получить нужный адский камень: ПКМ по нему астероидным камнем в основной руке. Убитый босс больше не выполняет обмен.",
         "В бою сохраняйте место для движения, следите за здоровьем и не загоняйте себя к лаве. После победы подберите первую часть Павшей руны и проверьте достижение убийства.",
         "Дальше соедините девять адских камней в блок, изготовьте кристалл Чистилища при четвёртом уровне колдовства и продолжайте собирать руну для Ниетета."
@@ -1276,12 +1276,12 @@
       "text": [
         "Кристалл Чистилища требует четвёртого уровня колдовства и пяти компонентов: блока огненного мха Нижнего мира, скайлитового слитка, лапсидиевого слитка, аэролитового слитка и блока адского камня. Последний собирается из девяти отдельных адских камней, полученных у живого Рок-Блейза.",
         "Лапсидий можно подготовить до входа: два блока лазурита и два обсидиана дают пыль, которую переплавляют в слиток. Разложите компоненты в межпространственном создателе и заберите кристалл.",
-        "Подготовьте портал из соответствующих кирпичей, запас света и обратный билет. Здесь проверяются сам кристалл, достижение входа и нахождение в Чистилище. После перехода оборудуйте безопасное место, прежде чем искать части руны."
+        "Портал складывают из соответствующих кирпичей; возьмите запас света и обратный билет. Книга смотрит на сам кристалл, достижение входа и пребывание в Чистилище. Перейдя, обустройте безопасный угол и только потом ищите части руны."
       ],
       "text_en": [
         "The Purgatorium crystal requires Sorcery level four and five components: a Nether Fire Moss Block, Skylite Ingot, Lapsidian Ingot, Aerolite Ingot and Hellrock Block. The last is crafted from nine individual Hellrock obtained from the living Rock-Blaze.",
         "Lapsidian can be prepared before entry: two Lapis Blocks and two Obsidian produce dust that smelts into an ingot. Arrange the ingredients in the Interdimensional Creator and collect the crystal.",
-        "Prepare a portal of the corresponding bricks, lighting and a Return Ticket. This card checks the crystal, entry advancement and presence in Purgatorium. Establish a safe location after arrival before searching for the rune parts."
+        "The portal is built from the matching bricks; bring a stock of light and a Return Ticket. The book looks at the crystal itself, the entry advancement and your presence in Purgatorium. Once across, set up a safe corner and only then look for the rune parts."
       ],
       "task_notes": {
         "1": {
@@ -1297,7 +1297,7 @@
     "et_purgatorium/rune": {
       "text": [
         "Павшая руна состоит из трёх разных частей. Первая гарантированно входит в добычу Рок-Блейза. Вторую изготовьте из трёх призрачных душ, четырёх агатов и двух кровавых камней; это рецепт, а не случайное выпадение готовой части.",
-        "Третью продаёт странник Чистилища Бенни Лафитт за золотую монету. Найдите его, завершите обмен и сохраните координаты на случай повторного призыва. Обычные слитки золота не заменяют валюту.",
+        "Третью продаёт странник Чистилища Бенни Лафитт за золотую монету. Найдите его, завершите обмен и сохраните координаты на случай повторного призыва. Золотые слитки странник не берёт — только монеты.",
         "Соедините все три части без заданной формы на верстаке и оставьте готовую руну в инвентаре для проверки. Не применяйте её, пока не найдены алтарь Чистилища и безопасная площадка: следующий шаг расходует руну и начинает бой с Ниететом."
       ],
       "text_en": [
@@ -1345,12 +1345,12 @@
     },
     "et_purgatorium/lapsidian": {
       "text": [
-        "Лапсидий полезен для снаряжения и переходов, но первый слиток не требует уже попасть в Чистилище. Соедините два блока лазурита с двумя обсидианами, получите лапсидиевую пыль и переплавьте её. Это позволяет заранее закрыть компонент входного кристалла.",
+        "Лапсидий пригодится и для снаряжения, и для переходов, а первый слиток можно сделать, не побывав в Чистилище. Два блока лазурита и два обсидиана дают лапсидиевую пыль; переплавьте её. Так один компонент входного кристалла будет готов заранее.",
         "Вторая цель — кость души. Сохраняйте подходящую добычу и проверяйте предложения торговцев; Мигель указывает, что такие кости продают мессии санфурри в Эдеме. Не путайте их с обычными костями скелета.",
         "Для карточки нужны оба предмета. Отложите запас костей души для кристаллов Раяны и Карвата, а лапсидия — для следующих инструментов; задачи стоят рядом, но способы получения у них различаются."
       ],
       "text_en": [
-        "Lapsidian supports equipment and travel, but your first ingot does not require entering Purgatorium. Combine two Lapis Blocks and two Obsidian into Lapsidian Dust, then smelt it. This lets you prepare the entry crystal’s component beforehand.",
+        "Lapsidian serves both gear and travel, and the first ingot can be made without having been to Purgatorium. Two Lapis Blocks and two Obsidian give Lapsidian Dust; smelt it. That way one component of the entry crystal is ready in advance.",
         "The second objective is Soulbone. Save qualifying drops and inspect traders’ offers; Miguel states that Sunfurry Messiahs in Eden sell these bones. Do not confuse them with ordinary skeleton bones.",
         "Both items are needed for this card. Reserve Soulbones for Rayana and Karvat crystals and Lapsidian for later tools; the objectives share a card, but their acquisition methods differ."
       ],
@@ -1359,7 +1359,7 @@
     "et_eden/sunstone": {
       "text": [
         "Солнечные камни подберите после победы над Ниететом и сохраните четыре отдельных экземпляра для этой карточки. Внутреннее имя предмета содержит nugget, но в игре это Sunstone; девять штук также можно соединить в строительный блок.",
-        "Не объединяйте весь запас заранее. Для кристалла Эдема нужны два отдельных камня, и блочная форма не заменяет их в рецепте. Сначала дождитесь предметной отметки, затем распределите добычу между путешествием и ремеслом.",
+        "Не объединяйте весь запас заранее. Кристаллу Эдема нужны два отдельных камня; блок из них в рецепт не встанет. Сначала дождитесь предметной отметки, затем распределите добычу между путешествием и ремеслом.",
         "Если вы пришли сюда по линии Края без камней, вернитесь к главе Чистилища и подготовьте Ниетета. Соседство с древним хорусом означает связь маршрутов, а не способ добывать солнечные камни из обычного хоруса."
       ],
       "text_en": [
@@ -1371,12 +1371,12 @@
     },
     "et_eden/enter_eden": {
       "text": [
-        "Для первого перехода в Эдем сначала изготовьте готовый кристалл Эдема: солнечные камни входят в его рецепт, но сами портал не активируют. Найдите рамку из кирпичей Эдема в сооружении на внешних островах Края либо соберите свою. Примените кристалл к внутренней стороне исправной рамы, где появится портальный проём.",
+        "Первый переход в Эдем начинается с готового кристалла Эдема: солнечные камни входят в его рецепт, но сами портал не откроют. Рамку из кирпичей Эдема найдите в сооружении на внешних островах Края или сложите свою. Кристаллом коснитесь внутренней стороны исправной рамы — там и появится проём.",
         "Перед активацией подготовьте обратный билет и дорожные припасы. После входа осмотрите место появления, отметьте портал и найдите безопасную дорогу к поселению санфурри. Яркий мир всё ещё содержит опасные края островов и враждебных существ; первую вылазку проводите налегке.",
         "Карточка проверяет достижение входа и присутствие в Gardens of Eden. Затем познакомьтесь с местными торговцами и Д’Куджей, сохраняя маршрут домой независимо от сюжетного продвижения."
       ],
       "text_en": [
-        "Craft the completed Gardens of Eden Crystal before the first crossing: Sunstones are recipe ingredients and cannot activate the portal themselves. Find an Eden-brick frame in a structure on the outer End islands or build your own. Use the crystal against the inside of a valid frame to create the portal opening.",
+        "The first crossing into Eden begins with a finished Gardens of Eden Crystal: Sunstones go into its recipe but will not open the portal on their own. Find an Eden-brick frame in a structure on the outer End islands or build your own. Touch the crystal to the inside of a sound frame — that is where the opening appears.",
         "Prepare a Return Ticket and travelling supplies before activation. After entering, inspect the arrival point, mark the portal, and find a safe route to a Sunfurry settlement. The bright world still has dangerous island edges and hostile creatures; travel light on the first visit.",
         "The card checks the entry advancement and presence in Gardens of Eden. Then meet local traders and D’Kudja while maintaining a route home independent of story progress."
       ],
@@ -1397,7 +1397,7 @@
     "et_eden/crystal_eden": {
       "text": [
         "Кристалл Эдема собирается при шестом уровне колдовства. Пять позиций создателя занимают серебряный блок, солнечный камень, дыхание дракона, ещё один солнечный камень и Слепота монстра. Здесь действительно нужны два одинаковых камня в разных позициях.",
-        "Дыхание дракона заготавливают в Крае пустыми бутылочками у его облака, а солнечные камни сохраняют после Ниетета. Не заменяйте серебряный блок слитком и проверяйте запас колдовства на доске перед сборкой.",
+        "Дыхание дракона заготавливают в Крае пустыми бутылочками у его облака, а солнечные камни сохраняют после Ниетета. Серебряный блок слитком не подменить; уровень колдовства сверьте на доске до сборки.",
         "Заберите кристалл в инвентарь для отметки. Он удобен для организации собственного перехода и позже входит в кристалл Унахзаала, поэтому после строительства не выбрасывайте оставшиеся материалы и запись рецепта."
       ],
       "text_en": [
@@ -1413,7 +1413,7 @@
     "et_eden/sunfurry": {
       "text": [
         "Д’Куджа, великий мессия санфурри, просит освободить Алтарь Солнца от Вечного Рассвета. Найдите его в Эдеме и примите просьбу до боя. Подготовьте оружие, лечение и свободное место вокруг алтаря, затем устраните захватившее его существо.",
-        "После победы дождитесь Д’Куджи и завершите его разговор: наградой связан Напиток Солнца. Сохраните бутылку в инвентаре для предметной цели, не выпивая последнюю раньше проверки.",
+        "После победы дождитесь Д’Куджи и завершите его разговор: наградой связан Напиток Солнца. Одну бутылку оставьте в инвентаре и не выпивайте, пока книга её не отметила.",
         "Дополнительно нужна броня санфурри по достижению «Воин Эдема». Поэтому одна сдача поручения не завершает всю карточку: проверьте комплект, сюжетное достижение и напиток отдельно. Местные торговцы также помогут снабжать будущие призывы."
       ],
       "text_en": [
@@ -1436,12 +1436,12 @@
       "text": [
         "Джагакс вызывается лампой Джагакса именно в Эдеме. Мигель описывает её как соединение лампы джинна, огненного топлива и костей души; последние можно купить у мессии санфурри. Подготовьте компоненты до выбора площадки.",
         "Используйте готовую лампу на просторном участке Gardens of Eden, заранее приготовив лечение и путь отхода. Она связана с существом этого измерения, поэтому попытка призыва на домашней базе в другом мире не выполняет условие.",
-        "Победите появившегося противника и проверьте достижение убийства. Крафт лампы и её применение сами по себе недостаточны. После боя сохраните трофеи и восстановите снаряжение перед дальнейшим исследованием Эдема."
+        "Победите вышедшего противника и проверьте достижение за убийство. Собранной и даже использованной лампы для него мало. После боя сберегите трофеи и приведите снаряжение в порядок, прежде чем идти дальше по Эдему."
       ],
       "text_en": [
         "Jaghax is summoned with Jaghax’s Lamp specifically in Eden. Miguel describes the lamp as combining a Djinn Lamp, Fire Fuel and Soulbones; Sunfurry Messiahs can sell the latter. Prepare the components before selecting an arena.",
         "Use the completed lamp in a spacious Gardens of Eden location after arranging healing and an escape route. It is linked to a creature in this dimension, so trying it at an Overworld home does not meet the summoning condition.",
-        "Defeat the summoned opponent and check the kill advancement. Crafting or using the lamp alone is insufficient. Afterwards, preserve the drops and restore your equipment before continuing Eden exploration."
+        "Defeat the opponent that comes out and check the kill advancement. A lamp made, or even used, is not enough for it. After the fight keep the drops and put your gear in order before going further into Eden."
       ],
       "task_notes": {
         "0": {
@@ -1453,12 +1453,12 @@
     "et_eden/adam_eve": {
       "text": [
         "Адам и Ева — два отдельных поздних противника, и эта карточка не означает, что их нужно сразу искать среди обычных жителей Эдема. С ними связаны поздние аркемерские сюжетные диалоги; возвращайтесь к этой коллекции по мере раскрытия линии Aftermath.",
-        "Подготовьте отдельный запас лечения и исправное снаряжение для каждого боя. Следите за именем противника и отметками достижений: победа над одним не выполняет вторую половину задачи, а встреча с похожим автоматоном не заменяет нужного босса.",
+        "На каждый бой — свой запас лечения и исправное снаряжение. Смотрите на имя противника и на отметки достижений: победа над одним не закрывает вторую половину, а похожий автоматон нужного босса не заменит.",
         "После каждого боя проверьте зачёт и сохраните трофеи. Эта ветвь собирает обе победы, поэтому её можно оставить открытой, продолжая обычную цепочку измерений и открывая позднюю историю."
       ],
       "text_en": [
         "Adam and Eve are separate late opponents; this card does not mean you should immediately search for them among ordinary Eden residents. They are connected with later Arkemer story dialogues, so return to this collection as the Aftermath line unfolds.",
-        "Prepare a separate healing reserve and serviceable equipment for each encounter. Watch the enemy’s name and the advancement marks: defeating one does not complete the other half, and meeting a similar automaton does not substitute for the required boss.",
+        "Each fight gets its own healing reserve and sound equipment. Watch the enemy’s name and the advancement marks: beating one does not close the other half, and a look-alike automaton will not stand in for the boss you need.",
         "Check credit and preserve trophies after each battle. This branch collects both victories and can remain open while you continue normal dimension progression and uncover the later story."
       ],
       "task_notes": {
@@ -1475,12 +1475,12 @@
     "et_eden/scorched": {
       "text": [
         "Выжженные земли показывают отдельную сторону Эдема и дают цель для разведки вне поселений. Подготовьте еду, блоки и обратный билет, затем ищите биом Scorched Lands of Eden. Держите маршрут к порталу отмеченным, особенно на разорванных островах.",
-        "Войдите внутрь нужного биома и дождитесь достижения. Отдельный обгоревший блок или небольшое пятно другой почвы не гарантируют, что игра считает местность нужным биомом; при сомнении проверьте его название.",
+        "Войдите в нужный биом и дождитесь достижения. Один обгорелый блок или пятно чужой почвы ещё не тот биом; если сомневаетесь, посмотрите его название на карте или в отладочном экране.",
         "Запишите координаты найденного участка и осмотрите доступные материалы без обязательной полной зачистки. Разведанная точка поможет повторным экспедициям, а сама карточка завершается посещением, не строительством или убийством."
       ],
       "text_en": [
         "Scorched Lands reveal another side of Eden and provide an exploration goal beyond settlements. Prepare food, blocks and a Return Ticket, then search for the Scorched Lands of Eden biome. Keep the portal route marked, especially across broken islands.",
-        "Enter the biome and wait for the advancement. A charred block or small patch of different soil does not guarantee that the game classifies the area as the required biome; check its name if uncertain.",
+        "Enter the right biome and wait for the advancement. One charred block or a patch of odd soil is not yet that biome; if in doubt, check its name on the map or the debug screen.",
         "Record the location and inspect accessible materials without needing a full clear. This reconnaissance point supports repeat expeditions, while the card itself is completed by visiting, not building or killing."
       ],
       "task_notes": {
@@ -1550,7 +1550,7 @@
     },
     "et_rayana/vampirism": {
       "text": [
-        "Кровавый глаз нужен для призыва Птериона; заражаться вампиризмом для этой предметной цели не требуется. Подготовьте четыре вампирских самоцвета, два топаза, две бирюзы и ферментированный глаз тарантула. Самоцветы добывайте у вампиров, сохраняя лечение для охоты.",
+        "Кровавый глаз нужен для призыва Птериона; заражаться вампиризмом ради него не нужно. Подготовьте четыре вампирских самоцвета, два топаза, две бирюзы и ферментированный глаз тарантула. Самоцветы добывайте у вампиров, сохраняя лечение для охоты.",
         "В рецепте ферментированный глаз занимает центр, вампирские самоцветы окружают его крестом, а топазы и бирюза чередуются по углам. Соберите готовый Bloody Eye и сначала дождитесь отметки книги.",
         "Сохраните глаз до нахождения Кровавого алтаря в храме аэде и принятия просьбы даредиан. Рецепт открывает бой, а не подтверждает его победу; безопасная площадка и обратная дорога готовятся отдельно."
       ],
@@ -1605,7 +1605,7 @@
       "text": [
         "Заражённого кракена вызывают в обычном мире, на пляже Mucunfectio во время дождя. Ориентир — заражённый пляж с голубым песком, а не джунгли Раяны. Сначала найдите нужный биом и отметьте безопасный подход к воде.",
         "Наживка кракена собирается из призмариновых осколков, заражённых креветок, костяных осколков, заражённого мяса и морской призмы. Подготовьте её вместе с дальнобойным оружием и лечением, дождитесь дождя и используйте на подходящем пляже.",
-        "После победы проверьте достижение убийства и отдельное обнаружение Mucunfectio. Обычная рыболовная наживка не заменяет Kraken Bait; сухая погода и другой биом объясняют неудачный призыв."
+        "После победы проверьте достижение убийства и отдельное обнаружение Mucunfectio. Обычная наживка кракена не приманит — нужна Kraken Bait; если призыв не удался, виноваты сухая погода или не тот биом."
       ],
       "text_en": [
         "Summon the Infected Kraken in the Overworld on a Mucunfectio Beach during rain. Look for an infected beach with blue sand, not Rayana’s jungle. Find the correct biome first and mark a safe approach to the water.",
@@ -1638,12 +1638,12 @@
     },
     "et_karvat/enter_kar": {
       "text": [
-        "Подготовьте портал Карвата, обратный билет и запас для исследования нескольких храмов. После первого перехода отметьте координаты и осмотрите окрестности, прежде чем уходить далеко от места появления. Временный лагерь удобнее полного переноса базы.",
+        "Портал Карвата, обратный билет и припасы на несколько храмов — вот что нужно перед переходом. Оказавшись там, запишите координаты и осмотритесь, прежде чем уходить далеко от места появления. Временный лагерь удобнее переноса всей базы.",
         "Найдите Гулибега и поговорите с ним: его поручение выдаёт основу для дальнейших призывов. Не пытайтесь заменить этот разговор случайными камнями, принесёнными из других миров, поскольку сила заказчика входит в нужные рецепты.",
         "Карточка засчитывает достижение входа и нахождение в Землях Карвата. Получив их, переходите к подготовке храмов и драгоценных камней; победы над богами будут проверяться следующей карточкой отдельно."
       ],
       "text_en": [
-        "Prepare a Karvat portal, a Return Ticket and supplies for investigating several temples. Record your coordinates after the first crossing and inspect the surroundings before moving far from arrival. A temporary camp is more convenient than relocating your entire base.",
+        "A Karvat portal, a Return Ticket and supplies for several temples — that is what you need before crossing. Once there, write down the coordinates and look around before going far from the arrival point. A temporary camp is handier than moving the whole base.",
         "Find Gulibeg and speak to him: his assignment supplies the basis for later summons. Do not replace this conversation with random gems from other worlds, because the quest giver’s power is part of the required recipes.",
         "The card credits the entry advancement and presence in Lands of Karvat. Then prepare temples and gems; victories over the gods are checked separately by the next card."
       ],
@@ -1717,12 +1717,12 @@
     "et_karvat/khogachi": {
       "text": [
         "Хогачи — крупный родственник хоиринов и отдельный мини-босс. Мигель связывает рассказы о нём с Ясиденскими лесами Янтаря; искать его как обязательного бога храмов Карвата не нужно. Вернитесь к этой боковой охоте после открытия подходящего маршрута.",
-        "Во время разведки следите за именем крупной птицы и подготовьте дальнобойное оружие, лечение и площадку, где нападение не сбросит вас с опасного края. Не путайте обычных хоиринов с целью достижения.",
+        "На разведке следите за именем крупной птицы; возьмите дальнобойное оружие, лечение и выберите площадку, с которой удар не сбросит вас в пропасть. Обычные хоирины на достижение не идут — не гоняйтесь за ними вместо Хогачи.",
         "Победите именно Хогачи и сохраните перья и другие трофеи. Карточка проверяет убийство мини-босса, а не посещение леса; отметка позволит отличить состоявшуюся охоту от простой встречи."
       ],
       "text_en": [
         "Khogachi is a large relative of Khoirin and a separate miniboss. Miguel associates its legends with Amber’s Yasiden Forests; do not treat it as a required Karvat temple god. Return to this side hunt after opening the appropriate route.",
-        "During reconnaissance, watch the large bird’s name and prepare ranged weapons, healing and an area where an attack cannot throw you off a dangerous edge. Ordinary Khoirin do not qualify for the advancement.",
+        "On reconnaissance watch the big bird’s name; bring ranged weapons and healing, and pick ground where a hit will not throw you into the abyss. Ordinary Khoirin do not count for the advancement — do not chase them instead of Khogachi.",
         "Defeat Khogachi specifically and save its feathers and other trophies. The card checks a miniboss kill rather than visiting a forest; its mark distinguishes a completed hunt from merely encountering the creature."
       ],
       "task_notes": {
@@ -1736,7 +1736,7 @@
       "text": [
         "Кецалькоатль и Чак-Мооль в установленной версии относятся к аркемерской линии позднего сюжета. Эта карточка собирает две победы, а не требует строить неизвестный храм в Карвате. Продолжайте Aftermath до выбора стороны и последовательности испытаний автоматонов.",
         "После запуска сюжетной встречи слушайте диалог и готовьтесь к появлению противников на её площадке. Для Чак-Мооля особенно оставьте место отхода от ближних атак; ремонт и лечение подготовьте до следующей сцены.",
-        "Проверьте обе отметки по именам боссов. Их сюжетный вызов не заменяется обычными существами с похожим обликом, а нахождение карточки в главе Карвата не меняет настоящую точку входа в эти бои."
+        "Проверьте обе отметки по именам боссов. Похожие на них обычные существа сюжетный бой не закроют, а место карточки в главе Карвата не меняет настоящей точки входа в эти сражения."
       ],
       "text_en": [
         "In the installed version, Quetzalcoatl and Chac-Mool belong to the late Arkemer storyline. This card collects two victories rather than requiring an unknown temple in Karvat. Continue Aftermath through the choice of allegiance and the automaton encounters.",
@@ -1756,7 +1756,7 @@
     },
     "et_volcanech/crystal_vol": {
       "text": [
-        "Для кристалла Вулканеха нужен десятый уровень колдовства. Пять компонентов — ихор, тайемиядохтская тапинелла, арготиевый слиток, хитин бронированного жука и тёмный ихор. Светлая и тёмная жидкости занимают разные места и не заменяют друг друга.",
+        "Для кристалла Вулканеха нужен десятый уровень колдовства. Пять компонентов — ихор, тайемиядохтская тапинелла, арготиевый слиток, хитин бронированного жука и тёмный ихор. Светлая и тёмная жидкости стоят каждая на своём месте, и одна за другую не сойдёт.",
         "Соберите растение и хитин до начала сборки, отложите слиток из Эдема и проверьте личный навык на доске. Разложите ингредиенты в межпространственном создателе по рецепту и заберите кристалл.",
         "Для отметки достаточно готового предмета. Перед использованием перехода подготовьте защиту от огня и независимый путь возвращения: изготовление кристалла не делает персонажа устойчивым к опасностям горячего мира."
       ],
@@ -1791,14 +1791,14 @@
     },
     "et_volcanech/golem": {
       "text": [
-        "Вулканический голем пробуждается пирокристаллом, который получают через местный спавнер. Сделайте огненную сферу из ресурсов Вулканеха и примените к спавнеру в этом измерении. По описанию Мигеля он начнёт создавать существ «Огненная сфера».",
-        "Побеждайте их, собирайте осколки Pyro Volcanite и соедините в целый предмет. Подготовьте место у статуи голема, лечение и огнестойкость, затем примените готовый пирокристалл к статуе. Обычная огненная сфера напрямую не заменяет этот последний шаг.",
-        "Ведите бой на устойчивой площадке и проверьте достижение после победы. Сохраните запас материалов спавнера для повторной попытки; его раннее уничтожение может лишить вас удобного источника осколков."
+        "Вулканический голем просыпается от пирокристалла, а тот добывается через местный генератор монстров. Сделайте огненную сферу из ресурсов Вулканеха и примените её к генератору в этом измерении — по словам Мигеля, он начнёт выпускать существ «Огненная сфера».",
+        "Побеждайте их, собирайте осколки Pyro Volcanite и соедините в целый предмет. Подготовьте место у статуи голема, лечение и огнестойкость, затем примените готовый пирокристалл к статуе. Сама огненная сфера статую не разбудит — нужен собранный пирокристалл.",
+        "Бой ведите на твёрдой площадке и после победы проверьте достижение. Материалы для генератора оставьте на повторную попытку: разрушив его слишком рано, вы лишитесь удобного источника осколков."
       ],
       "text_en": [
-        "The Volcanic Golem is awakened with Pyro Volcanite obtained through a local spawner. Craft a Flame Sphere from Volcanech materials and apply it to a spawner in that dimension. Miguel says it will begin producing Flame Sphere creatures.",
+        "The Volcanic Golem wakes from Pyro Volcanite, which is obtained through a local monster spawner. Craft a Flame Sphere from Volcanech materials and apply it to a spawner in that dimension — Miguel says it will start releasing Flame Sphere creatures.",
         "Defeat them, gather Pyro Volcanite Shards and combine them into the complete item. Prepare the area around the golem statue, healing and Fire Resistance, then use the finished Pyro Volcanite on the statue. An ordinary Flame Sphere does not directly replace this final step.",
-        "Fight on stable ground and check the advancement after victory. Save spawner materials for another attempt; destroying the spawner too early can remove a convenient shard source."
+        "Fight on solid ground and check the advancement after the victory. Keep the spawner materials for another attempt: break it too early and you lose a handy source of shards."
       ],
       "task_notes": {
         "0": {
@@ -1809,14 +1809,14 @@
     },
     "et_volcanech/sulfur": {
       "text": [
-        "Серная взрывчатка нужна здесь для одного проверяемого подрыва. Выберите отдельный пустой участок далеко от базы, портала, поселений и ценных спавнеров, затем подготовьте выход и укрытие. Проверять радиус рядом со складом не стоит.",
+        "Серная взрывчатка нужна здесь ради одного проверяемого подрыва. Выберите пустой участок подальше от базы, портала, поселений и ценных генераторов монстров, продумайте выход и укрытие. Испытывать радиус рядом со складом — плохая идея.",
         "Изготовьте именно Sulfur TNT, установите один заряд и подожгите обычным способом активации взрывчатки. Сразу отойдите за надёжное укрытие, не стойте рядом ради наблюдения и не соединяйте первый опыт с цепочкой других зарядов.",
-        "Дождитесь взрыва и проверьте достижение. Получение блока не заменяет подрыв. После осмотра площадки вы сможете оценить разрушение и решать, где такой инструмент полезен для дальнейших работ."
+        "Дождитесь взрыва и проверьте достижение: книге нужен сам подрыв, а не блок в кармане. Осмотрев воронку, вы поймёте, где такой инструмент пригодится в дальнейших работах."
       ],
       "text_en": [
-        "This objective asks for one confirmed Sulfur TNT explosion. Select an empty testing area far from your base, portal, settlements and valuable spawners, then prepare an exit and cover. A storage room is not a suitable place to discover the blast radius.",
+        "Sulfur explosives are needed here for one verified blast. Choose an empty patch far from your base, portal, settlements and valuable monster spawners, and think through the exit and cover. Testing the radius next to a storeroom is a bad idea.",
         "Craft Sulfur TNT specifically, place one charge and ignite it using a normal TNT activation method. Move behind reliable cover immediately, avoid standing nearby to watch and do not combine the first test with a chain of additional charges.",
-        "Wait for the explosion and check the advancement. Owning the block does not replace detonation. Inspecting the area afterwards will help you judge where the tool is useful."
+        "Wait for the explosion and check the advancement: the book needs the blast itself, not a block in your pocket. Looking over the crater will show you where such a tool is useful in later work."
       ],
       "task_notes": {
         "0": {
@@ -1827,13 +1827,13 @@
     },
     "et_volcanech/vol_quest": {
       "text": [
-        "Раненый разведчик санфурри во Вулканехе просит добыть пять чертежей, спрятанных в спавнерах. Найдите его и примите поручение до разрушения устройств. Для извлечения нужен Spawner Cracker — обычная кирка не является равнозначным инструментом этого задания.",
-        "Подготовьте разрушитель спавнеров, отремонтируйте снаряжение и последовательно обследуйте местные точки. Соберите пять чертежей, отслеживая счётчик журнала, и сохраните их до возвращения. Если один спавнер используется для осколков голема, сначала обеспечьте нужный запас.",
+        "Раненый разведчик санфурри во Вулканехе просит добыть пять чертежей, спрятанных в генераторах монстров. Найдите его и примите поручение до того, как ломать устройства. Достать чертёж может только Spawner Cracker — обычная кирка тут бессильна.",
+        "С разрушителем в руках и починенным снаряжением обойдите местные генераторы один за другим. Соберите пять чертежей, поглядывая на счётчик в журнале, и сберегите их до возвращения. Если один из генераторов даёт вам осколки для голема, сначала наберите нужный запас.",
         "Вернитесь к разведчику и завершите диалог. Достижение относится к сданному поручению; найденные чертежи затем пригодятся для изготовления улучшенного снаряжения."
       ],
       "text_en": [
-        "The wounded Sunfurry scout in Volcanech asks for five blueprints hidden in spawners. Find him and accept before destroying devices. Extraction requires a Spawner Cracker; an ordinary pickaxe is not equivalent for this assignment.",
-        "Prepare the cracker, repair your equipment and investigate local spawner sites in sequence. Collect five blueprints while watching the Journal counter, and preserve them until your return. If one spawner supplies golem shards, obtain the required reserve first.",
+        "The wounded Sunfurry scout in Volcanech asks for five blueprints hidden in monster spawners. Find him and accept the assignment before breaking any devices. Only a Spawner Cracker can extract a blueprint — an ordinary pickaxe is useless here.",
+        "With the cracker in hand and your gear repaired, go round the local spawners one by one. Collect five blueprints, glancing at the Journal counter, and keep them safe until you return. If one of the spawners is feeding you golem shards, gather the reserve you need first.",
         "Return to the scout and finish the dialogue. The advancement concerns the completed assignment; the acquired blueprints can then support crafting improved equipment."
       ],
       "task_notes": {
@@ -1846,7 +1846,7 @@
     "et_volcanech/arahulum": {
       "text": [
         "Арахулум вызывается в Крае, хотя карточка расположена рядом с Вулканехом. Мигель прямо отправляет искать Алтарь Арахулума в End и активировать его артефактом Края. Подготовьте Ender Artifact, дальнобойное оружие, лечение и защиту от падения.",
-        "Найдите нужный алтарь, отметьте обратный путь и убедитесь, что возле площадки достаточно места. Примените артефакт только после подготовки; другой алтарь или другое измерение не заменяют указанный маршрут.",
+        "Найдите нужный алтарь, отметьте обратный путь и убедитесь, что возле площадки достаточно места. Примените артефакт только после подготовки; другой алтарь или другое измерение к нему не приведут.",
         "Победите босса и подберите Глаз Арахулума. Для завершения нужны обе отдельные отметки: убийство и получение глаза. Сохраните трофей до изучения его рецептов, вместо того чтобы оставить среди обычного мусора после боя."
       ],
       "text_en": [
@@ -1867,12 +1867,12 @@
     },
     "et_volcanech/brimstone": {
       "text": [
-        "Серный агарик появляется при разрушении странного серного гриба. Ищите именно Strange Brimstone Fungi среди соответствующих грибных участков Вулканеха и проверяйте название: обычная грибная древесина не является тем же блоком.",
+        "Серный агарик выходит на свет, когда разрушают странный серный гриб. Ищите Strange Brimstone Fungi среди грибных зарослей Вулканеха и читайте название блока: обычная грибная древесина — не он.",
         "Перед разрушением необычного гриба подготовьте площадку, лечение и выход. Этот блок запускает появление босса, поэтому сначала закончите разведку и уберите мешающих противников, а затем добывайте его.",
         "После появления победите Серный агарик и проверьте достижение. Сохраните полезные грибные материалы отдельно: они участвуют в дальнейших рецептах, включая труадамантит. Сломанный гриб без завершённого боя не закрывает эту карточку."
       ],
       "text_en": [
-        "Brimstone Agaric appears when Strange Brimstone Fungi is destroyed. Look for that specific block in Volcanech’s relevant fungal areas and check its name: ordinary mushroom wood is not the same block.",
+        "The Brimstone Agaric comes out when a Strange Brimstone Fungi is destroyed. Look for that block among Volcanech’s fungal thickets and read its name: ordinary mushroom wood is not it.",
         "Prepare the surroundings, healing and an exit before breaking the unusual fungus. The block triggers a boss spawn, so finish reconnaissance and remove interfering enemies first, then destroy it.",
         "Defeat Brimstone Agaric after it appears and check the advancement. Keep useful fungal materials separately; they participate in later recipes, including Truadamantite. Breaking the fungus without completing the fight does not finish this card."
       ],
@@ -1887,12 +1887,12 @@
       "text": [
         "Труадамантит получают смешанным рецептом: серные грибы, вольфрамовый слиток, незеритовый слиток, венетиевый слиток, адамантитовый слиток и две мембраны фантома. Подготовьте всю партию и заберите первый слиток до массового изготовления брони.",
         "Достижение за броню требует надеть труадамантитовый комплект. Составьте полный набор, снимите мешающие части другой брони и проверьте отметку после экипировки. Один слиток или случайный шлем не завершают обе цели.",
-        "Отдельно сохраните слиток для кристалла Янтаря. Этот материал одновременно развивает защиту и открывает следующий маршрут, поэтому весь первый запас не следует расходовать на улучшения раньше подготовки перехода."
+        "Один слиток отложите для кристалла Янтаря. Труадамантит и защищает, и открывает следующий маршрут, поэтому не спускайте весь первый запас на улучшения, пока переход не подготовлен."
       ],
       "text_en": [
         "Truadamantite uses a mixed recipe: Brimstone Fungi, Tungsten, Netherite, Venetium and Adamantite Ingots, plus two Phantom Membranes. Prepare the whole batch and obtain your first ingot before crafting armor in quantity.",
         "The armor advancement requires wearing the Truadamantite set. Assemble every piece, remove conflicting armor and check the mark after equipping it. A single ingot or stray helmet does not complete both objectives.",
-        "Reserve an additional ingot for the Amber crystal. This material improves protection and opens the next route, so avoid spending the entire first stock on upgrades before preparing the portal."
+        "Set one ingot aside for the Amber crystal. Truadamantite both protects and opens the next route, so do not spend the whole first stock on upgrades before the crossing is prepared."
       ],
       "task_notes": {
         "0": {
@@ -1921,12 +1921,12 @@
     "et_amber/crystal_amb": {
       "text": [
         "Кристалл Королевства Янтаря требует тринадцатого уровня колдовства. В пять ячеек создателя идут фарос, рыба иллюминати, огненная сфера, труадамантитовый слиток и Кристалл Величия. Особенно заранее проверьте редкую рыбу и запас слитков после изготовления брони.",
-        "Разложите компоненты по рецепту, убедитесь в нужном уровне на доске и заберите кристалл. Предмет «Огненная сфера» здесь используется как ингредиент; призванное существо из спавнера в ячейку не помещается.",
-        "Дождитесь отметки предметной цели, затем подготовьте собственный переход. При первом входе обязательно запишите координаты портала: сюжет Янтаря использует эту точку для указаний к лабиринту и замку."
+        "Разложите компоненты по рецепту, сверьте уровень на доске и заберите кристалл. Огненная сфера здесь — предмет-ингредиент; существо, вышедшее из генератора монстров, в ячейку не поместится.",
+        "Дождитесь, пока книга отметит кристалл, и готовьте переход. При первом входе обязательно запишите координаты портала: сюжет Янтаря использует эту точку для указаний к лабиринту и замку."
       ],
       "text_en": [
         "The Kingdom of Amber crystal requires Sorcery level thirteen. Its five creator slots contain Pharos, Illuminati Fish, Flame Sphere, a Truadamantite Ingot and a Crystal of Greatness. Check the rare fish and remaining ingots after armor crafting particularly early.",
-        "Arrange the components according to the recipe, confirm your level on the board and collect the crystal. Flame Sphere is an item ingredient here; the creature produced by a spawner cannot occupy that slot.",
+        "Lay out the components by the recipe, check your level on the board and take the crystal. The Flame Sphere here is an ingredient item; a creature that came out of a monster spawner will not fit in the slot.",
         "Wait for item detection, then prepare your portal. Record its coordinates on first entry: Amber’s storyline uses this point when directing you to the maze and castle."
       ],
       "task_notes": {}
@@ -1978,12 +1978,12 @@
     "et_amber/xaxxas": {
       "text": [
         "После раскрытия тайны лабиринта отправляйтесь к замку Ксакксаса: сюжет указывает примерно две тысячи блоков к востоку от первого портала в Янтарь. Возьмите полученные указания, исправное снаряжение, запас лечения и блоки для безопасного продвижения.",
-        "После раскрытия тайны лабиринта примените Корону Янтаря к царскому алтарю, держа её в основной руке: корона расходуется при призыве. Во время боя учитывайте появление янтарных воинов и не позволяйте им перекрыть выход. Сначала обеспечьте место для движения, затем сосредотачивайтесь на короле.",
+        "Корону Янтаря примените к царскому алтарю, держа её в основной руке: при призыве корона расходуется. В бою помните о янтарных воинах и не давайте им перекрыть выход. Сначала отвоюйте себе пространство, потом сосредоточьтесь на короле.",
         "Подберите королевское знамя после победы: оно служит проверяемым трофеем достижения. Завершите сюжетные разговоры и вернитесь к линии Мигеля; дальше история ведёт к Унахзаалу и подготовке его измерения."
       ],
       "text_en": [
         "After revealing the maze’s secret, travel to Xaxxas’s castle: the story places it roughly two thousand blocks east of your first Amber portal. Bring the directions, repaired equipment, healing and blocks for safe progress.",
-        "After revealing the maze’s secret, apply the Crown of Amber to the Royal Altar while holding it in your main hand; the summon consumes the crown. Account for Amber warriors appearing during the battle and avoid letting them block your exit. Secure room to move before concentrating on the king.",
+        "Apply the Crown of Amber to the Royal Altar while holding it in your main hand: the summon consumes the crown. During the fight keep the Amber warriors in mind and do not let them block the exit. Win yourself room first, then focus on the king.",
         "Collect the Royal Banner after victory; it is the advancement’s tracked trophy. Finish story conversations and return to Miguel’s line, which leads toward Unahzaal and preparation for his dimension."
       ],
       "task_notes": {
@@ -1995,12 +1995,12 @@
     },
     "et_amber/keybekium": {
       "text": [
-        "Даредиан — отображаемое название металла с внутренним именем keybekium. Это один и тот же предмет, поэтому несовпадение русской подписи и технического имени не означает ошибку рецепта. Сырьё встречается в нескольких связанных маршрутах, включая Раяну и Эдем.",
+        "Даредиан — так в игре зовётся металл с внутренним именем keybekium. Это один и тот же предмет, и разница между русской подписью и техническим именем не ошибка рецепта. Сырьё встречается на нескольких связанных маршрутах, включая Раяну и Эдем.",
         "Переплавьте даредиановую руду или её сырой кусок; подойдут обычная и плавильная печи. Также слиток собирается из девяти даредиановых самородков. Выбирайте уже доступный способ вместо поисков особого станка только из-за незнакомого названия.",
         "Получите один слиток в инвентарь для проверки и сохраните остаток на инструменты. Этот материал полезен в цепочках снаряжения и объясняет связь ресурсов разных измерений."
       ],
       "text_en": [
-        "Daredian is the displayed name of the metal whose internal name is keybekium. These refer to the same item, so a mismatch between the label and technical name is not a recipe error. Its raw materials occur along several connected routes, including Rayana and Eden.",
+        "Daredian is the in-game name of the metal whose internal name is keybekium. It is one and the same item, and the difference between the label and the technical name is not a recipe error. The raw material turns up along several connected routes, including Rayana and Eden.",
         "Smelt Daredian Ore or Raw Daredian Ore in a furnace or blast furnace. Nine Daredian Metal Nuggets also make an ingot. Use an already accessible method rather than seeking a special machine merely because the name is unfamiliar.",
         "Obtain one ingot in your inventory for detection and reserve the rest for tools. This material supports equipment chains and illustrates resource connections between dimensions."
       ],
@@ -2009,12 +2009,12 @@
     "et_amber/smuciel": {
       "text": [
         "Смуциэль находится в Чистилище, в мрачной церкви Scary Calvary, о которой рассказывает Мигель. Эта карточка помещена среди поздних боёв, но отправляться за ним в янтарный замок не нужно. Вернитесь в Чистилище и ищите церковную структуру.",
-        "Подготовьте лечение, свет и путь к выходу, затем исследуйте церковь и бросьте вызов её обитателю. Не начинайте бой с переполненным инвентарём: после победы понадобится забрать трофей, а возвращение через опасные коридоры может быть трудным.",
-        "Победите Смуциэля и подберите его знамя, по которому определяется достижение. Обычный монстр в похожем здании не заменяет босса; проверяйте имя и отметку после завершения встречи."
+        "Возьмите лечение, свет и запомните дорогу к выходу, потом обследуйте церковь и бросьте вызов её хозяину. Не входите с полным инвентарём: после победы нужно место под трофей, а обратный путь по тёмным коридорам бывает трудным.",
+        "Победите Смуциэля и подберите его знамя, по которому определяется достижение. Обычный монстр в похожем здании боссом не считается: после боя сверьте имя и отметку."
       ],
       "text_en": [
         "Smuciel is in Purgatorium’s grim church, the Scary Calvary described by Miguel. This card sits among later fights, but Amber’s castle is not the place to seek him. Return to Purgatorium and look for the church structure.",
-        "Prepare healing, lighting and an exit route, then investigate the church and challenge its occupant. Avoid beginning with a full inventory: you need room for the trophy, and returning through dangerous corridors can be difficult.",
+        "Bring healing and light, remember the way out, then search the church and challenge its master. Do not go in with a full inventory: you will need room for the trophy, and the way back through dark corridors can be hard.",
         "Defeat Smuciel and collect his banner, which the advancement tracks. An ordinary monster in a similar building is not a substitute; check the opponent’s name and the mark after the encounter."
       ],
       "task_notes": {
@@ -2040,12 +2040,12 @@
     "et_unahzaal/crystal_un": {
       "text": [
         "Для кристалла мультивселенной Унахзаала нужен шестнадцатый уровень колдовства. Создатель принимает кристаллы Янтаря, Комет, Эдема и Вулканеха, а центральным компонентом служит повреждённый астрал. Это четыре готовых предмета перехода, не похожие руды или декоративные кристаллы.",
-        "Подготовьте новые экземпляры нужных кристаллов и проверьте, что домашние маршруты останутся работоспособными после расхода компонентов. Затем разложите пять предметов и заберите результат.",
+        "Кристаллы для рецепта сделайте заново и убедитесь, что домашние порталы останутся рабочими после того, как компоненты уйдут в создатель. Потом разложите пять предметов и заберите результат.",
         "Отметка книги подтверждает кристалл, но не готовность к бою. Перед переходом запаситесь лечением и ремонтом, установите собственный путь возвращения и ознакомьтесь с разницей между обычной победой и условиями Вечной Тьмы."
       ],
       "text_en": [
         "The Unahzaal Multiverse crystal requires Sorcery level sixteen. The creator takes the Amber, Comets, Eden and Volcanech dimension crystals, with Damaged Astral in the center. These are four completed travel items, not similarly named ores or decorative crystals.",
-        "Prepare additional copies of the required crystals and ensure your home routes remain usable after the ingredients are consumed. Then arrange the five items and collect the result.",
+        "Make fresh crystals for the recipe and make sure your home portals will keep working after the components go into the creator. Then lay out the five items and take the result.",
         "The book mark confirms the crystal, not combat readiness. Stock healing and repair supplies, establish a return method and read the difference between a normal victory and Eternal Darkness conditions before crossing."
       ],
       "task_notes": {}
@@ -2120,12 +2120,12 @@
       "text": [
         "К встрече с Унахзаалом переходите после истории Янтаря и возвращения к Мигелю. В измерении Унахзаала найдите ритуальную комнату его подземелья: центральный блок призыва окружён четырьмя вспомогательными блоками вплотную по сторонам света.",
         "Подайте сигнал красного камня на каждый вспомогательный блок, чтобы все четыре стали активными. Центральный блок проверяет именно эту четвёрку и запускает появление босса; одного включённого элемента недостаточно. До завершения схемы расчистите площадку и подготовьте лечение с исправным оружием.",
-        "Следите за фазами боя: первое визуальное затишье не означает победу. Дождитесь окончательного достижения. Обычное завершение открывает поздние события и Aftermath; награды Тьмы требуют отдельных условий."
+        "У боя несколько фаз, и первое затишье — ещё не победа. Ждите итогового достижения. Обычная победа открывает поздние события и Aftermath; награды Тьмы требуют своих условий."
       ],
       "text_en": [
         "Approach Unahzaal after Amber’s story and your return to Miguel. In Unahzaal’s dimension, find the ritual chamber in his dungeon: the central summoning block has four helper blocks immediately adjacent in the cardinal directions.",
         "Supply a redstone signal to each helper so all four become active. The central block checks that complete group and starts the boss spawn; one active helper is insufficient. Clear the area and prepare healing and serviceable weapons before completing the circuit.",
-        "Watch the fight’s phases: the first visual lull does not mean victory. Wait for the final advancement. Normal completion unlocks later events and Aftermath; Darkness rewards require separate conditions."
+        "The fight has several phases, and the first lull is not yet a victory. Wait for the final advancement. A normal victory opens the later events and Aftermath; the Darkness rewards have conditions of their own."
       ],
       "task_notes": {
         "0": {
@@ -2137,12 +2137,12 @@
     "et_unahzaal/gifts": {
       "text": [
         "Дары Унахзаала выбирают через диалог Алтаря Вечного Знания. Это выбор одного из пяти предметов, а не требование собрать все пять. Прочитайте предложения до подтверждения: меч, щит, перчатка лучника, колдовской артефакт и призывающий посох поддерживают разные стили.",
-        "Сила этих даров связана с побеждёнными видами боссов. Выбирайте то, чем действительно пользуетесь, а не только красивое название; повторные одинаковые победы не следует автоматически считать новыми видами.",
+        "Сила даров растёт с числом побеждённых видов боссов. Берите то, чем и вправду пользуетесь, а не самое звучное название; повторные победы над тем же боссом новыми видами не считаются.",
         "После выбора заберите предмет и проверьте достижение получения одного дара. Размещение карточки после основной победы удобно для сверки коллекции, но не означает, что дар случайно выпадает из последнего босса."
       ],
       "text_en": [
         "Unahzaal’s Gifts are selected through the Altar of Eternal Knowledge dialogue. This is a choice of one of five items, not a requirement to collect all five. Read the offers before confirming: a sword, shield, Archer Glove, sorcery artifact and summoning staff support different styles.",
-        "These gifts grow with defeated boss species. Choose something you actually use rather than only an appealing name; repeated victories over the same boss should not automatically be counted as new species.",
+        "The gifts grow stronger with the number of boss species you have defeated. Take what you actually use rather than the grandest name; repeated victories over the same boss do not count as new species.",
         "After selecting, obtain the item and check the one-gift advancement. The card’s placement after the main victory is useful for collection review but does not mean a gift randomly drops from the final boss."
       ],
       "task_notes": {
@@ -2156,12 +2156,12 @@
       "text": [
         "Тетраграмматон относится к поздней истории аркемеров. Продолжите Aftermath до выбора стороны и финального противостояния; персонаж появляется через сюжетную последовательность, а не от случайного использования руны в мультивселенной. Перед сценой приготовьте ремонт и лечение.",
         "В описании линии А’Хиси указаны серверы за троном, поддерживающие восстановление противника. Уничтожьте их, чтобы прекратить бесконечную регенерацию, затем завершите бой. Одно нанесение большого урона при работающей поддержке не решает встречу.",
-        "Отдельно получите Серафим: в эфириевой кузнице его делают из накопителя SSD, восстановленного астрала и эфирия. Карточка требует и победу, и этот изготовленный предмет, поэтому трофеи боя не заменяют вторую цель."
+        "Серафим получают отдельно: в эфириевой кузнице его делают из накопителя SSD, восстановленного астрала и эфирия. Книге нужны и победа, и этот предмет — трофеями боя вторую цель не закрыть."
       ],
       "text_en": [
         "Tetragrammaton belongs to the later Arkemer story. Continue Aftermath through the allegiance choice and final confrontation; the character appears through a story sequence rather than randomly using a rune in the multiverse. Prepare repairs and healing before the scene.",
         "A’Hisi’s route describes servers behind the throne that sustain the opponent’s recovery. Destroy them to stop endless regeneration, then finish the fight. Dealing heavy damage while that support remains active does not resolve the encounter.",
-        "Separately obtain Seraphim: the Aetherium Forge makes it from a Solid State Drive, Restored Astral and Aetherium. The card requires both the victory and this crafted item, so battle trophies do not replace the second objective."
+        "Seraphim is obtained separately: the Aetherium Forge makes it from a Solid State Drive, Restored Astral and Aetherium. The book needs both the victory and this item — battle trophies will not close the second goal."
       ],
       "task_notes": {
         "0": {
@@ -2234,12 +2234,12 @@
     "et_ultimate/arkemer_tech": {
       "text": [
         "Эти четыре устройства делают в эфириевой кузнице, открываемой поздним сюжетом. Базовая схема использует SSD, эфирий и исходный предмет: молот Вечности для карьера, тигриную руну для гравицикла, пушку Ракеты для «Алефа» и атомную бомбу для Heavenbreaker.",
-        "Подготовьте исходники заранее; молот из соседней карточки понадобится ещё до завершения этой коллекции. Забирайте каждый результат в инвентарь. Карьер активируется ПКМ и умеет разрушать область 3×3×3, поэтому пробуйте его на отдельном участке.",
+        "Исходники соберите заранее: молот из соседней карточки понадобится раньше, чем закроется эта коллекция. Каждый результат берите в инвентарь. Карьер включается правой кнопкой и выбирает область 3×3×3, так что пробуйте его на отдельном участке.",
         "Достижения проверяют получение, а не применение оружия. Heavenbreaker не нужно запускать возле базы ради отметки. Сначала настройте транспорт и инструмент, а разрушительные функции изучайте только с подготовленной дистанцией и защитой."
       ],
       "text_en": [
         "These four devices are made in the Aetherium Forge opened by the later story. Their base pattern uses an SSD, Aetherium and a source item: Hammer of Eternity for the Quarry, Tiger Rune for the Gravicycle, Rocket’s Gun for Aleph and an Atomic Bomb for Heavenbreaker.",
-        "Prepare these inputs in advance; the neighboring Hammer card supplies an item needed before this collection is complete. Take each output into your inventory. The Quarry activates with right-click and can break a 3×3×3 area, so test it on a separate site.",
+        "Gather the inputs in advance: the hammer from the neighbouring card is needed before this collection closes. Take each result into your inventory. The Quarry starts with a right-click and digs a 3×3×3 area, so try it on a separate site.",
         "Advancements check acquisition, not weapon use. There is no need to launch Heavenbreaker near your base for credit. Configure transport and tools first, and investigate destructive functions only with prepared distance and protection."
       ],
       "task_notes": {
@@ -2287,7 +2287,7 @@
       "text": [
         "Великая эмблема соединяет оранжевую эмблему, великие эмблемы Marvel и DC, звёздную эмблему и кристалл Вечности. Получите её первой: это основа следующего улучшения, а собственное достижение должно успеть зарегистрироваться до расхода.",
         "Аркемерскую эмблему делают в эфириевой кузнице из SSD, Великой эмблемы и эфирия. Затем Infinity State Drive, аркемерская эмблема и странглет дают сингулярную. Реальный порядок улучшений здесь важнее порядка строк в списке.",
-        "Проверьте три достижения и требования навыка перед применением. Великая эмблема требует десятого уровня убийства, а её полёт открывается после победы над Унахзаалом. Наличие последней эмблемы не объясняет автоматически управление предыдущими."
+        "Проверьте три достижения и требования навыка перед применением. Великая эмблема требует десятого уровня убийства, а её полёт открывается после победы над Унахзаалом. Последняя эмблема в руках не научит обращаться с предыдущими."
       ],
       "text_en": [
         "The Grand Emblem combines an Orange Emblem, Grand Marvel and Grand DC Emblems, a Starly Emblem and a Crystal of Eternity. Obtain it first: it is the next upgrade’s base, and its own advancement should register before consumption.",
@@ -2313,12 +2313,12 @@
       "text": [
         "Эта долгосрочная коллекция включает The Ultimate One, The Ultimate Two, Перчатку Судеб, Сердце Стихий, Первую Призму и изучение Порядка Вселенной. Начните с одного выбранного предмета и сохраните его исходные компоненты: дорогие сборки могут расходовать полезные артефакты.",
         "Перчатка Судеб создаётся в семиместном рецепте эфириевой кузницы из двемерской перчатки и шести камней: великого разрушения, межпространственного, искажённого, жертвы, потерянных воспоминаний и мыслящего. Для остальных результатов сверяйте соответствующие рецепты поимённо.",
-        "Порядок Вселенной требует отдельного действия: примените его страницу к доске объявлений, как указано в подсказке. Пять предметных отметок не заменяют изучение страницы; завершение проверяется шестью независимыми достижениями."
+        "Порядок Вселенной требует отдельного действия: примените его страницу к доске объявлений, как сказано в подсказке. Пять предметов плюс изученная страница — шесть независимых достижений, и книге нужны все."
       ],
       "text_en": [
         "This long-term collection includes The Ultimate One, The Ultimate Two, Gauntlet of the Destinies, Heart of the Elements, The First Prism and learning Order of the Universe. Begin with one chosen item and preserve its inputs: expensive assemblies can consume useful artifacts.",
         "The Gauntlet uses a seven-slot Aetherium Forge recipe combining a Dwemer Gauntlet with six stones: Great Destruction, Interdimensional, Warped, Victim, Lost Memories and Thinking. Check the other outputs’ own recipes by name.",
-        "Order of the Universe requires another action: apply its page to a Notice Board as the tooltip instructs. Five item marks do not replace learning the page; six independent advancements determine completion."
+        "Order of the Universe calls for a separate action: apply its page to a Notice Board, as the tooltip says. Five items plus the studied page — six independent advancements, and the book needs all of them."
       ],
       "task_notes": {
         "0": {
@@ -2351,12 +2351,12 @@
       "text": [
         "Молот Вечности объединяет бензопилу, кирку Вечности, Кхарттхон, лопату Вечности и топор Вечности без заданной формы рецепта. Сначала подготовьте эти пять инструментов и запасной рабочий комплект: после сборки исходные предметы расходуются.",
         "Сам молот позднее используется в рецепте аркемерского карьера, поэтому получите его в инвентарь и дождитесь отметки до следующего улучшения. Положение карточки после технологий не запрещает изготовить нужный молот заранее.",
-        "Отдельно требуются Божественная кирка и Божественная мотыга. Они не являются автоматическими побочными результатами молота. Проверьте три достижения и испытайте инструмент на небольшом участке, прежде чем применять массовую добычу рядом с постройками."
+        "Божественная кирка и Божественная мотыга — отдельные цели, из молота они сами собой не получаются. Проверьте три достижения и испытайте инструмент на небольшом участке, прежде чем копать вширь рядом с постройками."
       ],
       "text_en": [
         "The Hammer of Eternity combines a Chainsaw, Pickaxe of Eternity, Khartthone, Shovel of Eternity and Axe of Eternity in a shapeless recipe. Prepare those five tools and a spare working set first: assembly consumes the originals.",
         "The Hammer later becomes an Arkemer Quarry ingredient, so obtain it in your inventory and wait for its mark before upgrading. This card’s position after technologies does not prevent crafting the necessary Hammer beforehand.",
-        "Divine Pickaxe and Divine Hoe are separate objectives, not automatic byproducts of the Hammer. Check all three advancements and test tools on a small area before using broad excavation beside buildings."
+        "The Divine Pickaxe and Divine Hoe are separate goals; they do not come out of the hammer by themselves. Check the three advancements and try the tool on a small patch before digging wide next to your buildings."
       ],
       "task_notes": {
         "0": {
@@ -2377,7 +2377,7 @@
       "text": [
         "После победы над Унахзаалом исследуйте обычный мир: Мигель указывает на новые следы его измерения. Линия Aftermath ведёт через обломки корабля, встречи с А’Хиси, последующие фрагменты и выбор стороны в истории аркемеров. Следуйте активной записи журнала и сохраняйте координаты каждой находки.",
         "Доведите выбранную ветвь до конца; эфириевая кузница связана с её наградой и нужна многим предметам этой главы. Не ждите завершения всех технических карточек, прежде чем начинать сам сюжет.",
-        "Испытание камня Флечереши — отдельная цель с возвращением усиленных противников. Подготовьте арену и полный запас расходников перед активацией. После прохождения подберите Знамя Вечности, а затем проверьте оба достижения: завершённый Aftermath не заменяет испытание."
+        "Испытание камня Флечереши — отдельная цель с возвращением усиленных противников. Подготовьте арену и полный запас расходников перед активацией. После прохождения подберите Знамя Вечности, а затем проверьте оба достижения: пройденный Aftermath и само испытание — два разных достижения."
       ],
       "text_en": [
         "After defeating Unahzaal, explore the Overworld: Miguel points to new traces of his dimension. Aftermath leads through ship wreckage, meetings with A’Hisi, further fragments and an allegiance choice in the Arkemer story. Follow the active Journal entry and record each discovery’s coordinates.",
@@ -2398,12 +2398,12 @@
     "et_darkness/activate": {
       "text": [
         "Вечную Тьму включает Тотем Вечной Тьмы, а Тотем Вечности выключает её. Не перепутайте похожие названия при подготовке: первый меняет условия игры в сторону усиления, второй нужен для возвращения к обычному режиму.",
-        "Примените нужный тотем в безопасном месте, предварительно подготовив снаряжение и лечение. Проверьте состояние режима на доске объявлений. Включение усиливает мобов и боссов, открывает человечность и страх, а некоторые предметы получают дополнительные возможности.",
+        "Примените нужный тотем в безопасном месте, заранее подготовив снаряжение и лечение. Состояние режима видно на доске объявлений. Тьма усиливает существ и боссов, открывает человечность и страх, а некоторым предметам добавляет новые свойства.",
         "Достижение подтверждает активацию, не прохождение всех боссов на новой сложности. После короткой проверки можете отменить режим подготовленным тотемом; решение продолжать Тьму лучше принимать до начала следующего дорогого призыва."
       ],
       "text_en": [
         "A Totem of Eternal Darkness enables Eternal Darkness; a Totem of Eternity disables it. Distinguish these similar names during preparation: the first strengthens the game’s conditions, while the second restores normal mode.",
-        "Use the appropriate totem somewhere safe after preparing equipment and healing. Check the mode state on the Notice Board. Activation strengthens mobs and bosses, unlocks Humanity and Fear, and gives some items extra abilities.",
+        "Use the right totem somewhere safe, with gear and healing prepared beforehand. The state of the mode is shown on the Notice Board. Darkness strengthens creatures and bosses, unlocks Humanity and Fear, and gives some items new properties.",
         "The advancement confirms activation, not defeating every boss at the new difficulty. You may reverse the mode after a short test using the prepared totem; decide whether to continue in Darkness before beginning another expensive summon."
       ],
       "task_notes": {
@@ -2415,12 +2415,12 @@
     },
     "et_darkness/humanity": {
       "text": [
-        "Человечность появляется в Вечной Тьме и меняется от того, каких существ вы убиваете. По справке победы над злыми мобами повышают её и ускоряют восстановление эссенций; убийства добрых существ уменьшают показатель и замедляют восстановление.",
+        "Человечность появляется в Вечной Тьме и меняется от того, кого вы убиваете. По справке победы над злыми существами поднимают её и ускоряют восстановление эссенций, а убийство добрых опускает шкалу и замедляет восстановление.",
         "Запишите исходное значение на доске и наблюдайте изменения после выбранных боёв. Не ориентируйтесь на техническое имя достижения get_100_humanity: его описание просит положительную тысячу человечности, а не сто.",
         "Доведите показатель до требуемого положительного значения и дождитесь отметки. Для последующих Ноксифера и Люцидена понадобятся гораздо более крайние значения противоположных знаков, поэтому этот этап лишь знакомит с управлением шкалой."
       ],
       "text_en": [
-        "Humanity appears in Eternal Darkness and changes according to the creatures you kill. The reference says defeating evil mobs raises it and speeds essence regeneration, while killing good creatures lowers it and slows regeneration.",
+        "Humanity appears in Eternal Darkness and shifts with whom you kill. According to the reference, victories over evil creatures raise it and speed up essence regeneration, while killing the good ones lowers the scale and slows regeneration.",
         "Record the starting value on the board and observe changes after selected fights. Do not infer the target from the technical advancement name get_100_humanity: its description asks for positive one thousand Humanity, not one hundred.",
         "Raise the value to the required positive amount and wait for the mark. Noxifer and Luciden later require much more extreme values of opposite signs, so this stage introduces managing the scale."
       ],
@@ -2455,8 +2455,8 @@
     },
     "et_darkness/rings_dark": {
       "text": [
-        "Кольцо бедствия, кольцо гарпии и кольцо багровых слёз — три отдельных аксессуара. Найдите доступный рецепт или источник каждого и сохраняйте готовый результат в инвентаре до отметки. Похожее кольцо из другой системы не заменяет заданный предмет.",
-        "Особенно внимательно подготовьте кольцо бедствия: оно входит в условия отдельной сложной победы над Унахзаалом. Перед боем проверьте не только наличие, но и способ экипировки, описанный подсказкой; предмет среди материалов может не выполнять боевые условия.",
+        "Кольцо бедствия, кольцо гарпии и кольцо багровых слёз — три отдельных аксессуара. Найдите доступный рецепт или источник каждого и сохраняйте готовый результат в инвентаре до отметки. Похожее кольцо из другого мода здесь не подойдёт.",
+        "Особенно внимательно подготовьте кольцо бедствия: оно входит в условия отдельной сложной победы над Унахзаалом. Перед боем проверьте не только что кольцо у вас, но и надето ли оно так, как описано в подсказке: лежащее среди материалов кольцо боевых условий не выполнит.",
         "Текущая карточка проверяет только получение трёх колец. Осваивайте эффекты по одному, не включайте сразу все опасные режимы ради коллекции и сохраняйте контроль над человечностью для следующей цели."
       ],
       "text_en": [
@@ -2481,12 +2481,12 @@
     },
     "et_darkness/super": {
       "text": [
-        "Super Duper Darkness включается Тотемом Смерти и одновременно включает Вечную Тьму. В этом режиме любой полученный урон немедленно убивает. Для первого опыта заранее подготовьте Тотем Вечности, выберите закрытое безопасное место и исключите падения, огонь и случайных мобов.",
-        "Активация этого режима — первая цель. Вторая отдельно требует победить последнюю фазу Унахзаала во Вечной Тьме с надетым кольцом бедствия и человечностью не выше −5000. Само включение усиленного режима не заменяет бой; именно Super Duper Darkness для этой победы не требуется.",
+        "Super Duper Darkness включается Тотемом Смерти и заодно включает Вечную Тьму. Любой полученный урон в этом режиме убивает на месте. Для первой пробы заранее держите Тотем Вечности, выберите закрытое безопасное место и исключите падения, огонь и случайных гостей.",
+        "Активация этого режима — первая цель. Вторая отдельно требует победить последнюю фазу Унахзаала во Вечной Тьме с надетым кольцом бедствия и человечностью не выше −5000. Включённый режим боя не отменяет, а сам Super Duper Darkness для этой победы не нужен.",
         "Проверьте два достижения независимо. После фиксации активации отмените опасный режим, если собираетесь готовить бой в обычной Вечной Тьме; заранее перепроверьте кольцо и человечность."
       ],
       "text_en": [
-        "Super Duper Darkness is enabled with a Totem of Death and simultaneously activates Eternal Darkness. Any damage kills immediately in this mode. Prepare a Totem of Eternity beforehand, choose an enclosed safe location and eliminate falls, fire and wandering mobs for the first test.",
+        "Super Duper Darkness is switched on with a Totem of Death and turns on Eternal Darkness along with it. Any damage taken in this mode kills on the spot. For the first try keep a Totem of Eternity ready, choose an enclosed safe place and rule out falls, fire and stray visitors.",
         "Activating this mode is the first objective. The second separately requires defeating Unahzaal’s final phase in Eternal Darkness with the Calamity Ring equipped and Humanity no higher than −5000. Activation does not replace the fight; Super Duper Darkness itself is not required for this victory.",
         "Check the advancements independently. After activation registers, reverse the dangerous mode if you intend to prepare the fight in ordinary Eternal Darkness; verify the ring and Humanity in advance."
       ],
@@ -2529,12 +2529,12 @@
     },
     "et_gear/armors_mid": {
       "text": [
-        "Средняя коллекция охватывает тёмного мага, колдуна, китобоя и руническую броню. Эти комплекты служат разным занятиям; рунический особенно полезен при заготовке рун, а названия остальных не следует считать обещанием одинаковых бонусов.",
+        "Средняя коллекция — тёмный маг, колдун, китобой и руническая броня. Каждый комплект под своё занятие: рунический особенно хорош при заготовке рун, а одинаковых бонусов от остальных ждать не стоит, как бы похоже они ни назывались.",
         "Соберите один набор полностью, наденьте его и дождитесь соответствующего достижения, затем переходите к следующему. Сохраняйте все части возле места переодевания, чтобы забытые ботинки не удерживали проверку открытой.",
         "Четыре отметки означают знакомство с отдельными вариантами экипировки. Для похода выбирайте подходящий эффект и проверяйте прочность; самый недавно изготовленный комплект не обязан быть лучшим для каждой ситуации."
       ],
       "text_en": [
-        "The middle collection covers Dark Mage, Warlock, Whaler and Runic Armor. These sets serve different activities; Runic Armor is particularly useful for rune gathering, while the others’ names should not be interpreted as identical bonuses.",
+        "The middle collection — Dark Mage, Warlock, Whaler and Runic Armor. Each set suits its own occupation: the Runic one is especially good for gathering runes, and do not expect identical bonuses from the rest, however similar the names.",
         "Assemble one full set, wear it and wait for its advancement before moving to another. Store every piece near your changing area so forgotten boots do not hold the check open.",
         "Four marks establish familiarity with distinct equipment options. Choose an appropriate effect for an expedition and check durability; the newest set is not necessarily best for every situation."
       ],
@@ -2611,12 +2611,12 @@
     },
     "et_gear/ranged": {
       "text": [
-        "Арбалет Атимита можно получить у Коллекционера, передав сломанный артефакт этого арбалета и три древние монеты. Сохраните повреждённую находку вместо выбрасывания: в этой цепочке она является основой восстановления. Проверьте предложение торговца до оплаты.",
+        "Арбалет Атимита выдаёт Коллекционер в обмен на сломанный артефакт этого арбалета и три древние монеты. Повреждённую находку не выбрасывайте — с неё и начинается восстановление. Условия обмена прочитайте до оплаты.",
         "Пушка Ракеты собирается из поздних материалов, включая мистическую эссенцию, Danger, фобастон, кристалл Вечности, квантовый дестабилизатор, фотий и пластину звезды Нижнего мира. Это отдельный рецепт, а не модернизация арбалета тем же обменом.",
         "Получите оба оружия для достижений. Затем проверьте боеприпасы и управление на безопасной площадке; пушку сохраните, если собираетесь создавать аркемерский рельсотрон «Алеф»."
       ],
       "text_en": [
-        "Atimite’s Crossbow can be obtained from the Collector by giving its broken artifact and three Ancient Coins. Preserve the damaged find rather than discarding it: it is the restoration base in this chain. Check the trader’s offer before paying.",
+        "The Collector hands over Atimite’s Crossbow in exchange for its broken artifact and three Ancient Coins. Do not throw the damaged find away — the restoration starts with it. Read the terms of the trade before paying.",
         "Rocket’s Gun is crafted from late materials including Mystic Essence, Danger, Fobastone, a Crystal of Eternity, Quantum Distabilizer, Fotium and a Nether Star Plate. This is a separate recipe rather than another crossbow trade.",
         "Obtain both weapons for their advancements. Then test ammunition and controls in a safe area; preserve Rocket’s Gun if you intend to make the Arkemer Aleph Railgun."
       ],
@@ -2661,7 +2661,7 @@
       "text": [
         "Переносной сундук расширяет возможности экспедиции без постоянного возвращения к складу. Обычный вариант собирается из сундука, двух цепей и четырёх кусков кожи. Для большого нужны два сундука, железный блок, две двойные цепи и четыре кожи.",
         "Получите оба варианта по очереди и откройте их в безопасном месте. Сначала положите несколько дешёвых предметов, закройте и снова откройте, чтобы разобраться с обращением до перевозки уникальных трофеев.",
-        "Достижения проверяют наличие сундуков, а не сохранность всей вашей добычи. Полезно отделять припасы от находок и оставлять свободные ячейки для боссов, чьи знамёна требуется подобрать в личный инвентарь."
+        "Достижения отмечают сундуки, а за сохранность добычи отвечаете вы. Полезно отделять припасы от находок и оставлять свободные ячейки для боссов, чьи знамёна требуется подобрать в личный инвентарь."
       ],
       "text_en": [
         "Portable Chests expand expedition capacity without constant warehouse visits. The ordinary version uses a Chest, two Chains and four Leather. The large version needs two Chests, an Iron Block, two Double Chains and four Leather.",
@@ -2683,12 +2683,12 @@
       "text": [
         "Смартфон, лампы и энергетик объединены как спокойная коллекция, но смартфон имеет практическое назначение: он настраивает аркемерскую и эргосферную броню, Перчатку Судеб и некоторые поздние предметы. Получите его до изменения сложных параметров экипировки.",
         "Для ламп нужно собрать все варианты достижения, а не только обычную лавовую. Сверяйте список незавершённых разновидностей: среди них вода, снег, кровь, кислота, жидкий эфирий и другие наполнители.",
-        "Энергетик необходимо выпить, простого получения недостаточно. Проверьте три группы целей отдельно; декоративная коллекция может заполняться постепенно, пока смартфон уже используется для настройки рабочего снаряжения."
+        "Энергетик нужно выпить — просто держать его мало. Проверьте три группы целей по отдельности; коллекцию ламп можно пополнять неспешно, пока смартфон уже настраивает рабочее снаряжение."
       ],
       "text_en": [
         "Smartphone, lamps and Energy Drink form a calmer collection, but the Smartphone has a practical use: it configures Arkemer and Ergosphere Armor, Gauntlet of the Destinies and certain late items. Obtain it before changing complex equipment settings.",
         "Collect every lamp variant required by the advancement, not only the ordinary Lava Lamp. Check the missing variants list: it includes water, snow, blood, acid, Liquid Aetherium and other contents.",
-        "The Energy Drink must be consumed; obtaining it alone is insufficient. Check the three objective groups separately; the decoration collection can grow gradually while the Smartphone already configures your working equipment."
+        "The Energy Drink has to be drunk — merely holding it is not enough. Check the three groups of goals separately; the lamp collection can grow at leisure while the Smartphone is already configuring your working gear."
       ],
       "task_notes": {
         "0": {
@@ -2708,12 +2708,12 @@
     "et_intro/guide_return_report": {
       "text": [
         "После первого поручения Аэтер откройте журнал и найдите завершённую запись. Сопоставьте её с тем, что вы делали: приняли просьбу, поставили проигрыватель и вернулись на разговор. Это три части одной истории, а не три взаимозаменяемых способа получить награду.",
-        "Проверьте, что в активных поручениях не остался незаконченный этап. Если остался, вернитесь к персонажу и дочитайте диалог, вместо того чтобы делать второй проигрыватель наугад.",
+        "Загляните в активные поручения: не осталось ли незаконченного этапа. Если остался, вернитесь к персонажу и дочитайте диалог — второй проигрыватель наугад делу не поможет.",
         "Подтвердите задание вручную после проверки завершённой записи. Этот приём пригодится в каждом измерении: проверять журнал после сдачи проще, чем вспоминать забытый разговор через десятки часов."
       ],
       "text_en": [
         "After Aeter’s first assignment, open the Journal and locate its completed entry. Compare it with your actions: accepting the request, placing the Jukebox and returning for the conversation. These are three parts of one story, not interchangeable ways to earn a reward.",
-        "Check that no unfinished stage remains active. If one remains, return to the character and finish the dialogue instead of randomly crafting another Jukebox.",
+        "Look at the active assignments: is there an unfinished stage left? If so, go back to the character and finish the dialogue — a second Jukebox made at random will not help.",
         "Confirm manually after checking the completed entry. This habit helps in every dimension: inspecting the Journal after reporting back is easier than remembering a forgotten conversation many hours later."
       ],
       "task_notes": {
@@ -2727,12 +2727,12 @@
       "text": [
         "Создайте небольшой архив до первого запуска шреддера. Обычного сундука достаточно: выделите в нём место для полезных оригиналов и подпишите, какие будущие предметы они открывают. Не нужно строить сложную систему сортировки ради нескольких находок.",
         "Прочитайте один чертёж, определите его назначение и отложите оригинал. Бумаги, которые собираетесь уничтожать, держите отдельно, чтобы случайный перенос стопки не стоил редкого рецепта.",
-        "Предметная цель проверяет сундук, а ручная — сохранённый нужный оригинал. Завершайте её только после фактической сортировки; в следующем ответвлении сделаете копию и проверите, что архив пережил переработку."
+        "Сундук книга увидит сама, а сохранённый оригинал подтверждаете вы. Отмечайте, когда сортировка действительно сделана; в следующем ответвлении вы снимете копию и убедитесь, что архив пережил переработку."
       ],
       "text_en": [
         "Create a small archive before first using the Shredder. An ordinary chest is enough: reserve space for useful originals and label the future items they unlock. A few finds do not need a complicated sorting system.",
         "Read one blueprint, identify its purpose and set the original aside. Keep papers intended for destruction separately so an accidental stack transfer does not cost a rare recipe.",
-        "The item objective checks the chest, while the manual objective checks a preserved useful original. Confirm only after sorting; the next branch makes a copy and verifies that the archive survives recycling."
+        "The book will see the chest by itself; the saved original is for you to confirm. Tick it once the sorting is really done; in the next branch you will make a copy and make sure the archive survived recycling."
       ],
       "task_notes": {
         "1": {
@@ -2763,12 +2763,12 @@
       "text": [
         "Выберите один доступный горшку вид растения и запишите его исходное состояние. Добавьте воду и удобрение так, чтобы оба показателя были выше пяти, затем оставьте посадку расти. Не меняйте сразу несколько условий, иначе трудно понять причину остановки.",
         "Наблюдайте за запасами и дождитесь готового урожая. Если растение стоит, сначала проверьте ресурсы, подходящий вид горшка и почву, а уже потом переставляйте всю установку.",
-        "Подтвердите вручную только после сбора результата. Наличие горшка или красивой посадки не считается урожаем; этот опыт станет исходной точкой для проверки поливочной и удобряющей машин."
+        "Отметку ставьте только после сбора урожая. Горшок с красивой посадкой урожаем не считается; этот опыт станет точкой отсчёта для проверки поливочной и удобряющей машин."
       ],
       "text_en": [
         "Choose one accessible plant supported by the pot and note its initial state. Add water and fertilizer until both values exceed five, then let it grow. Avoid changing several conditions simultaneously, which makes a stoppage difficult to diagnose.",
         "Watch the reserves and wait for a finished harvest. If growth stops, inspect supplies, pot type and soil before relocating the whole setup.",
-        "Confirm manually only after collecting produce. Owning a pot or displaying a planted specimen is not a harvest; this experiment establishes a baseline for checking the Irrigating and Fertilizing Machines."
+        "Tick it only after you have gathered the produce. A pot with a pretty planting is not a harvest; this experiment becomes the baseline for checking the Irrigating and Fertilising Machines."
       ],
       "task_notes": {
         "0": {
@@ -2781,12 +2781,12 @@
       "text": [
         "Используйте тот же горшок и растение, которые уже дали урожай вручную. Подключите обслуживание поливочной и удобряющей машинами, заполните их ресурсами и убедитесь, что выбранный горшок попадает в область работы.",
         "В течение следующего цикла не пополняйте сам горшок руками. Следите за его запасами и за расходом в машинах: так можно отличить настоящее обслуживание от роста на старом остатке воды.",
-        "Отметьте задание после второго урожая с работающим пополнением. Если машины пусты или стоят слишком далеко, исправьте одну причину и повторите цикл. Проверка подтверждает обслуживание, а не наличие двух дорогих блоков рядом с грядкой."
+        "Второй урожай при работающем пополнении — и цель выполнена. Если машины пусты или стоят слишком далеко, исправьте одну причину и повторите цикл. Книге важно обслуживание, а не два дорогих блока рядом с грядкой."
       ],
       "text_en": [
         "Use the same pot and plant that already produced a manual harvest. Add service from Irrigating and Fertilizing Machines, fill their reserves and make sure the pot lies inside their operating area.",
         "Do not refill the pot by hand during the next cycle. Watch its reserves and machine consumption so you can distinguish actual servicing from growth using old leftover water.",
-        "Confirm after a second harvest with working replenishment. If machines are empty or too far away, correct one cause and repeat the cycle. This verifies servicing rather than merely placing two expensive blocks beside a planter."
+        "A second harvest with replenishment working — and the goal is met. If the machines are empty or too far away, fix one cause and repeat the cycle. What matters to the book is the servicing, not two expensive blocks beside the bed."
       ],
       "task_notes": {
         "0": {
@@ -2799,12 +2799,12 @@
       "text": [
         "Поймайте два разных вида насекомых и сравните показатель Fishing Luck в подсказках. Отметьте, какой вид обычнее и какой имеет лучшую удачу, прежде чем тратить оба на сеть. Это помогает выбирать наживку для будущих редких рыб.",
         "Проверьте воду вокруг сети и выполните по одной ловле с каждым видом. Запишите результат, не делая вывод, что одна удачная попытка доказывает гарантированный редкий улов. Показатель меняет вероятность, а не обещает определённый предмет.",
-        "Подтвердите вручную после двух завершённых ловель и сравнения наживки. Для повседневного снабжения оставляйте доступных насекомых, а редкие экземпляры сохраняйте под конкретные ингредиенты кристаллов."
+        "Две ловли позади, наживки сравнены — можно отмечать. Для повседневного снабжения годятся обычные насекомые, а редких берегите под конкретные ингредиенты кристаллов."
       ],
       "text_en": [
         "Catch two different insect species and compare Fishing Luck in their tooltips. Note which is more common and which has better luck before spending them on the net. This supports choosing bait for future rare fish.",
         "Check the water around the net and complete one catch with each bait type. Record results without assuming that a single lucky attempt proves a guaranteed rare catch. The statistic changes probability rather than promising a specific item.",
-        "Confirm manually after two completed catches and the bait comparison. Use accessible insects for routine supply and save rare specimens for particular crystal ingredients."
+        "Two catches done, the baits compared — you can tick it. Ordinary insects will do for everyday supply; save the rare ones for particular crystal ingredients."
       ],
       "task_notes": {
         "0": {
@@ -2835,12 +2835,12 @@
       "text": [
         "Перед боем с Ужасным древом подготовьте Топор трагедии и запас астероидного камня. Топор собирается из аэролитового топора и четырёх блоков могильной земли; проверьте готовое имя предмета, чтобы не пойти к дереву с обычным инструментом.",
         "Астероидный камень пока не используется для призыва Древа. Он понадобится позже при взаимодействии с живым Рок-Блейзом, поэтому собрать его сейчас удобнее, чем возвращаться в Кометы посреди следующего боя.",
-        "Получите оба предмета и сохраните камень отдельно от блоков для мостов. Эта подготовка связывает две последовательные встречи; наличие инструментов не заменяет личную победу над Древом."
+        "Получите оба предмета и держите камень отдельно от блоков для мостов. Эта подготовка связывает две встречи подряд — но Древо всё равно придётся победить лично."
       ],
       "text_en": [
         "Prepare a Tragedy Axe and an Asteroid Stone reserve before fighting the Terrible Tree. The axe combines an Aerolite Axe with four Grave Dirt blocks; check the finished item name rather than arriving with an ordinary tool.",
         "Asteroid Stone is not used to summon the Tree. It will be needed later to interact with the living Rock-Blaze, so collecting it now is easier than returning to Comets during the next encounter.",
-        "Obtain both items and keep the stone separate from bridge-building supplies. This preparation connects two successive encounters; owning the tools does not replace your personal Tree victory."
+        "Get both items and keep the stone apart from bridge-building blocks. This preparation ties two encounters together — but the Tree still has to be beaten by you in person."
       ],
       "task_notes": {}
     },
@@ -2872,12 +2872,12 @@
     },
     "et_nether_end/guide_warlock_column": {
       "text": [
-        "Подготовьте проверенную конструкцию для адского колдуна. Снизу поставьте полированный чернит, над ним полированные чернитные кирпичи, сверху золочёный чернит. Похожие чёрные блоки здесь не взаимозаменяемы: процедура призыва проверяет именно эту вертикаль.",
+        "Колонна для адского колдуна собирается в проверенном порядке: внизу полированный чернит, над ним полированные чернитные кирпичи, сверху золочёный чернит. Похожие чёрные блоки не взаимозаменяемы — призыв проверяет именно эту вертикаль.",
         "В дальнейшем Nether Chronicles применяют к верхнему золочёному блоку. Сейчас достаточно построить пьедестал и расчистить окружающую площадку; не начинайте бой без лечения и исправной брони.",
-        "Подтвердите ручную цель после проверки порядка трёх блоков и свободного места. Предметные цели гарантируют материалы, но не правильную сборку. Этот образец поможет диагностировать отказ призыва без случайной перестройки всех соседних стен."
+        "Подтвердите ручную цель после проверки порядка трёх блоков и свободного места. Материалы книга отметит сама, а правильную сборку подтверждаете вы. Этот образец поможет диагностировать отказ призыва без случайной перестройки всех соседних стен."
       ],
       "text_en": [
-        "Prepare the verified Piglin Warlock construction. Place Polished Blackstone at the bottom, Polished Blackstone Bricks above it and Gilded Blackstone on top. Similar black blocks are not interchangeable: the summon checks this exact vertical stack.",
+        "The column for the Piglin Warlock is built in a proven order: Polished Blackstone at the bottom, Polished Blackstone Bricks above it, Gilded Blackstone on top. Similar black blocks are not interchangeable — the summon checks this exact stack.",
         "Later, use Nether Chronicles on the upper gilded block. For now, building the pedestal and clearing its surroundings is enough; do not begin the fight without healing and repaired armor.",
         "Confirm the manual objective after checking the three-block order and free space. Item objectives ensure materials, not correct construction. This example helps diagnose failed summoning without randomly rebuilding neighboring walls."
       ],
@@ -2891,12 +2891,12 @@
     "et_karvat/guide_temple_map": {
       "text": [
         "Разведите разведку и расход призывных предметов. После разговора с Гулибегом найдите четыре храма младших богов, запишите координаты и сопоставьте названия с подготовленными силами. До активации убедитесь, что знаете путь между ними и местом возвращения.",
-        "Осмотрите каждую площадку, отмечая мешающих мобов и узкие выходы. Не складывайте все редкие компоненты в один полевой сундук без подписи: отдельный запас по храмам уменьшает риск перепутать призыв.",
+        "Осмотрите каждую площадку, отмечая опасных существ и узкие выходы. Не ссыпайте все редкие компоненты в один полевой сундук без подписи: запас, разложенный по храмам, убережёт от перепутанного призыва.",
         "Подтвердите карточку после четырёх записанных точек и сверки предметов. Убийства здесь не требуются; результат — готовый маршрут, который делает основную цепочку богов последовательной и понятной."
       ],
       "text_en": [
         "Separate reconnaissance from spending summoning items. After speaking to Gulibeg, locate the four lesser-god temples, record their coordinates and match their names to the prepared powers. Know the route between them and your return point before activation.",
-        "Inspect each arena for interfering mobs and narrow exits. Avoid piling every rare component into one unlabeled field chest: reserves organized by temple reduce summon confusion.",
+        "Look over each arena, noting dangerous creatures and narrow exits. Do not pour every rare component into one unlabelled field chest: a reserve sorted by temple guards against a mixed-up summon.",
         "Confirm after recording four sites and checking the corresponding items. No kills are required here; the result is a prepared route that makes the main god sequence orderly and understandable."
       ],
       "task_notes": {
@@ -2910,12 +2910,12 @@
       "text": [
         "Смартфон нужен не только для коллекции: он управляет параметрами аркемерской и эргосферной брони. Наденьте подготовленный комплект, откройте конфигурацию и найдите настройки движения и дополнительных эффектов. Назначенные клавиши уточняйте в управлении игры.",
         "На безопасной площадке проверьте включение и выключение полёта, не начиная опыт над пустотой. Отключите поджог земли возле домашней базы и убедитесь, что обычное перемещение не оставляет огонь на пути.",
-        "Подтвердите ручную цель после проверки настроек и безопасного движения. Наличие смартфона само по себе не доказывает правильную конфигурацию; сохранённые параметры полезнее, чем случайно активированная способность во время возвращения домой."
+        "Отметку ставьте после проверки настроек и безопасного движения. Смартфон в кармане правильной конфигурации не гарантирует; осознанно сохранённые параметры лучше, чем способность, случайно включившаяся по дороге домой."
       ],
       "text_en": [
         "The Smartphone is more than a collection item: it controls Arkemer and Ergosphere Armor settings. Wear the prepared set, open configuration and find movement and additional-effect options. Check assigned keys in the game’s controls.",
         "Test enabling and disabling flight on safe ground, not over the void. Disable ground ignition around your home base and verify that ordinary movement leaves no fire behind.",
-        "Confirm the manual goal after checking settings and safe movement. Smartphone possession alone does not prove correct configuration; deliberate settings are more useful than accidentally activating an ability while returning home."
+        "Tick it after checking the settings and safe movement. A Smartphone in your pocket does not guarantee the right configuration; deliberately saved settings beat an ability that switched itself on halfway home."
       ],
       "task_notes": {
         "1": {
@@ -2928,12 +2928,12 @@
       "text": [
         "Отмена режима — часть подготовки к экспериментам со сложностью. Получите Тотем Вечности и сохраните его вне сумки с призывами, чтобы быстро найти нужный предмет. Не путайте его с Тотемом Вечной Тьмы или Тотемом Смерти.",
         "После активации Тьмы примените подготовленный тотем в безопасном месте и откройте доску. Проверьте, что режим действительно выключен, прежде чем возвращаться к строительству или пробовать незнакомые устройства.",
-        "Подтвердите карточку вручную только после этой проверки. Наличие отменяющего предмета не подтверждает отмену; освоенная последовательность позволит отдельно фиксировать достижения активации и готовить бои с нужными условиями."
+        "Отмечайте карточку только после этой проверки. Тотем в сумке ещё не отменённый режим; освоив последовательность, вы будете отдельно фиксировать достижения активации и готовить бои с нужными условиями."
       ],
       "text_en": [
         "Reversing the mode is part of preparing difficulty experiments. Obtain a Totem of Eternity and keep it separate from summoning supplies so the correct item is easy to find. Do not confuse it with a Totem of Eternal Darkness or Totem of Death.",
         "After activating Darkness, use the prepared totem somewhere safe and open the board. Check that the mode is actually disabled before returning to construction or trying unfamiliar devices.",
-        "Confirm manually only after that check. Owning a reversal item does not prove reversal occurred; learning the sequence lets you record activation achievements separately from preparing battles under specific conditions."
+        "Tick the card only after that check. A totem in your bag is not yet a cancelled mode; once the sequence is second nature, you will record activation advancements separately and prepare fights under the right conditions."
       ],
       "task_notes": {
         "1": {
@@ -2946,12 +2946,12 @@
       "text": [
         "Переносное хранилище не должно быть единственным местом со всеми полезными вещами. Подготовьте рядом с точкой возрождения запасной комплект: оружие, броню, еду и материалы для возвращения к маршруту экспедиции. Обычный домашний сундук подходит.",
         "Проверьте доступ к этому запасу, временно убрав основной переносной сундук. Если билет, инструменты и единственная еда находятся внутри него, запасной путь пока не подготовлен. Разделите вещи по назначению, не дублируя каждый редкий артефакт.",
-        "Подтвердите вручную после проверки доступа. Цель не требует намеренно погибать: достаточно убедиться, что восстановление возможно без содержимого основного рюкзака и без рискованного похода за первой киркой."
+        "Доступ проверен — ставьте отметку. Гибнуть нарочно не нужно: достаточно убедиться, что вы поднимаетесь без содержимого основного рюкзака и без рискованного похода за первой киркой."
       ],
       "text_en": [
         "Portable storage should not be the only place containing every useful possession. Prepare spare weapons, armor, food and route materials near your respawn point. An ordinary home chest is suitable.",
         "Check access to this reserve while setting your main Portable Chest aside. If the ticket, tools and only food are all inside it, the backup route is not ready. Divide supplies by purpose without duplicating every rare artifact.",
-        "Confirm manually after checking access. There is no need to die intentionally: establish that recovery is possible without your main backpack’s contents or a dangerous trip just to obtain the first pickaxe."
+        "Access checked — tick it. There is no need to die on purpose: it is enough to be sure you can get back on your feet without the contents of your main backpack and without a risky trip for a first pickaxe."
       ],
       "task_notes": {
         "0": {

@@ -3,12 +3,12 @@
   "chapters": {
     "life_world": {
       "intro": [
-        "За стенами мастерской лежит мир, который стоит изучать не наугад. Новый биом приносит материалы, найденная постройка становится ориентиром, а продуманный маршрут позволяет вернуться домой с добычей.",
+        "За стенами мастерской лежит мир, который стоит изучать не наугад. Новый биом приносит материалы, найденная постройка становится ориентиром, а продуманный маршрут приводит домой с добычей.",
         "Эта глава знакомит с картами, поисковыми компасами и путевыми камнями. Сначала освойте навигацию, затем подготовьте короткую вылазку. Дальняя прорисовка помогает выбирать направление, но не делает далёкую местность безопасной или доступной для взаимодействия.",
         "Боковые ветви предлагают полевые задачи: разведать дорогу, обследовать биом, организовать перевалочный пункт. Ручные отметки здесь означают выполненную проверку, а не требование просто прочитать страницу."
       ],
       "intro_en": [
-        "Beyond the workshop lies a world worth exploring deliberately. A new biome provides materials, a discovered structure becomes a landmark, and a planned route brings both you and your supplies home.",
+        "Beyond the workshop walls lies a world worth exploring with a plan rather than at random. A new biome brings materials, a discovered structure becomes a landmark, and a well-thought-out route brings you home with the loot.",
         "This chapter introduces maps, search compasses and waystones. Learn navigation first, then prepare a short expedition. Distant terrain rendering helps you choose a direction, but it does not make faraway land safe or interactive.",
         "Optional branches offer field assignments: scout a route, survey a biome and establish a staging post. Manual ticks record checks you have actually performed, rather than merely asking you to read a page."
       ]
@@ -35,27 +35,27 @@
     },
     "life_world/compass": {
       "text": [
-        "Два внешне похожих компаса отвечают на разные вопросы. Nature’s Compass ищет биомы — например, определённый лес или пустыню. Explorer’s Compass ищет зарегистрированные структуры, такие как деревни и подземелья. Ни один из них не является универсальным указателем любого блока, существа или сундука.",
-        "Изготовьте оба предмета по рецептам установленной сборки и откройте интерфейс нужного компаса. Выберите биом или структуру из списка, запустите поиск и дождитесь результата. Сверяйте направление с картой: прямой путь может проходить через океан, горы или опасное подземелье.",
-        "Сообщение об отсутствии результата не доказывает, что цель вообще не существует. Проверьте измерение, правильность выбранного названия и ограничения поиска; иногда нужно начать поиск из другого места. Сохраните найденные координаты отдельной точкой, чтобы следующий поиск не лишил вас уже полученного ориентира."
+        "Два компаса похожи снаружи, но отвечают на разные вопросы. Nature’s Compass ищет биомы — скажем, нужный лес или пустыню. Explorer’s Compass ищет зарегистрированные постройки: деревни, подземелья. Ни тот ни другой не укажет на произвольный блок, существо или сундук.",
+        "Сделайте оба по рецептам сборки и откройте нужный. Выберите биом или постройку из списка, запустите поиск и дождитесь ответа. Сверяйте направление с картой: прямая может лечь через океан, горы или опасную пещеру.",
+        "Ответ «ничего не найдено» не значит, что цели нет вовсе. Проверьте измерение, точное название и предел поиска; иногда стоит попробовать с другого места. Найденные координаты сохраните отдельной точкой — следующий поиск не должен стирать уже добытый ориентир."
       ],
       "text_en": [
-        "Two similar-looking compasses answer different questions. Nature’s Compass searches for biomes, such as a particular forest or desert. Explorer’s Compass searches registered structures, including villages and dungeons. Neither is a universal locator for arbitrary blocks, creatures or chests.",
-        "Craft both items using this pack’s recipes and open the appropriate compass interface. Select a biome or structure, start the search and wait for a result. Compare its direction with your map: the straight route may cross an ocean, mountain range or dangerous dungeon.",
-        "A failed search does not prove the target is absent from the entire world. Check the dimension, selected name and search limits; moving your search origin can help. Save successful coordinates as a separate waypoint so that your next search does not erase an earlier landmark."
+        "The two compasses look alike but answer different questions. Nature’s Compass looks for biomes — a particular forest or desert, say. Explorer’s Compass looks for registered structures: villages, dungeons. Neither will point at an arbitrary block, creature or chest.",
+        "Make both by the pack’s recipes and open the one you need. Choose a biome or structure from the list, start the search and wait for the answer. Compare the heading with the map: a straight line may run across an ocean, over mountains or through a dangerous cave.",
+        "The answer “nothing found” does not mean the target does not exist at all. Check the dimension, the exact name and the search limit; sometimes it is worth trying from another spot. Save found coordinates as a separate point — the next search should not wipe out a landmark you have already earned."
       ],
       "task_notes": {}
     },
     "life_world/dh": {
       "text": [
-        "Далёкий горный хребет на горизонте может быть полезным ориентиром ещё до того, как вы к нему доберётесь. Distant Horizons показывает удалённый ландшафт упрощёнными моделями. Они дополняют обычную дальность прорисовки, но не заменяют настоящие блоки рядом с игроком.",
-        "Различайте видимость и работу мира. По далёкому изображению нельзя проверить состояние сундука, рассмотреть каждый механизм или заключить, что ферма продолжает работать. Постройки и существа за пределами обычной загрузки могут отображаться иначе или отсутствовать; для взаимодействия придётся приблизиться.",
-        "Если горизонт заполняется постепенно, дайте игре время подготовить данные. При заметных задержках уменьшайте настройки дальней прорисовки и генерации по одной, сравнивая результат. Эта карточка справочная: отметьте её после чтения и используйте дальние силуэты для планирования маршрута, а карту — для точных координат."
+        "Далёкий хребет на горизонте — уже ориентир, даже если идти до него полдня. Distant Horizons рисует дальний ландшафт упрощёнными моделями: они продлевают обычную дальность прорисовки, но не заменяют настоящие блоки рядом с вами.",
+        "Различайте видимость и работу мира. По далёкому силуэту не узнать, что лежит в сундуке, крутится ли каждый механизм и работает ли ферма. Постройки и существа за пределами обычной загрузки могут выглядеть иначе или не отображаться вовсе; чтобы с ними взаимодействовать, придётся подойти.",
+        "Если горизонт заполняется постепенно, дайте игре время подготовить модели. При заметных задержках уменьшайте настройки дальней прорисовки и генерации по одной и сравнивайте. Карточка справочная: отметьте её после чтения, а дальние силуэты используйте для выбора направления, карту — для точных координат."
       ],
       "text_en": [
-        "A distant mountain ridge can be a useful landmark long before you reach it. Distant Horizons renders faraway terrain using simplified models. These extend the visible landscape beyond ordinary render distance, but they do not replace the actual blocks around your player.",
-        "Visibility and world activity are different things. A distant image cannot confirm a chest’s contents, show every machine or prove that a farm is running. Buildings and entities outside normal loading may look different or be absent; interaction requires moving closer.",
-        "If the horizon fills in gradually, allow time for data preparation. When performance suffers, reduce distant rendering or generation settings one at a time and compare the result. This is a reference quest: mark it after reading, then use silhouettes to plan routes and the map for precise coordinates."
+        "A distant ridge on the horizon is already a landmark, even if it takes half a day to reach. Distant Horizons draws the far landscape with simplified models: they extend the normal render distance but do not replace the real blocks around you.",
+        "Tell visibility apart from a working world. A distant silhouette will not tell you what is in a chest, whether every mechanism turns or whether a farm still works. Buildings and creatures beyond normal loading may look different or not show at all; to interact with them you will have to walk over.",
+        "If the horizon fills in gradually, give the game time to prepare the models. With noticeable lag, lower the far-render and generation settings one at a time and compare. This card is a reference: tick it after reading, and use distant silhouettes to pick a direction and the map for exact coordinates."
       ],
       "task_notes": {
         "0": {
@@ -102,14 +102,14 @@
     },
     "life_world/waystones2": {
       "text": [
-        "Путевые камни сокращают дорогу между уже освоенными местами. Обычный камень становится доступной точкой после активации. Общие камни работают по цветовым сетям: синий вариант связывается с другими синими. В этой цели требуется именно синий общий камень, а не произвольный цвет.",
-        "Подготовьте обычный камень, синий общий камень и варп-пыль. Последняя служит компонентом рецептов и сама по себе не заменяет свиток перемещения. Разместите камень в удобном месте, активируйте его и дайте название, по которому позднее узнаете пункт назначения.",
-        "Перед дальней экспедицией проверьте доступные переходы и их стоимость: ограничения измерений, время ожидания и расход опыта задаёт конфигурация сборки. Не считайте новый пункт готовым только потому, что блок стоит на земле. Задание учитывает предметы; надёжность самой сети вы проверите отдельным пробным переходом."
+        "Путевые камни сокращают дорогу между освоенными местами. Обычный камень становится точкой назначения после активации. Общие камни живут цветными сетями: синий связан с другими синими. В этой цели нужен именно синий общий камень, а не любой цвет.",
+        "Заготовьте обычный камень, синий общий камень и варп-пыль — она идёт в рецепты и сама по себе свиток перемещения не заменяет. Поставьте камень в удобном месте, активируйте и назовите так, чтобы позже узнать пункт назначения в списке.",
+        "Перед дальней дорогой посмотрите доступные переходы и их цену: ограничения измерений, время ожидания и расход опыта задаёт конфигурация сборки. Блок на земле — ещё не готовый пункт. Книга считает предметы, а надёжность сети вы проверите пробным переходом."
       ],
       "text_en": [
-        "Waystones shorten journeys between established locations. A regular waystone becomes a destination after activation. Sharestones use colour-based networks: blue ones connect with other blue ones. This objective specifically requires a blue sharestone rather than any colour.",
-        "Prepare a regular waystone, a blue sharestone and warp dust. Dust is a crafting ingredient and does not itself replace a teleport scroll. Place a stone somewhere convenient, activate it and give the destination a name you will recognise later.",
-        "Before a long expedition, check available destinations and travel costs: dimension restrictions, cooldowns and experience costs depend on pack configuration. A placed block alone is not proof of a working destination. This quest tracks the items; a separate test journey verifies the network itself."
+        "Waystones shorten the road between places you have already settled. An ordinary waystone becomes a destination once activated. Sharestones live in coloured networks: a blue one links to other blue ones. This goal needs a blue sharestone specifically, not any colour.",
+        "Prepare an ordinary waystone, a blue sharestone and warp dust — it goes into recipes and on its own does not replace a warp scroll. Place the waystone somewhere convenient, activate it and name it so that you will later recognise the destination in the list.",
+        "Before a long journey, look at the available crossings and their price: dimension limits, cooldown and experience cost are set by the pack’s configuration. A block on the ground is not yet a ready destination. The book counts items; the reliability of the network you will test with a trial crossing."
       ],
       "task_notes": {}
     },
@@ -133,14 +133,14 @@
     },
     "life_world/mobs": {
       "text": [
-        "Этот мир населён не только знакомыми существами Minecraft. Моды добавляют животных с собственным поведением, необычных противников и боссов, для которых обычная прогулочная экипировка окажется недостаточной. Размер, яркая окраска или спокойная поза не являются надёжным признаком безопасности.",
-        "Увидев незнакомое существо, сначала определите его название по доступной подсказке и осмотрите местность. Держите свободный путь отхода, не подходите к краю обрыва и не проверяйте всё ударом меча. Для необычных животных ищите сведения в руководстве соответствующего мода: способы кормления и приручения различаются.",
-        "Запишите место встречи, если существо понадобится позже. Боссов и специальных призывных противников оставьте до тематических заданий, где разобраны подготовка и условия боя. Эта справочная цель не требует сражения: её задача — научить различать наблюдение, обычную охоту и экспедицию за конкретным трофеем."
+        "Этот мир населён не только знакомыми зверями Minecraft. Моды добавляют животных с собственным нравом, необычных противников и боссов, против которых прогулочной экипировки не хватит. Размер, яркая окраска или мирная поза ничего не говорят о безопасности.",
+        "Встретив незнакомца, сначала узнайте его имя по подсказке и осмотритесь. Держите путь отхода, не стойте у края обрыва и не проверяйте всех ударом меча. О необычных животных читайте в руководстве их мода: кормят и приручают их по-разному.",
+        "Запишите место встречи, если существо понадобится позже. Боссов и призываемых противников оставьте тематическим заданиям, где разобраны подготовка и условия боя. Сражаться здесь не нужно: задача — отличать наблюдение от охоты и от похода за конкретным трофеем."
       ],
       "text_en": [
-        "This world contains more than familiar Minecraft creatures. Mods add animals with their own behaviour, unusual enemies and bosses that demand more than casual travelling equipment. Size, bright colours or a calm stance are not reliable indicators of safety.",
-        "When you meet an unfamiliar creature, identify its name using an available tooltip and inspect the surroundings. Keep a retreat route open, avoid cliff edges and resist testing everything with a sword strike. Consult the relevant mod’s guide for unusual animals, because feeding and taming methods differ.",
-        "Record the encounter location if the creature may be useful later. Leave bosses and specially summoned enemies until their dedicated quests explain preparation and combat conditions. This reference objective requires no fight: it teaches the difference between observation, ordinary hunting and a targeted trophy expedition."
+        "This world is peopled by more than the familiar Minecraft animals. Mods add creatures with tempers of their own, unusual enemies and bosses against which a strolling outfit will not do. Size, bright colouring or a peaceful pose say nothing about safety.",
+        "On meeting a stranger, learn its name from the tooltip first and look around. Keep a way out, do not stand at a cliff edge and do not test everyone with a sword. Read about unusual animals in their mod’s guide: they are fed and tamed in different ways.",
+        "Note where you met a creature if you will need it later. Leave bosses and summoned enemies to the themed quests, where preparation and the conditions of the fight are laid out. No fighting is needed here: the point is to tell observation from hunting and from an expedition for a specific trophy."
       ],
       "task_notes": {
         "0": {
@@ -151,14 +151,14 @@
     },
     "life_world/guide_field_kit": {
       "text": [
-        "Дальняя дорога начинается с вещей, которые позволяют пережить неудачный поворот. Свет, еда, запас блоков и исправный инструмент важнее случайно найденного сокровища. Подготовьте комплект заранее, чтобы не обнаружить пустой запас еды на дне незнакомой пещеры.",
-        "Для цели возьмите в инвентарь 32 факела и восемь приготовленных стейков. Дополните их киркой, оружием, блоками для подъёма и свободным местом под добычу. Если предпочитаете другую пищу, пользоваться ею можно, но именно эта предметная цель проверяет стейки. Ресурсы останутся у вас.",
-        "Перед выходом отметьте базу на карте и проверьте прочность снаряжения. Сложите дома вещи, которые не нужны в пути: запасная редкая деталь не поможет выбраться из оврага. Теперь можно разведать короткий маршрут и вернуться, пока дорога ещё хорошо запомнилась."
+        "Дальняя дорога начинается с вещей, которые выручают на неудачном повороте. Свет, еда, запас блоков и целый инструмент важнее случайно найденного сокровища. Соберите набор заранее, чтобы не обнаружить пустой карман на дне незнакомой пещеры.",
+        "Для цели возьмите 32 факела и восемь жареных стейков. Добавьте кирку, оружие, блоки для подъёма и свободное место под добычу. Другая еда в пути ничем не хуже, но эта цель проверяет именно стейки. Всё остаётся у вас.",
+        "Перед выходом отметьте базу на карте и посмотрите на прочность снаряжения. Лишнее оставьте дома: редкая запасная деталь из оврага не вытащит. Теперь разведайте короткий маршрут и вернитесь, пока дорога свежа в памяти."
       ],
       "text_en": [
-        "A long journey starts with equipment that lets you survive a wrong turn. Light, food, spare blocks and working tools matter more than a random treasure. Prepare them before leaving, rather than discovering an empty food supply at the bottom of an unfamiliar cave.",
-        "Carry 32 torches and eight cooked steaks for this inventory goal. Add a pickaxe, a weapon, climbing blocks and room for discoveries. Other food remains useful for travelling, but this particular objective checks cooked beef. Your supplies are not consumed.",
-        "Mark home on the map and inspect equipment durability before departure. Leave unnecessary valuables behind: a spare rare machine component will not help you escape a ravine. You can now scout a short route and return while its landmarks are still familiar."
+        "A long road begins with the things that save you at an unlucky turn. Light, food, a stock of blocks and an intact tool matter more than a treasure found by chance. Put the kit together in advance so as not to find an empty pocket at the bottom of an unfamiliar cave.",
+        "For the goal take 32 torches and eight steaks. Add a pickaxe, a weapon, blocks for climbing and free space for loot. Other food is no worse on the road, but this goal checks steaks specifically. Everything stays with you.",
+        "Before leaving, mark the base on the map and look at the durability of your gear. Leave the surplus at home: a rare spare part will not pull you out of a ravine. Now scout a short route and come back while the road is fresh in memory."
       ],
       "task_notes": {}
     },
@@ -195,14 +195,14 @@
     },
     "life_world/guide_return_cache": {
       "text": [
-        "Полевой запас нужен прежде всего тогда, когда экспедиция пошла хуже ожидаемого. Небольшая бочка с едой, светом и блоками возле безопасного ориентира позволяет переждать ночь, разгрузить инвентарь и подготовить возвращение.",
-        "Поставьте хранилище в защищённом месте на разведанной дороге. Оставьте несколько порций еды, факелы и строительные блоки, осветите подход и добавьте метку с понятным названием. Не считайте один сундук убежищем: вокруг должно быть место, где противники не застанут вас врасплох.",
-        "Отойдите от пункта и найдите его обратно по карте. Подтверждайте цель после этой проверки и заполнения запаса; сам факт изготовления бочки ничего не говорит о её расположении. При следующем визите пополните использованное, чтобы резерв не превратился в пустую декорацию."
+        "Полевой запас нужен именно тогда, когда поход пошёл хуже задуманного. Небольшая бочка с едой, светом и блоками у надёжного ориентира даёт переждать ночь, разгрузить сумку и спокойно собраться домой.",
+        "Поставьте хранилище в защищённом месте на разведанной дороге. Оставьте несколько порций еды, факелы и строительные блоки, осветите подход и подпишите метку понятным именем. Один сундук — ещё не убежище: вокруг должно быть место, где вас не застанут врасплох.",
+        "Отойдите от пункта и найдите его обратно по карте. Отмечайте цель после этой проверки и заполнения запаса — сделанная бочка о своём местоположении ничего не говорит. В следующий визит пополните взятое, иначе резерв превратится в пустую декорацию."
       ],
       "text_en": [
-        "A field cache matters most when an expedition has gone badly. A small barrel of food, light and building blocks near a safe landmark lets you wait out the night, unload your inventory and prepare for the journey home.",
-        "Place storage in a protected location on your surveyed route. Leave food, torches and building blocks, light the approach and create a clearly named map marker. A chest alone is not a shelter: its surroundings must also give you room to avoid being surprised by enemies.",
-        "Leave the site and find it again using the map. Tick the goal after this check and after stocking the cache; crafting a barrel says nothing about its placement. Replenish used supplies on your next visit so the reserve does not become an empty decoration."
+        "A field cache is needed precisely when the trip goes worse than planned. A small barrel with food, light and blocks by a reliable landmark lets you wait out the night, unload your bag and calmly get ready to go home.",
+        "Place the storage in a sheltered spot on a scouted road. Leave a few portions of food, torches and building blocks, light the approach and label the marker with a clear name. One chest is not yet a shelter: there must be room around it where nothing catches you off guard.",
+        "Walk away from the cache and find it again by the map. Tick the goal after that check and after stocking it — a barrel you have crafted says nothing about where it stands. On the next visit replace what you took, or the reserve will turn into an empty decoration."
       ],
       "task_notes": {
         "0": {
@@ -321,14 +321,14 @@
     },
     "life_world/guide_round_trip": {
       "text": [
-        "Хорошая сеть проверяется не первым красивым переходом, а надёжным возвращением с грузом. Отправьтесь в удалённую точку обычным способом и испытайте обратный путь до базы, не полагаясь на случайный запас опыта.",
-        "Перед отправлением посмотрите стоимость перехода и оставьте достаточно для возвращения, если ваша конфигурация требует оплаты. После прибытия найдите домашнее назначение и выполните обратный переход. Проверьте, что запас и подход к обоим камням доступны с той стороны, где появляется игрок.",
-        "Ручную цель отмечайте после полного кругового маршрута. Если возвращение неудобно, исправьте название, площадку или снабжение сейчас. Рабочая пара камней станет опорой дальнейших путешествий, но пешая дорога и сохранённые координаты по-прежнему полезны на случай изменения маршрута."
+        "Хорошая сеть проверяется не первым красивым переходом, а надёжным возвращением с грузом. Доберитесь до дальней точки обычным путём и испытайте дорогу домой, не рассчитывая на случайный запас опыта.",
+        "Перед отправкой посмотрите цену перехода и оставьте достаточно на обратный путь, если конфигурация требует платы. На месте найдите домашний пункт и вернитесь. Убедитесь, что запас и подход к обоим камням доступны с той стороны, где появляется игрок.",
+        "Отмечайте ручную цель после полного круга. Если возвращение неудобно, исправьте имя, площадку или снабжение сейчас. Рабочая пара камней станет опорой будущих путешествий, но пешая дорога и записанные координаты по-прежнему пригодятся, если маршрут изменится."
       ],
       "text_en": [
-        "A useful network proves itself through a reliable return with supplies, rather than a single impressive departure. Travel to the remote stop and test the journey home without relying on a lucky reserve of experience.",
-        "Check the displayed travel cost before leaving and keep enough for the return if your configuration charges for it. At the destination, find home in the list and travel back. Ensure supplies and approaches at both stones are accessible from the player’s arrival side.",
-        "Tick the manual goal after completing the round trip. Fix an unclear name, awkward landing or missing supplies now. A working pair of stones supports further exploration, while the walking route and recorded coordinates remain useful if your plans change."
+        "A good network is proven not by the first pretty crossing but by a reliable return with cargo. Reach a distant point the ordinary way and test the road home without counting on a chance stock of experience.",
+        "Before setting out, look at the price of the crossing and leave enough for the way back if the configuration charges for it. On arrival find the home destination and go back. Make sure the cache and the approach to both stones are reachable from the side where the player appears.",
+        "Tick the manual goal after a full round trip. If the return is awkward, fix the name, the platform or the supplies now. A working pair of stones will anchor future journeys, but the footpath and the written-down coordinates are still useful if the route changes."
       ],
       "task_notes": {
         "0": {

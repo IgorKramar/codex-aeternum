@@ -34,21 +34,21 @@
     "magic_agriculture": {
       "intro": [
         "Mystical Agriculture выращивает сырьё через семена и эссенции. Начните с инфериума и осколков процветания, затем подготовьте алтарь для ресурсных культур. Эссенция урожая обычно ещё требует отдельного рецепта, чтобы стать железом или другим материалом.",
-        "Увеличивайте урожайность почвой и ускорителями, а сбор — обслуживаемыми машинами. Старые запасы не подтверждают работающую ферму: последние задания требуют повторного сбора и переработки свежего урожая. Высшие ступени потребуют большого хозяйства и отдельных ресурсов из опасных экспедиций."
+        "Урожайность растёт от почвы и ускорителей, а сбор берут на себя машины, которые нужно обслуживать. Последние задания требуют заново собрать и переработать свежий урожай — старые запасы в сундуке тут не помогут. Высшие ступени потребуют большого хозяйства и редких ресурсов из опасных экспедиций."
       ],
       "intro_en": [
         "Mystical Agriculture grows resources through seeds and essences. Begin with Inferium and Prosperity Shards, then prepare an altar for resource crops. Harvested essence usually needs a separate recipe to become iron or another useful material.",
-        "Improve yields through farmland and accelerators, and collection through serviced machines. Stored supplies do not prove a working farm: the final quests require repeated harvests and processing. Higher tiers need a substantial farm and separate resources from dangerous expeditions."
+        "Yields grow with better soil and accelerators, and harvesting can be left to machines that need looking after. The final quests ask you to gather and process a fresh harvest all over again — old stock in a chest will not help here. The highest tiers demand a large farm and rare resources from dangerous expeditions."
       ]
     },
     "magic_ars": {
       "intro": [
         "Ars Nouveau разделяет личную ману заклинаний и Source для устройств. Книга хранит составленные заклинания, а банки Source снабжают мастерскую и помощников. Ягоды помогают начинающему магу, но не превращают эти два запаса в один.",
-        "Начните с камеры насыщения и книги новичка, затем изучите запись глифов, передачу Source и аппарат зачарования. Порталы и ритуалы используют разные способы запуска. Проверка снабжения в конце главы требует наблюдать расход и восстановление Source возле работающего потребителя."
+        "Первым делом — камера насыщения и книга новичка; затем запись глифов, передача Source и аппарат зачарования. Порталы и ритуалы запускаются по-разному. Проверка снабжения в конце главы требует наблюдать, как Source расходуется и восстанавливается рядом с работающим потребителем."
       ],
       "intro_en": [
         "Ars Nouveau separates personal spell mana from Source used by devices. Your book stores composed spells, while Source Jars supply the workshop and helpers. Sourceberries support a beginner but do not merge these two reserves.",
-        "Start with an Imbuement Chamber and Novice’s Spell Book, then learn glyph inscription, Source transport, and the Enchanting Apparatus. Portals and rituals use different activation methods. The final supply test requires observing Source consumption and recovery beside a working consumer."
+        "First come the imbuement chamber and the novice’s book; then glyph inscription, Source transfer and the enchanting apparatus. Portals and rituals are started in different ways. The supply check at the end of the chapter asks you to watch Source being spent and recovered beside a working consumer."
       ]
     },
     "magic_irons": {
@@ -85,12 +85,12 @@
       "text": [
         "Лексикон Ботании показывает рецепты цветов, способы привязки и проекции крупных сооружений. Сделайте его в начале работы и откройте раздел основ: книга остаётся полезной после получения первого бассейна и во время подготовки к Гайе.",
         "Читайте статью перед изготовлением незнакомого устройства. Для многоблочных сооружений включайте проекцию и ставьте блоки по образцу; рисунок особенно важен там, где похожие материалы имеют разные назначения.",
-        "Для достижения недостаточно держать книгу в инвентаре: воспользуйтесь ею. Книга не заменяет Жезл леса и не управляет маной. Позднее её можно передать через действующий портал Альфхейма и получить обратно с эльфийскими знаниями."
+        "Достижение засчитывается за чтение, а не за книгу в кармане, так что откройте её. Жезл леса Лексикон не заменяет и маной не управляет. Позднее книгу можно пропустить через действующий портал Альфхейма и получить назад с эльфийскими знаниями."
       ],
       "text_en": [
         "The Lexica Botania explains flower recipes, binding, and projections of large structures. Craft it early and open its basics section; it remains useful through your first pool and preparations for Gaia.",
         "Read the relevant entry before making an unfamiliar device. Enable the projection for multiblock structures and build against it, especially where similar materials have different roles.",
-        "The advancement requires using the book, rather than merely owning it. It cannot replace the Wand of the Forest or control mana. Later, send it through an active Alfheim portal to receive it back with elven knowledge."
+        "The advancement is earned by reading, not by carrying the book, so open it. The Lexicon does not replace the Wand of the Forest and does not manage mana. Later the book can be passed through a working Alfheim portal and returned with elven knowledge."
       ],
       "task_notes": {
         "1": {
@@ -103,12 +103,12 @@
       "text": [
         "Лепестковый аптекарь собирает рабочие цветы из отдельных лепестков. Поставьте его возле воды и подготовьте ведро, нужные лепестки и семена: последний ингредиент завершает рецепт, поэтому бросайте его после остальных.",
         "Наполните чашу водой, выбросьте внутрь ингредиенты одного рецепта, затем подходящие семена. Для Живой маргаритки нужны четыре белых лепестка. Заберите готовый цветок и снова наполните чашу перед следующей попыткой.",
-        "При ошибке пустая рука позволяет вынуть последний ингредиент. Не смешивайте сразу несколько разных рецептов и не заполняйте аптекарь лавой: с лавой он уничтожает предметы. Успешный первый цветок открывает получение живого дерева и камня."
+        "Ошиблись — пустой рукой вынимается последний ингредиент. Не смешивайте несколько рецептов разом и не заливайте в аптекарь лаву: с лавой он уничтожает предметы. Первый удавшийся цветок открывает путь к живому дереву и камню."
       ],
       "text_en": [
         "The Petal Apothecary combines petals into working flowers. Place it near water and prepare a bucket, the required petals, and seeds; the seed finishes the recipe and belongs last.",
         "Fill the bowl with water, throw in the ingredients for one recipe, then the accepted seeds. A Pure Daisy needs four white petals. Collect the flower and refill the bowl before another craft.",
-        "If you make a mistake, use an empty hand to remove the last ingredient. Do not mix several recipes or fill the apothecary with lava: lava makes it destroy items. Your first successful flower unlocks living wood and stone."
+        "Made a mistake? An empty hand takes out the last ingredient. Do not mix several recipes at once and do not fill the apothecary with lava: with lava it destroys items. The first successful flower opens the way to livingwood and livingrock."
       ],
       "task_notes": {}
     },
@@ -142,12 +142,12 @@
       "text": [
         "Бассейн маны хранит энергию для превращения металлов, жемчуга и алмазов. Сделайте обычный Mana Pool из живого камня и поставьте его так, чтобы распространитель мог стрелять прямо в него без стены между блоками.",
         "В начале полоска заполнения почти незаметна: вместимость обычного бассейна очень велика по сравнению с первым цветком. Посмотрите на него с Жезлом леса и дождитесь нескольких попаданий, прежде чем считать установку неисправной.",
-        "Не перепутайте обычный бассейн с разбавленным: тот хранит значительно меньше. Наличие блока выполняет предметную цель, но не означает, что мана уже поступает. Следующие шаги добавят распространитель и источник топлива; только после этого бассейн сможет оплачивать рецепты."
+        "Обычный бассейн не путайте с разбавленным: тот вмещает куда меньше. Сам блок закрывает предметную цель, но мана в него пока не течёт. Следующие шаги добавят распространитель и топливо, и только тогда бассейн начнёт оплачивать рецепты."
       ],
       "text_en": [
         "A Mana Pool stores energy for transforming metal, pearls, and diamonds. Make a normal pool from Livingrock and place it where a spreader can fire directly into it without a wall blocking the path.",
         "Its initial fill bar is barely visible because normal capacity is enormous compared with one flower. Inspect it with the Wand of the Forest and wait for several bursts before diagnosing a failure.",
-        "Do not confuse the normal pool with the much smaller Diluted Mana Pool. Owning the block satisfies the item objective but proves no mana supply. The following steps provide a spreader and fuel generator so the pool can pay for recipes."
+        "Do not confuse the ordinary pool with the diluted one: that holds far less. The block itself closes the item goal, but no mana flows into it yet. The next steps add a spreader and fuel, and only then will the pool start paying for recipes."
       ],
       "task_notes": {
         "1": {
@@ -246,14 +246,14 @@
     },
     "magic_botania/mana_service_setup": {
       "text": [
-        "Подготовьте отдельное понятное место для проверки производства маны. Бассейн и распространитель должны стоять так, чтобы их одновременно было видно с рабочей дорожки. Рядом посадите Эндопламя, приготовьте топливо и держите Жезл леса под рукой.",
+        "Для проверки производства маны выделите отдельное понятное место. Бассейн и распространитель поставьте так, чтобы оба были видны с рабочей дорожки. Рядом посадите Эндопламя, положите топливо и держите Жезл леса под рукой.",
         "Сначала проверьте привязку цветка к распространителю, затем направление распространителя в бассейн. Уберите препятствия и случайный сигнал редстоуна. Дайте одну порцию топлива и убедитесь, что передача действительно начинается, прежде чем добавлять автоматическую подачу.",
-        "Предметные цели фиксируют наличие двух блоков, но не измеряют поток маны. Сохраняйте установку собранной для следующей партии манастали. Дальнейшая проверка потребует наблюдать расход и восстановление, поэтому заранее оставьте видимый запас в бассейне."
+        "Предметные цели отмечают два блока, а вот поток маны книга не видит. Оставьте установку собранной для следующей партии манастали. Дальше придётся наблюдать расход и восстановление, так что заранее держите в бассейне заметный запас."
       ],
       "text_en": [
-        "Prepare a clear area for testing mana generation. Position the pool and spreader so both are visible from the working path. Plant an Endoflame nearby, prepare fuel, and keep the wand ready.",
+        "Set aside a clear, separate spot for checking mana production. Place the pool and the spreader so that both can be seen from the working path. Plant an Endoflame nearby, lay in fuel and keep the Wand of the Forest to hand.",
         "First check the flower-to-spreader binding, then the spreader aim at the pool. Remove obstructions and accidental redstone power. Supply one fuel item and confirm transport starts before adding automated feeding.",
-        "The item objectives record two blocks, not actual mana flow. Keep the installation assembled for the next Manasteel batch. The following test requires observing consumption and recovery, so accumulate a visible reserve in advance."
+        "The item goals record two blocks, but the book cannot see the flow of mana. Keep the setup assembled for the next batch of Manasteel. Later you will have to watch consumption and recovery, so keep a visible reserve in the pool in advance."
       ],
       "task_notes": {}
     },
@@ -261,12 +261,12 @@
       "text": [
         "Изготовьте восемь слитков манастали на проверяемой установке. Подготовьте восемь обычных железных слитков и не менее двадцати четырёх тысяч маны. Если запас ещё мал, продолжайте кормить Эндопламя и наблюдайте за передачей.",
         "Превращайте железо небольшой партией, затем заберите все новые слитки. До и после опыта посмотрите Жезлом леса на бассейн: расход должен быть связан с этой операцией, а не с посторонним функциональным цветком.",
-        "Наличие старой манастали может выполнить предметную цель, но для следующего ручного подтверждения нужна свежая рабочая партия. Отложите её отдельно и дайте бассейну восстановиться. Так вы узнаете, успевает ли генерация за производством, до перехода к более дорогим рунам и террастали."
+        "Старая манасталь тоже закроет предметную цель, но для следующей ручной отметки нужна свежая рабочая партия. Отложите её отдельно и дайте бассейну восстановиться. Так вы узнаете, поспевает ли генерация за производством, прежде чем браться за руны и террасталь."
       ],
       "text_en": [
         "Produce eight Manasteel Ingots on the installation being tested. Prepare eight iron ingots and at least twenty-four thousand mana. If reserves are low, keep feeding the Endoflame and watch the transfer.",
         "Transform a small batch and collect every new ingot. Inspect the pool with the wand before and after; the consumption should come from this operation rather than an unrelated functional flower.",
-        "Old Manasteel may satisfy the inventory objective, but the following manual confirmation needs a fresh operating batch. Store it separately and let the pool recover. This reveals whether generation keeps pace with production before you move to more expensive runes and Terrasteel."
+        "Old Manasteel would close the item goal as well, but the next manual mark needs a fresh working batch. Set it aside and let the pool recover. That tells you whether generation keeps up with production before you take on runes and terrasteel."
       ],
       "task_notes": {}
     },
@@ -323,24 +323,24 @@
       "text": [
         "Руна маны дополняет четыре стихии и нужна в более сложных устройствах. Для одного изготовления положите на рунический алтарь пять слитков манастали и один манажемчуг. Заранее приготовьте живой камень для завершающей стадии.",
         "Алтарь должен получить восемь тысяч маны сверх энергии, уже потраченной на изготовление ингредиентов. Направьте в него заряженный распространитель, дождитесь готовности, добавьте живой камень и воспользуйтесь Жезлом леса. Просто положить манажемчуг в бассейн повторно недостаточно.",
-        "Проверьте, что забрали именно руну, а не преждевременно поднятые компоненты. Сохраните её для плиты агломерации либо другого запланированного рецепта. Массовое изготовление заранее не обязательно: сначала оцените, какие руны потребляются вашим следующим устройством, а какие работают возвращаемыми катализаторами."
+        "Убедитесь, что забрали руну, а не поднятые раньше времени компоненты. Сохраните её для плиты агломерации или другого запланированного рецепта. Делать руны впрок не обязательно: сначала посмотрите, какие из них ваше следующее устройство потребляет, а какие возвращаются как катализаторы."
       ],
       "text_en": [
         "The Rune of Mana complements the four elements and is used by more complex devices. Place five Manasteel Ingots and one Mana Pearl on the Runic Altar, with Livingrock ready for the finishing step.",
         "The altar needs eight thousand mana in addition to the energy already spent making its ingredients. Aim a charged spreader at it, wait for readiness, add Livingrock, and use the wand. Putting the pearl back into a pool does not make a rune.",
-        "Check that you collected the rune rather than prematurely retrieving its ingredients. Save it for the agglomeration plate or another planned recipe. Bulk production is unnecessary until you know which runes your next device consumes and which act as returned catalysts."
+        "Make sure you picked up the rune and not components lifted too early. Keep it for the terra plate or another planned recipe. There is no need to stockpile runes: first see which ones your next device consumes and which come back as catalysts."
       ],
       "task_notes": {}
     },
     "magic_botania_runes/flowers2": {
       "text": [
         "Хопперхок собирает лежащие предметы и складывает их в соседние хранилища. Создайте цветок в аптекаре по его рецепту и поставьте возле места сбора с доступным сундуком. Это функциональный цветок: при использовании маны его связывают с бассейном, а не с распространителем.",
-        "Бросьте один ненужный предмет в рабочую область и убедитесь, что он попал в нужный сундук. Рамки на хранилищах позволяют задавать фильтры; сначала проверьте простую схему без фильтрации, затем добавляйте ограничения.",
+        "Бросьте в рабочую область один ненужный предмет и убедитесь, что он лёг в нужный сундук. Рамки на хранилищах задают фильтры; сперва проверьте простую схему без них, потом добавляйте ограничения.",
         "Не размещайте сборщик так, чтобы он крал ингредиенты с аптекаря, алтаря или топливо Эндопламени. Получение цветка закрывает предметную цель, а пробный перенос показывает полезный результат. Освоенная фильтрация пригодится для сбора урожая и безопасного обслуживания других магических устройств."
       ],
       "text_en": [
         "The Hopperhock collects dropped items and places them in nearby storage. Craft it in the apothecary and plant it beside the collection area with an accessible chest. As a functional flower, it binds to a pool when using mana, rather than to a spreader.",
-        "Drop one disposable item in its working area and confirm it reaches the intended chest. Item frames on inventories provide filters; verify a simple unfiltered setup before adding restrictions.",
+        "Drop one unneeded item into the working area and make sure it ended up in the right chest. Frames on the storage set filters; test a simple layout without them first, then add restrictions.",
         "Keep it from stealing apothecary ingredients, altar components, or Endoflame fuel. Obtaining the flower completes the item objective; a test transfer proves useful operation. Filtering supports crop collection and safer servicing of other magical equipment."
       ],
       "task_notes": {
@@ -354,12 +354,12 @@
       "text": [
         "Ботаническая пивоварня делает многодозовые настои по собственным рецептам. Подготовьте специальный флакон Botania, ингредиенты выбранного настоя и распространитель, направленный в пивоварню. Обычная стойка зелий здесь не заменяет устройство, а мана служит основой и источником энергии.",
         "Сначала добавьте пустой флакон, затем все реагенты одного рецепта правым кликом или выбрасыванием. После получения достаточной маны пивоварня выдаст готовый настой. Для достижения нужно забрать именно наполненный флакон, а не только изготовить сам блок.",
-        "Перед походом выберите полезный эффект: лечение, сопротивление огню или восстановление. Проверьте оставшееся число доз и не принимайте одинаковые внешне сосуды за бесконечные. Частично израсходованные флаконы одного настоя можно объединять в сетке крафта, уплотняя дорожный запас."
+        "Перед походом выберите полезный эффект: лечение, сопротивление огню или восстановление. Смотрите на оставшиеся дозы и не принимайте одинаковые с виду сосуды за бесконечные. Начатые флаконы одного настоя можно объединить на верстаке — дорожный запас станет компактнее."
       ],
       "text_en": [
         "The Botanical Brewery makes multiple-dose brews using its own recipes. Prepare a Botania vial, ingredients for one brew, and a spreader aimed at the brewery. A vanilla brewing stand cannot replace it; mana acts as both solvent and energy.",
         "Add the empty vial first, then all reagents for one recipe by clicking or dropping them. Once enough mana arrives, collect the finished brew. The advancement requires a filled vial, rather than merely crafting the block.",
-        "Choose useful effects before an expedition, such as healing, fire resistance, or regeneration. Check remaining doses; similar-looking vials are not unlimited. Partially used vials of the same brew can be combined in a crafting grid to consolidate supplies."
+        "Before a journey, choose a useful effect: healing, fire resistance or regeneration. Check the remaining doses and do not mistake identical-looking vials for endless ones. Partly used vials of the same brew can be combined on a crafting table, making the travel stock more compact."
       ],
       "task_notes": {
         "1": {
@@ -372,12 +372,12 @@
       "text": [
         "Плита земной агломерации превращает материалы маны в террасталь. Для самой плиты приготовьте лазуритовые блоки, блок манастали и пять рун: четыре стихии и ману. Под ней требуется отдельное основание, которое не входит в рецепт блока.",
         "Соберите площадку три на три: живой камень в центре и углах, лазуритовые блоки посередине четырёх сторон. Плиту поставьте над центральным живым камнем. Сверьте конструкцию с проекцией Лексикона, затем добавьте искру над плитой и искру над близким бассейном.",
-        "До запуска наполните бассейн минимум наполовину и уберите поблизости сборщики предметов. Изготовленная плита без основания не выполняет рецепт. Подготовка всей площадки позволяет провести следующий дорогой опыт непрерывно, без разбора конструкции посреди передачи маны."
+        "До запуска наполните бассейн хотя бы наполовину и уберите поблизости сборщики предметов. Плита без основания рецепт не выполнит. Собранная целиком площадка даёт провести следующий дорогой опыт без перерыва, не разбирая конструкцию посреди передачи маны."
       ],
       "text_en": [
         "The Terrestrial Agglomeration Plate transforms mana materials into Terrasteel. Its crafting ingredients include Lapis Blocks, a Manasteel Block, and five runes: the four elements plus Mana. It also needs a separate foundation in the world.",
         "Build a three-by-three base with Livingrock in the centre and corners and Lapis Blocks at the four side centres. Put the plate above the central Livingrock. Check the Lexicon projection, then add sparks above the plate and a nearby pool.",
-        "Fill the pool at least halfway before starting and remove nearby item collectors. A crafted plate without its foundation cannot operate. Preparing the entire site lets the next expensive experiment finish without rebuilding midway through mana transfer."
+        "Before starting, fill the pool at least halfway and remove any item collectors nearby. A plate without its base will not run the recipe. A fully built platform lets you carry out the next expensive experiment without a break, without dismantling anything in the middle of the mana transfer."
       ],
       "task_notes": {}
     },
@@ -403,12 +403,12 @@
       "text": [
         "Терраклинок и террастальной шлем — первые дорогие применения нового сплава. Для шлема сначала нужен манастальной шлем, живая древесная основа и руна весны; это улучшение существующей брони, а не обычный шлем из пяти одинаковых слитков.",
         "Изготовьте оба предмета и зарядите переносной запас маны. Терраклинок расходует ману на свои возможности, а снаряжение Botania может использовать её для восстановления прочности. Испытывайте оружие вдали от животных и декоративных построек, выбрав безопасную цель.",
-        "Проверьте результат изготовления и доступный заряд перед серьёзным боем. Один шлем не равен полному комплекту защиты, поэтому остальные слоты заполните подходящей бронёй. Это снаряжение пригодится в подготовке к Гайе, но не отменит необходимость зачарований, лечения и свободной арены."
+        "Проверьте результат и доступный заряд перед серьёзным боем. Один шлем — ещё не защита, так что остальные слоты закройте подходящей бронёй. Это снаряжение поможет готовиться к Гайе, но зачарования, лечение и свободная арена всё равно понадобятся."
       ],
       "text_en": [
         "The Terra Blade and Terrasteel Helmet are your first expensive uses for the alloy. The helmet needs an existing Manasteel Helmet, Livingwood components, and a Rune of Spring; it upgrades armour rather than following the ordinary five-ingot helmet pattern.",
         "Craft both items and charge portable mana storage. The Terra Blade uses mana for its abilities, while Botania equipment can use mana to restore durability. Test the weapon against a safe target away from animals and decorative builds.",
-        "Check the crafted items and available charge before a serious battle. One helmet is not a full armour set, so equip suitable protection in the remaining slots. This gear supports Gaia preparations but does not replace enchantments, healing supplies, or an unobstructed arena."
+        "Check the result and the available charge before a serious fight. One helmet is not protection yet, so cover the remaining slots with suitable armour. This gear will help you prepare for Gaia, but enchantments, healing and a clear arena will still be needed."
       ],
       "task_notes": {
         "1": {
@@ -451,12 +451,12 @@
     "magic_botania_end/portal": {
       "text": [
         "Для ворот Альфхейма подготовьте ядро, восемь блоков живого дерева, три светящихся блока живого дерева, два бассейна и два пилона природы. Раму соберите по проекции статьи Лексикона: обычные и светящиеся элементы занимают разные позиции.",
-        "Рядом разместите два заряженных бассейна, каждый с пилоном природы непосредственно над ним. Они должны находиться в области одиннадцать на одиннадцать на одиннадцать вокруг ядра. Щёлкните по ядру Жезлом леса; пустой бассейн или неверная рама не позволят поддерживать связь.",
+        "Рядом поставьте два заряженных бассейна, над каждым — пилон природы. Они должны умещаться в области одиннадцать на одиннадцать на одиннадцать вокруг ядра. Щёлкните по ядру Жезлом леса: с пустым бассейном или неверной рамой связь не удержится.",
         "Портал передаёт предметы, но не игроков. После открытия сначала бросьте в него Лексикон и заберите дополненную книгу, затем переходите к торговле. Следите за обоими бассейнами: энергия расходуется равномерно, и опустевший участник сети закрывает портал."
       ],
       "text_en": [
         "Prepare an Elven Gateway Core, eight Livingwood blocks, three Glimmering Livingwood, two pools, and two Natura Pylons. Build the frame against the Lexicon projection because normal and glimmering pieces occupy specific positions.",
-        "Place two charged pools nearby, each with a Natura Pylon directly above it, within the eleven-by-eleven-by-eleven area around the core. Click the core with the wand; an empty pool or incorrect frame cannot sustain the connection.",
+        "Nearby, place two charged pools with a natura pylon directly above each. They must fit within an eleven-by-eleven-by-eleven area around the core. Click the core with the Wand of the Forest: with an empty pool or a faulty frame the link will not hold.",
         "The portal transports items, not players. First send the Lexicon through and collect the expanded book, then begin trading. Watch both pools: energy is drawn evenly, and an exhausted participant closes the portal."
       ],
       "task_notes": {
@@ -470,23 +470,23 @@
       "text": [
         "Эльфийские материалы получают обменом через открытые ворота. На каждый слиток элементия отправьте два слитка манастали; для цели из четырёх слитков подготовьте восемь. Манажемчуг обменивается на пыль пикси, манаалмаз — на драконий камень.",
         "Живое дерево превращается в древесину грёз соответствующего вида. Здесь требуется обычный блок dreamwood, поэтому отправляйте livingwood с корой со всех сторон, а не бревно: для брёвен существует отдельный обмен. Вбрасывайте небольшие партии и сразу забирайте возвращённый результат.",
-        "У ворот должен оставаться запас маны в обоих бассейнах. Если результат не возвращается, прекратите подачу и проверьте связь и точный состав обмена. Эти четыре материала обеспечивают улучшенное снаряжение, распространители и инфраструктуру следующих испытаний; не отправляйте случайные ценности без рецепта."
+        "В обоих бассейнах у ворот должен оставаться запас маны. Если результат не возвращается, остановите подачу и проверьте связь и точный состав обмена. Эти четыре материала идут на улучшенное снаряжение, распространители и оборудование следующих испытаний — не бросайте в портал случайные ценности без рецепта."
       ],
       "text_en": [
         "Obtain elven materials by trading through active gates. Send two Manasteel Ingots for each Elementium Ingot, so prepare eight for the four-ingot objective. A Mana Pearl trades for Pixie Dust and a Mana Diamond for Dragonstone.",
         "Livingwood becomes the corresponding Dreamwood variant. This quest needs all-bark Dreamwood, so send all-bark Livingwood rather than logs; logs have a separate trade. Send small batches and collect each returned result.",
-        "Both portal pools must retain mana. If nothing returns, stop feeding items and check the connection and exact trade ingredients. These four materials supply improved equipment, spreaders, and later trial infrastructure. Do not send random valuables without a trade recipe."
+        "Both pools at the gateway must keep a reserve of mana. If nothing comes back, stop feeding it and check the link and the exact exchange. These four materials go into upgraded gear, spreaders and the equipment of the next trials — do not throw random valuables into the portal without a recipe."
       ],
       "task_notes": {}
     },
     "magic_botania_end/elven_gear": {
       "text": [
-        "Элементий позволяет улучшить защиту, а древесина грёз — оборудование передачи маны. Сделайте элементийный шлем и эльфийский распространитель из недавно полученных торговых ресурсов. До крафта разделите запас между снаряжением и будущими пилонами Гайи.",
+        "Элементий укрепляет защиту, а древесина грёз улучшает оборудование передачи маны. Сделайте элементийный шлем и эльфийский распространитель из только что выторгованных материалов. Перед этим разделите запас между снаряжением и будущими пилонами Гайи.",
         "Заменяя старый распространитель, заново проверьте направление и привязанные цветы. Улучшенный блок не исправляет неправильную геометрию сети автоматически: импульсы по-прежнему должны попадать в выбранный приёмник. Проведите короткий опыт с той же партией топлива, чтобы увидеть работу обновлённой линии.",
         "Наденьте шлем, оцените общую защиту и обеспечьте переносную ману для подходящих предметов. Эта цель не требует полного эльфийского комплекта, однако к Гайе одной детали недостаточно. После обновления переходите к хранению Corporea или сборке полноценного боевого набора."
       ],
       "text_en": [
-        "Elementium improves protection, while Dreamwood upgrades mana transport. Craft the Elementium Helmet and Elven Mana Spreader from your new trading resources. Divide supplies between equipment and future Gaia Pylons before crafting.",
+        "Elementium strengthens your protection, and dreamwood upgrades the mana-transfer equipment. Make an elementium helmet and an elven spreader from the freshly traded materials. Before that, split the stock between gear and the future Gaia pylons.",
         "When replacing the old spreader, check its aim and flower bindings again. An improved block does not automatically fix network geometry; bursts must still hit the chosen receiver. Test the updated line with a small fuel batch.",
         "Equip the helmet, assess overall protection, and provide portable mana for compatible items. This objective does not require a full elven set, but one armour piece is insufficient preparation for Gaia. Continue into Corporea storage or complete your battle equipment."
       ],
@@ -512,12 +512,12 @@
     },
     "magic_botania_end/gaia1": {
       "text": [
-        "Подготовьте действующий маяк с основанием, четыре пилона Гайи и террастальной слиток для жертвы. Расставьте пилоны вокруг маяка по проекции ритуала в Лексиконе и расчистите арену: для боя нужны свободная поверхность и пространство для движения.",
+        "Для ритуала нужны действующий маяк с основанием, четыре пилона Гайи и террастальной слиток в жертву. Расставьте пилоны вокруг маяка по проекции из Лексикона и расчистите арену: бою нужны ровная поверхность и простор для движения.",
         "Наденьте зачарованную броню, возьмите сильное оружие, лечебные настои, еду и заряженные аксессуары. Начните ритуал правым кликом по маяку со слитком при зажатом Shift; слиток расходуется. Эффекты самого маяка во время боя подавляются, поэтому не рассчитывайте на его регенерацию.",
         "Уходите с фиолетовых опасных участков, разбирайтесь с появляющимися противниками и сохраняйте место для отступления. После победы соберите духи Гайи и проверьте достижение. Число участников повышает сложность ритуала; обычная победа нужна перед усиленной версией и изготовлением дорогих улучшений."
       ],
       "text_en": [
-        "Prepare an active beacon with its base, four Gaia Pylons, and a Terrasteel Ingot to sacrifice. Arrange the pylons using the Lexicon ritual projection and clear the arena for movement.",
+        "The ritual needs a working beacon with its base, four Gaia pylons and a terrasteel ingot as the offering. Arrange the pylons around the beacon following the Lexicon’s projection and clear the arena: the fight needs flat ground and room to move.",
         "Equip enchanted armour, a strong weapon, healing brews, food, and charged accessories. Start by sneak-right-clicking the beacon with the ingot, which is consumed. Beacon effects are suppressed during the fight, so do not rely on beacon regeneration.",
         "Avoid purple hazardous areas, deal with spawned enemies, and retain room to retreat. Collect Gaia Spirits after victory and check the advancement. More participants increase ritual difficulty. Defeat the ordinary Guardian before attempting the stronger version and expensive upgrades."
       ],
@@ -567,12 +567,12 @@
     "magic_botania_end/rank_ss": {
       "text": [
         "Терракрушитель повышает ранг за счёт огромного количества поглощённой маны. Сначала изготовьте саму кирку и бросьте её в бассейн, настроенный на зарядку предметов. Полученная энергия остаётся внутри инструмента и не возвращается обратно как из планшета.",
-        "После ранга B каждый следующий порог возрастает десятикратно; для SS нужен миллиард маны. Это долгосрочная нагрузка на сеть, поэтому организуйте непрерывное производство и следите за реальным изменением ранга. Один наполненный бассейн не обеспечивает последний уровень.",
+        "После ранга B каждый следующий порог вырастает в десять раз; для SS нужен миллиард маны. Это долгая нагрузка на всю сеть, так что наладьте непрерывное производство и следите за настоящим изменением ранга. Одного полного бассейна на последний уровень не хватит.",
         "Ранг увеличивает область активной добычи, а не просто скорость кирки. Включение способности выполняется Shift и правым кликом в воздух; для прочности нужен запас маны в инвентаре. Испытывайте широкий захват вдали от базы и отключайте способность, когда не копаете."
       ],
       "text_en": [
         "The Terra Shatterer gains ranks by absorbing enormous amounts of mana. Craft the pick and drop it into a pool configured to charge items. The absorbed energy remains inside the tool and cannot be returned like a tablet reserve.",
-        "After rank B, each following threshold grows tenfold; SS requires one billion mana. This is a long-term network load, so establish continuous production and observe actual rank changes. One full pool cannot supply the final level.",
+        "After rank B each next threshold grows tenfold; SS needs a billion mana. That is a long-term load on the whole network, so set up continuous production and watch the rank actually change. One full pool is not enough for the last level.",
         "Ranks increase the active mining area rather than simply mining speed. Toggle the ability by sneak-right-clicking in the air, and carry mana for durability. Test the wide excavation area away from your base and disable the ability when not mining."
       ],
       "task_notes": {
@@ -598,12 +598,12 @@
     "magic_agriculture/crystal": {
       "text": [
         "Кристалл насыщения объединяет четыре эссенции одного уровня в одну следующего. Его первый рецепт использует алмаз, осколки процветания и инфериум. Сделайте кристалл и приготовьте тридцать две эссенции инфериума для восьми пруденциума, требуемых задачей.",
-        "Положите кристалл с четырьмя эссенциями в сетку крафта и заберите результат. Повторите восемь раз либо используйте удобное пакетное изготовление. Кристалл возвращается после операции, но обычная версия имеет ограниченную прочность, поэтому следите за оставшимся ресурсом.",
+        "Положите кристалл и четыре эссенции в сетку верстака и заберите результат. Повторите восемь раз или воспользуйтесь пакетным изготовлением. Кристалл возвращается после операции, но у обычного ограничена прочность — следите за остатком.",
         "Повышение уровня уменьшает количество, а не размножает материал. Не превращайте весь инфериум в старшие ступени: младшие нужны для семян и расширения грядки. Полученный пруденциум станет следующей ступенью к интермедиуму, империуму и супремиуму по той же пропорции."
       ],
       "text_en": [
         "The Infusion Crystal combines four essences of one tier into one of the next. Its starter recipe uses a diamond, Prosperity Shards, and Inferium. Craft it and prepare thirty-two Inferium for the eight Prudentium required here.",
-        "Place the crystal and four essences in the crafting grid and collect the result. Repeat eight times or use batch crafting. The crystal returns after each operation, but the ordinary version has limited durability, so watch its remaining uses.",
+        "Put the crystal and four essences into the crafting grid and take the result. Repeat eight times or use batch crafting. The crystal comes back after the operation, but the basic one has limited durability — watch what is left.",
         "Upgrading reduces quantity rather than multiplying material. Keep some Inferium for seeds and farmland expansion. Prudentium leads onward to Tertium, Imperium, and Supremium through the same four-to-one progression."
       ],
       "task_notes": {}
@@ -625,12 +625,12 @@
       "text": [
         "Цель этой задачи — шестнадцать железной эссенции, то есть настоящий урожай ресурсной культуры. На алтаре приготовьте железные семена, используя основу процветания, железо и эссенцию соответствующего уровня. Раскладку конкретного рецепта проверьте перед запуском: инфериум подходит не ко всем семенам.",
         "Посадите семена на освещённой подготовленной земле и дождитесь полной зрелости. Собирайте урожай, сохраняя культуру для следующего цикла. Не превращайте всю железную эссенцию сразу в слитки: сначала накопите количество для предметной цели.",
-        "После зачёта откройте рецепт применения железной эссенции и соберите из неё полезный металл. Это отдельный крафт, а не автоматическая выдача слитка каждым растением. Первая такая грядка показывает полный путь от стартового железа до возобновляемого снабжения мастерской."
+        "После зачёта откройте рецепт применения железной эссенции и соберите из неё металл. Это отдельный рецепт: растение слиток само не выдаёт. Первая такая грядка показывает весь путь от стартового железа до возобновляемого снабжения мастерской."
       ],
       "text_en": [
         "This objective asks for sixteen Iron Essence, meaning actual resource-crop harvests. Make Iron Seeds on the altar using a Prosperity Seed Base, iron, and the appropriate essence tier. Check the specific arrangement before activation; Inferium is not suitable for every seed.",
         "Plant the seeds on prepared, illuminated farmland and wait for full maturity. Harvest while preserving the crop for its next cycle. Do not immediately turn all Iron Essence into ingots; accumulate the objective quantity first.",
-        "After detection, use the Iron Essence crafting recipe to produce useful metal. This is a separate craft, not an ingot automatically delivered by each plant. The first patch demonstrates renewable workshop supply from an initial iron investment."
+        "After the mark, open the recipe for using iron essence and turn it into metal. It is a separate recipe: the plant does not hand out ingots by itself. The first such bed shows the whole path from starting iron to a renewable supply for the workshop."
       ],
       "task_notes": {}
     },
@@ -662,26 +662,26 @@
     },
     "magic_agriculture/souls": {
       "text": [
-        "Для семян существ нужны души в специальных банках. Соуллиевая руда встречается в Незере внутри жил камня душ; добудьте материал и сделайте кинжал, слиток и экстрактор. Затем подготовьте Soul Jar для выбранного вида моба.",
+        "Для семян существ нужны души в особых банках. Соуллиевая руда встречается в Незере внутри жил камня душ; добудьте её и сделайте кинжал, слиток и экстрактор. Затем подготовьте Soul Jar под выбранный вид существа.",
         "Убивайте нужных существ соуллиевым кинжалом, имея банку для сбора душ. Следите за её заполнением: обычное убийство другим оружием не заменяет требуемую механику. Для мирных животных заранее сохраните племенную пару, чтобы не уничтожить всё хозяйство ради опыта.",
-        "Экстрактор предлагает другой путь: перерабатывает подходящий лут мобов в души и требует твёрдое топливо. Это удобно при избытке дропа, хотя обычно менее эффективно кинжала. Полные банки затем используются в рецептах семян существ; один пустой сосуд сам по себе их не открывает."
+        "Экстрактор предлагает другой путь: он превращает подходящую добычу с существ в души и работает на твёрдом топливе. Удобно, когда трофеев в избытке, хотя обычно кинжал эффективнее. Полные банки затем идут в рецепты семян существ; один пустой сосуд сам их не откроет."
       ],
       "text_en": [
-        "Mob seeds require souls stored in Soul Jars. Find Soulium Ore within Soulstone veins in the Nether, then make the dagger, ingot, and extractor. Prepare a Soul Jar for your chosen creature.",
+        "Mob seeds need souls in special jars. Soulium ore is found in the Nether within veins of soul stone; mine it and make the dagger, the ingot and the extractor. Then prepare a Soul Jar for the creature you have chosen.",
         "Kill the appropriate mobs with the Soulium Dagger while carrying a jar to collect souls. Watch its fill level; an ordinary kill with another weapon does not replace this mechanic. Preserve a breeding pair before collecting souls from passive livestock.",
-        "The Soul Extractor provides another route by processing suitable mob drops into souls using solid fuel. This is convenient for surplus loot but usually less efficient than the dagger. Filled jars are ingredients for mob seeds; an empty container alone cannot unlock them."
+        "The extractor offers another route: it turns suitable creature drops into souls and runs on solid fuel. Handy when trophies pile up, though the dagger is usually more efficient. Full jars then go into mob-seed recipes; a single empty vessel unlocks nothing by itself."
       ],
       "task_notes": {}
     },
     "magic_agriculture/supremium": {
       "text": [
         "Супремиум получается последовательным повышением эссенций через кристалл: инфериум, пруденциум, интермедиум, империум и супремиум. Для одной единицы верхней ступени требуется двести пятьдесят шесть инфериума. Шестнадцать целевых эссенций — уже крупная партия, поэтому сначала расширьте ферму.",
-        "Слитки делаются отдельно: слиток процветания соединяется с двумя эссенциями супремиума. Сначала покажите книге шестнадцать эссенций одним запасом, затем расходуйте их на слитки: предыдущая отметка сохраняется. Четыре слитка также покажите до дальнейшего крафта. Броня развивается по цепочке улучшений; проверяйте её предыдущую ступень.",
+        "Слитки делаются отдельно: слиток процветания соединяется с двумя эссенциями супремиума. Сначала покажите книге шестнадцать эссенций одним запасом, потом тратьте их на слитки — отметка сохранится. Четыре слитка тоже покажите до дальнейшего изготовления. Броня развивается цепочкой улучшений, так что проверьте её предыдущую ступень.",
         "Не отправляйте весь результат в одну деталь и не оставляйте поле без семян. Разделите запас на оборудование, новые культуры и следующую ступень пробуждения. Полученный шлем — только часть комплекта, а не автоматическое подтверждение всех защитных бонусов."
       ],
       "text_en": [
         "Supremium comes from repeatedly upgrading essence through Inferium, Prudentium, Tertium, Imperium, and Supremium. One top-tier essence represents two hundred fifty-six Inferium. Sixteen is already a large batch, so expand the farm first.",
-        "Ingots are separate: combine a Prosperity Ingot with two Supremium Essence. First let the guide detect sixteen essence together, then spend them on ingots; the earlier mark remains. Also show four ingots before using them in further crafts. Armour follows an upgrade chain, so check its previous tier.",
+        "Ingots are made separately: a prosperity ingot is combined with two supremium essences. First show the book sixteen essences in one stack, then spend them on ingots — the mark stays. Show the four ingots too before crafting further. Armour develops as a chain of upgrades, so check its previous tier.",
         "Do not spend everything on one piece or leave your field without seeds. Divide reserves between equipment, new crops, and awakening. A Supremium Helmet is only part of a set and does not automatically demonstrate all protective bonuses."
       ],
       "task_notes": {}
@@ -702,12 +702,12 @@
     "magic_agriculture/awakening": {
       "text": [
         "Пробуждение требует отдельного алтаря, четырёх пьедесталов и четырёх сосудов эссенции. Расставьте их по отметкам, появляющимся после установки Awakening Altar. Сосуды хранят стихии; обычные складские сундуки вместо них не подходят.",
-        "Для первого пробуждённого блока положите блок супремиума в центр и четыре Cognizant Dust на пьедесталы. В сосуды загрузите по десять эссенций воздуха, земли, воды и огня, разделяя виды. Запустите процесс сигналом редстоуна и заберите пробуждённый блок.",
+        "Первый пробуждённый блок: блок супремиума в центр, четыре Cognizant Dust на пьедесталы. В сосуды загрузите по десять эссенций воздуха, земли, воды и огня, не смешивая виды. Запустите процесс сигналом редстоуна и заберите пробуждённый блок.",
         "Разберите его на эссенции; для целевого слитка соедините две пробуждённые эссенции со слитком процветания. Недостаток одной стихии останавливает целый рецепт, поэтому проверяйте все четыре сосуда. Эта ступень улучшает супремиумное оборудование и требует заранее выращенных элементальных культур, а не только большой инфериумной фермы."
       ],
       "text_en": [
         "Awakening uses a separate altar, four pedestals, and four Essence Vessels. Arrange them according to the markers shown after placing the Awakening Altar. The vessels hold elemental essence and cannot be replaced with ordinary chests.",
-        "For the first awakened block, put a Supremium Block in the centre and four Cognizant Dust on the pedestals. Load ten Air, Earth, Water, and Fire Essence into separate vessels. Activate with redstone and collect the awakened block.",
+        "For the first awakened block: a supremium block in the centre, four Cognizant Dust on the pedestals. Load the vessels with ten essences each of air, earth, water and fire, keeping the kinds apart. Start the process with a redstone signal and take the awakened block.",
         "Uncraft it into essence, then combine two awakened essences with a Prosperity Ingot for the requested ingot. A missing element stalls the entire recipe. This tier upgrades Supremium equipment and requires elemental crops prepared in advance, not merely a large Inferium farm."
       ],
       "task_notes": {}
@@ -729,12 +729,12 @@
       "text": [
         "Выделите грядку инфериума для проверки непрерывного хозяйства. Изготовьте хотя бы одни семена из восьми эссенций и обычных семян пшеницы, посадите их и обеспечьте свет. Защитите участок от вытаптывания и отметьте место хранения будущего урожая.",
         "Выберите понятный способ сбора: вручную с сохранением культуры либо обслуживаемым уборщиком. Для машины сразу подготовьте топливо и свободный выходной сундук. Ускорители необязательны для старта; важнее, чтобы растение успевало созреть и оставалось на поле после сбора.",
-        "Предметная цель проверяет семена в инвентаре, поэтому дождитесь зачёта перед посадкой. Дальнейшие задания требуют свежую эссенцию с этого участка, а не найденную руду. Сохраните исходный запас отдельно: это позволит отличить новый урожай от ранее накопленных материалов."
+        "Книга проверяет семена в инвентаре, так что дождитесь зачёта перед посадкой. Дальше понадобится свежая эссенция именно с этого участка, а не найденная руда. Исходный запас держите отдельно — так новый урожай не смешается с накопленным раньше."
       ],
       "text_en": [
         "Set aside an Inferium patch for testing sustained farming. Craft at least one seed from eight essence and wheat seeds, plant it, and provide light. Protect the field from trampling and identify storage for its future harvest.",
         "Choose a clear collection method: manual harvesting that preserves the crop, or a serviced Harvester. A machine needs fuel and an empty output chest immediately. Accelerators are optional; maturity and successful replanting matter first.",
-        "The item objective checks seeds in inventory, so let it register before planting. Later quests require fresh essence from this patch rather than ore finds. Keep starting reserves separate so new harvests can be distinguished from existing supplies."
+        "The book checks the seeds in your inventory, so wait for the mark before planting. Later you will need fresh essence from this very plot, not ore you found. Keep the original stock apart — that way the new harvest will not mix with what you gathered before."
       ],
       "task_notes": {}
     },
@@ -754,12 +754,12 @@
     "magic_agriculture/essence_service_run": {
       "text": [
         "Подтверждайте ферму после повторного рабочего цикла. Вырастите культуру, соберите свежую эссенцию, доставьте её в выбранное хранилище и переработайте часть урожая в полезный материал или следующую ступень. Затем дождитесь нового созревания на том же участке.",
-        "Проверьте, что после сбора семена не потеряны, почва сохранилась и сборщик имеет топливо и свободное место. Если используется переработчик семян, запас для посадки должен оставаться вне его входа. Исправьте обнаруженную остановку до ручной отметки.",
+        "Убедитесь, что после сбора семена не потеряны, почва цела, а у сборщика есть топливо и свободное место. Если работает переработчик семян, посадочный запас должен лежать вне его входа. Найденную остановку исправьте до ручной отметки.",
         "Критерий выполнения — повторяемый урожай и работающая переработка, а не разовая выдача предметов из старого сундука. После проверки можно увеличивать число грядок и менять культуры. Сначала убедитесь, что выбранный способ вывоза выдерживает текущий объём без потерь на земле."
       ],
       "text_en": [
         "Confirm the farm after a repeated operating cycle. Grow the crop, harvest fresh essence, deliver it to the selected storage, and process some into useful material or a higher tier. Then wait for another maturation on the same patch.",
-        "Check that seeds remain planted, farmland survives, and any collector has fuel and output space. If a Seed Reprocessor is involved, keep planting reserves outside its input. Fix any interruption before marking completion.",
+        "Make sure that after harvesting the seeds are not lost, the soil is intact, and the harvester has fuel and free space. If a seed reprocessor is running, the planting stock must stay out of its input. Fix any stoppage you find before ticking the manual goal.",
         "The criterion is repeatable harvest and working processing, not a one-time withdrawal from an old chest. Afterwards, expand the field or change crops. First make sure the current transport handles its output without dropping supplies on the ground."
       ],
       "task_notes": {
@@ -772,26 +772,26 @@
     "magic_ars/notebook": {
       "text": [
         "Потрёпанная записная книжка описывает устройства и существ Ars Nouveau. Получите её и найдите куст исходных ягод в тайге или лесу архидерева. Перенесите куст к базе и оставьте освещённый участок для разрастания и регулярного сбора.",
-        "Ягоды служат едой и дают восстановление личной маны, используемой заклинаниями. Они не являются готовой жидкостью Source для банки. Позднее естественный рост кустов можно использовать с агрономическим источником, а сбор поручить звёздному помощнику.",
+        "Ягоды годятся в пищу и восстанавливают личную ману, которую тратят заклинания. Жидкий Source для банки из них не получить. Позднее естественный рост кустов сможет питать агрономический источник, а сбор возьмёт на себя звёздный помощник.",
         "Откройте раздел начала работы и сравните личную шкалу маны с будущим хранилищем устройств. Не съедайте весь запас до посадки: постоянный куст полезнее одной разовой порции. Следующий шаг — камера насыщения, превращающая обычные кристаллы в основной материал магической мастерской."
       ],
       "text_en": [
         "The Worn Notebook explains Ars Nouveau devices and creatures. Obtain it and find a Sourceberry Bush in a taiga or Archwood Forest. Bring a bush home and leave a lit patch for growth and regular harvesting.",
-        "The berries provide food and personal mana regeneration for spellcasting. They are not ready-made Source fluid for a jar. Later, natural bush growth can power an Agronomic Sourcelink, while a Starbuncle handles harvesting.",
+        "The berries are edible and restore the personal mana that spells consume. They will not give you liquid Source for a jar. Later, the natural growth of the bushes can feed an agronomic sourcelink, and a Starbuncle can take over the picking.",
         "Open the getting-started section and distinguish personal mana from the future device reserve. Plant before eating all your berries; a permanent bush is more valuable than one serving. Next, an Imbuement Chamber transforms ordinary crystals into the workshop’s basic material."
       ],
       "task_notes": {}
     },
     "magic_ars/gems": {
       "text": [
-        "Камера насыщения превращает аметист или лазурит в Source Gems. Сделайте камеру, поставьте на доступном месте и положите внутрь подходящий исходный предмет. Для первых кристаллов внешняя банка не обязательна: камера умеет медленно накапливать необходимую энергию сама.",
+        "Камера насыщения превращает аметист или лазурит в Source Gems. Сделайте её, поставьте на удобном месте и положите внутрь подходящий исходный предмет. Для первых кристаллов внешняя банка не обязательна: камера медленно накапливает нужную энергию сама.",
         "Подождите окончания операции, заберите результат и повторяйте до шестнадцати кристаллов. Позднее банка Source в пределах двух блоков ускоряет работу. Для более сложных рецептов дополнительные реагенты стоят на пьедесталах в пределах одного блока и обычно служат сохраняемыми катализаторами.",
-        "Не путайте полученные кристаллы с запасом Source в банке: это строительный материал, а не показание её заполнения. Если камера остановилась, проверьте входной предмет и условия выбранного рецепта. Первая партия потребуется для письменного стола, передачи энергии и следующего оборудования."
+        "Полученные кристаллы — строительный материал, а не мера заполнения банки Source. Если камера встала, проверьте входной предмет и условия выбранного рецепта. Первая партия пойдёт на письменный стол, передачу энергии и следующее оборудование."
       ],
       "text_en": [
-        "An Imbuement Chamber turns amethyst or lapis into Source Gems. Craft the chamber, place it somewhere accessible, and insert a suitable raw item. Early gems need no external jar because the chamber slowly accumulates the required energy itself.",
+        "The imbuement chamber turns amethyst or lapis into Source Gems. Make it, place it somewhere convenient and put a suitable starting item inside. For the first crystals an external jar is optional: the chamber slowly gathers the energy it needs on its own.",
         "Wait for completion, collect the result, and repeat until you have sixteen gems. A Source Jar within two blocks speeds up later operation. More complex recipes use extra reagents on pedestals within one block, usually as retained catalysts.",
-        "Do not confuse physical gems with the Source stored in a jar. If the chamber stalls, check the input and chosen recipe conditions. Your first batch supplies the Scribe’s Table, energy transport, and further equipment."
+        "The crystals you get are building material, not a measure of how full a Source jar is. If the chamber has stopped, check the input item and the conditions of the chosen recipe. The first batch will go into the scribe’s table, energy transfer and the next equipment."
       ],
       "task_notes": {
         "1": {
@@ -804,12 +804,12 @@
       "text": [
         "Книга новичка создаётся из обычной книги и четырёх железных инструментов: меча, кирки, топора и лопаты. Подготовьте отдельные инструменты для рецепта, чтобы не остаться без рабочего набора. Рядом поставьте стол писца для дальнейшего изучения глифов.",
         "Откройте интерфейс заклинаний назначенной клавишей и составьте короткую последовательность из доступного способа применения и эффекта. Сохраните выбранную ячейку, возьмите книгу и испытайте заклинание на безопасной цели. Слишком сложная комбинация быстро расходует личную ману.",
-        "Книга новичка допускает глифы первого уровня; более старшие потребуют улучшенной книги. Наличие книги не означает, что все эффекты уже изучены. Стол писца пополняет ваш набор, а заряженные банки Source обслуживают устройства отдельно от личной шкалы заклинаний."
+        "Книга новичка вмещает глифы первого уровня; для старших понадобится улучшенная. Сама по себе она ничему не учит — набор пополняет стол писца. Заряженные банки Source питают устройства и никак не связаны с личной шкалой заклинаний."
       ],
       "text_en": [
         "The Novice’s Spell Book is crafted from a normal book and four iron tools: sword, pickaxe, axe, and shovel. Prepare spare tools so crafting does not remove your working kit. Place a Scribe’s Table nearby for learning more glyphs.",
         "Open the spell interface with its configured key and compose a short sequence from an available casting method and effect. Save the slot, hold the book, and test against a safe target. Complicated combinations consume personal mana quickly.",
-        "The novice book supports tier-one glyphs; higher tiers require an upgraded book. Owning it does not mean every effect is learned. The Scribe’s Table expands your repertoire, while Source Jars supply devices separately from your personal spell reserve."
+        "The novice’s book holds tier-one glyphs; higher ones need an upgraded book. On its own it teaches nothing — the scribe’s table is what expands your set. Charged Source jars power devices and have nothing to do with your personal spell bar."
       ],
       "task_notes": {
         "2": {
@@ -821,12 +821,12 @@
     "magic_ars/glyphs": {
       "text": [
         "Новые глифы в установленной версии создаются на столе писца из указанных ингредиентов и опыта. Примените книгу к столу, выберите глиф света и подтвердите выбор. Для него приготовьте фонарь, факел и двадцать семь единиц опыта, а не двадцать семь уровней.",
-        "Бросьте подсвеченные ингредиенты на стол; он также умеет брать их из соседних хранилищ. Заберите готовый глиф света для зачёта цели, затем изучите его использованием предмета. Пустые глифы прежней механики здесь не являются необходимой заготовкой.",
+        "Бросьте подсвеченные ингредиенты на стол; он умеет брать их и из соседних хранилищ. Заберите готовый глиф света для зачёта, затем изучите его, применив предмет. Пустые глифы прежних версий здесь не нужны.",
         "Для записи на пергамент положите пустой пергамент на стол, выберите нужное заклинание в книге и примените книгу к столу с приседанием. Проверьте записанную последовательность. Глиф открывает отдельный элемент заклинания, а пергамент хранит уже составленную комбинацию для подходящих устройств."
       ],
       "text_en": [
         "In the installed version, new glyphs are made at the Scribe’s Table from specified ingredients and experience. Use your book on the table, select Light, and confirm. Prepare a lantern, a torch, and twenty-seven experience points, not twenty-seven levels.",
-        "Drop the displayed ingredients onto the table; it can also pull from nearby inventories. Collect the completed Light glyph for objective detection, then use it to learn the effect. Old blank glyphs are not required crafting blanks here.",
+        "Drop the highlighted ingredients onto the table; it can also take them from adjacent storage. Take the finished Glyph of Light for the mark, then learn it by using the item. The blank glyphs of older versions are not needed here.",
         "To inscribe parchment, place blank parchment on the table, select the desired spell in your book, and sneak-use the book on the table. Check the recorded sequence. A glyph unlocks one spell component, while parchment stores a completed combination for compatible devices."
       ],
       "task_notes": {},
@@ -858,12 +858,12 @@
       "text": [
         "Source питает оборудование Ars Nouveau, и его нужно производить отдельно от личной маны. Сделайте банку, реле и вулканический источник. Разместите источник на негорючем участке: вместе с энергией он накапливает жар, превращая близкий камень в магму и затем лаву.",
         "Подайте подходящее горючее, например брёвна архидерева, и поставьте банку рядом для приёма Source. Для удалённого потребителя используйте Dominion Wand: сначала банка, затем реле задают забор; сначала реле, затем другая банка задают отправку.",
-        "Реле связывает точки на расстоянии до тридцати блоков, а сигнал редстоуна отключает передачу. Проверьте заполнение приёмной банки после настоящей подачи топлива. Само изготовление трёх блоков не подтверждает сеть; успешный перенос позволит снабжать аппарат, ритуалы и помощников без переноса каждой банки вручную."
+        "Реле связывает точки на расстоянии до тридцати блоков, а сигнал редстоуна отключает передачу. Заполнение приёмной банки проверяйте после настоящей подачи топлива: три поставленных блока сетью ещё не стали. Наладив перенос, вы сможете снабжать аппарат, ритуалы и помощников, не таская каждую банку вручную."
       ],
       "text_en": [
         "Source powers Ars Nouveau equipment independently of personal mana. Craft a jar, relay, and Volcanic Sourcelink. Build the sourcelink on a nonflammable site because generation also creates heat, converting nearby stone into magma and eventually lava.",
         "Supply suitable fuel, such as Archwood logs, and place a jar nearby to receive Source. For a remote consumer, use the Dominion Wand on jar then relay to set extraction, and relay then another jar to set delivery.",
-        "A relay reaches up to thirty blocks, and redstone disables transmission. Check the destination jar after actually supplying fuel. Crafting the three blocks does not prove the network; successful transfer supports apparatuses, rituals, and helpers without carrying every jar manually."
+        "A relay links points up to thirty blocks apart, and a redstone signal switches the transfer off. Check the receiving jar only after real fuel has been fed in: three placed blocks are not a network yet. Once the transfer works, you can supply the apparatus, rituals and helpers without carrying every jar by hand."
       ],
       "task_notes": {}
     },
@@ -871,12 +871,12 @@
       "text": [
         "Аппарат зачарования использует центральный реагент и предметы на пьедесталах. Кроме самого аппарата подготовьте Arcane Core у его основания: без ядра конструкция не работает. Пьедесталы ставьте в пределах трёх блоков от аппарата, оставляя доступ ко всем позициям.",
         "Разложите ингредиенты одного рецепта по пьедесталам, затем примените центральный реагент к аппарату. Если рецепт расходует Source, рядом должна быть наполненная банка. Для первых четырёх пьедесталов удобно выбрать амулет звёздного помощника с четырьмя золотыми слитками вокруг его жетона.",
-        "Задача требует только четыре пьедестала, но некоторые рецепты используют восемь: добавляйте позиции под конкретную операцию. Если запуск не происходит, проверяйте ядро, радиус, реагенты и стоимость Source. Заберите результат до загрузки следующей партии, чтобы различать успешный крафт и просто размещённые материалы."
+        "Задача просит только четыре пьедестала, но у некоторых рецептов их восемь — добавляйте позиции под конкретную операцию. Если запуска нет, проверьте ядро, радиус, реагенты и стоимость Source. Результат забирайте до загрузки следующей партии, иначе удачное изготовление не отличить от разложенных материалов."
       ],
       "text_en": [
         "The Enchanting Apparatus combines a central reagent with pedestal ingredients. Prepare an Arcane Core beside its base as well as the apparatus; the structure cannot work without the core. Place pedestals within three blocks and leave each accessible.",
         "Distribute one recipe across the pedestals, then use its central reagent on the apparatus. Recipes with a Source cost need a charged jar nearby. A Starbuncle Charm is suitable for the first four pedestals, with four gold ingots around its token.",
-        "The quest requires only four pedestals, but some recipes use eight; expand as needed. If activation fails, inspect the core, range, reagents, and Source cost. Collect the result before loading another batch to distinguish successful crafting from merely placed materials."
+        "The quest asks for only four pedestals, but some recipes use eight — add positions for the operation at hand. If nothing starts, check the core, the radius, the reagents and the Source cost. Take the result before loading the next batch, or a successful craft cannot be told from materials merely laid out."
       ],
       "task_notes": {
         "2": {
@@ -924,13 +924,13 @@
     "magic_ars/archmage": {
       "text": [
         "Книга архимага открывает третий уровень глифов, но её получают через книгу подмастерья. Сначала улучшите книгу новичка обсидианом, тремя алмазами, двумя кварцевыми блоками и двумя стержнями ифрита. Изученные заклинания переносятся при правильном рецепте улучшения.",
-        "Для следующей ступени подготовьте три жемчуга Края, два изумруда, тотем бессмертия, незерскую звезду и Wilden Tribute вместе с книгой подмастерья. Подношение Wilden связано с победой над химерой из усиленного ритуала призыва; это отдельная боевая подготовка, а не обычный лесной дроп.",
-        "После крафта проверьте сохранённые заклинания и изучайте нужные старшие глифы на столе писца. Книга расширяет доступные возможности, но не делает любое длинное заклинание бесплатным. Испытайте расход личной маны и восстановление до похода на серьёзного босса."
+        "Для следующей ступени подготовьте три жемчуга Края, два изумруда, тотем бессмертия, незерскую звезду и Wilden Tribute вместе с книгой подмастерья. Подношение Wilden добывается с химеры из усиленного ритуала призыва — это отдельный бой, а не находка в лесу.",
+        "Собрав книгу, проверьте сохранённые заклинания и изучайте нужные старшие глифы на столе писца. Возможностей стало больше, но длинное заклинание бесплатным не стало. Оцените расход личной маны и её восстановление до похода на серьёзного босса."
       ],
       "text_en": [
         "The Archmage’s Spell Book unlocks tier-three glyphs but requires an Apprentice’s Spell Book first. Upgrade the novice book using obsidian, three diamonds, two Quartz Blocks, and two Blaze Rods. Proper upgrade recipes transfer learned spells.",
-        "For the next upgrade, combine the apprentice book with three Ender Pearls, two emeralds, a Totem of Undying, a Nether Star, and Wilden Tribute. The tribute comes from defeating the chimera summoned by an augmented summoning ritual, requiring separate battle preparation.",
-        "After crafting, check your saved spells and learn the desired higher glyphs at the Scribe’s Table. The book expands your options without making lengthy spells free. Test personal mana consumption and recovery before challenging a serious boss."
+        "For the next tier, prepare three ender pearls, two emeralds, a totem of undying, a nether star and a Wilden Tribute along with the apprentice’s book. The Wilden Tribute comes from the Chimera of the empowered summoning ritual — a separate fight, not something found in the woods.",
+        "Once the book is made, check the saved spells and learn the higher glyphs you need at the scribe’s table. You have more options now, but a long spell has not become free. Gauge your personal mana use and recovery before going after a serious boss."
       ],
       "task_notes": {
         "1": {
@@ -943,12 +943,12 @@
       "text": [
         "Для проверки Source поставьте отдельную банку возле выбранного потребителя. Удобно использовать камеру насыщения: ей нужна банка в пределах двух блоков. Подведите производство от источника напрямую либо через правильно направленное реле, оставляя все элементы доступными для наблюдения.",
         "Если используете вулканический источник, обеспечьте безопасное место для выделяемого жара и запас топлива. Для агрономического источника нужен естественный рост растений; искусственное применение костной муки не даёт такой же генерации. Выберите один понятный способ и сначала наполните банку.",
-        "Предметная цель отмечает само хранилище, а не запас или мощность производства. Перед следующей стадией убедитесь, что уровень Source действительно увеличивается. Держите исходные кристаллы и новые результаты в отдельных сундуках, чтобы последующая проверка не смешалась со старым запасом."
+        "Само хранилище закрывает предметную цель, но ни запас, ни мощность производства она не измеряет. Прежде чем идти дальше, убедитесь, что уровень Source и правда растёт. Исходные кристаллы и новые результаты держите в разных сундуках — тогда следующая проверка не смешается со старым запасом."
       ],
       "text_en": [
         "For the Source test, place a dedicated jar near a chosen consumer. An Imbuement Chamber is convenient and needs the jar within two blocks. Supply it directly from a sourcelink or through a correctly directed relay, keeping every part observable.",
         "With a Volcanic Sourcelink, provide a safe heat area and fuel reserve. An Agronomic Sourcelink needs natural plant growth; applying bone meal does not provide equivalent generation. Choose one clear method and fill the jar first.",
-        "The item objective records the storage block, not its reserve or production rate. Confirm the Source level actually rises before continuing. Separate raw crystals from new output so the following check cannot be confused with old supplies."
+        "The jar itself closes the item goal, but neither the reserve nor the production rate is measured by it. Before moving on, make sure the Source level really is rising. Keep the starting crystals and the new results in different chests — then the next check will not get mixed up with old stock."
       ],
       "task_notes": {}
     },
@@ -1021,12 +1021,12 @@
       "text": [
         "Магическая эссенция нужна для одежды и слитков. Собирайте её в магических сооружениях и с противников-магов. Для одного Arcane Ingot окружите железный, медный или золотой слиток восемью эссенциями; четыре целевых слитка потребуют тридцать две эссенции.",
         "Магическая наковальня создаётся отдельным рецептом из обычной наковальни, аметистовых блоков, алмаза и полированного глубинного сланца. Поставьте её возле стола начертания. Она улучшает свитки, снаряжение и книги, тогда как запись заклинаний остаётся задачей стола.",
-        "Чтобы поднять уровень свитка, используйте чернила редкости следующего уровня заклинания и проверьте результат в интерфейсе. В этой версии не следует автоматически складывать два одинаковых свитка, ожидая ванильного объединения книг. Сохраните редкие чернила для действительно нужного заклинания и учитывайте показанную стоимость операции."
+        "Чтобы поднять уровень свитка, возьмите чернила редкости следующего уровня заклинания и посмотрите результат в интерфейсе. Складывать два одинаковых свитка в ожидании ванильного объединения книг здесь бесполезно. Редкие чернила берегите для по-настоящему нужного заклинания и учитывайте показанную стоимость."
       ],
       "text_en": [
         "Arcane Essence supplies clothing and ingot recipes. Collect it in magical structures and from spellcasting enemies. Surround an iron, copper, or gold ingot with eight essence to make one Arcane Ingot; the four requested ingots need thirty-two essence.",
         "The Arcane Anvil has a separate recipe using a normal anvil, Amethyst Blocks, a diamond, and Polished Deepslate. Place it beside the Inscription Table. It upgrades scrolls, equipment, and books, while inscription remains the table’s job.",
-        "Raise a scroll level using ink matching the next spell level’s rarity and inspect the preview. Do not assume two identical scrolls combine like vanilla enchanted books in this version. Save rare ink for a useful spell and check the displayed operation cost."
+        "To raise a scroll’s level, use ink of the rarity of the spell’s next level and look at the result in the interface. Stacking two identical scrolls in the hope of vanilla book-combining does nothing here. Save rare ink for a spell you truly need and mind the cost shown."
       ],
       "task_notes": {
         "3": {
@@ -1094,12 +1094,12 @@
     },
     "magic_irons/legendary": {
       "text": [
-        "Легендарные чернила позволяют изготавливать особенно сильные свитки. Их можно найти в редкой магической добыче, но существует и воспроизводимый путь через алхимический котёл. Подготовьте котёл, эпические чернила, аметист и пустую бутылочку, сохранив запас для уже используемых заклинаний.",
+        "Легендарные чернила дают самые сильные свитки. Их можно найти в редкой магической добыче, но есть и воспроизводимый путь — алхимический котёл. Подготовьте котёл, эпические чернила, аметист и пустую бутылочку, а запас для уже используемых заклинаний оставьте.",
         "В установленном рецепте тысяча милливедер эпических чернил и аметист дают двести пятьдесят милливедер легендарных. Четыре бутылочки предыдущей ступени превращаются в одну следующей; заберите результат бутылкой, чтобы выполнить достижение получения легендарных чернил.",
         "Сама редкость не означает максимальный уровень каждого заклинания. Для некоторых верхних уровней потребуется дальнейшая обработка свитка на магической наковальне. Сначала выберите нужную школу и заклинание в кузнице свитков, затем расходуйте дорогие чернила: случайный сильный свиток может не поместиться в вашей текущей книге."
       ],
       "text_en": [
-        "Legendary Ink enables especially powerful scrolls. It appears in rare magical loot, and an Alchemist Cauldron provides a repeatable route. Prepare the cauldron, Epic Ink, amethyst, and an empty bottle while reserving supplies for existing spells.",
+        "Legendary ink makes the strongest scrolls. It can be found in rare magical loot, but there is also a repeatable route — the alchemist’s cauldron. Prepare the cauldron, epic ink, amethyst and an empty bottle, and keep a reserve for the spells you already use.",
         "The installed recipe converts one thousand millibuckets of Epic Ink plus amethyst into two hundred fifty millibuckets of Legendary Ink. Four bottles of the previous tier become one of the next. Bottle the result to earn the Legendary Ink advancement.",
         "Rarity does not guarantee every spell’s maximum level. Some highest levels require further Arcane Anvil upgrades. Choose the desired school and spell in the Scroll Forge before spending expensive ink; a powerful random scroll may exceed your current book’s limits."
       ],
@@ -1114,12 +1114,12 @@
       "text": [
         "Открытый ящик выбрасывает поступающие предметы строго вниз и помогает обслуживать Эндопламя. Поставьте его над точкой подачи и направьте сверху воронку с небольшим запасом угля. Между местом падения и цветком оставьте рабочее расстояние, проверив приём одной порции.",
         "Добавьте деревянную нажимную плиту в точке падения и свяжите её сигнал с блокировкой подающей воронки. Пока предмет лежит на плите, следующая порция не должна поступать; после поглощения цветком подача возобновляется.",
-        "Проследите несколько циклов и убедитесь, что топливо не копится на земле. При необходимости добавьте задержку, учитывая время работы цветка. Полученный ящик — только часть схемы: полезный итог состоит в ограниченной подаче, которую можно спокойно оставить включённой."
+        "Проследите несколько циклов и убедитесь, что топливо не копится на земле. Если нужно, добавьте задержку с учётом времени работы цветка. Сам ящик — лишь часть схемы; ценность в ограниченной подаче, которую можно спокойно оставить включённой."
       ],
       "text_en": [
         "An Open Crate drops incoming items straight down and helps service an Endoflame. Position it above the feeding point and supply a small coal reserve through a hopper. Leave a workable distance between the landing point and flower, testing one portion first.",
         "Add a wooden pressure plate at the landing point and use its signal to lock the supply hopper. While an item remains on the plate, another portion should not arrive; feeding resumes after the flower takes it.",
-        "Watch several cycles and ensure fuel does not accumulate. Add a delay if necessary to match the flower. The crate is only part of the circuit; the useful result is controlled feeding that can remain enabled."
+        "Watch several cycles and make sure fuel is not piling up on the ground. If needed, add a delay that accounts for the flower’s working time. The dropper itself is only part of the scheme; the value lies in a limited feed you can safely leave running."
       ],
       "task_notes": {}
     },
@@ -1153,25 +1153,25 @@
       "text": [
         "Пробуждение супремиума потребует не только инфериума, но и четырёх элементальных эссенций. Начните отдельную грядку с семян воздуха, затем добавьте землю, воду и огонь. Каждые ресурсные семена изготовьте на алтаре по собственному рецепту и подпишите место посадки.",
         "Урожай стихий держите в отдельных ячейках, сохраняя запас всех четырёх видов. Для первого пробуждённого блока нужно по десять эссенций каждой стихии. Не перерабатывайте последние партии в побочные ресурсы до заполнения будущих сосудов.",
-        "Предметная цель отмечает только начальные семена воздуха, а вся ветка готовит снабжение пробуждения. Перед переходом к алтарю старшей ступени проверьте, что каждая культура действительно даёт повторный урожай. Такая подготовка предотвращает остановку дорогого рецепта из-за одной забытой стихии."
+        "Книга отмечает только начальные семена воздуха, а ветка в целом готовит снабжение для пробуждения. Перед переходом к алтарю старшей ступени убедитесь, что каждая культура даёт повторный урожай. Так дорогой рецепт не встанет из-за одной забытой стихии."
       ],
       "text_en": [
         "Awakening Supremium needs four elemental essences in addition to Inferium. Start a separate patch with Air Seeds, then add Earth, Water, and Fire. Make each resource seed on the altar using its own recipe and label the planting positions.",
         "Store elemental harvests separately and preserve all four kinds. The first awakened block requires ten essence of each element. Avoid processing your last batches into other resources before filling the future vessels.",
-        "The item objective records only the initial Air Seeds, while the branch prepares awakening supplies. Verify repeatable harvests from every crop before building the advanced altar. This prevents an expensive recipe from stalling because one element was forgotten."
+        "The book records only the initial air seeds, while the branch as a whole prepares supplies for awakening. Before moving to the higher-tier altar, make sure each crop gives a repeat harvest. That way the expensive recipe will not stall over one forgotten element."
       ],
       "task_notes": {}
     },
     "magic_agriculture/guide_soul_account": {
       "text": [
         "Выберите одну полезную культуру существ и подготовьте отдельную банку душ. Начинайте с вида, для которого уже есть безопасный источник и понятный рецепт семян. Посмотрите требуемое заполнение, прежде чем тратить время на случайных противников.",
-        "Собирайте души соответствующим кинжалом либо перерабатывайте подходящий дроп в экстракторе с топливом. Проверяйте содержимое банки после первой операции: вид души должен совпасть с запланированной культурой. Для мирных животных сначала сохраните племенную пару отдельно от места сбора.",
-        "Полученная пустая банка выполняет предметную цель, но будущий крафт требует заполненный сосуд. Подпишите место хранения и не смешивайте начатые проекты. Завершённая банка превращает лут конкретного вида в основу постоянной ресурсной грядки, уменьшая необходимость новых охотничьих вылазок."
+        "Души собирайте подходящим кинжалом либо перерабатывайте нужную добычу в экстракторе с топливом. После первой операции загляните в банку: вид души должен совпасть с задуманной культурой. Для мирных животных заранее отселите племенную пару подальше от места сбора.",
+        "Пустая банка закрывает предметную цель, но для будущего рецепта нужен заполненный сосуд. Подпишите место хранения и не смешивайте начатые проекты. Готовая банка превращает добычу с одного вида в основу постоянной ресурсной грядки — и новых охотничьих вылазок понадобится меньше."
       ],
       "text_en": [
         "Choose one useful mob crop and prepare a dedicated Soul Jar. Start with a creature you can obtain safely and whose seed recipe you understand. Check the required fill before fighting random enemies.",
-        "Collect souls with the appropriate dagger or process suitable drops in a fuelled extractor. Inspect the jar after the first operation; its soul type must match your intended crop. Preserve a separate breeding pair when using passive animals.",
-        "An empty jar satisfies the item objective, but the future recipe needs it filled. Label its storage and keep unfinished projects separate. A completed jar turns one creature’s loot into a permanent resource crop, reducing repeated hunting trips."
+        "Collect souls with the matching dagger, or process the right drops in a fuelled extractor. After the first operation, look into the jar: the soul type must match the crop you planned. For peaceful animals, move a breeding pair well away from the collection spot beforehand.",
+        "An empty jar closes the item goal, but the future recipe needs a full one. Label the storage spot and do not mix started projects. A finished jar turns the drops of one creature type into the foundation of a permanent resource bed — and fewer hunting trips will be needed."
       ],
       "task_notes": {}
     },
@@ -1191,12 +1191,12 @@
     "magic_ars/guide_directed_links": {
       "text": [
         "Dominion Wand задаёт направленные связи для Source и рабочих существ. Сделайте жезл и начните с двух подписанных банок: источника и приёмника. Поставьте реле в пределах тридцати блоков от связанных точек и наполните исходную банку.",
-        "Для забора щёлкните жезлом по исходной банке, затем по реле. Для отправки — по реле, затем по принимающей банке. Порядок кликов важен; соседство блоков не заменяет сохранённую связь. Сигнал редстоуна на реле должен отсутствовать.",
+        "Для забора щёлкните жезлом по исходной банке, затем по реле. Для отправки — по реле, затем по принимающей банке. Порядок кликов решает всё: блоки рядом, но без сохранённой связи, друг друга не видят. Сигнала редстоуна на реле быть не должно.",
         "Проверьте изменение обоих запасов. Если назначена неправильная связь, применение жезла к реле с приседанием очищает подключения; настройте их заново. Освоенный порядок пригодится и помощникам: «существо — сундук» задаёт место разгрузки, обратная последовательность — источник предметов."
       ],
       "text_en": [
         "The Dominion Wand sets directional links for Source and worker creatures. Craft it and start with two labelled jars, source and destination. Put a relay within thirty blocks of its linked points and charge the source jar.",
-        "Click the source jar and then the relay to set extraction. Click the relay and then the receiving jar to set delivery. Order matters; proximity does not replace a saved connection. Keep the relay free of redstone power.",
+        "To draw Source, click the wand on the source jar, then on the relay. To send, click the relay, then the receiving jar. The order of clicks decides everything: blocks side by side with no saved link do not see each other. There must be no redstone signal on the relay.",
         "Watch both reserves change. Sneak-use the wand on the relay to clear incorrect links and configure them again. This direction principle also helps workers: creature-to-chest sets unloading, while the reverse sequence sets an item source."
       ],
       "task_notes": {}
@@ -1229,14 +1229,14 @@
     },
     "magic_irons/guide_ink_ladder": {
       "text": [
-        "Алхимический котёл позволяет повышать редкость чернил с уменьшением объёма. Для изготовления самого котла потребуется Cinder Essence, поэтому сначала подготовьтесь к древним рыцарям Незера. Поставьте готовое устройство возле склада бутылочек и подпишите входную ступень.",
+        "В алхимическом котле чернила поднимаются в редкости, теряя в объёме. Для самого котла нужна Cinder Essence, так что сначала подготовьтесь к древним рыцарям Незера. Готовое устройство поставьте возле склада бутылочек и подпишите входную ступень.",
         "Четыре бутылочки обычных чернил и медный слиток дают одну необычную; на следующих переходах используются железо, золото и аметист. Каждый рецепт принимает тысячу милливедер предыдущей ступени и выдаёт двести пятьдесят следующей. Загружайте только выбранный вид и забирайте результат пустой бутылкой.",
-        "Проверьте новое название чернил перед повторением. Цепочка быстро расходует исходный объём, поэтому сохраняйте запас для простых свитков. Такая переработка обеспечивает путь к легендарным чернилам, но не делает их бесплатными и не отменяет ограничения вашей книги по редкости заклинаний."
+        "Перед повторением проверьте новое название чернил. Цепочка быстро съедает исходный объём, так что оставляйте запас для простых свитков. Этот путь ведёт к легендарным чернилам, но не делает их бесплатными и не снимает ограничения вашей книги по редкости заклинаний."
       ],
       "text_en": [
-        "The Alchemist Cauldron upgrades ink rarity while reducing volume. Crafting it requires Cinder Essence, so prepare for Nether Ancient Knights first. Place the device beside bottle storage and label the intended input tier.",
+        "In the alchemist’s cauldron ink rises in rarity while shrinking in volume. The cauldron itself needs Cinder Essence, so prepare for the ancient knights of the Nether first. Place the finished device by your bottle storage and label the input tier.",
         "Four bottles of Common Ink plus a copper ingot produce one Uncommon Ink. Later upgrades use iron, gold, and amethyst. Each recipe takes one thousand millibuckets of the previous tier and yields two hundred fifty of the next. Load one selected type and bottle the result.",
-        "Check the new ink name before repeating. The chain consumes starting volume rapidly, so reserve ink for simple scrolls. This provides a route to Legendary Ink without making it free or removing your book’s rarity limits."
+        "Check the new ink’s name before repeating. The chain eats the starting volume quickly, so leave a reserve for simple scrolls. This route leads to legendary ink, but it does not make it free and does not lift your book’s rarity limit."
       ],
       "task_notes": {}
     }

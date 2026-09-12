@@ -14,11 +14,11 @@
     "trials_mid": {
       "intro": [
         "Промышленные испытания проверяют, можете ли вы выделить запас продукции, не остановив собственный завод. Здесь важны конкретные предметы модов, а не только похожие названия и совместимость в рецептах.",
-        "Несколько расходуемых целей сдаются вместе: приготовьте все виды и количества одновременно. Наличие деталей не доказывает автоматизацию; боковые задания предлагают отдельно проверить снабжение, выход и восстановление после остановки."
+        "Несколько расходуемых целей сдаются разом, поэтому приготовьте все виды и количества заранее. Готовые детали в сундуке ещё ничего не говорят о том, как работает линия; боковые задания предлагают проверить снабжение, выход и восстановление после остановки отдельно."
       ],
       "intro_en": [
         "Industrial trials ask whether you can spare finished goods without stopping your own factory. Exact mod items matter here, beyond similar names or recipe compatibility.",
-        "Multiple consumable objectives are submitted together: bring every listed type and quantity at once. Owning components does not prove automation; side tasks separately examine supply, output and recovery after a stop."
+        "Several consumable objectives are handed in together, so prepare every kind and quantity in advance. Finished parts in a chest say nothing yet about how the line runs; the side quests invite you to test supply, output and recovery after a stop separately."
       ]
     },
     "trials_late": {
@@ -45,9 +45,9 @@
   "quests": {
     "trials_early/logs": {
       "text": [
-        "Первая поставка превращает обычную лесозаготовку в запас для следующего этапа. Здесь нужны именно 64 дубовых бревна: доски, обтёсанная древесина и другие породы не заменяют указанный предмет, даже если подходят для большинства строительных рецептов.",
+        "Первая поставка превращает обычную лесозаготовку в запас для следующего этапа. Здесь нужны именно 64 дубовых брёвна: доски, обтёсанная древесина и другие породы не заменяют указанный предмет, даже если подходят для большинства строительных рецептов.",
         "Найдите дубы рядом с базой, возьмите топор и оставьте несколько саженцев для посадки. Складывайте добычу отдельно от древесины, которая пойдёт на верстак, сундуки и уголь. Удалите остатки стволов, чтобы листья могли освободить место новым деревьям.",
-        "Перед сдачей перенесите весь стак бревен в инвентарь. Книга расходует все 64 штуки; прежнее краткое владение ими здесь не считается. Посадите оставленные саженцы сейчас, чтобы следующая стройка не потребовала искать лес дальше от дома."
+        "Перед сдачей перенесите всю стопку брёвен в инвентарь. Книга расходует все 64 штуки; прежнее краткое владение ими здесь не считается. Посадите оставленные саженцы сейчас, чтобы следующая стройка не потребовала искать лес дальше от дома."
       ],
       "text_en": [
         "The first delivery turns ordinary logging into supplies for the next stage. It requires exactly 64 oak logs: planks, stripped wood and other species do not replace this item, even when they work in most building recipes.",
@@ -57,9 +57,9 @@
     },
     "trials_early/cobble": {
       "text": [
-        "Булыжник быстро накапливается при прокладке шахты, но испытание требует подготовленного резерва: 192 обычных блока, то есть три полных стака. Глубинный сланец, гладкий камень и декоративные варианты не входят в эту поставку.",
+        "Булыжник быстро накапливается при прокладке шахты, но испытание требует подготовленного резерва: 192 обычных блока, то есть три полные стопки. Глубинный сланец, гладкий камень и декоративные варианты не входят в эту поставку.",
         "Выберите безопасный участок обычного камня и добывайте его киркой без Шёлкового касания. Освещайте рабочую зону, закрывайте опасные проходы и сначала оставьте материал на печи и ремонт лестницы. Спуск под себя ради последнего стака создаёт лишний риск.",
-        "Все три стака должны одновременно лежать в инвентаре при сдаче и будут израсходованы. Если счётчик не сходится, проверьте название блоков, а не только их серую текстуру. Оставшийся карьер удобно расширять как проход к будущей добывающей площадке."
+        "Все три стопки должны одновременно лежать в инвентаре при сдаче и будут израсходованы. Если счётчик не сходится, проверьте название блоков, а не только их серую текстуру. Оставшийся карьер удобно расширять как проход к будущей добывающей площадке."
       ],
       "text_en": [
         "Cobblestone accumulates quickly while digging a mine, but this trial needs a prepared reserve: 192 ordinary blocks, or three full stacks. Cobbled deepslate, smooth stone and decorative variants are excluded.",
@@ -69,38 +69,38 @@
     },
     "trials_early/iron": {
       "text": [
-        "Железная поставка полезна после изготовления собственных инструментов, а не вместо них. Подготовьте 32 железных слитка; сырое железо и железные блоки не совпадают с целью, пока вы не переработаете или не распакуете их в требуемую форму.",
+        "Железная поставка приходит после того, как вы сделали себе инструменты, а не вместо них. Подготовьте 32 железных слитка: сырое железо и железные блоки книга не засчитает, пока вы не переплавите или не распакуете их в слитки.",
         "Добывайте руду подходящей киркой и плавьте сырое железо с запасом топлива. Сначала оставьте слитки на ведро, щит и ремонт инструментов. Не рассчитывайте на неизвестные зачарования награды: её фактический состав показан в книге до подтверждения обмена.",
-        "Заберите всю партию из печи и положите в инвентарь. При сдаче 32 слитка исчезнут, поэтому не отправляйте туда железо, уже предназначенное для срочного строительства. Испытание открывает пищевую поставку; подготовленный запас металла тем временем позволяет спокойно продолжить развитие базы."
+        "Заберите всю партию из печи и положите в инвентарь. При сдаче 32 слитка исчезнут, поэтому не отдавайте железо, которое уже обещано срочной стройке. Испытание открывает пищевую поставку, а отложенный запас металла даёт спокойно продолжать обустройство базы."
       ],
       "text_en": [
-        "The iron delivery is useful after making your own tools, not in their place. Prepare 32 iron ingots; raw iron and iron blocks do not match until processed or unpacked into the required form.",
+        "The iron delivery comes after you have made your own tools, not instead of them. Prepare 32 iron ingots: raw iron and iron blocks will not count until you smelt or unpack them into ingots.",
         "Mine ore with a suitable pickaxe and smelt raw iron with enough fuel. Reserve ingots for a bucket, shield and tool repairs first. Do not assume undocumented reward enchantments: the book shows the actual reward contents before you confirm the exchange.",
-        "Collect the entire batch from the furnace into your inventory. Submitting removes 32 ingots, so keep metal earmarked for urgent construction elsewhere. This trial opens the food delivery, while your remaining metal reserve supports continued base development."
+        "Take the whole batch out of the furnace and put it in your inventory. The 32 ingots vanish on hand-in, so do not give away iron already promised to an urgent build. The trial unlocks the food delivery, and the metal you set aside lets you keep developing the base without a pause."
       ]
     },
     "trials_early/food": {
       "text": [
-        "Эта кладовая принимает 32 приготовленных говядины. Жареная курица, сырое мясо и сложные блюда могут хорошо кормить игрока, но указанную цель не заменяют. Подготовьте поставку отдельно от еды, которую берёте в шахту или экспедицию.",
+        "Эта кладовая принимает 32 порции жареной говядины. Курица, сырое мясо и сложные блюда сытно кормят, но в счёт этой поставки не идут. Соберите партию отдельно от еды, которую берёте с собой в шахту или экспедицию.",
         "Для возобновляемого источника заведите коров, кормите взрослых пшеницей и сохраняйте племенную пару. Излишки сырой говядины приготовьте в печи или коптильне. Проверьте запас топлива, прежде чем закладывать всю добычу: полупустая топка часто объясняет недостающее количество готовой еды.",
         "В инвентаре при сдаче должны одновременно находиться все 32 порции, и книга их израсходует. Это обмен запасов, а не доставка еды конкретным жителям колонии. После него сохранённое стадо даст и следующее мясо, и кожу для соседнего испытания."
       ],
       "text_en": [
-        "This pantry accepts 32 cooked beef. Roast chicken, raw meat and elaborate dishes may feed you well, but do not replace the listed objective. Prepare the delivery separately from food reserved for mining or expeditions.",
+        "This pantry accepts 32 portions of cooked beef. Chicken, raw meat and elaborate dishes feed you well, but they do not count toward this delivery. Gather the batch separately from the food you take into the mine or on an expedition.",
         "For a renewable source, keep cows, breed adults with wheat and preserve a breeding pair. Cook surplus raw beef in a furnace or smoker. Check fuel before loading everything: an underfuelled furnace often explains missing portions.",
         "All 32 servings must be in your inventory together at submission, and the book consumes them. This exchanges supplies rather than feeding particular colony citizens. Afterwards, the retained herd produces both more meat and leather for the neighbouring trial."
       ]
     },
     "trials_early/leather": {
       "text": [
-        "Кожа нужна для книг и части походного снаряжения, поэтому отдавайте только излишек после собственных крафтов. Испытание принимает 16 обычных единиц кожи; готовая кожаная броня и материалы других существ не считаются тем же предметом.",
+        "Кожа идёт на книги и часть походного снаряжения, поэтому отдавайте только то, что осталось после собственных нужд. Испытание принимает 16 кусков обычной кожи; готовая кожаная броня и шкуры других существ — уже другие предметы.",
         "Используйте стадо, подготовленное для мясной поставки: выращивайте молодняк и получайте кожу от взрослых коров, сохраняя животных для разведения. Добыча не обязана выпадать в одинаковом количестве, поэтому планируйте сбор по содержимому сундука, а не по числу уже убитых животных.",
-        "Переложите шестнадцать штук в инвентарь непосредственно перед сдачей: они будут израсходованы. Оставьте запас на книги, если собираетесь зачаровывать инструменты. Такой порядок позволяет закрыть испытание без уничтожения источника ресурсов и подготовить материалы для дальнейшего обустройства дома."
+        "Переложите шестнадцать кусков в инвентарь перед самой сдачей: они уйдут без возврата. Если собираетесь зачаровывать инструменты, оставьте запас на книги. Так испытание закрывается без потери стада, а материалы для дальнейшего обустройства дома остаются при вас."
       ],
       "text_en": [
-        "Leather is needed for books and some travel equipment, so submit only surplus left after your own crafting. The trial accepts 16 pieces of ordinary leather; finished leather armour and materials from other creatures are different items.",
+        "Leather goes into books and part of your travelling gear, so give away only what is left after your own needs. The trial accepts 16 pieces of plain leather; finished leather armour and hides from other creatures are different items.",
         "Use the herd prepared for the meat delivery: raise calves and obtain leather from adult cows while keeping breeding animals. Drops do not arrive in identical amounts, so plan from chest contents rather than the number of animals already killed.",
-        "Move sixteen pieces into your inventory just before submission; they will be consumed. Reserve some for books if enchanting tools is next. This completes the trial without destroying the resource source and leaves supplies for improving your home."
+        "Move the sixteen pieces into your inventory right before handing in: they are gone for good. If you plan to enchant tools, keep some back for books. This way the trial closes without losing the herd, and the materials for furnishing your home stay with you."
       ]
     },
     "trials_early/glass": {
@@ -118,12 +118,12 @@
     "trials_mid/alloy": {
       "text": [
         "Андезитовый сплав становится расходным материалом почти всей ранней механики Create. Для испытания приготовьте 128 единиц, сохранив отдельный запас на валы и корпуса. Наличие работающей мешалки удобно, но книга принимает готовый продукт независимо от выбранного рецепта.",
-        "Начните с доступного рецепта сплава: нужны андезит и металлические самородки, а механическое смешивание даёт удобный путь серийного производства. Проверьте ингредиенты в JEI и сделайте небольшую пробную партию до загрузки полного запаса. Для мешалки необходимо подходящее вращение, не только установленный таз.",
-        "На обмен уходят два полных стака одновременно; всё количество будет списано из инвентаря. Если завод перестал строиться после поставки, вы отдали рабочий резерв вместе с излишком. Разделённые запасы помогут без такой остановки перейти к прокату железа и меди."
+        "Рецепт прост: андезит и металлические самородки, а смеситель превращает его в серийное производство. Загляните в JEI, сделайте небольшую пробную партию и лишь потом загружайте полный запас. Смесителю нужен не только таз под ним, но и вращение достаточной силы.",
+        "На обмен уходят две полные стопки одновременно; всё количество будет списано из инвентаря. Если завод перестал строиться после поставки, вы отдали рабочий резерв вместе с излишком. Разделённые запасы помогут без такой остановки перейти к прокату железа и меди."
       ],
       "text_en": [
         "Andesite alloy becomes a consumable for much of early Create engineering. Prepare 128 pieces for this trial while reserving some for shafts and casings. A working mixer is convenient, but the book accepts finished output regardless of the recipe used.",
-        "Start with an available alloy recipe using andesite and metal nuggets; mechanical mixing offers a convenient production route. Check ingredients in JEI and make a small test batch before loading the entire reserve. A mixer needs suitable rotation, not merely a basin placed below it.",
+        "The recipe is simple: andesite and metal nuggets, and the mixer turns it into mass production. Check JEI, run a small trial batch, and only then load the full stock. The mixer needs more than a basin beneath it: it needs rotation with enough force.",
         "The exchange consumes two full stacks together from your inventory. If factory construction stops afterwards, operating reserves were submitted with the surplus. Separating stocks lets you move on to iron and copper pressing without that interruption."
       ]
     },
@@ -154,12 +154,12 @@
     "trials_mid/precision": {
       "text": [
         "Шестнадцать механизмов точности — проверка выпуска готовой продукции, а не количества незавершённых заготовок. Эта деталь нужна для управления более сложной техникой Create. Планируйте сырьё с запасом: последовательная сборка может завершаться побочным результатом вместо нужного механизма.",
-        "Начните с золотого листа. Деплойеры последовательно добавляют малую шестерню, большую шестерню и железный самородок; вся последовательность повторяется пять раз. Это не рецепт из пяти механических крафтеров. Организуйте возврат незавершённых деталей и отдельный выход окончательного результата, прежде чем подавать следующую большую партию.",
-        "Отберите 16 готовых механизмов и перенесите их в инвентарь одновременно. При сдаче они исчезнут; незавершённые механизмы не заменят недостающее количество. Если выпуск остановился, проверьте запас расходников каждого деплойера и путь возврата детали, а не добавляйте скорость вслепую."
+        "В основе лежит золотой лист. Автономные активаторы по очереди добавляют к нему малую шестерню, большую шестерню и железный самородок, и вся последовательность повторяется пять раз. Механические сборщики здесь ни при чём. Прежде чем подавать большую партию, наладьте возврат незавершённых деталей на круг и отдельный выход для готового результата.",
+        "Отберите 16 готовых механизмов и перенесите их в инвентарь одновременно. При сдаче они исчезнут; незавершённые механизмы не заменят недостающее количество. Если выпуск остановился, проверьте запас расходников каждого автономного активатора и путь возврата детали, а не добавляйте скорость вслепую."
       ],
       "text_en": [
         "Sixteen precision mechanisms test finished output rather than the number of incomplete assemblies. These components control more advanced Create machinery. Allow extra raw materials because sequenced assembly can finish with a by-product instead of the desired mechanism.",
-        "Start with a golden sheet. Deployers add a small cogwheel, a large cogwheel and an iron nugget in that order; repeat the sequence five times. This is not a recipe involving five mechanical crafters. Arrange a return route for incomplete items and a separate final-output route before feeding a large batch.",
+        "It all starts from a gold sheet. Deployers add a small cogwheel, a large cogwheel and an iron nugget in turn, and the whole sequence repeats five times. Mechanical crafters play no part here. Before feeding a large batch, arrange for unfinished parts to loop back and for the finished result to leave through its own output.",
         "Select 16 completed mechanisms and hold them together in your inventory. Submission removes them; incomplete mechanisms cannot make up a shortfall. If production stalls, inspect every deployer’s consumables and the return route rather than increasing speed blindly."
       ]
     },
@@ -167,7 +167,7 @@
       "text": [
         "Стальная поставка закрепляет работу доменной печи Immersive Engineering. Здесь принимаются 64 слитка стали именно этого мода. Совместимость разных сталей в обычных рецептах не означает, что книга считает их одним предметом; посмотрите подпись мода у результата.",
         "Подайте железо и подходящее доменное топливо, затем освобождайте выход стали и шлака. Обычная печь не превращает железный слиток в стальной. Перед большой партией проследите один полный цикл и убедитесь, что запас топлива действительно поддерживает плавку, а выход не забит предыдущими материалами.",
-        "Переложите полный стак готовой стали в инвентарь: сдача израсходует все 64 слитка. Оставьте собственный строительный резерв, особенно если следующим проектом будет электрическая инфраструктура. Дальше испытание кокса проверит уже снабжение этой плавки и обращение с её производственным топливом."
+        "Переложите полную стопку готовой стали в инвентарь: сдача израсходует все 64 слитка. Оставьте собственный строительный резерв, особенно если следующим проектом будет электрическая инфраструктура. Дальше испытание кокса проверит уже снабжение этой плавки и обращение с её производственным топливом."
       ],
       "text_en": [
         "The steel delivery reinforces operation of an Immersive Engineering blast furnace. It accepts 64 steel ingots specifically from that mod. Recipe compatibility between steels does not make them the same item to the book; inspect the output’s mod label.",
@@ -179,7 +179,7 @@
       "text": [
         "Коксовая печь производит твёрдое топливо и креозот, поэтому это испытание просит оба результата: 128 кокса и восемь вёдер креозота. Выход жидкости важен для непрерывной работы; заполненный внутренний резервуар способен остановить производство раньше, чем закончится уголь.",
         "Перерабатывайте уголь в собранной коксовой печи, забирайте кокс и регулярно освобождайте жидкостный выход в подходящую тару или хранилище. Для задания нужны именно предметы заполненных вёдер. Отдельно оставьте топливо доменной печи, иначе обмен остановит соседний заказ стали.",
-        "Перед сдачей разместите оба стака кокса и восемь заполненных вёдер в инвентаре одновременно. Книга расходует и кокс, и сами предметы вёдер; возврат пустой тары не обещан. Предварительно освободите достаточно ячеек, чтобы не собирать последнюю часть поставки уже во время обмена."
+        "Перед сдачей разместите обе стопки кокса и восемь заполненных вёдер в инвентаре одновременно. Книга расходует и кокс, и сами предметы вёдер; возврат пустой тары не обещан. Предварительно освободите достаточно ячеек, чтобы не собирать последнюю часть поставки уже во время обмена."
       ],
       "text_en": [
         "The coke oven produces solid fuel and creosote, so this trial requests both outputs: 128 coal coke and eight creosote buckets. Fluid removal matters for continuous operation; a full internal tank can stop production before coal runs out.",
@@ -226,23 +226,23 @@
     "trials_mid/bread": {
       "text": [
         "Хлебная подать принимает 128 обычных буханок Minecraft. Это запас еды для обмена, а не автоматическое кормление MineColonies: книга удаляет предметы из вашего инвентаря и не раскладывает их по ресторанам или складу колонии.",
-        "Получайте хлеб из пшеницы на верстаке либо используйте освоенную пищевую цепочку Create или колониального производства. Сначала сохраните семена для пересева и текущий рацион жителей. Если рассчитываете на пекаря, проверьте его реальные запросы и выход продукции; фиксированного срока получения двух стаков книга не гарантирует.",
+        "Пеките хлеб из пшеницы на верстаке или доверьте это уже налаженной пищевой линии Create либо колонии. Прежде отложите семена на пересев и не трогайте текущий рацион жителей. Если рассчитываете на пекаря, посмотрите его настоящие запросы и выход: две стопки могут собираться дольше, чем кажется.",
         "Перед подтверждением соберите обе пачки по 64 в инвентаре, поскольку вся партия расходуется разом. Отдельный сундук поставок помогает не забрать последние буханки из общей кухни. После обмена проверьте остаток зерна: устойчивый запас пищи полезнее разового рекорда производства."
       ],
       "text_en": [
         "The bread tribute accepts 128 ordinary Minecraft loaves. This is food exchanged for a reward, not automatic MineColonies feeding: the book removes inventory items and does not distribute them to restaurants or the colony warehouse.",
-        "Make bread from wheat at a crafting table or use an established Create or colony food chain. Preserve seeds for replanting and the citizens’ current meals first. If relying on a baker, check actual requests and production output; the book guarantees no fixed time for two stacks.",
+        "Bake bread from wheat on a crafting table, or leave it to a food line you have already set up in Create or in the colony. First set aside seeds for resowing and leave the citizens' current rations alone. If you count on the baker, look at his real requests and output: two stacks may take longer to gather than you expect.",
         "Collect both stacks of 64 in your inventory before confirming, as the entire batch is consumed together. A separate delivery chest prevents taking the final loaves from the shared kitchen. Check grain reserves afterwards: a sustainable food supply matters more than a one-off production record."
       ]
     },
     "trials_late/sturdy": {
       "text": [
-        "Прочные листы нужны там, где обычного проката Create уже недостаточно. Поставка требует 64 готовых листа; обсидиановая пыль и необработанные заготовки ещё не являются результатом. Подготовьте устойчивую подачу лавы и место для охлаждённой готовой продукции.",
+        "Прочные листы нужны там, где обычный прокат Create уже не выдерживает. Поставка требует 64 готовых листа; обсидиановая пыль и недоделанные заготовки в счёт не идут. Позаботьтесь о ровной подаче лавы и о месте, куда будет уходить остывшая готовая продукция.",
         "Последовательная сборка начинается с обсидиановой пыли: носик подаёт 500 mB лавы, затем заготовка проходит два прессования. Это одна последовательность обработки, поэтому после первого нажатия пресса работа ещё не завершена. Сначала проведите одну заготовку через весь маршрут и проверьте её итоговое название.",
-        "Только после этого запускайте стак. При сдаче все 64 прочных листа должны лежать в инвентаре и будут израсходованы. Если выход забит промежуточными деталями, исправьте маршрут повторного прессования; дополнительная лава не заменяет пропущенную механическую операцию."
+        "Только после этого запускайте стопку. При сдаче все 64 прочных листа должны лежать в инвентаре и будут израсходованы. Если выход забит промежуточными деталями, исправьте маршрут повторного прессования; дополнительная лава не заменяет пропущенную механическую операцию."
       ],
       "text_en": [
-        "Sturdy sheets serve applications beyond ordinary Create plates. This delivery needs 64 completed sheets; obsidian dust and unprocessed blanks are not finished output. Prepare steady lava supply and room for completed products.",
+        "Sturdy sheets are needed where ordinary Create rolling no longer holds up. The delivery requires 64 finished sheets; obsidian dust and half-made blanks do not count. Arrange a steady lava supply and a place for the cooled finished product to go.",
         "Sequenced assembly starts with obsidian dust: a spout supplies 500 mB of lava, followed by two pressing operations. This is one processing sequence, so the first press stroke does not finish the job. Send a single blank through the entire route and check its final name first.",
         "Only then run a stack. All 64 sturdy sheets must be in your inventory at submission and will be consumed. If intermediate items clog the output, repair the second-pressing route; extra lava does not replace a missing mechanical operation."
       ]
@@ -250,13 +250,13 @@
     "trials_late/electrum": {
       "text": [
         "Электрум применяется в электрических деталях Create Crafts & Additions. Испытание просит 32 слитка и 64 проволоки именно этого дополнения. Похожие слитки других модов могут участвовать в рецептах, но цель поставки различает конкретные предметы.",
-        "Подготовьте сплав по доступному рецепту золота и серебра, затем часть продукции прокатайте в проволоку на прокатном стане. Не перерабатывайте весь металл: для сдачи нужен и остаток слитков. Проверьте JEI для точного выхода проволоки из одного слитка и рассчитайте сырьё до запуска серии.",
-        "Сложите обе партии в инвентарь одновременно; книга израсходует и 32 слитка, и 64 проволоки. Это не электрический кабель, уже установленный между машинами. Отдельные ящики полуфабрикатов позволяют сохранить рабочие компоненты и спокойно продолжить производство более дорогих сплавов."
+        "Сплавьте золото с серебром по рецепту дополнения, затем часть слитков прокатайте в проволоку на прокатном стане. Весь металл в стан не отправляйте: для сдачи нужны и слитки. Сколько проволоки даёт один слиток, покажет JEI; посчитайте сырьё до запуска серии.",
+        "Сложите обе партии в инвентарь разом: книга заберёт и 32 слитка, и 64 проволоки. Кабель, уже протянутый между машинами, сюда не годится. Держите полуфабрикаты в отдельных ящиках, и рабочие детали не уйдут вместе с поставкой, а производство дорогих сплавов пойдёт своим чередом."
       ],
       "text_en": [
         "Electrum is used in electrical components from Create Crafts & Additions. This trial requests 32 ingots and 64 wires specifically from that addon. Similar ingots from other mods may work in recipes, but delivery objectives distinguish exact items.",
-        "Prepare the alloy through an available gold-and-silver recipe, then roll part of the output into wire in a rolling mill. Do not process all the metal: the delivery also needs remaining ingots. Check JEI for wire yield per ingot and calculate inputs before starting the batch.",
-        "Hold both batches together in your inventory; the book consumes 32 ingots and 64 wires. Installed electrical connections between machines are not this item supply. Separate intermediate-product chests preserve working components while you continue into more expensive alloys."
+        "Alloy gold with silver by the add-on's recipe, then roll part of the ingots into wire on the rolling mill. Do not send all the metal through the mill: the hand-in needs ingots too. JEI shows how much wire one ingot yields; work out the raw materials before starting the run.",
+        "Put both batches in your inventory at once: the book takes the 32 ingots and the 64 wires. Cable already strung between machines does not qualify. Keep intermediates in separate crates, and your working parts will not leave with the delivery while production of the costlier alloys carries on."
       ]
     },
     "trials_late/nethersteel": {
@@ -275,12 +275,12 @@
       "text": [
         "Полимерная поставка соединяет два направления химии Immersive Engineering: 32 дуропластовые пластины и четыре ведра биодизеля. Эти материалы не получают простой переплавкой древесины. Понадобятся работающие химические многоблочные машины и раздельные ёмкости для промежуточных жидкостей.",
         "Пластины отливаются в разливочной машине из фенольной смолы с формой пластины; на одну уходит 250 mB, форма возвращается. Биодизель производится в очистительной установке из растительного масла и этанола с селитрой как катализатором. Проверяйте питание и свободный жидкостный выход каждого участка.",
-        "Перенесите готовые пластины и четыре заполненных ведра в инвентарь одновременно. Сдача израсходует обе партии, включая предметы вёдер; пустая тара не гарантируется. Запас смолы и топлива оставьте на базе: награда за испытание не означает, что ваша химическая линия сможет работать без дальнейшего снабжения."
+        "Перенесите готовые пластины и четыре полных ведра в инвентарь одновременно. Сдача заберёт обе партии вместе с самими вёдрами: пустую тару назад не ждите. Запас смолы и топлива оставьте на базе, иначе химическая линия встанет сразу после награды."
       ],
       "text_en": [
         "The polymer delivery combines two Immersive Engineering chemical products: 32 duroplast plates and four biodiesel buckets. Simple wood smelting does not produce these materials. Working chemical multiblocks and separate intermediate-fluid containers are required.",
         "Plates are cast in a bottling machine using phenolic resin and a plate mold; each costs 250 mB and returns the mold. Biodiesel is made in a refinery from plant oil and ethanol with saltpeter as catalyst. Check power and free fluid output space throughout the chain.",
-        "Bring the finished plates and four filled buckets into your inventory together. Submission consumes both batches, including bucket items; empty containers are not guaranteed. Keep resin and fuel reserves at the base: a trial reward does not make the chemical line independent of further supplies."
+        "Move the finished plates and four full buckets into your inventory at the same time. The hand-in takes both batches together with the buckets themselves: do not expect the empty containers back. Keep a reserve of resin and fuel at the base, or the chemical line will stop right after the reward."
       ]
     },
     "trials_late/atomic": {
@@ -297,26 +297,26 @@
     },
     "trials_late/polonium": {
       "text": [
-        "Восемь полониевых и восемь плутониевых гранул относятся к переработке ядерных отходов Mekanism. Они подтверждают наличие конечных предметов, но не доказывают безопасную работу реактора. Начинайте поставку только после устойчивого охлаждения, отвода отходов и проверенного аварийного отключения.",
+        "Восемь полониевых и восемь плутониевых гранул — плоды переработки ядерных отходов Mekanism. Гранулы в сундуке ещё ничего не говорят о том, безопасен ли ваш реактор. Беритесь за поставку только тогда, когда охлаждение держится, отходы уходят, а аварийное отключение проверено.",
         "Отходы делятся между солнечным нейтронным активатором для полония и изотопным центрифугированием для плутония; гранулы получают последующей обработкой в камере реакций по рецептам. Радиоактивные трубы и ёмкости нельзя разбирать с содержимым: возможен выброс радиации. Для работ используйте полный защитный комплект и сохраняйте контроль дозы.",
         "Сами готовые гранулы выделите в отдельный запас: все шестнадцать требуются при сдаче одновременно и расходуются. Нехватку солнечного света или реагента устраняйте на соответствующем участке, не повышая мощность реактора вслепую. Награда не компенсирует перегрев и загрязнение базы."
       ],
       "text_en": [
-        "Eight polonium pellets and eight plutonium pellets belong to Mekanism nuclear-waste processing. They prove possession of final items, not safe reactor operation. Begin this delivery only after establishing stable cooling, waste removal and a tested emergency shutdown.",
+        "Eight polonium and eight plutonium pellets are the fruit of Mekanism's nuclear waste processing. Pellets in a chest say nothing about whether your reactor is safe. Take on the delivery only once the cooling holds, the waste flows out, and the emergency shutdown has been tested.",
         "Waste branches into a solar neutron activator for polonium and isotopic centrifuging for plutonium; later reaction-chamber processing produces pellets according to the recipes. Do not dismantle radioactive pipes or containers while occupied: radiation may be released. Use complete protective equipment and monitor exposure during this work.",
         "Set aside the completed pellets: all sixteen are required together at submission and are consumed. Correct missing sunlight or reagents at the affected stage instead of blindly increasing reactor output. The reward cannot compensate for overheating or contamination of your base."
       ]
     },
     "trials_late/disks": {
       "text": [
-        "Архивная поставка принимает четыре компонента хранения на 64k, а не диски с содержимым вашей сети. Компонент — материал для изготовления диска, он не хранит предметы. Такой заказ проверяет выпуск памяти и позволяет сохранить действующее хранилище без переноса тысяч вещей.",
+        "Архивная поставка принимает четыре компонента хранения на 64k, а не диски с содержимым вашей сети. Компонент — заготовка для диска, сам он ничего не хранит. Так заказ проверяет выпуск памяти, а действующее хранилище остаётся нетронутым: переносить тысячи вещей не придётся.",
         "Соберите части меньшей ёмкости в четыре компонента 64k по рецептам Refined Storage. Один компонент вместе с корпусом даёт один диск соответствующей ёмкости. Не извлекайте заполненные диски из накопителя ради задания и не рассчитывайте, что книга проверит их пустоту перед расходованием.",
-        "Все четыре компонента должны находиться в инвентаре одновременно и будут израсходованы. Награда из восьми таких компонентов позволит собрать восемь дисков при наличии корпусов, а не два. Перед установкой расширения проверьте питание сети и распределение данных обычным интерфейсом хранения."
+        "Все четыре компонента должны лежать в инвентаре одновременно; при сдаче они исчезнут. Награда возвращает восемь таких компонентов, и с корпусами из них выйдет восемь дисков, а не два. Перед тем как расширять сеть, проверьте её питание и загляните в сетку: где что лежит и хватает ли места."
       ],
       "text_en": [
-        "The archive delivery accepts four 64k storage parts, not disks containing your network’s belongings. A part is a disk-crafting component and cannot hold items. This order tests memory production while preserving active storage without relocating thousands of items.",
+        "The archive delivery accepts four 64k storage parts, not disks holding your network's contents. A part is the blank for a disk; it stores nothing on its own. That way the order tests your memory output while the working storage stays untouched: no need to move thousands of items.",
         "Combine smaller-capacity parts into four 64k components using Refined Storage recipes. One component plus a housing produces one disk of that capacity. Do not remove filled disks from a drive for this objective or assume the book checks whether they are empty before consuming them.",
-        "All four components must be in your inventory together and will be consumed. The eight rewarded components can make eight disks when housings are provided, not two. Before installing the expansion, inspect network power and data distribution through the normal storage interface."
+        "All four parts must be in your inventory at the same time; they vanish on hand-in. The reward returns eight such parts, and with housings they make eight disks, not two. Before expanding the network, check its power and look at the grid: what sits where, and whether there is room."
       ],
       "tasks_override": [
         {
@@ -344,24 +344,24 @@
     },
     "trials_late/levitite": {
       "text": [
-        "Левитит Aeronautics связан с подъёмной частью воздушных конструкций. Здесь нужно выделить 64 единицы обычного левитита, не его жемчужного варианта. Поставка относится к запасу материала и не доказывает, что собранный корабль способен поднять собственную массу.",
+        "Левитит Aeronautics — материал подъёмной части воздушных конструкций. Здесь нужно отложить 64 единицы обычного левитита, не жемчужного. Поставка касается только запаса материала; поднимет ли собранный корабль собственный вес, покажет лишь пробный взлёт.",
         "Сначала проверьте доступный рецепт и способы получения именно обычного левитита в установленной сборке. Подготовьте сырьё отдельной партией, не снимая подъёмные элементы с действующего судна. Для испытаний полёта оставьте материал на земле: изменение конструкции в воздухе способно нарушить её равновесие и подъём.",
-        "Весь стак должен лежать в инвентаре во время сдачи, после чего книга его израсходует. Если цель показывает меньше ожидаемого, проверьте разновидность материала и не включайте в подсчёт уже установленные блоки. Полученные авиационные компоненты устанавливайте затем на пришвартованную конструкцию с повторной проверкой управляемости."
+        "Вся стопка должен лежать в инвентаре во время сдачи, после чего книга его израсходует. Если цель показывает меньше ожидаемого, проверьте разновидность материала и не включайте в подсчёт уже установленные блоки. Полученные авиационные компоненты устанавливайте затем на пришвартованную конструкцию с повторной проверкой управляемости."
       ],
       "text_en": [
-        "Aeronautics levitite belongs to the lifting systems of aerial constructions. Set aside 64 pieces of ordinary levitite, not the pearlescent variant. The delivery concerns material reserves and does not prove that an assembled vessel can lift its own mass.",
+        "Aeronautics levitite is the material of an airship's lifting parts. Set aside 64 units of plain levitite here, not the pearlescent kind. The delivery concerns only the stock of material; whether the assembled ship can lift its own weight, only a test flight will tell.",
         "First inspect the available recipe and acquisition methods for ordinary levitite in this installed pack. Prepare a separate raw-material batch without removing lifting elements from an operating vessel. Keep flight-test materials on the ground: modifying a structure in flight can disturb its balance and lift.",
         "The entire stack must be in your inventory during submission, after which the book consumes it. If the objective shows less than expected, check the material variant and exclude already installed blocks. Fit rewarded aviation components to a moored structure, then recheck controllability."
       ]
     },
     "trials_late/truadamantite": {
       "text": [
-        "Труадамантит Eternal Tales — составной поздний материал, а не гарантированная руда одного измерения. Для поставки нужны 16 слитков. Прежде чем отдавать редкий металл, оставьте необходимое для своего снаряжения: награда не обязана совпадать с текущими потребностями вашего персонажа.",
+        "Труадамантит Eternal Tales — составной поздний материал, а не руда, которую можно выкопать в одном измерении. Для поставки нужны 16 слитков. Прежде чем отдавать редкий металл, отложите долю на собственное снаряжение: награда не обязана совпадать с тем, чего сейчас не хватает вашему герою.",
         "В установленном рецепте слиток собирается из серного гриба, вольфрама, незерита, венетия, адамантита и двух мембран фантома. Проверьте доступность каждого ингредиента по отдельности; наличие доступа в Янтарное королевство само по себе не создаёт эти ресурсы. Сначала изготовьте один слиток и подтвердите конечный предмет.",
         "Накопите шестнадцать слитков в инвентаре одновременно: сдача расходует всю партию. Блоки и самородки предварительно распакуйте в слитки по обратным рецептам. Такое завершение цепочки показывает устойчивый сбор разнородных ресурсов, а не только удачную добычу единственного редкого сундука."
       ],
       "text_en": [
-        "Eternal Tales truadamantite is a late composite material, not a guaranteed ore from one dimension. The delivery needs 16 ingots. Reserve metal required for your own equipment before trading it; the reward may not match your character’s immediate needs.",
+        "Eternal Tales truadamantite is a composite late-game material, not an ore you can dig up in a single dimension. The delivery needs 16 ingots. Before giving away the rare metal, set a share aside for your own gear: the reward is not obliged to match what your character lacks right now.",
         "The installed ingot recipe combines brimstone fungi, tungsten, netherite, venetium, adamantite and two phantom membranes. Check each ingredient’s availability separately; access to the Kingdom of Amber does not create these resources automatically. Craft one ingot first and verify the resulting item.",
         "Accumulate sixteen ingots together in your inventory: submission consumes the entire batch. Unpack blocks or combine nuggets into ingots using their corresponding recipes beforehand. Finishing this chain demonstrates sustained collection of varied resources rather than one lucky rare chest."
       ]
@@ -370,12 +370,12 @@
       "text": [
         "Драконоборец отмечает личное достижение победы над драконом Края. Для экспедиции найдите крепость, активируйте портал оками Края и подготовьте броню, дальнобойное оружие, блоки и средство пережить падение. Путь в Нижний мир открывает карточку, но не заменяет подготовку портала Края.",
         "На острове сначала отключайте лечение дракона, уничтожая кристаллы на башнях с безопасного расстояния. Следите за дыханием на земле и не стойте на краю платформы. При посадке дракона выбирайте позицию, из которой сможете отступить, а не застрять под его телом.",
-        "После победы откройте достижения и проверьте собственную отметку убийства дракона. Одно присутствие рядом не гарантирует нужный личный прогресс. Книга ничего не списывает, яйцо приносить не требуется; награду забирайте после возвращения в безопасное место с доступными ячейками инвентаря."
+        "После победы откройте достижения и найдите собственную отметку об убийстве дракона: стоять рядом, пока его добивает товарищ, недостаточно. Яйцо приносить не нужно, а награду лучше забирать уже дома, когда в инвентаре найдётся свободное место."
       ],
       "text_en": [
         "Dragonslayer records your personal advancement for defeating the Ender Dragon. Find a stronghold, activate its portal with Eyes of Ender, and prepare armour, ranged weapons, blocks and fall protection. Nether access unlocks this card but does not prepare the End portal for you.",
         "On the island, first disable the dragon’s healing by destroying tower crystals from a safe distance. Watch for breath on the ground and avoid platform edges. When the dragon lands, choose a position with an escape route instead of becoming trapped beneath it.",
-        "After victory, check your own dragon-kill advancement. Merely standing nearby does not guarantee the required personal progress. The book consumes nothing and needs no egg; claim the reward once safe and with inventory space."
+        "After the victory, open the advancements and find your own dragon-kill entry: standing nearby while a friend finishes it off is not enough. There is no need to bring the egg, and the reward is best collected back home, once there is free space in your inventory."
       ],
       "task_notes": {
         "0": {
@@ -388,12 +388,12 @@
       "text": [
         "Эта карточка проверяет призыв Иссушителя, потому что именно так устроено выбранное достижение Minecraft. Победу она автоматически не подтверждает. Подготовьте три черепа скелетов-иссушителей и четыре блока песка душ либо почвы душ, а также снаряжение для последующего боя.",
         "Выберите площадку вдали от базы, животных и важных построек. Соберите Т-образное основание из блоков душ и завершите конструкцию тремя черепами сверху. Последний установленный череп запускает призыв; немедленно отойдите, поскольку появление босса сопровождается опасной фазой зарядки и взрывом.",
-        "Достижение может появиться ещё до окончания боя. Не открывайте награды, пока Иссушитель угрожает вам или миру, и не считайте галочку причиной оставить его без контроля. Книга не расходует трофеи; завершение самого боя и сохранность площадки остаются вашей отдельной игровой задачей."
+        "Достижение может выпасть ещё до конца боя. Не открывайте награду, пока Иссушитель угрожает вам или окрестностям, и не считайте галочку поводом бросить его без присмотра. Добить босса и уберечь площадку — уже ваша отдельная задача, трофеи при этом остаются при вас."
       ],
       "text_en": [
         "This card checks summoning the Wither, because that is what the selected Minecraft advancement records. It does not automatically verify victory. Prepare three wither skeleton skulls and four soul sand or soul soil blocks, plus equipment for the subsequent fight.",
         "Choose a site far from your base, animals and important buildings. Build a T-shaped soul-block frame and complete it with three skulls on top. The final skull triggers summoning; retreat immediately because the boss appears through a dangerous charging phase and explosion.",
-        "The advancement may appear before combat ends. Do not open rewards while the Wither threatens you or the world, and do not treat the checkmark as permission to leave it uncontrolled. The book consumes no trophies; finishing the fight and securing the site remain separate gameplay responsibilities."
+        "The advancement may appear before the fight is over. Do not open the reward while the Wither threatens you or the surroundings, and do not take the tick as a reason to leave him unattended. Finishing the boss and keeping the site intact is your own separate task, and the trophies stay with you."
       ],
       "title": "Призвать Иссушителя",
       "title_en": "Summon the Wither",
@@ -426,12 +426,12 @@
       "text": [
         "Лич продолжает прогрессию после Наги: установленное достижение требует завершённого этапа Наги даже при наличии трофея Лича. Перед подъёмом в башню проверьте эту отметку, подготовьте еду и расчистите путь отступления через уже посещённые этажи.",
         "В начале боя защиту Лича снимают отражением подходящих магических снарядов обратно в настоящего босса. Его копии затрудняют выбор цели; не тратьте всё снаряжение на неуязвимые силуэты. Когда защита меняется, переходите к борьбе с призванными противниками и самому Личу, сохраняя место для манёвра.",
-        "После победы заберите трофей или скипетр и проверьте личное достижение. Установленная версия принимает несколько подтверждений боя, но не отменяет требование Наги. Книга ничего не расходует; сохранённые предметы пригодятся для собственного оснащения и дальнейшего пути по Сумеречному лесу."
+        "После победы заберите трофей или скипетр и проверьте личное достижение. Установленная версия принимает несколько подтверждений боя, но требование Наги никуда не девается. Предметы оставьте себе: они пригодятся и для снаряжения, и на дальнейшем пути по Сумеречному лесу."
       ],
       "text_en": [
         "The Lich follows the Naga: the installed advancement requires Naga progress even if you possess a Lich trophy. Check that milestone before climbing the tower, prepare food and clear an escape route through previously visited floors.",
         "Initially, remove the Lich’s shields by reflecting suitable magical projectiles into the real boss. Copies complicate targeting; do not spend all your equipment attacking invulnerable silhouettes. As its protection changes, deal with summoned enemies and the Lich while preserving room to manoeuvre.",
-        "After victory, collect a trophy or scepter and check your personal advancement. The installed version accepts several combat confirmations but retains the Naga requirement. The book consumes nothing; the retained items support your equipment and further Twilight Forest progression."
+        "After the victory, take the trophy or the scepter and check your personal advancement. The installed version accepts several proofs of the fight, but the Naga requirement stays in place. Keep the items: they will serve both your gear and the road ahead through the Twilight Forest."
       ],
       "task_notes": {
         "0": {
@@ -443,13 +443,13 @@
     "trials_bosses/hydra": {
       "text": [
         "Гидра относится к огненному участку Сумеречного леса, куда приходят после лабиринта. У её достижения есть обязательная зависимость от этапа лабиринта, поэтому одна принесённая голова не гарантирует зачёт. Проверьте местную цепочку, включая мясной строганов, прежде чем искать логово.",
-        "Возьмите огнестойкость, запас еды и оружие, позволяющее уверенно поражать раскрывающиеся головы. Держитесь так, чтобы видеть подготовку атак, и отходите от огненных зон. Плотное укрытие у самой Гидры может лишить вас обзора и пути отступления вместо ожидаемой защиты.",
-        "После боя подберите трофей и проверьте оба условия личного достижения: этап лабиринта и подтверждение встречи с Гидрой. Книга допускает предусмотренные модом варианты боевого прогресса и не расходует голову. Если галочки нет, сначала проверьте цепочку, а не начинайте немедленно повторный бой."
+        "Возьмите огнестойкость, запас еды и оружие, которым уверенно поражаете раскрывающиеся головы. Держитесь на таком расстоянии, чтобы видеть замах, и уходите с горящих участков. Тесное укрытие у самой Гидры вместо защиты отнимает обзор и путь к отступлению.",
+        "После боя подберите трофей и проверьте оба условия достижения: этап лабиринта и подтверждённую встречу с Гидрой. Мод засчитывает несколько вариантов боевого прогресса, голова остаётся у вас. Если галочки нет, сначала пройдитесь по цепочке, а не бросайтесь в повторный бой."
       ],
       "text_en": [
         "The Hydra belongs to the fiery Twilight Forest region reached after the labyrinth. Its advancement requires labyrinth progress, so bringing a head alone does not guarantee completion. Check local progression, including Meef Stroganoff, before searching for the lair.",
-        "Bring fire resistance, food reserves and a weapon that can reliably strike opening heads. Position yourself to see attacks being prepared and leave burning areas. Tight cover immediately beside the Hydra may remove visibility and escape routes instead of providing protection.",
-        "After combat, collect the trophy and check both parts of your personal advancement: labyrinth progress and confirmation of the Hydra encounter. The book accepts the mod’s supported combat alternatives without consuming the head. If the checkmark is missing, inspect progression before immediately repeating the fight."
+        "Bring fire resistance, food and a weapon you can reliably strike the opening heads with. Keep far enough to see the attacks wind up, and step off burning ground. Tight cover right beside the Hydra takes away your view and your escape instead of protecting you.",
+        "After the fight, pick up the trophy and check both conditions of the advancement: the labyrinth stage and the confirmed Hydra encounter. The mod accepts several forms of combat progress, and the head stays with you. If the tick is missing, go over the chain first instead of rushing into a rematch."
       ],
       "task_notes": {
         "0": {
@@ -461,12 +461,12 @@
     "trials_bosses/terrible_tree": {
       "text": [
         "Ужасное дерево связано с путешествием по Кометам Eternal Tales. Испытание использует достижение, которое установленный мод выдаёт за получение Кометного знамени в инвентарь. Поэтому после победы важно забрать именно трофей, а не только собрать лежащие рядом материалы.",
-        "Подготовьте маршрут возвращения из Комет, проверьте прочность снаряжения и оставьте свободную ячейку для знамени. Местную последовательность поиска встречи проходите по книге и достижениям Eternal Tales. Не предполагайте, что любое крупное дерево является боссом или что обычный топор автоматически решает бой.",
+        "Продумайте обратный путь с Комет, проверьте прочность снаряжения и оставьте свободную ячейку под знамя. Как найти встречу, подскажут книга и достижения Eternal Tales. Не всякое большое дерево — босс, и обычный топор этот бой не решит.",
         "После сражения подберите Кометное знамя и дождитесь обновления достижения, прежде чем ставить его на стену. Книга трофей не забирает. Если цель осталась пустой, проверьте личный инвентарь и отметку достижения: добыча, сразу ушедшая в чужую сумку или внешнее хранилище, не была получена вами."
       ],
       "text_en": [
         "Terrible Tree belongs to an Eternal Tales expedition through Comets. This trial uses an advancement awarded by the installed mod when a Comet Banner enters your inventory. After victory, collect that trophy rather than only nearby materials.",
-        "Prepare a return route from Comets, check equipment durability and reserve an inventory slot for the banner. Follow Eternal Tales’ book and advancements for the local encounter sequence. Do not assume every large tree is the boss or that an ordinary axe automatically solves the fight.",
+        "Plan your way back from the Comets, check the durability of your gear and leave a free slot for the banner. The Eternal Tales guide and advancements show how to find the encounter. Not every big tree is a boss, and an ordinary axe will not settle this fight.",
         "After combat, pick up the Comet Banner and let the advancement update before mounting it on a wall. The book does not take the trophy. If the objective remains empty, inspect your personal inventory and advancement: loot sent directly to someone else’s bag or external storage was not acquired by you."
       ],
       "task_notes": {
@@ -480,12 +480,12 @@
       "text": [
         "Ньетет, Павший страж, относится к Чистилищу Eternal Tales. Эта карточка фиксирует получение Знамени Чистилища, которым мод подтверждает соответствующий этап. Посещение измерения и наличие подходящего снаряжения сами по себе не завершают трофейное испытание.",
         "Перед встречей оставьте запас еды и ремонтных материалов в безопасной точке возвращения. Найдите нужный этап местной цепочки и подготовьте площадку, с которой можно отступить без падения в неизвестную область. В совместной игре заранее решите, кто подбирает трофей, чтобы он не потерялся среди остальной добычи.",
-        "После победы возьмите Знамя Чистилища в собственный инвентарь и проверьте достижение. Размещённое у товарища знамя не равнозначно вашему получению предмета. Книга ничего не списывает, поэтому после регистрации его можно сохранить как памятный трофей и продолжить путешествие к следующим мирам."
+        "После победы возьмите Знамя Чистилища в собственный инвентарь и проверьте достижение. Знамя, которое подобрал товарищ, вашей отметки не даст. Зато после регистрации его можно повесить дома на память и двигаться к следующим мирам."
       ],
       "text_en": [
         "Nyetet, the Fallen Guardian, belongs to Eternal Tales’ Purgatory. This card records obtaining the Purgatory Banner, which the mod uses to confirm that stage. Visiting the dimension and owning suitable equipment alone do not complete the trophy trial.",
         "Leave food and repair supplies at a safe return point before the encounter. Locate the relevant stage of local progression and prepare a position with an escape route that does not drop into unknown terrain. In multiplayer, agree who collects the trophy so it is not lost among other loot.",
-        "After victory, place the Purgatory Banner in your own inventory and check the advancement. A banner displayed at a teammate’s base does not equal your acquisition of it. The book consumes nothing, so keep the registered banner as a trophy and continue towards later worlds."
+        "After the victory, take the Purgatory Banner into your own inventory and check the advancement. A banner picked up by a friend will not give you the entry. Once registered, though, you can hang it at home as a keepsake and move on to the next worlds."
       ],
       "task_notes": {
         "0": {
@@ -498,12 +498,12 @@
       "text": [
         "Птерион — отдельный трофейный этап Раяны в Eternal Tales. Установленное достижение реагирует на Знамя Раяны в инвентаре, поэтому не путайте завершение боя с автоматическим получением личной отметки. Трофей должен попасть к вашему персонажу хотя бы один раз.",
         "Снаряжайтесь для экспедиции, а не только для короткой дуэли: возьмите еду, запас прочности оружия и средства безопасного возвращения. Найдите встречу по местной прогрессии Раяны. На незнакомом рельефе сначала определите края и проходы; погоня за противником не должна уводить вас от единственного безопасного выхода.",
-        "Подберите Знамя Раяны после победы и проверьте достижение до передачи добычи другим игрокам. Книга не расходует знамя, и повторно носить его ради награды не требуется после регистрации. Если этап не закрывается, ищите пропущенное получение трофея, а не считайте соседнее знамя равноценной заменой."
+        "Подберите Знамя Раяны после победы и проверьте достижение прежде, чем делить добычу с другими игроками. Носить его с собой после регистрации не нужно. Если этап не закрывается, ищите, где потерялся сам трофей, а не пытайтесь подменить его знаменем из соседнего мира."
       ],
       "text_en": [
         "Pterion is a distinct trophy stage in Eternal Tales’ Rayana. The installed advancement reacts to a Rayana Banner in your inventory, so combat completion does not automatically imply personal registration. Your character must acquire the trophy at least once.",
         "Prepare for an expedition rather than a short duel: bring food, sufficient weapon durability and a safe return method. Locate the encounter through Rayana’s local progression. On unfamiliar terrain, identify edges and passages first; pursuing an enemy should not separate you from the only safe exit.",
-        "Collect the Rayana Banner after victory and check the advancement before giving loot to other players. The book does not consume the banner, and once registered you need not carry it again for the reward. If progress is missing, look for an uncollected trophy rather than treating another banner as equivalent."
+        "Pick up the Rayana Banner after the victory and check the advancement before sharing the loot with other players. Once registered, you need not carry it around. If the stage does not close, look for where the trophy itself went missing rather than trying to substitute a banner from a neighbouring world."
       ],
       "task_notes": {
         "0": {
@@ -515,13 +515,13 @@
     "trials_bosses/xaxxas": {
       "text": [
         "Ксаксас XIX завершает важную часть истории Янтарного королевства Eternal Tales. Испытание проверяет достижение через Королевское знамя. Оно отличается от декоративных знамён других миров; для зачёта нужен именно трофей этого этапа, а не любой королевский предмет по названию.",
-        "Подготовьте снаряжение и припасы до выхода на заключительный участок местной цепочки. Сохраняйте маршрут через уже изученные помещения и не складывайте нужные для продвижения предметы в случайный сундук. Следуйте событиям и диалогам королевства: открытая карточка испытания не отменяет сюжетные условия встречи.",
-        "После победы получите Королевское знамя в собственный инвентарь и дождитесь достижения. Его можно затем разместить дома: книга не забирает трофеи. Перед дальнейшим переходом проверьте восстановление здоровья, целостность снаряжения и сохранность сюжетной добычи, чтобы награда не отвлекла от подготовки к следующему миру."
+        "Снаряжение и припасы соберите до того, как выйти на последний участок королевской цепочки. Держитесь пути через уже изученные залы и не оставляйте нужные для продвижения предметы в случайном сундуке. Слушайте события и разговоры королевства: открытая карточка испытания не отменяет сюжетных условий встречи.",
+        "После победы возьмите Королевское знамя в собственный инвентарь и дождитесь достижения. Потом его можно повесить дома. Перед переходом дальше восстановите здоровье, почините снаряжение и пересчитайте сюжетную добычу, чтобы награда не отвлекла от подготовки к следующему миру."
       ],
       "text_en": [
         "Xaxxas XIX concludes an important part of Eternal Tales’ Kingdom of Amber story. The trial checks the advancement through the Royal Banner. It differs from decorative banners of other worlds; this specific stage trophy is required, not any item with a royal-sounding name.",
-        "Prepare equipment and supplies before entering the final part of local progression. Keep a route through explored rooms and avoid leaving progression items in random chests. Follow kingdom events and dialogue: an unlocked trial card does not remove the encounter’s story requirements.",
-        "After victory, acquire the Royal Banner in your own inventory and wait for the advancement. You can then display it at home because the book does not take trophies. Before continuing, check health, equipment durability and story loot so the reward does not distract from preparing for the next world."
+        "Gather gear and supplies before setting out on the final stretch of the kingdom's chain. Keep to the route through halls you already know and do not leave items needed for progress in some random chest. Follow the kingdom's events and conversations: an open trial card does not cancel the story conditions of the encounter.",
+        "After the victory, take the Royal Banner into your own inventory and wait for the advancement. Afterwards you can hang it at home. Before moving on, restore your health, repair your gear and count the story loot, so the reward does not distract you from preparing for the next world."
       ],
       "task_notes": {
         "0": {
@@ -532,14 +532,14 @@
     },
     "trials_bosses/unahzaal": {
       "text": [
-        "Унахзаал — финальное испытание основной истории Eternal Tales. Здесь проверяется отдельное достижение победы, которое выдаёт логика мода; декоративный блок измерения на иконке не является предметом для сдачи. Один визит в Мультивселенную Унахзаала эту цель не закрывает.",
+        "Унахзаал — финальное испытание основной истории Eternal Tales. Книга ждёт отдельное достижение победы, которое выдаёт сам мод; блок измерения на иконке — лишь картинка, сдавать его не нужно. Одним визитом в Мультивселенную Унахзаала цель не закрыть.",
         "Завершите предшествующие сюжетные этапы и подготовьте полноценный набор припасов, ремонта и восстановления. Перед входом проверьте, где лежит запасное снаряжение и каким способом вы возвращаетесь после неудачи. Не начинайте финальную встречу сразу после тяжёлой экспедиции с почти сломанным оружием и пустым запасом еды.",
-        "После победы дождитесь завершения события и проверьте личное достижение Eternal Tales. Это обычный финал; отдельный режим Вечной тьмы и его специальные условия здесь не требуются. Книга ничего не расходует, а награду лучше получать уже после безопасного завершения финальной сцены."
+        "После победы дождитесь конца события и проверьте личное достижение Eternal Tales. Это обычный финал; Вечная Тьма с её особыми условиями вынесена в другую главу. Награду забирайте, когда финальная сцена благополучно завершится."
       ],
       "text_en": [
-        "Unahzaal is the final trial of Eternal Tales’ main story. This objective checks a dedicated victory advancement awarded by the mod’s logic; the dimension block shown as its icon is not a delivery item. Merely visiting Unahzaal’s Multiverse does not complete it.",
+        "Unahzaal is the final trial of the main Eternal Tales story. The book waits for the separate victory advancement granted by the mod itself; the dimension block on the icon is only a picture, nothing to hand in. A single visit to the Unahzaal Multiverse will not close this goal.",
         "Finish preceding story stages and prepare complete supplies for repair, recovery and combat. Before entering, check where spare equipment is stored and how you return after a failed attempt. Do not begin the final encounter straight after a demanding expedition with nearly broken weapons and no food.",
-        "After victory, let the event finish and check your personal Eternal Tales advancement. This is the ordinary finale; Eternal Darkness mode and its additional conditions are not required here. The book consumes nothing, and rewards are best claimed after the final scene has safely concluded."
+        "After the victory, wait for the event to end and check your personal Eternal Tales advancement. This is the regular ending; Eternal Darkness with its special conditions belongs to another chapter. Collect the reward once the final scene has safely concluded."
       ],
       "task_notes": {
         "0": {
@@ -552,12 +552,12 @@
       "text": [
         "Эта карточка считает гарнизон из восьми воинов MineColonies, а не отражённый набег. Исправленное название помогает планировать мирное развитие: вы можете выполнить цель, заранее организовав оборону колонии, не провоцируя нападение и не ожидая случайного события.",
         "Постройте достаточно военных рабочих мест, наймите жителей на соответствующие должности и выдайте им подходящее по уровню снаряжение. Восемь зданий не равны восьми назначенным воинам. Проверьте каждого работника через интерфейс колонии и устраните нехватку еды, оружия или доступа к рабочему месту.",
-        "Когда в армии будет восемь человек, проверьте личное достижение военной ветки. Книга не требует сдачи мечей и не проверяет качество патрульных маршрутов. После награды отдельно осмотрите входы в поселение и пути охраны: численность полезна только тогда, когда воины могут добраться до места угрозы."
+        "Когда в армии наберётся восемь человек, загляните в достижения военной ветки. Мечи сдавать не придётся. После награды пройдитесь по входам в поселение и дорогам охраны: восемь воинов чего-то стоят, лишь если они успевают добежать туда, где нужны."
       ],
       "text_en": [
         "This card counts a MineColonies garrison of eight soldiers rather than a defeated raid. The corrected name supports peaceful planning: organise colony defence in advance without provoking an attack or waiting for a random event.",
         "Build enough military workplaces, assign citizens to the relevant jobs and provide equipment suitable for their levels. Eight buildings do not equal eight assigned soldiers. Inspect workers through the colony interface and resolve missing food, weapons or access to their posts.",
-        "Once the army contains eight people, check your personal military advancement. The book requires no sword delivery and does not evaluate patrol routes. After claiming the reward, inspect settlement entrances and guard paths separately: troop numbers help only when soldiers can reach the threat."
+        "Once the army counts eight people, check the military branch advancement. No swords need handing in. After the reward, walk the settlement entrances and the guards' roads: eight soldiers are worth something only if they can reach where they are needed in time."
       ],
       "title": "Восемь воинов",
       "title_en": "Eight Soldiers",
@@ -570,14 +570,14 @@
     },
     "trials_early/guide_replant": {
       "text": [
-        "После сдачи бревен полезно проверить, остался ли у вас лес на следующий заказ. Соберите восемь дубовых саженцев из опадающих листьев и приготовьте освещённую площадку с землёй. Это небольшая возобновляемая посадка, а не требование вырубить ещё один природный лес.",
+        "После сдачи брёвен полезно проверить, остался ли у вас лес на следующий заказ. Соберите восемь дубовых саженцев из опадающих листьев и приготовьте освещённую площадку с землёй. Это небольшая возобновляемая посадка, а не требование вырубить ещё один природный лес.",
         "Покажите все восемь саженцев в инвентаре одновременно, затем высаживайте: учтённые предметы можно использовать, запасная партия не нужна. Оставляйте над посадками свободное пространство и не размещайте их под низкой крышей. Первый выросший дуб подтвердит, что площадка действительно пригодна для выращивания.",
-        "Ручную цель отмечайте только после появления дерева на вашей посадке. Само наличие саженцев не проверяет освещение и условия роста. Сохраните несколько новых саженцев после рубки: так древесные поставки перестанут зависеть от постоянно увеличивающегося расстояния до нетронутого леса."
+        "Отмечайте ручную цель, когда на вашей посадке поднялось первое дерево: только оно и доказывает, что света и места хватает. После рубки приберегите несколько новых саженцев, и древесные поставки перестанут зависеть от того, как далеко ушёл нетронутый лес."
       ],
       "text_en": [
         "After delivering logs, check that you still have a forest for the next order. Collect eight oak saplings from decaying leaves and prepare a lit patch of dirt. This is a small renewable plantation, not a demand to clear another natural forest.",
         "Hold all eight saplings together in your inventory, then plant them: registered items may be used without preparing another batch. Leave clear space above and avoid low roofs. The first grown oak confirms that the site actually supports growth.",
-        "Confirm the manual objective only once a tree grows in your plantation. Owning saplings does not verify light or growth conditions. Keep fresh saplings after logging so future wood deliveries no longer depend on travelling farther to untouched woodland."
+        "Tick the manual goal once the first tree has risen on your plot: it alone proves there is enough light and room. After felling, keep a few new saplings, and your timber deliveries will no longer depend on how far away the untouched forest has drifted."
       ],
       "task_notes": {
         "1": {
@@ -588,12 +588,12 @@
     },
     "trials_early/guide_charcoal": {
       "text": [
-        "Древесный уголь позволяет снабжать первые печи без поиска новой угольной жилы. Эта боковая поставка принимает шестнадцать единиц именно древесного угля. Обычный уголь горит похожим образом, но не является тем же предметом для указанной цели.",
-        "Вырастите деревья на своей посадке, оставьте древесину на строительство, а излишек бревен пережгите в печи. На первый запуск потребуется отдельное топливо; затем часть полученного древесного угля можно возвращать в топку. Не превращайте бревна в доски перед пережигом, иначе это будет уже другой входной материал.",
+        "Древесный уголь кормит первые печи, пока новая угольная жила ещё не найдена. Эта боковая поставка принимает шестнадцать кусков именно древесного угля. Каменный горит так же, но для книги это другой предмет.",
+        "Вырастите деревья на своей посадке, оставьте древесину на строительство, а излишек брёвен пережгите в печи. На первый запуск потребуется отдельное топливо; затем часть полученного древесного угля можно возвращать в топку. Не превращайте брёвна в доски перед пережигом, иначе это будет уже другой входной материал.",
         "Отберите 16 единиц и принесите одновременно в инвентаре: при сдаче книга их израсходует. Оставшийся уголь сохраните для следующего цикла. Замкнутая по топливу работа зависит от того, что вы действительно оставили резерв, а не сдали весь результат вместе с последней порцией для печи."
       ],
       "text_en": [
-        "Charcoal supplies early furnaces without finding another coal vein. This side delivery accepts sixteen pieces specifically of charcoal. Ordinary coal burns similarly but is a different item for this objective.",
+        "Charcoal feeds your first furnaces while a new coal seam is still to be found. This side delivery accepts sixteen pieces of charcoal specifically. Coal burns the same way, but to the book it is a different item.",
         "Grow trees in your plantation, reserve building wood and smelt surplus logs in a furnace. The first run needs separate fuel; afterwards, some charcoal can return to the fuel slot. Do not turn logs into planks before smelting, as that changes the input material.",
         "Select 16 pieces and bring them together in your inventory: the book consumes them upon submission. Keep the remaining charcoal for the next cycle. Fuel self-sufficiency depends on actually reserving fuel rather than submitting the final portion along with the entire output."
       ]
@@ -667,13 +667,13 @@
     "trials_late/guide_archive_readback": {
       "text": [
         "Новая ёмкость полезна только тогда, когда сеть действительно принимает и возвращает вещи. После архивной поставки соберите один новый диск из полученного компонента и корпуса. Для проверки используйте дешёвую контрольную партию из 64 булыжников, не рабочие инструменты и не редкие трофеи.",
-        "Установите пустой диск в подключённый накопитель, проверьте питание контроллера и появление дополнительной ёмкости. Через грид положите контрольный стак, затем найдите его поиском и извлеките обратно. Существующие заполненные диски остаются на месте: их удаление изменило бы условия опыта и доступность ваших данных.",
-        "Отметьте ручную цель только после успешного возврата всех 64 блоков. Если грид недоступен, сначала восстановите питание и соединение, а не переставляйте заполненные накопители. Такой короткий опыт отделяет настоящий рост доступного хранилища от простого наличия красивого нового диска в слоте."
+        "Вставьте пустой диск в подключённый дисковод, убедитесь, что контроллер запитан и ёмкость выросла. Положите через сетку контрольную стопку, найдите её поиском и извлеките обратно. Заполненные диски пусть остаются на месте: вынув их, вы измените условия опыта и лишите себя доступа к собственным вещам.",
+        "Когда все 64 блока вернулись к вам, отмечайте ручную цель. Если сетка не отвечает, восстановите питание и соединение, а не переставляйте заполненные дисководы. Короткий опыт отделяет настоящий рост хранилища от красивого нового диска, который лишь занимает слот."
       ],
       "text_en": [
         "New capacity helps only when the network actually accepts and returns items. After the archive delivery, craft one new disk from a rewarded component and a housing. Test with a cheap batch of 64 cobblestone rather than working tools or rare trophies.",
-        "Install the empty disk in a connected drive, check controller power and confirm increased capacity. Insert the test stack through the grid, find it using search and retrieve it. Existing filled disks stay in place: removing them would change the experiment and access to your data.",
-        "Confirm the manual objective only after recovering all 64 blocks. If the grid is unavailable, restore power and connectivity before moving filled drives. This short experiment distinguishes usable storage expansion from merely having an attractive new disk in a slot."
+        "Insert the empty disk into a connected disk drive, make sure the controller is powered and the capacity has grown. Put the test stack in through the grid, find it with the search and pull it back out. Leave the full disks where they are: removing them would change the experiment and cut you off from your own belongings.",
+        "Tick the manual goal once all 64 blocks have come back to you. If the grid does not respond, restore power and the connection instead of shuffling full drives around. This short experiment separates real storage growth from a handsome new disk that merely occupies a slot."
       ],
       "task_notes": {
         "0": {
@@ -686,12 +686,12 @@
       "text": [
         "Гранулы в сундуке не показывают, умеете ли вы остановить их источник. Эта необязательная проверка относится к уже исправному реактору деления Mekanism. Не запускайте повреждённый реактор ради галочки и не создавайте реальное переполнение радиоактивных отходов как испытательную ситуацию.",
         "На минимальном безопасном режиме используйте штатное отключение реактора и наблюдайте за прекращением горения топлива. Охлаждение и путь отходов должны оставаться доступны после команды остановки: остаточное тепло не исчезает мгновенно. Сравните уровни ёмкостей до и после, не разбирая заполненные радиоактивные блоки.",
-        "Подтвердите цель, когда команда остановила горение, а обслуживающие системы продолжают справляться. Если температура растёт или выход заполнен, займитесь причиной и оставьте реактор выключенным. Полный защитный комплект и контроль радиации необходимы для работ; получение награды никак не отменяет дальнейшее наблюдение за установкой."
+        "Подтверждайте цель, когда горение остановлено по команде, а охлаждение и отвод отходов по-прежнему справляются. Растёт температура или забит выход — ищите причину и не включайте реактор. Работайте только в полном защитном комплекте и с дозиметром под рукой; награда не освобождает от присмотра за установкой."
       ],
       "text_en": [
         "Pellets in a chest do not show whether you can stop their source. This optional check concerns an already sound Mekanism fission reactor. Do not start a damaged reactor for a checkmark or deliberately cause radioactive-waste overflow as a test.",
         "At a minimal safe operating rate, use the reactor’s normal shutdown and observe fuel burning stop. Cooling and the waste route must remain available after shutdown because residual heat does not vanish instantly. Compare container levels before and after without dismantling occupied radioactive blocks.",
-        "Confirm once the command stops burning and supporting systems continue handling the load. If temperature rises or output is full, address the cause and leave the reactor off. Complete protective equipment and radiation monitoring are necessary during work; claiming a reward does not replace continued observation."
+        "Confirm the goal once burning has stopped on command while cooling and waste removal still cope. If the temperature climbs or the output is blocked, find the cause and keep the reactor off. Work only in a full protective suit with a dosimeter at hand; the reward does not excuse you from watching over the installation."
       ],
       "task_notes": {
         "0": {
@@ -704,12 +704,12 @@
       "text": [
         "Трофейная комната помогает отличить завершённые путешествия от найденных координат, куда ещё предстоит вернуться. Подготовьте три рамки и выберите защищённое место дома. Для крупного или устанавливаемого трофея используйте его собственный способ размещения; рамки нужны для небольших предметов и памятных материалов.",
         "Перед выкладкой убедитесь, что важный трофей побывал в вашем инвентаре и нужное достижение уже зарегистрировано. Особенно это важно для знамён Eternal Tales: прямая отправка добычи в удалённое хранилище могла обойти личное получение. Рамки разрешено ставить сразу после регистрации их количества.",
-        "Ручную цель отмечайте после доставки хотя бы одного экспедиционного трофея домой и его безопасного размещения. Не вешайте коллекцию рядом с действующим полигоном или открытой лавой. Такая небольшая остановка между экспедициями также даёт время проверить остаток припасов перед следующим выходом."
+        "Цель считается выполненной, когда хотя бы один трофей экспедиции добрался до дома и занял безопасное место. Коллекции не место рядом с полигоном или открытой лавой. Заодно эта короткая остановка между походами даёт время пересчитать припасы перед следующим выходом."
       ],
       "text_en": [
         "A trophy room distinguishes completed journeys from discovered coordinates still awaiting a return visit. Prepare three item frames and choose a protected place at home. Use the native placement method for large or placeable trophies; frames serve smaller items and commemorative materials.",
         "Before displaying an important trophy, ensure it passed through your inventory and registered its advancement. This particularly matters for Eternal Tales banners: direct transfer into remote storage may bypass personal acquisition. Frames may be placed immediately after their quantity registers.",
-        "Confirm after bringing at least one expedition trophy home and displaying it safely. Keep the collection away from an operating weapons range or exposed lava. This short pause between expeditions also provides time to check supplies before departing again."
+        "The goal counts as done once at least one expedition trophy has reached home and taken a safe spot. A collection does not belong next to a firing range or open lava. This short pause between journeys also gives you time to count your supplies before the next departure."
       ],
       "task_notes": {
         "1": {
@@ -722,12 +722,12 @@
       "text": [
         "Численность гарнизона не гарантирует, что защитники дойдут до угрозы. После найма восьми воинов выберите два используемых входа в колонию и осмотрите дороги от военных зданий. Узкие проходы и перепады высоты важнее дополнительного декоративного оформления стены на этом этапе.",
         "Пройдите маршруты в мире и понаблюдайте за движением охраны во время обычной работы. Уберите препятствия, оставьте понятные лестницы и проверьте двери на подходах. Не устраивайте настоящий набег ради теста: достаточно убедиться, что рабочие маршруты доступны и жители не застревают в одной точке.",
-        "Отметьте ручную цель после проверки обоих входов и исправления найденных препятствий. Книга не считывает качество навигации автоматически. Возвращайтесь к этой проверке после больших перестроек дорог и складского района: новая постройка может перекрыть ранее исправный путь, хотя достижение восьми воинов уже сохранено."
+        "Когда оба входа проверены, а найденные помехи убраны, отмечайте ручную цель. Возвращайтесь к этому осмотру после больших перестроек дорог и складов: новая постройка легко перекрывает путь, который вчера был свободен, и достижение о восьми воинах об этом не предупредит."
       ],
       "text_en": [
         "Garrison size does not guarantee defenders can reach a threat. After hiring eight soldiers, choose two used colony entrances and inspect routes from military buildings. Narrow passages and height changes matter more than extra decorative wall work at this stage.",
         "Walk the routes in the world and observe guards during normal activity. Remove obstacles, provide clear stairs and check doors on approaches. Do not trigger a real raid for testing: accessible working routes and citizens no longer stuck at one point are sufficient.",
-        "Confirm after checking both entrances and fixing discovered obstructions. The book does not automatically evaluate navigation quality. Repeat this inspection after major road or warehouse-district changes: new buildings can block a previously sound route even though the eight-soldier advancement remains recorded."
+        "Once both entrances are checked and the obstacles you found are cleared, tick the manual goal. Come back to this inspection after major rebuilding of roads and warehouses: a new building easily blocks a path that was clear yesterday, and the eight-soldier advancement will not warn you."
       ],
       "task_notes": {
         "0": {

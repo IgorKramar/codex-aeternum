@@ -55,12 +55,12 @@
   "quests": {
     "space_ground/generator": {
       "text": [
-        "Угольный генератор обеспечивает FE для первых машин Ad Astra, сжигая подходящее топливо вроде угля или древесины. Изготовьте его по рецепту и поставьте рядом с будущим компрессором, оставив доступ к интерфейсу. Само название не запрещает другие поддерживаемые горючие предметы.",
+        "Угольный генератор даёт первым машинам Ad Astra энергию FE, сжигая уголь, древесину и другое подходящее топливо. Соберите его по рецепту и поставьте рядом с будущим компрессором так, чтобы к интерфейсу оставался свободный подход. Название не запрещает другие горючие предметы, которые генератор принимает.",
         "Загрузите небольшую порцию топлива и проверьте накопление энергии. Соедините правильный выход с входом потребителя, используя доступную совместимую передачу энергии. Для первого опыта достаточно одной машины, чтобы не спутать нехватку топлива с одновременной нагрузкой всего цеха.",
         "Достижение этого узла выдаётся за получение генератора, а не за определённое количество произведённых FE. После фиксации отдельно убедитесь, что компрессор действительно питается. Если генератор полон и не расходует топливо, проверьте приём энергии: это может быть обычная остановка при отсутствии нагрузки."
       ],
       "text_en": [
-        "The coal generator supplies FE for Ad Astra’s first machines by burning accepted fuel such as coal or wood. Craft it and place it near the future compressor while preserving interface access. Its name does not exclude other supported combustible items.",
+        "The coal generator supplies FE to the first Ad Astra machines by burning coal, wood and other suitable fuel. Craft it and place it next to the future compressor, leaving clear access to its interface. The name does not rule out the other combustible items the generator accepts.",
         "Load a small fuel amount and check energy accumulation. Connect the correct output to the consumer input with available compatible energy transport. One machine is enough for the first test so fuel shortages are not confused with simultaneous workshop demand.",
         "This node’s advancement is awarded for obtaining the generator, not generating a particular amount of FE. Separately confirm that the compressor actually receives power. If the generator is full and stops burning fuel, inspect energy reception; that may be normal no-load behaviour."
       ],
@@ -75,12 +75,12 @@
       "text": [
         "Компрессор Ad Astra делает металлические пластины из слитков или блоков, расходуя FE. Это не воздушный компрессор PneumaticCraft: пневматические трубы ему не нужны. Изготовьте машину, подключите электричество и подготовьте восемь железных слитков для первой партии.",
         "Подавайте железо в рабочий вход и дождитесь пластин. Установленный рецепт даёт одну пластину из слитка либо девять из железного блока; прессование не удваивает количество металла. Сохраните восемь пластин в инвентаре, прежде чем превращать их в детали следующей машины.",
-        "Достижение проверяет получение самого компрессора, а пластины подтверждаются отдельной целью. Если обработка не начинается, сверяйте запас энергии, тип входа и место результата. Небольшой постоянный запас пластин пригодится кислородному оборудованию, ракетным деталям и дальнейшему строительству, поэтому выделите ему отдельный сундук."
+        "Достижение выдаётся за сам компрессор; пластины считает отдельная цель. Если обработка не идёт, сверьте запас энергии, тип входа и место для результата. Небольшой постоянный запас пластин пригодится кислородному оборудованию, ракетным деталям и стройке, так что заведите ему отдельный сундук."
       ],
       "text_en": [
         "The Ad Astra compressor makes metal plates from ingots or blocks using FE. It is not a PneumaticCraft air compressor and needs no pressure tubes. Craft the machine, connect electricity and prepare eight iron ingots for the first batch.",
         "Feed iron into the processing input and wait for plates. The installed recipe gives one plate per ingot or nine per iron block; compression does not double metal quantity. Keep eight plates in your inventory before crafting them into the next machine’s components.",
-        "The advancement detects obtaining the compressor itself, while plates have a separate objective. If processing does not start, inspect energy, input type and output space. A small permanent plate stock supports oxygen equipment, rocket parts and later construction, so give it a dedicated chest."
+        "The advancement is for the compressor itself; the plates are counted by a separate goal. If processing does not start, check the energy reserve, the input type and the space for output. A small standing stock of plates will serve the oxygen gear, rocket parts and construction, so give it a chest of its own."
       ],
       "task_notes": {
         "1": {
@@ -93,12 +93,12 @@
       "text": [
         "Этрионическая доменная печь работает от электричества и имеет два режима: плавка и изготовление сплавов. Для космической стали нужен именно режим сплавов. Подготовьте FE, железо и уголь, не ожидая, что обычная плавка железного слитка сама превратит его в стальной.",
         "Откройте интерфейс, выберите соответствующий процесс и подайте ингредиенты стали по рецепту. Плавильный режим используется для другой задачи и поддерживает несколько рабочих мест; переключение режима меняет смысл входов. Начните с одной небольшой партии, которую легко проверить.",
-        "Достижение выдаётся при получении печи, поэтому запуск подтверждайте отдельно реальным стальным слитком. Если машина ждёт при полном заряде, проверьте выбранный режим и свободный результат. Стабильная электрическая сталь нужна большой ракетной партии; оставьте обычную печь доступной для простых материалов, пока новый процесс настраивается."
+        "Достижение приходит вместе с печью, поэтому запуск подтверждайте настоящим стальным слитком. Если машина ждёт при полном заряде, посмотрите выбранный режим и свободен ли выход. Большой ракетной партии нужна стабильная электрическая сталь; пока новый процесс налаживается, держите обычную печь под рукой для простых материалов."
       ],
       "text_en": [
         "The etrionic blast furnace uses electricity and has two modes: blasting and alloying. Space-program steel requires alloying specifically. Prepare FE, iron and coal rather than expecting ordinary smelting of an iron ingot to turn it into steel.",
         "Open the interface, select the appropriate process and supply the steel recipe ingredients. Blasting serves another purpose and supports several working positions; switching modes changes input meaning. Begin with a small easily verified batch.",
-        "The advancement is awarded on obtaining the furnace, so demonstrate startup separately with an actual steel ingot. If the machine waits despite full energy, inspect mode and output space. Reliable electric steel production feeds the large rocket batch; keep an ordinary furnace available for simple materials while configuring the new process."
+        "The advancement comes with the furnace, so confirm the start-up with a real steel ingot. If the machine idles at full charge, look at the selected mode and whether the output is free. A large rocket batch needs steady electric steel; while the new process settles in, keep an ordinary furnace handy for simple materials."
       ],
       "task_notes": {
         "1": {
@@ -123,12 +123,12 @@
       "text": [
         "Верстак НАСА собирает ракеты из крупных компонентов по отдельным схемам. Изготовьте его и поставьте в просторной части мастерской рядом со складом металлов. Обычный верстак не заменяет этот интерфейс, даже если все ракетные детали уже лежат в инвентаре.",
         "Откройте рецепт ракеты первого уровня и посмотрите каждое место: обтекатель, корпусные материалы, стабилизаторы, баки и двигатель. Подготовьте список недостающего до начала сборки. Позже тот же верстак работает с другими ступенями, но материалы бака и двигателя должны соответствовать выбранной ракете.",
-        "Достижение «Ракетная наука» проверяет получение верстака, а не вылет в космос. Не считайте этот узел окончанием наземной подготовки: топливо, кислород и скафандр изготавливаются отдельно. Оставьте свободное место в выходе и зарегистрируйте готовую ракету в инвентаре перед размещением на стартовом столе."
+        "Достижение «Ракетная наука» отмечает верстак, а не вылет в космос, и наземная подготовка на этом узле не заканчивается: топливо, кислород и скафандр делаются отдельно. Оставьте свободное место в выходе и возьмите готовую ракету в инвентарь прежде, чем ставить её на стартовый стол."
       ],
       "text_en": [
         "The NASA workbench assembles rockets from major components using separate layouts. Craft it and place it in a spacious workshop area near metal storage. An ordinary crafting table cannot replace this interface even with every rocket part already in your inventory.",
         "Open the tier-one rocket recipe and inspect every position: nose cone, body materials, fins, tanks and engine. List missing parts before assembly. The same bench later handles higher tiers, but tank and engine materials must match the selected rocket.",
-        "Rocket Science detects obtaining the workbench rather than flying into space. This is not the end of ground preparation: fuel, oxygen and the suit are made separately. Leave output space and let the finished rocket register in your inventory before placing it on a launch pad."
+        "The Rocket Science advancement marks the workbench, not a trip to space, and ground preparation does not end at this node: fuel, oxygen and the suit are made separately. Leave the output slot free and take the finished rocket into your inventory before placing it on the launch pad."
       ],
       "task_notes": {
         "1": {
@@ -157,26 +157,26 @@
     },
     "space_ground/oxygen": {
       "text": [
-        "Кислородный загрузчик извлекает кислород из воды, расходуя электричество. Подготовьте воду, FE и газовый баллон; кислородный комплект из задания является компонентом снаряжения, а не доказательством уже заправленного скафандра. До полёта требуется фактический запас в носимых вещах.",
+        "Кислородный загрузчик извлекает кислород из воды и расходует на это электричество. Подготовьте воду, FE и газовый баллон. Кислородный комплект из задания — деталь снаряжения, а не заправленный скафандр: перед полётом кислород должен быть в носимых вещах.",
         "Подайте воду в жидкостный вход загрузчика и дождитесь кислорода. Заполните баллон и совместимую часть скафандра через предусмотренные слоты. Баллон способен хранить жидкости, поэтому проверяйте название содержимого, а не только заполненную полоску на предмете.",
-        "Испытайте перенос кислорода из баллона к снаряжению на Земле и подготовьте запасные наполненные баллоны. Пустой запас нельзя заменить обычными факелами или едой на Луне. Если загрузчик не работает, проверьте воду, питание и место для кислорода; получение самого блока не подтверждает готовность системы жизнеобеспечения."
+        "Ещё на Земле попробуйте перелить кислород из баллона в снаряжение и наполните запасные баллоны. На Луне пустой резерв не заменить ни факелами, ни едой. Если загрузчик не работает, проверьте воду, питание и место под кислород — готовый блок ещё не система жизнеобеспечения."
       ],
       "text_en": [
-        "The oxygen loader extracts oxygen from water using electricity. Prepare water, FE and a gas tank; the requested oxygen gear is an equipment component rather than proof of a filled spacesuit. An actual reserve in wearable equipment is required before flight.",
+        "The oxygen loader extracts oxygen from water and spends electricity to do it. Prepare water, FE and a gas tank. The oxygen kit named in the quest is a piece of equipment, not a filled suit: before the flight the oxygen must be in the gear you wear.",
         "Supply water to the loader and wait for oxygen. Fill the tank and a compatible suit piece through the intended slots. Gas tanks can hold fluids, so inspect the content name rather than relying only on a filled bar.",
-        "Test oxygen transfer from tank to equipment on Earth and prepare spare filled tanks. Food or ordinary torches cannot replace an empty oxygen supply on the Moon. If the loader stops, inspect water, power and oxygen capacity; obtaining the block does not establish ready life support."
+        "While still on Earth, try transferring oxygen from a tank into your gear and fill spare tanks. On the Moon an empty reserve cannot be replaced by torches or food. If the loader is not working, check the water, the power and the space for oxygen — a finished block is not yet a life-support system."
       ]
     },
     "space_ground/suit": {
       "text": [
         "Для Луны нужен полный обычный скафандр Ad Astra: шлем, нагрудная часть, штаны и ботинки. Изготовьте все четыре предмета и держите их вместе для регистрации достижения и целей. Неполный комплект оставляет защиту незавершённой, даже если одна часть показывает запас кислорода.",
         "Заправьте кислородом предусмотренную часть комплекта через загрузчик, наденьте всё и проверьте отображаемый резерв. Дополнительно возьмите наполненные газовые баллоны, еду и свет, работающий без кислорода. Проверку заправки выполняйте до выхода из безопасной земной мастерской.",
-        "Достижение «Астронавт» реагирует на получение четырёх вещей в инвентарь, а не на их заполнение или правильное ношение. Не путайте обычный скафандр с теплостойким незеритовым: горячие планеты потребуют другого комплекта. Перед каждым стартом заново проверяйте все слоты после ремонта, зачарования или смены повседневной брони."
+        "Достижение «Астронавт» срабатывает, когда четыре вещи оказались в инвентаре, — заправку и правильную носку оно не проверяет. Обычный скафандр не путайте с теплостойким незеритовым: горячим планетам нужен другой комплект. Перед каждым стартом заново осматривайте все слоты после ремонта, зачарования или смены повседневной брони."
       ],
       "text_en": [
         "The Moon requires the complete ordinary Ad Astra spacesuit: helmet, chest piece, pants and boots. Craft all four and keep them together for advancement and objective detection. A partial set leaves protection incomplete even if one piece displays oxygen.",
         "Fill the appropriate suit component through the oxygen loader, equip everything and inspect the displayed reserve. Also bring filled gas tanks, food and lighting that works without oxygen. Check filling before leaving the safe Earth workshop.",
-        "Astronaut reacts to obtaining the four inventory items rather than filling or correctly wearing them. Do not confuse the ordinary spacesuit with the heat-resistant netherite version needed on hot planets. Recheck every equipment slot before each launch after repairs, enchanting or changing everyday armour."
+        "The Astronaut advancement fires when the four items land in your inventory — it does not check filling or correct wearing. Do not confuse the ordinary suit with the heat-resistant netherite one: hot planets need a different set. Before every launch, look over all the slots again after repairs, enchanting or a change of everyday armour."
       ],
       "task_notes": {
         "4": {
@@ -205,14 +205,14 @@
     },
     "space_ground/checklist": {
       "text": [
-        "Перед стартом положите в инвентарь ракеты вторую стартовую площадку и три ведра обычного топлива для возвращения. Это отдельный груз сверх топлива, уже залитого в ракету. Откройте грузовой интерфейс и визуально пересчитайте запас, не полагаясь на память о последнем крафте.",
+        "Перед стартом положите в инвентарь ракеты вторую стартовую площадку и три ведра обычного топлива на возвращение. Это отдельный груз сверх топлива, уже залитого в баки. Откройте грузовой интерфейс и пересчитайте запас глазами, а не по памяти о последней сборке.",
         "Наденьте полный заправленный скафандр, возьмите наполненные кислородные баллоны, еду, оружие, инструменты и светокамень либо факелы душ. Обычные факелы в безвоздушной среде не подходят, вода на Луне замерзает, а не сохраняет обычное поведение земной фермы.",
-        "Ручную цель отмечайте после фактической укладки площадки и обратного топлива в ракету. Кодекс не проверяет содержимое грузового отсека автоматически. Если чего-то не хватает, пополните комплект на Земле: возможность случайно найти торговца на Луне не должна быть вашим единственным планом возвращения."
+        "Отмечайте ручную цель, когда площадка и обратное топливо действительно лежат в ракете: содержимое грузового отсека книга сама не видит. Чего-то не хватает — пополните комплект на Земле. Надежда встретить на Луне торговца не годится в качестве единственного плана возвращения."
       ],
       "text_en": [
-        "Before launch, place a second launch pad and three ordinary fuel buckets for returning in the rocket inventory. This is separate cargo in addition to fuel already loaded into the rocket. Open the cargo interface and count the reserve instead of relying on memory of the last crafting session.",
+        "Before launch, put a second launch pad and three buckets of ordinary fuel for the return trip into the rocket’s inventory. This is separate cargo on top of the fuel already in the tanks. Open the cargo interface and count the supplies with your eyes, not from memory of your last crafting session.",
         "Wear the complete filled suit and bring full oxygen tanks, food, weapons, tools and glowstone or soul torches. Ordinary torches are unsuitable in airless conditions, while Moon water freezes rather than behaving like an Earth farm’s water.",
-        "Mark the manual objective after actually packing the pad and return fuel in the rocket. Codex does not automatically inspect cargo contents. Replenish missing supplies on Earth; the possibility of finding a trader on the Moon should not be your only return plan."
+        "Tick the manual goal once the pad and the return fuel are really in the rocket: the book cannot see inside the cargo hold. If something is missing, top up the kit on Earth. Hoping to meet a trader on the Moon is no plan for getting home."
       ],
       "task_notes": {
         "0": {
@@ -249,12 +249,12 @@
       "text": [
         "Пусковой комплекс готов к испытанию, когда ракета заправлена, а игрок действительно может дышать после посадки. Проверьте полный надетый скафандр, кислород в его резервуаре и запасные баллоны. Откройте ракету и различайте залитое топливо от вёдер, лежащих грузом.",
         "Проверьте выбранное направление, подготовку к посадке и комплект обратного вылета. Площадка и топливо возвращения должны уже находиться с вами, а не зависеть от ещё не добытого деша, лунной торговли или будущей базы. Возьмите инструменты для извлечения содержимого посадочного модуля.",
-        "Отметьте ручную цель после этих проверок в мире. Кодекс не измеряет готовность запуска автоматически и не узнаёт, останется ли вам обратное топливо. Сам полёт выполняйте только после подтверждённой подготовки; если до старта меняли броню или перегружали инвентарь, повторите проверку кислорода и груза."
+        "После этих проверок в мире отметьте ручную цель. Готовность запуска и остаток обратного топлива книга не измеряет — это ваша ответственность. Летите только после подтверждённой подготовки, а если перед стартом меняли броню или перекладывали инвентарь, проверьте кислород и груз ещё раз."
       ],
       "text_en": [
         "The launch complex is ready for testing when the rocket is fuelled and the player can actually breathe after landing. Check the complete equipped suit, its oxygen reserve and spare tanks. Open the rocket and distinguish loaded fuel from buckets carried as cargo.",
         "Check the selected destination, landing preparation and return-flight kit. Return pad and fuel must already travel with you rather than depending on unmined desh, lunar trading or a future base. Bring tools to recover the lander’s contents.",
-        "Mark the manual objective after these in-world checks. Codex does not automatically measure launch readiness or whether return fuel remains available. Fly only after verified preparation; repeat oxygen and cargo checks if you changed armour or reorganised inventory before departure."
+        "After these in-world checks, tick the manual goal. Launch readiness and the remaining return fuel are not something the book can measure — that is on you. Fly only after confirmed preparation, and if you changed armour or rearranged your inventory before launch, check the oxygen and cargo again."
       ],
       "task_notes": {
         "0": {
@@ -267,12 +267,12 @@
       "text": [
         "После выбора Луны завершите посадку и оставайтесь в полном заправленном скафандре. Поверхность холодная и лишена пригодного для дыхания кислорода. Пониженная гравитация меняет прыжки, поэтому сначала осмотрите место вокруг модуля и не уходите в длинную вылазку.",
         "Откройте груз посадочного модуля предусмотренным взаимодействием и заберите ракету, обратную площадку и топливо. Пометьте координаты посадки и подготовьте небольшое укрытие с безопасным светом. Обычные факелы и открытая вода здесь не ведут себя как на Земле.",
-        "Цель измерения и достижение срабатывают при переходе на Луну; они не подтверждают сохранность снаряжения или возможность возвращения. Проверьте кислород после выгрузки и отложите резерв отдельно от добычи. Следующим полезным ресурсом станет деш, но его поиск не должен расходовать весь дыхательный запас первой посадки."
+        "Цель измерения и достижение срабатывают в момент перехода на Луну — целость снаряжения и возможность вернуться они не проверяют. Осмотрите кислород после выгрузки и отложите резерв подальше от добычи. Следующим полезным ресурсом станет деш, но его поиски не должны съесть весь дыхательный запас первой посадки."
       ],
       "text_en": [
         "After selecting the Moon, complete landing and remain in the fully filled spacesuit. The surface is cold and lacks breathable oxygen. Lower gravity changes jumping, so inspect the area around the lander before a long excursion.",
         "Open the lander cargo through its supported interaction and recover rocket, return pad and fuel. Record landing coordinates and prepare a small shelter with suitable lighting. Ordinary torches and exposed water do not behave as they do on Earth.",
-        "The dimension objective and advancement trigger on entering the Moon; they do not confirm equipment safety or return readiness. Check oxygen after unloading and separate reserves from mined cargo. Desh is the next useful resource, but searching for it should not exhaust the first landing’s breathing supply."
+        "The dimension goal and the advancement trigger the moment you arrive on the Moon — they do not check that your gear is intact or that you can get back. Look at your oxygen after unloading and keep the reserve apart from the loot. Desh will be the next useful resource, but the search for it must not eat the whole breathing supply of your first landing."
       ],
       "task_notes": {
         "0": {
@@ -319,12 +319,12 @@
       "text": [
         "Солнечная панель Ad Astra вырабатывает энергию в зависимости от условий мира, освещения и положения планеты. Изготовьте панель, стальные кабели и цельные кабельные каналы. Для лунного поста заранее нужен аккумулятор или запасной источник на периоды недостаточной выработки.",
         "Разместите панель открыто и подключите её к накопителю, затем проверьте текущую мощность в интерфейсе. Стальной кабель переносит FE, но не герметизирует отверстие в стене. На границе кислородного помещения используйте цельный Cable Duct, сохраняя непрерывность энергетической сети.",
-        "Достижение выдаётся за получение панели, не за стабильное питание всей базы. Сравните выработку с расходом кислородного оборудования под реальной нагрузкой. Не снимайте скафандр только потому, что солнце видно: помещение должно быть герметично, а распределитель обеспечен водой и энергией независимо от одного удачного дневного показания."
+        "Достижение выдаётся за панель, а не за стабильное питание всей базы. Сравните выработку с расходом кислородного оборудования под настоящей нагрузкой. И не снимайте скафандр оттого, что светит солнце: помещение должно быть герметично, а распределитель — обеспечен водой и энергией независимо от одного удачного дневного показания."
       ],
       "text_en": [
         "Ad Astra solar output depends on world conditions, lighting and planetary position. Craft the panel, steel cables and solid cable ducts. A lunar outpost needs storage or backup generation for periods of insufficient output.",
         "Place the panel in the open and connect storage, then inspect current generation in its interface. Steel cable carries FE but does not seal a wall opening. Use a solid cable duct at the oxygen-room boundary while maintaining electrical continuity.",
-        "The advancement is awarded for obtaining the panel, not reliably powering an entire base. Compare generation with life-support consumption under real load. Do not remove the suit simply because the sun is visible: the room must be sealed and its distributor supplied with water and energy beyond one favourable daytime reading."
+        "The advancement is for the panel, not for stable power across the base. Compare its output with what the oxygen gear draws under real load. And do not take the suit off just because the sun is out: the room must be sealed, and the distributor supplied with water and power regardless of one good daytime reading."
       ],
       "task_notes": {
         "1": {
@@ -337,12 +337,12 @@
       "text": [
         "Кислородный распределитель делает герметичное помещение пригодным для жизни при наличии воды и FE. Сначала постройте закрытую комнату и безопасный вход. Насос поставьте над подготовленным источником воды и рядом с распределителем по руководству; питание требуется обоим устройствам.",
         "Закройте все отверстия, включая проходы кабелей, и включите показ области в интерфейсе распределителя. Подсветка подтверждает обслуживаемое пространство. Внутренние стены и закрытые двери могут перекрывать распространение кислорода; вентиляционные блоки соединяют комнаты, сохраняя нужную оболочку снаружи.",
-        "Не снимайте скафандр до проверки устойчивого снабжения и состояния помещения. Пролом герметичной оболочки вызывает опасную разгерметизацию и ускоренный расход ресурсов, поэтому заранее держите блоки для ремонта. Достижение проверяет получение распределителя, а не герметичность комнаты; установленный водяной насос сам по себе не доказывает достаточный кислород."
+        "Не снимайте скафандр, пока снабжение не устоялось и помещение не проверено. Пролом оболочки грозит опасной разгерметизацией и быстрым расходом ресурсов, поэтому держите под рукой блоки для ремонта. Достижение отмечает сам распределитель, а герметичность комнаты — ваша забота; насос над водой ещё не гарантирует, что кислорода хватит."
       ],
       "text_en": [
         "An oxygen distributor makes a sealed room habitable while supplied with water and FE. Build a closed room and safe entrance first. Place a pump over a prepared water source and beside the distributor as shown in the guide; both devices need power.",
         "Seal every opening, including cable passages, and enable the distributor’s area display. Highlighting confirms the served space. Internal walls and closed doors can block oxygen spread; vents connect rooms while preserving the outer enclosure.",
-        "Keep the suit on until supply stability and room condition are checked. Breaking the sealed shell causes dangerous decompression and rapid resource use, so keep repair blocks ready. The advancement detects obtaining a distributor, not room airtightness; an installed water pump alone does not prove sufficient oxygen."
+        "Keep the suit on until the supply is steady and the room checked. A breach in the shell means dangerous depressurisation and fast resource loss, so keep repair blocks within reach. The advancement marks the distributor itself; the room’s seal is your concern, and a pump over water does not yet guarantee enough oxygen."
       ],
       "task_notes": {
         "3": {
@@ -355,12 +355,12 @@
       "text": [
         "Генератор нормальной гравитации изменяет движение внутри герметичной области. Он полезен в орбитальной мастерской или лунном помещении, где обычные прыжки мешают точной работе. Устройство не производит кислород: герметизация, дыхание и гравитация — разные условия, которые проверяются отдельно.",
         "Установите нормализатор, подведите достаточное питание и выберите умеренное значение гравитации в интерфейсе. Руководство допускает диапазон от невесомости до двойной земной гравитации. Начните с привычного уровня и испытайте короткий прыжок на ровном полу, сохраняя кислородный комплект.",
-        "При высокой нагрузке сравните расход с запасом генерации: нормализатор не должен обесточить распределитель кислорода. Достижение подтверждает только получение блока. Если изменение не ощущается, проверьте герметичную обслуживаемую область и настройки, а не увеличивайте значение без понимания того, где действует устройство."
+        "При высокой нагрузке сравните расход с генерацией: нормализатор не должен обесточить распределитель кислорода. Достижение отмечает лишь получение блока. Если изменения не чувствуется, проверьте герметичную обслуживаемую область и настройки, а не крутите значение вверх, не понимая, где устройство действует."
       ],
       "text_en": [
         "The gravity normalizer changes movement inside a sealed area. It helps in orbital workshops or lunar rooms where unusual jumps hinder precise work. It produces no oxygen: sealing, breathing and gravity are separate conditions requiring separate checks.",
         "Install it, supply sufficient power and select a moderate gravity setting. The manual allows zero to twice Earth gravity. Begin at a familiar level and test a short jump on level flooring while keeping oxygen equipment on.",
-        "Compare its consumption with generation under load: the normalizer must not deprive the oxygen distributor of power. The advancement confirms only obtaining the block. If the effect is absent, inspect the sealed served area and settings instead of increasing the value without understanding its coverage."
+        "Under heavy load, compare consumption with generation: the normalizer must not starve the oxygen distributor of power. The advancement marks only obtaining the block. If you feel no change, check the sealed serviced area and the settings instead of turning the value up without knowing where the device acts."
       ],
       "task_notes": {
         "1": {
@@ -373,12 +373,12 @@
       "text": [
         "Ровер ускоряет передвижение по поверхности и перевозит груз, но не заменяет кислородный скафандр водителя. Подготовьте само транспортное средство и радио, которое также используется в его рецептах. Дайте обоим предметам зарегистрироваться в инвентаре до окончательной установки и поездки.",
         "Разместите ровер на открытой площадке и заправьте через его интерфейс разрешённым топливом. Проверьте посадку, движение и доступ к грузу на коротком круге около базы. У машины есть место для второго пассажира, которому тоже нужна защита среды.",
-        "Радио воспроизводит интернет-потоки при доступности источника; отсутствие звука не означает неисправность двигателя. Достижения этого задания проверяют получение радио и ровера, а не прослушивание или расстояние поездки. Следите за топливом и не уезжайте дальше, чем позволяет кислородный резерв на возвращение пешком при неожиданной остановке."
+        "Радио играет интернет-потоки, если источник доступен; тишина в эфире ещё не поломка двигателя. Достижения здесь выдаются за радио и ровер, а не за прослушивание или пройденный путь. Следите за топливом и не уезжайте дальше, чем сможете вернуться пешком на остатке кислорода, если машина вдруг встанет."
       ],
       "text_en": [
         "The rover speeds up surface travel and carries cargo but does not replace the driver’s oxygenated spacesuit. Prepare the vehicle and radio, which is also used in vehicle-related recipes. Let both items register before final installation and driving.",
         "Place the rover in an open area and fill it with accepted fuel through its interface. Test boarding, movement and cargo access on a short loop near base. A second passenger seat is available, but that rider also needs environmental protection.",
-        "The radio plays internet streams when their source is available; silence does not indicate engine failure. These advancements check obtaining a radio and rover rather than listening or driving distance. Watch fuel and stay within an oxygen reserve that permits walking home after an unexpected breakdown."
+        "The radio plays internet streams when a source is available; silence on the air does not mean the engine is broken. The advancements here are for the radio and the rover, not for listening or distance driven. Watch the fuel and never drive further than you could walk back on your remaining oxygen if the vehicle suddenly stops."
       ],
       "task_notes": {
         "1": {
@@ -434,13 +434,13 @@
     "space_moon/tier2": {
       "text": [
         "Ракета второго уровня использует деш и открывает путь к Марсу. Подготовьте баки из деша, двигатель и остальные корпусные материалы по рецепту верстака НАСА. Два бака и двигатель из целей — отдельные промежуточные предметы, которые лучше зарегистрировать до окончательной сборки.",
-        "Проверьте, что выбран именно второй уровень ракеты, затем изготовьте аппарат и возьмите его в инвентарь. Топливо и стартовая площадка готовятся отдельно. Старый проверенный пусковой комплекс можно использовать повторно при соблюдении условий установки новой ракеты.",
-        "Достижение подтверждает получение аппарата, а не достижение Марса. Перед путешествием пополните кислород и оставьте отдельный обратный запас горючего, не рассчитывая на новую планету как на готовую заправку. Полезно сохранить первую ракету или понятный резервный маршрут, пока новый транспорт не прошёл свою предполётную проверку."
+        "Убедитесь, что на верстаке выбран именно второй уровень ракеты, соберите аппарат и возьмите его в инвентарь. Топливо и стартовая площадка готовятся отдельно. Проверенный пусковой комплекс можно использовать снова, если новая ракета установлена по правилам.",
+        "Достижение отмечает сам аппарат, до Марса ещё лететь. Перед путешествием пополните кислород и отложите отдельный обратный запас горючего: новая планета — не заправочная станция. Первую ракету или понятный резервный маршрут стоит сохранить, пока новый транспорт не прошёл предполётную проверку."
       ],
       "text_en": [
         "The tier-two rocket uses desh and opens the route to Mars. Prepare desh tanks, an engine and the remaining body materials from the NASA workbench recipe. The two tanks and engine are separate intermediate objectives best registered before final assembly.",
-        "Verify the tier-two recipe, craft the vehicle and take it into inventory. Fuel and the launch pad are separate preparations. The tested launch complex can be reused when the new rocket’s placement conditions are satisfied.",
-        "The advancement confirms obtaining the vehicle rather than reaching Mars. Refill oxygen and retain separate return fuel instead of treating the new planet as an established filling station. Keeping the first rocket or a clear fallback route is useful until the new transport passes its own preflight check."
+        "Make sure the second rocket tier is selected at the workbench, build the craft and take it into your inventory. Fuel and the launch pad are prepared separately. A proven launch site can be reused as long as the new rocket is installed properly.",
+        "The advancement marks the craft itself; Mars is still a flight away. Before the journey, top up oxygen and set aside a separate return supply of fuel: a new planet is not a filling station. Keep the first rocket or a clear fallback route until the new transport has passed its pre-flight check."
       ],
       "task_notes": {
         "3": {
@@ -509,12 +509,12 @@
       "text": [
         "Зарядник Ad Astra хранит энергию и передаёт её совместимым предметам. Этрионический конденсатор переносит FE с собой и помогает питать оборудование в экспедиции. Сначала обеспечьте заряднику действующий источник энергии; два новых пустых аккумулятора не зарядят друг друга.",
         "Подключите устройство и дождитесь внутреннего запаса. Примените поддерживаемый предмет к заряднику для передачи энергии, затем проверьте шкалу самого предмета. Конденсатор способен распределять заряд по инвентарю и имеет режимы последовательного или равномерного распределения, переключаемые предусмотренным взаимодействием.",
-        "Достижение проверяет получение зарядника, а не заполненный конденсатор. Перед полётом разделяйте кислород и электричество: заряженный энергетический предмет не позволяет дышать без скафандра. Если заряд не переходит, проверьте совместимость и режим приёма, затем питание; переносная батарея удобна для резерва, но не заменяет постоянную генерацию базы."
+        "Достижение выдаётся за сам зарядник, а не за полный конденсатор. Перед полётом разделяйте кислород и электричество: заряженный прибор дышать без скафандра не поможет. Если заряд не переходит, проверьте совместимость и режим приёма, потом питание. Переносная батарея хороша как резерв, но постоянную генерацию базы не заменит."
       ],
       "text_en": [
         "The Ad Astra energizer stores energy and transfers it to compatible items. An etrionic capacitor carries FE for expedition equipment. Supply the energizer from a working source first; two empty new batteries cannot charge one another.",
         "Connect the device and wait for an internal reserve. Use a supported item on it to transfer energy, then inspect that item’s own gauge. The capacitor can distribute charge through inventory and supports sequential or round-robin distribution selected through its controls.",
-        "The advancement checks obtaining the energizer rather than a full capacitor. Distinguish oxygen and electricity before flight: a charged energy item does not allow breathing without a suit. If charge fails to transfer, inspect compatibility and receiving mode before power; portable storage is useful backup, not continuous base generation."
+        "The advancement is for the energizer itself, not for a full capacitor. Before the flight keep oxygen and electricity apart: a charged device will not help you breathe without a suit. If charge is not transferring, check compatibility and the receive mode, then the power. A portable battery is a fine reserve, but it does not replace the base’s steady generation."
       ],
       "task_notes": {
         "1": {
@@ -563,12 +563,12 @@
       "text": [
         "Венера доступна ракете третьего уровня и представляет жаркую опасную среду без обычного дыхания. До старта наденьте полный незеритовый скафандр, заправьте кислород и упакуйте обратную площадку с топливом. Не проверяйте пригодность обычной брони уже после выхода из модуля.",
         "Завершив посадку, быстро осмотрите безопасный участок, извлеките транспорт и закрепите координаты возвращения. Подготовьте укрытие и освещение, затем начинайте поиск калорита. Враждебная среда требует следить за кислородом даже во время возведения первой стены.",
-        "Достижение и цель измерения срабатывают от перехода на Венеру, но не означают успешное оборудование базы. Возвращайтесь с резервом, если снаряжение повреждено или запасы стали сомнительными. Новая планета нужна для конкретных материалов; экспедиция с небольшим добытым запасом и надёжным возвращением полезнее потерянного комплекта у случайной шахты."
+        "Достижение и цель измерения срабатывают при переходе на Венеру; оборудованная база — уже другая история. Если снаряжение повреждено, а запасы под вопросом, возвращайтесь с резервом. Планета нужна ради конкретных материалов, и небольшая добыча с надёжным возвращением стоит больше, чем комплект, потерянный у случайной шахты."
       ],
       "text_en": [
         "Venus is accessible with a tier-three rocket and has a hot hazardous environment without ordinary breathing. Equip the complete netherite spacesuit, fill oxygen and pack a return pad and fuel before departure. Do not test whether ordinary armour works only after leaving the lander.",
         "After landing, inspect a safe nearby area, recover transport and record return coordinates. Prepare shelter and lighting before searching for calorite. The hostile environment requires monitoring oxygen even while placing the first wall.",
-        "The advancement and dimension objective trigger on entering Venus, not on establishing a successful base. Return with reserves if equipment is damaged or supplies become uncertain. The planet provides specific materials; a modest collected batch with reliable return is more useful than equipment lost beside a random mine."
+        "The advancement and the dimension goal trigger on arriving at Venus; an equipped base is another story. If your gear is damaged and your supplies in doubt, head back while you still have a reserve. The planet is there for specific materials, and a modest haul with a safe return is worth more than a kit lost at some random mine."
       ],
       "task_notes": {
         "0": {
@@ -635,12 +635,12 @@
     },
     "space_hot/tier4": {
       "text": [
-        "Ракета четвёртого уровня использует калорит и открывает перелёт к системе Проксимы Центавра. Подготовьте два калоритовых бака, двигатель и остальные ингредиенты верстака НАСА. Не расходуйте весь металл на реактивный комплект, если именно дальняя экспедиция является следующим шагом.",
+        "Ракета четвёртого уровня использует калорит и открывает перелёт к системе Проксимы Центавра. Подготовьте два калоритовых бака, двигатель и остальные ингредиенты верстака НАСА. Не спускайте весь металл на реактивный комплект, если следующий шаг — именно дальняя экспедиция.",
         "Соберите аппарат после регистрации промежуточных компонентов и проверьте доступный список направлений. Установите ракету на подготовленную площадку, заправьте и отдельно уложите обратный комплект. Больший уровень не создаёт топливо и не отменяет запас инструментов, еды и кислорода для переходных этапов.",
         "Достижение срабатывает при получении ракеты, а межзвёздная цель выполняется отдельным посещением Глейсио. Перед стартом сохраните координаты исходной базы и убедитесь, что можете вернуться без добычи на новой планете. Первое путешествие удобно делать разведывательным, оставив массовое переселение до проверки условий на месте."
       ],
       "text_en": [
-        "The tier-four rocket uses calorite and opens travel to the Proxima Centauri system. Prepare two calorite tanks, an engine and the remaining NASA workbench ingredients. Avoid spending every ingot on a jet suit if a distant expedition is your next priority.",
+        "The tier-four rocket uses calorite and opens the flight to the Proxima Centauri system. Prepare two calorite tanks, an engine and the rest of the NASA workbench ingredients. Do not spend all the metal on the jet suit if the long expedition is your next step.",
         "Assemble the vehicle after intermediate objectives register and inspect available destinations. Place it on a prepared pad, fuel it and separately pack the return kit. A higher tier creates no fuel and does not remove tools, food or oxygen requirements for transitional stages.",
         "The advancement triggers on obtaining the rocket; the interstellar objective requires visiting Glacio separately. Record home coordinates and ensure you can return without mining on the new planet. Make the first trip a survey, leaving large-scale relocation until local conditions are verified."
       ],
@@ -654,12 +654,12 @@
     "space_glacio/interstellar": {
       "text": [
         "Глейсио — первая доступная цель этой ветки в другой звёздной системе. Отправляйтесь на ракете четвёртого уровня с обратным топливом, площадкой и полным экспедиционным набором. Держите космическое снаряжение готовым даже при наличии кислорода на самой планете: маршрут и орбита имеют другие условия.",
-        "После посадки извлеките транспорт из модуля и отметьте координаты. Проверьте местную среду Ti-69: в данных установленной планеты кислород присутствует, температура составляет минус двадцать, гравитация ниже земной. Это не безвоздушная копия Луны, но перемещение всё равно требует привыкания.",
+        "После посадки извлеките транспорт из модуля и отметьте координаты. Проверьте местную среду с помощью Ti-69: у установленной планеты на поверхности есть кислород, температура минус двадцать, гравитация ниже земной. Это не безвоздушная копия Луны, но к движению всё равно придётся привыкать.",
         "Достижение «Интерстеллар» и цель измерения срабатывают при входе на Глейсио. Для завершения не требуется строить огромную колонию сразу. Начните с защищённого места хранения и короткой разведки, сохраняя резерв на возвращение; местные животные и ледяные ресурсы станут следующей самостоятельной задачей."
       ],
       "text_en": [
         "Glacio is this branch’s first accessible destination in another star system. Travel with a tier-four rocket, return fuel, a pad and a complete expedition kit. Keep space equipment ready even though the planet has oxygen: the route and orbit have different conditions.",
-        "After landing, recover transport from the lander and record coordinates. Check conditions with the Ti-69: the installed planet data specifies oxygen, a temperature of minus twenty and lower-than-Earth gravity. It is not an airless copy of the Moon, though movement still takes adjustment.",
+        "After landing, take the vehicle out of the lander and note the coordinates. Check the local environment with the Ti-69: as installed, the planet has oxygen at the surface, a temperature of minus twenty and gravity lower than Earth’s. It is no airless copy of the Moon, but the movement still takes getting used to.",
         "Interstellar and the dimension objective trigger on entering Glacio. Completing them does not require building a huge colony immediately. Begin with protected storage and a short survey while preserving the return reserve; local animals and icy resources form the next separate task."
       ],
       "task_notes": {
@@ -688,25 +688,25 @@
     "space_glacio/colony": {
       "text": [
         "Этот узел принимает комплект оборудования как вклад в колонию вне Земли. Все перечисленные предметные цели помечены Consume: при сдаче устройства исчезают из вашего инвентаря. Это не автоматическое размещение машин на Глейсио и не проверка уже построенного жилого помещения.",
-        "Подготовьте отдельную партию: кислородный распределитель, водяной насос, нормализатор гравитации, четыре солнечные панели, два шлюза и зарядник. Не снимайте ради сдачи последние работающие приборы своего поста. Сначала убедитесь, что оставшаяся база и транспорт позволяют безопасно продолжить игру и вернуться домой.",
+        "Отдельно соберите партию для сдачи: кислородный распределитель, водяной насос, нормализатор гравитации, четыре солнечные панели, два шлюза и зарядник. Последние работающие приборы своего поста ради этого не снимайте. Сначала убедитесь, что оставшейся базы и транспорта хватит, чтобы спокойно продолжать игру и вернуться домой.",
         "Перед подтверждением пересчитайте именно расходуемый запас и прочитайте цели. На поверхности Глейсио есть кислород, однако сданный комплект представляет общий колониальный проект и может понадобиться для других сред. Готовая сдача закрывает вклад; реальную герметизацию, питание и работу вашей колонии нужно организовать отдельными сохранёнными устройствами."
       ],
       "text_en": [
         "This node accepts an equipment set as a contribution to an off-world colony. Every listed item objective is marked Consume: submitting it removes the device from your inventory. This neither automatically places machines on Glacio nor checks an existing habitable room.",
-        "Prepare a separate batch: an oxygen distributor, water pump, gravity normalizer, four solar panels, two airlocks and an energizer. Do not dismantle the outpost’s last working devices for submission. First ensure remaining base equipment and transport support safe continued play and returning home.",
+        "Assemble a separate batch to hand in: an oxygen distributor, a water pump, a gravity normalizer, four solar panels, two airlocks and an energizer. Do not strip the last working devices from your own outpost for it. First make sure the base and transport you keep are enough to carry on comfortably and get home.",
         "Before confirming, count the expendable stock and read the objectives. Glacio’s surface has oxygen, but this donated set represents a general colony project that may serve other environments. Submission completes the contribution; actual sealing, power and operation require separate equipment you retain."
       ]
     },
     "space_ground/guide_oxygen_reserve": {
       "text": [
-        "Кислородный загрузчик полезен дома, но походный запас должен путешествовать вместе с вами. Подготовьте два переносных бака и наполните их кислородом от работающего загрузчика. Сам предмет газового бака не доказывает наличие пригодного для дыхания содержимого: эта ёмкость поддерживает разные жидкости.",
+        "Кислородный загрузчик хорош дома, а походный запас должен путешествовать с вами. Подготовьте два переносных бака и наполните их от работающего загрузчика. Пустой газовый бак — ещё не кислород: эта ёмкость принимает разные жидкости, так что содержимое надо проверить.",
         "Посмотрите название содержимого и степень заполнения каждого бака. Проверьте предусмотренный модом способ пополнения кислорода скафандра ещё в земной мастерской, где ошибка не требует срочного возвращения. Держите кислород отдельно от ракетного топлива и отметьте запасные ёмкости в багаже.",
-        "Ручную цель подтверждайте после успешной дозаправки и проверки обоих наполненных резервов. Их назначение — пережить задержку в пути, а не заменить стационарную систему базы. После возвращения пополняйте использованный запас до следующего вылета: внешне одинаковые полные и пустые баки легко перепутать."
+        "Когда дозаправка удалась и оба резерва полны, подтвердите ручную цель. Их задача — пережить задержку в пути, а не заменить стационарную систему базы. Вернувшись, пополняйте израсходованное до следующего вылета: полные и пустые баки с виду одинаковы, и перепутать их легко."
       ],
       "text_en": [
-        "An oxygen loader is useful at home, but a field reserve must travel with you. Prepare two portable gas tanks and fill them with oxygen from a working loader. Owning a gas tank does not prove it contains breathable material: this container supports different fluids.",
+        "The oxygen loader is fine at home, but a travelling reserve has to travel with you. Prepare two portable tanks and fill them from a working loader. An empty gas tank is not yet oxygen: the container takes various liquids, so its contents need checking.",
         "Inspect the contents name and fill level of both tanks. Test the mod’s supported suit-refilling method in your Earth workshop, where mistakes do not require an emergency return. Keep oxygen separate from rocket fuel and mark spare containers in your luggage.",
-        "Confirm the manual objective after successful refilling and inspection of both filled reserves. They cover a travel delay rather than replace a base’s stationary system. Refill used reserves after returning and before the next flight: identical-looking full and empty tanks are easy to confuse."
+        "Once refilling has worked and both reserves are full, confirm the manual goal. Their job is to survive a delay on the road, not to replace the base’s fixed system. When you return, refill what you used before the next flight: full and empty tanks look the same, and they are easy to mix up."
       ],
       "task_notes": {
         "1": {
@@ -719,24 +719,24 @@
       "text": [
         "Обычное топливо нужно планировать на два перелёта: три ведра для старта и ещё три для возвращения. Произведите шесть в нефтепереработчике, обеспечив его нефтью и электричеством. Это запас на путь туда и обратно, а не шесть ведер, которые обязательно надо одновременно залить в ракету.",
         "Разделите партию до заправки: стартовую часть используйте на Земле, обратную положите в проверенный багаж вместе с площадкой. Не оставляйте возвращение зависимым от поиска местной нефти. Возможность открыть новую планету не означает, что там уже построена ваша топливная мастерская.",
-        "Предметная цель проверяет наличие партии и не контролирует, куда вы затем положили резерв. Повторно пересчитайте багаж перед запуском. Позже криогенное топливо уменьшит требуемое число вёдер, но до освоения его производства используйте именно расчёт для обычного топлива и не смешивайте две нормы."
+        "Книга видит только саму партию и не знает, куда потом лёг резерв. Пересчитайте багаж перед запуском ещё раз. Позже криогенное топливо сократит число вёдер, но пока его производство не освоено, считайте по норме обычного топлива и не смешивайте две меры."
       ],
       "text_en": [
         "Ordinary fuel must cover two flights: three buckets for departure and three more for returning. Produce six in a fuel refinery supplied with oil and electricity. This is a round-trip reserve, not six buckets that necessarily belong inside the rocket simultaneously.",
         "Split the batch before fuelling: use the departure portion on Earth and pack the return portion with a verified launch pad. Do not make returning depend on finding local oil. Unlocking a planet does not mean a fuel workshop already exists there.",
-        "The item objective checks possession of the batch, not where you subsequently store the reserve. Count the luggage again before launch. Cryofuel later reduces the required bucket count, but until its production is established, use the ordinary-fuel calculation and keep those two consumption rates distinct."
+        "The book sees only the batch itself and has no idea where the reserve went afterwards. Count your luggage once more before launch. Later, cryogenic fuel will cut the number of buckets, but until its production is up and running, go by the ordinary-fuel rate and do not mix the two measures."
       ]
     },
     "space_moon/guide_airlock": {
       "text": [
         "Герметичная комната остаётся полезной только при безопасном проходе людей. Подготовьте два шлюза и соедините наружное пространство с жилым объёмом через небольшую промежуточную камеру. Одна постоянно открытая дверь превращает работающий распределитель в попытку снабжать кислородом окружающий вакуум.",
         "Установите двери так, чтобы между ними можно было остановиться, закрыть первую и лишь затем открыть вторую. Сначала испытайте маршрут в заполненном скафандре. Наблюдайте показания распределителя при выходе и возвращении; не снимайте защиту, пока поведение помещения не проверено.",
-        "Подтвердите ручной пункт после прохода в обе стороны с сохранением кислорода в жилой части. Наличие двух предметов само по себе не проверяет герметичность. Если система резко расходует ресурсы, ищите открытую дверь или отверстие; вентиляционный канал наружу тоже нарушает смысл изолированного помещения."
+        "Подтвердите ручной пункт, когда прошли туда и обратно, а кислород в жилой части сохранился. Два шлюза в сундуке герметичности не проверят. Если система вдруг стала быстро терять ресурсы, ищите открытую дверь или дыру; вентиляционный канал наружу тоже сводит изоляцию на нет."
       ],
       "text_en": [
         "A sealed room remains useful only if people can enter safely. Prepare two airlocks and connect the exterior to living space through a small intermediate chamber. A permanently open door turns a working distributor into an attempt to oxygenate the surrounding vacuum.",
         "Place doors with room between them to stop, close the first and only then open the second. Test the route while wearing a filled spacesuit. Observe distributor readings when leaving and returning; keep protection on until the room’s behaviour is verified.",
-        "Confirm the manual objective after travelling both ways while maintaining oxygen in the living area. Possessing two items does not verify sealing. If resource consumption spikes, look for an open door or hole; a ventilation passage to the exterior also defeats the isolated room."
+        "Confirm the manual item once you have passed through both ways and the living space kept its oxygen. Two airlocks in a chest test nothing. If the system suddenly starts losing resources fast, look for an open door or a hole; a vent channel leading outside defeats the isolation just as surely."
       ],
       "task_notes": {
         "1": {
@@ -747,12 +747,12 @@
     },
     "space_moon/guide_sealed_services": {
       "text": [
-        "Обычная труба или кабель в отверстии стены не заменяет сплошной герметичный блок. Кабельный и жидкостный вводы позволяют провести коммуникации через оболочку лунного дома. Подготовьте четыре кабельных ввода и два жидкостных, затем выберите доступный участок стены для обслуживания.",
+        "Обычная труба или кабель в дыре стены не заменит сплошной герметичный блок. Кабельный и жидкостный вводы проводят коммуникации сквозь оболочку лунного дома без утечки. Подготовьте четыре кабельных ввода и два жидкостных, затем выберите удобный участок стены.",
         "Перенесите проход энергии и воды на соответствующие вводы, сохранив непрерывность соединений с обеих сторон. Кабельный ввод предназначен для электрической линии, жидкостный — для жидкости. На время изменения стены оставьте скафандр надетым и учитывайте возможную разгерметизацию.",
         "После закрытия оболочки убедитесь, что потребитель получает энергию, жидкость действительно поступает, а кислородная зона восстанавливается и остаётся стабильной. Только тогда подтверждайте проверку. Если машина работает, но воздух исчезает, неисправность может находиться в стене, а не в генераторе; отображение зоны распределителя помогает разделить эти случаи."
       ],
       "text_en": [
-        "An ordinary pipe or cable inside a wall opening does not replace a solid sealing block. Cable and fluid ducts carry services through a lunar home’s shell. Prepare four cable ducts and two fluid ducts, then choose an accessible wall section for maintenance.",
+        "An ordinary pipe or cable through a hole in the wall is no substitute for a solid sealed block. Cable and fluid conduits carry services through the shell of a lunar home without a leak. Prepare four cable conduits and two fluid conduits, then choose a convenient stretch of wall.",
         "Move power and water passages to the appropriate ducts while keeping connections continuous on both sides. Cable ducts serve electrical lines; fluid ducts serve fluids. Keep your spacesuit on while changing the wall and allow for possible depressurization.",
         "After closing the shell, verify that the consumer receives power, fluid actually arrives and the oxygenated zone recovers and remains stable. Only then confirm the check. A running machine alongside disappearing air can indicate a wall problem rather than a generator fault; the distributor’s area display helps distinguish them."
       ],
@@ -767,12 +767,12 @@
       "text": [
         "Орбита отличается от поверхности отсутствием обычного торможения: неудачный импульс может унести от станции. Подготовьте ограждение для рабочей дорожки, запас кислорода и заряженный кислородом Zip Gun. Сначала определите точку прибытия и безопасный участок для испытания движения.",
         "Постройте короткий ограждённый путь к месту хранения багажа. Испытайте небольшие импульсы рядом со станцией и научитесь гасить скорость встречным направлением. Не проверяйте дальность толчка над пустотой без запаса на возвращение; реактивный инструмент расходует содержимое своего кислородного резервуара.",
-        "Ручная цель подтверждает доступную дорожку и проведённую пробу управления. Решётки помогают ориентироваться и ограничивают случайный сход, но не создают герметичный жилой объём. Сохраняйте скафандр и отдельно проверяйте кислород: безопасная геометрия станции и пригодная для дыхания атмосфера являются разными задачами."
+        "Ручная цель подтверждает готовую дорожку и проведённую пробу управления. Решётки помогают держать направление и удерживают от случайного схода, но герметичного жилого объёма не создают. Скафандр не снимайте и кислород проверяйте отдельно: безопасная геометрия станции и пригодный для дыхания воздух — две разные задачи."
       ],
       "text_en": [
         "Orbit lacks ordinary braking: a poor impulse can carry you away from the station. Prepare railings for a work path, oxygen reserves and an oxygen-filled Zip Gun. First identify the arrival point and a safe area for movement tests.",
         "Build a short guarded route to luggage storage. Try small impulses close to the station and learn to cancel velocity by thrusting in the opposite direction. Do not test maximum range over the void without a return reserve; the propulsion tool consumes its oxygen supply.",
-        "The manual objective confirms an accessible path and completed handling trial. Bars help orientation and limit accidental departures, but do not form a sealed living volume. Keep your suit on and check oxygen separately: safe station geometry and a breathable atmosphere are different tasks."
+        "The manual goal confirms a finished walkway and a completed control trial. Railings help you keep your bearings and stop an accidental drift, but they do not create a sealed living space. Keep the suit on and check oxygen separately: a safe station layout and breathable air are two different jobs."
       ],
       "task_notes": {
         "1": {
@@ -783,12 +783,12 @@
     },
     "space_mars/guide_cryo_stock": {
       "text": [
-        "Криогенное топливо позволяет планировать один перелёт на одном ведре, поэтому два ведра образуют отдельный запас туда и обратно. Получите их в криозамораживателе, обеспечив машину электричеством и подходящим холодным сырьём. Ледяные осколки дают двадцать пять милливедер каждый; сорок соответствуют одному полному ведру.",
+        "На криогенном топливе один перелёт укладывается в одно ведро, так что два ведра — это отдельный запас туда и обратно. Получите их в криозамораживателе, подав ему электричество и холодное сырьё. Ледяной осколок даёт двадцать пять милливедер; сорок осколков — ровно одно ведро.",
         "Собирайте топливо в закрытой системе и подпишите обратную ёмкость. Не выливайте его рядом с рабочим проходом: эта жидкость повреждает существ и замораживает соседнюю воду. Криозамораживатель создаёт топливо, но не загружает автоматически весь экспедиционный багаж.",
         "После регистрации партии разделите два ведра между стартовой заправкой и запасом возвращения. Не переносите на криогенное топливо норму трёх обычных вёдер и не рассчитывайте, что остаток в домашней машине доступен на другой планете. Проверка запаса перед каждым вылетом остаётся частью подготовки независимо от эффективности топлива."
       ],
       "text_en": [
-        "Cryofuel supports one flight per bucket, so two buckets form a separate round-trip reserve. Produce them in the cryofreezer with electricity and suitable cold ingredients. Ice shards yield twenty-five millibuckets each; forty provide one full bucket.",
+        "With cryogenic fuel one flight fits into one bucket, so two buckets make a separate there-and-back reserve. Get them from the cryofreezer, feeding it electricity and cold raw material. An ice shard yields twenty-five millibuckets; forty shards make exactly one bucket.",
         "Collect fuel in a closed system and label the return container. Do not pour it beside a walkway: the fluid damages entities and freezes nearby water. A cryofreezer produces fuel, but does not automatically pack expedition luggage.",
         "Once the batch registers, divide the two buckets between departure fuelling and the return reserve. Do not apply the three-bucket ordinary-fuel rate to cryofuel or assume fuel remaining in the home machine is available on another planet. Checking stock before every departure remains necessary regardless of fuel efficiency."
       ]
@@ -813,12 +813,12 @@
     },
     "space_hot/guide_jet_trial": {
       "text": [
-        "Реактивный костюм сочетает защиту и перемещение, но для экспедиции ему нужны два независимых запаса: кислород и электрический заряд. Подготовьте весь комплект, обслужите кислородную часть загрузчиком, а энергетическую — зарядником. Наличие четырёх деталей не подтверждает их готовность к полёту.",
+        "Реактивный костюм соединяет защиту и перемещение, но в экспедиции ему нужны два независимых запаса: кислород и электрический заряд. Соберите весь комплект, кислородную часть обслужите загрузчиком, энергетическую — зарядником. Четыре детали в сундуке к полёту ещё не готовы.",
         "Выберите просторную безопасную площадку и найдите клавиши управления в настройках игры. Испытайте обычный и ускоренный режимы небольшими перемещениями, затем спокойно приземлитесь. Следите за расходом энергии и не начинайте первое знакомство над лавой, кратером или далеко от запасного транспорта.",
         "Подтверждайте пункт после обеих проб с сохранённым резервом кислорода. Ускорение удобно для местной разведки, но костюм не заменяет ракету при перелёте между планетами. Вернувшись на зарядную остановку, восстановите оба ресурса отдельно и положите в багаж резерв, достаточный для задержки при следующем выходе."
       ],
       "text_en": [
-        "A jet suit combines protection and movement, but an expedition needs two independent reserves: oxygen and electrical charge. Prepare the complete set, service its oxygen with a loader and its energy with an energizer. Owning four pieces does not establish flight readiness.",
+        "The jet suit combines protection and mobility, but on an expedition it needs two independent reserves: oxygen and electric charge. Assemble the full set, service the oxygen part with the loader and the energy part with the energizer. Four pieces in a chest are not yet ready to fly.",
         "Choose a spacious safe area and locate controls in the game settings. Test normal and boosted modes with small movements, then land calmly. Watch energy consumption and avoid a first trial over lava, a crater or far from backup transport.",
         "Confirm the objective after both trials with oxygen still in reserve. Boosting helps local exploration, but the suit does not replace a rocket for travel between planets. Back at the charging stop, restore both resources separately and pack enough reserve to cover a delay during the next outing."
       ],
@@ -849,12 +849,12 @@
     },
     "space_glacio/guide_glacio_air": {
       "text": [
-        "Глейсио не повторяет условия Луны: в данных установленной планеты на поверхности есть кислород, температура составляет минус двадцать градусов, а гравитация отличается от земной. Возьмите Ti-69 и проверьте эти характеристики после посадки, прежде чем перестраивать колониальный комплект по привычной схеме.",
+        "Глейсио не повторяет Луну: у установленной планеты на поверхности есть кислород, температура минус двадцать градусов, а гравитация отличается от земной. Возьмите Ti-69 и проверьте эти характеристики после посадки, прежде чем перестраивать колониальный комплект по привычной схеме.",
         "Сравните показания с планом выхода и оставьте защитное снаряжение доступным. Атмосфера поверхности не распространяется автоматически на орбиту: орбитальное измерение Глейсио лишено кислорода. Подготовьте отдельный наполненный запас для следующего орбитального перехода и проверьте его до старта.",
         "Ручная цель подтверждает измерение трёх характеристик и наличие готового кислородного резерва для орбиты. Она не требует подвергать персонажа холоду без защиты. Такой осмотр помогает выбирать нужную инфраструктуру по реальным условиям места, а не строить одинаковую лунную комнату на каждой новой планете только из-за её инопланетного названия."
       ],
       "text_en": [
-        "Glacio does not repeat lunar conditions: the installed planet data gives its surface oxygen, a temperature of minus twenty degrees and gravity different from Earth. Bring a Ti-69 and inspect these properties after landing before redesigning the colony kit around familiar assumptions.",
+        "Glacio is no repeat of the Moon: as installed, the planet has oxygen at the surface, a temperature of minus twenty degrees and gravity unlike Earth’s. Take the Ti-69 and check these readings after landing, before rebuilding the colony kit along the usual lines.",
         "Compare readings with your outing plan and keep protective equipment accessible. Surface atmosphere does not automatically extend to orbit: Glacio’s orbital dimension has no oxygen. Prepare a separate filled reserve for the next orbital transfer and inspect it before launching.",
         "The manual objective confirms measurement of all three properties and a ready orbital oxygen reserve. It does not require exposing your character to cold without protection. This survey helps select infrastructure for actual local conditions instead of building an identical lunar room on every new planet merely because its name is alien."
       ],

@@ -3,14 +3,14 @@
   "chapters": {
     "fd_kitchen": {
       "intro": [
-        "Кухня превращает разрозненные продукты в запас для работы и путешествий. Farmer’s Delight добавляет обработку ножом, приготовление в котелке, новые культуры и большие блюда для подачи. Начните с одной понятной порции и только затем расширяйте меню.",
-        "Разместите рабочие поверхности, источник жара и хранение рядом, оставив безопасный проход. Для устойчивого снабжения нужны не только рецепты: семена следует возвращать на грядки, ингредиенты — пополнять, готовую еду — забирать в отдельный запас.",
-        "Боковые задания связывают выращивание, подготовку и обслуживание кухни. Предметные цели проверяют запас в инвентаре, а ручные — предложенную вами проверку работы."
+        "Кухня превращает случайные находки в запас, с которым не страшно уходить далеко от дома. Farmer’s Delight добавляет нож и разделочную доску, котелок для сложных блюд, новые культуры и большие угощения для стола. Первую порцию приготовьте так, чтобы понять каждый шаг, и лишь потом расширяйте меню.",
+        "Рабочие поверхности, источник жара и хранение ставьте рядом, но оставляйте проход. Рецепты — половина дела: семена возвращаются на грядки, ингредиенты пополняются, а готовая еда уходит в отдельный запас для похода.",
+        "Боковые задания связывают грядки, заготовки и повседневную работу кухни. Предметные цели смотрят на запас в инвентаре; ручные ждут, пока вы сами проверите, что кухня действительно работает."
       ],
       "intro_en": [
-        "A kitchen turns separate ingredients into supplies for work and travel. Farmer’s Delight adds knife processing, cooking-pot meals, new crops and large dishes for serving. Begin with one understandable portion before expanding the menu.",
-        "Place preparation surfaces, a heat source and storage nearby with safe access. Reliable supplies require more than recipes: replant seeds, replenish ingredients and move finished meals into a separate reserve.",
-        "Optional quests connect cultivation, preparation and kitchen operation. Item objectives check inventory supplies, while manual goals ask you to verify the described process yourself."
+        "A kitchen turns stray finds into supplies you can carry far from home. Farmer’s Delight adds a knife and cutting board, a cooking pot for complex dishes, new crops and large feasts for the table. Cook the first portion slowly enough to understand each step, and only then widen the menu.",
+        "Keep work surfaces, heat and storage close together while leaving a clear walkway. Recipes are half the job: seeds go back to the beds, ingredients get replenished, and finished food goes into a separate travel reserve.",
+        "The side quests tie the garden, the prep work and the daily running of the kitchen together. Item objectives look at what is in your inventory; manual ones wait for you to confirm that the kitchen really works."
       ]
     },
     "life_furniture": {
@@ -29,40 +29,40 @@
   "quests": {
     "fd_kitchen/knife": {
       "text": [
-        "Нож Farmer’s Delight нужен не только как оружие. Им обрабатывают продукты на разделочной доске и получают солому при подходящем сборе травы или культур. Кремнёвый вариант знакомит с инструментом, а железный позволяет дольше работать без замены.",
-        "Изготовьте оба ножа по их рецептам в JEI и дайте кодексу учесть каждый в инвентаре; показать их можно по очереди. Подготовьте небольшой запас пшеницы или найдите траву и испытайте сбор ножом. Случайный результат отдельного растения не повод считать инструмент неисправным.",
-        "Держите кухонный нож рядом с рабочей поверхностью, а не среди случайных деталей фабрики. Следующий шаг — разделочная доска: там пригодятся правильный инструмент и знание конкретного рецепта обработки. Наличие ножа само по себе не означает, что любой продукт можно порезать любым способом."
+        "Нож Farmer’s Delight не только оружие. Им режут продукты на разделочной доске и собирают солому, если срезать подходящую траву или зерно. Кремнёвый нож знакомит с инструментом, железный служит дольше и реже просит замены.",
+        "Сделайте оба ножа по рецептам из JEI и дайте книге увидеть каждый в инвентаре — по очереди. Возьмите немного пшеницы или найдите высокую траву и попробуйте срезать её ножом. Если одно растение ничего не дало, инструмент цел: солома выпадает не с каждого куста.",
+        "Кухонный нож живёт рядом с доской, а не в общем ящике с деталями фабрики. Следующий шаг — сама доска: там понадобится и правильный инструмент, и конкретный рецепт обработки, потому что не всякий продукт режется как угодно."
       ],
       "text_en": [
-        "A Farmer’s Delight knife is more than a weapon. It processes food on a cutting board and can gather straw when harvesting suitable grass or crops. Flint introduces the tool, while iron gives you longer service before replacement.",
-        "Craft both knives using JEI and let the Codex record each in your inventory; they can be shown separately. Prepare some wheat or find grass and test harvesting with a knife. A single plant’s random result is not evidence that the tool is broken.",
-        "Keep the kitchen knife near its work surface rather than among factory components. The next step is the cutting board, where the correct tool and processing recipe matter. Owning a knife does not mean every ingredient can be cut in every imaginable way."
+        "A Farmer’s Delight knife is more than a weapon. It cuts food on the cutting board and gathers straw when you harvest suitable grass or grain. The flint knife introduces the tool; the iron one lasts longer and needs replacing less often.",
+        "Craft both knives from their JEI recipes and let the book see each one in your inventory, one after the other. Take some wheat or find tall grass and try cutting it with the knife. If a single plant yields nothing, the tool is fine: straw does not drop from every stalk.",
+        "A kitchen knife lives next to the board, not in the crate of factory parts. The next step is the board itself, where both the right tool and the specific recipe matter, because not every ingredient can be cut any way you like."
       ],
       "task_notes": {}
     },
     "fd_kitchen/board": {
       "text": [
-        "Разделочная доска — рабочее место для рецептов резки и другой ручной обработки Farmer’s Delight. Результат определяется положенным предметом и инструментом: некоторые операции требуют нож, другие могут использовать иной подходящий инструмент.",
-        "Изготовьте доску, возьмите её для зачёта и поставьте на доступную поверхность. Откройте в JEI категорию резки для выбранного продукта, положите ингредиент на доску и взаимодействуйте указанным инструментом. Соберите результат и сравните количество с рецептом.",
-        "Начните с одного недорогого ингредиента, оставив место для выпавших предметов. Если ничего не происходит, проверьте инструмент и сам рецепт, а не складывайте на доску новые продукты. Освоенная обработка подготовит ингредиенты для блюд и даст понятную основу будущей автоматизации."
+        "Разделочная доска — рабочее место для резки и другой ручной обработки Farmer’s Delight. Что получится, решают положенный предмет и инструмент в руке: одним рецептам нужен нож, другим — иной подходящий инструмент.",
+        "Сделайте доску, покажите её книге и поставьте на удобную поверхность. В JEI откройте раздел резки для выбранного продукта, положите его на доску и ударьте указанным инструментом. Соберите результат и сравните количество с рецептом.",
+        "Для пробы возьмите один недорогой ингредиент и оставьте вокруг место — результат выпадает на пол. Если ничего не происходит, дело в инструменте или рецепте, а не в количестве продуктов на доске. Освоенная резка готовит ингредиенты для блюд и станет основой будущей автоматизации."
       ],
       "text_en": [
-        "The cutting board is a workstation for Farmer’s Delight cutting and other manual processing recipes. The placed item and tool determine the result: some operations need a knife, while others use another suitable tool.",
-        "Craft the board, carry it for the objective and place it on an accessible surface. Inspect a chosen ingredient’s cutting recipe in JEI, put the ingredient on the board and interact with the specified tool. Collect the output and compare its quantity with the recipe.",
-        "Begin with one inexpensive ingredient and leave room for dropped results. If nothing happens, check the tool and recipe instead of adding more supplies. Learning this process prepares meal ingredients and provides a clear foundation for later automation."
+        "The cutting board is the workstation for cutting and other manual processing in Farmer’s Delight. The result depends on the item placed and the tool in your hand: some recipes need a knife, others a different suitable tool.",
+        "Craft the board, show it to the book and place it on a convenient surface. In JEI, open the cutting section for your chosen ingredient, lay it on the board and strike it with the listed tool. Collect the output and compare the amount with the recipe.",
+        "For the first try, use one cheap ingredient and leave space around the board, since results drop onto the floor. If nothing happens, the tool or the recipe is wrong, not the number of items on the board. Once cutting is familiar, it prepares meal ingredients and becomes the basis for automation later."
       ],
       "task_notes": {}
     },
     "fd_kitchen/pot": {
       "text": [
-        "Котелок готовит составные блюда из нескольких ингредиентов. Ему нужен действующий источник жара снизу и тара для порций, если блюдо подаётся в миске. Удобно поставить его рядом с продуктовым шкафом, чтобы не носить каждый ингредиент через всю базу.",
-        "Сделайте котелок и установите над подходящим жаром. Для тушёной говядины положите сырую говядину, морковь и картофель по рецепту JEI, подготовьте миску и дождитесь приготовления. Заберите готовую порцию, проверив, что выход не занят другой едой.",
-        "Цели отдельно запоминают котелок и тушёную говядину. Дайте счётчику учесть котелок перед установкой, затем приготовьте и подберите порцию: уже учтённое оборудование снимать не требуется. Проверка предметов не заменяет проверку нагрева: холодный котелок с правильными продуктами работать не будет."
+        "Котелок варит составные блюда из нескольких ингредиентов. Ему нужен живой жар снизу и посуда для порций, если блюдо подаётся в миске. Удобнее всего он стоит рядом с продуктовым шкафом: тогда не придётся носить каждую морковку через всю базу.",
+        "Сделайте котелок и поставьте над подходящим жаром. Для тушёной говядины положите сырую говядину, морковь и картофель по рецепту JEI, приготовьте миску и дождитесь готовности. Забирая порцию, проверьте, что выход не занят другой едой.",
+        "Котелок и тушёная говядина — две разные цели. Покажите книге котелок до установки, потом сварите и подберите порцию: уже учтённое оборудование снимать не нужно. Помните о главном условии — холодный котелок с правильными продуктами так и останется холодным."
       ],
       "text_en": [
-        "A cooking pot prepares meals from multiple ingredients. It needs an active heat source below and serving containers for dishes placed in bowls. Position it near food storage to avoid carrying each ingredient across the base.",
-        "Craft the pot and place it over suitable heat. For beef stew, add raw beef, carrot and potato according to the JEI recipe, prepare a bowl and wait for cooking. Collect the finished portion, checking that another food is not blocking the output.",
-        "The goals remember the pot and beef stew separately. Let the counter record the pot before placement, then cook and collect a portion; recorded equipment does not need to be dismantled. Inventory detection does not verify heating: correct ingredients will not cook in a cold pot."
+        "The cooking pot prepares composite dishes from several ingredients. It needs live heat underneath and bowls for the portions if the dish is served that way. It works best beside the food cabinet, so you are not carrying every carrot across the base.",
+        "Craft the pot and place it over suitable heat. For beef stew, add raw beef, carrot and potato as the JEI recipe shows, prepare a bowl and wait for it to finish. When you take the portion, check that the output slot is not blocked by other food.",
+        "The pot and the beef stew are two separate objectives. Show the book the pot before placing it, then cook and pick up a portion; recorded equipment never needs to come down again. Remember the main condition: a cold pot with the right ingredients simply stays cold."
       ],
       "task_notes": {}
     },
@@ -81,14 +81,14 @@
     },
     "fd_kitchen/stove": {
       "text": [
-        "Плита Farmer’s Delight создаёт постоянное кухонное место для нагрева и жарки. Над ней удобно разместить котелок или сковороду, а сам верх плиты используется для подходящих продуктов. Сначала оставьте свободный подход к рабочей стороне.",
-        "Сделайте плиту по рецепту, возьмите её для цели и установите на подготовленном месте. Зажгите её подходящим источником огня, затем проверьте нагрев стоящего сверху оборудования. Если плита погашена, она не даст нужного жара, даже когда выглядит частью законченной кухни.",
-        "Приготовьте пробный продукт и заберите результат, не оставляя на поверхности случайный запас. Планируйте место под дальнейшую подачу и хранение. Хорошая кухня позволяет видеть, что нагревается, где лежат ингредиенты и куда отправляется готовое блюдо, без прыжков через рабочие блоки."
+        "Плита Farmer’s Delight — постоянное место для нагрева и жарки. Над ней ставят котелок или сковороду, а на самой поверхности жарят подходящие продукты. Прежде чем строить, оставьте свободный подход к рабочей стороне.",
+        "Сделайте плиту по рецепту, покажите её книге и установите на выбранном месте. Разожгите подходящим источником огня и убедитесь, что оборудование сверху получает тепло. Погашенная плита выглядит частью законченной кухни, но не греет.",
+        "Приготовьте что-нибудь на пробу и заберите результат, не оставляя на поверхности случайный запас. Заранее продумайте, куда пойдут готовые блюда и где будут лежать ингредиенты. Хорошая кухня видна с одного взгляда: что греется, где продукты и куда уходит еда, и всё это без прыжков через рабочие блоки."
       ],
       "text_en": [
-        "The Farmer’s Delight stove provides a permanent station for heating and cooking. A pot or skillet can sit above it, and its surface cooks suitable foods directly. Leave clear access to the working side first.",
-        "Craft the stove, carry it for the objective and place it at the prepared site. Light it with a suitable fire source and check that equipment above receives heat. An extinguished stove will not heat the cookware even when it looks like part of a finished kitchen.",
-        "Cook a sample and collect the result rather than leaving unrelated supplies on the surface. Reserve space for future supply and storage. A useful kitchen makes ingredients, heating and finished food easy to inspect without climbing over workstations."
+        "The Farmer’s Delight stove is a permanent place for heating and frying. A pot or skillet sits above it, and suitable foods cook directly on its surface. Before building, leave clear access to the working side.",
+        "Craft the stove, show it to the book and set it in the chosen spot. Light it with a suitable fire source and make sure the cookware above receives heat. An extinguished stove looks like part of a finished kitchen, but it does not cook.",
+        "Cook a sample and collect the result instead of leaving random supplies on the surface. Decide in advance where finished dishes go and where ingredients live. A good kitchen reads at a glance: what is heating, where the food is and where meals go, all without hopping over work blocks."
       ],
       "task_notes": {}
     },
@@ -133,14 +133,14 @@
     },
     "fd_kitchen/storage_fd": {
       "text": [
-        "Кухонный шкаф помогает держать ингредиенты рядом с приготовлением. Дубовый шкаф Farmer’s Delight служит хранилищем и вписывается в рабочую стену. Его полезность определяется расположением, а не количеством декоративных блоков вокруг.",
-        "Изготовьте дубовый шкаф и возьмите его в инвентарь для цели. Поставьте возле доски или котелка, проверьте доступ к дверце и разложите ингредиенты. Отделите сырые продукты, готовую еду и посуду, используя отдельные шкафы или понятные группы ячеек.",
-        "Приготовьте одно знакомое блюдо, доставая всё из выбранного места. Если приходится обходить полдома, переставьте хранение сейчас. Предметная цель не проверяет порядок внутри шкафа; именно ваша пробная готовка покажет, стала ли кухня удобнее и чего не хватает рядом с рабочим местом."
+        "Кухонный шкаф держит ингредиенты под рукой. Дубовый шкаф Farmer’s Delight вписывается в рабочую стену и служит хранилищем, а польза от него зависит от места, а не от количества декора вокруг.",
+        "Сделайте дубовый шкаф и покажите его книге. Поставьте рядом с доской или котелком, проверьте, что дверца открывается свободно, и разложите продукты. Сырое, готовое и посуда пусть лежат раздельно — в разных шкафах или хотя бы в понятных группах ячеек.",
+        "Приготовьте знакомое блюдо, доставая всё из этого места. Если за миской приходится обходить полдома, переставьте хранение сейчас, пока кухня маленькая. Порядок внутри шкафа книга не видит; именно пробная готовка покажет, чего не хватает рядом с рабочим местом."
       ],
       "text_en": [
-        "A kitchen cabinet keeps ingredients close to preparation. The Farmer’s Delight oak cabinet provides storage within a working wall. Its usefulness depends on placement rather than the amount of surrounding decoration.",
-        "Craft the oak cabinet and carry it for the objective. Place it near the board or pot, check access to its door and arrange ingredients. Separate raw food, finished meals and tableware using additional cabinets or clear slot groups.",
-        "Cook a familiar meal using this storage. If collecting supplies requires crossing the whole house, move the cabinet now. The inventory goal does not inspect its organisation; the cooking trial shows whether the kitchen is more convenient and which supplies are missing nearby."
+        "A kitchen cabinet keeps ingredients within reach. The Farmer’s Delight oak cabinet fits into a working wall and serves as storage, and its value depends on where it stands rather than how much decoration surrounds it.",
+        "Craft the oak cabinet and show it to the book. Place it beside the board or pot, check that the door opens freely and arrange the food. Keep raw ingredients, finished meals and tableware apart — in separate cabinets or at least in clear groups of slots.",
+        "Cook a familiar dish taking everything from this spot. If a bowl requires a walk through half the house, rearrange storage now, while the kitchen is small. The book cannot see the order inside the cabinet; the trial cooking shows what is missing near the workstation."
       ],
       "task_notes": {}
     },
@@ -285,14 +285,14 @@
     },
     "life_furniture/et_deco": {
       "text": [
-        "Декор Eternal Tales позволяет перенести впечатления от путешествий в собственный дом. Лампа с душевной лавой станет одним из таких акцентов, но её изготовление связано с материалами соответствующего этапа мода. Не нужно искать её в первый вечер.",
-        "Откройте Soul Lava Lamp в JEI и разберите рецепт до знакомых ингредиентов. Недоступные пока материалы ищите через ветку Eternal Tales: описание нужного мира объяснит, когда туда разумно отправляться. Соберите лампу и возьмите её в инвентарь для предметной цели.",
-        "Поставьте её на пробном участке комнаты и посмотрите, как она сочетается с окружающим светом и материалами. Не считайте декоративный объект полноценным освещением без проверки места. Такой предмет хорошо работает как одна заметная деталь рядом с обычной мебелью и сохранёнными трофеями."
+        "Декор Eternal Tales переносит впечатления от дальних миров в собственный дом. Лампа с душевной лавой — один из таких акцентов, но её материалы принадлежат позднему этапу мода, и искать её в первый вечер не стоит.",
+        "Откройте Soul Lava Lamp в JEI и разберите рецепт до знакомых ингредиентов. Недостающие материалы ищите по ветке Eternal Tales: описание нужного мира подскажет, когда туда разумно отправляться. Соберите лампу и возьмите её в инвентарь.",
+        "Поставьте её на пробном участке комнаты и посмотрите, как она сочетается с остальным светом и материалами. Проверьте тёмные углы: декоративная вещь редко освещает комнату целиком. Лучше всего она работает как одна заметная деталь рядом с обычной мебелью и трофеями из путешествий."
       ],
       "text_en": [
-        "Eternal Tales decoration brings reminders of your travels into your home. A Soul Lava Lamp can become one such accent, but crafting it depends on materials from the appropriate stage of the mod. It need not be pursued on your first evening.",
-        "Open its JEI entry and trace the recipe to familiar ingredients. Follow the Eternal Tales branch for materials still beyond your reach; the relevant world’s description explains when to travel there. Craft the lamp and carry it for the item goal.",
-        "Place it in a test area and compare it with nearby lighting and materials. Verify the actual room instead of assuming a decorative object provides sufficient light. It works well as one distinctive detail alongside ordinary furnishings and collected trophies."
+        "Eternal Tales decoration brings memories of distant worlds into your own home. The Soul Lava Lamp is one such accent, but its materials belong to a late stage of the mod, and there is no point hunting for it on the first evening.",
+        "Open the Soul Lava Lamp in JEI and trace the recipe down to familiar ingredients. Find the missing materials along the Eternal Tales branch; the description of the relevant world tells you when a trip there makes sense. Craft the lamp and take it into your inventory.",
+        "Place it in a test corner of the room and see how it sits with the other light and materials. Check the dark corners: a decorative piece rarely lights a whole room. It works best as one striking detail beside ordinary furniture and trophies from your travels."
       ],
       "task_notes": {}
     },
@@ -350,14 +350,14 @@
     },
     "fd_kitchen/guide_tomato_support": {
       "text": [
-        "Помидоры Farmer’s Delight используют верёвку над растением для роста вверх. Это позволяет осмысленно освоить высоту грядки, но требует места для сбора и наблюдения за стеблем. Начните с одного растения возле доступного края участка.",
-        "Посадите помидор на подходящую грядку и разместите верёвку непосредственно над ним. Обеспечьте свет и обычные условия роста, затем дождитесь изменения растения. Если стебель не развивается, проверьте расположение опоры и состояние культуры, а не ставьте верёвку всё выше наугад.",
-        "Подтвердите ручную цель после наблюдаемого роста по опоре и сбора урожая. Кодекс не проверяет геометрию грядки автоматически. Удачную схему можно повторить вдоль ряда, оставляя между посадками и проходом достаточно места для обслуживания."
+        "Помидоры Farmer’s Delight тянутся вверх по верёвке, подвешенной над кустом. Так грядка растёт в высоту, но требует места для сбора и наблюдения за стеблем. Начните с одного растения у доступного края участка.",
+        "Посадите помидор на грядку и повесьте верёвку прямо над ним. Дайте свет и обычные условия роста, затем дождитесь, пока растение изменится. Если стебель не поднимается, проверьте, где висит опора и в каком состоянии куст, вместо того чтобы вешать верёвку всё выше наугад.",
+        "Подтвердите ручную цель, когда увидите рост по опоре и соберёте урожай. Удачную схему повторите вдоль ряда, оставив между посадками и проходом достаточно места для обслуживания."
       ],
       "text_en": [
-        "Farmer’s Delight tomatoes can use rope above the crop to grow upwards. This makes productive use of height, but you still need access for harvesting and observation. Begin with one plant at an accessible plot edge.",
-        "Plant the tomato on suitable farmland and position rope directly above it. Provide light and ordinary growing conditions, then wait for the plant to develop. If it does not climb, inspect support placement and crop conditions instead of adding rope higher at random.",
-        "Confirm the manual goal after observing growth along the support and collecting a harvest. The Codex does not automatically inspect garden geometry. Repeat the successful arrangement along a row while preserving enough room for maintenance."
+        "Farmer’s Delight tomatoes climb a rope hung above the bush. The bed grows upward, but it needs room for harvesting and for watching the stem. Start with one plant at an accessible edge of the plot.",
+        "Plant the tomato in farmland and hang rope directly above it. Provide light and ordinary growing conditions, then wait for the plant to change. If the stem does not climb, check where the support hangs and how the bush is doing instead of adding rope higher and higher at random.",
+        "Confirm the manual goal once you have seen growth along the support and gathered a harvest. Repeat the successful arrangement along the row, leaving enough space between plants and the walkway for maintenance."
       ],
       "task_notes": {
         "0": {
@@ -368,27 +368,27 @@
     },
     "fd_kitchen/guide_cabbage_batch": {
       "text": [
-        "Небольшая партия заготовок помогает понять производительность разделочной доски. Капуста подходит для первой проверки: один кочан, обработанный ножом по рецепту Farmer’s Delight, даёт два листа. Листья используются в дальнейших пищевых рецептах.",
-        "Подготовьте восемь кочанов, исправный нож и свободное место для результата. Обработайте капусту на доске и соберите шестнадцать листьев в инвентаре. Если счётчик не совпадает с ожиданием, проверьте выпавшие предметы и исходное количество кочанов.",
-        "После зачёта положите заготовки в кухонное хранение и выберите блюдо, где они нужны. Не режьте сразу весь урожай: часть рецептов может требовать целый кочан. Теперь у вас есть проверенный пример, на котором удобно учиться планировать небольшие партии ингредиентов."
+        "Небольшая партия заготовок показывает, на что способна разделочная доска. Капуста подходит для первой проверки: один кочан, разрезанный ножом по рецепту Farmer’s Delight, даёт два листа, а листья идут в дальнейшие блюда.",
+        "Возьмите восемь кочанов, целый нож и свободное место для результата. Нарежьте капусту на доске и соберите шестнадцать листьев в инвентарь. Если счёт не сходится, посмотрите на выпавшие предметы и на то, сколько кочанов вы положили на самом деле.",
+        "После зачёта уберите заготовки в кухонное хранение и выберите блюдо, где они пригодятся. Не режьте весь урожай сразу: некоторым рецептам нужен целый кочан. Теперь у вас есть проверенный пример, по которому удобно планировать небольшие партии ингредиентов."
       ],
       "text_en": [
-        "A modest preparation batch teaches cutting-board throughput. Cabbage is suitable for a first check: one head processed with a knife yields two leaves in the Farmer’s Delight recipe. Those leaves feed further food recipes.",
-        "Prepare eight cabbages, a working knife and room for output. Process them on the board and collect sixteen leaves in your inventory. If the counter differs from your prediction, inspect dropped items and the original number of heads.",
-        "After completion, store the prepared leaves and choose a dish that uses them. Avoid cutting the entire harvest immediately, since some recipes may need whole cabbage. You now have a verified example for planning small ingredient batches."
+        "A modest batch of prep work shows what the cutting board can do. Cabbage suits a first check: one head cut with a knife by the Farmer’s Delight recipe yields two leaves, and the leaves go into later dishes.",
+        "Take eight cabbages, an intact knife and free space for the output. Cut the cabbage on the board and collect sixteen leaves in your inventory. If the count is off, look at the dropped items and at how many heads you actually placed.",
+        "Once the goal is met, put the leaves into kitchen storage and pick a dish that uses them. Do not cut the whole harvest at once: some recipes need a whole head. You now have a tested example for planning small ingredient batches."
       ],
       "task_notes": {}
     },
     "fd_kitchen/guide_menu_reserve": {
       "text": [
-        "Разнообразное меню полезно, пока кухня способна его поддерживать. Выберите основное походное блюдо и ещё одно блюдо из доступных культур. Сравните их требования: общий ингредиент может закончиться сразу для обеих линий приготовления.",
-        "Запишите продукты и тару для небольшой повторяемой партии каждого блюда. Проверьте, откуда поступают мясо, овощи и рис, и отделите посадочный запас от кухонного. Сделайте пробный выпуск обоих рецептов, складывая результат в понятное место.",
-        "Отметьте цель после приготовления и восстановления расходников. Если один рецепт требует постоянных дальних поисков, оставьте его праздничным, а основной запас стройте на доступном снабжении. Хорошее меню соответствует вашему хозяйству и не заставляет каждый раз заново собирать всю кухню."
+        "Разнообразное меню хорошо, пока кухня успевает его кормить. Выберите основное походное блюдо и ещё одно из доступных культур, затем сравните их требования: общий ингредиент может закончиться сразу для обеих линий.",
+        "Запишите продукты и посуду для небольшой повторяемой партии каждого блюда. Проверьте, откуда приходят мясо, овощи и рис, и отделите посадочный запас от кухонного. Сварите пробную партию обоих рецептов и сложите результат в понятное место.",
+        "Цель можно отметить после готовки и пополнения расходников. Если один рецепт каждый раз требует дальних вылазок, оставьте его для праздников, а основной запас стройте на том, что растёт рядом. Хорошее меню соответствует хозяйству и не заставляет пересобирать кухню перед каждым походом."
       ],
       "text_en": [
-        "A varied menu is useful while the kitchen can sustain it. Choose a main travel meal and one additional dish from available crops. Compare their requirements, since a shared ingredient can run out for both cooking lines at once.",
-        "Record ingredients and containers for a modest repeatable batch of each dish. Check the sources of meat, vegetables and rice, keeping planting supplies separate. Produce a trial of both recipes and store the results clearly.",
-        "Tick the goal after cooking and replenishing supplies. If one recipe needs constant distant searches, keep it for special occasions and base regular provisions on reliable sources. A good menu fits your farm without forcing you to rebuild its supply chain each time."
+        "A varied menu is good as long as the kitchen can keep up with it. Choose a main travel dish and one more from the crops you have, then compare their needs: a shared ingredient can run out for both lines at once.",
+        "Write down the ingredients and containers for a small repeatable batch of each dish. Check where meat, vegetables and rice come from, and keep planting stock apart from kitchen stock. Cook a trial batch of both recipes and store the result somewhere obvious.",
+        "The goal can be ticked after cooking and restocking. If one recipe keeps demanding long expeditions, save it for feasts and build the everyday reserve on what grows nearby. A good menu matches the farm and never forces you to rebuild the kitchen before each trip."
       ],
       "task_notes": {
         "0": {
@@ -435,14 +435,14 @@
     },
     "life_furniture/guide_room_light": {
       "text": [
-        "Декоративный свет должен помогать ориентироваться в комнате. Расположите его у входов, рабочих мест и проходов, а затем проверьте тёмные углы. Яркий центральный акцент не гарантирует, что за шкафом или лестницей достаточно света.",
-        "Начните с обычных фонарей или другого понятного источника, затем добавьте выбранный декоративный светильник. Осмотрите помещение без опоры на солнечный свет из окон. Проверьте доступ к выключаемым приборам и условия питания, если ваша мебель их требует.",
-        "Поставьте отметку после осмотра всей комнаты и устранения неудобных тёмных участков. Кодекс не измеряет освещённость автоматически. Сохраните сочетание функционального света и декора, чтобы интерьер оставался удобным ночью и после расширения соседних помещений."
+        "Декоративный свет должен помогать ориентироваться, а не только украшать. Расставьте его у входов, рабочих мест и проходов, затем обойдите тёмные углы: яркий акцент в центре не обещает света за шкафом или под лестницей.",
+        "Для основы возьмите обычные фонари или другой понятный источник, а затем добавьте выбранный декоративный светильник. Осмотрите помещение ночью, без солнца из окон. Если мебель требует питания или переключения, проверьте доступ к приборам.",
+        "Поставьте отметку после осмотра всей комнаты и устранения неудобных тёмных участков. Сочетание рабочего света и декора сохраните: тогда интерьер останется удобным и ночью, и после того, как соседние комнаты разрастутся."
       ],
       "text_en": [
-        "Decorative lighting should help you navigate the room. Place it near entrances, workstations and passages, then inspect dark corners. A bright central accent does not guarantee adequate light behind cabinets or stairs.",
-        "Begin with ordinary lanterns or another familiar source, then add your chosen decorative fixture. Inspect the room without relying on sunlight through windows. Check access to switchable devices and power requirements where applicable.",
-        "Tick the goal after reviewing the entire room and fixing awkward dark areas. The Codex does not measure illumination automatically. Keep functional light alongside decoration so the interior remains convenient at night and after adjacent rooms expand."
+        "Decorative light should help you find your way, not merely decorate. Place it at entrances, workstations and passages, then walk through the dark corners: a bright accent in the middle promises nothing behind a cabinet or under the stairs.",
+        "Start with ordinary lanterns or another familiar source, then add your chosen decorative fixture. Inspect the room at night, without sunlight from the windows. If the furniture needs power or switching, check that the devices are reachable.",
+        "Tick the goal after inspecting the whole room and fixing the awkward dark spots. Keep the mix of working light and decoration; that way the interior stays comfortable at night and after the neighbouring rooms grow."
       ],
       "task_notes": {
         "0": {
@@ -453,14 +453,14 @@
     },
     "life_furniture/guide_furnished_workshop": {
       "text": [
-        "Завершённая комната должна выдержать обычный рабочий день. Проверьте, что мебель, двери и декоративные детали не мешают маршруту от входа к хранению, месту отдыха и выходу на улицу. Именно повседневное использование покажет качество планировки.",
-        "Пройдите этот путь с вещами, откройте нужные контейнеры, воспользуйтесь выбранной мебелью и верните предметы на место. Проверьте край крыши и дверной проём: элементы соседних наборов иногда требуют другого расположения. Уберите детали, которые перекрывают доступ или постоянно цепляют проход.",
-        "Отметьте цель после устранения найденных помех. Комната не обязана быть большой или дорогой; её достоинство в согласованном оформлении и удобной работе. Теперь выбранные решения можно повторять в других помещениях, сохраняя характер вашей базы."
+        "Законченная комната должна выдержать обычный рабочий день. Мебель, двери и декор не должны вставать на пути от входа к хранению, месту отдыха и выходу на улицу — только повседневное использование покажет, хороша ли планировка.",
+        "Пройдите этот путь с вещами в руках: откройте нужные контейнеры, воспользуйтесь мебелью, верните предметы на место. Загляните на край крыши и в дверной проём: детали из разных наборов иногда просят другого расположения. Всё, что перекрывает доступ или цепляет при каждом проходе, уберите.",
+        "Когда найденные помехи устранены, отметьте цель. Комната не обязана быть большой или дорогой; её достоинство — согласованные материалы и удобная работа. Удачные решения можно повторять в других помещениях, сохраняя характер базы."
       ],
       "text_en": [
-        "A finished room should withstand an ordinary working day. Check that furniture, doors and decoration do not obstruct the route from entry to storage, rest and outdoors. Everyday use reveals the layout’s quality.",
-        "Walk the route carrying supplies, open the required containers, use the selected furniture and return items to storage. Inspect roof edges and the doorway, since pieces from different collections may need adjusted placement. Remove details that repeatedly block access.",
-        "Confirm the goal after fixing the obstacles. The room need not be large or expensive; its value lies in coherent materials and convenient use. You can now repeat successful choices in other spaces while preserving your base’s character."
+        "A finished room has to survive an ordinary working day. Furniture, doors and decoration must not stand in the way from the entrance to storage, the resting spot and the door outside — only everyday use shows whether the layout is any good.",
+        "Walk that route with things in your hands: open the containers you need, use the furniture, put items back. Look at the roof edge and the doorway; pieces from different collections sometimes ask for a different placement. Remove anything that blocks access or snags you on every pass.",
+        "When the obstacles you found are gone, tick the goal. The room need not be large or expensive; its merit is coherent materials and comfortable work. Successful choices can be repeated in other rooms while keeping the character of your base."
       ],
       "task_notes": {
         "0": {

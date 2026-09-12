@@ -37,12 +37,12 @@
       "text": [
         "Для первых материалов Cataclysm исследуйте обычный мир, а не ищите одноимённую руду повсюду. Чёрная сталь встречается в заброшенных снежных постройках и у драугров; древний металл — в пустынных сооружениях и добыче коболетонов. Подготовьте щит, оружие и место для нескольких отдельных партий.",
         "Соберите по четыре слитка каждого металла одним запасом соответствующего вида. Их не обязательно держать одновременно: после отметки материал можно использовать. Пояс новичка создаётся отдельно из кожи и железного слитка и служит доступным началом снаряжения мода.",
-        "Сначала разведайте небольшое сооружение и верните добычу домой, затем планируйте крупного босса. Название первой карточки не означает, что любой противник Cataclysm рассчитан на раннее железо. Следующая вылазка в Кузницу душ потребует значительно более серьёзной защиты, лечения и огнестойкости."
+        "Сначала разведайте небольшое сооружение и верните добычу домой, а уже потом присматривайтесь к крупному боссу. Первая карточка называется скромно, но противники Cataclysm не рассчитаны на раннее железо: следующая вылазка, в Кузницу душ, потребует куда более серьёзной защиты, лечения и огнестойкости."
       ],
       "text_en": [
         "For early Cataclysm materials, explore the Overworld rather than searching everywhere for matching ores. Black Steel comes from abandoned snowy structures and Draugr, while Ancient Metal appears in desert structures and Koboleton loot. Prepare a shield, weapon, and room for separate batches.",
         "Collect four ingots of each metal together by type. Both types need not remain present simultaneously after detection. Craft the Belt of the Beginner separately from leather and an iron ingot for accessible starter equipment.",
-        "Scout a smaller structure and bring its loot home before planning a major boss. The first card does not imply every Cataclysm enemy suits early iron gear. The Soul Blacksmith expedition requires substantially stronger protection, healing, and Fire Resistance."
+        "Scout a small structure first and bring the loot home before you set your sights on a major boss. The first card has a modest name, but Cataclysm’s enemies are not built for early iron: the next expedition, to the Soul Forge, will demand far better protection, healing and fire resistance."
       ],
       "task_notes": {}
     },
@@ -72,12 +72,12 @@
       "text": [
         "Разрушенную цитадель ищите на внешних островах Края с помощью Void Eye. Подготовьте защиту от падения, хорошую броню, лечение и надёжный путь обратно к вратам. Большая каменная структура не отменяет опасности пустоты по краям острова.",
         "Исследуйте цитадель и победите Эндер-голема, затем доберитесь до Эндер-стража. Следите за ударами по площади и участками с возникающими рунами: во время опасной серии лучше менять положение, чем продолжать неподвижную атаку. Разделяйте схватки восстановлением здоровья и прочности.",
-        "Карточка требует обе личные победы и посещение цитадели. Gauntlet of Guard и Void Core заберите из соответствующей добычи после боёв; наличие одного не закрывает другую цель. Ядро сохраните для слияния с Infernal Forge, а перчатку сначала испытайте на безопасном участке перед использованием возле домашних построек."
+        "Карточка засчитывает обе личные победы и само посещение цитадели. Gauntlet of Guard и Void Core соберите с добычи после боёв — это две разные цели, и одна находка не закрывает вторую. Ядро отложите для слияния с Infernal Forge, а перчатку сначала испытайте на пустыре, подальше от домашних построек."
       ],
       "text_en": [
         "Locate a Ruined Citadel on the outer End islands with a Void Eye. Prepare fall protection, strong armour, healing, and a reliable route back to the gateway. A large stone structure does not eliminate void hazards around the island.",
         "Explore the citadel, defeat the Ender Golem, and then reach the Ender Guardian. Watch area attacks and emerging rune hazards, repositioning instead of standing still through dangerous sequences. Recover health and durability between encounters.",
-        "This card requires both personal victories and structure discovery. Collect the Gauntlet of Guard and Void Core from the relevant battle loot; one does not complete the other objective. Reserve the core for Infernal Forge fusion and test the gauntlet safely away from home."
+        "The card counts both personal victories and the visit to the citadel itself. Collect the Gauntlet of Guard and the Void Core from the loot after the fights — they are two separate objectives, and one find does not close the other. Set the core aside for fusion with the Infernal Forge, and test the gauntlet on open ground first, well away from your buildings."
       ],
       "task_notes": {
         "0": {
@@ -131,14 +131,14 @@
     },
     "hunt_cataclysm/pyramid": {
       "text": [
-        "Проклятая пирамида находится в пустыне обычного мира и ищется Desert Eye. Возьмите кисть, хорошее оружие, защиту и запас еды. При исследовании сохраняйте подозрительный песок: разрушение киркой лишит археологической добычи, необходимой для пробуждения босса.",
+        "Проклятая пирамида стоит в пустыне обычного мира, и путь к ней указывает Desert Eye. Возьмите кисть, надёжное оружие, защиту и еду. Подозрительный песок внутри берегите: разбитый киркой, он не отдаст археологическую находку, без которой босса не разбудить.",
         "Вычищайте песок кистью, пока не получите Necklace of the Desert. Дождитесь его предметной отметки, затем примените ожерелье к неактивному Ancient Remnant. Это расходуемый ключ пробуждения; одного обнаружения большой статуи недостаточно для выполнения победы.",
-        "Во время боя избегайте разгонов, ударов ногами и опасных песчаных участков, атакуя после завершения серии. После личной победы соберите добычу, включая материал для Sandstorm in a Bottle, и завершите её рецепт. Ожерелье не нужно искать повторно ради уже сохранённой отметки, но новую попытку призыва планируйте с необходимым подношением."
+        "В бою уходите от рывков, ударов ногами и опасных песчаных участков, а бейте после того, как серия закончится. После личной победы соберите добычу, в том числе материал для Sandstorm in a Bottle, и доведите её рецепт до конца. Ожерелье не нужно искать заново ради уже полученной отметки, но для нового призыва понадобится новое подношение."
       ],
       "text_en": [
-        "The Cursed Pyramid generates in Overworld deserts and is located with a Desert Eye. Bring a brush, strong weapons, protection, and food. Preserve suspicious sand while exploring; mining it destroys archaeological loot needed to awaken the boss.",
+        "The Cursed Pyramid stands in an Overworld desert, and the Desert Eye points the way. Bring a brush, a dependable weapon, armour and food. Treat the suspicious sand inside with care: broken with a pickaxe, it will not yield the archaeological find without which the boss cannot be woken.",
         "Brush the sand until you obtain the Necklace of the Desert. Let it register, then use it on the inactive Ancient Remnant. It is a consumed awakening key; merely finding the large statue does not complete victory.",
-        "Avoid charges, stomps, and hazardous sand areas, striking after attack sequences. Collect personal victory loot, including material for Sandstorm in a Bottle, and complete that recipe. You need no replacement necklace for its saved mark, though another summon requires its offering."
+        "In the fight, keep away from charges, kicks and dangerous patches of sand, and strike once a sequence has ended. After a personal victory, gather the loot, including the material for the Sandstorm in a Bottle, and finish its recipe. You need not hunt for the necklace again for a mark you already hold, but a new summoning will need a new offering."
       ],
       "task_notes": {
         "0": {
@@ -251,12 +251,12 @@
       "text": [
         "Игнитиумная броня улучшает незеритовое снаряжение через кузнечный шаблон. Сам шаблон создаётся из незеритового шаблона улучшения, адских кирпичей и огненного порошка. Сначала покажите его книге, затем подготовьте незеритовые шлем и нагрудник вместе со слитками игнитиума.",
         "На кузнечном столе улучшите нужные части, проверив сохранённые свойства результата. Для нагрудника с элитрами потребуется ещё обычная пара элитр и Mechanical Fusion Anvil: совместите уже игнитиумный нагрудник с крыльями. Это отдельная операция после кузнечного улучшения, а не установка элитр на пустой шаблон.",
-        "Заберите шлем и объединённый нагрудник, затем испытайте полёт и защиту на безопасной площадке. Наличие двух предметов не подтверждает полный набор брони. Сохраните запас ремонта и ракет, чтобы редкое снаряжение действительно служило следующим экспедициям, а не оставалось разовой коллекционной находкой."
+        "Заберите шлем и объединённый нагрудник, затем испытайте полёт и защиту на безопасной площадке. Двух предметов для полного комплекта мало — поножи и ботинки улучшаются тем же шаблоном, когда появится ещё игнитиум. Держите запас ремонта и ракет, чтобы редкая броня служила в следующих экспедициях, а не лежала в сундуке как коллекционная находка."
       ],
       "text_en": [
         "Ignitium armour upgrades Netherite equipment with a smithing template. Craft the template from a Netherite Upgrade Template, Nether Bricks, and Blaze Powder. Let it register, then prepare Netherite helmet and chestplate plus Ignitium Ingots.",
         "Upgrade the pieces at a Smithing Table and inspect retained properties. The Elytra Chestplate additionally needs ordinary Elytra and a Mechanical Fusion Anvil: combine the completed Ignitium Chestplate with the wings. This follows smithing rather than attaching wings to an empty template.",
-        "Collect the helmet and combined chestplate, then test flight and protection safely. Two items do not demonstrate a complete armour set. Maintain repairs and rockets so the rare equipment supports future expeditions rather than remaining a one-time collection trophy."
+        "Take the helmet and the combined chestplate, then test flight and protection somewhere safe. Two pieces do not make a full set — the leggings and boots are upgraded with the same template once you have more ignitium. Keep spare repair materials and rockets so that the rare armour serves on future expeditions instead of sitting in a chest as a collector’s piece."
       ],
       "task_notes": {}
     },
@@ -264,12 +264,12 @@
       "text": [
         "Две цели этой ветки связаны с меньшими существами Cataclysm и расходуемыми предметами взаимодействия. Netherite Effigy изготавливается из незеритового слитка, тотема бессмертия, редстоуна, золота и незерских кирпичей. Подготовьте её дома и дождитесь предметной отметки до применения.",
         "Remnant Skull встречается в добыче Ancient Remnant и Modern Remnant. После предметных отметок примените фигурку или череп к свободной поверхности: они расходуются и создают Netherite Ministrosity или Modern Remnant соответственно. Оставьте достаточно места, иначе размещение существа не состоится.",
-        "Для приручения мини-монстра нужен Lava Power Cell, а современного остатка кормят яйцом нюхача. Подготовьте эти дорогие предметы заранее, затем проверьте поведение и управление питомцем. Разместите его в защищённом месте возле базы; создание существа и приручение являются разными этапами, хотя карточка требует только исходные предметы."
+        "Мини-монстра приручают Lava Power Cell, а современного остатка кормят яйцом нюхача. Оба предмета дорогие, так что запаситесь ими заранее, а после приручения посмотрите, как питомец ведёт себя и слушается команд. Поселите его в защищённом месте возле базы. Карточка проверяет только исходные предметы, а рождение существа и приручение — уже следующие шаги."
       ],
       "text_en": [
         "These two objectives concern smaller Cataclysm creatures and interaction items. Craft a Netherite Effigy from a Netherite Ingot, Totem of Undying, redstone, gold, and Nether Bricks. Prepare it at home and let it register before use.",
         "Remnant Skulls occur in Ancient Remnant and Modern Remnant loot. After item detection, use the effigy or skull on a clear surface: the item is consumed and creates a Netherite Ministrosity or Modern Remnant respectively. Leave enough room or creature placement fails.",
-        "Tame the Ministrosity with a Lava Power Cell and the Modern Remnant with a Sniffer Egg. Prepare these expensive items in advance, then check behaviour and pet commands. Keep the creature protected near home; spawning and taming are distinct steps even though this card only requests the original items."
+        "The Ministrosity is tamed with a Lava Power Cell, while the Modern Remnant is fed a sniffer egg. Both items are expensive, so stock them in advance, and once tamed, watch how the pet behaves and obeys commands. House it somewhere protected near your base. The card checks only the starting items; spawning the creature and taming it are the next steps."
       ],
       "task_notes": {}
     },
@@ -295,12 +295,12 @@
       "text": [
         "Animal Dictionary — рабочий справочник Alex’s Mobs, который стоит сделать до поисков редких существ. Соедините книгу, зелёный краситель и подходящий животный материал: например, перо дорожного бегунка, мех медведя или сброшенный рог лося. Не всякая ванильная кость подходит этому рецепту.",
         "Откройте страницу ближайшего животного и найдите его среду обитания, корм и способ получения полезной добычи. Многие ресурсы появляются при линьке, кормлении или спасении; убийство первого встреченного зверя может дать меньше пользы, чем наблюдение.",
-        "Возьмите книгу в инвентарь для отметки, затем используйте её как полевой журнал. Начните с знакомого биома и запишите координаты устойчивой популяции. Для дальнейшей ветки приручения понадобятся разные продукты, поэтому ферма еды возле дома экономит больше времени, чем случайные поиски очередного зверя."
+        "Возьмите книгу в инвентарь для отметки, а затем используйте её как полевой журнал. Начните со знакомого биома и запишите координаты устойчивой популяции. Для ветки приручения понадобятся разные продукты, поэтому ферма еды возле дома сбережёт больше времени, чем случайные поиски очередного зверя."
       ],
       "text_en": [
         "Craft the Animal Dictionary before searching for rare Alex’s Mobs creatures. Combine a book, green dye, and a suitable animal material, such as a Roadrunner Feather, Bear Fur, or shed Moose Antler. An arbitrary vanilla bone is not sufficient.",
         "Open the entry for a nearby animal and identify its habitat, food, and useful interactions. Many resources come from shedding, feeding, or rescue; killing the first specimen may be less useful than observing it.",
-        "Let the book register in inventory, then use it as a field journal. Start in a familiar biome and record a reliable population. Later taming needs several foods, so establishing a food supply at home saves repeated searching."
+        "Take the book into your inventory for the mark, then use it as a field journal. Start with a familiar biome and note the coordinates of a stable population. The taming branch will need a variety of foods, so a food farm near home saves more time than chasing after yet another animal."
       ],
       "task_notes": {}
     },
@@ -308,12 +308,12 @@
       "text": [
         "Для гризли подготовьте мёд и лосося. Медведь становится безопаснее после медового кормления: дайте ему насытиться мёдом из пчелиного улья, затем предлагайте лосося для приручения. Не подходите к голодному хищнику с одним лишь оружием и не начинайте бой рядом с детёнышами.",
         "Горилл ищите группами в джунглях. Бананы выпадают из листвы джунглей; запасите несколько и кормите выбранную гориллу до приручения. Проверьте оба достижения отдельно: дружба с одним видом не закрывает второй критерий.",
-        "Falconry Glove относится к другой птице: белоголовому орлану из лесистых гор. Его приручают рыбьим жиром, после чего перчатка позволяет посадить птицу на руку и отправить к цели. Сама перчатка не подтверждает приручённого орлана. Возвращайте новых питомцев в защищённое место и проверяйте команды до дальней экспедиции."
+        "Falconry Glove относится к другой птице — белоголовому орлану из лесистых гор. Его приручают рыбьим жиром, и тогда с перчаткой орлана можно посадить на руку и послать к цели. Сама перчатка ещё не означает приручённой птицы. Новых питомцев отводите в защищённое место и проверяйте команды до дальней экспедиции."
       ],
       "text_en": [
         "Prepare honey and salmon for a Grizzly Bear. Let it become honey-sated through a beehive, then offer salmon to tame it. A hungry predator is dangerous, especially near cubs.",
         "Find Gorilla groups in jungles. Bananas drop from Jungle Leaves; gather several and feed your chosen gorilla until tamed. Check both advancements separately because friendship with one species does not complete the other.",
-        "The Falconry Glove belongs to a different animal: the Bald Eagle of wooded mountains. Tame it with Fish Oil, then use the glove to hold and launch it at a target. Owning the glove does not prove an eagle is tamed. Bring companions to a protected enclosure and practise commands before travelling."
+        "The Falconry Glove belongs to a different bird — the bald eagle of wooded mountains. It is tamed with fish oil, and with the glove you can then perch the eagle on your arm and send it at a target. The glove alone does not mean a tamed bird. Lead new companions to a protected place and test their commands before a long expedition."
       ],
       "task_notes": {
         "0": {
@@ -342,12 +342,12 @@
     "hunt_beasts/beast_gear": {
       "text": [
         "Три предмета здесь требуют разных животных. Tarantula Hawk Elytra собираются из обычных элитр и двух крыльев тарантулового ястреба; каждое целое крыло состоит из девяти оборванных. Насекомых ищите в пустыне, а редкие фрагменты складывайте дома до полного набора.",
-        "Глубоко в пещерах встречаются ядовитые многоножки. Из семи выпавших ног создаются Centipede Leggings, позволяющие карабкаться по стенам. Возьмите молоко и освещение, не позволяйте длинному существу отрезать единственный выход из тесного тоннеля.",
+        "Глубоко в пещерах водятся ядовитые многоножки. Из семи выпавших ног собирают Centipede Leggings — в них можно карабкаться по стенам. Возьмите молоко и освещение и не давайте длинному существу отрезать единственный выход из тесного тоннеля.",
         "Для Vine Lasso нужны лианы, поводок и две сброшенные кожи анаконды. Анаконда сбрасывает кожу после нескольких проглоченных порций пищи; кормление курятиной полезнее случайного убийства. Испытайте бросок лассо на безопасной цели: оно удерживает в том числе враждебных существ, но не работает как привязка к забору."
       ],
       "text_en": [
         "These three items involve different animals. Tarantula Hawk Elytra combine ordinary Elytra with two Tarantula Hawk Wings, each made from nine Tattered Wings. Search deserts and store fragments until the set is complete.",
-        "Poisonous Cave Centipedes live deep underground. Seven dropped legs make Centipede Leggings for wall climbing. Bring milk and lighting, keeping an escape route through narrow tunnels.",
+        "Deep in the caves live venomous centipedes. Seven of their dropped legs make the Centipede Leggings, which let you climb walls. Bring milk and light, and do not let the long creature cut off the only exit from a narrow tunnel.",
         "A Vine Lasso needs vines, a lead, and two Shed Snake Skins. Anacondas shed after swallowing several meals, making chicken feeding more useful than random killing. Test the thrown lasso safely: it can restrain hostile creatures but cannot tether them to a fence. Register each finished piece before using it."
       ],
       "task_notes": {}
@@ -373,12 +373,12 @@
     "hunt_beasts/transmute": {
       "text": [
         "Transmutation Table требует двух рук Farseer, звезды Незера и обсидиана. Farseer встречается около границы мира, поэтому победа над Пустотным червём лишь открывает транспортную подготовку. Превратите Dimensional Carver в Shattered Dimensional Carver внутри Capsid и подготовьте способ возвращения.",
-        "Разбитый резак переносит на огромные расстояния в выбранном направлении; повторные переходы позволяют приблизиться к границе. У Farseer опасный луч, обходящий привычную защиту, поэтому используйте укрытия и не рассчитывайте пережить его неподвижно. Заберите две руки и вернитесь с добычей.",
+        "Разбитый резак переносит на огромные расстояния в выбранном направлении; несколько переходов подряд приближают к границе мира. У Farseer опасный луч, который обходит привычную защиту, так что держитесь укрытий и не надейтесь пережить его стоя на месте. Заберите две руки и возвращайтесь с добычей.",
         "Установите стол на постоянном месте: он меняет целую входную стопку на один из трёх предложенных результатов за опыт и постепенно учится на принесённых предметах. Начните с дешёвой маленькой партии. Разрушение стирает накопленные знания и вызывает сильный взрыв, возвращая лишь звезду; это не переносимый сундук."
       ],
       "text_en": [
         "The Transmutation Table requires two Farseer Arms, a Nether Star, and Obsidian. Farseers appear near the world border, so defeating the Void Worm only begins transport preparation. Transform a Dimensional Carver into its Shattered version inside a Capsid and prepare your return route.",
-        "The shattered carver travels enormous distances in the chosen direction; repeated trips approach the border. Farseer beams bypass familiar defences, so use cover instead of standing still. Collect both arms and bring them home.",
+        "The shattered carver carries you enormous distances in a chosen direction; several jumps in a row bring you close to the world border. The Farseer has a dangerous beam that bypasses ordinary protection, so keep to cover and do not expect to survive it standing still. Take the two hands and return with the loot.",
         "Place the table permanently. It exchanges the entire input stack for one of three offers at an experience cost and learns from supplied items. Test a small cheap stack first. Breaking it erases its knowledge and causes a powerful explosion, returning only the Nether Star."
       ],
       "task_notes": {}
@@ -445,12 +445,12 @@
       "text": [
         "Испытание Скульптора начинается с Bluff Rod: добудьте жезл у каменных существ Bluff и найдите самого Скульптора. Подготовьте еду и безопасный путь к месту испытания. Жезл сначала покажите для предметной отметки, затем предложите Скульптору; установленная цена — один жезл.",
         "После начала поднимайтесь по созданным платформам до вершины. Нельзя ставить или ломать блоки, летать и телепортироваться: испытание проверяет прохождение маршрута, поэтому привычные способы обхода высоты приводят к провалу. Следите за расстоянием прыжка и не торопитесь с переходом на следующую опору.",
-        "На вершине нажмите правой кнопкой по Скульптору, чтобы завершить испытание. Простое достижение высоты без взаимодействия не является финишем. Дождитесь достижения и получите Earthrend Gauntlet, затем испытайте её способности вдали от построек. Убийство Скульптора не заменяет требуемый успешный маршрут."
+        "На вершине нажмите правой кнопкой по Скульптору — так завершается испытание. Одной высоты мало: без этого взаимодействия финиша нет. Дождитесь достижения и получите Earthrend Gauntlet, а её способности испытайте вдали от построек. Убийство Скульптора успешный маршрут не заменит."
       ],
       "text_en": [
         "The Sculptor’s challenge begins with a Bluff Rod, obtained from stone Bluff creatures. Find the Sculptor and bring food plus a safe approach route. Register the rod before offering it; the configured entry price is one rod.",
         "Climb the generated platforms to the top. Placing or breaking blocks, flying, and teleporting are forbidden: this challenge checks the route, so ordinary shortcuts cause failure. Judge jump distances and choose each platform carefully.",
-        "At the summit, right-click the Sculptor to finish. Reaching the height without interacting is insufficient. Wait for the advancement and obtain the Earthrend Gauntlet, then practise its abilities away from buildings. Killing the Sculptor does not replace successfully completing his challenge."
+        "At the top, right-click the Sculptor — that is how the trial ends. Height alone is not enough: without that interaction there is no finish. Wait for the advancement and receive the Earthrend Gauntlet, then test its powers away from your buildings. Killing the Sculptor is no substitute for a completed route."
       ],
       "task_notes": {
         "1": {
@@ -498,12 +498,12 @@
       "text": [
         "Перед охотой проверьте движения выбранного оружия на обычных противниках. Better Combat меняет анимацию и последовательность ударов в зависимости от оружия; длинное древко, быстрый клинок и тяжёлый топор требуют разной дистанции. Начните на открытой площадке без питомцев и жителей.",
         "Сделайте один удар, оцените задержку и длину выпада, затем попробуйте короткую серию. Следите за положением цели и моментом, когда можно безопасно отступить. Широкая дуга полезна против группы, но возле союзников требует осторожного выбора направления. Цифра урона в подсказке не показывает удобство всего движения.",
-        "После практики вручную подтвердите прочтение условия о дуге и дальности оружия. Эта отметка не обещает автоматическую победу над боссом: она завершает подготовку управления. Возьмите на сложную арену уже испытанное оружие, а новые трофеи сначала проверяйте дома, чтобы не изучать их ритм во время смертельной атаки."
+        "После практики отметьте вручную, что условие о дуге и дальности оружия прочитано. Отметка завершает подготовку управления, а не обещает победу над боссом. На сложную арену берите уже испытанное оружие; новые трофеи проверяйте дома, чтобы не изучать их ритм под смертельной атакой."
       ],
       "text_en": [
         "Practise your weapon’s movements against ordinary enemies before hunting. Better Combat changes animations and attack sequences by weapon type; a polearm, quick blade, and heavy axe need different spacing. Start in an open area without pets or villagers.",
         "Make one attack, observe its delay and reach, then try a short sequence. Watch target positioning and safe retreat timing. Broad swings help against groups but need careful aim near allies. The damage number alone does not describe how the whole movement handles.",
-        "After practising, manually confirm the statement about attack arcs and reach. This marks control preparation, not guaranteed boss success. Bring a familiar weapon into difficult arenas and test new trophies at home before depending on their rhythm."
+        "After practising, tick by hand that you have read the note on weapon arc and reach. The mark completes your control training; it does not promise a boss victory. Take already-tested weapons to a difficult arena, and try new trophies at home so you are not learning their rhythm under a deadly attack."
       ],
       "task_notes": {}
     },
@@ -527,12 +527,12 @@
     },
     "hunt_apotheosis/gems": {
       "text": [
-        "Gem-Fused Slate производится из восьми блоков глубинного сланца вокруг одной Gem Dust и даёт восемь пластин. Заберите минимум четыре для отметки, затем используйте запас на Gem Cutting Table и Gem Case. Наличие камня в сундуке не равно его установленному бонусу на оружии.",
+        "Gem-Fused Slate делают из восьми блоков глубинного сланца вокруг одной Gem Dust; выходит восемь пластин. Четырёх хватит для отметки, остальные пойдут на Gem Cutting Table и Gem Case. Камень в сундуке сам по себе ничего не даёт: бонус работает только у вставленного в снаряжение.",
         "За столом огранки выберите камень и подготовьте пыль, материал редкости и второй подходящий камень требуемой чистоты. Цена растёт с качеством; сверяйте входные ячейки до операции. Сравните новую чистоту и бонус именно для того типа снаряжения, в который собираетесь вставлять результат.",
         "Gem Case сортирует камни по названию, применимости и чистоте, а при наличии материалов поддерживает улучшение прямо внутри. Перенесите коллекцию, найдите один подходящий вариант фильтром и проверьте свободное гнездо на снаряжении. Вставка выполняется через кузнечный стол, поэтому стол огранки сам по себе не усиливает надетую броню."
       ],
       "text_en": [
-        "Eight Deepslate around one Gem Dust produces eight Gem-Fused Slate. Register at least four, then use the stock for a Gem Cutting Table and Gem Case. A gem in storage does not provide a socketed equipment bonus.",
+        "Gem-Fused Slate is made from eight deepslate blocks around one Gem Dust and yields eight slates. Four are enough for the mark; the rest go into the Gem Cutting Table and Gem Case. A gem in a chest does nothing on its own: its bonus works only once it is socketed into gear.",
         "At the cutting table, prepare dust, rarity material, and the required second gem for your chosen purity upgrade. Costs increase with quality; inspect the input slots before committing. Compare the new bonus for the equipment type you intend to use.",
         "The Gem Case sorts by name, compatibility, and purity, and can upgrade gems directly when supplied with materials. Organise the collection and select a compatible gem. Socketing uses a Smithing Table; the cutting station alone does not improve worn armour."
       ],
@@ -580,12 +580,12 @@
     "hunt_apotheosis/infusion": {
       "text": [
         "Инфузия выполняется в третьей строке стола зачарования, когда входной предмет и характеристики соответствуют рецепту. Для Hellshelf нужны Eterna 45 и Quanta не ниже 30%; для Seashelf — Eterna 45, Quanta 15% и Arcana 10%. Подготовьте полки Нижнего мира и океанические полки, затем пропитайте по две каждого вида.",
-        "Поставьте полученные полки и развивайте окружение до Eterna 60. Для этого уровня необходима также подходящая активная ступень мира; одного накопленного опыта недостаточно. Подбирайте дополнительные полки по их вкладу, наблюдая за показателями, вместо случайного наращивания одного вида.",
+        "Поставьте полученные полки и подтяните окружение до Eterna 60. Одного накопленного опыта для этого мало — нужна и подходящая активная ступень мира. Новые полки подбирайте по их вкладу, глядя на показатели, а не наращивая один вид без разбора.",
         "Extraction Tome получается инфузией Improved Scrap Tome при Eterna 60, Quanta 25–75% и Arcana от 45%; операция даёт четыре тома. Он снимает все зачарования без уничтожения вещи. Обычный Scrap Tome уничтожает предмет, поэтому внимательно проверьте название расходника перед извлечением дорогих чар."
       ],
       "text_en": [
         "Infusion uses the enchanting table’s third option when the input and stats match. A Hellshelf requires Eterna 45 and at least 30% Quanta; a Seashelf needs Eterna 45, 15% Quanta, and 10% Arcana. Infuse two of each.",
-        "Install the resulting shelves and develop the setup to Eterna 60. The active World Tier must also permit that value; stored experience alone is insufficient. Adjust shelves according to their contributions while watching the displayed stats.",
+        "Place the new shelves and raise the setup to Eterna 60. Accumulated experience alone will not get you there — you also need a suitable active world tier. Choose additional shelves by what each contributes, watching the numbers rather than piling up one kind indiscriminately.",
         "Infuse an Improved Scrap Tome at Eterna 60, Quanta 25–75%, and at least 45% Arcana to obtain four Extraction Tomes. These remove every enchantment without destroying equipment. Ordinary Scrap Tomes destroy the item, so inspect the exact consumable before recovering valuable enchantments."
       ],
       "task_notes": {}
@@ -620,43 +620,43 @@
       "text": [
         "Bow Tome и Chestplate Tome ограничивают набор возможных зачарований соответствующим снаряжением. Создайте их и дождитесь отметок, затем зачаруйте один на подготовленном столе: результат станет зачарованной книгой. Такой подход помогает искать подходящие чары, но не обещает конкретный редкий эффект за одну попытку.",
         "Prismatic Cobweb применяется вместе с вещью на наковальне и снимает все проклятия. Сначала посмотрите предварительный результат и стоимость опыта, особенно если вещь уже содержит полезные чары. Не используйте для этой задачи стол переработки аффиксов: он уничтожает исходное снаряжение.",
-        "Enchantment Library хранит чары из внесённых книг как очки, запоминая максимальный внесённый уровень каждого зачарования. Соберите небольшую коллекцию и попробуйте вывести одну книгу. Библиотека не позволяет сразу получить уровень, которого вы никогда не вносили; предметы сверх её вместимости теряются, поэтому проверяйте предел перед крупной загрузкой."
+        "Enchantment Library хранит чары из внесённых книг как очки и запоминает наибольший внесённый уровень каждого зачарования. Соберите небольшую коллекцию и попробуйте вывести одну книгу. Уровень, которого вы никогда не вносили, библиотека не выдаст, а всё сверх её вместимости пропадает — проверьте предел перед крупной загрузкой."
       ],
       "text_en": [
         "Bow and Chestplate Tomes restrict possible enchantments to their corresponding equipment types. Register both, then enchant one at your prepared table; it becomes an enchanted book. This focuses the search without guaranteeing a specific rare result.",
         "Combine a Prismatic Cobweb with equipment in an anvil to remove all curses. Inspect the preview and experience cost first. The affix Salvaging Table is unsuitable because it destroys the equipment.",
-        "An Enchantment Library stores enchantments from inserted books as points and remembers each enchantment’s highest inserted level. Build a small collection and extract a test book. It cannot output a level never previously inserted, and excess beyond its capacity is lost, so inspect limits before loading valuable books."
+        "The Enchantment Library stores enchantments from deposited books as points and remembers the highest level ever deposited for each one. Build a small collection and try extracting one book. The library will not hand out a level you never deposited, and anything beyond its capacity is lost — check the limit before a large deposit."
       ],
       "task_notes": {}
     },
     "hunt_apotheosis/leads": {
       "text": [
         "Flimsy Ender Lead изготавливается из поводка, жемчужины Края и золотого слитка. Он переносит животных: нажмите правой кнопкой по подходящему существу, затем по свободной поверхности в месте назначения. Сначала испытайте перенос обычной коровы между двумя огороженными площадками.",
-        "После предметной отметки пропитайте поводок при Eterna 45, Quanta 25% и Arcana 40%. Полученный Ender Lead подходит большинству существ, но исключения остаются. Если конкретный моб не принимается, не считайте это доказательством поломки всей системы и не выпускайте опасного пленника возле жителей.",
+        "После предметной отметки пропитайте поводок при Eterna 45, Quanta 25% и Arcana 40%. Готовый Ender Lead берёт большинство существ, но исключения есть. Если какое-то существо не поддаётся, это ещё не поломка всей системы; опасного пленника в любом случае не выпускайте рядом с жителями.",
         "Проверьте название захваченного существа в подсказке и свободное место для выпуска. Устройство хранит одно существо, а не создаёт копию, поэтому заранее подготовьте новый вольер. Карточка требует обе ступени предмета; тот же слабый поводок после отметки можно потратить на улучшение без изготовления запасного экземпляра."
       ],
       "text_en": [
         "Craft a Flimsy Ender Lead from a lead, Ender Pearl, and Gold Ingot. Right-click a suitable animal to capture it, then a clear surface to release it. Test an ordinary cow between two enclosures first.",
-        "After detection, infuse the lead at Eterna 45, 25% Quanta, and 40% Arcana. The resulting Ender Lead works on most entities, with exceptions. Rejection of one creature does not prove the entire system is broken, and dangerous captives should not be released near villagers.",
+        "Once the item is recorded, infuse the lead at Eterna 45, Quanta 25% and Arcana 40%. The finished Ender Lead takes most creatures, but there are exceptions. If a particular creature refuses, that is not a sign the whole system is broken; in any case, never release a dangerous captive near villagers.",
         "Check the stored creature’s name and release space. The lead moves one existing creature rather than duplicating it. Register both stages sequentially, using the same flimsy lead for the upgrade."
       ],
       "task_notes": {}
     },
     "hunt_apotheosis/spawners": {
       "text": [
-        "Найдите обычный спавнер в подземелье и сначала обезопасьте подход: поставьте свет, уберите уже появившихся противников и подготовьте отступление. Сохраните сам блок на месте. Установленная сборка не содержит Apothic Spawners, поэтому руны и цепи из отдельного модуля не являются рабочей целью этой ветки.",
-        "Осмотрите пространство вокруг клетки и определите, где появляются существа. У обычного спавнера игрок должен находиться поблизости, а скопление однотипных мобов прекращает новые появления. Организуйте отвод существ из зоны клетки и отдельное безопасное место для ручной атаки и сбора добычи.",
-        "Проверьте работу из выбранной точки ожидания: после освобождения комнаты появляются новые мобы, а возвращённое освещение позволяет остановить опасные появления обычного тёмного подземелья. Вручную отметьте проверенный цикл. Взрыв спавнера здесь уничтожит полезную структуру; обещания переноса Шёлковым касанием без соответствующего модуля применять нельзя."
+        "Найдите обычный генератор монстров в подземелье и сначала обезопасьте подход: поставьте свет, уберите уже появившихся противников и наметьте путь отступления. Сам блок оставьте на месте. В этой сборке нет Apothic Spawners, так что руны и цепи из отдельного модуля здесь не пригодятся.",
+        "Осмотрите пространство вокруг клетки и поймите, где именно появляются существа. Обычный генератор работает лишь при игроке поблизости, а скопление однотипных монстров рядом останавливает новые появления. Устройте отвод существ из зоны клетки и отдельное безопасное место для ручной атаки и сбора добычи.",
+        "Проверьте работу из выбранной точки ожидания: после того как комната опустеет, появляются новые существа, а возвращённое освещение снова гасит опасные появления обычного тёмного подземелья. Отметьте проверенный цикл вручную. Взрывать генератор не стоит — пропадёт полезная постройка; перенести его Шёлковым касанием без нужного модуля тоже нельзя."
       ],
       "text_en": [
-        "Find an ordinary dungeon spawner and secure the approach with lighting, clearing existing enemies and preparing retreat space. Preserve the block in place. This installed pack lacks Apothic Spawners, so its separate-module chains and runes are not working objectives here.",
-        "Inspect spawn positions around the cage. An ordinary spawner requires a nearby player, and too many matching mobs prevent further spawns. Move creatures away from the cage and provide a protected place for manual attacks and collection.",
-        "Test from your waiting position: clearing the room permits new spawns, while restored lighting suppresses ordinary dark-dungeon spawning. Confirm the cycle manually. Exploding the spawner destroys a useful structure; Silk Touch transport should not be assumed without its supporting module."
+        "Find an ordinary monster spawner in a dungeon and secure the approach first: place light, clear the enemies already there and mark a retreat. Leave the block itself in place. This pack does not include Apothic Spawners, so the runes and chains from that separate module have no use here.",
+        "Look around the cage and work out exactly where the creatures appear. An ordinary spawner works only while a player is nearby, and a crowd of the same monsters next to it stops further spawns. Arrange a way to funnel creatures out of the cage area and a separate safe spot for attacking by hand and collecting drops.",
+        "Test it from your chosen waiting point: once the room is empty, new creatures appear, and restored lighting once again stops the dangerous spawns of an ordinary dark dungeon. Tick the verified cycle by hand. Do not blow the spawner up — you would lose a useful structure; nor can it be moved with Silk Touch without the right module."
       ],
       "task_notes": {
         "1": {
-          "ru": "Проверены освещение, отвод мобов и безопасная точка ожидания",
-          "en": "Lighting, mob funnelling and a safe waiting point have been checked"
+          "ru": "Проверены освещение, отвод существ и безопасная точка ожидания",
+          "en": "Lighting, creature funnelling and a safe waiting point have been checked"
         }
       },
       "tasks_override": [
@@ -691,12 +691,12 @@
     "hunt_apotheosis/augment": {
       "text": [
         "Augmenting Table настраивает отдельные аффиксы, сохраняя остальные свойства вещи. Для создания нужны стол зачарования, звезда Незера и две Godforged Pearls. Жемчужины получают переработкой Mythic-предметов, поэтому сначала найдите подходящую ненужную добычу, а не разбирайте единственную сильную броню.",
-        "Покажите жемчужину для отметки перед расходованием на стол. В верхний слот положите предмет с аффиксами, в нижний — Sigils of Enhancement, затем выберите конкретное свойство в списке. Два сигила позволяют усилить его внутреннее значение на 25%; итоговая прибавка к характеристике зависит от самого аффикса.",
+        "Покажите жемчужину для отметки, прежде чем тратить её на стол. В верхний слот положите предмет с аффиксами, в нижний — Sigils of Enhancement, затем выберите в списке нужное свойство. Два сигила усиливают его внутреннее значение на 25%; сколько это даст характеристике, зависит от самого аффикса.",
         "Один сигил вместо этого меняет выбранный аффикс на другой того же типа, варианты показаны в интерфейсе. Сравните ожидаемое действие и результат на одной вещи. Эта станция полезна для доводки хорошего набора: полная перековка ради одного слабого свойства могла бы потерять уже удачные остальные бонусы."
       ],
       "text_en": [
         "The Augmenting Table changes individual affixes while preserving the others. Craft it with an Enchanting Table, Nether Star, and two Godforged Pearls. Obtain pearls by salvaging unwanted Mythic items rather than destroying your only strong armour.",
-        "Register a pearl before spending it on the station. Put an affix item in the upper slot, Sigils of Enhancement below, and select a property. Two sigils increase its internal strength by 25%; the actual stat improvement depends on the affix.",
+        "Show the pearl for its mark before spending it on the table. Put the affix item in the upper slot and Sigils of Enhancement in the lower one, then pick the property you want from the list. Two sigils raise its internal value by 25%; how much that adds to the stat depends on the affix itself.",
         "Alternatively, one sigil rerolls the selected affix into another of the same type, with options shown in the interface. Compare the result carefully. This station refines a promising item without risking its other useful bonuses through a complete reforge."
       ],
       "task_notes": {}
@@ -722,12 +722,12 @@
     "hunt_apotheosis/tier_frontier": {
       "text": [
         "Для Frontier нужны аффиксные предметы в слотах головы, груди, ног, ступней и руки. Минимальная редкость — Common; более высокие тоже подходят. Соберите броню по слотам и возьмите аффиксное оружие в руку, чтобы зарегистрировать именно экипировку, а не простое хранение в сундуке.",
-        "Откройте достижение и проверьте пять отдельных критериев. Если один не выполнен, прочитайте свойства соответствующей вещи: цвет обычного названия или ванильные чары не являются редкостью Apotheosis. Перековка подходящего базового снаряжения помогает заполнить слот, для которого долго не находится добыча.",
+        "Откройте достижение и проверьте пять отдельных критериев. Если один не выполнен, перечитайте свойства нужной вещи: цвет названия и ванильные чары редкостью Apotheosis не считаются. Перековка подходящего базового снаряжения выручает, когда для какого-то слота долго не попадается добыча.",
         "После открытия Frontier включите его кнопкой Activate в меню уровня мира. Это снимает следующий предел Eterna и меняет доступную добычу, но не повышает вашу защиту автоматически. Проверьте новую опасность на обычной вылазке и готовьте Uncommon-комплект для следующей ступени, сохраняя сильные старые вещи до подтверждённой замены."
       ],
       "text_en": [
         "Frontier requires affix equipment in head, chest, legs, feet, and hand slots. Common is sufficient, and higher rarities also count. Equip the armour and hold an affix weapon; storing items in a chest does not register equipped-slot criteria.",
-        "Check the five advancement criteria separately. If one is missing, inspect that item’s Apotheosis rarity rather than its ordinary name colour or vanilla enchantments. Reforging valid base equipment can fill a stubborn missing slot.",
+        "Open the advancement and check its five separate criteria. If one is unmet, reread the properties of the item in question: a coloured name or vanilla enchantments do not count as Apotheosis rarity. Reforging a suitable base item helps when loot for one slot refuses to turn up.",
         "Once unlocked, press Activate in the tier menu. Frontier raises the Eterna allowance and changes loot without automatically improving your protection. Test its difficulty on a routine expedition and prepare Uncommon replacements for the next step."
       ],
       "task_notes": {
@@ -739,12 +739,12 @@
     },
     "hunt_apotheosis/tier_ascent": {
       "text": [
-        "Ascent требует аффиксную броню во всех четырёх слотах и предмет в руке редкости Uncommon или выше, а также личную победу над Apothic Invader. Обычный моб с бронёй не обязательно является захватчиком, поэтому ориентируйтесь на его особое усиление и регистрацию достижения после боя.",
+        "Ascent требует аффиксную броню во всех четырёх слотах и предмет в руке редкости Uncommon или выше, а сверх того — личную победу над Apothic Invader. Обычный монстр в броне захватчиком не считается: ищите его особое усиление и ждите регистрации достижения после боя.",
         "Сначала заполните слабые слоты добычей или перековкой. Затем выберите доступного захватчика, расчистите путь отступления и возьмите дополнительное лечение. Проверка экипировки и убийства состоит из отдельных критериев: не нужно угадывать, какая часть общего условия ещё не завершена.",
         "Активируйте Ascent после открытия, чтобы пользоваться новой ступенью. Доступная Eterna поднимается до уровня, нужного для ранних глубинных инфузий, но Quanta и Arcana всё ещё задаются окружением стола. На охоте сравнивайте свойства новых Rare-предметов и сохраняйте подходящие части для Summit вместо немедленной переработки всей синей добычи."
       ],
       "text_en": [
-        "Ascent needs Uncommon-or-better affix equipment in all four armour slots and a hand, plus a personal Apothic Invader kill. An ordinary armoured mob is not necessarily an invader; check the actual advancement after combat.",
+        "Ascent requires affix armour in all four slots and an item in hand of Uncommon rarity or better, plus a personal victory over an Apothic Invader. An ordinary armoured monster does not count as an invader: look for its special empowerment and wait for the advancement to register after the fight.",
         "Fill weak equipment slots through loot or reforging, then choose an accessible invader with retreat space and extra healing. Equipment and victory are separate criteria, making missing progress visible.",
         "Activate Ascent once unlocked. Its Eterna allowance supports early deep-shelf infusions, but Quanta and Arcana still depend on the table’s surroundings. Save useful Rare pieces for Summit instead of immediately salvaging every blue drop."
       ],
@@ -808,12 +808,12 @@
       "text": [
         "Чёрная сталь — первый металл Cataclysm, который превращается в инструменты на обычном верстаке. Меч требует два слитка и палку, кирка — три слитка и две палки, по знакомым формам железных инструментов. Тарч, небольшой щит, собирается иначе: слиток в центре, четыре доски по сторонам и четыре самородка по углам; самородки получают из слитка на том же верстаке.",
         "Соберите запас из заброшенных снежных построек и добычи драугров, затем изготовьте предметы по очереди. Учёт исторический: после отметки инструменты можно использовать, а не хранить нетронутыми. Ненужные изделия из чёрной стали переплавляются в печи или плавильне обратно в самородок, так что часть материала возвращается.",
-        "Тарч держат во второй руке и поднимают правой кнопкой, как обычный щит. Испытайте его блок на простых мобах, прежде чем полагаться на него в бою с боссом. Эта ветка не заменяет незеритовое снаряжение, но даёт понятный промежуточный набор для походов в первые сооружения мода, где чёрная сталь встречается чаще всего."
+        "Тарч держат во второй руке и поднимают правой кнопкой, как обычный щит. Проверьте его блок на простых противниках, прежде чем доверять ему в бою с боссом. Незеритовое снаряжение эта ветка не заменяет, зато даёт понятный промежуточный набор для походов в первые сооружения мода, где чёрная сталь встречается чаще всего."
       ],
       "text_en": [
         "Black steel is the first Cataclysm metal that turns into tools at an ordinary crafting table. The sword takes two ingots and a stick, the pickaxe three ingots and two sticks, in the familiar iron-tool shapes. The targe, a small shield, is built differently: an ingot in the centre, four planks on the sides and four nuggets in the corners; nuggets come from an ingot at the same table.",
         "Gather your stock from abandoned snowy structures and draugr drops, then craft the items one by one. Tracking is historical: after the mark you may use the tools rather than keep them untouched. Unwanted black steel gear smelts back into a nugget in a furnace or blast furnace, so part of the material returns.",
-        "Hold the targe in the off hand and raise it with the right button like a normal shield. Test its block on simple mobs before relying on it against a boss. This branch does not replace netherite gear, but it gives a clear intermediate kit for trips into the mod’s first structures, where black steel is found most often."
+        "The targe is held in the off hand and raised with the right mouse button, like an ordinary shield. Test its block on simple enemies before trusting it in a boss fight. This branch does not replace netherite gear, but it gives a sensible interim kit for trips into the mod’s first structures, where black steel is most common."
       ],
       "task_notes": {}
     },
@@ -839,12 +839,12 @@
       "text": [
         "Курсиум выпадает только с Маледиктуса: три или четыре слитка за победу. Карточка Ледяной тюрьмы лишь проверяет их наличие, поэтому те же слитки можно пустить в дело. Шаблон улучшения курсиума собирают на верстаке из незеритового шаблона улучшения в центре, двух слитков чёрной стали по бокам и шести золотых слитков сверху и снизу.",
         "Затем на кузнечном столе соедините шаблон, незеритовый шлем и один слиток курсиума. По той же схеме улучшаются остальные части незеритовой брони; на полный комплект уйдёт четыре слитка, то есть, возможно, больше одного боя с Маледиктусом. Из курсиума и чёрной стали делают и оружие: Soul Render с рывком и Проклятый лук, стреляющий тремя фантомными стрелами.",
-        "Начните со шлема: одна деталь покажет, стоит ли тратить остальной металл на броню или на оружие. Не переплавляйте незеритовые части ради эксперимента и не сдавайте слитки другим карточкам с расходованием, пока не решили, что важнее. Готовый комплект — заметный шаг перед Горящей ареной и Игнисом."
+        "Пусть первой деталью будет шлем: по ней станет ясно, стоит ли тратить остальной металл на броню или на оружие. Не переплавляйте незеритовые части ради эксперимента и не сдавайте слитки другим карточкам с расходованием, пока не решили, что важнее. Готовый комплект — заметный шаг перед Горящей ареной и Игнисом."
       ],
       "text_en": [
         "Cursium drops only from Maledictus: three or four ingots per victory. The Frosted Prison card merely checks that you have them, so the same ingots can be put to use. The cursium upgrade template is crafted with a netherite upgrade template in the centre, two black steel ingots at the sides and six gold ingots above and below.",
         "At a smithing table combine the template, a netherite helmet and one cursium ingot. The other netherite armour pieces upgrade the same way; a full set costs four ingots, which may mean more than one fight with Maledictus. Cursium and black steel also make weapons: the Soul Render with its rush attack and the Cursed Bow that fires three phantom arrows.",
-        "Start with the helmet: one piece shows whether the remaining metal should go into armour or weapons. Do not melt netherite pieces for experiments and do not hand the ingots to consuming cards elsewhere until you have decided what matters more. The finished set is a real step up before the Burning Arena and Ignis."
+        "Let the helmet be your first piece: it will show whether the rest of the metal is better spent on armour or on weapons. Do not melt down netherite parts for the sake of an experiment, and do not turn the ingots in to other cards that consume them until you have decided what matters more. A finished set is a real step up before the Burning Arena and Ignis."
       ],
       "task_notes": {}
     },

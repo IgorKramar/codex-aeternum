@@ -3,342 +3,342 @@
   "chapters": {
     "mc_found": {
       "intro": [
-        "Колония развивается через жителей, строительные заказы и доставку ресурсов. Блок хижины задаёт место учреждения, но само здание возводит назначенный строитель после команды в интерфейсе. Начните с доступной площадки, снабжения и жилья.",
-        "Кодекс запоминает разные предметные цели по очереди. Зарегистрированную хижину можно ставить сразу; разбирать работающий дом для повторного показа не требуется. Работу жителей проверяйте по их запросам и фактическому результату, а не по наличию блока в списке."
+        "Колония растёт через жителей, строительные заказы и доставку материалов. Блок хижины лишь намечает место: само здание возводит назначенный строитель после приказа в окне постройки. Начните с ровной площадки, запаса еды и жилья.",
+        "Кодекс запоминает предметные цели по очереди: показанную хижину можно ставить сразу, разбирать готовый дом ради повторного показа не нужно. О работе жителей судите по их просьбам и по тому, что появилось в мире, а не по строчке в списке."
       ],
       "intro_en": [
-        "A colony develops through citizens, construction orders and resource deliveries. A hut block identifies an institution’s location, while an assigned builder constructs its building after an interface command. Begin with an accessible site, supplies and housing.",
-        "The Codex remembers different item objectives sequentially. A registered hut can be placed immediately; dismantling an operational building for another scan is unnecessary. Verify citizens through their requests and actual results rather than possession of a listed block."
+        "A colony grows through citizens, construction orders and material deliveries. A hut block only marks the spot: the building itself is raised by an assigned builder after an order in the build window. Start with level ground, a food reserve and housing.",
+        "The Codex remembers item objectives one after another: a hut once shown can be placed at once, and there is no need to dismantle a finished house to show it again. Judge the citizens' work by their requests and by what appears in the world, not by a line in a list."
       ]
     },
     "mc_production": {
       "intro": [
-        "Производственные профессии работают по ресурсам, инструментам и запросам колонии. Добыча брёвен не равна изготовлению досок, а склад не обучает кузнеца неизвестному рецепту. Разделяйте добывающего работника, ремесленника и курьера, чтобы понимать место остановки.",
-        "Начните с короткой цепочки для одного строительного материала. После успешной доставки добавляйте следующие профессии и исследования; несколько пустых учреждений дают больше обязанностей, но ещё не создают самостоятельную экономику."
+        "Производственные профессии живут на трёх вещах: ресурсах, инструментах и запросах колонии. Срубленное бревно само не станет доской, а склад не научит кузнеца незнакомому рецепту. Держите в уме, кто добывает, кто мастерит и кто носит, — тогда видно, где всё встало.",
+        "Первой пусть будет короткая цепочка ради одного строительного материала. Когда первая доставка дошла, добавляйте профессии и исследования. Несколько пустых зданий прибавляют обязанностей, но экономикой от этого не становятся."
       ],
       "intro_en": [
-        "Production professions depend on colony resources, tools and requests. Gathering logs is different from crafting planks, and a warehouse cannot teach a blacksmith an unknown recipe. Distinguish gatherer, crafter and courier to locate a stoppage.",
-        "Begin with a short chain for one construction material. Add professions and research after a successful delivery; several empty institutions increase responsibilities without yet creating a self-sufficient economy."
+        "Production professions live on three things: resources, tools and the colony's requests. A felled log will not turn into a plank by itself, and a warehouse will not teach the blacksmith an unfamiliar recipe. Keep in mind who gathers, who crafts and who carries, and you will see where everything stalled.",
+        "Let the first be a short chain for one building material. Once the first delivery has arrived, add professions and research. A few empty buildings add duties but do not yet make an economy."
       ]
     },
     "mc_research": {
       "intro": [
-        "Обучение граждан и исследования университета решают разные задачи. Библиотека развивает взрослых, школа готовит детей, университет открывает технологии поселению. Для работы нужны назначение, подходящее здание и выбранная деятельность.",
-        "Читайте ограничения исследования до оплаты: уровень университета, предшествующие открытия и требуемые учреждения имеют значение. Журнал заданий дополняет развитие диалогами жителей; его история не заменяет дерево науки."
+        "Учёба жителей и наука университета — разные вещи. Библиотека растит взрослых, школа готовит детей, университет открывает поселению технологии. Для каждой нужны назначенный житель, подходящее здание и выбранное занятие.",
+        "Читайте условия исследования до оплаты: уровень университета, предыдущие открытия и требуемые здания решают, откроется ли кнопка. Журнал заданий добавляет к науке истории жителей, но дерево исследований не заменяет."
       ],
       "intro_en": [
-        "Citizen education and university research solve different problems. The library develops adults, the school prepares children and the university unlocks colony technology. Operation requires assignments, suitable buildings and selected activities.",
-        "Read research restrictions before paying: university level, previous discoveries and required institutions matter. The quest log adds citizen dialogues to progression; its history does not replace the research tree."
+        "Citizens' schooling and university science are different things. The library raises adults, the school prepares children, the university opens technologies to the settlement. Each needs an assigned citizen, a suitable building and a chosen activity.",
+        "Read a research's conditions before paying: the university level, earlier discoveries and required buildings decide whether the button opens. The quest log adds the citizens' stories to science but does not replace the research tree."
       ]
     },
     "mc_military": {
       "intro": [
-        "Защита колонии начинается с доступных маршрутов, освещения и снабжённых стражников. Башня без назначенного бойца не охраняет жителей; казармы не заменяют оружие, еду и подготовку.",
-        "Планируйте оборону до набега, оставляя гражданам путь к жилью и помощи. Редкие трофеи являются возможным результатом боя, но не гарантированной наградой за любое отражённое нападение."
+        "Оборона колонии начинается не с меча, а с дорог, света и снабжённых стражников. Башня без бойца никого не охраняет, а казармы не заменят оружие, еду и подготовку.",
+        "Планируйте защиту до набега и оставляйте жителям путь к домам и помощи. Редкий трофей — возможный исход боя, а не награда, положенная за каждое отбитое нападение."
       ],
       "intro_en": [
-        "Colony defence begins with accessible routes, lighting and supplied guards. A tower without an assigned fighter does not protect citizens; barracks cannot replace weapons, food and training.",
-        "Plan defences before a raid while preserving civilian routes to shelter and assistance. Rare trophies are possible combat outcomes, not guaranteed rewards for every repelled attack."
+        "A colony's defence begins not with a sword but with roads, light and supplied guards. A tower without a fighter protects no one, and barracks will not replace weapons, food and training.",
+        "Plan the defence before the raid and leave citizens a path to their homes and to help. A rare trophy is a possible outcome of a fight, not a reward owed for every repelled attack."
       ]
     },
     "mc_build": {
       "intro": [
-        "Structurize выбирает, измеряет и сохраняет строительные схемы; Domum Ornamentum создаёт декоративные формы из заданных материалов. Их инструменты помогают готовить проекты, но не отменяют стоимость строительства и работу граждан.",
-        "Сначала испытайте небольшую деталь на свободной площадке. Форма блока, материал заполнения и ориентация являются отдельными параметрами: красивое совпадение с расстояния ещё не гарантирует выполнение запроса строителя."
+        "Structurize выбирает, измеряет и сохраняет схемы, Domum Ornamentum превращает выбранные материалы в декоративные формы. Эти инструменты помогают готовить проекты, но стоимость постройки и работу граждан не отменяют.",
+        "Сначала попробуйте небольшую деталь на свободной площадке. Форма блока, материал заполнения и ориентация — три разных параметра: то, что издали смотрится верно, строителю может не подойти."
       ],
       "intro_en": [
-        "Structurize selects, measures and saves building blueprints; Domum Ornamentum creates decorative shapes from selected materials. These tools prepare projects without removing construction costs or citizen work.",
-        "First test a small detail on a clear site. Block shape, infill material and orientation are separate parameters: an attractive distant resemblance does not guarantee fulfillment of a builder request."
+        "Structurize selects, measures and saves blueprints; Domum Ornamentum turns chosen materials into decorative shapes. These tools help prepare projects but do not cancel the cost of construction or the citizens' labour.",
+        "Try a small detail on free ground first. Block shape, fill material and orientation are three separate parameters: what looks right from afar may not suit the builder."
       ]
     }
   },
   "quests": {
     "mc_found/supply": {
       "text": [
-        "Ящик снабжения разворачивает стартовый лагерь с полезными припасами для основания колонии. Изготовьте развёртыватель и выберите открытый участок, где предварительная модель помещается целиком. Это крупная размещаемая структура, поэтому тесная комната собственного дома для первого опыта не подходит.",
-        "Посмотрите ориентацию и высоту предпросмотра, затем подтвердите размещение только после осмотра границ. Соберите стартовые инструменты и ратушу из лагеря, сохранив остальные материалы для строителя. Ограничения повторного размещения проверяются игрой; не планируйте бесконечное снабжение повторной установкой ящиков.",
-        "Предметная цель отмечает получение развёртывателя, а не основанную колонию. Следующий шаг — выбрать постоянное место ратуши с запасом территории для домов и производства. Лагерь помогает начать, но не заменяет жителей, строительные запросы и дальнейшую добычу материалов для выбранного архитектурного стиля."
+        "Ящик снабжения разворачивает стартовый лагерь с припасами для будущей колонии. Сделайте развёртыватель и найдите открытое место, где целиком поместится предпросмотр. Это крупная конструкция: тесная комната собственного дома для неё не годится.",
+        "Осмотрите ориентацию и высоту призрачной модели и подтверждайте размещение только после осмотра границ. Заберите из лагеря стартовые инструменты и ратушу, а остальное оставьте строителю. Игра ограничивает повторное развёртывание, так что бесконечного снабжения из новых ящиков не будет.",
+        "Развёртыватель в руках закрывает предметную цель, но колонии ещё нет. Следующий шаг — выбрать ратуше постоянное место с запасом земли под дома и производство. Лагерь помогает начать; жителей, заказов и материалов для выбранного стиля он не заменит."
       ],
       "text_en": [
-        "The supply camp deployer places a starter camp containing useful colony supplies. Craft it and choose open terrain where the entire preview fits. This is a sizeable placed structure, so a cramped room inside your house is unsuitable for the first attempt.",
-        "Inspect orientation and height, then confirm placement after examining the boundaries. Collect starter tools and the town hall from the camp, reserving other materials for the builder. The game enforces deployment restrictions; do not plan unlimited supplies by repeatedly placing camps.",
-        "The item objective records obtaining the deployer rather than founding a colony. Next, choose a permanent town-hall site with room for housing and production. The camp helps you begin, but does not replace citizens, construction orders or further material gathering for your selected architectural style."
+        "The supply chest deploys a starting camp with provisions for the future colony. Make the deployer and find open ground where the whole preview fits. It is a large structure: a cramped room in your own house will not do.",
+        "Inspect the orientation and height of the ghost model and confirm placement only after checking the edges. Take the starting tools and the town hall from the camp and leave the rest for the builder. The game limits redeployment, so there will be no endless supplies from new chests.",
+        "The deployer in hand closes the item objective, but there is no colony yet. The next step is a permanent site for the town hall with land to spare for houses and production. The camp helps you begin; it will not replace citizens, orders and materials for the chosen style."
       ]
     },
     "mc_found/townhall": {
       "text": [
-        "Ратуша является центром управления колонией: здесь видны население, счастье, права и общие настройки. Возьмите её из стартового снабжения либо изготовьте по доступному рецепту. Выбирайте место с удобными подходами и достаточным пространством для будущих учреждений, а не только красивым видом.",
-        "Разместите блок через инструмент строительства с выбранной схемой, проверьте границы и создайте колонию через доступный интерфейс. Не путайте установленный блок с готовым зданием: строитель возведёт оболочку позднее. До его появления обычный игрок может пользоваться управлением и организовывать первые рабочие места.",
-        "Откройте сведения о колонии и убедитесь, что управление относится к вашему поселению. В совместной игре настройте разрешения участников осмысленно, чтобы помощники могли строить и обслуживать склады. Предметная отметка подтверждает ратушу в истории инвентаря; появление жителей и выполнение строительного заказа наблюдаются отдельно в мире."
+        "Ратуша — центр колонии: здесь видны население, счастье, права и общие настройки. Возьмите её из стартового лагеря или соберите по рецепту. Место выбирайте с удобными подходами и простором под будущие здания, а не только с красивым видом.",
+        "Поставьте блок инструментом строительства с выбранной схемой, проверьте границы и создайте колонию. Установленный блок — ещё не здание: оболочку строитель возведёт позже. До его появления вы уже можете пользоваться управлением и раздавать первые рабочие места.",
+        "Откройте сведения о колонии и убедитесь, что управляете именно своим поселением. В совместной игре продумайте права участников, чтобы помощники могли строить и обслуживать склады. Ратуша в истории инвентаря закрывает предметную цель; жителей и первую стройку вы увидите в мире."
       ],
       "text_en": [
-        "The town hall controls your colony: population, happiness, permissions and general settings are available here. Take it from starter supplies or craft it with an available recipe. Choose convenient approaches and sufficient space for future institutions rather than judging only the view.",
-        "Place the block through the build tool with a selected blueprint, inspect boundaries and create the colony through the available interface. An installed block is not a completed building: the builder constructs the surrounding structure later. You can use management and organize initial jobs beforehand.",
-        "Open colony information and verify that management belongs to your settlement. In multiplayer, assign participant permissions deliberately so helpers can build and service storage. The item mark records historical possession of the town hall; citizen arrival and completed construction must be observed separately in the world."
+        "The town hall is the colony's centre: population, happiness, permissions and general settings are all here. Take it from the starting camp or craft it by recipe. Choose a site with easy approaches and room for future buildings, not just a fine view.",
+        "Place the block with the build tool and a chosen blueprint, check the edges and create the colony. A placed block is not a building yet: the builder raises the shell later. Before that you can already use the management and hand out the first jobs.",
+        "Open the colony's details and make sure you are managing your own settlement. In shared play think through participants' permissions so helpers can build and service warehouses. The town hall in inventory history closes the item objective; the citizens and the first construction you will see in the world."
       ]
     },
     "mc_found/buildtool": {
       "text": [
-        "Инструмент строительства Structurize нужен для выбора схемы, поворота и точного положения колониальных зданий. Его золотистый вид не означает обязательный расход золота: установленный рецепт использует каменный материал и палки. Очки строителя помогают разбирать требования декоративных блоков при снабжении стройки.",
-        "Возьмите нужную хижину, откройте выбор схем инструментом и осмотрите предпросмотр со всех сторон. Проверьте будущие входы, уровень пола и место под следующую ступень здания. Подтверждение размещения определяет план; оно не даёт бесплатных материалов и не завершает заказ мгновенно.",
-        "Используйте очки при работе со сложными материалами Domum Ornamentum, различая форму и её составляющие. Похожая текстура не всегда означает подходящий предмет для запроса. Если расположение неудобно, исправляйте его до массовой доставки ресурсов: ранний осмотр экономит больше времени, чем перенос почти завершённой постройки."
+        "Инструмент строительства Structurize выбирает схему, поворачивает её и ставит точно на место. Золотистый вид обманчив: по установленному рецепту он делается из камня и палок. Очки строителя помогают разбирать требования к декоративным блокам, когда снабжаете стройку.",
+        "Возьмите нужную хижину, откройте выбор схем и осмотрите предпросмотр со всех сторон. Проверьте будущие входы, уровень пола и место под следующую ступень здания. Подтверждение размещает план — материалов не даёт и заказ не завершает.",
+        "Очки пригодятся со сложными материалами Domum Ornamentum: они показывают форму и её составляющие. Похожая текстура не всегда означает нужный предмет. Неудобное расположение исправляйте до массовой доставки ресурсов — ранний осмотр дешевле переноса почти готовой постройки."
       ],
       "text_en": [
-        "Structurize’s build tool selects blueprints, rotates them and positions colony buildings precisely. Its golden appearance does not imply a gold cost: the installed recipe uses stone material and sticks. Builder goggles help interpret decorative-block requirements when supplying construction.",
-        "Hold the appropriate hut, open blueprint selection with the tool and examine the preview from every side. Check future entrances, floor height and room for later building levels. Confirming placement defines a plan; it provides no free materials and does not instantly complete an order.",
-        "Use goggles when handling complex Domum Ornamentum materials, distinguishing shape from its constituent materials. Similar textures do not always mean an item satisfies a request. Correct awkward placement before large deliveries: early inspection saves more time than relocating a nearly completed building."
+        "The Structurize build tool selects a blueprint, rotates it and places it precisely. Its golden look is deceptive: by the installed recipe it is made of stone and sticks. The builder's goggles help decode the requirements of decorative blocks when you supply a construction site.",
+        "Take the hut you need, open the blueprint selection and inspect the preview from all sides. Check future entrances, floor level and room for the building's next level. Confirming places the plan; it gives no materials and finishes no order.",
+        "The goggles are useful with complex Domum Ornamentum materials: they show the shape and what it is made of. A similar texture does not always mean the right item. Fix an awkward position before mass deliveries; an early inspection is cheaper than moving an almost finished building."
       ]
     },
     "mc_found/builder": {
       "text": [
-        "Строитель превращает планы в настоящие здания и начинает с собственной хижины. Разместите её инструментом, назначьте свободного жителя и откройте Build Options, затем Build Building. Без строительного заказа сотруднику нечего возводить, даже если рядом стоит сундук камня.",
-        "Вкладка Required Resources показывает материалы проекта; Open Requests у самого работника раскрывает текущую нехватку инструмента и прочие остановки. Доставляйте предметы в поддерживаемый инвентарь или выполняйте запрос напрямую. Ресурсный свиток привяжите к строителю, чтобы просматривать потребности во время похода на склад.",
-        "Сначала дождитесь завершения собственной хижины и проверьте доступность дальнейших заказов. Уровень строителя ограничивает поддерживаемые работы, поэтому развитие мастерской нельзя откладывать бесконечно. Если житель бездействует, проверьте еду, время суток, маршрут, инструменты и открытый запрос до отмены всей стройки или переселения колонии."
+        "Строитель превращает планы в настоящие здания и начинает с собственной хижины. Разместите её инструментом, назначьте свободного жителя, откройте Build Options и выберите Build Building. Без заказа ему нечего возводить, даже если рядом стоит сундук камня.",
+        "Вкладка Required Resources перечисляет материалы проекта; Open Requests у самого работника показывает, какого инструмента не хватает и что ещё остановило дело. Доставляйте предметы в поддерживаемый инвентарь или закрывайте запрос напрямую. Привяжите к строителю ресурсный свиток, чтобы видеть его нужды по дороге на склад.",
+        "Дождитесь, пока хижина будет достроена, и посмотрите, какие заказы стали доступны. Уровень строителя ограничивает работы, так что развитие мастерской откладывать бесконечно не выйдет. Если житель стоит без дела, проверьте еду, время суток, маршрут, инструменты и открытый запрос, прежде чем отменять стройку или переселять колонию."
       ],
       "text_en": [
-        "A builder turns plans into actual buildings, beginning with their own hut. Place it with the build tool, assign a free citizen and open Build Options, then Build Building. Without a construction order, the employee has nothing to erect even beside a chest of stone.",
-        "Required Resources lists project materials; the worker’s own Open Requests shows missing tools and other immediate needs. Deliver items to supported inventory or fulfill requests directly. Bind a resource scroll to the builder so you can inspect requirements while visiting storage.",
-        "First await completion of the builder’s hut and check further available orders. Builder level limits supported work, so workshop development cannot be postponed indefinitely. If the citizen stands idle, inspect food, time of day, routes, tools and open requests before cancelling the whole construction or relocating the colony."
+        "The builder turns plans into real buildings and begins with their own hut. Place it with the tool, assign a free citizen, open Build Options and choose Build Building. Without an order there is nothing to raise, even with a chest of stone standing nearby.",
+        "The Required Resources tab lists the project's materials; Open Requests on the worker shows which tool is missing and what else stopped the work. Deliver items into a supported inventory or fulfil the request directly. Bind the resource scroll to the builder to see their needs on the way to the warehouse.",
+        "Wait for the hut to be finished and see which orders became available. The builder's level limits the work, so developing the workshop cannot be postponed forever. If the citizen stands idle, check food, time of day, route, tools and the open request before cancelling the construction or moving the colony."
       ]
     },
     "mc_found/citizen": {
       "text": [
-        "Жильё определяет, сколько жителей можно принять и где они пережидают ночь. Подготовьте две жилые хижины и одну таверну, затем закажите их строительство. В установленном обучении таверна даёт четыре места, а отдельный дом — одно место на каждый уровень здания.",
-        "Завершённая таверна также привлекает посетителей, которых можно нанять за запрошенные ими предметы при наличии условий поселения. Прочитайте характеристики кандидата и свободную вместимость заранее. Вторая таверна не является способом бесконечного расширения: колония допускает только одну.",
-        "Два блока домов для предметной цели можно зарегистрировать одной партией, затем расставить; готовое заселение проверяйте через управление. Свободная кровать игрока рядом с хижиной не заменяет колониальное жилое место. После найма обеспечьте еду и работу, иначе рост населения увеличит число неудовлетворённых запросов вместо полезного производства."
+        "Жильё решает, сколько жителей вы примете и где они переждут ночь. Подготовьте две жилые хижины и одну таверну и закажите их постройку. В установленном обучении таверна даёт четыре места, отдельный дом — по одному месту на каждый уровень здания.",
+        "Достроенная таверна привлекает гостей, которых можно нанять за названные ими предметы, если поселение к этому готово. Заранее прочитайте характеристики кандидата и посчитайте свободные места. Вторая таверна не поможет: колония допускает только одну.",
+        "Два блока домов можно показать книге одной партией и расставить; заселение проверяйте в управлении. Кровать игрока рядом с хижиной колониальным местом не считается. После найма обеспечьте еду и работу, иначе новые люди принесут не производство, а стопку невыполненных просьб."
       ],
       "text_en": [
-        "Housing determines how many citizens can move in and where they shelter at night. Prepare two residence huts and one tavern, then order their construction. The installed tutorial gives the tavern four housing slots and a residence one slot per building level.",
-        "A completed tavern also attracts visitors who can be recruited for their requested items when settlement conditions permit. Inspect a candidate’s attributes and available capacity first. Additional taverns are not an unlimited expansion method: a colony permits only one.",
-        "Register the two residence blocks together for their numerical objective, then place them; inspect actual occupancy through management. A player bed beside a hut does not replace a colony housing slot. After recruitment, provide food and work, otherwise population growth increases unresolved requests rather than useful production."
+        "Housing decides how many citizens you take in and where they wait out the night. Prepare two residence huts and one tavern and order their construction. In the installed tutorial the tavern gives four places, a separate house one place per building level.",
+        "A finished tavern attracts visitors who can be hired for the items they name, if the settlement is ready for it. Read a candidate's traits beforehand and count the free places. A second tavern will not help: the colony allows only one.",
+        "The two house blocks can be shown to the book as one batch and then placed; check occupancy in the management. The player's bed next to a hut does not count as a colony place. After hiring, provide food and work, or new people bring not production but a pile of unmet requests."
       ]
     },
     "mc_found/warehouse": {
       "text": [
-        "Склад и курьер связывают профессии в общую систему снабжения. Постройте оба учреждения, назначьте курьера и подготовьте восемь колониальных стеллажей. Склад удобнее размещать ближе к основным потребителям: сокращение ходьбы часто помогает больше, чем дополнительный сундук на окраине.",
-        "Заполните зарегистрированное складское хранилище простыми инструментами и материалами востребованной стройки. Курьер доставляет по запросам, а не угадывает любой будущий замысел игрока. Проверьте проход к входам, доступ к стеллажам и наличие свободного места для продукции добывающих работников.",
-        "Наблюдайте хотя бы одну доставку от склада до нуждающегося жителя. Предметные цели подтверждают изготовленные блоки, но не назначение сотрудника и действующую логистику. Не считайте обычный сундук снаружи автоматически частью склада: используйте его интерфейс и зарегистрированное хранение, иначе курьер может не видеть аккуратно разложенный вами запас."
+        "Склад и курьер связывают профессии в одну систему снабжения. Постройте оба здания, назначьте курьера и приготовьте восемь колониальных стеллажей. Склад лучше ставить ближе к главным потребителям: короткая дорога помогает больше, чем лишний сундук на окраине.",
+        "Заполните зарегистрированное хранилище простыми инструментами и материалами для текущей стройки. Курьер носит по запросам, а не угадывает ваши планы. Проверьте проход ко входам, доступ к стеллажам и место под продукцию добывающих работников.",
+        "Проследите хотя бы одну доставку от склада до нуждающегося жителя — предметы в истории этого не покажут, назначение сотрудника и путь тоже. Сундук снаружи частью склада не становится: пользуйтесь его окном и зарегистрированным хранением, иначе курьер не увидит аккуратно разложенный вами запас."
       ],
       "text_en": [
-        "The warehouse and courier connect professions into a shared supply system. Construct both institutions, assign a courier and prepare eight colony racks. Place the warehouse near major consumers: shorter walking routes often help more than another chest on the outskirts.",
-        "Stock registered warehouse storage with simple tools and materials for an active building project. Couriers deliver against requests rather than guessing every future player intention. Check entrances, access to racks and free capacity for gathering workers’ output.",
-        "Observe at least one delivery from storage to a citizen with a request. Item objectives verify crafted blocks, not employee assignment or operational logistics. Do not assume an ordinary chest outside automatically belongs to the warehouse: use its interface and registered storage, otherwise the courier may never see your neatly arranged reserve."
+        "The warehouse and the courier tie professions into one supply system. Build both, assign a courier and prepare eight colony racks. Put the warehouse close to the main consumers: a short road helps more than an extra chest on the outskirts.",
+        "Fill the registered storage with simple tools and materials for the current construction. The courier delivers on request rather than guessing your plans. Check the approach to the entrances, access to the racks and room for the gatherers' output.",
+        "Follow at least one delivery from the warehouse to a citizen in need; items in the history will not show it, nor will the worker's assignment or route. A chest outside does not become part of the warehouse: use its window and registered storage, or the courier will not see the stock you laid out so neatly."
       ]
     },
     "mc_found/food": {
       "text": [
-        "Ферма выращивает урожай, а столовая с блоком blockhutcook обслуживает голодных жителей. Это разные звенья: поле без меню не создаёт готовое питание. Постройте учреждения, назначьте работников и поставьте полевой блок на удобной орошаемой площадке возле фермы.",
-        "В интерфейсе поля выберите культуру, обеспечьте семена и подходящую мотыгу, затем проверьте назначение участка фермеру. В столовой настройте меню и добавьте разрешённую еду с топливом для поддерживаемого приготовления. Сырая пища и неподходящий уровень блюда могут не удовлетворять граждан, даже если игрок сам способен это съесть.",
-        "Проследите получение урожая и выдачу еды одному жителю. Развитые дома повышают требования к питанию; позже понадобится отдельная кухня шефа и разнообразные продукты. При голодании сначала смотрите меню, складской запас и доставку, а не расширяйте вслепую уже работающую грядку."
+        "Ферма выращивает урожай, а столовая с блоком blockhutcook кормит голодных. Это два разных звена: поле без меню готового обеда не даёт. Постройте оба здания, назначьте работников и поставьте полевой блок на удобном поливаемом участке рядом с фермой.",
+        "В окне поля выберите культуру, дайте семена и мотыгу, проверьте, что участок закреплён за фермером. В столовой настройте меню и добавьте разрешённую еду с топливом для поддерживаемой готовки. Сырое или неподходящее по уровню блюдо жителей не устроит, даже если вы сами съели бы его без раздумий.",
+        "Проследите, как урожай попадает на склад, а еда — одному жителю. Развитые дома требуют лучшего питания; позже понадобятся кухня шефа и разные продукты. Если люди голодают, сначала смотрите меню, запас на складе и доставку, а не расширяйте вслепую уже работающую грядку."
       ],
       "text_en": [
-        "The farm grows crops, while the dining hall represented by blockhutcook serves hungry citizens. These are separate stages: a field without a menu does not provide finished meals. Construct the institutions, assign workers and place a field block on accessible irrigated ground near the farm.",
-        "Choose a crop in the field interface, supply seeds and a suitable hoe, then verify assignment to the farmer. Configure the dining-hall menu and add permitted food with fuel for supported cooking. Raw food or an unsuitable meal tier may fail citizens even when players can eat it.",
-        "Observe harvesting and a meal being supplied to one citizen. Higher-level residences increase dietary expectations; a separate chef’s kitchen and varied ingredients become useful later. For hungry citizens, inspect menus, warehouse reserves and deliveries before blindly expanding an already productive field."
+        "The farm grows crops, and the dining hall with the blockhutcook block feeds the hungry. These are two different links: a field without a menu produces no finished meal. Build both, assign workers and put the field block on a convenient irrigated plot near the farm.",
+        "In the field window choose the crop, provide seeds and a hoe, and check that the plot is assigned to the farmer. In the dining hall set up the menu and add permitted food with fuel for supported cooking. A raw dish, or one below the required level, will not satisfy citizens, even if you would eat it yourself without a second thought.",
+        "Watch the harvest reach the warehouse and food reach one citizen. Upgraded houses demand better nutrition; later you will need the chef's kitchen and varied products. If people go hungry, look first at the menu, warehouse stock and delivery rather than blindly expanding a plot that already works."
       ]
     },
     "mc_found/postbox": {
       "text": [
-        "Почтовый ящик позволяет игроку обращаться к системе запросов колонии, не разыскивая каждый материал по стеллажам вручную. Изготовьте его после появления склада и курьера. Поставьте в доступном месте своей колонии, рядом с постоянным рабочим участком, куда удобно приносить заказанное.",
-        "Откройте интерфейс и запросите небольшой запас обычного материала, который уже есть на складе. Убедитесь, что выбран правильный предмет и разумное количество. Курьеру необходим маршрут, а системе — доступный запас или обученное производство; ящик не создаёт недостающий ресурс из ничего.",
-        "Проследите завершение запроса и заберите доставку, не засоряя приёмник старыми заказами. Если доставка задержалась, изучите состояние запроса и занятость курьера. Для первого опыта камень или доски подходят лучше редкого компонента, требующего ещё не построенной профессии: так вы проверите именно работу связи со складом."
+        "Через почтовый ящик вы обращаетесь к системе запросов колонии, не обшаривая стеллажи вручную. Сделайте его после появления склада и курьера и поставьте у своего постоянного рабочего места, куда удобно приносить заказанное.",
+        "Откройте окно и запросите немного обычного материала, который уже лежит на складе. Проверьте предмет и разумное количество. Курьеру нужна дорога, системе — запас или обученное производство; из ничего ящик ресурс не создаёт.",
+        "Дождитесь выполнения и заберите доставку, не оставляя в приёмнике старые заказы. Если посылка задерживается, посмотрите состояние запроса и занятость курьера. Для первого раза лучше камень или доски, чем редкая деталь, для которой ещё нет профессии: так проверяется именно связь со складом."
       ],
       "text_en": [
-        "A postbox lets players use the colony request system instead of searching every rack manually. Craft it after establishing a warehouse and courier. Place it somewhere accessible inside your colony, beside a regular work area where deliveries are convenient.",
-        "Open its interface and request a modest amount of ordinary material already stored in the warehouse. Verify the exact item and a reasonable quantity. The courier needs a route, and the system needs available stock or trained production; the box does not create missing resources.",
-        "Watch the request complete and collect delivery without leaving old orders clogging the receiver. If delivery stalls, inspect request status and courier workload. Stone or planks make a better first trial than a rare component requiring an unbuilt profession, allowing you to test the warehouse connection itself."
+        "Through the post box you address the colony's request system without rummaging through racks by hand. Make it once the warehouse and courier exist and put it by your permanent workplace, where deliveries are convenient to bring.",
+        "Open the window and request a little of an ordinary material already in the warehouse. Check the item and a sensible quantity. The courier needs a road, the system needs stock or trained production; the box does not create a resource out of nothing.",
+        "Wait for completion and collect the delivery without leaving old orders in the receiver. If the parcel is late, look at the request's state and the courier's workload. For a first try, stone or planks beat a rare part with no profession yet: that way you test the link to the warehouse itself."
       ]
     },
     "mc_found/hospital": {
       "text": [
-        "Больница обслуживает заболевших граждан, а кладбище относится к последствиям гибели и соответствующим возможностям исследований. Подготовьте оба блока, но не воспринимайте их как автоматическую защиту населения. Для реальной помощи нужны построенные здания, назначенные сотрудники и доступные запрошенные материалы.",
-        "Организуйте безопасный путь из жилого квартала к больнице. При болезни откройте запросы лечебного работника и доставьте именно указанные средства; похожая еда не обязательно подходит. После потери гражданина изучите интерфейс кладбища и текущие условия обслуживания, прежде чем обещать себе гарантированное возвращение любого умершего.",
-        "Следите за запасами и свободными местами до кризиса. Наличие двух хижин в истории инвентаря закрывает предметную часть, но не подтверждает лечение или воскрешение. Освещение, оборона и питание продолжают снижать нагрузку на эти учреждения; больница не компенсирует постоянно открытый путь монстрам прямо к домам."
+        "Больница лечит заболевших, кладбище связано с потерями и с исследованиями, которые их касаются. Подготовьте оба блока, но не считайте их автоматической защитой населения. Помощь появится, когда здания построены, сотрудники назначены и запрошенные средства доставлены.",
+        "Проложите безопасный путь из жилого квартала к больнице. При болезни откройте запросы лекаря и принесите именно указанные средства; похожая еда не обязательно подойдёт. После гибели жителя изучите окно кладбища и текущие условия, прежде чем рассчитывать на возвращение любого умершего.",
+        "Запасы и свободные места считайте до кризиса, а не во время. Две хижины в истории инвентаря закрывают предметную часть; лечение и воскрешение видны только в мире. Свет, оборона и еда снимают нагрузку с этих зданий — больница не спасёт колонию, где монстры ходят прямо к домам."
       ],
       "text_en": [
-        "The hospital serves sick citizens, while the graveyard handles consequences of deaths and related research possibilities. Prepare both hut blocks, but do not treat them as automatic population protection. Effective help requires constructed buildings, assigned employees and the requested supplies.",
-        "Provide a safe route from housing to the hospital. When illness occurs, inspect the medical worker’s requests and deliver the specified remedies; similar-looking food may not qualify. Following a citizen’s death, study the graveyard interface and current service conditions before expecting guaranteed revival of every casualty.",
-        "Monitor supplies and capacity before a crisis. Historical possession of two huts completes the item portion, not treatment or resurrection. Lighting, defence and food still reduce pressure on these institutions; a hospital cannot compensate for a permanently open monster route into residential buildings."
+        "The hospital treats the sick; the graveyard relates to losses and to the research that concerns them. Prepare both blocks, but do not count them as automatic protection for the population. Help comes when the buildings are built, staff assigned and the requested supplies delivered.",
+        "Lay a safe path from the residential quarter to the hospital. In case of illness open the healer's requests and bring exactly the listed remedies; similar food may not do. After a citizen's death study the graveyard window and the current conditions before counting on the return of everyone who died.",
+        "Count stocks and free places before a crisis, not during one. Two huts in inventory history close the item part; healing and resurrection show only in the world. Light, defence and food take the load off these buildings; a hospital will not save a colony where monsters walk straight to the houses."
       ]
     },
     "mc_found/mystical": {
       "text": [
-        "Мистическое место — колониальное сооружение для счастья жителей и выразительного общественного пространства. В установленном моде его влияние на счастье зависит от уровня здания. Оно не является порталом, магическим генератором ресурсов или заменой работающей больницы.",
-        "Проверьте нужное исследование и выберите схему с учётом большого участка и стоимости материалов. Поставьте план инструментом, затем отдайте строительный заказ после обеспечения основных потребностей поселения. Красивый проект не должен надолго остановить срочное жильё, еду или оборону из-за общего дефицита ресурсов.",
-        "После завершения посмотрите показатель счастья в ратуше и сохраните доступ к сооружению. Предметная цель отмечает блок хижины раньше строительства; реальный эффект появляется у действующего здания. Развивайте его вместе с колонией, сравнивая пользу следующего уровня с другими открытыми потребностями, а не ожидая мгновенного решения всех жалоб граждан."
+        "Мистическое место — колониальное сооружение для счастья жителей и красивого общественного пространства. В установленном моде его влияние на счастье растёт с уровнем здания. Это не портал, не магический генератор ресурсов и не замена работающей больнице.",
+        "Проверьте нужное исследование и выберите схему, помня о большом участке и цене материалов. Поставьте план инструментом и отдавайте заказ, когда основные нужды поселения закрыты. Красивый проект не должен надолго остановить срочное жильё, еду или оборону.",
+        "После постройки посмотрите показатель счастья в ратуше и сохраните доступ к сооружению. Блок хижины закрывает цель раньше стройки, а настоящий эффект даёт только готовое здание. Улучшайте его вместе с колонией, сравнивая пользу следующего уровня с другими открытыми нуждами, — мгновенного ответа на все жалобы оно не даст."
       ],
       "text_en": [
-        "A mystical site is a colony building supporting citizen happiness and a distinctive public space. In the installed mod, its happiness contribution depends on building level. It is not a portal, a magical resource generator or a replacement for an operational hospital.",
-        "Check the required research and choose a blueprint with its large footprint and material cost in mind. Place the plan with the tool, then order construction after meeting essential settlement needs. A beautiful project should not indefinitely delay urgent housing, food or defence through shared shortages.",
-        "After completion, inspect happiness at the town hall and preserve access to the site. The item objective records its hut block before construction; the practical effect belongs to an operational building. Develop it alongside the colony, comparing each upgrade with outstanding needs instead of expecting instant resolution of every citizen complaint."
+        "The mystical site is a colony structure for citizens' happiness and a handsome public space. In the installed mod its effect on happiness grows with the building's level. It is not a portal, not a magical resource generator and not a substitute for a working hospital.",
+        "Check the required research and choose a blueprint, mindful of the large footprint and the cost of materials. Place the plan with the tool and give the order once the settlement's basic needs are covered. A handsome project must not stall urgent housing, food or defence for long.",
+        "After construction look at the happiness figure in the town hall and keep access to the structure. The hut block closes the objective before the build, while the real effect comes only from the finished building. Upgrade it along with the colony, weighing the next level against other open needs; it will not answer every complaint at once."
       ]
     },
     "mc_production/lumberjack": {
       "text": [
-        "Лесоруб выращивает и рубит деревья по настройкам своей хижины. Постройте рабочее место недалеко от склада, но отделите лесной участок от декоративных деревьев и деревянных построек. Выдайте подходящий топор и саженцы выбранной породы, затем проверьте разрешённые растения.",
-        "Лесным инструментом задайте рабочую область двумя противоположными углами, учитывая высоту будущих деревьев. Слишком низкая область не охватывает крону, а слишком широкая может затронуть парк. Наблюдайте первую рубку и повторную посадку до расширения участка.",
-        "Продукция должна уходить со склада работника, освобождая место для следующего цикла. При остановке проверьте инструмент, саженцы, доступ к дереву и сообщения жителя. Полученный блок хижины только знакомит Кодекс с профессией; устойчивое снабжение строителя начинается после реальной рубки, доставки и восстановления посадок."
+        "Лесоруб сажает и рубит деревья по настройкам своей хижины. Поставьте её недалеко от склада, но отделите лесной участок от декоративных деревьев и деревянных построек. Выдайте топор и саженцы выбранной породы, затем проверьте список разрешённых растений.",
+        "Лесным инструментом задайте рабочую область по двум противоположным углам с запасом высоты под кроны. Слишком низкая область не захватит верхушку, слишком широкая — заденет парк. Посмотрите первую рубку и повторную посадку, прежде чем расширять участок.",
+        "Брёвна должны уходить со склада работника, освобождая место следующему циклу. Если работа встала, проверьте топор, саженцы, доступ к дереву и сообщения жителя. Блок хижины лишь знакомит книгу с профессией; настоящее снабжение строителя начинается с рубки, доставки и восстановленных посадок."
       ],
       "text_en": [
-        "The forester grows and cuts trees according to hut settings. Build the workplace near storage while separating its woodland from decorative trees and wooden buildings. Supply a suitable axe and saplings of the chosen species, then inspect permitted plants.",
-        "Use the forest tool to define a work volume between opposite corners, including future tree height. A low volume misses the canopy, while an excessively broad one can include a park. Observe the first felling and replanting before expanding.",
-        "Output should leave the worker’s storage to free capacity for another cycle. For stoppages, check tools, saplings, tree access and citizen messages. Obtaining the hut only introduces the profession to the Codex; reliable builder supplies begin after actual felling, delivery and renewed planting."
+        "The lumberjack plants and fells trees according to the hut's settings. Place it not far from the warehouse, but separate the forest plot from ornamental trees and wooden buildings. Provide an axe and saplings of the chosen species, then check the list of allowed plants.",
+        "With the forestry tool set the working area by two opposite corners, with spare height for the crowns. Too low an area misses the tops; too wide a one catches the park. Watch the first felling and replanting before expanding the plot.",
+        "Logs must leave the worker's storage to make room for the next cycle. If work stops, check the axe, saplings, access to the tree and the citizen's messages. The hut block merely introduces the profession to the book; real supply for the builder begins with felling, delivery and restored plantings."
       ]
     },
     "mc_production/sawmill": {
       "text": [
-        "Лесопилка изготавливает деревянные изделия для запросов поселения. Она дополняет лесоруба: доставленное бревно само не превращается во все лестницы, заборы и двери выбранного стиля. Проверьте требуемое исследование, постройте учреждение и назначьте свободного работника.",
-        "В интерфейсе рецептов обучите лесопилку конкретному простому изделию из доступной древесины. Используйте именно вариант материала, который нужен строителю, затем создайте небольшой запрос. Количество доступных рецептов и возможности зависят от развития здания; не предполагается знание всей страницы JEI сразу после назначения.",
-        "Проследите поступление сырья и получение готового заказа через курьера. Если строитель ждёт другую породу дерева, изменение цвета досок в голове игрока не изменит рецепт сотрудника. Сначала сравните точные ингредиенты и выход, затем расширяйте перечень изделий, сохраняя запас брёвен для собственных построек и дальнейшего обучения."
+        "Лесопилка делает деревянные изделия для запросов поселения и дополняет лесоруба: доставленное бревно само не превратится в лестницы, заборы и двери выбранного стиля. Проверьте исследование, постройте здание и назначьте свободного работника.",
+        "В окне рецептов обучите лесопилку одному простому изделию из доступной древесины — той породы, что нужна строителю. Затем создайте небольшой запрос. Набор рецептов растёт с уровнем здания; вся страница JEI сразу после назначения не откроется.",
+        "Проследите, как приходит сырьё и как курьер приносит готовый заказ. Если строителю нужна другая порода, мысленная перекраска досок рецепт сотрудника не изменит. Сверьте точные ингредиенты и выход, потом расширяйте перечень, оставляя брёвна на собственные постройки и новые уроки."
       ],
       "text_en": [
-        "The sawmill crafts wooden products requested by the settlement. It complements the forester: a delivered log does not automatically become every stair, fence and door in your chosen style. Check required research, construct the institution and assign an available worker.",
-        "Teach a specific simple recipe using available wood through its recipe interface. Use the material variant the builder actually needs, then create a small request. Recipe capacity and capabilities depend on building development; a newly assigned worker does not know every JEI entry.",
-        "Follow incoming material and courier delivery of the finished order. If construction needs a different wood species, mentally recolouring planks does not alter the employee’s recipe. Compare exact ingredients and output before expanding the product list, preserving logs for your own building and further recipe teaching."
+        "The sawmill makes wooden goods for the settlement's requests and complements the lumberjack: a delivered log will not turn into stairs, fences and doors of the chosen style by itself. Check the research, build the hut and assign a free worker.",
+        "In the recipe window teach the sawmill one simple item from available wood, the species the builder needs. Then create a small request. The recipe set grows with the building's level; the whole JEI page will not open right after assignment.",
+        "Follow the raw material arriving and the courier bringing the finished order. If the builder needs a different species, repainting the planks in your mind will not change the worker's recipe. Check the exact ingredients and output, then widen the list while keeping logs for your own buildings and new lessons."
       ]
     },
     "mc_production/miner": {
       "text": [
-        "Шахта добывает камень и руды, каменщик делает изделия, дробилка меняет сыпучие материалы, а просеиватель ищет полезные включения. Подготовьте четыре хижины по очереди, но запускайте профессии согласно текущим исследованиям и потребностям. Их роли не взаимозаменяемы.",
-        "Шахтёру нужны кирки и строительные припасы для укрепления шахты; сначала он углубляет ствол, затем развивает выработки. Каменщику обучите конкретный рецепт. Для дробилки проверяйте переходы булыжник–гравий–песок–глина и действующие условия; просеивателю потребуется подходящее сырьё и доступная сетка.",
-        "Не ждите от простого наличия четырёх блоков автоматической линии удвоения руды. Наблюдайте продукцию каждой профессии отдельно и освобождайте её инвентарь доставкой. Рабочая шахта может пересечь опасные полости, поэтому сохраняйте доступ к сотруднику и следите за его запросами, вместо слепого приказа углубляться любой ценой."
+        "Шахта даёт камень и руду, каменщик делает изделия, дробилка перемалывает сыпучее, просеиватель вылавливает полезное из песка и гравия. Ставьте четыре хижины по очереди, а запускайте профессии по мере исследований и нужд: их роли не взаимозаменяемы.",
+        "Шахтёру нужны кирки и материалы для крепления: сначала он углубляет ствол, потом ведёт выработки. Каменщику обучите конкретный рецепт. У дробилки сверьте переходы булыжник — гравий — песок — глина и действующие условия; просеивателю дайте подходящее сырьё и сетку.",
+        "Четыре блока рядом линию удвоения руды не образуют. Наблюдайте за продукцией каждой профессии отдельно и разгружайте её доставкой. Шахта может выйти в опасную полость, поэтому держите доступ к работнику и следите за его просьбами, а не гоните вглубь любой ценой."
       ],
       "text_en": [
-        "The mine gathers stone and ores, the stonemason crafts products, the crusher converts loose materials and the sifter searches for useful inclusions. Prepare the four huts sequentially, but activate professions according to research and demand. Their roles are not interchangeable.",
-        "The miner needs pickaxes and construction supplies to support the shaft, first digging downward and later expanding tunnels. Teach the stonemason a specific recipe. Check the crusher’s cobblestone–gravel–sand–clay transitions and current conditions; the sifter needs suitable input and an available mesh.",
-        "Possessing four blocks does not establish an automatic ore-doubling line. Observe each profession’s products separately and free inventory through delivery. An active mine may intersect dangerous cavities, so preserve worker access and monitor requests rather than demanding deeper excavation at any cost."
+        "The mine yields stone and ore, the stonemason makes goods, the crusher grinds loose material, the sifter picks useful bits out of sand and gravel. Place the four huts in turn, but launch the professions as research and needs allow: their roles are not interchangeable.",
+        "The miner needs pickaxes and shoring materials: first the shaft goes down, then the galleries spread. Teach the stonemason a specific recipe. For the crusher check the cobblestone, gravel, sand, clay transitions and the current conditions; give the sifter suitable feed and a mesh.",
+        "Four blocks side by side do not form an ore-doubling line. Watch each profession's output separately and clear it by delivery. The mine may break into a dangerous cavity, so keep access to the worker and heed their requests rather than driving them deeper at any cost."
       ]
     },
     "mc_production/smeltery": {
       "text": [
-        "Обычная плавильня обслуживает руды и металлы, каменная — обжигаемые строительные материалы и древесный уголь. Подготовьте обе хижины и разделите направления сырья заранее. Названия похожи, но запрос на гладкий камень не следует автоматически отправлять металлургу.",
-        "Постройте здания, назначьте работников и обеспечьте топливо, входной материал и доступный поддерживаемый рецепт. Плавильщик способен разбивать рудные блоки до сырья и плавить его; конкретный выход определяет действующая обработка. Не приписывайте ему коэффициенты обогащения из Mekanism без проверки отдельного рецепта.",
-        "Закажите небольшую партию металла и строительного продукта, проследив оба результата до склада. При простое сравните назначение профессии, рецепт и топливо. Общий дефицит угля может остановить сразу несколько служб, поэтому договоритесь о резерве для еды и металлургии до начала большой партии декоративного обжига."
+        "Обычная плавильня работает с рудами и металлами, каменная — с обжигаемыми стройматериалами и древесным углём. Подготовьте обе хижины и заранее разведите сырьё по направлениям: названия похожи, но запрос на гладкий камень металлургу не адресован.",
+        "Постройте здания, назначьте работников, дайте топливо, сырьё и доступный рецепт. Плавильщик умеет дробить рудные блоки до сырья и плавить его; сколько выйдет, решает действующая обработка. Коэффициенты Mekanism сюда не переносятся, пока не проверен отдельный рецепт.",
+        "Закажите немного металла и немного строительного продукта и проследите оба до склада. При простое сравните назначение, рецепт и топливо. Нехватка угля способна остановить сразу несколько служб, так что резерв для кухни и металлургии договоритесь оставить до большой партии декоративного обжига."
       ],
       "text_en": [
-        "The smeltery handles ores and metals, while the stone smeltery handles fired construction materials and charcoal. Prepare both huts and separate their input streams beforehand. Their similar names do not mean a smooth-stone request automatically belongs to the metalworker.",
-        "Construct buildings, assign workers and provide fuel, ingredients and a supported available recipe. A smelter can break ore blocks into raw material and smelt it; actual processing determines output. Do not assign Mekanism enrichment multipliers without checking a specific recipe.",
-        "Request small batches of metal and a building product, following both outputs to storage. For idle workers, compare profession assignment, recipe and fuel. Coal shortages can halt several services together, so reserve fuel for meals and metallurgy before beginning a large decorative firing batch."
+        "The ordinary smeltery handles ores and metals; the stone smeltery handles fired building materials and charcoal. Prepare both huts and split the raw materials by direction in advance: the names are alike, but a request for smooth stone is not addressed to the metallurgist.",
+        "Build the huts, assign workers, provide fuel, feedstock and an available recipe. The smelter can break ore blocks down to raw material and melt it; how much comes out is decided by the current processing. Mekanism ratios do not carry over until a separate recipe is verified.",
+        "Order a little metal and a little building product and follow both to the warehouse. If work stalls, compare the assignment, recipe and fuel. A coal shortage can halt several services at once, so agree to keep a reserve for the kitchen and metallurgy before a big batch of decorative firing."
       ]
     },
     "mc_production/blacksmith": {
       "text": [
-        "Кузнец обеспечивает инструменты и металлическое снаряжение, механик обслуживает сложные устройства и красный камень, стеклодув работает со стеклянными изделиями. Эти три мастерские снимают разные ручные обязанности игрока. Подготовьте блоки, проверьте исследования и обеспечьте работающую доставку материалов.",
-        "Начните обучение с одного нужного рецепта на профессию: доступного инструмента, простого механического компонента и стеклянного изделия. Проверьте точный выход и возможность изготовления на текущем уровне. Не переносите автоматически рецепт сложной машины другого мода в любую мастерскую только потому, что в ней есть железо.",
-        "Создайте небольшой запрос и проследите его выполнение. При ожидании инструмента для самого мастера сначала закройте этот запрос, иначе производство запаса инструментов может оказаться в тупике. После испытания расширяйте обучение вокруг реальных потребностей строителей, сохраняя место рецептов для материалов выбранного стиля."
+        "Кузнец куёт инструменты и металлическое снаряжение, механик обслуживает сложные устройства и красный камень, стеклодув работает со стеклом. Три мастерские снимают с вас три вида ручной работы. Подготовьте блоки, проверьте исследования и наладьте доставку материалов.",
+        "Каждой профессии для начала хватит одного нужного рецепта: доступный инструмент, простая механическая деталь, стеклянное изделие. Сверьте точный выход и возможность сделать его на текущем уровне. Рецепт сложной машины из другого мода в мастерскую не переносится лишь потому, что в ней есть железо.",
+        "Создайте небольшой запрос и проследите его. Если сам мастер ждёт инструмент, сначала закройте эту просьбу, иначе производство инструментов упрётся в самого себя. После пробы расширяйте обучение вокруг настоящих нужд строителей, оставляя место рецептам для материалов выбранного стиля."
       ],
       "text_en": [
-        "The blacksmith supplies tools and metal equipment, the mechanic handles complex devices and redstone, and the glassblower works with glass products. These workshops remove different manual duties. Prepare the blocks, check research and establish material delivery.",
-        "Begin teaching one necessary recipe per profession: an available tool, a simple mechanical component and a glass product. Verify exact output and current-level eligibility. Do not automatically assign another mod’s complex machine recipe to any workshop merely because it contains iron.",
-        "Create a small request and follow its completion. If the crafter needs a tool first, fulfill that request before expecting tool production, preventing a circular shortage. After testing, expand teaching around actual builder demand while reserving recipe capacity for your chosen architectural materials."
+        "The blacksmith forges tools and metal gear, the mechanic services complex devices and redstone, the glassblower works with glass. Three workshops take three kinds of manual work off your hands. Prepare the blocks, check research and set up material deliveries.",
+        "One needed recipe per profession is enough to begin: an available tool, a simple mechanical part, a glass item. Check the exact output and whether the current level can make it. A recipe for a complex machine from another mod does not transfer to the workshop merely because it contains iron.",
+        "Create a small request and follow it. If the craftsman is waiting for a tool himself, close that request first, or tool production runs into itself. After the trial, expand teaching around the builders' real needs, leaving recipe room for the chosen style's materials."
       ]
     },
     "mc_production/animals": {
       "text": [
-        "Пастух, скотовод и пасечник обеспечивают разные возобновляемые продукты: шерсть, молоко с продуктами разведения и пчелиные материалы. Подготовьте хижины и безопасные участки содержания. Перенесите исходных животных и ульи до ожидания результата: сам работник не создаёт поголовье из пустого загона.",
-        "Проверьте настройки разведения, корм, инструменты и ограничения численности. Пастух также контролирует размер стада, поэтому заранее сохраните племенной резерв. Ульи привязываются инструментом пасечника; допустимое количество зависит от развития пасеки, а случайная близость чужого улья не гарантирует обслуживание.",
-        "Наблюдайте один сбор каждого нужного продукта и его доставку. Не выводите всех животных из рабочего участка ради красивого общего пастбища, если сотрудник перестал до них добираться. Раздельное хранение корма, тары и результатов помогает отличать нехватку расходников от ошибки маршрута или назначения."
+        "Пастух, скотовод и пасечник дают разные возобновляемые продукты: шерсть, молоко с приплодом, пчелиные материалы. Подготовьте хижины и безопасные загоны. Животных и ульи приведите сами: работник стадо из пустого загона не сотворит.",
+        "Проверьте настройки разведения, корм, инструменты и пределы численности. Пастух ещё и сдерживает размер стада, поэтому заранее сохраните племенной резерв. Ульи привязываются инструментом пасечника; сколько их можно, зависит от уровня пасеки, а чужой улей по соседству обслуживаться не обязан.",
+        "Дождитесь одного сбора каждого продукта и его доставки. Не уводите животных на красивое общее пастбище, если сотрудник перестал до них доходить. Корм, тару и результаты храните раздельно — так нехватка расходников отличима от ошибки маршрута или назначения."
       ],
       "text_en": [
-        "The shepherd, cowboy and beekeeper provide distinct renewable products: wool, milk and breeding outputs, and bee materials. Prepare huts and safe enclosures. Bring starter animals and hives before expecting results: a worker cannot create livestock in an empty pen.",
-        "Inspect breeding settings, feed, tools and population limits. Shepherds also regulate flock size, so retain breeding stock in advance. Bind hives using the beekeeper’s tool; supported numbers depend on apiary development, and a nearby unrelated hive is not automatically serviced.",
-        "Observe a collection of each desired product and its delivery. Avoid moving all animals into an attractive shared pasture if employees can no longer reach them. Separate storage for feed, containers and output helps distinguish consumable shortages from route or assignment errors."
+        "The shepherd, cowhand and beekeeper provide different renewable products: wool, milk with offspring, bee materials. Prepare the huts and safe pens. Bring the animals and hives yourself: a worker will not conjure a herd from an empty pen.",
+        "Check the breeding settings, feed, tools and head-count limits. The shepherd also keeps the flock in check, so set aside breeding stock in advance. Hives are bound with the beekeeper's tool; how many are allowed depends on the apiary's level, and a neighbour's hive is not necessarily serviced.",
+        "Wait for one collection of each product and its delivery. Do not move the animals to a pretty common pasture if the worker has stopped reaching them. Store feed, containers and results separately, so a shortage of consumables can be told from a routing or assignment error."
       ]
     },
     "mc_production/plants": {
       "text": [
-        "Плантация выращивает такие культуры, как тростник, кактус и бамбук, флорист обеспечивает цветы, а компостер перерабатывает органические остатки. Подготовьте также поле плантации: обычный полевой блок фермера не следует считать универсальной заменой специализированного участка.",
-        "Проверьте открытые исследования для выбранного типа поля и назначьте его плантации. Предоставьте нужное растение и условия роста. У флориста выберите поддерживаемую культуру, у компостера настройте, какие остатки разрешено перерабатывать. Не включайте в отходы весь запас семян, еды или редких растений без отдельного резерва.",
-        "Проследите хотя бы один полный цикл от расходника до продукта. Если плантация отказывается принять поле, посмотрите причину ограничения исследования, а не переставляйте блок многократно. Такая ветка полезна для бумаги, красителей и строительных расходников, когда обычная зерновая ферма уже покрывает основное питание жителей."
+        "Плантация растит тростник, кактус и бамбук, флорист даёт цветы, компостер перерабатывает органические остатки. Подготовьте и поле плантации: обычное поле фермера специализированный участок не заменяет.",
+        "Проверьте открытые исследования для выбранного типа поля и закрепите его за плантацией. Дайте растение и условия роста. У флориста выберите поддерживаемую культуру, у компостера — что разрешено перерабатывать. Семена, еду и редкие растения в отходы без отдельного резерва не отправляйте.",
+        "Проследите хотя бы один цикл от расходника до продукта. Если плантация не принимает поле, прочитайте причину ограничения в исследованиях, а не переставляйте блок раз за разом. Ветка пригодится для бумаги, красителей и строительных расходников, когда зерновая ферма уже кормит жителей."
       ],
       "text_en": [
-        "The plantation grows crops such as sugar cane, cactus and bamboo, the florist supplies flowers, and the composter processes organic leftovers. Also prepare a plantation field: an ordinary farmer field block is not a universal substitute for its specialized plot.",
-        "Check research unlocks for the selected field type and assign it to the plantation. Supply the plant and suitable growing conditions. Select a supported florist crop and configure which leftovers the composter may consume. Do not classify every seed, meal or rare plant as waste without keeping reserves.",
-        "Follow at least one cycle from consumable to product. If a plantation rejects a field, inspect the research restriction instead of repeatedly moving the block. This branch supplies paper, dyes and building consumables once the grain farm already covers citizens’ basic meals."
+        "The plantation grows sugar cane, cactus and bamboo, the florist supplies flowers, the composter processes organic leftovers. Prepare a plantation field as well: the farmer's ordinary field does not replace the specialised plot.",
+        "Check the open research for the chosen field type and assign it to the plantation. Provide the plant and growing conditions. Choose a supported crop for the florist and set what the composter may process. Do not send seeds, food and rare plants to waste without a separate reserve.",
+        "Follow at least one cycle from consumable to product. If the plantation refuses the field, read the reason in the research limits instead of moving the block again and again. The branch is useful for paper, dyes and building consumables once the grain farm already feeds the citizens."
       ]
     },
     "mc_production/fisherman": {
       "text": [
-        "Рыбак добывает рыбу у доступного водоёма и иногда приносит дополнительные находки. Выберите схему хижины с безопасным подходом к воде и постройте её, затем назначьте работника. Декоративная капля воды за глухой стеной не обеспечивает пригодное рабочее место.",
-        "Выдайте подходящую удочку и проверьте сообщения о доступности точки ловли. Наблюдайте, как житель подходит к воде и начинает работу, не блокируя путь лодками, оградой или собственным складом. Условия возможных сокровищ зависят от действующей рыбалки и исследований; редкий улов не обязан появиться первым.",
-        "Организуйте доставку рыбы к столовой или нужной кухне и сохраните свободное место для побочных предметов. Сырая рыба ещё требует подходящего меню и приготовления для колониального питания. Если производство остановилось, сначала осмотрите удочку, рабочую точку и заполненность инвентаря, а затем расширяйте водоём."
+        "Рыбак ловит у доступного водоёма и порой приносит находки со дна. Выберите схему хижины с безопасным спуском к воде, постройте её и назначьте работника. Капля воды за глухой стеной рабочим местом не считается.",
+        "Выдайте удочку и проверьте сообщения о точке ловли. Посмотрите, как житель подходит к воде и начинает работать, не перегораживая ему путь лодками, оградой или собственным складом. Возможные сокровища зависят от действующих правил рыбалки и исследований; редкий улов первым не обязан.",
+        "Организуйте доставку рыбы в столовую или на нужную кухню и оставьте место под побочные предметы. Сырой рыбе ещё нужны меню и готовка. Если ловля встала, сначала осмотрите удочку, точку и заполненность инвентаря, а расширение водоёма оставьте напоследок."
       ],
       "text_en": [
-        "The fisherman gathers fish at accessible water and sometimes brings additional finds. Choose and construct a hut blueprint with a safe waterside approach, then assign a worker. A decorative drop of water behind a solid wall does not provide a usable workplace.",
-        "Supply a suitable fishing rod and inspect messages about available fishing positions. Watch the citizen approach the water and begin working without boats, fences or storage blocking the path. Treasure possibilities depend on fishing conditions and research; rare catches need not appear immediately.",
-        "Arrange fish deliveries to the dining hall or appropriate kitchen and leave room for incidental items. Raw fish still needs suitable menus and preparation for colony meals. If production stops, inspect the rod, working position and inventory capacity before enlarging the water body."
+        "The fisher catches at an accessible body of water and now and then brings up finds from the bottom. Choose a hut blueprint with a safe descent to the water, build it and assign a worker. A drop of water behind a blank wall does not count as a workplace.",
+        "Provide a fishing rod and check the messages about the fishing spot. Watch the citizen walk to the water and begin, without blocking the way with boats, fences or your own storage. Possible treasures depend on the current fishing rules and research; a rare catch owes you nothing first.",
+        "Arrange delivery of fish to the dining hall or the right kitchen and leave room for by-products. Raw fish still needs a menu and cooking. If fishing stops, inspect the rod, the spot and the inventory fill first, and leave widening the pond for last."
       ]
     },
     "mc_production/nether": {
       "text": [
-        "Работник Нижнего мира получает опасные ресурсы через специальное колониальное учреждение. Это отдельная профессия со снабжением и риском, а не обычный шахтёр, которого достаточно подтолкнуть в ваш портал. Проверьте нужное исследование и постройте выбранную схему полностью.",
-        "Назначьте сотрудника и внимательно выполните его запросы на снаряжение и расходники перед началом экспедиций. Обеспечьте стабильную еду и доставку. Не отправляйте последнего опытного жителя без подготовки только ради одного редкого материала: описание профессии в установленном моде прямо отмечает опасность работы.",
-        "Следите за состоянием сотрудника и фактическим поступлением ресурсов после выхода. Блок хижины подтверждает доступ к ветке, но не успешную экспедицию и не гарантированное количество добычи. Сначала поддержите короткий рабочий цикл, затем расширяйте снабжение; отсутствие очередного продукта проверяйте через запросы и состояние работника, а не предположением о бесконечном производстве."
+        "Ходок в Нижний мир добывает опасные ресурсы через особое колониальное здание. Это отдельная профессия со своим снаряжением и своим риском, а не шахтёр, которого подтолкнули к вашему порталу. Проверьте исследование и постройте схему целиком.",
+        "Назначьте сотрудника и до первой вылазки выполните его просьбы о снаряжении и расходниках. Обеспечьте еду и доставку. Последнего опытного жителя ради одного редкого материала не отправляйте: описание профессии в моде прямо предупреждает об опасности.",
+        "После каждой вылазки смотрите, в каком состоянии вернулся работник и что он принёс. Хижина открывает ветку, но удачный поход и количество добычи она не обещает. Наладьте короткий цикл, потом расширяйте снабжение; о пропавшем продукте узнавайте из запросов и состояния работника, а не из веры в бесконечное производство."
       ],
       "text_en": [
-        "The Nether worker obtains dangerous resources through a specialized colony institution. This is a separate profession with supply requirements and risks, not an ordinary miner pushed through your portal. Check required research and finish constructing the selected blueprint.",
-        "Assign an employee and carefully fulfill equipment and consumable requests before expeditions begin. Provide reliable food and delivery. Do not send your last experienced citizen unprepared merely for one rare material: the installed profession description explicitly emphasizes its danger.",
-        "Monitor the employee’s condition and actual incoming resources after outings. A hut block establishes access to the branch, not a successful expedition or guaranteed yield. Support a short working cycle before expanding supplies; investigate missing output through requests and worker status rather than assuming endless production."
+        "The Nether worker obtains dangerous resources through a special colony building. It is a separate profession with its own gear and its own risk, not a miner nudged toward your portal. Check the research and build the blueprint in full.",
+        "Assign the worker and, before the first sortie, fulfil their requests for equipment and consumables. Provide food and delivery. Do not send your last experienced citizen for the sake of one rare material: the profession's description in the mod warns of the danger outright.",
+        "After each sortie see what state the worker came back in and what they brought. The hut opens the branch but promises neither a successful trip nor a quantity of loot. Establish a short cycle, then expand supply; learn about a missing product from requests and the worker's state, not from faith in endless production."
       ]
     },
     "mc_production/quarry": {
       "text": [
-        "Средний карьер обозначает область большой открытой выемки. В этой версии для запуска требуется построенная шахта, нанятый карьерный рабочий и назначение его конкретному карьеру. Один блок карьера не начинает автоматически удалять весь столб земли до основания мира.",
-        "Выберите участок вдали от фундаментов, дорог и подземных коммуникаций. Через инструмент проверьте размер схемы и обеспечьте рабочему доступ, инструменты и снабжение. Открытая выемка в основном даёт распространённые строительные ресурсы; не рассчитывайте на гарантированный поток редкой руды только из-за большого объёма.",
-        "Наблюдайте первую разработку и доставку материала, затем оградите край от жителей и животных. После завершения рабочий нуждается в следующем назначении, что видно в его сообщениях. Развитие карьера полезно при массовой стройке, но требует заранее решить, как использовать или безопасно закрыть оставшуюся яму."
+        "Средний карьер размечает большую открытую выемку. В этой версии ему нужны построенная шахта, нанятый карьерный рабочий и назначение на конкретный карьер. Один блок сам столб земли до основания мира не снимет.",
+        "Выберите участок подальше от фундаментов, дорог и подземных коммуникаций. Инструментом проверьте размер схемы, обеспечьте рабочему доступ, инструменты и снабжение. Открытая выемка даёт в основном ходовые строительные ресурсы; редкой руды большой объём не обещает.",
+        "Дождитесь первой выработки и доставки, потом оградите край от жителей и животных. Когда карьер закончен, рабочему нужно новое назначение — он скажет об этом сам. Карьер хорош при массовой стройке, но заранее решите, что делать с оставшейся ямой: использовать или безопасно закрыть."
       ],
       "text_en": [
-        "A medium quarry defines a large open excavation area. This version requires a constructed mine, a hired quarrier and assignment to a specific quarry. A quarry block alone does not automatically remove an entire column down to the world’s base.",
-        "Choose terrain away from foundations, roads and underground services. Inspect blueprint dimensions with the tool and provide access, tools and supplies. Open excavation mainly yields common construction resources; its size does not guarantee a stream of rare ore.",
-        "Observe initial digging and material delivery, then guard the edge against citizens and animals. Once finished, the worker needs another assignment, reported in their messages. Quarry development helps large construction projects, but requires advance planning for using or safely closing the remaining hole."
+        "The medium quarry marks out a large open excavation. In this version it needs a built mine, a hired quarrier and assignment to a specific quarry. One block will not strip a column of earth down to bedrock by itself.",
+        "Choose a site away from foundations, roads and underground lines. Check the blueprint's size with the tool and give the worker access, tools and supplies. An open pit mostly yields common building resources; a large volume promises no rare ore.",
+        "Wait for the first digging and delivery, then fence the edge off from citizens and animals. When the quarry is finished the worker needs a new assignment; they will tell you themselves. A quarry suits mass construction, but decide in advance what to do with the pit left behind: use it or close it safely."
       ]
     },
     "mc_production/concrete": {
       "text": [
-        "Бетонщик выпускает цементирующиеся строительные материалы, а алхимик занимается зельями, адским наростом и омелой. Это две независимые профессии позднего снабжения. Подготовьте блоки после соответствующих исследований и выбирайте место по реальному потоку ингредиентов, а не ради соседства названий в книге.",
-        "Бетонщику обучите нужный цвет и форму продукции, обеспечьте песок, гравий и краситель по рецепту. Алхимику задайте поддерживаемую работу и необходимые реагенты. Наличие обычной зельеварки на другом конце базы не означает, что гражданин видит её запас через колониальный склад.",
-        "Проверьте по одному заказу, отдельно проследив расход сырья и выход. Цвет бетона и разновидность зелья важны для точного запроса, поэтому не заменяйте ингредиенты похожими без сверки рецепта. Такие мастерские удобны после налаживания базовой логистики: иначе дорогие специалисты будут ждать тех же простых расходников, что и первый строитель."
+        "Бетонщик выпускает схватывающиеся стройматериалы, алхимик занимается зельями, адским наростом и омелой. Это две независимые профессии позднего снабжения. Ставьте их после нужных исследований и там, куда удобно нести ингредиенты, а не по соседству названий в книге.",
+        "Бетонщику задайте цвет и форму, дайте песок, гравий и краситель по рецепту. Алхимику выберите поддерживаемую работу и реагенты. Зельеварка на другом конце базы колонии не видна: житель берёт только из колониального склада.",
+        "Проверьте по одному заказу, отдельно проследив расход сырья и выход. Цвет бетона и вид зелья важны для точного запроса, так что похожими ингредиентами без сверки рецепта не подменяйте. Такие мастерские хороши после наладки базовой логистики — иначе дорогие специалисты будут ждать тех же простых расходников, что и первый строитель."
       ],
       "text_en": [
-        "The concrete mixer produces concrete-related construction materials, while the alchemist handles potions, nether wart and mistletoe. These are independent advanced supply professions. Prepare their huts after relevant research and choose sites around actual ingredient flows rather than neighbouring names in the book.",
-        "Teach the concrete mixer the desired colour and product form, supplying sand, gravel and dye according to its recipe. Give the alchemist a supported task and necessary reagents. A brewing stand elsewhere in your base does not imply the citizen can access its contents through warehouse logistics.",
-        "Test one order each, separately following input consumption and output. Concrete colour and potion type matter for exact requests, so avoid similar substitutions without recipe checks. These workshops work best after basic logistics, otherwise expensive specialists wait for the same simple supplies as the first builder."
+        "The concrete mixer produces setting building materials; the alchemist deals with potions, nether wart and mistletoe. These are two independent late-supply professions. Place them after the required research and where ingredients are convenient to carry, not by the adjacency of names in the book.",
+        "Set the concrete mixer's colour and shape and provide sand, gravel and dye by recipe. Choose a supported job and reagents for the alchemist. A brewing stand at the far end of the base is invisible to the colony: the citizen takes only from colony storage.",
+        "Test one order each, following raw material use and output separately. The concrete colour and potion kind matter for an exact request, so do not substitute similar ingredients without checking the recipe. Such workshops shine once basic logistics runs; otherwise expensive specialists wait for the same simple consumables as the first builder."
       ]
     },
     "mc_production/timber_service_setup": {
       "text": [
-        "Эта ветка проверяет снабжение строителя древесиной через колониальные службы. Начните с хижины лесоруба и склада, уже зарегистрированных или изготовленных сейчас. После учёта предметов рабочие здания можно оставлять на месте; повторный демонтаж для этой цели не нужен.",
-        "Проверьте, что лесоруб назначен, имеет топор, саженцы дуба и подходящую рабочую область. Склад должен обслуживаться курьером с проходом к обоим учреждениям. Подготовьте строителю доступный проект, в котором действительно требуется дубовая древесина, чтобы последующий заказ имел понятный адрес.",
-        "Оснащение само по себе не подтверждает доставку. Перед пробной партией проверьте свободные стеллажи и отсутствие незавершённого запроса, блокирующего лесоруба. Цель этой подготовки — связать производство с нуждой конкретного работника, а не просто поставить два блока рядом и ожидать, что соседство заменит систему заданий."
+        "Эта ветка проверяет, доходит ли древесина до строителя через колониальные службы. Нужны хижина лесоруба и склад — уже учтённые или новые. После показа книге рабочие здания остаются на месте: разбирать их ради цели не нужно.",
+        "Убедитесь, что лесоруб назначен, у него есть топор, дубовые саженцы и подходящая рабочая область. Склад должен обслуживать курьер с проходом к обоим зданиям. Строителю подберите проект, где действительно требуется дуб, — тогда у будущего заказа будет понятный адрес.",
+        "Оснащение доставки ещё не доказывает. Перед пробной партией проверьте свободные стеллажи и отсутствие незавершённого запроса, который держит лесоруба. Смысл подготовки — связать производство с нуждой конкретного работника, а не поставить два блока рядом и ждать, что соседство заменит систему заданий."
       ],
       "text_en": [
-        "This branch tests builder timber supplies through colony services. Begin with the forester hut and warehouse, whether already registered or newly crafted. Once recorded, operational buildings can remain in place; this objective does not require dismantling them again.",
-        "Verify that the forester is assigned and has an axe, oak saplings and a suitable work volume. A courier must serve the warehouse with access to both institutions. Prepare an available builder project that actually requires oak timber so the later request has a clear recipient.",
-        "Equipment alone does not prove delivery. Before the trial batch, inspect free racks and unresolved requests blocking the forester. Preparation links production with a specific worker’s demand rather than placing two blocks together and expecting proximity to replace the request system."
+        "This branch checks whether timber reaches the builder through the colony's services. You need a lumberjack hut and a warehouse, already counted or new. Once shown to the book, working buildings stay put: dismantling them for the objective is unnecessary.",
+        "Make sure the lumberjack is assigned and has an axe, oak saplings and a suitable working area. The warehouse must be served by a courier with a passage to both buildings. Pick the builder a project that genuinely needs oak, so the coming order has a clear address.",
+        "Equipment does not yet prove delivery. Before the trial batch, check for free racks and for the absence of an unfinished request holding the lumberjack. The point of this preparation is to tie production to a specific worker's need, not to set two blocks side by side and expect adjacency to replace the request system."
       ]
     },
     "mc_production/timber_service_batch": {
       "text": [
-        "Соберите тридцать два дубовых бревна одной партией и дайте Кодексу зарегистрировать запас. Разрозненные получения по одному не складываются в требуемое количество, если указанная партия никогда не была у игрока. Цель не расходует древесину и не определяет её происхождение.",
-        "Для содержательного испытания возьмите брёвна, произведённые вашей колониальной лесозаготовкой, затем верните их в доступный складской запас. Проверьте, что саженцы после рубки восстановлены и следующий цикл не остановился из-за топора. Заготовленная партия должна быть пригодна именно для будущего запроса строителя.",
-        "Не превращайте весь запас в доски до проверки доставки брёвен: это другой предмет и другой запрос. Если выбранная схема требует переработанную древесину, заранее обучите лесопилку соответствующему рецепту. Следующее задание проверит реальный путь материала и причины остановки, которые обычный предметный счётчик увидеть не может."
+        "Соберите тридцать два дубовых бревна одной партией, чтобы книга записала запас. Одиночные брёвна, полученные порознь, в это число не складываются, если такой партии у вас никогда не было. Древесина не расходуется, и откуда она — книге всё равно.",
+        "Для настоящей проверки возьмите брёвна, которые срубила ваша лесозаготовка, и верните их в доступный склад. Убедитесь, что саженцы после рубки восстановлены и следующий цикл не встал из-за топора. Партия должна подходить именно для будущего запроса строителя.",
+        "Не пилите весь запас на доски до проверки доставки брёвен: это другой предмет и другой запрос. Если схема требует переработанную древесину, заранее обучите лесопилку нужному рецепту. Следующее задание проследит путь материала и найдёт причины остановок, которых простой счётчик не видит."
       ],
       "text_en": [
-        "Gather thirty-two oak logs in one batch and let the Codex record them. Separate single pickups do not accumulate toward the required count if the stated batch was never held. The objective neither consumes timber nor identifies its source.",
-        "For a meaningful trial, use logs produced by your colony forester, then return them to accessible warehouse stock. Check replanting after felling and ensure the next cycle has not stopped for an axe. The batch must suit the builder’s upcoming request.",
-        "Avoid converting every log into planks before testing log delivery: that is a different item and request. If the chosen blueprint requires processed wood, teach the sawmill the appropriate recipe beforehand. The next quest examines the actual material route and stoppage causes that an ordinary item counter cannot see."
+        "Gather thirty-two oak logs as one batch so the book records the stock. Single logs obtained separately do not add up to that figure if you never held such a batch. The timber is not consumed, and the book does not care where it came from.",
+        "For a real test take logs your colony's forestry felled and return them to accessible storage. Make sure saplings are restored after felling and the next cycle has not stopped for want of an axe. The batch must suit the builder's coming request exactly.",
+        "Do not saw the whole stock into planks before checking log delivery: that is a different item and a different request. If the blueprint needs processed wood, teach the sawmill the recipe in advance. The next quest follows the material's route and finds the causes of stops that a plain counter cannot see."
       ]
     },
     "mc_production/timber_service_run": {
       "text": [
-        "Создайте строительный запрос на древесину и проследите материал от работника через склад до строителя. Выбирайте небольшой понятный заказ, чтобы видеть отправление и получение партии. Запись брёвен в Кодексе с предыдущего шага не является доказательством этой доставки.",
-        "Отдельно проверьте нехватку инструмента: откройте запросы лесоруба или строителя и убедитесь, что понимаете, где выдаётся требуемый предмет. Затем пройдите маршрут курьера и осмотрите двери, лестницы, ограды и доступ к хранению. Не ломайте исправные инструменты специально, достаточно проверить действующий механизм запросов и доступность снабжения.",
-        "Отметьте ручную цель только после наблюдения всей цепочки, проверки инструмента и маршрута. Кодекс не измеряет работу жителей автоматически. Если древесина лежит на складе, но стройка ждёт, сравните точную разновидность материала и состояние заказа: ошибка может находиться в запросе переработанного изделия, а не в скорости рубки."
+        "Создайте строительный запрос на древесину и проследите материал от работника через склад до строителя. Заказ выбирайте небольшой и понятный, чтобы видеть отправку и получение партии. Запись брёвен в книге с прошлого шага эту доставку не подтверждает.",
+        "Отдельно проверьте нехватку инструмента: откройте запросы лесоруба или строителя и убедитесь, что понимаете, откуда придёт нужный предмет. Затем пройдите путь курьера и осмотрите двери, лестницы, ограды и вход на склад. Ломать исправные инструменты не нужно — достаточно увидеть, как работает система запросов.",
+        "Вся цепочка, инструмент и маршрут проверены — тогда и ставьте ручную отметку: за жителями Кодекс сам не наблюдает. Если древесина лежит на складе, а стройка ждёт, сверьте точную разновидность материала и состояние заказа — ошибка может прятаться в запросе переработанного изделия, а не в скорости рубки."
       ],
       "text_en": [
-        "Create a construction timber request and follow material from worker through warehouse to builder. Choose a small clear order so dispatch and receipt are visible. Previously recording logs in the Codex does not prove this delivery.",
-        "Separately inspect tool shortages: open forester or builder requests and ensure you understand where the requested item is supplied. Then walk the courier route, checking doors, stairs, fences and storage access. Deliberately breaking good tools is unnecessary; inspect the active request mechanism and supply accessibility.",
-        "Confirm manually only after observing the complete chain and checking tools and routes. The Codex does not automatically measure citizen work. If timber sits in storage while construction waits, compare exact material type and order status: the issue may be a processed-product request rather than felling speed."
+        "Create a construction request for timber and follow the material from the worker through the warehouse to the builder. Pick a small, clear order so you can see the batch sent and received. The logs recorded in the book from the previous step do not confirm this delivery.",
+        "Check tool shortage separately: open the lumberjack's or builder's requests and make sure you know where the needed item will come from. Then walk the courier's route and inspect doors, stairs, fences and the warehouse entrance. No need to break working tools; seeing the request system operate is enough.",
+        "Chain, tool and route all checked; that is when to tick the manual objective: the Codex does not watch the citizens for you. If timber sits in the warehouse while construction waits, check the exact material variant and the order's state; the error may hide in a request for a processed item rather than in felling speed."
       ],
       "task_notes": {
         "0": {
@@ -349,74 +349,74 @@
     },
     "mc_research/library": {
       "text": [
-        "Библиотека даёт взрослым гражданам место учёбы и помогает развивать интеллект. Она не запускает университетские исследования и не повышает автоматически всех жителей только фактом размещения блока. Проверьте открытие учреждения, выберите подходящую схему и завершите строительный заказ.",
-        "Назначьте взрослого ученика, которому полезна дальнейшая подготовка, и обеспечьте запрашиваемые учебные материалы. Сравните его характеристики до начала и после периода работы. Интеллект помогает обучению другим навыкам, поэтому выбор ученика имеет смысл связывать с будущей профессией, а не только с ближайшим свободным жителем.",
-        "Следите, чтобы перевод на учёбу не оставил колонию без единственного строителя или курьера. Если занятия не начались, проверьте назначение, состояние здания и запросы. Предметная цель принимает изготовленную хижину; заметное изменение характеристик требует реальной работы гражданина и времени, которое нельзя заменить стопкой книг в сундуке игрока."
+        "Библиотека — место учёбы для взрослых граждан, где растёт их интеллект. Университетские исследования она не запускает, и поставленный блок сам никого умнее не делает. Проверьте, открыто ли здание, выберите схему и дождитесь конца стройки.",
+        "Назначьте взрослого ученика, которому пригодится подготовка, и дайте запрошенные учебные материалы. Сравните его характеристики до и после. Интеллект помогает осваивать другие навыки, поэтому ученика выбирайте под будущую профессию, а не первого попавшегося.",
+        "Смотрите, чтобы учёба не оставила колонию без единственного строителя или курьера. Если занятия не начались, проверьте назначение, состояние здания и запросы. Хижина в истории закрывает предметную цель; рост характеристик требует времени и настоящей работы жителя, которую стопка книг в вашем сундуке не заменит."
       ],
       "text_en": [
-        "The library gives adult citizens somewhere to study and develop intelligence. It does not run university research or automatically improve everyone merely because its block exists. Check its unlock, select a suitable blueprint and complete construction.",
-        "Assign an adult student who benefits from further preparation and provide requested study materials. Compare attributes before and after a period of work. Intelligence helps learning other skills, so choose students with their future profession in mind rather than simply selecting the nearest free citizen.",
-        "Ensure the move to education does not remove the colony’s only builder or courier. If study fails to begin, inspect assignment, building condition and requests. The item objective accepts the crafted hut; meaningful attribute changes require actual citizen work and time, which books in a player’s chest cannot replace."
+        "The library is a place of study for adult citizens, where their intelligence grows. It does not start university research, and a placed block makes no one smarter by itself. Check whether the building is unlocked, choose a blueprint and wait for construction to finish.",
+        "Assign an adult student who will benefit from the training and provide the requested study materials. Compare their stats before and after. Intelligence helps master other skills, so choose the student for a future profession rather than the first one to hand.",
+        "See that study does not leave the colony without its only builder or courier. If lessons have not begun, check the assignment, the building's state and the requests. The hut in history closes the item objective; stat growth takes time and real work by the citizen, which a stack of books in your chest cannot replace."
       ]
     },
     "mc_research/school": {
       "text": [
-        "Школа занимается детьми колонии и подготавливает будущих работников. Подготовьте блок после нужного исследования, постройте схему и обеспечьте учителя. Пустое здание без учеников не создаёт новых граждан: рост населения всё ещё зависит от жилищных и колониальных условий.",
-        "Назначьте детей на обучение и посмотрите запросы учебных материалов. Сохраните предусмотренные схемой места занятий: установленный мод отдельно сообщает об отсутствии места для сидения, если элементы школы повреждены. Не убирайте интерьер как бесполезный декор, пока не проверили его роль в работе.",
-        "Проверяйте посещение и развитие учащихся через интерфейс, а не по появлению здания на карте. Школа также влияет на счастье назначенных детей. Перед взрослением продумайте свободное рабочее место и жильё, чтобы подготовленный гражданин вошёл в действующее производство, вместо ожидания новой хижины и очереди строительных материалов."
+        "Школа занимается детьми колонии и готовит будущих работников. Поставьте блок после нужного исследования, постройте схему и найдите учителя. Пустое здание новых граждан не создаёт: рост населения по-прежнему зависит от жилья и условий колонии.",
+        "Назначьте детей на обучение и посмотрите запросы учебных материалов. Не трогайте предусмотренные схемой места для занятий: мод отдельно жалуется, когда сидеть негде. Интерьер школы — не декор, пока вы не проверили его роль.",
+        "О посещении и успехах учеников судите по окну школы, а не по зданию на карте. Школа ещё и радует назначенных детей. К их взрослению приготовьте рабочее место и жильё, чтобы готовый гражданин сразу вошёл в дело, а не ждал новой хижины и очереди на материалы."
       ],
       "text_en": [
-        "The school educates colony children and prepares future workers. Obtain its hut after required research, construct the blueprint and provide a teacher. An empty school does not create citizens: population growth still depends on housing and colony conditions.",
-        "Assign children and inspect requests for educational materials. Preserve study places included in the blueprint: the installed mod reports missing seating if school elements are damaged. Do not remove the interior as useless decoration before checking its functional role.",
-        "Inspect attendance and pupil development through the interface rather than simply seeing a building on the map. School assignment also contributes to children’s happiness. Plan available jobs and housing before adulthood so a trained citizen enters active production instead of waiting for another hut and construction-material queue."
+        "The school takes care of the colony's children and prepares future workers. Place the block after the required research, build the blueprint and find a teacher. An empty building creates no new citizens: population growth still depends on housing and colony conditions.",
+        "Assign children to lessons and look at the requests for study materials. Leave the seating the blueprint provides alone: the mod complains separately when there is nowhere to sit. The school's interior is not decoration until you have checked its role.",
+        "Judge attendance and progress by the school's window, not by the building on the map. The school also cheers the assigned children. Have a job and housing ready for when they grow up, so a trained citizen goes straight to work instead of waiting for a new hut and a materials queue."
       ]
     },
     "mc_research/university": {
       "text": [
-        "Университет открывает исследования, которые разрешают новые профессии, улучшают снабжение и расширяют возможности колонии. Постройте здание и назначьте исследователя; один предмет хижины не запускает изучение. Сначала выберите открытие, снимающее конкретную текущую проблему поселения.",
-        "Откройте дерево и прочитайте предшествующие исследования, требования к зданиям, уровень и стоимость. Материалы можно выделить из доступного инвентаря университета. Запуск подтверждает выбранную работу, а завершение требует времени; несколько видимых ветвей не означают бесконечное число параллельных исследований.",
-        "Следите за ходом и сообщением о завершении, затем проверьте новую возможность в соответствующей профессии. Улучшение университета увеличивает доступные варианты и число исследователей. Не считайте неактивную кнопку ошибкой: часто она правильно указывает на ещё не выполненное условие, которое нужно решить строительством, снабжением или предыдущим открытием."
+        "Университет открывает исследования: новые профессии, лучшее снабжение, новые возможности колонии. Постройте здание и назначьте исследователя — один предмет хижины изучение не запускает. Первое открытие выбирайте по самой острой нынешней проблеме поселения.",
+        "Откройте дерево и прочитайте предыдущие исследования, требования к зданиям, уровень и цену. Материалы можно выделить из инвентаря университета. Запуск закрепляет выбор, а завершение требует времени; несколько видимых ветвей не означают, что можно вести все разом.",
+        "Дождитесь сообщения о завершении и проверьте новую возможность в нужной профессии. Улучшение университета расширяет выбор и число исследователей. Неактивная кнопка — не ошибка: чаще всего она честно указывает на условие, которое ещё предстоит выполнить стройкой, снабжением или предыдущим открытием."
       ],
       "text_en": [
-        "The university unlocks research permitting professions, improving supply and expanding colony capabilities. Construct it and assign a researcher; possessing its hut does not start study. Begin with a discovery addressing a specific current settlement problem.",
-        "Open the tree and read predecessor research, building requirements, level and cost. Materials can be funded from available university inventory. Starting confirms the chosen work, while completion takes time; several visible branches do not imply unlimited parallel projects.",
-        "Track progress and the completion message, then inspect the new capability in its associated profession. University upgrades increase available options and researcher capacity. An inactive button is not necessarily a bug: it often correctly identifies an unmet condition requiring construction, supplies or a preceding discovery."
+        "The university unlocks research: new professions, better supply, new colony capabilities. Build the hut and assign a researcher; one hut item does not start any study. Choose the first discovery by the settlement's most pressing current problem.",
+        "Open the tree and read the prerequisite research, building requirements, level and price. Materials can be allocated from the university's inventory. Starting locks in the choice, and completion takes time; several visible branches do not mean all can run at once.",
+        "Wait for the completion message and check the new capability in the relevant profession. Upgrading the university widens the choice and the number of researchers. An inactive button is not a bug: most often it honestly points to a condition still to be met by construction, supply or an earlier discovery."
       ]
     },
     "mc_research/tome": {
       "text": [
-        "Древний том встречается среди трофеев налётчиков MineColonies и служит материалом для колониального зачарования. В установленной таблице добычи вождя варваров он является одним из случайных вариантов, поэтому победа не гарантирует книгу. Не планируйте точное число томов на один набег.",
-        "Подберите найденный том после безопасного завершения боя и зарегистрируйте предмет до дальнейшей переработки. Сохраните его в отдельном месте вместе с редкими трофеями. Не принимайте обычную книгу Minecraft или похожий гримуар другого мода за тот же ингредиент.",
-        "Зачарователь использует том по рецептам, зависящим от уровня башни, получая зачарованные книги через соответствующие таблицы результата. Исследования проверяйте по собственным требованиям: том не является универсальной оплатой любой науки. Для первого экземпляра важнее наладить оборону и сохранность добычи, чем вызывать дополнительный опасный набег ради ускорения коллекции."
+        "Древний том попадается среди трофеев налётчиков MineColonies и служит материалом для колониального зачарования. В таблице добычи вождя варваров он лишь один из случайных вариантов, так что победа книгу не гарантирует. На точное число томов за набег не рассчитывайте.",
+        "Подберите том, когда бой закончен и рядом безопасно, и покажите его книге до переработки. Храните его отдельно, вместе с редкими трофеями. Обычная книга Minecraft и похожий гримуар другого мода — не то же самое.",
+        "Зачарователь тратит том по рецептам, зависящим от уровня башни, и получает зачарованные книги по своим таблицам. Исследования сверяйте с их собственными требованиями: том не универсальная плата за науку. Ради первого экземпляра важнее наладить оборону и сохранность добычи, чем звать новый опасный набег."
       ],
       "text_en": [
-        "Ancient tomes appear among MineColonies raider trophies and support colony enchanting. The installed barbarian-chief loot table includes one as a random option, so victory does not guarantee a book. Do not plan an exact tome count per raid.",
-        "Collect a found tome after safely ending combat and register it before further processing. Store it separately with rare trophies. An ordinary Minecraft book or another mod’s similar grimoire is not the same ingredient.",
-        "An enchanter processes tomes through recipes depending on tower level, producing enchanted books from the corresponding result tables. Read each research’s requirements independently: tomes are not universal payment for science. For your first specimen, reliable defence and loot preservation matter more than provoking another dangerous raid to accelerate collecting."
+        "The ancient tome turns up among the loot of MineColonies raiders and serves as material for colony enchanting. In the barbarian chief's loot table it is only one random option, so victory does not guarantee a book. Do not count on an exact number of tomes per raid.",
+        "Pick up the tome when the fight is over and the area is safe, and show it to the book before processing. Store it separately, with the rare trophies. An ordinary Minecraft book or a similar grimoire from another mod is not the same thing.",
+        "The enchanter spends the tome by recipes that depend on the tower's level and obtains enchanted books from their own tables. Check research against its own requirements: the tome is no universal payment for science. For the first copy, securing defence and loot matters more than inviting another dangerous raid."
       ]
     },
     "mc_research/enchanter": {
       "text": [
-        "Башня зачарователя производит зачарованные книги и магические свитки средствами колонии. Постройте учреждение, назначьте специалиста и настройте работников, за которыми ему разрешено наблюдать для накопления маны. Если цели наблюдения не заданы, мод прямо сообщает об этой причине простоя.",
-        "Для свитка телепортации подготовьте три бумаги, компас и инструмент строительства: установленный рецепт зачарователя даёт три свитка. Обеспечьте материалы через доступное снабжение и дождитесь изготовления. Это рецепт гражданина, поэтому обычный стол зачарований игрока не заменяет башню и её процесс.",
-        "Получите один свиток для предметной цели, затем изучите его привязку и назначение перед использованием в дальнем походе. Не расходуйте последний путь возвращения на случайный опыт. Для зачарованных книг отдельно учитывайте тома и уровень учреждения: доступный свиток не означает, что башня уже выдаёт любые желаемые чары."
+        "Башня зачарователя производит зачарованные книги и магические свитки силами колонии. Постройте здание, назначьте специалиста и укажите работников, за которыми ему можно наблюдать, копя ману. Без целей наблюдения мод прямо назовёт причину простоя.",
+        "Для свитка телепортации нужны три бумаги, компас и инструмент строительства: установленный рецепт зачарователя даёт три свитка. Доставьте материалы через снабжение и дождитесь изготовления. Это рецепт гражданина — стол зачарований игрока башню не заменит.",
+        "Получите один свиток для цели, затем разберитесь с его привязкой и назначением, прежде чем брать в дальний поход. Последний путь домой на случайный опыт не тратьте. Для зачарованных книг отдельно считайте тома и уровень башни: свиток в руках не значит, что башня уже выдаёт любые чары."
       ],
       "text_en": [
-        "The enchanter’s tower produces enchanted books and magical scrolls through colony systems. Construct it, assign a specialist and configure workers they may observe to gather mana. Without observation targets, the mod explicitly reports that cause of inactivity.",
-        "For teleport scrolls, provide three paper, a compass and a build tool: the installed enchanter recipe produces three scrolls. Supply ingredients through accessible logistics and await crafting. This is a citizen recipe, so a player enchanting table cannot replace the tower’s process.",
-        "Obtain one scroll for the item objective, then study its binding and destination before using it on a distant outing. Avoid consuming your last return method in a casual trial. Enchanted books separately depend on tomes and institution level; an available scroll does not mean the tower already supplies every desired enchantment."
+        "The enchanter's tower produces enchanted books and magic scrolls with the colony's own means. Build the hut, assign a specialist and set which workers they may observe to gather mana. Without observation targets the mod names the cause of idleness outright.",
+        "A teleport scroll needs three paper, a compass and the build tool: the enchanter's installed recipe yields three scrolls. Deliver the materials through supply and wait for the crafting. This is a citizen's recipe; the player's enchanting table does not replace the tower.",
+        "Obtain one scroll for the objective, then work out its binding and purpose before taking it on a long journey. Do not spend your last way home on a casual experiment. For enchanted books count tomes and the tower's level separately: a scroll in hand does not mean the tower already issues any enchantment you like."
       ]
     },
     "mc_research/quests": {
       "text": [
-        "Журнал заданий сохраняет доступные поручения жителей, текущие этапы и завершённые истории. Изготовьте его и откройте рядом со своей колонией. Некоторые поручения появляются только после нужного здания, профессии или предыдущего разговора; пустая страница не обязательно означает неисправность.",
-        "Выберите одно доступное поручение, поговорите с указанным гражданином и прочитайте требуемое действие. При доставке различайте передачу предметов персонажу и обычное хранение рядом: диалоговая цель должна действительно перейти к следующему этапу. Завершите историю и получите предусмотренный ответ или награду.",
-        "Подтвердите ручную цель после появления завершённого поручения в журнале. Служебный Monster Encounter token не нужен: он описывает бой внутри симуляции экспедиций и не является обычной наградной валютой игрока. Здесь проверяется настоящее взаимодействие с жителем, которое полезно для понимания колониальных просьб и дальнейших цепочек обучения."
+        "Журнал заданий хранит поручения жителей, текущие этапы и завершённые истории. Сделайте его и откройте рядом с колонией. Часть поручений появляется только после нужного здания, профессии или разговора, так что пустая страница — не поломка.",
+        "Выберите доступное поручение, поговорите с указанным жителем и прочитайте, что требуется. При доставке передавайте предметы персонажу, а не складывайте рядом: диалог должен перейти к следующему этапу. Доведите историю до конца и получите ответ или награду.",
+        "Поручение появилось среди завершённых — ручная цель закрыта. Служебный Monster Encounter token не нужен: он описывает бой внутри симуляции экспедиций и наградой не служит. Здесь проверяется живой разговор с жителем — он объясняет колониальные просьбы и дальнейшие цепочки."
       ],
       "text_en": [
-        "The quest log records available citizen requests, active stages and completed stories. Craft it and open it near your colony. Some requests appear only after particular buildings, professions or earlier conversations; an empty page does not necessarily indicate a malfunction.",
-        "Choose an available request, speak to the designated citizen and read the required action. For deliveries, distinguish handing items to the character from storing them nearby: the dialogue objective must actually advance. Finish the story and receive its intended response or reward.",
-        "Confirm manually once the completed request appears in the log. The internal Monster Encounter token is unnecessary: it represents combat in expedition simulations rather than ordinary player reward currency. This task checks actual citizen interaction, helping you understand colony requests and further tutorial chains."
+        "The quest log keeps citizens' errands, current stages and finished stories. Make it and open it near the colony. Some errands appear only after a certain building, profession or conversation, so a blank page is not a fault.",
+        "Choose an available errand, talk to the named citizen and read what is required. When delivering, hand items to the character rather than leaving them nearby: the dialogue must move to the next stage. See the story through and receive the reply or reward.",
+        "Once the errand shows among the finished ones, the manual objective is closed. The internal Monster Encounter token is not needed: it describes a fight inside the expedition simulation and is no reward. What counts here is a real conversation with a citizen; it explains colony requests and the chains that follow."
       ],
       "task_notes": {
         "1": {
@@ -438,146 +438,146 @@
     },
     "mc_military/guardtower": {
       "text": [
-        "Сторожевая башня размещает защитника и расширяет контролируемую территорию колонии. Подготовьте две хижины одной партией для предметной цели, затем выберите подходы, которые нужно прикрыть. Одна башня возле ратуши не обязательно видит вход в удалённый шахтёрский квартал.",
-        "Постройте сооружения, назначьте стражников и выдайте снаряжение согласно их роли и доступному уровню. Боец ближнего боя и стрелок требуют разных условий. Задайте патруль или охраняемую точку и убедитесь, что маршрут не проходит через закрытую дверь или опасную выемку.",
-        "Проверьте, что защитники добираются до постов, получают еду и не ждут инструмента. Наличие двух блоков в истории Кодекса не подтверждает службу. Расположение башен должно помогать действующей колонии, а не только увеличивать её границу: освещённый проход и возможность быстро собрать помощь часто важнее симметрии на карте."
+        "Сторожевая башня даёт защитнику пост и расширяет охраняемую территорию. Сделайте две хижины одной партией для цели, потом решите, какие подходы прикрыть. Башня у ратуши не всегда видит вход в дальний шахтёрский квартал.",
+        "Постройте башни, назначьте стражников и выдайте снаряжение по их роли и уровню: бойцу ближнего боя и стрелку нужно разное. Задайте патруль или охраняемую точку и проверьте, что маршрут не упирается в запертую дверь или яму.",
+        "Убедитесь, что защитники доходят до постов, едят и не ждут инструмент. О самой службе два блока в истории книги ничего не говорят. Башни должны помогать живой колонии, а не только раздвигать границу: освещённый проход и возможность быстро собрать помощь важнее симметрии на карте."
       ],
       "text_en": [
-        "A guard tower houses a defender and expands controlled colony territory. Prepare two hut blocks together for the numerical objective, then select approaches needing protection. A tower beside the town hall may not cover a distant mining district entrance.",
-        "Construct the towers, assign guards and supply equipment appropriate to role and available level. Melee fighters and archers need different conditions. Set a patrol or guard point and verify that routes avoid locked doors and dangerous excavations.",
-        "Check that defenders reach posts, receive food and have no outstanding equipment requests. Historical possession of two blocks does not establish active service. Tower placement should support the working colony rather than only expand borders: a lit route and quick reinforcement often matter more than map symmetry."
+        "A guard tower gives a defender a post and extends the protected territory. Make two huts as one batch for the objective, then decide which approaches to cover. A tower by the town hall does not always see the entrance to a distant mining quarter.",
+        "Build the towers, assign guards and issue gear by their role and level: a melee fighter and an archer need different things. Set a patrol or a guarded point and check that the route does not run into a locked door or a pit.",
+        "Make sure the defenders reach their posts, eat and are not waiting for a tool. Two blocks in the book's history say nothing about the service itself. Towers should help a living colony, not just push the border out: a lit passage and the ability to gather help quickly matter more than symmetry on the map."
       ]
     },
     "mc_military/barracks": {
       "text": [
-        "Казармы позволяют разместить более крупную военную силу вместе с казарменными башнями. Подготовьте основной блок и блок башни, изучив доступную схему и исследования. Башня относится к этой системе и не должна ставиться случайно как полностью независимая замена обычного поста.",
-        "Через инструмент осмотрите общий план, оставьте место для составных сооружений и закажите строительство в предусмотренном порядке. Назначайте защитников после появления рабочих мест, обеспечивая каждому подходящее снаряжение. Не забирайте сразу всех работников из снабжения: армия без еды и ремонта быстро перестаёт быть надёжной.",
-        "Проверьте фактическое число занятых мест и доступные команды обороны. Предметная цель учитывает два разных блока по очереди, поэтому уже построенное учреждение не нужно разбирать. Развитие казарм полезно при росте территории, но должно сопровождаться новыми запасами оружия, брони и продуманными подходами к угрожаемым участкам."
+        "Казармы вместе с казарменными башнями вмещают более крупную военную силу. Подготовьте основной блок и блок башни, изучив схему и исследования. Башня принадлежит этой системе — самостоятельной заменой обычного поста она не служит.",
+        "Инструментом осмотрите общий план, оставьте место для составных сооружений и закажите стройку в предусмотренном порядке. Защитников назначайте, когда появятся места, и снаряжайте каждого. Всех работников из снабжения не забирайте: армия без еды и ремонта ненадёжна.",
+        "Проверьте число занятых мест и доступные команды обороны. Два разных блока книга учитывает по очереди, так что построенное здание разбирать не нужно. Казармы полезны с ростом территории, если вместе с ними растут запасы оружия и брони и продуманы подходы к опасным участкам."
       ],
       "text_en": [
-        "Barracks support a larger military force together with barracks towers. Prepare the main block and tower block after studying available blueprints and research. A tower belongs to this system and should not be placed randomly as an entirely independent replacement for a normal post.",
-        "Inspect the overall plan with the tool, reserve space for component structures and order construction in the intended sequence. Assign defenders as positions become available, supplying appropriate equipment individually. Avoid removing every supply worker at once: an army without food or repairs quickly becomes unreliable.",
-        "Inspect actual occupied positions and available defence commands. The item objective records the two different blocks sequentially, so constructed institutions need no dismantling. Barracks development supports territorial growth but must accompany increased weapon and armour reserves and planned access to threatened areas."
+        "The barracks together with barracks towers house a larger military force. Prepare the main block and the tower block after studying the blueprint and research. The tower belongs to this system; it is no standalone substitute for an ordinary post.",
+        "Inspect the overall plan with the tool, leave room for the component structures and order construction in the intended sequence. Assign defenders when places appear and equip each one. Do not pull every worker out of supply: an army without food and repairs is unreliable.",
+        "Check the number of occupied places and the available defence commands. The book counts the two different blocks in turn, so a built hut need not be dismantled. Barracks pay off as territory grows, provided stocks of weapons and armour grow with them and the approaches to dangerous areas are thought through."
       ]
     },
     "mc_military/training": {
       "text": [
-        "Боевая академия обучает будущих бойцов ближнего боя, стрельбище — будущих стрелков. Подготовьте оба учреждения после требуемых исследований и разместите так, чтобы ученики имели безопасный доступ. Учебная профессия отличается от действующего патруля: не рассчитывайте на немедленную охрану ворот учащимся.",
-        "Назначьте подходящих граждан и предоставьте запрашиваемое учебное снаряжение. Наблюдайте начало занятий и сравните характеристики через время. Сохраняйте элементы тренировочной схемы: случайное удаление мишени или рабочего участка может остановить упражнения даже при полном сундуке оружия.",
-        "После подготовки переводите ученика на доступное военное место и отдельно проверяйте боевое оснащение. Сам факт получения двух блоков не означает, что армия стала опытнее. Во время обучения оставляйте действующую охрану на постах, чтобы развитие будущего состава не создало временную дыру в обороне уже населённого квартала."
+        "Боевая академия готовит бойцов ближнего боя, стрельбище — стрелков. Подготовьте оба здания после нужных исследований и поставьте так, чтобы ученикам было безопасно ходить. Учёба — не патруль: ученик ворота охранять не выйдет.",
+        "Назначьте подходящих граждан и выдайте запрошенное учебное снаряжение. Дождитесь начала занятий и сравните характеристики через время. Не убирайте элементы тренировочной схемы: пропавшая мишень остановит упражнения даже при полном сундуке оружия.",
+        "Подготовленного ученика переводите на военное место и отдельно проверяйте боевое снаряжение. Два блока в руках армию опытнее не делают. Пока идёт обучение, держите действующую охрану на постах, чтобы развитие будущего состава не открыло брешь в обороне населённого квартала."
       ],
       "text_en": [
-        "The combat academy trains future melee fighters, while the archery range trains future ranged defenders. Prepare both after required research and place them with safe student access. A training profession differs from active patrol duty: a trainee should not be counted as immediate gate protection.",
-        "Assign suitable citizens and provide requested training equipment. Observe lessons beginning and compare attributes over time. Preserve functional blueprint elements: removing targets or work areas can halt exercises even beside a full weapon chest.",
-        "Once prepared, transfer a trainee to an available military position and separately verify combat equipment. Obtaining two blocks does not make the army more experienced. Keep active guards at their posts during training so future recruitment does not temporarily leave an inhabited district undefended."
+        "The combat academy trains melee fighters, the archery range trains archers. Prepare both buildings after the required research and place them so students can walk safely. Training is not patrol: a student will not go out to guard the gate.",
+        "Assign suitable citizens and issue the requested training gear. Wait for lessons to begin and compare stats after a while. Do not remove elements of the training blueprint: a missing target halts exercises even with a chest full of weapons.",
+        "Move a trained student to a military post and check their combat gear separately. Two blocks in hand do not make the army more experienced. While training goes on, keep the active guard at its posts so developing future ranks does not open a gap in the defence of a populated quarter."
       ]
     },
     "mc_military/walls": {
       "text": [
-        "Стены направляют движение противника, а ворота сохраняют управляемый проход жителей. Подготовьте деревянные ворота и привратный дом, затем выберите место въезда с учётом дорог и обзора. Замкнутая красивая стена без рабочего входа мешает своим курьерам не меньше, чем нападающим.",
-        "Осмотрите схему привратного дома и предусмотренные позиции защиты. Постройте участок, проверьте открытие и закрытие ворот доступным управлением, затем проведите через него гражданина обычным маршрутом. Не запирайте основной путь снабжения, пока не предусмотрен обход или понятный порядок открытия.",
-        "Следите за состоянием ворот после нападений и доступом к ремонту. Блоки в инвентарной истории подтверждают материалы, но не непроходимость всей границы: перепады высоты, вода и соседние постройки могут дать обход. Проверяйте оборону снаружи пешком, сохраняя безопасный вход домой до начала боевого испытания."
+        "Стены направляют врага, ворота оставляют жителям управляемый проход. Подготовьте деревянные ворота и привратный дом, выберите въезд с учётом дорог и обзора. Красивая замкнутая стена без рабочего входа мешает своим курьерам не меньше, чем нападающим.",
+        "Осмотрите схему привратного дома и позиции защиты в ней. Постройте участок, откройте и закройте ворота доступным управлением, затем проведите через них жителя обычным маршрутом. Основной путь снабжения не запирайте, пока нет обхода или понятного порядка открытия.",
+        "После нападений следите за состоянием ворот и доступом к ремонту. Блоки в истории подтверждают материалы, а не непроходимость границы: перепад высоты, вода и соседняя постройка могут дать обход. Обойдите оборону снаружи пешком и сохраните безопасный вход домой до первого набега."
       ],
       "text_en": [
-        "Walls direct enemy movement, while gates preserve controlled civilian access. Prepare a wooden gate and gatehouse, then choose an entrance around roads and visibility. An attractive closed wall without a working entrance obstructs your couriers as effectively as attackers.",
-        "Inspect the gatehouse blueprint and designated defender positions. Construct the section, test gate opening and closing through available controls, then observe a citizen using the normal route. Avoid blocking essential supplies before providing a bypass or clear opening procedure.",
-        "Check gate condition after attacks and preserve repair access. Historical item possession records materials, not an impassable border: height changes, water and neighbouring buildings may provide bypasses. Walk the exterior to inspect defence while retaining safe home access before any combat trial."
+        "Walls steer the enemy; gates leave citizens a controlled passage. Prepare a wooden gate and a gatehouse, and choose the entrance with roads and sightlines in mind. A handsome closed wall without a working entrance hinders your own couriers as much as attackers.",
+        "Inspect the gatehouse blueprint and the defence positions in it. Build the section, open and close the gate with the available control, then lead a citizen through it along their usual route. Do not lock the main supply path until there is a bypass or a clear opening procedure.",
+        "After attacks watch the gate's condition and access for repairs. Blocks in history confirm materials, not an impassable border: a change in height, water or a neighbouring building can offer a way round. Walk the defence from outside on foot and keep a safe way home before the first raid."
       ]
     },
     "mc_military/banner": {
       "text": [
-        "Знамя сбора помогает временно собрать выбранных стражников и затем вернуть их к обычной службе. Изготовьте предмет, проверьте требуемое военное исследование и действующие права управления. Само знамя не нанимает бойцов и не оснащает пустые башни.",
-        "Присядьте и примените его к нужным сторожевым башням, чтобы добавить их в список. Обычное применение открывает интерфейс управления, где можно проверить привязанные посты. Испытайте сбор в безопасной части колонии и убедитесь, что откликаются именно выбранные защитники.",
-        "После пробы распустите отряд и наблюдайте возвращение на службу. Стражники ограничены областью защиты и не обязаны сопровождать игрока бесконечно далеко от семей. Не снимайте сразу всю охрану ворот во время реального набега: сначала выберите резерв и понятную точку сбора, сохраняя защищённый маршрут для граждан."
+        "Знамя сбора на время собирает выбранных стражников и потом возвращает их к службе. Сделайте предмет, проверьте требуемое военное исследование и права управления. Бойцов знамя не нанимает и пустые башни не снаряжает.",
+        "Присядьте и примените его к нужным башням, чтобы добавить их в список. Обычное применение открывает окно, где видны привязанные посты. Испытайте сбор в безопасной части колонии и убедитесь, что откликаются именно выбранные защитники.",
+        "После пробы распустите отряд и посмотрите, как стражники возвращаются. Они ограничены зоной защиты и не пойдут за вами на край света. Во время настоящего набега не снимайте всю охрану ворот разом: выберите резерв и точку сбора, оставив жителям защищённый путь."
       ],
       "text_en": [
-        "A rallying banner temporarily gathers selected guards and later returns them to regular duty. Craft it, check required military research and verify management permissions. The banner neither recruits fighters nor equips empty towers.",
-        "Sneak-use it on the desired guard towers to add them to its list. Ordinary use opens management where bound posts can be inspected. Test rallying inside a safe colony area and verify that the intended defenders respond.",
-        "After the trial, dismiss the group and observe their return to service. Guards have protection-range limits and will not escort players indefinitely far from their families. Avoid withdrawing all gate defenders during a real raid: select reserves and a clear rally point while maintaining protected civilian routes."
+        "The rally banner temporarily gathers chosen guards and later returns them to duty. Make the item, check the required military research and management permissions. The banner hires no fighters and does not equip empty towers.",
+        "Sneak and apply it to the towers you want, adding them to the list. Ordinary use opens a window showing the bound posts. Test a rally in a safe part of the colony and make sure the chosen defenders are the ones who respond.",
+        "After the trial, dismiss the squad and watch the guards return. They are bound to the protected area and will not follow you to the ends of the earth. During a real raid do not pull the entire gate guard at once: pick a reserve and a rally point, leaving citizens a protected path."
       ]
     },
     "mc_military/raid": {
       "text": [
-        "Меч вождя — редкий трофей предводителя варваров MineColonies. Название задания говорит об отражённом набеге, но автоматическая предметная цель проверяет именно этот меч, а не любое завершение нападения. В установленной таблице добычи есть множество альтернатив, включая отсутствие такого трофея.",
-        "Подготовьте оборону, снабжение стражников и безопасное место для граждан до боя. Во время нападения следите за подходами и не уводите всех защитников далеко за пределы поселения. После победы собирайте добычу, когда рядом не осталось опасных противников.",
-        "Если меч не выпал, успешная защита всё равно состоялась; предметный узел останется открытым до получения нужного трофея. Не путайте мечи обычных материалов с Chief Sword. Сохраняйте найденный экземпляр для регистрации и выставки, а следующую оборону планируйте по состоянию колонии, не по ожиданию гарантированной награды за повторный набег."
+        "Меч вождя — редкий трофей предводителя варваров. Задание названо в честь отбитого набега, но предметная цель проверяет именно этот меч, а не сам факт победы. В таблице добычи много других вариантов, включая пустые руки.",
+        "До боя подготовьте оборону, снабжение стражников и укрытие для жителей. Во время нападения следите за подходами и не уводите защитников далеко за черту поселения. Добычу собирайте, когда рядом не осталось врагов.",
+        "Если меч не выпал, оборона всё равно удалась, а узел подождёт нужного трофея. Мечи обычных материалов с Chief Sword не путайте. Найденный экземпляр сохраните для записи и выставки, а следующий бой планируйте по состоянию колонии, не ради обещанной награды."
       ],
       "text_en": [
-        "The Chief Sword is a rare MineColonies barbarian-chief trophy. Although the quest title refers to a repelled raid, its automatic item objective checks this sword specifically rather than any completed defence. The installed loot table has many alternatives, including no such trophy.",
-        "Prepare defences, guard supplies and civilian shelter before combat. Monitor approaches during attacks without pulling every defender far beyond the settlement. Collect loot after victory once nearby threats are gone.",
-        "If the sword does not drop, the defence still succeeded; the item node remains open until the trophy is obtained. Do not confuse ordinary-material swords with the Chief Sword. Preserve a found specimen for registration and display, while planning further defence around colony condition rather than expecting guaranteed rewards from another raid."
+        "The chief's sword is a rare trophy from the barbarian leader. The quest is named after a repelled raid, but the item objective checks this sword specifically, not the fact of victory. The loot table holds many other outcomes, empty hands included.",
+        "Before the fight prepare the defence, the guards' supplies and shelter for citizens. During the attack watch the approaches and do not lead defenders far beyond the settlement's edge. Collect loot once no enemies remain nearby.",
+        "If the sword did not drop, the defence still succeeded, and the node will wait for the trophy. Do not confuse swords of ordinary materials with the Chief Sword. Keep the one you find for the record and display, and plan the next fight by the colony's condition, not for a promised reward."
       ]
     },
     "mc_build/scepter": {
       "text": [
-        "Сканирующий инструмент сохраняет выбранную область как схему, кронциркуль измеряет расстояния, а инструмент форм подготавливает геометрические объёмы. Все три доступны в сборке: рецепт инструмента форм добавляет MineColonies, используя изумруд и две палки. Не перепутайте сканирующий с инструментом размещения.",
-        "Измерьте небольшой макет кронциркулем, затем задайте два угла области сканирования и проверьте, что точка привязки находится внутри. Сохраните схему под понятным названием. Для инструмента форм начните с маленького куба, осмотрев выбранные материалы и режим перед подтверждением.",
-        "Откройте сохранённый проект через строительный интерфейс и проверьте размеры. Сканирование не копирует бесплатно все блоки в выживании: будущему строительству нужны ресурсы и доступный способ размещения. Не захватывайте область большого склада ради первого опыта; простой пустой макет легче проверить, повернуть и безопасно воспроизвести."
+        "Сканирующий инструмент сохраняет область как схему, кронциркуль измеряет расстояния, инструмент форм готовит геометрические объёмы. Все три есть в сборке; рецепт инструмента форм добавляет MineColonies — изумруд и две палки. Сканирующий инструмент и инструмент размещения — разные вещи.",
+        "Измерьте небольшой макет кронциркулем, затем задайте два угла области и убедитесь, что точка привязки внутри. Сохраните схему под понятным именем. Инструмент форм начните с маленького куба, проверив материалы и режим перед подтверждением.",
+        "Откройте сохранённый проект через окно строительства и проверьте размеры. В выживании сканирование блоки не копирует: будущей постройке нужны ресурсы и способ размещения. Большой склад для первого опыта не подходит — пустой макет легче проверить, повернуть и воспроизвести."
       ],
       "text_en": [
-        "The scan tool saves a selected region as a blueprint, calipers measure distances and the shape tool prepares geometric volumes. All three are obtainable in this pack: MineColonies supplies the shape-tool recipe using an emerald and two sticks. Distinguish scanning from placement.",
-        "Measure a small model with calipers, select opposite scan corners and verify that the anchor lies inside the region. Save under a meaningful name. Begin the shape tool with a small cube, inspecting selected materials and mode before confirmation.",
-        "Open the saved project through the build interface and verify dimensions. Scanning does not duplicate blocks for free in survival: later construction needs resources and an available placement method. Avoid scanning a large warehouse for your first attempt; a simple empty model is easier to inspect, rotate and reproduce safely."
+        "The scan tool saves an area as a blueprint, the caliper measures distances, the shape tool prepares geometric volumes. All three exist in the pack; the shape tool's recipe comes from MineColonies, an emerald and two sticks. The scan tool and the placement tool are different things.",
+        "Measure a small mock-up with the caliper, then set two corners of the area and make sure the anchor point lies inside. Save the blueprint under a clear name. Start the shape tool with a small cube, checking materials and mode before confirming.",
+        "Open the saved project through the build window and check the dimensions. In survival, scanning copies no blocks: the future build needs resources and a way to place them. A large warehouse is a poor first exercise; an empty mock-up is easier to check, rotate and reproduce."
       ]
     },
     "mc_build/substitution": {
       "text": [
-        "Блоки-заменители сохраняют в схеме особые правила обработки окружения вместо обычной стены. Обычный Placeholder и Solid Placeholder отличаются, поэтому их не следует расставлять как взаимозаменяемые строительные материалы. Изготовьте по рецептам и подготовьте маленький тестовый макет отдельно от жилья.",
-        "Поместите заменители в выбранные участки модели, сохраните её сканирующим инструментом и сравните предпросмотр на разном рельефе. Смысл таких блоков связан с размещением схемы: они помогают согласовать проект с существующей средой. Не обещайте заполнение любого пустого пространства одним произвольно выбранным камнем без проверки конкретного правила.",
-        "Испытайте небольшой проект через доступное строительство и осмотрите результат у земли и внутри пустот. Для обычной комнаты чаще достаточно настоящих блоков; заменители полезны автору адаптируемых схем. Сохраняйте исходную копию макета, чтобы исправить ошибочное правило без повреждения готового здания колонии."
+        "Блоки-заменители записывают в схему особые правила для окружения вместо обычной стены. Placeholder и Solid Placeholder ведут себя по-разному, так что ставить их наугад как стройматериал нельзя. Сделайте оба по рецептам и приготовьте маленький макет подальше от жилья.",
+        "Вставьте заменители в выбранные места модели, отсканируйте её и сравните предпросмотр на разном рельефе. Смысл таких блоков раскрывается при размещении схемы: они помогают вписать проект в существующую среду. Заполнения любой пустоты одним произвольным камнем они не обещают.",
+        "Постройте небольшой проект и осмотрите результат у земли и в пустотах. Для обычной комнаты чаще хватает настоящих блоков; заменители нужны автору схем, которые должны подстраиваться под местность. Сохраняйте исходную копию макета, чтобы исправить неверное правило, не портя готовое здание."
       ],
       "text_en": [
-        "Placeholder blocks store special environmental handling rules in a blueprint instead of acting as ordinary walls. The regular and solid placeholders differ, so they should not be treated as interchangeable construction materials. Craft them and prepare a small test model away from housing.",
-        "Place placeholders in selected parts, scan the model and compare its preview across different terrain. Their purpose concerns blueprint placement: they help reconcile a project with existing surroundings. Do not assume arbitrary stone fills every empty space without checking the relevant rule.",
-        "Build a small test through available construction and inspect ground-level and interior results. Ordinary rooms usually need actual blocks; placeholders help authors create adaptable blueprints. Preserve the original model so an incorrect rule can be fixed without damaging a completed colony building."
+        "Substitution blocks record special rules for the surroundings into a blueprint instead of a plain wall. Placeholder and Solid Placeholder behave differently, so they cannot be scattered at random as building material. Make both by recipe and prepare a small mock-up away from housing.",
+        "Put the substitutes into chosen spots of the model, scan it and compare the preview on different terrain. The meaning of such blocks shows when the blueprint is placed: they help fit the project into the existing environment. They do not promise to fill any void with one arbitrary stone.",
+        "Build a small project and inspect the result at ground level and in cavities. For an ordinary room real blocks usually suffice; substitutes serve an author of blueprints that must adapt to terrain. Keep an original copy of the mock-up so a wrong rule can be fixed without damaging a finished building."
       ]
     },
     "mc_build/cutter": {
       "text": [
-        "Резак архитектора создаёт декоративные изделия Domum Ornamentum из выбранных исходных материалов. Поставьте его рядом со стройматериалами и начните с доступной древесины или камня. Он не требует электрической сети: основные решения здесь — тип изделия и правильные составляющие.",
-        "В интерфейсе выберите группу и форму, затем заполните нужные материаловые слоты. Посмотрите результат до изготовления большой партии: некоторые формы сочетают несколько материалов, и перестановка заполнения меняет внешний вид. Изготовьте один образец и сравните его с запросом строителя через подсказку или очки.",
-        "Если запрос остаётся открытым, проверьте состав, а не только общее название блока. Один registry ID может соответствовать множеству оформлений с разными данными. После успешного образца запишите палитру и выпускайте нужную партию; это надёжнее случайного перебора похожих панелей посреди уже начатой стройки."
+        "Резак архитектора делает декоративные изделия Domum Ornamentum из выбранных материалов. Поставьте его рядом со стройматериалами и начните с доступной древесины или камня. Электричество ему не нужно; главные решения здесь — тип изделия и его составляющие.",
+        "В окне выберите группу и форму, затем заполните слоты материалов. Посмотрите на результат до большой партии: некоторые формы сочетают несколько материалов, и перестановка меняет вид. Сделайте один образец и сравните его с запросом строителя через подсказку или очки.",
+        "Если запрос остаётся открытым, проверьте состав, а не только общее имя блока: один идентификатор может скрывать множество оформлений с разными данными. После удачного образца запишите палитру и выпускайте партию — это надёжнее, чем перебирать похожие панели посреди стройки."
       ],
       "text_en": [
-        "The architect’s cutter creates Domum Ornamentum decorative products from selected base materials. Place it near building supplies and begin with available wood or stone. It needs no electrical network: product type and correct constituents are the central choices.",
-        "Select a group and shape in the interface, then fill the required material slots. Inspect output before making a large batch: some shapes combine multiple materials, and swapping them changes appearance. Craft one sample and compare it with the builder’s request through its tooltip or goggles.",
-        "If a request stays open, inspect composition rather than only the block’s general name. One registry ID can represent many designs with different data. After a successful sample, record the palette and produce the required batch instead of randomly trying similar panels during active construction."
+        "The architect's cutter makes Domum Ornamentum decorative goods from chosen materials. Place it near your building materials and start with available wood or stone. It needs no electricity; the main decisions here are the type of item and its components.",
+        "In the window choose a group and shape, then fill the material slots. Look at the result before a large batch: some shapes combine several materials, and swapping them changes the look. Make one sample and compare it with the builder's request through the tooltip or the goggles.",
+        "If the request stays open, check the composition, not just the block's general name: one identifier can hide many finishes with different data. After a successful sample, note the palette and produce the batch; that is more reliable than sorting through similar panels in the middle of construction."
       ]
     },
     "mc_build/timberframe": {
       "text": [
-        "Фахверковый блок соединяет видимый каркас и заполнение стены в одном декоративном изделии. Создайте его в резаке архитектора, выбрав раздел Timberframes. Название dynamic_timberframe относится к семейству вариантов, а не единственной заранее заданной паре дерева и штукатурки.",
-        "Подготовьте материалы каркаса и центральной части, выберите рисунок перекладин и изготовьте один образец. Поставьте рядом несколько образцов с разной ориентацией, чтобы проверить стыки и направление диагоналей. Случайная зеркальная панель может нарушить фасад, даже если ингредиенты полностью совпадают.",
-        "Для колониального заказа сверяйте подсказку с материалами и типом именно требуемой панели. Предметная цель Кодекса знакомит с семейством блоков и не проверяет всю палитру фасада. После выбора сохраните образец в мастерской и сделайте нужное количество, оставив доступ к стене для ремонта и дальнейших уровней здания."
+        "Фахверковый блок соединяет видимый каркас и заполнение стены в одном изделии. Сделайте его в резаке архитектора, в разделе Timberframes. Имя dynamic_timberframe обозначает целое семейство, а не одну заданную пару дерева и штукатурки.",
+        "Возьмите материалы для каркаса и середины, выберите рисунок перекладин и сделайте один образец. Поставьте рядом несколько с разной ориентацией, чтобы увидеть стыки и направление диагоналей. Случайная зеркальная панель портит фасад даже при тех же ингредиентах.",
+        "Для колониального заказа сверяйте подсказку с материалами и типом именно требуемой панели. Цель Кодекса — знакомство с семейством блоков; палитру целого фасада подбираете вы. Выбранный образец сохраните в мастерской, сделайте нужное количество и оставьте доступ к стене для ремонта и следующих уровней."
       ],
       "text_en": [
-        "A timberframe block combines visible framing and wall infill in one decorative product. Create it in the architect’s cutter under Timberframes. The dynamic_timberframe name identifies a family of variants rather than one predetermined wood-and-plaster combination.",
-        "Prepare frame and centre materials, choose the brace pattern and craft a sample. Place several samples with different orientations to inspect joins and diagonal direction. An accidentally mirrored panel can disrupt a facade even when all ingredients match.",
-        "For colony orders, compare tooltip materials and type with the exact requested panel. The Codex item objective introduces the block family without validating an entire facade palette. Keep a selected sample in the workshop and produce the required quantity while preserving wall access for repairs and future building levels."
+        "The timber frame block combines a visible frame and wall infill in one item. Make it in the architect's cutter, in the Timberframes section. The name dynamic_timberframe denotes a whole family, not one fixed pair of wood and plaster.",
+        "Take materials for the frame and centre, choose the beam pattern and make one sample. Place several side by side in different orientations to see the joints and the direction of the diagonals. A stray mirrored panel spoils a façade even with identical ingredients.",
+        "For a colony order, compare the tooltip with the materials and type of the panel actually requested. The Codex objective is an introduction to the block family; the palette of a whole façade is yours to choose. Keep the chosen sample in the workshop, make the required quantity and leave access to the wall for repairs and later levels."
       ]
     },
     "mc_build/multipiston": {
       "text": [
-        "Мультипоршень перемещает блоки между настраиваемыми направлениями и полезен для компактных подвижных устройств. Изготовьте его и выделите свободный испытательный участок с обычными недорогими блоками. Начинать с работающего склада или сложной машины другого мода неудобно: ошибка направления затронет их размещение.",
-        "Откройте настройки входного и выходного направлений и небольшой дальности. Вход и выход не могут совпадать, о чём сообщает интерфейс. Подайте управляющий сигнал и наблюдайте перемещение, оставляя свободное место для результата и безопасный проход мимо механизма.",
-        "После первого цикла уберите сигнал и проверьте ожидаемое поведение возврата или следующего движения. Не считайте поддержку одного каменного блока доказательством совместимости любого контейнера. Для практической конструкции сначала повторите испытание с её настоящими материалами, а затем подключайте управление воротами или иной колониальной инфраструктурой."
+        "Мультипоршень двигает блоки между настраиваемыми направлениями и годится для компактных подвижных устройств. Сделайте его и найдите свободный участок с обычными дешёвыми блоками. Рядом с работающим складом или чужой машиной начинать неудобно: ошибка направления заденет их.",
+        "Откройте настройки входа, выхода и небольшой дальности. Вход и выход совпадать не могут — об этом скажет окно. Подайте сигнал и посмотрите на перемещение, оставив место под результат и безопасный проход мимо механизма.",
+        "После первого цикла снимите сигнал и проверьте возврат или следующее движение. Один каменный блок ничего не говорит о совместимости с контейнерами. Для настоящей конструкции повторите пробу с её материалами, а уже потом подключайте ворота или другую колониальную инфраструктуру."
       ],
       "text_en": [
-        "The multipiston moves blocks between configurable directions and supports compact moving mechanisms. Craft it and reserve a clear test area with ordinary inexpensive blocks. Starting with an operating warehouse or another mod’s complex machine is inconvenient because direction errors affect their placement.",
-        "Set distinct input and output directions and a short range. The interface reports that input and output cannot coincide. Apply a control signal and observe movement while leaving output space and a safe passage around the mechanism.",
-        "After the first cycle, remove the signal and inspect expected return or subsequent movement. Moving one stone block does not prove compatibility with every container. For a practical design, repeat the trial using its real materials before connecting gate controls or other colony infrastructure."
+        "The multipiston moves blocks between configurable directions and suits compact moving devices. Make it and find a free plot with ordinary cheap blocks. Starting next to a working warehouse or someone else's machine is awkward: a wrong direction will hit them.",
+        "Open the settings for input, output and a short range. Input and output cannot coincide; the window will say so. Apply a signal and watch the movement, leaving room for the result and a safe way past the mechanism.",
+        "After the first cycle remove the signal and check the return or the next movement. One stone block says nothing about compatibility with containers. For a real structure repeat the trial with its own materials, and only then connect gates or other colony infrastructure."
       ]
     },
     "mc_build/decoration": {
       "text": [
-        "Контроллер декорации связывает декоративную схему с её колониальным строительством и обслуживанием. Для этого задания выберите небольшую декорацию через инструмент строительства и разместите план в пределах доступной колонии. Контроллер появляется как часть работы со схемой; искать обычный рецепт предмета не требуется.",
-        "Проверьте доступный интерфейс плана, отдайте строительный заказ и обеспечьте материалы. Выбирайте доступную декорацию с понятным назначением, например небольшой общественный участок, сохраняя проход гражданам. Декоративный план не превращается в жилую хижину и не добавляет население только благодаря красивой форме.",
-        "После завершения откройте доступное управление декорацией и убедитесь, что работа относится к нужному объекту. Подтвердите ручной пункт после реальной постройки, а не появления призрачного предпросмотра. Для следующих изменений используйте поддерживаемое управление и точную схему, чтобы строитель не восстанавливал удалённые игроком детали неожиданным для вас образом."
+        "Контроллер декорации связывает декоративную схему с её постройкой и обслуживанием в колонии. Выберите небольшую декорацию инструментом строительства и разместите план в пределах колонии. Контроллер появляется при работе со схемой; рецепт предмета искать не нужно.",
+        "Откройте окно плана, отдайте заказ и обеспечьте материалы. Берите декорацию с понятным назначением — скажем, небольшую площадь, не перекрывая проход жителям. Жилой хижиной она не станет и населения не прибавит.",
+        "Когда постройка завершена, откройте управление декорацией и убедитесь, что оно относится к нужному объекту. Ручной пункт ставьте после настоящей постройки, а не призрачного предпросмотра. Дальнейшие изменения делайте через это управление и точную схему, иначе строитель восстановит удалённые вами детали."
       ],
       "text_en": [
-        "A decoration controller connects a decorative blueprint with colony construction and maintenance. Choose a small decoration through the build tool and place its plan inside the available colony. The controller belongs to blueprint handling; finding an ordinary item recipe is unnecessary.",
-        "Inspect the plan’s interface, issue a construction order and supply materials. Choose an accessible decoration with a clear purpose, such as a small public area, while retaining civilian passages. A decorative plan does not become a residence or increase population simply through an attractive shape.",
-        "After completion, open available decoration management and verify that it refers to the intended object. Confirm manually after actual construction, not merely a ghost preview. For later changes, use supported management and the correct blueprint so builders do not unexpectedly restore details you removed."
+        "The decoration controller links a decorative blueprint to its construction and upkeep in the colony. Choose a small decoration with the build tool and place the plan within the colony. The controller appears as part of working with the blueprint; there is no item recipe to look for.",
+        "Open the plan's window, give the order and provide materials. Take a decoration with a clear purpose, say a small square, without blocking the citizens' way. It will not become a residence hut and adds no population.",
+        "When construction is finished, open the decoration's management and make sure it refers to the right object. Tick the manual point after the real build, not the ghost preview. Make further changes through this management and the exact blueprint, or the builder will restore the details you removed."
       ],
       "task_notes": {
         "1": {
@@ -599,14 +599,14 @@
     },
     "mc_found/guide_housing_audit": {
       "text": [
-        "Перед следующим наймом проверьте, куда поселится гражданин и чем он будет заниматься. Откройте ратушу, сравните общую численность, свободное жильё и ограничения населения. Две поставленные хижины ещё не означают два готовых места, если их строительство не завершено.",
-        "Выберите конкретную свободную профессию и убедитесь, что её учреждение действительно построено. Если жителей назначает автоматика, просмотрите настройки найма и заселения, чтобы новый работник не ушёл на случайный пост. Одновременно проверьте запас еды: расширение жилья повышает будущую нагрузку на столовую.",
-        "Подтверждайте пункт после выбора дома и работы для следующего гражданина, не обязательно нанимая его немедленно. Такая перепись позволяет отличить жилищное ограничение от исследовательского предела населения. Если приглашённый посетитель не принимается, сначала сверяйте эти условия и стоимость найма, а не стройте ещё одну запрещённую таверну."
+        "Перед следующим наймом выясните, где поселится новичок и чем займётся. Откройте ратушу и сравните численность, свободное жильё и пределы населения. Две поставленные хижины ещё не два места, пока стройка не завершена.",
+        "Выберите конкретную свободную профессию и убедитесь, что её здание действительно построено. Если жителей распределяет автоматика, загляните в настройки найма и заселения, чтобы новичок не ушёл на случайный пост. Заодно проверьте запас еды: новое жильё прибавит работы столовой.",
+        "Отметку ставьте, когда дом и работа для следующего жителя выбраны, — нанимать его сразу не обязательно. Такая перепись отличает нехватку жилья от предела населения из исследований. Если гость из таверны не принимается, сверьте эти условия и цену найма, а не стройте вторую, запрещённую таверну."
       ],
       "text_en": [
-        "Before another recruitment, check where the citizen will live and work. Open the town hall and compare population, available housing and population restrictions. Two placed huts do not necessarily provide two ready slots if construction is unfinished.",
-        "Choose a specific vacant profession and verify that its institution is built. If assignment is automatic, inspect hiring and housing settings so the newcomer does not take an unintended post. Also inspect food reserves: housing growth increases future dining-hall demand.",
-        "Confirm after selecting a home and job for the next citizen without necessarily recruiting immediately. This census distinguishes housing limits from research population caps. If a visitor cannot join, inspect those conditions and recruitment cost before building another prohibited tavern."
+        "Before the next hire, find out where the newcomer will live and what they will do. Open the town hall and compare the head count, free housing and population limits. Two placed huts are not yet two places until construction is finished.",
+        "Pick a specific vacant profession and make sure its building is actually built. If automation assigns citizens, look into the hiring and housing settings so the newcomer does not wander off to a random post. Check the food reserve as well: new housing adds work for the dining hall.",
+        "Tick it when a home and a job for the next citizen are chosen; hiring at once is not required. This census tells a housing shortage from a research population cap. If a tavern guest is not accepted, check these conditions and the hiring price rather than building a second, forbidden tavern."
       ],
       "task_notes": {
         "0": {
@@ -617,14 +617,14 @@
     },
     "mc_found/guide_request_tools": {
       "text": [
-        "Даже снабжённая деревом стройка останавливается, если у работника нет подходящего инструмента. Найдите действующий запрос строителя или добывающего гражданина и прочитайте допустимые свойства. Более дорогая кирка не всегда доступна сотруднику текущего уровня, поэтому ориентируйтесь на его условия.",
-        "Подготовьте подходящий предмет и положите его в зарегистрированный склад либо выполните запрос через интерфейс. Наблюдайте изменение статуса и передачу инструмента сотруднику. Не оставляйте покупку просто на земле у двери: колониальная система должна действительно увидеть предназначенный запас.",
-        "Отметьте проверку после возобновления работы. Специально ломать хороший инструмент не требуется; дождитесь естественного запроса или обслужите уже существующий. Запомните путь снабжения и оставьте разумный резерв простых инструментов. Это помогает разорвать ситуацию, когда единственный производитель инструментов сам ждёт нужный предмет и вся стройка ошибочно кажется зависшей."
+        "Даже стройка, заваленная деревом, встаёт, когда у работника нет подходящего инструмента. Найдите открытый запрос строителя или добытчика и прочитайте допустимые свойства. Дорогая кирка не всегда доступна сотруднику нынешнего уровня — ориентируйтесь на его условия.",
+        "Приготовьте подходящий предмет и положите его в зарегистрированный склад или закройте запрос через окно. Проследите смену статуса и передачу инструмента. Покупка на земле у двери не считается: колониальная система должна увидеть предназначенный запас.",
+        "Когда работа возобновилась, ставьте отметку. Ломать хороший инструмент нарочно не нужно — дождитесь естественного запроса или обслужите уже открытый. Запомните путь снабжения и держите резерв простых инструментов: он разрывает круг, в котором единственный мастер инструментов сам ждёт нужный предмет, а стройка кажется зависшей."
       ],
       "text_en": [
-        "Even timber-supplied construction stops when a worker lacks a suitable tool. Find an active builder or gathering-worker request and read permitted properties. A more expensive pickaxe may exceed the employee’s current allowance, so follow the actual request.",
-        "Prepare a qualifying item and place it in registered warehouse storage or fulfill the request through its interface. Observe status changes and delivery to the worker. Do not merely leave the item on the ground beside a door: colony systems must actually recognize the reserve.",
-        "Confirm after work resumes. Deliberately breaking a good tool is unnecessary; await a natural request or serve an existing one. Remember the supply route and keep reasonable simple-tool reserves. This resolves situations where the only toolmaker also needs a tool and the entire construction appears frozen."
+        "Even a site heaped with timber stops when the worker lacks a suitable tool. Find an open request from the builder or a gatherer and read the allowed properties. An expensive pickaxe is not always available to a worker of the current level; go by their conditions.",
+        "Prepare a suitable item and put it into the registered warehouse or close the request through the window. Follow the status change and the handover of the tool. A purchase left on the ground by the door does not count: the colony system must see the stock meant for it.",
+        "When work resumes, tick it. There is no need to break a good tool on purpose; wait for a natural request or serve one already open. Remember the supply route and keep a reserve of simple tools: it breaks the circle where the only toolmaker is waiting for a tool and the whole site seems stuck."
       ],
       "task_notes": {
         "0": {
@@ -635,14 +635,14 @@
     },
     "mc_found/guide_menu_trial": {
       "text": [
-        "Полный склад продуктов не гарантирует, что столовая разрешает их выдачу. Откройте меню и выберите блюдо, подходящее нынешним жителям и доступное вашему хозяйству. Подготовьте небольшую партию, оставив отдельный запас еды для игрока и экспедиционных работников.",
-        "Доставьте готовую пищу в систему снабжения и наблюдайте обслуживание голодного гражданина. Если он отказывается, сравните требования к качеству, меню и сырой либо готовый вариант предмета. Игрок и колонист оценивают питание по разным условиям; съедобность в руке игрока не доказывает пригодность меню.",
-        "Подтверждайте цель после фактической выдачи. Затем оцените, способен ли текущий урожай регулярно обеспечивать выбранное блюдо. Если нет, измените меню или настройте ингредиентную цепочку до массового улучшения жилья. Такой опыт предотвращает ситуацию, когда новые красивые дома повышают требования жителей раньше, чем кухня научилась их удовлетворять."
+        "Полный склад продуктов ещё не значит, что столовая станет их выдавать. Откройте меню и выберите блюдо, которое подходит нынешним жителям и по силам вашему хозяйству. Приготовьте небольшую партию, а отдельный запас оставьте себе и работникам в отъезде.",
+        "Передайте готовую еду в снабжение и посмотрите, как обслужат голодного жителя. Если он отказывается, сравните требования к качеству, меню и вариант предмета — сырой или готовый. Игрок и колонист оценивают еду по-разному: съедобное в вашей руке не обязательно годится для меню.",
+        "Цель закрывается фактической выдачей. Затем прикиньте, потянет ли нынешний урожай выбранное блюдо постоянно. Если нет, поменяйте меню или наладьте цепочку ингредиентов до массового улучшения домов — иначе новые красивые дома повысят запросы жителей раньше, чем кухня научится их удовлетворять."
       ],
       "text_en": [
-        "A full food warehouse does not guarantee the dining hall permits serving its contents. Open the menu and select a dish suitable for current citizens and available from your farms. Prepare a small batch while retaining separate meals for the player and expedition workers.",
-        "Deliver finished food through the supply system and observe a hungry citizen being served. If refused, compare quality requirements, menu entries and raw versus prepared item variants. Players and colonists evaluate food differently; player edibility does not establish menu suitability.",
-        "Confirm after actual service. Then assess whether current crops can regularly support the dish. If not, adjust menus or ingredient production before upgrading many residences. This prevents attractive new homes from raising citizen expectations before the kitchen can meet them."
+        "A warehouse full of produce does not yet mean the dining hall will serve it. Open the menu and pick a dish that suits the current citizens and that your farm can manage. Prepare a small batch, keeping a separate reserve for yourself and for workers away on trips.",
+        "Hand the finished food into supply and watch a hungry citizen being served. If they refuse, compare the quality requirements, the menu and the item's variant, raw or cooked. Player and colonist judge food differently: edible in your hand does not necessarily mean fit for the menu.",
+        "The objective closes with an actual serving. Then estimate whether the current harvest can sustain the chosen dish. If not, change the menu or set up the ingredient chain before upgrading houses en masse, or handsome new houses will raise citizens' demands before the kitchen has learned to meet them."
       ],
       "task_notes": {
         "0": {
@@ -653,14 +653,14 @@
     },
     "mc_production/guide_chef_kitchen": {
       "text": [
-        "Кухня шефа готовит особые блюда MineColonies для более требовательного питания. Она отличается от столовой, которая обслуживает голодных жителей. Подготовьте отдельную хижину кухни, проверьте необходимые условия и завершите строительство до ожидания продвинутых блюд.",
-        "Назначьте повара и выберите доступный рецепт с ингредиентами, которые реально может дать ваша ферма. Новые колониальные растения получают подходящим способом с мотыгой и выращивают фермером с учётом биома; случайная грядка игрока не обязана принять любой такой продукт. Выполните конкретные запросы кухни.",
-        "Дождитесь первого блюда и подтвердите ручную цель. Затем организуйте его доставку и разрешение в меню столовой. Наличие кухни не отменяет остальные звенья питания: ингредиенты, изготовление, доставка и выдача должны работать вместе. Начинайте с одного воспроизводимого блюда, прежде чем открывать длинное меню из редких сезонных запасов."
+        "Кухня шефа готовит особые блюда MineColonies для более требовательных жителей и отличается от столовой, которая просто кормит голодных. Подготовьте отдельную хижину кухни, проверьте условия и достройте её, прежде чем ждать изысканных блюд.",
+        "Назначьте повара и выберите рецепт с ингредиентами, которые ваша ферма и правда даёт. Новые колониальные растения добывают мотыгой и растят фермером с оглядкой на биом; случайная грядка игрока такой продукт принять не обязана. Закройте конкретные запросы кухни.",
+        "Первое блюдо готово — ставьте отметку. Затем наладьте его доставку и разрешите в меню столовой. Кухня не отменяет остальных звеньев: ингредиенты, готовка, доставка и выдача должны работать вместе. Начните с одного воспроизводимого блюда, а длинное меню из редких сезонных запасов оставьте на потом."
       ],
       "text_en": [
-        "The chef’s kitchen prepares special MineColonies dishes for more demanding diets. It differs from the dining hall serving hungry citizens. Prepare its separate hut, check requirements and complete construction before expecting advanced meals.",
-        "Assign a chef and select an available recipe whose ingredients your farms can actually supply. New colony crops are obtained through suitable hoe use and cultivated by farmers with biome conditions in mind; an arbitrary player plot need not accept every crop. Fulfill the kitchen’s specific requests.",
-        "Await the first dish and confirm manually. Then arrange delivery and permission in the dining-hall menu. A kitchen does not remove other food-chain stages: ingredients, preparation, transport and serving must work together. Begin with one repeatable meal before offering a long menu reliant on scarce reserves."
+        "The chef's kitchen cooks special MineColonies dishes for more demanding citizens and differs from the dining hall, which simply feeds the hungry. Prepare a separate kitchen hut, check the conditions and finish building it before expecting refined dishes.",
+        "Assign a cook and choose a recipe whose ingredients your farm actually yields. New colony plants are obtained with a hoe and grown by the farmer with the biome in mind; a random player plot is not obliged to accept such a crop. Fulfil the kitchen's specific requests.",
+        "The first dish is ready: tick it. Then set up its delivery and allow it in the dining hall's menu. The kitchen does not cancel the other links: ingredients, cooking, delivery and serving must work together. Start with one repeatable dish and leave a long menu of rare seasonal stock for later."
       ],
       "task_notes": {
         "1": {
@@ -671,14 +671,14 @@
     },
     "mc_production/guide_sawmill_order": {
       "text": [
-        "Дубовые ступени дают простой способ проверить обучение лесопилки без редких материалов. Подготовьте дубовые доски и свободное место рецепта, затем откройте обучение у построенного учреждения. Выберите именно дубовый результат: сходная форма из другой породы не выполнит запрос.",
-        "Сохраните рецепт и создайте потребность через доступный колониальный запрос или стройку. Проследите получение ингредиентов, изготовление и доставку результата. Численная цель требует шестнадцать ступеней одной партией у игрока; она сама не устанавливает, какая мастерская их сделала.",
-        "Подтвердите ручную часть после наблюдения работы лесопилки. Сохранённый рецепт полезен для следующих заказов, поэтому не стирайте его сразу ради освобождения интерфейса. Если производство ждёт, проверьте запас досок, курьера и активный запрос; отсутствие запроса отличается от отсутствия знания рецепта и требует другого исправления."
+        "Дубовые ступени — простой способ проверить обучение лесопилки без редких материалов. Приготовьте дубовые доски и свободную ячейку рецепта, откройте обучение у построенного здания. Результат нужен именно дубовый: похожая форма из другой породы запрос не закроет.",
+        "Сохраните рецепт и создайте потребность — колониальным запросом или стройкой. Проследите получение ингредиентов, изготовление и доставку. Численная цель хочет шестнадцать ступеней одной партией у вас в руках и не спрашивает, какая мастерская их сделала.",
+        "Ручную часть закрывайте, увидев работу лесопилки. Сохранённый рецепт пригодится для следующих заказов, так что не стирайте его ради чистого окна. Если производство ждёт, проверьте запас досок, курьера и активный запрос: отсутствие запроса и незнание рецепта лечатся по-разному."
       ],
       "text_en": [
-        "Oak stairs provide a simple sawmill-teaching test without rare materials. Prepare oak planks and an available recipe slot, then open teaching at the constructed institution. Select the oak output specifically: an identical shape in another wood cannot satisfy the request.",
-        "Save the recipe and create demand through a supported colony request or building project. Follow ingredient delivery, crafting and output transport. The numerical objective requires sixteen stairs together in the player inventory; it does not identify their producing workshop.",
-        "Confirm manually after observing sawmill operation. The saved recipe supports later orders, so avoid immediately deleting it merely to clear the interface. If production waits, inspect planks, courier service and an active request; lack of demand differs from an unknown recipe and needs a different fix."
+        "Oak stairs are a simple way to test the sawmill's training without rare materials. Prepare oak planks and a free recipe slot, and open training at the built hut. The result must be oak specifically: a similar shape from another species will not close the request.",
+        "Save the recipe and create a need, through a colony request or a construction. Follow the ingredients arriving, the crafting and the delivery. The numeric objective wants sixteen stairs as one batch in your hands and does not ask which workshop made them.",
+        "Close the manual part once you have seen the sawmill work. The saved recipe will serve future orders, so do not erase it for a tidy window. If production waits, check the plank stock, the courier and the active request: a missing request and an unknown recipe are cured differently."
       ],
       "task_notes": {
         "1": {
@@ -689,14 +689,14 @@
     },
     "mc_production/guide_compost_reserve": {
       "text": [
-        "Компостер полезен, когда органические остатки уже накапливаются регулярно. До включения переработки отделите семена и продукты, без которых остановится следующий посев. Ящик с надписью помогает игроку, но доступность материала сотруднику определяется настоящим хранением и настройками допуска.",
-        "Откройте список разрешённых для компостирования предметов и выберите один действительно избыточный ресурс. Дайте небольшую партию, проследите её переработку и проверьте полученный продукт по действующему рецепту. Не направляйте в отходы всё растениеводство только потому, что склад впервые оказался заполнен.",
-        "Подтвердите пункт после первого результата и повторной проверки сохранённого посевного резерва. Затем сравните расход с воспроизводством фермы, чтобы компостирование оставалось обслуживанием избытка. Если пропадают нужные ингредиенты кухни, пересмотрите список допуска и маршрут доставки: проблема заключается в политике расходования, а не обязательно в недостаточной скорости фермера."
+        "Компостер оправдан, когда органические остатки копятся сами собой. До включения переработки отложите семена и продукты, без которых остановится следующий посев. Подписанный ящик помогает вам, а работнику доступность решают настоящее хранение и настройки допуска.",
+        "Откройте список разрешённых для компоста предметов и выберите один действительно лишний ресурс. Дайте небольшую партию, проследите переработку и сверьте продукт с действующим рецептом. Всё растениеводство в отходы не отправляйте лишь потому, что склад впервые заполнился.",
+        "После первого результата и повторной проверки посевного резерва ставьте отметку. Затем сравните расход с тем, что даёт ферма, чтобы компост оставался утилизацией избытка. Если пропадают ингредиенты кухни, пересмотрите список допуска и маршрут доставки: дело в политике расходования, а не в медлительности фермера."
       ],
       "text_en": [
-        "A composter becomes useful once organic leftovers arrive regularly. Before enabling processing, separate seeds and products essential for the next planting. A labelled chest helps players, but actual storage and permission settings determine worker access.",
-        "Open permitted compost inputs and select one genuinely surplus resource. Supply a small batch, observe processing and inspect its product under the active recipe. Do not classify all crop output as waste merely because storage has filled for the first time.",
-        "Confirm after receiving output and rechecking the preserved planting reserve. Then compare consumption with farm renewal so composting continues to handle surplus. If kitchen ingredients disappear, revise allowed inputs and delivery routes: the problem concerns spending policy, not necessarily farmer speed."
+        "A composter earns its place when organic leftovers pile up on their own. Before enabling processing, set aside the seeds and produce without which the next sowing would stop. A labelled crate helps you, but for the worker availability is decided by real storage and permission settings.",
+        "Open the list of items allowed for composting and choose one genuinely surplus resource. Provide a small batch, follow the processing and check the product against the current recipe. Do not send all your plant produce to waste just because the warehouse filled up for the first time.",
+        "After the first result and a second check of the seed reserve, tick it. Then compare consumption with what the farm yields, so composting stays a way to use up surplus. If kitchen ingredients go missing, revisit the allowed list and the delivery route: the issue is spending policy, not a slow farmer."
       ],
       "task_notes": {
         "0": {
@@ -707,14 +707,14 @@
     },
     "mc_research/guide_first_research": {
       "text": [
-        "Первое исследование стоит выбирать по нуждам действующей колонии. Найдите доступное открытие, которое разрешит ожидающую профессию или улучшит понятную службу. Прочитайте цену и все предварительные требования, затем подготовьте материалы без изъятия последнего продовольствия или инструмента у работников.",
-        "Запустите исследование в университете и проверьте, что оно действительно появилось среди выполняемых. Дождитесь завершения с назначенным исследователем и обслуживаемым зданием. Одна оплаченная кнопка ещё не означает доступный эффект: время исследования является частью процесса.",
-        "Откройте связанное учреждение или настройку и найдите изменение, которое обещало выбранное открытие. Только после этого подтверждайте цель. Если ожидаемая функция не появилась, сверяйте именно завершённое исследование и его эффект, а не похожее название соседней ветки. Такой опыт делает следующие вложения осознанными и помогает планировать университетские улучшения."
+        "Первое исследование выбирайте по нуждам живой колонии: пусть оно откроет ожидающую профессию или улучшит понятную службу. Прочитайте цену и все условия, соберите материалы, не отбирая у работников последнюю еду и инструмент.",
+        "Запустите исследование и убедитесь, что оно появилось среди выполняемых. Дождитесь конца с назначенным исследователем и обслуживаемым зданием. Оплаченная кнопка эффекта не даёт — время исследования входит в процесс.",
+        "Откройте связанное здание или настройку и найдите обещанное изменение; только тогда ставьте отметку. Если ожидаемого нет, сверьте завершённое исследование с его эффектом, а не с похожим названием соседней ветки. Этот опыт делает следующие вложения осознанными."
       ],
       "text_en": [
-        "Choose your first research around the active colony’s needs. Find an available discovery unlocking a waiting profession or improving a clear service. Read its price and prerequisites, then prepare materials without taking workers’ last food or tools.",
-        "Start research at the university and verify that it appears among active projects. Await completion with an assigned researcher and maintained building. Paying through a button does not immediately provide the effect: research time is part of the process.",
-        "Open the associated institution or setting and locate the promised change. Confirm only afterward. If the expected function is absent, compare the completed research and its actual effect instead of a similarly named neighbouring branch. This trial makes later spending deliberate and helps plan university upgrades."
+        "Choose the first research by the needs of a living colony: let it unlock a waiting profession or improve a service you understand. Read the price and all conditions, gather the materials without taking the workers' last food and tool.",
+        "Start the research and make sure it appears among those in progress. Wait for the end with an assigned researcher and a serviced building. A paid button gives no effect; research time is part of the process.",
+        "Open the related building or setting and find the promised change; only then tick it. If the expected result is absent, check the finished research against its effect, not against a similar name in a neighbouring branch. This experience makes the next investments deliberate."
       ],
       "task_notes": {
         "0": {
@@ -725,14 +725,14 @@
     },
     "mc_military/guide_patrol_route": {
       "text": [
-        "Маршрут на интерфейсной карте полезен только тогда, когда защитник способен пройти его ногами. Выберите одного назначенного стражника и короткий патруль вокруг жилого участка. Заранее проверьте лестницы, ворота, мосты и края выемок при обычном состоянии механизмов.",
-        "Наблюдайте прохождение всех отмеченных точек. Если боец застревает у красивого фасада, выясните реальный проход вместо постоянного переназначения профессии. Осветите тёмные участки и оградите опасные перепады, сохраняя доступ гражданам и курьерам, которым тоже нужны эти дороги.",
-        "Подтвердите ручную цель после полного прохода без обхода через опасный участок. Испытание не требует вызывать противника: проверяется геометрия и доступность службы. После дальнейших строительных улучшений пересматривайте маршрут возле изменившихся входов, поскольку новая ступень здания способна занять старую дорожку или изменить высоту подхода."
+        "Маршрут на карте хорош лишь тогда, когда защитник может пройти его ногами. Возьмите одного стражника и короткий патруль вокруг жилого участка. Заранее проверьте лестницы, ворота, мосты и края выемок при обычном положении механизмов.",
+        "Проследите, как боец проходит все отмеченные точки. Если он застревает у нарядного фасада, ищите настоящий проход, а не переназначайте профессию. Осветите тёмные места и оградите опасные перепады, не отрезая дорогу жителям и курьерам.",
+        "Полный проход без обхода через опасный участок — и цель закрыта. Противника звать не нужно: проверяется геометрия и доступность службы. После перестроек пересматривайте маршрут у изменившихся входов: новый уровень здания может занять старую дорожку или изменить высоту подхода."
       ],
       "text_en": [
-        "A route on an interface map helps only when a defender can physically walk it. Choose an assigned guard and a short patrol around housing. Check stairs, gates, bridges and excavation edges with mechanisms in their normal state.",
-        "Observe passage through every marked point. If the fighter sticks beside an attractive facade, identify the actual entrance instead of repeatedly reassigning their profession. Light dark stretches and guard dangerous drops while retaining civilian and courier access to the same roads.",
-        "Confirm after a complete traversal without dangerous detours. No enemy must be summoned: the trial checks geometry and service accessibility. Revisit paths after building upgrades near changed entrances, since a new building level can occupy an old walkway or alter approach height."
+        "A route on the map is only as good as the defender's ability to walk it. Take one guard and a short patrol around the residential area. Check stairs, gates, bridges and pit edges in advance, with mechanisms in their usual position.",
+        "Watch the fighter pass every marked point. If they get stuck at a fancy façade, look for a real passage instead of reassigning the profession. Light dark spots and fence dangerous drops without cutting off citizens and couriers.",
+        "A full pass with no detour through a dangerous area, and the objective is closed. No need to summon an enemy: what is tested is geometry and access to duty. After rebuilding, revisit the route near changed entrances: a new building level can take over an old path or change the approach height."
       ],
       "task_notes": {
         "0": {
@@ -743,14 +743,14 @@
     },
     "mc_build/guide_palette_sample": {
       "text": [
-        "Сложный декоративный запрос лучше разбирать на одном образце. Откройте актуальные требования строителя и выберите изделие Domum Ornamentum, для которого у вас есть исходные материалы. Запишите форму, центральное заполнение и каркас, если он предусмотрен выбранным типом.",
-        "В резаке архитектора воспроизведите эти параметры и получите небольшой результат. Сравните подсказку предмета с запросом, затем передайте образец через поддерживаемое снабжение. Похожий фасадный цвет не заменяет точного совпадения материалов; разные варианты одного семейства могут отображаться под близкими названиями.",
-        "Подтвердите цель, когда строитель действительно примет образец и соответствующий остаток запроса уменьшится. Сохраните сведения о принятой палитре в мастерской, затем выпускайте партию. Это защищает от массового изготовления почти подходящих блоков, которые красиво выглядят в личной стене, но не позволяют продолжить автоматическую постройку выбранной схемы."
+        "Сложный декоративный запрос проще разобрать на одном образце. Откройте требования строителя и выберите изделие Domum Ornamentum, для которого есть материалы. Запишите форму, заполнение и каркас, если он предусмотрен.",
+        "Воспроизведите эти параметры в резаке архитектора и получите немного изделий. Сравните подсказку с запросом и передайте образец через снабжение. Похожий цвет фасада точного совпадения не заменяет: варианты одного семейства могут называться почти одинаково.",
+        "Цель закрыта, когда строитель принял образец и остаток запроса уменьшился. Запишите принятую палитру и выпускайте партию. Так вы не наделаете почти подходящих блоков, которые красиво лягут в личную стену, а стройку по схеме так и оставят стоять."
       ],
       "text_en": [
-        "Resolve complex decorative requests with one sample first. Open current builder requirements and select a Domum Ornamentum product whose ingredients you possess. Record shape, centre material and framing when that type includes it.",
-        "Reproduce these parameters in the architect’s cutter and make a small output. Compare its tooltip with the request, then deliver the sample through supported supply. Similar facade colour does not replace exact constituent matching; variants from one family may have closely related names.",
-        "Confirm when the builder accepts the sample and the request’s remaining amount decreases. Preserve the accepted palette details in your workshop before making the full batch. This prevents producing many nearly correct blocks that look attractive in a personal wall but cannot advance automatic construction of the selected blueprint."
+        "A complex decorative request is easier to work out on one sample. Open the builder's requirements and choose a Domum Ornamentum item for which you have materials. Note the shape, the infill and the frame if the type has one.",
+        "Reproduce these parameters in the architect's cutter and make a few pieces. Compare the tooltip with the request and hand the sample over through supply. A similar façade colour does not replace an exact match: variants of one family can be named almost alike.",
+        "The objective is closed when the builder accepts the sample and the remaining request shrinks. Note the accepted palette and produce the batch. That way you will not make a heap of almost-right blocks that look fine in your own wall while the blueprint's construction stays stalled."
       ],
       "task_notes": {
         "0": {
@@ -761,14 +761,14 @@
     },
     "mc_build/guide_upgrade_clearance": {
       "text": [
-        "Улучшение колониального здания может менять его габариты и подходы. До нового заказа выберите одну действующую хижину и осмотрите предпросмотр следующего уровня выбранного стиля. Не ориентируйтесь только на стены первого уровня: лестница или крыша могут выступить за прежний край.",
-        "Кронциркулем измерьте спорный промежуток до соседнего здания и отметьте будущую границу обычными временными блоками. Проверьте дорогу, входы, свет и доступ к складскому хранению. Если план конфликтует с инфраструктурой, сначала перенесите простую дорожку или выберите другой доступный вариант размещения.",
-        "Подтвердите пункт после осмотра и сохранения рабочих проходов, не запуская дорогое улучшение без припасов. Эта проверка полезна до каждой крупной перестройки квартала. Исправленный заранее подход избавляет от ситуации, когда завершённый красивый фасад перекрыл единственный путь курьера, а остановившуюся доставку ошибочно пытаются лечить дополнительным складом."
+        "Улучшение здания может изменить его габариты и подходы. До нового заказа выберите одну действующую хижину и осмотрите предпросмотр следующего уровня выбранного стиля. Стены первого уровня не показатель: лестница или крыша могут выйти за прежний край.",
+        "Кронциркулем измерьте спорный промежуток до соседа и отметьте будущую границу временными блоками. Проверьте дорогу, входы, свет и доступ к складу. Если план спорит с инфраструктурой, сначала перенесите простую дорожку или выберите другое размещение.",
+        "Осмотр закончен, проходы сохранены — можно ставить отметку, не запуская дорогое улучшение без припасов. Повторяйте проверку перед каждой крупной перестройкой квартала: заранее исправленный подход спасает от красивого фасада, который перекрыл единственный путь курьера."
       ],
       "text_en": [
-        "Upgrading a colony building may change its dimensions and approaches. Before issuing another order, select an operational hut and inspect the next-level preview in its chosen style. Do not judge only by first-level walls: stairs or roofs may extend beyond previous edges.",
-        "Measure uncertain gaps to neighbouring buildings with calipers and mark future boundaries using ordinary temporary blocks. Check roads, entrances, lighting and storage access. If the plan conflicts with infrastructure, first reroute a simple path or choose another available placement option.",
-        "Confirm after inspection and preservation of working passages without starting an expensive upgrade lacking supplies. This check helps before every major district reconstruction. Correcting approaches early prevents an attractive finished facade from blocking the courier’s only route and a delivery problem being mistakenly treated by adding another warehouse."
+        "Upgrading a building can change its footprint and approaches. Before a new order, pick one working hut and inspect the preview of the next level in the chosen style. The first level's walls are no guide: a staircase or roof may reach past the old edge.",
+        "Measure the disputed gap to the neighbour with the caliper and mark the future boundary with temporary blocks. Check the road, entrances, light and access to the warehouse. If the plan conflicts with infrastructure, move a simple path first or choose another placement.",
+        "Inspection done, passages preserved: tick it without launching an expensive upgrade unsupplied. Repeat the check before every major rebuild of a quarter: an approach fixed in advance saves you from a handsome façade that blocked the courier's only route."
       ],
       "task_notes": {
         "0": {
